@@ -13,8 +13,7 @@ import {
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-// This URL will be updated once the Cloudflare Worker is deployed
-const WORKER_URL = "https://bio-revision-pipeline.YOURSUBDOMAIN.workers.dev";
+const WORKER_URL = "https://bio-revision-pipeline.jamie-65f.workers.dev";
 
 type UploadState = "idle" | "uploading" | "processing" | "success" | "error";
 
