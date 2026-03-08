@@ -6,10 +6,11 @@ import { TopicBrowser } from "@/components/TopicBrowser";
 import { QuizMode } from "@/components/QuizMode";
 import { Dashboard } from "@/components/Dashboard";
 import { Button } from "@/components/ui/button";
-import { BookOpen, BarChart3, GraduationCap, Dna, FlaskConical } from "lucide-react";
+import { BookOpen, BarChart3, GraduationCap, Dna, FlaskConical, Atom } from "lucide-react";
 import { type Subject } from "@/data/subjects";
+import { PeriodicTable } from "@/components/PeriodicTable";
 
-type View = "topics" | "quiz" | "dashboard";
+type View = "topics" | "quiz" | "dashboard" | "periodic-table";
 
 export default function Home() {
   const [view, setView] = useState<View>("topics");
@@ -85,6 +86,17 @@ export default function Home() {
               <BarChart3 className="w-4 h-4" />
               <span className="hidden sm:inline">Dashboard</span>
             </Button>
+            {subject === "chemistry" && (
+              <Button
+                variant={view === "periodic-table" ? "default" : "ghost"}
+                size="sm"
+                onClick={() => setView("periodic-table")}
+                className="gap-1.5"
+              >
+                <Atom className="w-4 h-4" />
+                <span className="hidden sm:inline">Periodic Table</span>
+              </Button>
+            )}
           </nav>
         </div>
 
@@ -153,6 +165,20 @@ export default function Home() {
               transition={{ duration: 0.2 }}
             >
               <Dashboard onStartQuiz={startQuiz} subject={subject} />
+            </motion.div>
+          )}
+
+          {view === "periodic-table" && (
+            <motion.div
+              key="periodic-table"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              transition={{ duration: 0.2 }}
+            >
+              <div className="bg-white rounded-2xl shadow-sm border p-6">
+                <PeriodicTable />
+              </div>
             </motion.div>
           )}
         </AnimatePresence>
