@@ -1,6 +1,1839 @@
 {
-  "lastUpdated": null,
-  "newTopics": [],
+  "lastUpdated": "2026-03-08",
+  "newTopics": [
+    {
+      "id": "states-matter",
+      "name": "States of Matter & Separation",
+      "icon": "🌡️",
+      "color": "bg-cyan-500",
+      "subtopics": [
+        "States of Matter & Particle Theory",
+        "Changes of State",
+        "Diffusion",
+        "Solutions & Solubility",
+        "Separation Techniques"
+      ]
+    },
+    {
+      "id": "atomic-structure",
+      "name": "Atomic Structure & the Periodic Table",
+      "icon": "⚛️",
+      "color": "bg-violet-500",
+      "subtopics": [
+        "Atoms, Elements & Compounds",
+        "Atomic Structure & Isotopes",
+        "Electronic Configuration",
+        "The Periodic Table",
+        "Group 1, Group 7 & Group 0"
+      ]
+    },
+    {
+      "id": "bonding-structure",
+      "name": "Bonding & Structure",
+      "icon": "🔗",
+      "color": "bg-rose-500",
+      "subtopics": [
+        "Ionic Bonding",
+        "Covalent Bonding",
+        "Metallic Bonding",
+        "Properties of Structures",
+        "Nanoparticles & Allotropes of Carbon"
+      ]
+    },
+    {
+      "id": "formulae-equations",
+      "name": "Chemical Formulae & Equations",
+      "icon": "📐",
+      "color": "bg-lime-500",
+      "subtopics": [
+        "Writing Formulae",
+        "Balancing Equations",
+        "Moles & Relative Formula Mass",
+        "Concentration & Volume Calculations"
+      ]
+    },
+    {
+      "id": "metals-reactivity",
+      "name": "Metals, Reactivity & Extraction",
+      "icon": "🪨",
+      "color": "bg-yellow-500",
+      "subtopics": [
+        "The Reactivity Series",
+        "Displacement Reactions",
+        "Extraction of Metals",
+        "Oxidation & Reduction (Redox)",
+        "Tests for Ions & Gases"
+      ]
+    },
+    {
+      "id": "rates-energy",
+      "name": "Rates of Reaction & Energetics",
+      "icon": "⚡",
+      "color": "bg-sky-500",
+      "subtopics": [
+        "Rate of Reaction",
+        "Collision Theory",
+        "Catalysts & Surface Area",
+        "Exothermic & Endothermic Reactions",
+        "Equilibrium"
+      ]
+    },
+    {
+      "id": "organic-chemistry",
+      "name": "Organic Chemistry",
+      "icon": "🛢️",
+      "color": "bg-emerald-500",
+      "subtopics": [
+        "Crude Oil & Hydrocarbons",
+        "Alkanes & Combustion",
+        "Alkenes & Addition Reactions",
+        "Alcohols, Carboxylic Acids & Esters",
+        "Polymers & Plastics"
+      ]
+    }
+  ],
   "newSubtopics": {},
-  "flashcards": []
+  "flashcards": [
+    {
+      "id": "chem-056",
+      "topic": "states-matter",
+      "subtopic": "States of Matter & Particle Theory",
+      "question": "Describe the arrangement and movement of particles in a solid.",
+      "answer": "In a solid, particles are held closely together in a fixed, regular pattern (lattice). They vibrate about fixed positions but cannot move from place to place. This is why solids have a definite shape and volume.",
+      "keyPoints": ["Fixed regular pattern", "Vibrate about fixed positions", "Strong forces of attraction", "Definite shape and volume"],
+      "difficulty": 1
+    },
+    {
+      "id": "chem-057",
+      "topic": "states-matter",
+      "subtopic": "States of Matter & Particle Theory",
+      "question": "Describe the arrangement and movement of particles in a liquid.",
+      "answer": "In a liquid, particles are close together but arranged randomly. They can move around each other and slide past one another. This is why liquids flow and take the shape of their container, but have a fixed volume.",
+      "keyPoints": ["Close together but random arrangement", "Can move around each other", "Takes shape of container", "Fixed volume"],
+      "difficulty": 1
+    },
+    {
+      "id": "chem-058",
+      "topic": "states-matter",
+      "subtopic": "States of Matter & Particle Theory",
+      "question": "Describe the arrangement and movement of particles in a gas.",
+      "answer": "In a gas, particles are far apart and move randomly at high speeds in all directions. They collide with each other and the walls of their container. Gases have no fixed shape or volume and can be compressed.",
+      "keyPoints": ["Far apart, randomly arranged", "Move at high speed in all directions", "No fixed shape or volume", "Can be compressed"],
+      "difficulty": 1
+    },
+    {
+      "id": "chem-059",
+      "topic": "states-matter",
+      "subtopic": "States of Matter & Particle Theory",
+      "question": "What is kinetic theory?",
+      "answer": "Kinetic theory states that all matter is made up of tiny particles (atoms, molecules or ions) that are constantly moving. The energy of these particles increases with temperature. The theory explains the properties of solids, liquids and gases in terms of particle movement and forces between them.",
+      "keyPoints": ["All matter is made of particles", "Particles are constantly moving", "Energy increases with temperature", "Explains properties of the three states"],
+      "difficulty": 2,
+      "examTip": "Remember: temperature is a measure of the average kinetic energy of the particles."
+    },
+    {
+      "id": "chem-060",
+      "topic": "states-matter",
+      "subtopic": "States of Matter & Particle Theory",
+      "question": "Compare the relative energies and forces between particles in solids, liquids and gases.",
+      "answer": "Solids: lowest energy, strongest forces between particles. Liquids: moderate energy, weaker forces than solids but particles still attracted. Gases: highest energy, very weak forces (almost negligible). As you go from solid to liquid to gas, particles gain kinetic energy and overcome intermolecular forces.",
+      "keyPoints": ["Solid = lowest energy, strongest forces", "Liquid = moderate energy and forces", "Gas = highest energy, weakest forces", "Heating provides energy to overcome forces"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-061",
+      "topic": "states-matter",
+      "subtopic": "States of Matter & Particle Theory",
+      "question": "What is a limitation of the particle model?",
+      "answer": "The particle model shows particles as solid spheres, which is a simplification. In reality, atoms have internal structure (protons, neutrons, electrons). The model also does not show the forces between particles or that particles can be different sizes. It does not explain why some substances have higher melting points than others.",
+      "keyPoints": ["Shows particles as solid spheres (simplified)", "Does not show internal structure of atoms", "Does not show forces between particles", "Cannot explain differences in melting points"],
+      "difficulty": 3
+    },
+    {
+      "id": "chem-062",
+      "topic": "states-matter",
+      "subtopic": "Changes of State",
+      "question": "Name all the changes of state and the direction of each.",
+      "answer": "Melting: solid → liquid. Boiling/evaporation: liquid → gas. Condensation: gas → liquid. Freezing: liquid → solid. Sublimation: solid → gas (skipping liquid). Deposition: gas → solid (reverse of sublimation).",
+      "keyPoints": ["Melting and freezing are reverse processes", "Boiling/evaporation and condensation are reverse processes", "Sublimation skips the liquid state", "All are physical changes (reversible)"],
+      "difficulty": 1
+    },
+    {
+      "id": "chem-063",
+      "topic": "states-matter",
+      "subtopic": "Changes of State",
+      "question": "What is the difference between boiling and evaporation?",
+      "answer": "Boiling occurs throughout the liquid at a fixed temperature (the boiling point) and produces bubbles of gas within the liquid. Evaporation occurs only at the surface of a liquid, can happen at any temperature below the boiling point, and is a slower process.",
+      "keyPoints": ["Boiling: throughout liquid, at boiling point", "Evaporation: at the surface only", "Evaporation occurs at any temperature", "Boiling produces bubbles within the liquid"],
+      "difficulty": 2,
+      "examTip": "A common exam question asks you to explain the difference — make sure you mention BOTH surface vs throughout AND temperature."
+    },
+    {
+      "id": "chem-064",
+      "topic": "states-matter",
+      "subtopic": "Changes of State",
+      "question": "Why does temperature remain constant during a change of state?",
+      "answer": "During a change of state, the energy being supplied is used to break or form intermolecular forces (bonds between particles), NOT to increase the kinetic energy of the particles. Since temperature is a measure of average kinetic energy, it stays the same until all particles have changed state.",
+      "keyPoints": ["Energy used to break/form intermolecular forces", "Not used to increase kinetic energy", "Temperature = average kinetic energy", "Flat sections on a heating curve"],
+      "difficulty": 2,
+      "examTip": "On a heating/cooling curve, the FLAT sections show changes of state. Be ready to label and explain them."
+    },
+    {
+      "id": "chem-065",
+      "topic": "states-matter",
+      "subtopic": "Changes of State",
+      "question": "What is sublimation? Give an example.",
+      "answer": "Sublimation is the change of state from solid directly to gas, without passing through the liquid state. Examples include solid carbon dioxide (dry ice) turning into CO₂ gas, and iodine crystals forming purple iodine vapour when gently heated.",
+      "keyPoints": ["Solid directly to gas", "Skips the liquid state", "Example: dry ice (solid CO₂)", "Example: iodine crystals → purple vapour"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-066",
+      "topic": "states-matter",
+      "subtopic": "Changes of State",
+      "question": "How can you use melting point to test whether a substance is pure?",
+      "answer": "A pure substance has a sharp, fixed melting point. An impure substance (mixture) melts over a range of temperatures and has a lower melting point than the pure substance. If a substance melts at exactly the expected temperature with no range, it is pure.",
+      "keyPoints": ["Pure = sharp, fixed melting point", "Impure = melts over a range", "Impurities lower the melting point", "Impurities raise the boiling point"],
+      "difficulty": 2,
+      "examTip": "Remember: impurities LOWER the melting point but RAISE the boiling point. This is a common exam question."
+    },
+    {
+      "id": "chem-067",
+      "topic": "states-matter",
+      "subtopic": "Changes of State",
+      "question": "How do you interpret a heating curve?",
+      "answer": "A heating curve plots temperature (y-axis) against time (x-axis) as a substance is heated. Rising sections show temperature increasing (particles gaining kinetic energy). Flat sections show changes of state (energy breaking intermolecular forces). The first flat section is melting, the second is boiling.",
+      "keyPoints": ["Rising sections = temperature increase", "Flat sections = change of state", "First flat = melting point", "Second flat = boiling point"],
+      "difficulty": 3
+    },
+    {
+      "id": "chem-068",
+      "topic": "states-matter",
+      "subtopic": "Diffusion",
+      "question": "What is diffusion?",
+      "answer": "Diffusion is the spreading out of particles from an area of higher concentration to an area of lower concentration. It happens because particles move randomly. Diffusion can occur in liquids and gases but not in solids (because solid particles cannot move from place to place).",
+      "keyPoints": ["Spreading from high to low concentration", "Due to random particle movement", "Occurs in liquids and gases", "Does not occur in solids"],
+      "difficulty": 1
+    },
+    {
+      "id": "chem-069",
+      "topic": "states-matter",
+      "subtopic": "Diffusion",
+      "question": "Why is diffusion faster in gases than in liquids?",
+      "answer": "Gas particles move much faster than liquid particles because they have more kinetic energy and there are very weak forces between them. Gas particles are also much further apart, so there are fewer collisions to slow them down. This means gas particles spread out more quickly.",
+      "keyPoints": ["Gas particles move faster", "More kinetic energy in gases", "Fewer collisions in gases (particles further apart)", "Weaker intermolecular forces in gases"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-070",
+      "topic": "states-matter",
+      "subtopic": "Diffusion",
+      "question": "What factors affect the rate of diffusion?",
+      "answer": "Rate of diffusion is affected by: (1) Temperature — higher temperature means faster particles, so faster diffusion. (2) Mass of particles — lighter particles diffuse faster. (3) Concentration gradient — greater difference in concentration means faster diffusion. (4) State — diffusion is faster in gases than liquids.",
+      "keyPoints": ["Higher temperature = faster diffusion", "Lighter particles diffuse faster", "Greater concentration gradient = faster", "Faster in gases than liquids"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-071",
+      "topic": "states-matter",
+      "subtopic": "Diffusion",
+      "question": "Describe the HCl and NH₃ diffusion experiment and explain the result.",
+      "answer": "Cotton wool soaked in hydrochloric acid (HCl) is placed at one end of a glass tube, and cotton wool soaked in ammonia (NH₃) at the other. A white ring of ammonium chloride (NH₄Cl) forms closer to the HCl end. This is because NH₃ molecules are lighter (Mr = 17) than HCl molecules (Mr = 36.5), so ammonia diffuses faster.",
+      "keyPoints": ["White ring of NH₄Cl forms nearer the HCl end", "NH₃ is lighter (Mr = 17) so diffuses faster", "HCl is heavier (Mr = 36.5) so diffuses slower", "Proves lighter molecules diffuse faster"],
+      "difficulty": 3,
+      "examTip": "You MUST explain why the ring forms closer to one end — it's because the lighter gas (NH₃) travels further in the same time."
+    },
+    {
+      "id": "chem-072",
+      "topic": "states-matter",
+      "subtopic": "Diffusion",
+      "question": "What evidence shows that diffusion is taking place in a liquid?",
+      "answer": "If a crystal of potassium manganate(VII) is placed in water, the purple colour slowly spreads through the water without stirring. This shows particles are moving randomly from a high concentration area (near the crystal) to lower concentration areas, demonstrating diffusion in a liquid.",
+      "keyPoints": ["Purple colour spreads without stirring", "High concentration near the crystal", "Colour moves to areas of lower concentration", "Happens slowly because liquid particles move slower than gas"],
+      "difficulty": 1
+    },
+    {
+      "id": "chem-073",
+      "topic": "states-matter",
+      "subtopic": "Solutions & Solubility",
+      "question": "Define the terms solute, solvent, solution and saturated solution.",
+      "answer": "Solute: the substance that dissolves (e.g. salt). Solvent: the liquid that dissolves the solute (e.g. water). Solution: a mixture formed when a solute dissolves in a solvent. Saturated solution: a solution in which no more solute can dissolve at that temperature.",
+      "keyPoints": ["Solute = substance that dissolves", "Solvent = liquid that does the dissolving", "Solution = solute + solvent mixture", "Saturated = no more solute can dissolve"],
+      "difficulty": 1
+    },
+    {
+      "id": "chem-074",
+      "topic": "states-matter",
+      "subtopic": "Solutions & Solubility",
+      "question": "How does temperature generally affect the solubility of solids in water?",
+      "answer": "For most solid solutes, solubility increases as temperature increases. This is because higher temperatures give particles more kinetic energy, allowing more solute particles to break away and become surrounded by solvent particles. However, some substances (like calcium hydroxide) become less soluble at higher temperatures.",
+      "keyPoints": ["Most solids: more soluble at higher temperatures", "More kinetic energy helps dissolve solute", "Some exceptions exist (e.g. Ca(OH)₂)", "Gases become LESS soluble at higher temperatures"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-075",
+      "topic": "states-matter",
+      "subtopic": "Solutions & Solubility",
+      "question": "How do you read and interpret a solubility curve?",
+      "answer": "A solubility curve shows the maximum mass of solute (in grams) that dissolves in 100g of water at different temperatures. Points ON the line represent saturated solutions. Points BELOW the line are unsaturated. To find solubility at a given temperature, read across from the temperature axis to the curve, then down to the solubility axis.",
+      "keyPoints": ["Y-axis: grams of solute per 100g water", "X-axis: temperature", "On the line = saturated", "Below the line = unsaturated"],
+      "difficulty": 2,
+      "examTip": "If asked to calculate how many grams crystallise out when cooling, find the solubility at both temperatures and subtract."
+    },
+    {
+      "id": "chem-076",
+      "topic": "states-matter",
+      "subtopic": "Solutions & Solubility",
+      "question": "What are miscible and immiscible liquids?",
+      "answer": "Miscible liquids mix completely with each other to form a single layer (e.g. ethanol and water). Immiscible liquids do not mix and form separate layers (e.g. oil and water). Immiscible liquids can be separated using a separating funnel.",
+      "keyPoints": ["Miscible = mix completely (one layer)", "Immiscible = do not mix (separate layers)", "Example miscible: ethanol and water", "Example immiscible: oil and water"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-077",
+      "topic": "states-matter",
+      "subtopic": "Separation Techniques",
+      "question": "How does filtration work and when would you use it?",
+      "answer": "Filtration separates an insoluble solid from a liquid. The mixture is poured through filter paper in a funnel. The liquid passes through (filtrate) and the solid stays on the filter paper (residue). Use filtration when you need to separate a solid that does not dissolve, e.g. sand from water.",
+      "keyPoints": ["Separates insoluble solid from liquid", "Filter paper traps the solid (residue)", "Liquid passes through (filtrate)", "Example: sand from water"],
+      "difficulty": 1
+    },
+    {
+      "id": "chem-078",
+      "topic": "states-matter",
+      "subtopic": "Separation Techniques",
+      "question": "How do you separate a dissolved solid from a solution using crystallisation?",
+      "answer": "Heat the solution gently to evaporate some of the solvent (water). When crystals start to form at the edges, stop heating. Leave the solution to cool slowly — crystals will form as the solution becomes saturated. Filter to collect the crystals and pat dry with filter paper.",
+      "keyPoints": ["Heat gently to evaporate some water", "Stop when crystals form at edges", "Cool slowly for larger crystals", "Filter and dry the crystals"],
+      "difficulty": 1,
+      "examTip": "Don't boil it dry — you'll get a powder, not crystals. Stop heating when crystals appear at the edge."
+    },
+    {
+      "id": "chem-079",
+      "topic": "states-matter",
+      "subtopic": "Separation Techniques",
+      "question": "Explain the difference between simple distillation and fractional distillation.",
+      "answer": "Simple distillation separates a solvent from a solution (e.g. pure water from salt water). The solution is heated, the solvent evaporates, cools in the condenser and is collected. Fractional distillation separates a mixture of two or more miscible liquids with different boiling points, using a fractionating column that allows better separation.",
+      "keyPoints": ["Simple: separates solvent from a solution", "Fractional: separates miscible liquids", "Fractional uses a fractionating column", "Both rely on different boiling points"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-080",
+      "topic": "states-matter",
+      "subtopic": "Separation Techniques",
+      "question": "How does paper chromatography work?",
+      "answer": "A pencil line is drawn near the bottom of chromatography paper. Spots of the substances are placed on the line. The paper is placed in a solvent (water or ethanol) which rises up the paper by capillary action. Different substances travel different distances depending on their solubility in the solvent and attraction to the paper, separating the mixture.",
+      "keyPoints": ["Pencil baseline (not pen — ink would dissolve)", "Solvent rises up by capillary action", "Substances separate based on solubility", "More soluble substances travel further"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-081",
+      "topic": "states-matter",
+      "subtopic": "Separation Techniques",
+      "question": "What is an Rf value and how do you calculate it?",
+      "answer": "Rf (retention factor) is the ratio of the distance moved by the substance to the distance moved by the solvent front. Rf = distance moved by substance ÷ distance moved by solvent. Each substance has a unique Rf value under the same conditions, so Rf values can be used to identify unknown substances.",
+      "keyPoints": ["Rf = distance by substance ÷ distance by solvent", "Always a value between 0 and 1", "Unique to each substance (same conditions)", "Used to identify unknown substances"],
+      "difficulty": 3,
+      "examTip": "Always measure from the BASELINE (pencil line) to the centre of the spot, and from the baseline to the solvent front."
+    },
+    {
+      "id": "chem-082",
+      "topic": "states-matter",
+      "subtopic": "Separation Techniques",
+      "question": "How would you separate a mixture of oil and water?",
+      "answer": "Use a separating funnel. Pour the mixture into the funnel and allow the layers to settle. Oil floats on top (less dense) and water sinks to the bottom. Open the tap to drain the water (bottom layer) into a beaker, then close the tap when the oil layer reaches it. Collect the oil separately.",
+      "keyPoints": ["Use a separating funnel", "Immiscible liquids form layers", "Denser liquid (water) drains first", "Open tap to separate layers"],
+      "difficulty": 1
+    },
+    {
+      "id": "chem-083",
+      "topic": "states-matter",
+      "subtopic": "Separation Techniques",
+      "question": "How do you choose the correct separation technique for a mixture?",
+      "answer": "Insoluble solid + liquid → filtration. Dissolved solid from solution → evaporation/crystallisation. Solvent from solution → simple distillation. Two miscible liquids → fractional distillation. Two immiscible liquids → separating funnel. Coloured mixtures/dyes → chromatography.",
+      "keyPoints": ["Insoluble solid → filtration", "Dissolved solid → crystallisation", "Miscible liquids → fractional distillation", "Colours/dyes → chromatography"],
+      "difficulty": 3,
+      "examTip": "Exam questions often give you a scenario and ask which method to use. Think about what TYPE of mixture it is first."
+    },
+    {
+      "id": "chem-084",
+      "topic": "states-matter",
+      "subtopic": "Separation Techniques",
+      "question": "Why must you use a pencil (not a pen) to draw the baseline in chromatography?",
+      "answer": "Pencil is insoluble in the solvent, so it will not dissolve and move up the paper with the solvent. Pen ink would dissolve in the solvent and travel up the paper, interfering with the results by mixing with the substances being tested.",
+      "keyPoints": ["Pencil is insoluble in the solvent", "Pen ink would dissolve and run", "Would interfere with results", "Pencil line stays on the baseline"],
+      "difficulty": 1
+    },
+    {
+      "id": "chem-085",
+      "topic": "states-matter",
+      "subtopic": "Separation Techniques",
+      "question": "Describe how you would obtain pure water from sea water.",
+      "answer": "Use simple distillation. Heat the sea water in a flask — the water evaporates at 100°C leaving the salt behind. The water vapour passes into a condenser where it cools and condenses back into liquid water. Collect the pure distilled water in a separate container.",
+      "keyPoints": ["Use simple distillation", "Water evaporates, salt stays behind", "Vapour condenses in the condenser", "Collect pure water (distillate)"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-086",
+      "topic": "atomic-structure",
+      "subtopic": "Atoms, Elements & Compounds",
+      "question": "What is the difference between an atom, an element, a compound and a mixture?",
+      "answer": "Atom: the smallest particle of an element that can take part in a chemical reaction. Element: a substance made of only one type of atom. Compound: a substance made of two or more different elements chemically bonded together. Mixture: two or more substances not chemically bonded, which can be separated by physical methods.",
+      "keyPoints": ["Atom = smallest particle of an element", "Element = one type of atom only", "Compound = different elements chemically bonded", "Mixture = not chemically bonded, physically separable"],
+      "difficulty": 1
+    },
+    {
+      "id": "chem-087",
+      "topic": "atomic-structure",
+      "subtopic": "Atoms, Elements & Compounds",
+      "question": "What is the difference between a mixture and a compound?",
+      "answer": "A mixture can be separated by physical methods (filtration, distillation), the components keep their own properties, and it has no fixed composition. A compound can only be separated by chemical reactions, has completely different properties from its elements, and has a fixed ratio of atoms (formula).",
+      "keyPoints": ["Mixture: physical separation, compound: chemical only", "Mixture: components keep their properties", "Compound: different properties from its elements", "Compound has a fixed formula/ratio"],
+      "difficulty": 1,
+      "examTip": "If asked for examples: air is a mixture, water (H₂O) is a compound."
+    },
+    {
+      "id": "chem-088",
+      "topic": "atomic-structure",
+      "subtopic": "Atoms, Elements & Compounds",
+      "question": "What does a chemical formula tell you?",
+      "answer": "A chemical formula shows which elements are present in a substance and how many atoms of each element there are. For example, H₂O tells you there are 2 hydrogen atoms and 1 oxygen atom. CO₂ means 1 carbon atom and 2 oxygen atoms. The subscript numbers show the ratio of atoms.",
+      "keyPoints": ["Shows which elements are present", "Shows the number of atoms of each element", "Subscript numbers = number of atoms", "Example: H₂O = 2 hydrogen, 1 oxygen"],
+      "difficulty": 1
+    },
+    {
+      "id": "chem-089",
+      "topic": "atomic-structure",
+      "subtopic": "Atoms, Elements & Compounds",
+      "question": "What is the law of conservation of mass?",
+      "answer": "The law of conservation of mass states that no atoms are created or destroyed during a chemical reaction. The total mass of the reactants equals the total mass of the products. This is why chemical equations must be balanced — the same number of each type of atom must appear on both sides.",
+      "keyPoints": ["No atoms created or destroyed", "Total mass of reactants = total mass of products", "Why equations must be balanced", "Atoms are rearranged, not lost"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-090",
+      "topic": "atomic-structure",
+      "subtopic": "Atoms, Elements & Compounds",
+      "question": "How can you tell if a substance is pure using melting and boiling points?",
+      "answer": "A pure substance has a sharp, fixed melting point and boiling point. An impure substance melts and boils over a range of temperatures. Impurities lower the melting point and raise the boiling point compared to the pure substance. You can check measured values against data book values.",
+      "keyPoints": ["Pure: sharp, fixed melting/boiling points", "Impure: melts/boils over a range", "Impurities lower melting point", "Impurities raise boiling point"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-091",
+      "topic": "atomic-structure",
+      "subtopic": "Atomic Structure & Isotopes",
+      "question": "What are the three subatomic particles and their properties?",
+      "answer": "Proton: found in the nucleus, relative mass of 1, relative charge of +1. Neutron: found in the nucleus, relative mass of 1, relative charge of 0 (neutral). Electron: found in shells (energy levels) orbiting the nucleus, negligible mass (1/1836), relative charge of -1.",
+      "keyPoints": ["Proton: mass 1, charge +1, in nucleus", "Neutron: mass 1, charge 0, in nucleus", "Electron: negligible mass, charge -1, in shells", "Atoms are neutral: protons = electrons"],
+      "difficulty": 1
+    },
+    {
+      "id": "chem-092",
+      "topic": "atomic-structure",
+      "subtopic": "Atomic Structure & Isotopes",
+      "question": "What do the atomic number and mass number tell you?",
+      "answer": "The atomic number (bottom number) is the number of protons in the nucleus. It defines which element an atom is. The mass number (top number) is the total number of protons + neutrons. Number of neutrons = mass number − atomic number.",
+      "keyPoints": ["Atomic number = number of protons", "Mass number = protons + neutrons", "Neutrons = mass number − atomic number", "Atomic number defines the element"],
+      "difficulty": 1,
+      "examTip": "In a neutral atom, the number of electrons EQUALS the number of protons. If it's an ion, the numbers differ."
+    },
+    {
+      "id": "chem-093",
+      "topic": "atomic-structure",
+      "subtopic": "Atomic Structure & Isotopes",
+      "question": "What are isotopes?",
+      "answer": "Isotopes are atoms of the same element that have the same number of protons but different numbers of neutrons. This means they have the same atomic number but different mass numbers. Isotopes have the same chemical properties (same electron configuration) but different physical properties (e.g. density).",
+      "keyPoints": ["Same element, same number of protons", "Different number of neutrons", "Same atomic number, different mass number", "Same chemical properties, different physical properties"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-094",
+      "topic": "atomic-structure",
+      "subtopic": "Atomic Structure & Isotopes",
+      "question": "How do you calculate the relative atomic mass (Ar) from isotope data?",
+      "answer": "Relative atomic mass (Ar) is the weighted average mass of all isotopes of an element, taking into account their relative abundances. Calculate using: Ar = Σ(isotope mass × percentage abundance) ÷ 100. For example, if chlorine is 75% Cl-35 and 25% Cl-37: Ar = (35 × 75 + 37 × 25) ÷ 100 = 35.5.",
+      "keyPoints": ["Ar = weighted average of isotope masses", "Formula: Σ(mass × abundance) ÷ 100", "Takes into account natural abundance", "Example: Cl = 35.5 (not a whole number)"],
+      "difficulty": 3,
+      "examTip": "Show your working clearly. Always divide by 100 if abundances are given as percentages."
+    },
+    {
+      "id": "chem-095",
+      "topic": "atomic-structure",
+      "subtopic": "Atomic Structure & Isotopes",
+      "question": "Describe the historical development of the atomic model.",
+      "answer": "Dalton (1803): solid indivisible spheres. Thomson (1897): plum pudding model — discovered electrons embedded in positive 'pudding'. Rutherford (1911): nuclear model — alpha scattering showed small positive nucleus with electrons orbiting. Bohr (1913): electrons in fixed energy levels (shells). Chadwick (1932): discovered the neutron.",
+      "keyPoints": ["Dalton: solid spheres", "Thomson: plum pudding (discovered electrons)", "Rutherford: nuclear model (alpha scattering)", "Bohr: electron shells; Chadwick: neutrons"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-096",
+      "topic": "atomic-structure",
+      "subtopic": "Atomic Structure & Isotopes",
+      "question": "Describe Rutherford's alpha scattering experiment and what it showed.",
+      "answer": "Rutherford fired positively charged alpha particles at thin gold foil. Most passed straight through (atom is mostly empty space). Some were deflected (positive nucleus repelling positive alpha particles). A very few bounced back (hit the dense nucleus directly). This proved the atom has a small, dense, positively charged nucleus.",
+      "keyPoints": ["Most alpha particles passed through (empty space)", "Some deflected (positive nucleus)", "Very few bounced back (hit nucleus)", "Proved: small, dense, positive nucleus"],
+      "difficulty": 2,
+      "examTip": "Be ready to explain what EACH observation tells you about atomic structure."
+    },
+    {
+      "id": "chem-097",
+      "topic": "atomic-structure",
+      "subtopic": "Electronic Configuration",
+      "question": "What is the rule for filling electron shells?",
+      "answer": "Electrons fill the lowest energy level (innermost shell) first. The first shell holds a maximum of 2 electrons. The second shell holds a maximum of 8 electrons. The third shell holds a maximum of 8 electrons (for IGCSE level). Electrons always fill one shell before moving to the next.",
+      "keyPoints": ["Fill lowest energy level first", "1st shell: max 2 electrons", "2nd shell: max 8 electrons", "3rd shell: max 8 electrons (at IGCSE)"],
+      "difficulty": 1
+    },
+    {
+      "id": "chem-098",
+      "topic": "atomic-structure",
+      "subtopic": "Electronic Configuration",
+      "question": "Write the electronic configuration of sodium (Na, atomic number 11).",
+      "answer": "Sodium has 11 electrons (same as protons since it's neutral). Electronic configuration: 2, 8, 1. First shell: 2 electrons, second shell: 8 electrons, third shell: 1 electron. This can also be drawn as a diagram showing 3 concentric circles around the nucleus.",
+      "keyPoints": ["11 electrons total (2, 8, 1)", "Fill shells from inside out", "First shell full at 2, second at 8", "1 electron in outer shell → Group 1"],
+      "difficulty": 1
+    },
+    {
+      "id": "chem-099",
+      "topic": "atomic-structure",
+      "subtopic": "Electronic Configuration",
+      "question": "How does electronic configuration relate to position in the periodic table?",
+      "answer": "The number of electron shells tells you the period (row). The number of electrons in the outer shell tells you the group (column). For example, sodium (2,8,1) is in Period 3 (3 shells) and Group 1 (1 outer electron). This pattern works for the main group elements.",
+      "keyPoints": ["Number of shells = period number", "Outer electrons = group number", "Example: 2,8,1 → Period 3, Group 1", "Works for main group elements"],
+      "difficulty": 2,
+      "examTip": "If given an electronic configuration, you can immediately identify the element's group and period."
+    },
+    {
+      "id": "chem-100",
+      "topic": "atomic-structure",
+      "subtopic": "Electronic Configuration",
+      "question": "Why are noble gases unreactive?",
+      "answer": "Noble gases (Group 0) have full outer electron shells (2 for helium, 8 for neon/argon). This is a very stable arrangement. They do not need to gain, lose or share electrons to become stable, so they do not form bonds easily and are therefore very unreactive.",
+      "keyPoints": ["Full outer electron shells", "Very stable electron arrangement", "No need to gain, lose or share electrons", "Helium: 2 electrons; Neon/Argon: 8 outer electrons"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-101",
+      "topic": "atomic-structure",
+      "subtopic": "Electronic Configuration",
+      "question": "Draw the electron shell diagram for chlorine (Cl, atomic number 17).",
+      "answer": "Chlorine has 17 electrons arranged as 2, 8, 7. Draw a nucleus labelled '17p, 18n' (or just 'Cl'). Draw 3 concentric circles. First shell: 2 electrons (shown as dots or crosses). Second shell: 8 electrons. Third shell: 7 electrons. Chlorine needs 1 more electron to achieve a full outer shell.",
+      "keyPoints": ["17 electrons: 2, 8, 7", "3 shells drawn as concentric circles", "Needs 1 electron to fill outer shell", "This is why Cl forms Cl⁻ ion (gains 1 electron)"],
+      "difficulty": 1
+    },
+    {
+      "id": "chem-102",
+      "topic": "atomic-structure",
+      "subtopic": "The Periodic Table",
+      "question": "What are groups and periods in the periodic table?",
+      "answer": "Groups are the vertical columns. Elements in the same group have the same number of outer shell electrons, giving them similar chemical properties. Periods are the horizontal rows. Elements in the same period have the same number of electron shells. There are 8 main groups and 7 periods.",
+      "keyPoints": ["Groups = vertical columns (similar properties)", "Same group = same number of outer electrons", "Periods = horizontal rows", "Same period = same number of electron shells"],
+      "difficulty": 1
+    },
+    {
+      "id": "chem-103",
+      "topic": "atomic-structure",
+      "subtopic": "The Periodic Table",
+      "question": "Where are metals and non-metals found on the periodic table?",
+      "answer": "Metals are found on the left and centre of the periodic table (about 80% of elements). Non-metals are found on the right side. A stepped line (from boron to astatine) roughly separates metals from non-metals. Elements near this line (e.g. silicon, germanium) are called metalloids and have properties of both.",
+      "keyPoints": ["Metals: left and centre", "Non-metals: right side", "Stepped line separates them", "Metalloids: near the boundary line"],
+      "difficulty": 1
+    },
+    {
+      "id": "chem-104",
+      "topic": "atomic-structure",
+      "subtopic": "The Periodic Table",
+      "question": "How did Mendeleev organise the periodic table?",
+      "answer": "Mendeleev arranged elements in order of increasing atomic mass, but he also grouped elements with similar properties in the same columns. He left gaps for undiscovered elements and predicted their properties. When these elements were later found (e.g. germanium), their properties matched his predictions, proving his table was correct.",
+      "keyPoints": ["Arranged by atomic mass (not atomic number)", "Grouped similar properties together", "Left gaps for undiscovered elements", "Predicted properties of missing elements"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-105",
+      "topic": "atomic-structure",
+      "subtopic": "The Periodic Table",
+      "question": "What are the key properties of transition metals?",
+      "answer": "Transition metals (found in the central block) are hard, strong, dense metals with high melting points. They are good conductors of heat and electricity. Unlike Group 1 metals, they are much less reactive. They can form coloured compounds, have variable oxidation states, and can act as catalysts.",
+      "keyPoints": ["Hard, dense, high melting points", "Good conductors", "Less reactive than Group 1", "Form coloured compounds, variable oxidation states, catalysts"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-106",
+      "topic": "atomic-structure",
+      "subtopic": "The Periodic Table",
+      "question": "Describe the trends across Period 3 (Na to Ar).",
+      "answer": "Across Period 3 from left to right: elements change from metals to non-metals. Metallic character decreases. Reactivity decreases for metals (Na is most reactive) then increases for non-metals (Cl is most reactive non-metal). Oxides change from basic (Na₂O) to amphoteric (Al₂O₃) to acidic (SO₃, P₄O₁₀).",
+      "keyPoints": ["Metal to non-metal across the period", "Metallic character decreases", "Oxides go from basic to amphoteric to acidic", "Same number of electron shells (3)"],
+      "difficulty": 3
+    },
+    {
+      "id": "chem-107",
+      "topic": "atomic-structure",
+      "subtopic": "Group 1, Group 7 & Group 0",
+      "question": "Describe the properties and trends of Group 1 (alkali metals).",
+      "answer": "Group 1 metals (Li, Na, K, Rb, Cs) are soft, shiny when cut, low density (Li, Na, K float on water), and low melting points for metals. Going down the group: reactivity INCREASES, melting point DECREASES, density INCREASES. They all have 1 outer electron which they lose easily to form +1 ions.",
+      "keyPoints": ["Soft, low density, low melting points", "Reactivity increases down the group", "Melting point decreases down the group", "All have 1 outer electron → form M⁺ ions"],
+      "difficulty": 1
+    },
+    {
+      "id": "chem-108",
+      "topic": "atomic-structure",
+      "subtopic": "Group 1, Group 7 & Group 0",
+      "question": "Why does reactivity increase down Group 1?",
+      "answer": "Going down Group 1, the outer electron is further from the nucleus (more shells) and is more shielded by inner electrons. This means the outer electron is less strongly attracted to the nucleus, so it is lost more easily. Since Group 1 metals react by losing their outer electron, they become more reactive down the group.",
+      "keyPoints": ["More electron shells = greater distance from nucleus", "More shielding from inner electrons", "Outer electron lost more easily", "Easier electron loss = more reactive"],
+      "difficulty": 2,
+      "examTip": "Always mention BOTH distance from nucleus AND shielding when explaining reactivity trends."
+    },
+    {
+      "id": "chem-109",
+      "topic": "atomic-structure",
+      "subtopic": "Group 1, Group 7 & Group 0",
+      "question": "Describe the reactions of Group 1 metals with water.",
+      "answer": "All Group 1 metals react with water to produce a metal hydroxide (alkaline solution) and hydrogen gas. Lithium fizzes gently. Sodium melts into a ball and fizzes vigorously. Potassium fizzes violently and the hydrogen ignites with a lilac flame. The equation: 2Na + 2H₂O → 2NaOH + H₂",
+      "keyPoints": ["Metal + water → metal hydroxide + hydrogen", "Li: gentle fizzing", "Na: vigorous fizzing, melts into a ball", "K: violent, hydrogen ignites with lilac flame"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-110",
+      "topic": "atomic-structure",
+      "subtopic": "Group 1, Group 7 & Group 0",
+      "question": "Describe the properties and trends of Group 7 (halogens).",
+      "answer": "Group 7 elements (F, Cl, Br, I) are non-metals that exist as diatomic molecules (F₂, Cl₂, etc.). Going down the group: reactivity DECREASES, melting/boiling point INCREASES, colour gets darker (pale yellow → yellow-green → red-brown → dark grey/purple vapour). They all have 7 outer electrons and gain 1 electron to form -1 ions.",
+      "keyPoints": ["Diatomic molecules (F₂, Cl₂, Br₂, I₂)", "Reactivity decreases down the group", "Melting/boiling points increase down the group", "All gain 1 electron → form X⁻ ions"],
+      "difficulty": 1
+    },
+    {
+      "id": "chem-111",
+      "topic": "atomic-structure",
+      "subtopic": "Group 1, Group 7 & Group 0",
+      "question": "Why does reactivity decrease down Group 7?",
+      "answer": "Going down Group 7, the outer shell is further from the nucleus with more shielding. This means the nucleus has a weaker attraction for an incoming electron. Since halogens react by GAINING an electron, it becomes harder to attract one as you go down the group, so reactivity decreases.",
+      "keyPoints": ["More shells = further from nucleus", "More shielding reduces nuclear attraction", "Harder to attract an incoming electron", "Gaining electrons becomes harder → less reactive"],
+      "difficulty": 2,
+      "examTip": "Group 1 and Group 7 have OPPOSITE reactivity trends — make sure you can explain both using the same logic (distance and shielding)."
+    },
+    {
+      "id": "chem-112",
+      "topic": "atomic-structure",
+      "subtopic": "Group 1, Group 7 & Group 0",
+      "question": "What are halogen displacement reactions?",
+      "answer": "A more reactive halogen can displace a less reactive halogen from a solution of its salt. For example, chlorine displaces bromine from potassium bromide: Cl₂ + 2KBr → 2KCl + Br₂ (solution turns orange-brown). Chlorine displaces both bromine and iodine. Bromine displaces iodine only. Iodine cannot displace any.",
+      "keyPoints": ["More reactive halogen displaces less reactive", "Cl₂ displaces Br₂ and I₂", "Br₂ displaces I₂ only", "I₂ cannot displace any halogen"],
+      "difficulty": 3
+    },
+    {
+      "id": "chem-113",
+      "topic": "atomic-structure",
+      "subtopic": "Group 1, Group 7 & Group 0",
+      "question": "What are the properties of Group 0 (noble gases)?",
+      "answer": "Noble gases (He, Ne, Ar, Kr, Xe) are colourless, odourless gases that are very unreactive because they have full outer electron shells. Going down the group: boiling point increases (due to stronger intermolecular forces between larger atoms). They are used in lighting (neon signs), welding (argon shield gas), and helium for balloons.",
+      "keyPoints": ["Full outer shells = very unreactive", "Colourless, odourless gases", "Boiling point increases down the group", "Uses: lighting, welding shield gas, balloons"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-114",
+      "topic": "bonding-structure",
+      "subtopic": "Ionic Bonding",
+      "question": "What is ionic bonding?",
+      "answer": "Ionic bonding is the electrostatic attraction between oppositely charged ions. It occurs when metals transfer electrons to non-metals. The metal loses electrons to form a positive ion (cation) and the non-metal gains electrons to form a negative ion (anion).",
+      "keyPoints": ["Electrostatic attraction between opposite ions", "Metal transfers electrons to non-metal", "Metal forms positive ion (cation)", "Non-metal forms negative ion (anion)"],
+      "difficulty": 1
+    },
+    {
+      "id": "chem-115",
+      "topic": "bonding-structure",
+      "subtopic": "Ionic Bonding",
+      "question": "Describe the ionic bonding in sodium chloride (NaCl).",
+      "answer": "Sodium (2,8,1) loses its 1 outer electron to form Na+ (2,8). Chlorine (2,8,7) gains this electron to form Cl- (2,8,8). Both ions now have full outer shells (stable noble gas configurations). The Na+ and Cl- ions are held together by strong electrostatic attraction.",
+      "keyPoints": ["Na loses 1 electron to form Na+", "Cl gains 1 electron to form Cl-", "Both achieve full outer shells", "Strong electrostatic attraction holds ions together"],
+      "difficulty": 2,
+      "examTip": "In a dot-and-cross diagram, show the electron transfer with an arrow and put square brackets with the charge around each ion."
+    },
+    {
+      "id": "chem-116",
+      "topic": "bonding-structure",
+      "subtopic": "Ionic Bonding",
+      "question": "Describe the ionic bonding in magnesium oxide (MgO).",
+      "answer": "Magnesium (2,8,2) loses 2 outer electrons to form Mg2+ (2,8). Oxygen (2,6) gains these 2 electrons to form O2- (2,8). Both ions have full outer shells. MgO has a higher melting point than NaCl because the ionic charges are greater (2+ and 2-), so the electrostatic attraction is stronger.",
+      "keyPoints": ["Mg loses 2 electrons to form Mg2+", "O gains 2 electrons to form O2-", "Greater charges = stronger attraction", "Higher melting point than NaCl"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-117",
+      "topic": "bonding-structure",
+      "subtopic": "Ionic Bonding",
+      "question": "What are the charges on common ions?",
+      "answer": "Group 1 metals form +1 ions (Na+, K+, Li+). Group 2 metals form +2 ions (Mg2+, Ca2+). Group 3 metals form +3 ions (Al3+). Group 6 non-metals form -2 ions (O2-, S2-). Group 7 non-metals form -1 ions (Cl-, Br-, I-). Transition metals can have variable charges (Fe2+/Fe3+, Cu+/Cu2+).",
+      "keyPoints": ["Group number = charge for metals (Groups 1-3)", "Non-metal charge = 8 minus group number", "Transition metals have variable charges", "Ion charge = electrons lost or gained"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-118",
+      "topic": "bonding-structure",
+      "subtopic": "Ionic Bonding",
+      "question": "What is a giant ionic lattice?",
+      "answer": "A giant ionic lattice is a regular 3D arrangement of positive and negative ions held together by strong electrostatic forces in all directions. Each positive ion is surrounded by negative ions and vice versa. Examples include NaCl and MgO. The structure repeats in all directions and contains billions of ions.",
+      "keyPoints": ["Regular 3D arrangement of ions", "Strong electrostatic forces in all directions", "Each ion surrounded by oppositely charged ions", "Examples: NaCl, MgO"],
+      "difficulty": 3
+    },
+    {
+      "id": "chem-119",
+      "topic": "bonding-structure",
+      "subtopic": "Ionic Bonding",
+      "question": "How do you draw a dot-and-cross diagram for an ionic compound?",
+      "answer": "Show the outer shell electrons of each atom before and after electron transfer. Use dots for one atom's electrons and crosses for the other. Draw an arrow to show the direction of electron transfer. Put square brackets around each ion and write the charge outside. Both ions should have full outer shells.",
+      "keyPoints": ["Dots for one atom, crosses for the other", "Arrow shows electron transfer direction", "Square brackets around each ion with charge", "Both ions must have full outer shells"],
+      "difficulty": 2,
+      "examTip": "You only need to show the OUTER SHELL electrons in IGCSE dot-and-cross diagrams."
+    },
+    {
+      "id": "chem-120",
+      "topic": "bonding-structure",
+      "subtopic": "Covalent Bonding",
+      "question": "What is covalent bonding?",
+      "answer": "Covalent bonding is the sharing of one or more pairs of electrons between two non-metal atoms. Each shared pair of electrons is one covalent bond. The shared electrons are attracted to the nuclei of both atoms, which holds the atoms together.",
+      "keyPoints": ["Sharing pairs of electrons", "Between non-metal atoms", "Shared pair = one covalent bond", "Shared electrons attracted to both nuclei"],
+      "difficulty": 1
+    },
+    {
+      "id": "chem-121",
+      "topic": "bonding-structure",
+      "subtopic": "Covalent Bonding",
+      "question": "Draw the dot-and-cross diagram for water (H2O).",
+      "answer": "Oxygen has 6 outer electrons and needs 2 more for a full shell. Each hydrogen has 1 electron and needs 1 more. Oxygen shares one pair of electrons with each hydrogen atom, forming two single covalent bonds. Oxygen has 2 bonding pairs and 2 lone pairs.",
+      "keyPoints": ["O shares 1 pair with each H (2 bonds)", "Each H has a full shell (2 electrons)", "O has a full shell (8 electrons)", "2 bonding pairs + 2 lone pairs on O"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-122",
+      "topic": "bonding-structure",
+      "subtopic": "Covalent Bonding",
+      "question": "What is the difference between a single and a double covalent bond?",
+      "answer": "A single covalent bond involves sharing ONE pair of electrons between two atoms (e.g. H-H, H-Cl). A double covalent bond involves sharing TWO pairs of electrons (e.g. O=O in oxygen, C=O in carbon dioxide). Double bonds are stronger and shorter than single bonds.",
+      "keyPoints": ["Single bond: 1 shared pair of electrons", "Double bond: 2 shared pairs of electrons", "Double bonds are stronger", "Double bonds are shorter than single bonds"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-123",
+      "topic": "bonding-structure",
+      "subtopic": "Covalent Bonding",
+      "question": "What is a simple molecular structure and why do they have low melting points?",
+      "answer": "A simple molecular structure consists of small molecules made of a few atoms joined by strong covalent bonds. Examples: H2O, CO2, CH4. They have low melting/boiling points because the intermolecular forces (forces BETWEEN molecules) are weak and need little energy to overcome. The covalent bonds within molecules are NOT broken.",
+      "keyPoints": ["Small molecules with strong covalent bonds within", "Weak intermolecular forces between molecules", "Low melting/boiling points", "Covalent bonds NOT broken when melting"],
+      "difficulty": 2,
+      "examTip": "NEVER say 'the bonds are weak'. The COVALENT bonds are strong. It is the INTERMOLECULAR FORCES that are weak."
+    },
+    {
+      "id": "chem-124",
+      "topic": "bonding-structure",
+      "subtopic": "Covalent Bonding",
+      "question": "What are giant covalent structures? Give examples.",
+      "answer": "Giant covalent structures are huge networks of atoms all joined by strong covalent bonds in a regular pattern extending in all directions. Examples: diamond (each C bonded to 4 others), graphite (layers of C in hexagonal rings), silicon dioxide (SiO2). They have very high melting points because many strong covalent bonds must be broken.",
+      "keyPoints": ["Huge network of atoms with covalent bonds", "Very high melting points", "Examples: diamond, graphite, SiO2", "Many strong bonds must be broken to melt"],
+      "difficulty": 3
+    },
+    {
+      "id": "chem-125",
+      "topic": "bonding-structure",
+      "subtopic": "Covalent Bonding",
+      "question": "Draw the dot-and-cross diagrams for methane (CH4) and ammonia (NH3).",
+      "answer": "Methane: Carbon (4 outer electrons) shares one pair with each of 4 hydrogen atoms, forming 4 single C-H bonds. No lone pairs on carbon. Ammonia: Nitrogen (5 outer electrons) shares one pair with each of 3 hydrogen atoms, forming 3 single N-H bonds. Nitrogen has 1 lone pair.",
+      "keyPoints": ["CH4: 4 single bonds, no lone pairs on C", "NH3: 3 single bonds, 1 lone pair on N", "All atoms achieve full outer shells", "Lone pairs do not form bonds"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-126",
+      "topic": "bonding-structure",
+      "subtopic": "Metallic Bonding",
+      "question": "What is metallic bonding?",
+      "answer": "Metallic bonding is the electrostatic attraction between positive metal ions and a 'sea' of delocalised electrons. Metal atoms lose their outer electrons which become free to move throughout the structure. The positive ions are arranged in a regular lattice.",
+      "keyPoints": ["Positive metal ions in a regular lattice", "Sea of delocalised (free) electrons", "Electrostatic attraction holds structure together", "Outer electrons are shared by all atoms"],
+      "difficulty": 1
+    },
+    {
+      "id": "chem-127",
+      "topic": "bonding-structure",
+      "subtopic": "Metallic Bonding",
+      "question": "Why do metals conduct electricity?",
+      "answer": "Metals conduct electricity because they have delocalised electrons that are free to move through the structure. When a voltage is applied, these electrons flow towards the positive terminal, carrying charge through the metal.",
+      "keyPoints": ["Delocalised electrons are free to move", "Electrons carry charge through the metal", "Flow towards the positive terminal", "All metals conduct electricity"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-128",
+      "topic": "bonding-structure",
+      "subtopic": "Metallic Bonding",
+      "question": "Why are metals malleable?",
+      "answer": "In a metal, the layers of positive ions can slide over each other when a force is applied. The delocalised electrons act like a 'glue' that continues to hold the ions together in their new positions. This means the metal can be bent or hammered into shape without breaking.",
+      "keyPoints": ["Layers of ions can slide over each other", "Delocalised electrons hold ions together", "Electrons adjust to new positions", "Metal deforms without breaking"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-129",
+      "topic": "bonding-structure",
+      "subtopic": "Metallic Bonding",
+      "question": "Why do metals generally have high melting points?",
+      "answer": "Metals have high melting points because the electrostatic attraction between the positive ions and the sea of delocalised electrons is very strong. A large amount of energy is needed to overcome these strong metallic bonds. Metals with more delocalised electrons or higher charges tend to have higher melting points.",
+      "keyPoints": ["Strong attraction between ions and delocalised electrons", "Lots of energy needed to break metallic bonds", "More delocalised electrons = stronger bonding", "Higher charge = stronger attraction"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-130",
+      "topic": "bonding-structure",
+      "subtopic": "Properties of Structures",
+      "question": "Why do ionic compounds have high melting points but only conduct when molten or dissolved?",
+      "answer": "Ionic compounds have high melting points because the electrostatic forces between ions in the giant lattice are very strong. They cannot conduct when solid because ions are in fixed positions. When molten or dissolved, ions are free to move and carry charge, so they conduct.",
+      "keyPoints": ["High mp: strong electrostatic forces in lattice", "Solid: ions fixed in place, cannot conduct", "Molten/dissolved: ions free to move", "Free ions carry charge = conduct electricity"],
+      "difficulty": 2,
+      "examTip": "Say 'ions are free to move and carry charge' — not just 'ions can move'. You must link movement to carrying charge."
+    },
+    {
+      "id": "chem-131",
+      "topic": "bonding-structure",
+      "subtopic": "Properties of Structures",
+      "question": "Why do simple molecular substances not conduct electricity?",
+      "answer": "Simple molecular substances do not conduct electricity because they have no free ions or delocalised electrons to carry charge. The molecules are electrically neutral. Even when melted or dissolved, the molecules remain intact and uncharged.",
+      "keyPoints": ["No free ions", "No delocalised electrons", "Molecules are neutral", "Cannot carry charge in any state"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-132",
+      "topic": "bonding-structure",
+      "subtopic": "Properties of Structures",
+      "question": "Why does graphite conduct electricity but diamond does not?",
+      "answer": "In graphite, each carbon bonds to only 3 others, leaving one delocalised electron per carbon. These delocalised electrons can move along the layers and carry charge. In diamond, all 4 outer electrons are used in covalent bonds, so there are no free electrons.",
+      "keyPoints": ["Graphite: each C bonds to 3 others, 1 delocalised electron", "Delocalised electrons move along layers", "Diamond: all 4 electrons in bonds", "Diamond has no free electrons"],
+      "difficulty": 3
+    },
+    {
+      "id": "chem-133",
+      "topic": "bonding-structure",
+      "subtopic": "Properties of Structures",
+      "question": "Why is diamond the hardest natural substance?",
+      "answer": "Each carbon atom in diamond is covalently bonded to 4 other carbon atoms in a tetrahedral arrangement, forming a rigid 3D giant covalent structure. There are no weak points because every atom is strongly bonded in all directions. Breaking diamond requires breaking many strong covalent bonds.",
+      "keyPoints": ["Each C bonded to 4 others (tetrahedral)", "Rigid 3D structure", "Strong covalent bonds in all directions", "Many bonds must be broken"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-134",
+      "topic": "bonding-structure",
+      "subtopic": "Properties of Structures",
+      "question": "Why is graphite soft and slippery?",
+      "answer": "Graphite has a layered structure where each carbon is bonded to 3 others in flat hexagonal rings. The layers are held together only by weak intermolecular forces, so they can easily slide over each other. This makes graphite soft and useful as a lubricant and in pencils.",
+      "keyPoints": ["Flat hexagonal layers", "Weak forces between layers", "Layers slide over each other", "Used as lubricant and in pencils"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-135",
+      "topic": "bonding-structure",
+      "subtopic": "Properties of Structures",
+      "question": "Compare the four types of structure: ionic, simple molecular, giant covalent, and metallic.",
+      "answer": "Ionic: high mp, conduct when molten/dissolved, often soluble. Simple molecular: low mp/bp, don't conduct, often insoluble. Giant covalent: very high mp, mostly don't conduct (except graphite), insoluble. Metallic: high mp (usually), always conduct, malleable, insoluble.",
+      "keyPoints": ["Ionic: high mp, conduct when molten/dissolved", "Simple molecular: low mp, don't conduct", "Giant covalent: very high mp, don't conduct (except graphite)", "Metallic: high mp, conduct, malleable"],
+      "difficulty": 3,
+      "examTip": "A common 6-mark question asks you to compare properties. Use a table format and mention melting point, conductivity, and solubility."
+    },
+    {
+      "id": "chem-136",
+      "topic": "bonding-structure",
+      "subtopic": "Properties of Structures",
+      "question": "How can you determine the type of structure from a substance's properties?",
+      "answer": "Low melting point + doesn't conduct = simple molecular. High mp + conducts when molten but not solid = ionic. Very high mp + doesn't conduct = giant covalent. High mp + conducts when solid = metallic. If it conducts as a solid AND has very high mp, it could be graphite.",
+      "keyPoints": ["Low mp, no conductivity = simple molecular", "High mp, conducts when molten = ionic", "Very high mp, no conductivity = giant covalent", "High mp, conducts as solid = metallic"],
+      "difficulty": 3
+    },
+    {
+      "id": "chem-137",
+      "topic": "bonding-structure",
+      "subtopic": "Nanoparticles & Allotropes of Carbon",
+      "question": "What are nanoparticles and what is their size range?",
+      "answer": "Nanoparticles are particles with dimensions between 1 and 100 nanometres (nm). They contain a few hundred to a few thousand atoms. Due to their tiny size, they have a very large surface area to volume ratio, which gives them unique properties not found in larger particles of the same substance.",
+      "keyPoints": ["1-100 nm in size", "Few hundred to few thousand atoms", "Very large surface area to volume ratio", "Different properties from bulk material"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-138",
+      "topic": "bonding-structure",
+      "subtopic": "Nanoparticles & Allotropes of Carbon",
+      "question": "What are some uses of nanoparticles?",
+      "answer": "Silver nanoparticles in wound dressings (antibacterial). Titanium dioxide nanoparticles in sunscreen (UV protection without white appearance). As catalysts (high surface area makes reactions faster). Drug delivery (can target specific cells). Electronics (nano-scale components).",
+      "keyPoints": ["Silver nanoparticles: antibacterial wound dressings", "TiO2 nanoparticles: sunscreen", "Catalysts: high surface area", "Drug delivery: targeted treatment"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-139",
+      "topic": "bonding-structure",
+      "subtopic": "Nanoparticles & Allotropes of Carbon",
+      "question": "What is a fullerene? Describe Buckminsterfullerene (C60).",
+      "answer": "Fullerenes are molecules of carbon in the shape of hollow balls or tubes. Buckminsterfullerene (C60) is a sphere made of 60 carbon atoms arranged in hexagons and pentagons (like a football). Each carbon bonds to 3 others. Fullerenes can trap drug molecules inside for targeted delivery.",
+      "keyPoints": ["Hollow carbon molecules", "C60: 60 carbon atoms in a sphere", "Hexagons and pentagons (football shape)", "Can trap drug molecules inside for delivery"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-140",
+      "topic": "bonding-structure",
+      "subtopic": "Nanoparticles & Allotropes of Carbon",
+      "question": "What is graphene and why is it special?",
+      "answer": "Graphene is a single layer of graphite — a sheet of carbon atoms arranged in hexagons, one atom thick. It is incredibly strong (200x stronger than steel), an excellent conductor of electricity (delocalised electrons), and nearly transparent. Uses include electronics, composites, and flexible screens.",
+      "keyPoints": ["Single layer of graphite (one atom thick)", "Incredibly strong (200x stronger than steel)", "Excellent electrical conductor", "Nearly transparent; many potential uses"],
+      "difficulty": 3
+    },
+    {
+      "id": "chem-141",
+      "topic": "bonding-structure",
+      "subtopic": "Nanoparticles & Allotropes of Carbon",
+      "question": "What are carbon nanotubes and what are they used for?",
+      "answer": "Carbon nanotubes are cylinders of graphene rolled into tiny tubes. Each carbon is bonded to 3 others with delocalised electrons, making them excellent electrical conductors. They are extremely strong and light. Uses include reinforcing composites, nanotechnology, and electrical components.",
+      "keyPoints": ["Rolled-up graphene cylinders", "Excellent electrical conductors", "Extremely strong and lightweight", "Used in composites, electronics, nanotechnology"],
+      "difficulty": 3
+    },
+    {
+      "id": "chem-142",
+      "topic": "formulae-equations",
+      "subtopic": "Writing Formulae",
+      "question": "How do you work out the formula of an ionic compound from ion charges?",
+      "answer": "The overall charge must be zero. Find the charges on each ion, then work out the ratio to balance them. Example: Na+ and Cl- gives NaCl (1:1). Mg2+ and Cl- gives MgCl2 (need 2 Cl-). Al3+ and O2- gives Al2O3. Use the cross-over method: swap the charge numbers.",
+      "keyPoints": ["Total positive charge must equal total negative charge", "Find the ratio to balance charges", "Cross-over method: swap the numbers", "Example: Al3+ and O2- gives Al2O3"],
+      "difficulty": 2,
+      "examTip": "Use the cross-over method: take the number from one ion's charge and put it as the subscript of the other ion."
+    },
+    {
+      "id": "chem-143",
+      "topic": "formulae-equations",
+      "subtopic": "Writing Formulae",
+      "question": "What are the formulae of common compounds you need to know?",
+      "answer": "Water: H2O. Carbon dioxide: CO2. Hydrochloric acid: HCl. Sulfuric acid: H2SO4. Nitric acid: HNO3. Sodium hydroxide: NaOH. Calcium carbonate: CaCO3. Sodium chloride: NaCl. Magnesium oxide: MgO. Ammonia: NH3. Methane: CH4.",
+      "keyPoints": ["Acids: HCl, H2SO4, HNO3", "Bases: NaOH, Ca(OH)2", "Salts: NaCl, CaCO3, MgO", "Organic: CH4, NH3"],
+      "difficulty": 1
+    },
+    {
+      "id": "chem-144",
+      "topic": "formulae-equations",
+      "subtopic": "Writing Formulae",
+      "question": "What does a bracket in a chemical formula mean?",
+      "answer": "Brackets mean there is more than one of that group of atoms. Ca(OH)2 means 1 calcium ion bonded to 2 hydroxide (OH-) groups, containing: 1 Ca, 2 O, and 2 H atoms. Mg(NO3)2 means 1 Mg with 2 nitrate groups = 1 Mg, 2 N, 6 O atoms.",
+      "keyPoints": ["Brackets = more than one of that group", "Subscript outside bracket applies to whole group", "Ca(OH)2 = 1 Ca, 2 O, 2 H", "Mg(NO3)2 = 1 Mg, 2 N, 6 O"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-145",
+      "topic": "formulae-equations",
+      "subtopic": "Writing Formulae",
+      "question": "What is the empirical formula and how is it different from the molecular formula?",
+      "answer": "The empirical formula shows the simplest whole number ratio of atoms. The molecular formula shows the actual number of atoms in one molecule. Example: glucose empirical = CH2O, molecular = C6H12O6. For ionic compounds, only the empirical formula is used.",
+      "keyPoints": ["Empirical = simplest ratio of atoms", "Molecular = actual number of atoms", "Example: glucose CH2O vs C6H12O6", "Ionic compounds always use empirical formula"],
+      "difficulty": 3
+    },
+    {
+      "id": "chem-146",
+      "topic": "formulae-equations",
+      "subtopic": "Writing Formulae",
+      "question": "How do you calculate the empirical formula from experimental data?",
+      "answer": "Step 1: Write the mass or percentage of each element. Step 2: Divide each by the element's Ar. Step 3: Divide all results by the smallest number. Step 4: Round to whole numbers. Example: 4.8g C and 1.6g H: C: 4.8/12=0.4, H: 1.6/1=1.6. Divide by 0.4: C1H4 = CH4.",
+      "keyPoints": ["Divide mass/percentage by Ar", "Divide all by the smallest result", "Round to whole numbers", "Gives simplest ratio of atoms"],
+      "difficulty": 3,
+      "examTip": "Show ALL working clearly. If you get numbers like 1.5, multiply everything by 2 to get whole numbers."
+    },
+    {
+      "id": "chem-147",
+      "topic": "formulae-equations",
+      "subtopic": "Writing Formulae",
+      "question": "What are the formulae and charges of common polyatomic ions?",
+      "answer": "Hydroxide: OH-. Nitrate: NO3-. Carbonate: CO3 2-. Sulfate: SO4 2-. Ammonium: NH4+. Phosphate: PO4 3-. Hydrogencarbonate: HCO3-. These are groups of atoms that carry a charge and stay together during reactions.",
+      "keyPoints": ["OH-, NO3- (single negative)", "CO3 2-, SO4 2- (double negative)", "NH4+ (positive)", "PO4 3- (triple negative)"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-148",
+      "topic": "formulae-equations",
+      "subtopic": "Balancing Equations",
+      "question": "Why must chemical equations be balanced?",
+      "answer": "Because of the law of conservation of mass — atoms cannot be created or destroyed in a chemical reaction. The same number and type of atoms must appear on both sides of the equation.",
+      "keyPoints": ["Law of conservation of mass", "Atoms cannot be created or destroyed", "Same atoms on both sides", "Atoms rearranged, not lost"],
+      "difficulty": 1
+    },
+    {
+      "id": "chem-149",
+      "topic": "formulae-equations",
+      "subtopic": "Balancing Equations",
+      "question": "Write a balanced symbol equation for magnesium reacting with hydrochloric acid.",
+      "answer": "Word equation: Magnesium + Hydrochloric acid -> Magnesium chloride + Hydrogen. Symbol equation: Mg + 2HCl -> MgCl2 + H2. Check: 1 Mg each side, 2 H each side, 2 Cl each side. Balanced.",
+      "keyPoints": ["Mg + 2HCl -> MgCl2 + H2", "Balance by adjusting coefficients only", "Never change the formulae of compounds", "Check each element has equal atoms both sides"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-150",
+      "topic": "formulae-equations",
+      "subtopic": "Balancing Equations",
+      "question": "What are state symbols and when do you use them?",
+      "answer": "State symbols show the physical state: (s) = solid, (l) = liquid, (g) = gas, (aq) = aqueous (dissolved in water). Written after each formula in a balanced equation. Example: Mg(s) + 2HCl(aq) -> MgCl2(aq) + H2(g).",
+      "keyPoints": ["(s) = solid, (l) = liquid", "(g) = gas, (aq) = dissolved in water", "Written after each formula", "Required in balanced symbol equations"],
+      "difficulty": 1,
+      "examTip": "Always include state symbols if the question says 'write a balanced equation with state symbols'. You lose marks without them."
+    },
+    {
+      "id": "chem-151",
+      "topic": "formulae-equations",
+      "subtopic": "Balancing Equations",
+      "question": "How do you balance a chemical equation step by step?",
+      "answer": "Step 1: Write correct formulae for reactants and products. Step 2: Count atoms of each element on both sides. Step 3: Add coefficients to balance one element at a time. Step 4: Start with metals or the most complex formula. Step 5: Check all elements are balanced. Never change subscripts.",
+      "keyPoints": ["Write correct formulae first", "Count atoms on each side", "Add coefficients (big numbers) to balance", "NEVER change subscripts in formulae"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-152",
+      "topic": "formulae-equations",
+      "subtopic": "Balancing Equations",
+      "question": "What is an ionic equation?",
+      "answer": "An ionic equation shows only the ions that take part in the reaction, removing spectator ions. Example: NaOH(aq) + HCl(aq) -> NaCl(aq) + H2O(l) becomes OH-(aq) + H+(aq) -> H2O(l). Na+ and Cl- are spectator ions that don't change.",
+      "keyPoints": ["Shows only ions that react", "Spectator ions are removed", "Must still be balanced for atoms and charge", "Example: OH- + H+ -> H2O"],
+      "difficulty": 3
+    },
+    {
+      "id": "chem-153",
+      "topic": "formulae-equations",
+      "subtopic": "Balancing Equations",
+      "question": "What are half equations?",
+      "answer": "Half equations show what happens to one element during a redox reaction. One shows oxidation (loss of electrons), the other shows reduction (gain of electrons). Example: Na -> Na+ + e- (oxidation) and Cl2 + 2e- -> 2Cl- (reduction). Electrons lost must equal electrons gained.",
+      "keyPoints": ["Show oxidation and reduction separately", "Oxidation: element loses electrons", "Reduction: element gains electrons", "Electrons lost = electrons gained"],
+      "difficulty": 3
+    },
+    {
+      "id": "chem-154",
+      "topic": "formulae-equations",
+      "subtopic": "Moles & Relative Formula Mass",
+      "question": "What is relative formula mass (Mr) and how do you calculate it?",
+      "answer": "Relative formula mass (Mr) is the sum of the relative atomic masses (Ar) of all atoms in a formula. Example: H2O = (2 x 1) + 16 = 18. CaCO3 = 40 + 12 + (3 x 16) = 100. H2SO4 = (2 x 1) + 32 + (4 x 16) = 98. Use the periodic table for Ar values.",
+      "keyPoints": ["Mr = sum of all Ar values in the formula", "Add up each atom's Ar x number of atoms", "Use periodic table for Ar values", "H2O = 18, CaCO3 = 100, H2SO4 = 98"],
+      "difficulty": 1
+    },
+    {
+      "id": "chem-155",
+      "topic": "formulae-equations",
+      "subtopic": "Moles & Relative Formula Mass",
+      "question": "What is a mole?",
+      "answer": "A mole is the amount of substance that contains 6.02 x 10^23 particles (Avogadro's number). One mole of any substance has a mass equal to its relative formula mass in grams. For example, 1 mole of water (Mr = 18) has a mass of 18g.",
+      "keyPoints": ["Contains 6.02 x 10^23 particles", "Mass of 1 mole = Mr in grams", "1 mole of H2O = 18g", "1 mole of any element = Ar in grams"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-156",
+      "topic": "formulae-equations",
+      "subtopic": "Moles & Relative Formula Mass",
+      "question": "How do you calculate the number of moles from mass?",
+      "answer": "Use the formula: moles = mass (g) / Mr. Example: how many moles in 11g of CO2? Mr of CO2 = 44. Moles = 11 / 44 = 0.25 mol. Rearrange to find mass: mass = moles x Mr. Or Mr: Mr = mass / moles.",
+      "keyPoints": ["Moles = mass / Mr", "Mass = moles x Mr", "Mr = mass / moles", "Triangle: mass on top, moles x Mr on bottom"],
+      "difficulty": 2,
+      "examTip": "Draw the mole triangle in your exam: mass at the top, moles and Mr at the bottom. Cover what you want to find."
+    },
+    {
+      "id": "chem-157",
+      "topic": "formulae-equations",
+      "subtopic": "Moles & Relative Formula Mass",
+      "question": "How do you do a reacting mass calculation?",
+      "answer": "Step 1: Write a balanced equation. Step 2: Calculate moles of the known substance (mass / Mr). Step 3: Use the mole ratio from the equation to find moles of the wanted substance. Step 4: Convert back to mass (moles x Mr). Example: Mg + O2: 6g Mg = 0.25 mol, ratio 2:1, so 0.125 mol O2 needed.",
+      "keyPoints": ["Balanced equation -> moles known -> ratio -> moles wanted -> mass", "Moles = mass / Mr to start", "Use ratio from balanced equation", "Mass = moles x Mr to finish"],
+      "difficulty": 3,
+      "examTip": "Always start with a BALANCED equation. Show every step — you get method marks even if the final answer is wrong."
+    },
+    {
+      "id": "chem-158",
+      "topic": "formulae-equations",
+      "subtopic": "Concentration & Volume Calculations",
+      "question": "How do you calculate concentration in g/dm3?",
+      "answer": "Concentration (g/dm3) = mass of solute (g) / volume of solution (dm3). Example: 10g NaCl in 500 cm3: convert to dm3 = 0.5 dm3. Concentration = 10 / 0.5 = 20 g/dm3. Remember 1 dm3 = 1000 cm3.",
+      "keyPoints": ["Concentration = mass / volume", "Volume must be in dm3", "1 dm3 = 1000 cm3", "Divide cm3 by 1000 to get dm3"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-159",
+      "topic": "formulae-equations",
+      "subtopic": "Concentration & Volume Calculations",
+      "question": "How do you calculate concentration in mol/dm3?",
+      "answer": "Concentration (mol/dm3) = moles of solute / volume (dm3). First calculate moles (mass / Mr), then divide by volume in dm3. Example: 4g NaOH in 500 cm3. Moles = 4/40 = 0.1 mol. Volume = 0.5 dm3. Concentration = 0.1/0.5 = 0.2 mol/dm3.",
+      "keyPoints": ["Concentration (mol/dm3) = moles / volume", "Calculate moles first (mass / Mr)", "Volume must be in dm3", "mol/dm3 is also called molarity"],
+      "difficulty": 3
+    },
+    {
+      "id": "chem-160",
+      "topic": "formulae-equations",
+      "subtopic": "Concentration & Volume Calculations",
+      "question": "What is percentage yield and why is it usually less than 100%?",
+      "answer": "Percentage yield = (actual yield / theoretical yield) x 100. Usually less than 100% because: the reaction may be reversible, product lost during transfer or filtration, side reactions produce unwanted products, or reactant may be impure.",
+      "keyPoints": ["% yield = (actual / theoretical) x 100", "Reversible reactions don't complete", "Product lost during transfer/purification", "Side reactions produce unwanted products"],
+      "difficulty": 3
+    },
+    {
+      "id": "chem-161",
+      "topic": "formulae-equations",
+      "subtopic": "Concentration & Volume Calculations",
+      "question": "What is atom economy and why does it matter?",
+      "answer": "Atom economy = (Mr of desired product / total Mr of all products) x 100. It measures how much of the reactant atoms end up in the useful product. High atom economy = less waste. Addition reactions have 100% atom economy. Important for sustainability.",
+      "keyPoints": ["Atom economy = (Mr desired / Mr all products) x 100", "Measures efficiency of atom use", "Addition reactions: 100% atom economy", "High atom economy = less waste"],
+      "difficulty": 3
+    },
+    {
+      "id": "chem-162",
+      "topic": "formulae-equations",
+      "subtopic": "Concentration & Volume Calculations",
+      "question": "What volume does 1 mole of any gas occupy at RTP?",
+      "answer": "At room temperature and pressure (RTP: 20 degrees C, 1 atm), 1 mole of any gas occupies 24 dm3 (24,000 cm3). This is the molar volume. Volume (dm3) = moles x 24. Moles = volume / 24. This applies to ALL gases.",
+      "keyPoints": ["1 mole of gas = 24 dm3 at RTP", "Volume = moles x 24", "Moles = volume / 24", "Same for all gases at RTP"],
+      "difficulty": 3,
+      "examTip": "RTP = room temperature and pressure (20 degrees C, 1 atm). The value 24 dm3/mol is given in exams but know how to use it."
+    },
+    {
+      "id": "chem-163",
+      "topic": "metals-reactivity",
+      "subtopic": "The Reactivity Series",
+      "question": "What is the reactivity series? List the metals in order.",
+      "answer": "The reactivity series ranks metals from most to least reactive: Potassium, Sodium, Lithium, Calcium, Magnesium, Aluminium, Carbon, Zinc, Iron, Tin, Lead, Hydrogen, Copper, Silver, Gold, Platinum. Carbon and hydrogen are included as reference points.",
+      "keyPoints": ["K, Na, Li, Ca, Mg, Al (most reactive)", "C, Zn, Fe, Sn, Pb (middle)", "H, Cu, Ag, Au, Pt (least reactive)", "Carbon and hydrogen are reference points"],
+      "difficulty": 1,
+      "examTip": "Mnemonic: Please Send Lions, Cats, Monkeys And Cute Zebras Into The Lovely House Constructed Sustainably, Guys Please."
+    },
+    {
+      "id": "chem-164",
+      "topic": "metals-reactivity",
+      "subtopic": "The Reactivity Series",
+      "question": "How do metals react with water?",
+      "answer": "Very reactive metals (K, Na, Li, Ca) react with cold water to form a metal hydroxide and hydrogen gas. Moderately reactive metals (Mg, Zn, Fe) react only with steam to form a metal oxide and hydrogen gas. Unreactive metals (Cu, Ag, Au) do not react with water or steam at all.",
+      "keyPoints": ["Very reactive + cold water -> hydroxide + H2", "Moderately reactive + steam -> oxide + H2", "Unreactive metals: no reaction", "Example: 2Na + 2H2O -> 2NaOH + H2"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-165",
+      "topic": "metals-reactivity",
+      "subtopic": "The Reactivity Series",
+      "question": "How do metals react with dilute acids?",
+      "answer": "Metals above hydrogen in the reactivity series react with dilute acids to produce a salt and hydrogen gas. The more reactive the metal, the more vigorous the reaction. Metals below hydrogen (Cu, Ag, Au) do not react with dilute acids. Example: Zn + H2SO4 -> ZnSO4 + H2.",
+      "keyPoints": ["Metal + acid -> salt + hydrogen", "Only metals above hydrogen react", "More reactive = more vigorous reaction", "Cu, Ag, Au do not react with dilute acids"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-166",
+      "topic": "metals-reactivity",
+      "subtopic": "The Reactivity Series",
+      "question": "How do metals react with oxygen?",
+      "answer": "Most metals react with oxygen to form metal oxides. Very reactive metals (K, Na) burn brightly. Moderately reactive metals (Mg, Fe) burn or react when heated. Copper only tarnishes slowly. Gold and platinum do not react with oxygen at all. Example: 2Mg + O2 -> 2MgO.",
+      "keyPoints": ["Metal + oxygen -> metal oxide", "More reactive = more vigorous reaction", "K/Na burn brightly, Mg burns with white flame", "Au/Pt do not react with oxygen"],
+      "difficulty": 1
+    },
+    {
+      "id": "chem-167",
+      "topic": "metals-reactivity",
+      "subtopic": "The Reactivity Series",
+      "question": "How can you compare the reactivity of metals experimentally?",
+      "answer": "Add pieces of different metals to dilute hydrochloric acid and observe the rate of bubbling. More bubbles = more reactive. You can also observe reactions with water, or do displacement reactions by placing metals in solutions of other metal salts. Temperature rise in displacement reactions also indicates reactivity.",
+      "keyPoints": ["Compare rate of bubbling with acid", "More vigorous = more reactive", "Displacement reactions show relative reactivity", "Temperature rise indicates energy released"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-168",
+      "topic": "metals-reactivity",
+      "subtopic": "The Reactivity Series",
+      "question": "Why do some metals react more vigorously than others?",
+      "answer": "More reactive metals lose their outer electrons more easily because the outer electrons are further from the nucleus (more shells) and better shielded by inner electrons. This means the electrostatic attraction holding the outer electrons is weaker, so they are lost more readily during reactions.",
+      "keyPoints": ["More reactive = lose electrons more easily", "More electron shells = weaker attraction", "Greater shielding from inner electrons", "Weaker attraction to nucleus = easier to react"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-169",
+      "topic": "metals-reactivity",
+      "subtopic": "Displacement Reactions",
+      "question": "What is a displacement reaction?",
+      "answer": "A displacement reaction occurs when a more reactive metal takes the place of a less reactive metal in a compound. The more reactive metal 'pushes out' the less reactive one. Example: Mg + CuSO4 -> MgSO4 + Cu. Magnesium is more reactive than copper, so it displaces copper from copper sulfate solution.",
+      "keyPoints": ["More reactive metal displaces less reactive metal", "More reactive metal takes the place in the compound", "Example: Mg + CuSO4 -> MgSO4 + Cu", "Solution changes colour as metal is displaced"],
+      "difficulty": 1
+    },
+    {
+      "id": "chem-170",
+      "topic": "metals-reactivity",
+      "subtopic": "Displacement Reactions",
+      "question": "How do you predict whether a displacement reaction will occur?",
+      "answer": "Use the reactivity series. A displacement reaction will occur if the added metal is MORE reactive than the metal in the compound. If the added metal is LESS reactive, no reaction occurs. Example: Iron + CuSO4 -> reaction (Fe more reactive). Copper + ZnSO4 -> no reaction (Cu less reactive).",
+      "keyPoints": ["More reactive metal displaces less reactive", "Less reactive metal: no reaction", "Check positions in reactivity series", "Higher in series = will displace lower"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-171",
+      "topic": "metals-reactivity",
+      "subtopic": "Displacement Reactions",
+      "question": "What is the thermite reaction?",
+      "answer": "The thermite reaction is a vigorous displacement reaction between aluminium powder and iron(III) oxide: 2Al + Fe2O3 -> Al2O3 + 2Fe. Aluminium is more reactive than iron, so it displaces iron. The reaction is highly exothermic, producing molten iron. It is used to weld railway tracks.",
+      "keyPoints": ["2Al + Fe2O3 -> Al2O3 + 2Fe", "Aluminium displaces iron", "Highly exothermic (produces molten iron)", "Used to weld railway tracks"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-172",
+      "topic": "metals-reactivity",
+      "subtopic": "Displacement Reactions",
+      "question": "What observations would you see when iron is placed in copper sulfate solution?",
+      "answer": "The blue copper sulfate solution turns pale green (as iron sulfate forms). A reddish-brown coating of copper metal appears on the iron. The iron nail gets smaller as it dissolves. Iron is more reactive than copper, so Fe + CuSO4 -> FeSO4 + Cu.",
+      "keyPoints": ["Blue solution turns pale green", "Reddish-brown copper deposited on iron", "Iron dissolves (gets smaller)", "Fe + CuSO4 -> FeSO4 + Cu"],
+      "difficulty": 2,
+      "examTip": "Always describe the colour changes AND the solid deposited when asked for observations in displacement reactions."
+    },
+    {
+      "id": "chem-173",
+      "topic": "metals-reactivity",
+      "subtopic": "Extraction of Metals",
+      "question": "Why do metals need to be extracted from ores?",
+      "answer": "Most metals are found in the Earth's crust as compounds (ores), not as pure elements, because they are too reactive. Only very unreactive metals like gold are found native (as pure metal). To get useful pure metal, we must extract it from its ore using chemical reactions.",
+      "keyPoints": ["Most metals found as compounds (ores)", "Too reactive to exist as pure metal", "Only Au, Pt found native (unreactive)", "Chemical reactions needed to extract"],
+      "difficulty": 1
+    },
+    {
+      "id": "chem-174",
+      "topic": "metals-reactivity",
+      "subtopic": "Extraction of Metals",
+      "question": "How are metals below carbon in the reactivity series extracted?",
+      "answer": "Metals below carbon (Zn, Fe, Sn, Pb, Cu) can be extracted by reduction with carbon or carbon monoxide. The carbon reduces the metal oxide by removing the oxygen. Example: iron in a blast furnace: Fe2O3 + 3CO -> 2Fe + 3CO2. Carbon is cheaper and easier than electrolysis.",
+      "keyPoints": ["Reduced using carbon or carbon monoxide", "Carbon removes the oxygen from the ore", "Cheaper than electrolysis", "Example: Fe2O3 + 3CO -> 2Fe + 3CO2"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-175",
+      "topic": "metals-reactivity",
+      "subtopic": "Extraction of Metals",
+      "question": "How are metals above carbon in the reactivity series extracted?",
+      "answer": "Metals above carbon (K, Na, Li, Ca, Mg, Al) are too reactive to be reduced by carbon. They must be extracted by electrolysis of their molten compounds. Electrolysis uses electricity to decompose the compound. This is expensive because it requires a lot of electrical energy.",
+      "keyPoints": ["Too reactive for carbon reduction", "Must use electrolysis of molten compound", "Electricity decomposes the compound", "Expensive due to high energy cost"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-176",
+      "topic": "metals-reactivity",
+      "subtopic": "Extraction of Metals",
+      "question": "Describe how aluminium is extracted by electrolysis.",
+      "answer": "Aluminium oxide (Al2O3) is dissolved in molten cryolite to lower the melting point. Electricity is passed through the molten mixture. At the cathode (negative), aluminium ions gain electrons and form liquid aluminium: Al3+ + 3e- -> Al. At the anode (positive), oxide ions lose electrons and form oxygen: 2O2- -> O2 + 4e-.",
+      "keyPoints": ["Al2O3 dissolved in molten cryolite", "Cryolite lowers the melting point (saves energy)", "Cathode: Al3+ + 3e- -> Al (reduction)", "Anode: 2O2- -> O2 + 4e- (oxidation)"],
+      "difficulty": 3,
+      "examTip": "The carbon anodes need regular replacement because the oxygen produced reacts with them to form CO2."
+    },
+    {
+      "id": "chem-177",
+      "topic": "metals-reactivity",
+      "subtopic": "Extraction of Metals",
+      "question": "Why is recycling metals important?",
+      "answer": "Recycling metals conserves finite ore resources, uses less energy than extracting from ore (e.g. recycling aluminium uses only 5% of the energy), reduces mining and its environmental damage, reduces landfill waste, and reduces CO2 emissions from extraction processes.",
+      "keyPoints": ["Conserves finite ore resources", "Uses much less energy than extraction", "Reduces mining and environmental damage", "Reduces CO2 emissions and landfill"],
+      "difficulty": 1
+    },
+    {
+      "id": "chem-178",
+      "topic": "metals-reactivity",
+      "subtopic": "Oxidation & Reduction (Redox)",
+      "question": "What is oxidation and reduction in terms of oxygen?",
+      "answer": "Oxidation is the gain of oxygen. Reduction is the loss of oxygen. In a reaction like CuO + C -> Cu + CO, copper oxide is REDUCED (loses oxygen) and carbon is OXIDISED (gains oxygen). The substance that gets reduced causes oxidation — it is the oxidising agent.",
+      "keyPoints": ["Oxidation = gain of oxygen", "Reduction = loss of oxygen", "CuO reduced, C oxidised in CuO + C -> Cu + CO", "Oxidising agent gets reduced itself"],
+      "difficulty": 1
+    },
+    {
+      "id": "chem-179",
+      "topic": "metals-reactivity",
+      "subtopic": "Oxidation & Reduction (Redox)",
+      "question": "What is the OIL RIG mnemonic?",
+      "answer": "OIL RIG stands for: Oxidation Is Loss (of electrons), Reduction Is Gain (of electrons). When a substance loses electrons, it is oxidised. When it gains electrons, it is reduced. Example: Na -> Na+ + e- (oxidation, lost electron). Cl2 + 2e- -> 2Cl- (reduction, gained electrons).",
+      "keyPoints": ["OIL: Oxidation Is Loss of electrons", "RIG: Reduction Is Gain of electrons", "Na -> Na+ + e- (oxidation)", "Cl2 + 2e- -> 2Cl- (reduction)"],
+      "difficulty": 1
+    },
+    {
+      "id": "chem-180",
+      "topic": "metals-reactivity",
+      "subtopic": "Oxidation & Reduction (Redox)",
+      "question": "What is a redox reaction?",
+      "answer": "A redox reaction is one where both oxidation and reduction happen at the same time. One substance is oxidised (loses electrons) while another is reduced (gains electrons). All displacement reactions are redox reactions. Example: Mg + CuSO4 -> MgSO4 + Cu. Mg is oxidised, Cu2+ is reduced.",
+      "keyPoints": ["Oxidation and reduction happen simultaneously", "One substance oxidised, another reduced", "All displacement reactions are redox", "Electrons transferred from one substance to another"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-181",
+      "topic": "metals-reactivity",
+      "subtopic": "Oxidation & Reduction (Redox)",
+      "question": "How do you identify oxidation and reduction in an equation?",
+      "answer": "Look at what happens to each element. If a metal changes from atom to positive ion, it has been oxidised (lost electrons). If a non-metal or metal ion gains electrons, it has been reduced. Also check: gain of oxygen = oxidation, loss of oxygen = reduction. In ionic equations, look for electron transfer.",
+      "keyPoints": ["Metal atom to ion = oxidation", "Metal ion to atom = reduction", "Gain of oxygen = oxidation", "Loss of oxygen = reduction"],
+      "difficulty": 2,
+      "examTip": "Use OIL RIG for electron transfer. Use 'gain/loss of oxygen' as a backup method if electrons aren't shown."
+    },
+    {
+      "id": "chem-182",
+      "topic": "metals-reactivity",
+      "subtopic": "Oxidation & Reduction (Redox)",
+      "question": "In the reaction Zn + CuSO4 -> ZnSO4 + Cu, identify the oxidation and reduction.",
+      "answer": "Zinc is OXIDISED: Zn -> Zn2+ + 2e- (loses 2 electrons, changes from 0 to +2). Copper is REDUCED: Cu2+ + 2e- -> Cu (gains 2 electrons, changes from +2 to 0). Zinc is the reducing agent (causes reduction of Cu). Copper sulfate is the oxidising agent (causes oxidation of Zn).",
+      "keyPoints": ["Zn oxidised: Zn -> Zn2+ + 2e-", "Cu2+ reduced: Cu2+ + 2e- -> Cu", "Zn is the reducing agent", "CuSO4 is the oxidising agent"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-183",
+      "topic": "metals-reactivity",
+      "subtopic": "Tests for Ions & Gases",
+      "question": "What are the flame test colours for common metal ions?",
+      "answer": "Lithium: crimson red. Sodium: yellow/orange. Potassium: lilac/purple. Calcium: orange-red. Copper: blue-green. Barium: pale green. Method: dip a clean nichrome wire in HCl, then in the sample, hold in a blue Bunsen flame.",
+      "keyPoints": ["Li: crimson red, Na: yellow, K: lilac", "Ca: orange-red, Cu: blue-green", "Ba: pale green", "Use clean nichrome wire dipped in HCl"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-184",
+      "topic": "metals-reactivity",
+      "subtopic": "Tests for Ions & Gases",
+      "question": "How do you test for metal ions using sodium hydroxide (NaOH)?",
+      "answer": "Add a few drops of NaOH solution to the test solution. A coloured precipitate forms depending on the metal ion: Copper(II) Cu2+: blue precipitate. Iron(II) Fe2+: green precipitate. Iron(III) Fe3+: brown precipitate. Aluminium Al3+: white precipitate (dissolves in excess NaOH). Calcium Ca2+: white precipitate.",
+      "keyPoints": ["Cu2+: blue precipitate", "Fe2+: green precipitate", "Fe3+: brown precipitate", "Al3+: white, dissolves in excess NaOH"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-185",
+      "topic": "metals-reactivity",
+      "subtopic": "Tests for Ions & Gases",
+      "question": "How do you test for halide ions (Cl-, Br-, I-)?",
+      "answer": "Add dilute nitric acid (to remove interfering ions), then add silver nitrate (AgNO3) solution. Chloride: white precipitate (AgCl). Bromide: cream precipitate (AgBr). Iodide: yellow precipitate (AgI). The precipitate is the insoluble silver halide.",
+      "keyPoints": ["Add dilute HNO3 then AgNO3 solution", "Cl-: white precipitate (AgCl)", "Br-: cream precipitate (AgBr)", "I-: yellow precipitate (AgI)"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-186",
+      "topic": "metals-reactivity",
+      "subtopic": "Tests for Ions & Gases",
+      "question": "How do you test for sulfate ions?",
+      "answer": "Add dilute hydrochloric acid (to remove carbonates), then add barium chloride (BaCl2) solution. If sulfate ions are present, a white precipitate of barium sulfate (BaSO4) forms. BaSO4 is insoluble, confirming the presence of SO4 2- ions.",
+      "keyPoints": ["Add dilute HCl then BaCl2 solution", "White precipitate = sulfate present", "Precipitate is BaSO4 (insoluble)", "HCl removes interfering carbonate ions"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-187",
+      "topic": "metals-reactivity",
+      "subtopic": "Tests for Ions & Gases",
+      "question": "What are the tests for common gases: hydrogen, oxygen, carbon dioxide, and chlorine?",
+      "answer": "Hydrogen (H2): hold a lit splint near the gas — a 'squeaky pop' means hydrogen is present. Oxygen (O2): hold a glowing splint in the gas — it relights. Carbon dioxide (CO2): bubble through limewater — it turns milky/cloudy. Chlorine (Cl2): hold damp litmus paper near — it bleaches white.",
+      "keyPoints": ["H2: squeaky pop with lit splint", "O2: relights a glowing splint", "CO2: turns limewater milky", "Cl2: bleaches damp litmus paper white"],
+      "difficulty": 1
+    },
+    {
+      "id": "chem-188",
+      "topic": "metals-reactivity",
+      "subtopic": "Tests for Ions & Gases",
+      "question": "How do you test for carbonate ions?",
+      "answer": "Add dilute hydrochloric acid to the substance. If carbonate ions (CO3 2-) are present, the mixture will fizz/effervesce as carbon dioxide gas is produced. Test the gas by bubbling it through limewater — if it turns milky/cloudy, CO2 is confirmed and carbonates are present.",
+      "keyPoints": ["Add dilute HCl to the sample", "Fizzing/effervescence = gas produced", "Bubble gas through limewater", "Limewater turns milky = CO2 = carbonate present"],
+      "difficulty": 1
+    },
+    {
+      "id": "chem-189",
+      "topic": "rates-energy",
+      "subtopic": "Rate of Reaction",
+      "question": "What is rate of reaction?",
+      "answer": "Rate of reaction is the speed at which reactants are converted into products. It can be measured as the amount of product formed per unit time, or the amount of reactant used up per unit time. A fast reaction has a high rate; a slow reaction has a low rate.",
+      "keyPoints": ["Speed of converting reactants to products", "Amount of product formed per unit time", "Or amount of reactant used per unit time", "Fast reaction = high rate"],
+      "difficulty": 1
+    },
+    {
+      "id": "chem-190",
+      "topic": "rates-energy",
+      "subtopic": "Rate of Reaction",
+      "question": "How can you measure the rate of a reaction?",
+      "answer": "Three common methods: (1) Gas collection: collect gas in a syringe or over water and measure volume over time. (2) Mass loss: place reaction on a balance and record mass decrease as gas escapes. (3) Colour change/turbidity: time how long until a mark disappears (e.g. sodium thiosulfate + HCl producing sulfur).",
+      "keyPoints": ["Gas collection: measure volume of gas over time", "Mass loss: measure mass decrease on balance", "Disappearing cross: time until mark disappears", "Plot results on a graph (amount vs time)"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-191",
+      "topic": "rates-energy",
+      "subtopic": "Rate of Reaction",
+      "question": "How do you calculate mean rate of reaction?",
+      "answer": "Mean rate = total amount of product formed / total time taken. Units depend on what you measure: if volume of gas, rate is in cm3/s. If mass, rate is in g/s. Example: 60 cm3 of gas collected in 30 seconds. Mean rate = 60/30 = 2 cm3/s.",
+      "keyPoints": ["Mean rate = amount of product / time", "Units: cm3/s or g/s", "Can also be calculated from a graph", "Rate decreases over time as reactants used up"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-192",
+      "topic": "rates-energy",
+      "subtopic": "Rate of Reaction",
+      "question": "How do you interpret a rate of reaction graph?",
+      "answer": "On a graph of amount of product vs time: the steeper the line, the faster the rate. The line levels off when the reaction is complete (reactants used up). The initial rate is found from the steepness at the start. If you compare two curves, the steeper one has the faster rate but both reach the same final amount if the same amount of reactant was used.",
+      "keyPoints": ["Steeper line = faster rate", "Line levels off when reaction complete", "Same final amount if same reactant quantity", "Initial rate = steepness at the start"],
+      "difficulty": 2,
+      "examTip": "If the question asks about rate at a specific time, draw a tangent to the curve at that point and calculate its gradient."
+    },
+    {
+      "id": "chem-193",
+      "topic": "rates-energy",
+      "subtopic": "Rate of Reaction",
+      "question": "What five factors affect the rate of a reaction?",
+      "answer": "The five factors are: (1) Temperature — higher temperature increases rate. (2) Concentration — higher concentration increases rate. (3) Surface area — smaller pieces (larger surface area) increases rate. (4) Catalysts — speed up the reaction. (5) Pressure — for gases, higher pressure increases rate.",
+      "keyPoints": ["Temperature: higher = faster", "Concentration: higher = faster", "Surface area: larger = faster", "Catalyst: speeds up; Pressure (gases): higher = faster"],
+      "difficulty": 1
+    },
+    {
+      "id": "chem-194",
+      "topic": "rates-energy",
+      "subtopic": "Collision Theory",
+      "question": "What is collision theory?",
+      "answer": "Collision theory states that for a reaction to occur, particles must collide with each other with sufficient energy and the correct orientation. Not all collisions lead to a reaction — only those with energy equal to or greater than the activation energy result in a successful collision.",
+      "keyPoints": ["Particles must collide to react", "Collisions need sufficient energy", "Collisions need correct orientation", "Only successful collisions lead to reaction"],
+      "difficulty": 1
+    },
+    {
+      "id": "chem-195",
+      "topic": "rates-energy",
+      "subtopic": "Collision Theory",
+      "question": "What is activation energy?",
+      "answer": "Activation energy (Ea) is the minimum amount of energy that colliding particles must have in order to react. It is the energy barrier that must be overcome for a reaction to occur. Reactions with low activation energy happen more easily than those with high activation energy.",
+      "keyPoints": ["Minimum energy needed for a reaction", "Energy barrier to overcome", "Low Ea = reaction happens more easily", "Shown on energy profile diagrams"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-196",
+      "topic": "rates-energy",
+      "subtopic": "Collision Theory",
+      "question": "How does increasing temperature increase the rate of reaction?",
+      "answer": "Increasing temperature gives particles more kinetic energy, so they move faster. This means: (1) particles collide more frequently (more collisions per second), and (2) a greater proportion of collisions have energy greater than or equal to the activation energy (more successful collisions). Both effects increase the rate.",
+      "keyPoints": ["Particles move faster (more kinetic energy)", "More frequent collisions", "Greater proportion exceed activation energy", "Both effects increase rate"],
+      "difficulty": 2,
+      "examTip": "You MUST mention BOTH more frequent collisions AND more successful collisions for full marks."
+    },
+    {
+      "id": "chem-197",
+      "topic": "rates-energy",
+      "subtopic": "Collision Theory",
+      "question": "How does increasing concentration increase the rate of reaction?",
+      "answer": "Higher concentration means more particles in the same volume. This leads to more frequent collisions between reactant particles per second, so there are more successful collisions per unit time. The proportion of successful collisions stays the same, but there are simply more collisions overall.",
+      "keyPoints": ["More particles in the same volume", "More frequent collisions per second", "More successful collisions per unit time", "Proportion of successful collisions stays the same"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-198",
+      "topic": "rates-energy",
+      "subtopic": "Collision Theory",
+      "question": "What is an energy profile diagram?",
+      "answer": "An energy profile diagram shows the energy changes during a reaction. The y-axis is energy and the x-axis is the progress of reaction. It shows the energy of reactants, the activation energy (peak), and the energy of products. For exothermic reactions, products are lower than reactants. For endothermic, products are higher.",
+      "keyPoints": ["Shows energy changes during a reaction", "Peak = activation energy", "Exothermic: products lower than reactants", "Endothermic: products higher than reactants"],
+      "difficulty": 3
+    },
+    {
+      "id": "chem-199",
+      "topic": "rates-energy",
+      "subtopic": "Catalysts & Surface Area",
+      "question": "How does increasing surface area increase the rate of reaction?",
+      "answer": "Breaking a solid into smaller pieces exposes more surface area. More surface area means more reactant particles are exposed and available for collisions with other reactant particles. This increases the frequency of collisions, leading to more successful collisions per unit time and a faster rate.",
+      "keyPoints": ["Smaller pieces = more surface area exposed", "More particles available for collisions", "More frequent collisions", "Example: powder reacts faster than a lump"],
+      "difficulty": 1
+    },
+    {
+      "id": "chem-200",
+      "topic": "rates-energy",
+      "subtopic": "Catalysts & Surface Area",
+      "question": "What is a catalyst?",
+      "answer": "A catalyst is a substance that increases the rate of a reaction without being used up or chemically changed. It works by providing an alternative reaction pathway with a lower activation energy. This means more particles have enough energy to react, increasing the proportion of successful collisions.",
+      "keyPoints": ["Speeds up reaction without being used up", "Provides alternative pathway", "Lower activation energy", "More particles can react"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-201",
+      "topic": "rates-energy",
+      "subtopic": "Catalysts & Surface Area",
+      "question": "How does a catalyst affect the energy profile diagram?",
+      "answer": "A catalyst lowers the activation energy, shown as a lower peak on the energy profile diagram. The energies of the reactants and products stay the same (the overall energy change is unchanged), but the 'hump' the particles must get over is smaller. A dotted line is drawn for the catalysed pathway alongside the original.",
+      "keyPoints": ["Lowers the activation energy peak", "Reactant and product energies unchanged", "Overall energy change is the same", "Shown as dotted line with lower peak"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-202",
+      "topic": "rates-energy",
+      "subtopic": "Catalysts & Surface Area",
+      "question": "How does increasing pressure affect the rate of gaseous reactions?",
+      "answer": "Increasing pressure pushes gas particles closer together into a smaller volume. This increases the concentration of gas particles, so there are more frequent collisions per second. More collisions means more successful collisions per unit time, increasing the rate of reaction.",
+      "keyPoints": ["Particles pushed closer together", "Same as increasing concentration for gases", "More frequent collisions", "Only applies to reactions involving gases"],
+      "difficulty": 1
+    },
+    {
+      "id": "chem-203",
+      "topic": "rates-energy",
+      "subtopic": "Catalysts & Surface Area",
+      "question": "Give examples of catalysts used in industrial processes.",
+      "answer": "Iron: catalyst in the Haber process (N2 + 3H2 -> 2NH3, making ammonia). Vanadium(V) oxide (V2O5): catalyst in the Contact process (making sulfuric acid). Manganese dioxide (MnO2): catalyst for decomposition of hydrogen peroxide. Nickel: catalyst for hydrogenation of vegetable oils.",
+      "keyPoints": ["Iron: Haber process (ammonia)", "V2O5: Contact process (sulfuric acid)", "MnO2: decomposition of H2O2", "Nickel: hydrogenation of oils"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-204",
+      "topic": "rates-energy",
+      "subtopic": "Exothermic & Endothermic Reactions",
+      "question": "What is an exothermic reaction?",
+      "answer": "An exothermic reaction transfers energy to the surroundings, causing the temperature to rise. The products have less energy than the reactants. Examples: combustion (burning fuels), neutralisation (acid + alkali), oxidation reactions, and hand warmers. On an energy profile, the products are lower than the reactants.",
+      "keyPoints": ["Transfers energy to surroundings", "Temperature rises", "Products have less energy than reactants", "Examples: combustion, neutralisation"],
+      "difficulty": 1
+    },
+    {
+      "id": "chem-205",
+      "topic": "rates-energy",
+      "subtopic": "Exothermic & Endothermic Reactions",
+      "question": "What is an endothermic reaction?",
+      "answer": "An endothermic reaction takes in energy from the surroundings, causing the temperature to fall. The products have more energy than the reactants. Examples: thermal decomposition (e.g. CaCO3 -> CaO + CO2), photosynthesis, citric acid + sodium hydrogencarbonate, and cold packs.",
+      "keyPoints": ["Takes in energy from surroundings", "Temperature falls", "Products have more energy than reactants", "Examples: thermal decomposition, cold packs"],
+      "difficulty": 1
+    },
+    {
+      "id": "chem-206",
+      "topic": "rates-energy",
+      "subtopic": "Exothermic & Endothermic Reactions",
+      "question": "How do you draw energy profile diagrams for exothermic and endothermic reactions?",
+      "answer": "For exothermic: reactants start high, there is a peak (activation energy), then products end lower. The difference between reactant and product energy levels is the energy released. For endothermic: reactants start low, peak for activation energy, products end higher. The difference is the energy absorbed.",
+      "keyPoints": ["Exothermic: products LOWER than reactants", "Endothermic: products HIGHER than reactants", "Both have an activation energy peak", "Energy difference = energy released or absorbed"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-207",
+      "topic": "rates-energy",
+      "subtopic": "Exothermic & Endothermic Reactions",
+      "question": "How do you use bond energies to calculate the overall energy change?",
+      "answer": "Step 1: Calculate total energy to BREAK all bonds in reactants (endothermic, positive). Step 2: Calculate total energy to MAKE all bonds in products (exothermic, negative). Step 3: Overall energy change = energy to break bonds - energy to make bonds. If positive = endothermic. If negative = exothermic.",
+      "keyPoints": ["Breaking bonds requires energy (endothermic)", "Making bonds releases energy (exothermic)", "Overall = bonds broken - bonds made", "Negative result = exothermic, positive = endothermic"],
+      "difficulty": 3,
+      "examTip": "Draw out all the structural formulae to count bonds correctly. Don't forget double bonds count as two bonds!"
+    },
+    {
+      "id": "chem-208",
+      "topic": "rates-energy",
+      "subtopic": "Exothermic & Endothermic Reactions",
+      "question": "Give everyday examples of exothermic and endothermic processes.",
+      "answer": "Exothermic: hand warmers (iron oxidation), self-heating cans, combustion of fuels, respiration. Endothermic: instant cold packs (ammonium nitrate dissolving), photosynthesis, thermal decomposition of limestone in a kiln, melting ice cubes.",
+      "keyPoints": ["Exothermic: hand warmers, combustion, respiration", "Endothermic: cold packs, photosynthesis", "Exothermic: temperature rises", "Endothermic: temperature falls"],
+      "difficulty": 1
+    },
+    {
+      "id": "chem-209",
+      "topic": "rates-energy",
+      "subtopic": "Equilibrium",
+      "question": "What is a reversible reaction?",
+      "answer": "A reversible reaction is one that can go in both directions — forwards (reactants to products) and backwards (products back to reactants). It is shown with a double-headed arrow. Example: ammonium chloride decomposes when heated (NH4Cl -> NH3 + HCl) and reforms when cooled.",
+      "keyPoints": ["Can go forwards and backwards", "Shown with double-headed arrow", "Example: NH4Cl decomposition", "Products can re-form reactants"],
+      "difficulty": 1
+    },
+    {
+      "id": "chem-210",
+      "topic": "rates-energy",
+      "subtopic": "Equilibrium",
+      "question": "What is dynamic equilibrium?",
+      "answer": "Dynamic equilibrium occurs in a closed system when the rate of the forward reaction equals the rate of the backward reaction. The concentrations of reactants and products remain constant (but not necessarily equal). It is 'dynamic' because both reactions are still occurring, just at the same rate.",
+      "keyPoints": ["Rate of forward = rate of backward reaction", "Concentrations remain constant", "Must be in a closed system", "Dynamic: both reactions still occurring"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-211",
+      "topic": "rates-energy",
+      "subtopic": "Equilibrium",
+      "question": "How does changing temperature affect the position of equilibrium?",
+      "answer": "Increasing temperature shifts equilibrium in the endothermic direction (to absorb the extra heat). Decreasing temperature shifts it in the exothermic direction (to release heat). For example, if the forward reaction is exothermic, increasing temperature shifts equilibrium to the left (towards reactants).",
+      "keyPoints": ["Increase temp: shifts towards endothermic direction", "Decrease temp: shifts towards exothermic direction", "System opposes the change in temperature", "Affects both position and value of equilibrium constant"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-212",
+      "topic": "rates-energy",
+      "subtopic": "Equilibrium",
+      "question": "How does changing concentration affect the position of equilibrium?",
+      "answer": "Increasing the concentration of a reactant shifts equilibrium to the right (towards products) to use up the extra reactant. Increasing the concentration of a product shifts it to the left (towards reactants). The system always opposes the change to restore equilibrium.",
+      "keyPoints": ["More reactant: shifts right (towards products)", "More product: shifts left (towards reactants)", "System opposes the change", "Equilibrium is re-established at new position"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-213",
+      "topic": "rates-energy",
+      "subtopic": "Equilibrium",
+      "question": "How does changing pressure affect gaseous equilibria?",
+      "answer": "Increasing pressure shifts equilibrium towards the side with FEWER gas molecules (to reduce pressure). Decreasing pressure shifts it towards the side with MORE gas molecules. Example: N2 + 3H2 <-> 2NH3 — increasing pressure shifts right (4 moles of gas to 2 moles). If equal moles on each side, pressure has no effect.",
+      "keyPoints": ["Increase pressure: shifts to fewer gas molecules", "Decrease pressure: shifts to more gas molecules", "Count moles of gas on each side", "No effect if equal moles on both sides"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-214",
+      "topic": "rates-energy",
+      "subtopic": "Equilibrium",
+      "question": "What is Le Chatelier's principle?",
+      "answer": "Le Chatelier's principle states that if a system at equilibrium is subjected to a change (temperature, pressure, or concentration), the equilibrium will shift in the direction that opposes the change, to partially counteract it. The system 'fights back' against the change to restore a new equilibrium position.",
+      "keyPoints": ["System opposes any change imposed on it", "Shifts to counteract the change", "Applies to temperature, pressure, concentration", "Restores a new equilibrium position"],
+      "difficulty": 3,
+      "examTip": "A catalyst does NOT affect the position of equilibrium — it only speeds up both forward and backward reactions equally."
+    },
+    {
+      "id": "chem-215",
+      "topic": "organic-chemistry",
+      "subtopic": "Crude Oil & Hydrocarbons",
+      "question": "What is crude oil and how was it formed?",
+      "answer": "Crude oil is a dark, smelly liquid found underground. It is a finite (non-renewable) resource formed over millions of years from the remains of ancient marine organisms (plankton) that were buried under layers of sediment. Heat and pressure converted them into crude oil. It is a complex mixture of hydrocarbons.",
+      "keyPoints": ["Fossil fuel from ancient marine organisms", "Formed over millions of years", "Finite/non-renewable resource", "Complex mixture of hydrocarbons"],
+      "difficulty": 1
+    },
+    {
+      "id": "chem-216",
+      "topic": "organic-chemistry",
+      "subtopic": "Crude Oil & Hydrocarbons",
+      "question": "What is a hydrocarbon?",
+      "answer": "A hydrocarbon is a compound that contains only hydrogen and carbon atoms. Crude oil is mostly made of hydrocarbons. They can be chains (alkanes, alkenes) or rings. The simplest hydrocarbon is methane (CH4).",
+      "keyPoints": ["Contains ONLY hydrogen and carbon", "Crude oil is mainly hydrocarbons", "Can be chains or rings", "Simplest: methane (CH4)"],
+      "difficulty": 1
+    },
+    {
+      "id": "chem-217",
+      "topic": "organic-chemistry",
+      "subtopic": "Crude Oil & Hydrocarbons",
+      "question": "How does fractional distillation of crude oil work?",
+      "answer": "Crude oil is heated until it vaporises, then fed into a fractionating column. The column is hot at the bottom and cool at the top. Different hydrocarbons condense at different heights depending on their boiling points. Small molecules (low bp) rise to the top. Large molecules (high bp) condense near the bottom. Each fraction is collected at a different level.",
+      "keyPoints": ["Column: hot at bottom, cool at top", "Small molecules rise to top (low boiling point)", "Large molecules stay at bottom (high boiling point)", "Separates crude oil into fractions"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-218",
+      "topic": "organic-chemistry",
+      "subtopic": "Crude Oil & Hydrocarbons",
+      "question": "What are the main fractions from crude oil and their uses?",
+      "answer": "From top to bottom: Gases (LPG, heating/cooking). Petrol/gasoline (car fuel). Naphtha (chemical feedstock). Kerosene (jet fuel). Diesel (lorry/bus fuel). Fuel oil (ships, power stations). Bitumen (roads, roofing). Fractions at the top have smaller molecules, lower boiling points, and are more useful as fuels.",
+      "keyPoints": ["Gases: LPG, Petrol: car fuel", "Kerosene: jet fuel, Diesel: lorry fuel", "Fuel oil: ships, Bitumen: roads", "Top = small molecules, bottom = large molecules"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-219",
+      "topic": "organic-chemistry",
+      "subtopic": "Crude Oil & Hydrocarbons",
+      "question": "How do properties of hydrocarbons change with chain length?",
+      "answer": "As chain length increases: boiling point increases (stronger intermolecular forces between larger molecules), viscosity increases (thicker, flows less easily), flammability decreases (harder to ignite), colour gets darker. Short-chain hydrocarbons make better fuels because they ignite easily and burn cleanly.",
+      "keyPoints": ["Longer chain = higher boiling point", "Longer chain = more viscous (thicker)", "Longer chain = less flammable", "Short chains make better fuels"],
+      "difficulty": 2,
+      "examTip": "Link the trend to intermolecular forces: longer chains have MORE intermolecular forces to overcome."
+    },
+    {
+      "id": "chem-220",
+      "topic": "organic-chemistry",
+      "subtopic": "Crude Oil & Hydrocarbons",
+      "question": "Why is crude oil considered a finite resource and what are the environmental concerns?",
+      "answer": "Crude oil is finite because it takes millions of years to form and we are using it much faster than it can be replaced. Environmental concerns: burning produces CO2 (climate change), SO2 (acid rain), and particulates (health problems). Oil spills damage ecosystems. We should develop alternative energy sources.",
+      "keyPoints": ["Takes millions of years to form (non-renewable)", "CO2 from burning causes climate change", "SO2 causes acid rain", "Oil spills damage ecosystems"],
+      "difficulty": 1
+    },
+    {
+      "id": "chem-221",
+      "topic": "organic-chemistry",
+      "subtopic": "Alkanes & Combustion",
+      "question": "What are alkanes? What is the general formula?",
+      "answer": "Alkanes are saturated hydrocarbons with only single covalent bonds between carbon atoms. General formula: CnH2n+2. They form a homologous series (family of compounds with same general formula and similar properties). First four: methane CH4, ethane C2H6, propane C3H8, butane C4H10.",
+      "keyPoints": ["Saturated = only single bonds", "General formula: CnH2n+2", "Homologous series", "CH4, C2H6, C3H8, C4H10"],
+      "difficulty": 1
+    },
+    {
+      "id": "chem-222",
+      "topic": "organic-chemistry",
+      "subtopic": "Alkanes & Combustion",
+      "question": "What is complete combustion?",
+      "answer": "Complete combustion occurs when a fuel burns in plenty of oxygen. The products are carbon dioxide and water. It releases lots of energy. Example: CH4 + 2O2 -> CO2 + 2H2O (methane burning). Complete combustion is desirable because it releases maximum energy and produces less harmful products.",
+      "keyPoints": ["Fuel + excess oxygen", "Products: CO2 + H2O", "Releases maximum energy", "CH4 + 2O2 -> CO2 + 2H2O"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-223",
+      "topic": "organic-chemistry",
+      "subtopic": "Alkanes & Combustion",
+      "question": "What is incomplete combustion and why is it dangerous?",
+      "answer": "Incomplete combustion occurs when there is not enough oxygen. It produces carbon monoxide (CO) and/or carbon (soot) instead of (or as well as) carbon dioxide. Carbon monoxide is toxic — it binds to haemoglobin in red blood cells, preventing oxygen transport, which can be fatal. Soot causes breathing problems.",
+      "keyPoints": ["Not enough oxygen for complete combustion", "Produces CO (carbon monoxide) and/or soot", "CO is toxic — binds to haemoglobin", "Less energy released than complete combustion"],
+      "difficulty": 2,
+      "examTip": "CO is colourless and odourless, making it very dangerous. This is why carbon monoxide detectors are important in homes."
+    },
+    {
+      "id": "chem-224",
+      "topic": "organic-chemistry",
+      "subtopic": "Alkanes & Combustion",
+      "question": "What is cracking and why is it done?",
+      "answer": "Cracking is breaking down long-chain hydrocarbons into shorter, more useful molecules. It is done because there is more demand for short-chain hydrocarbons (petrol, gases) than the long-chain ones produced by distillation. Methods: thermal cracking (high temperature, high pressure) or catalytic cracking (lower temperature + zeolite catalyst).",
+      "keyPoints": ["Breaks long chains into shorter ones", "High demand for short chains (petrol, gases)", "Thermal: high temp/pressure", "Catalytic: zeolite catalyst, lower temperature"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-225",
+      "topic": "organic-chemistry",
+      "subtopic": "Alkanes & Combustion",
+      "question": "What products does cracking produce?",
+      "answer": "Cracking produces shorter alkanes (used as fuels) AND alkenes (used to make polymers/plastics). For example, cracking decane: C10H22 -> C8H18 + C2H4 (octane + ethene). Alkenes are valuable because they are used as the starting material for making plastics through polymerisation.",
+      "keyPoints": ["Shorter alkanes (fuels) + alkenes", "Alkenes are used to make polymers", "Example: C10H22 -> C8H18 + C2H4", "Always produces at least one alkene"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-226",
+      "topic": "organic-chemistry",
+      "subtopic": "Alkanes & Combustion",
+      "question": "Name the first four alkanes and draw their structures.",
+      "answer": "Methane: CH4 (1 carbon, 4 hydrogens). Ethane: C2H6 (2 carbons, 6 hydrogens). Propane: C3H8 (3 carbons, 8 hydrogens). Butane: C4H10 (4 carbons, 10 hydrogens). Each carbon forms 4 bonds. The carbons are joined in a chain with hydrogens filling the remaining bonds.",
+      "keyPoints": ["Methane CH4, Ethane C2H6", "Propane C3H8, Butane C4H10", "Each C makes 4 bonds", "Fit general formula CnH2n+2"],
+      "difficulty": 1
+    },
+    {
+      "id": "chem-227",
+      "topic": "organic-chemistry",
+      "subtopic": "Alkenes & Addition Reactions",
+      "question": "What are alkenes? What is the general formula?",
+      "answer": "Alkenes are unsaturated hydrocarbons that contain a carbon-carbon double bond (C=C). General formula: CnH2n. They form a homologous series. First three: ethene C2H4, propene C3H6, butene C4H8. The double bond makes them more reactive than alkanes.",
+      "keyPoints": ["Unsaturated = contain C=C double bond", "General formula: CnH2n", "More reactive than alkanes", "Ethene C2H4, Propene C3H6, Butene C4H8"],
+      "difficulty": 1
+    },
+    {
+      "id": "chem-228",
+      "topic": "organic-chemistry",
+      "subtopic": "Alkenes & Addition Reactions",
+      "question": "How do you test for unsaturation (presence of a C=C double bond)?",
+      "answer": "Add bromine water (orange/brown) to the substance. If a double bond is present (alkene), the bromine water is decolorised (turns colourless). This is because bromine adds across the double bond in an addition reaction. If the substance is an alkane (saturated), the bromine water stays orange.",
+      "keyPoints": ["Add bromine water (orange)", "Alkene: bromine water decolorised (colourless)", "Alkane: bromine water stays orange", "Bromine adds across the C=C double bond"],
+      "difficulty": 2,
+      "examTip": "Say 'decolorised' not 'decoloured' or 'goes clear'. The correct term matters in exams."
+    },
+    {
+      "id": "chem-229",
+      "topic": "organic-chemistry",
+      "subtopic": "Alkenes & Addition Reactions",
+      "question": "What is an addition reaction?",
+      "answer": "An addition reaction is when a molecule adds across a double bond, opening it up to form a single bond. The two atoms from the added molecule each bond to one of the carbon atoms that were in the double bond. Only one product is formed (100% atom economy). Example: ethene + bromine -> dibromoethane.",
+      "keyPoints": ["Molecule adds across the C=C double bond", "Double bond opens to single bond", "Only one product formed", "100% atom economy"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-230",
+      "topic": "organic-chemistry",
+      "subtopic": "Alkenes & Addition Reactions",
+      "question": "What is hydrogenation and what is it used for?",
+      "answer": "Hydrogenation is the addition of hydrogen (H2) across a C=C double bond, using a nickel catalyst at about 150 degrees C. It converts unsaturated compounds (alkenes) into saturated compounds (alkanes). It is used industrially to convert vegetable oils (unsaturated) into margarine (saturated, solid at room temperature).",
+      "keyPoints": ["Addition of H2 across C=C bond", "Nickel catalyst, ~150 degrees C", "Unsaturated -> saturated", "Used to make margarine from vegetable oils"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-231",
+      "topic": "organic-chemistry",
+      "subtopic": "Alkenes & Addition Reactions",
+      "question": "What is hydration of ethene and why is it important?",
+      "answer": "Hydration is the addition of water (steam) across the C=C double bond of ethene: C2H4 + H2O -> C2H5OH (ethanol). It uses a phosphoric acid catalyst at high temperature and pressure. This is one of two methods to make ethanol industrially — it is faster and produces purer ethanol than fermentation.",
+      "keyPoints": ["Ethene + steam -> ethanol", "Phosphoric acid catalyst", "High temperature and pressure", "Faster and purer than fermentation"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-232",
+      "topic": "organic-chemistry",
+      "subtopic": "Alkenes & Addition Reactions",
+      "question": "What is the addition of a halogen to an alkene?",
+      "answer": "When a halogen (e.g. Br2) reacts with an alkene, it adds across the double bond. Example: ethene + bromine -> 1,2-dibromoethane (C2H4Br2). The C=C opens up and each bromine atom bonds to one of the carbon atoms. This is the basis of the bromine water test for unsaturation.",
+      "keyPoints": ["Halogen adds across the C=C bond", "C2H4 + Br2 -> C2H4Br2", "Double bond opens up", "Basis of the bromine water test"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-233",
+      "topic": "organic-chemistry",
+      "subtopic": "Alcohols, Carboxylic Acids & Esters",
+      "question": "What is the alcohol functional group and what are the properties of ethanol?",
+      "answer": "The alcohol functional group is -OH (hydroxyl group). General formula: CnH2n+1OH. Ethanol (C2H5OH) is the most important alcohol. It dissolves in water, has a relatively low boiling point for its size, burns in air to produce CO2 and H2O, and is used as a solvent, fuel, and in alcoholic drinks.",
+      "keyPoints": ["Functional group: -OH (hydroxyl)", "General formula: CnH2n+1OH", "Ethanol: C2H5OH", "Used as solvent, fuel, in drinks"],
+      "difficulty": 1
+    },
+    {
+      "id": "chem-234",
+      "topic": "organic-chemistry",
+      "subtopic": "Alcohols, Carboxylic Acids & Esters",
+      "question": "What are the two methods of producing ethanol?",
+      "answer": "Method 1: Fermentation — glucose is converted to ethanol + CO2 by yeast enzymes at ~37 degrees C. C6H12O6 -> 2C2H5OH + 2CO2. Method 2: Hydration of ethene — ethene + steam with phosphoric acid catalyst at high temperature/pressure. Fermentation is renewable but slow; hydration is faster but uses fossil fuels.",
+      "keyPoints": ["Fermentation: glucose + yeast -> ethanol + CO2", "Hydration: ethene + steam -> ethanol", "Fermentation: renewable, slow, impure", "Hydration: fast, pure, uses fossil fuels"],
+      "difficulty": 2,
+      "examTip": "You may be asked to compare both methods. Know the advantages and disadvantages of each."
+    },
+    {
+      "id": "chem-235",
+      "topic": "organic-chemistry",
+      "subtopic": "Alcohols, Carboxylic Acids & Esters",
+      "question": "What is the carboxylic acid functional group?",
+      "answer": "The carboxylic acid functional group is -COOH (a C=O and an -OH on the same carbon). General formula: CnH2n+1COOH. Examples: methanoic acid (HCOOH), ethanoic acid (CH3COOH — found in vinegar). They are weak acids — they partially dissociate in water to produce H+ ions.",
+      "keyPoints": ["Functional group: -COOH", "General formula: CnH2n+1COOH", "Ethanoic acid (vinegar): CH3COOH", "Weak acids: partially dissociate"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-236",
+      "topic": "organic-chemistry",
+      "subtopic": "Alcohols, Carboxylic Acids & Esters",
+      "question": "What reactions do carboxylic acids undergo?",
+      "answer": "Carboxylic acids react like other acids but more weakly: (1) With metals: produce salt + hydrogen. (2) With carbonates: produce salt + water + CO2. (3) With alkalis: produce salt + water (neutralisation). (4) With alcohols: produce an ester + water (esterification). The salt of a carboxylic acid ends in '-anoate'.",
+      "keyPoints": ["React with metals, carbonates, alkalis like other acids", "React with alcohols to form esters", "Weaker reactions than strong acids", "Salts end in -anoate (e.g. sodium ethanoate)"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-237",
+      "topic": "organic-chemistry",
+      "subtopic": "Alcohols, Carboxylic Acids & Esters",
+      "question": "What are esters and how are they made?",
+      "answer": "Esters are compounds with a fruity smell, made by reacting a carboxylic acid with an alcohol in the presence of a sulfuric acid catalyst. This is called esterification: Carboxylic acid + Alcohol -> Ester + Water. Example: ethanoic acid + ethanol -> ethyl ethanoate + water. Esters are used as flavourings, perfumes, and solvents.",
+      "keyPoints": ["Carboxylic acid + alcohol -> ester + water", "Need sulfuric acid catalyst", "Have fruity smells", "Used in flavourings, perfumes, solvents"],
+      "difficulty": 3
+    },
+    {
+      "id": "chem-238",
+      "topic": "organic-chemistry",
+      "subtopic": "Alcohols, Carboxylic Acids & Esters",
+      "question": "How do you name an ester?",
+      "answer": "An ester name has two parts: the first part comes from the alcohol (ending in -yl), the second part comes from the carboxylic acid (ending in -anoate). Example: ethanol + ethanoic acid = ethyl ethanoate. Methanol + propanoic acid = methyl propanoate.",
+      "keyPoints": ["First part from alcohol (-yl)", "Second part from acid (-anoate)", "Ethanol + ethanoic acid = ethyl ethanoate", "Methanol + propanoic acid = methyl propanoate"],
+      "difficulty": 3
+    },
+    {
+      "id": "chem-239",
+      "topic": "organic-chemistry",
+      "subtopic": "Polymers & Plastics",
+      "question": "What is addition polymerisation?",
+      "answer": "Addition polymerisation is when many small alkene molecules (monomers) join together to form a long chain (polymer) by opening their C=C double bonds. No other substance is produced — only the polymer. Example: many ethene (C2H4) molecules join to form poly(ethene), commonly known as polythene/polyethylene.",
+      "keyPoints": ["Many monomers join to form a polymer", "C=C double bonds open up", "Only one product (the polymer)", "Example: ethene -> poly(ethene)"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-240",
+      "topic": "organic-chemistry",
+      "subtopic": "Polymers & Plastics",
+      "question": "How do you draw a polymer from its monomer?",
+      "answer": "Take the monomer (an alkene), open the double bond to single bond, and show the repeating unit in square brackets with an 'n' subscript. For ethene: the monomer is CH2=CH2, the repeating unit is [-CH2-CH2-]n. Show bond lines extending from both sides of the brackets to show the chain continues.",
+      "keyPoints": ["Open the C=C double bond to C-C single bond", "Draw repeating unit in square brackets", "Add 'n' subscript (n = large number)", "Extend bond lines outside brackets"],
+      "difficulty": 2,
+      "examTip": "You must show the bonds extending OUTSIDE the square brackets to get the mark."
+    },
+    {
+      "id": "chem-241",
+      "topic": "organic-chemistry",
+      "subtopic": "Polymers & Plastics",
+      "question": "What is condensation polymerisation?",
+      "answer": "Condensation polymerisation is when monomers with two functional groups join together, releasing a small molecule (usually water) each time a bond forms. Unlike addition polymerisation, TWO products are formed (polymer + water). Examples: polyesters (from a diol + dicarboxylic acid), nylon (from a diamine + dicarboxylic acid).",
+      "keyPoints": ["Monomers with two functional groups", "Small molecule released (usually water)", "Two products: polymer + water", "Examples: polyester, nylon"],
+      "difficulty": 3
+    },
+    {
+      "id": "chem-242",
+      "topic": "organic-chemistry",
+      "subtopic": "Polymers & Plastics",
+      "question": "What are some natural polymers?",
+      "answer": "DNA: polymer of nucleotides (carries genetic information). Starch: polymer of glucose (energy storage in plants). Cellulose: polymer of glucose (plant cell walls). Proteins: polymers of amino acids (enzymes, structures). Silk and wool: natural protein fibres. Rubber: natural polymer from latex.",
+      "keyPoints": ["DNA: nucleotide polymer", "Starch/cellulose: glucose polymers", "Proteins: amino acid polymers", "All are condensation polymers"],
+      "difficulty": 2
+    },
+    {
+      "id": "chem-243",
+      "topic": "organic-chemistry",
+      "subtopic": "Polymers & Plastics",
+      "question": "What are the problems with plastic disposal?",
+      "answer": "Most plastics are not biodegradable — they persist in landfills for hundreds of years. Burning plastics releases toxic gases (e.g. HCl from PVC). Plastic pollution in oceans harms wildlife. Solutions include: recycling, developing biodegradable plastics, reducing plastic use, and incineration with energy recovery.",
+      "keyPoints": ["Most plastics are not biodegradable", "Persist in landfills for hundreds of years", "Burning releases toxic gases", "Solutions: recycle, biodegradable plastics, reduce use"],
+      "difficulty": 1
+    },
+    {
+      "id": "chem-244",
+      "topic": "organic-chemistry",
+      "subtopic": "Polymers & Plastics",
+      "question": "What is the difference between biodegradable and non-biodegradable plastics?",
+      "answer": "Biodegradable plastics can be broken down by microorganisms (bacteria) in the environment over a reasonable time. Non-biodegradable plastics cannot be broken down naturally and persist for hundreds of years. Scientists are developing new biodegradable plastics from plant-based materials (e.g. corn starch) to reduce pollution.",
+      "keyPoints": ["Biodegradable: broken down by microorganisms", "Non-biodegradable: persist for hundreds of years", "Most traditional plastics are non-biodegradable", "New plastics made from plant materials"],
+      "difficulty": 1
+    }
+  ]
 }
