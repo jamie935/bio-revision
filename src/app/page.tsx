@@ -1,101 +1,162 @@
-import Image from "next/image";
+"use client";
+
+import { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import { TopicBrowser } from "@/components/TopicBrowser";
+import { QuizMode } from "@/components/QuizMode";
+import { Dashboard } from "@/components/Dashboard";
+import { Button } from "@/components/ui/button";
+import { BookOpen, BarChart3, GraduationCap, Dna, FlaskConical } from "lucide-react";
+import { type Subject } from "@/data/subjects";
+
+type View = "topics" | "quiz" | "dashboard";
 
 export default function Home() {
-  return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+  const [view, setView] = useState<View>("topics");
+  const [quizTopic, setQuizTopic] = useState<string | undefined>();
+  const [subject, setSubject] = useState<Subject>("biology");
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+  const startQuiz = (topicId?: string) => {
+    setQuizTopic(topicId);
+    setView("quiz");
+  };
+
+  const goBack = () => {
+    setView("topics");
+    setQuizTopic(undefined);
+  };
+
+  const switchSubject = (s: Subject) => {
+    setSubject(s);
+    setView("topics");
+    setQuizTopic(undefined);
+  };
+
+  return (
+    <div className="min-h-screen">
+      {/* Header */}
+      <header className="bg-white border-b sticky top-0 z-50">
+        <div className="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
+          <div className="flex items-center gap-3">
+            <div
+              className={`w-10 h-10 bg-gradient-to-br rounded-xl flex items-center justify-center transition-all duration-300 ${
+                subject === "biology"
+                  ? "from-indigo-500 to-purple-600"
+                  : "from-orange-500 to-red-500"
+              }`}
+            >
+              {subject === "biology" ? (
+                <Dna className="w-6 h-6 text-white" />
+              ) : (
+                <FlaskConical className="w-6 h-6 text-white" />
+              )}
+            </div>
+            <div>
+              <h1 className="font-bold text-lg text-gray-800">GCSE Revision</h1>
+              <p className="text-[11px] text-gray-400">Edexcel IGCSE Year 10</p>
+            </div>
+          </div>
+
+          <nav className="flex gap-1">
+            <Button
+              variant={view === "topics" ? "default" : "ghost"}
+              size="sm"
+              onClick={() => setView("topics")}
+              className="gap-1.5"
+            >
+              <BookOpen className="w-4 h-4" />
+              <span className="hidden sm:inline">Topics</span>
+            </Button>
+            <Button
+              variant={view === "quiz" ? "default" : "ghost"}
+              size="sm"
+              onClick={() => startQuiz()}
+              className="gap-1.5"
+            >
+              <GraduationCap className="w-4 h-4" />
+              <span className="hidden sm:inline">Quick Quiz</span>
+            </Button>
+            <Button
+              variant={view === "dashboard" ? "default" : "ghost"}
+              size="sm"
+              onClick={() => setView("dashboard")}
+              className="gap-1.5"
+            >
+              <BarChart3 className="w-4 h-4" />
+              <span className="hidden sm:inline">Dashboard</span>
+            </Button>
+          </nav>
         </div>
+
+        {/* Subject Switcher */}
+        <div className="max-w-5xl mx-auto px-4 pb-3">
+          <div className="flex gap-2">
+            <button
+              onClick={() => switchSubject("biology")}
+              className={`flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 ${
+                subject === "biology"
+                  ? "bg-indigo-100 text-indigo-700 ring-2 ring-indigo-300 shadow-sm"
+                  : "bg-gray-100 text-gray-500 hover:bg-gray-200"
+              }`}
+            >
+              <span className="text-lg">🧬</span>
+              Biology
+            </button>
+            <button
+              onClick={() => switchSubject("chemistry")}
+              className={`flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 ${
+                subject === "chemistry"
+                  ? "bg-orange-100 text-orange-700 ring-2 ring-orange-300 shadow-sm"
+                  : "bg-gray-100 text-gray-500 hover:bg-gray-200"
+              }`}
+            >
+              <span className="text-lg">⚗️</span>
+              Chemistry
+            </button>
+          </div>
+        </div>
+      </header>
+
+      {/* Main Content */}
+      <main className="max-w-5xl mx-auto px-4 py-8">
+        <AnimatePresence mode="wait">
+          {view === "topics" && (
+            <motion.div
+              key={`topics-${subject}`}
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              transition={{ duration: 0.2 }}
+            >
+              <TopicBrowser onStartQuiz={startQuiz} subject={subject} />
+            </motion.div>
+          )}
+
+          {view === "quiz" && (
+            <motion.div
+              key={`quiz-${subject}`}
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              transition={{ duration: 0.2 }}
+            >
+              <QuizMode onBack={goBack} topicFilter={quizTopic} subject={subject} />
+            </motion.div>
+          )}
+
+          {view === "dashboard" && (
+            <motion.div
+              key={`dashboard-${subject}`}
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              transition={{ duration: 0.2 }}
+            >
+              <Dashboard onStartQuiz={startQuiz} subject={subject} />
+            </motion.div>
+          )}
+        </AnimatePresence>
       </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
     </div>
   );
 }
