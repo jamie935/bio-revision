@@ -6,9 +6,10 @@ import { TopicBrowser } from "@/components/TopicBrowser";
 import { QuizMode } from "@/components/QuizMode";
 import { Dashboard } from "@/components/Dashboard";
 import { Button } from "@/components/ui/button";
-import { BookOpen, BarChart3, GraduationCap, Dna, FlaskConical, Atom } from "lucide-react";
+import { BookOpen, BarChart3, GraduationCap, Dna, FlaskConical, Atom, Upload } from "lucide-react";
 import { type Subject } from "@/data/subjects";
 import { PeriodicTable } from "@/components/PeriodicTable";
+import { ContentUpload } from "@/components/ContentUpload";
 
 type View = "topics" | "quiz" | "dashboard" | "periodic-table";
 
@@ -16,6 +17,7 @@ export default function Home() {
   const [view, setView] = useState<View>("topics");
   const [quizTopic, setQuizTopic] = useState<string | undefined>();
   const [subject, setSubject] = useState<Subject>("biology");
+  const [showUpload, setShowUpload] = useState(false);
 
   const startQuiz = (topicId?: string) => {
     setQuizTopic(topicId);
@@ -97,6 +99,15 @@ export default function Home() {
                 <span className="hidden sm:inline">Periodic Table</span>
               </Button>
             )}
+            <Button
+              variant="ghost"
+              size="sm"
+              onClick={() => setShowUpload(true)}
+              className="gap-1.5 text-green-600 hover:text-green-700 hover:bg-green-50"
+            >
+              <Upload className="w-4 h-4" />
+              <span className="hidden sm:inline">Add Content</span>
+            </Button>
           </nav>
         </div>
 
@@ -183,6 +194,9 @@ export default function Home() {
           )}
         </AnimatePresence>
       </main>
+
+      {/* Upload Modal */}
+      <ContentUpload isOpen={showUpload} onClose={() => setShowUpload(false)} />
     </div>
   );
 }

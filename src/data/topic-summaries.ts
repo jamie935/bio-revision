@@ -1,3 +1,6 @@
+// Import AI-generated summaries (auto-populated by the upload pipeline)
+import summariesGenerated from "./generated/summaries-generated.json";
+
 export interface TopicSummary {
   topicId: string;
   subject: "biology" | "chemistry";
@@ -13,7 +16,7 @@ export interface SummarySection {
   tables?: { title: string; headers: string[]; rows: string[][] }[];
 }
 
-export const topicSummaries: TopicSummary[] = [
+const baseSummaries: TopicSummary[] = [
   // =====================================================================
   // TOPIC 1: CELL BIOLOGY
   // =====================================================================
@@ -566,4 +569,10 @@ export const topicSummaries: TopicSummary[] = [
       },
     ],
   },
+];
+
+// Merge hand-crafted and AI-generated summaries
+export const topicSummaries: TopicSummary[] = [
+  ...baseSummaries,
+  ...(summariesGenerated.summaries as unknown as TopicSummary[]),
 ];
