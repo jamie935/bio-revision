@@ -55,8 +55,9 @@ export default function Home() {
               )}
             </div>
             <div>
+              <p className="font-[family-name:var(--font-signature)] text-base text-blue-600">By Avi True</p>
               <h1 className="font-bold text-lg text-gray-800">GCSE Revision</h1>
-              <p className="text-[11px] text-gray-400">Edexcel IGCSE Year 10</p>
+              <p className="text-[11px] text-gray-400">Edexcel IGCSE</p>
             </div>
           </div>
 

@@ -1,5 +1,12 @@
 import type { Metadata } from "next";
+import { Dancing_Script } from "next/font/google";
 import "./globals.css";
+
+export const dancingScript = Dancing_Script({
+  subsets: ["latin"],
+  weight: ["700"],
+  variable: "--font-signature",
+});
 
 export const metadata: Metadata = {
   title: "GCSE Biology Revision - Edexcel IGCSE",
@@ -13,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="antialiased bg-gray-50 min-h-screen">
+      <body className={`antialiased bg-gray-50 min-h-screen ${dancingScript.variable}`}>
         {children}
       </body>
     </html>
