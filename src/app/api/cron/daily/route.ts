@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { supabaseAdmin } from "@/lib/supabase/server";
 import { sendWhatsApp } from "@/lib/twilio";
+import { getEnabledSubjects } from "@/lib/whatsapp-reminders";
 
 export async function GET(request: Request) {
   // Verify cron secret
@@ -24,20 +25,51 @@ export async function GET(request: Request) {
       .or(`has_paid.eq.true,free_access.eq.true,trial_ends_at.gt.${new Date().toISOString()}`);
 
     for (const user of inactiveUsers || []) {
+      // Check which subjects this user has enabled for reminders
+      const enabledSubjects = await getEnabledSubjects(user.id);
+
+      // Skip if user has disabled all subject reminders
+      if (enabledSubjects.length === 0) continue;
+
       const daysSince = Math.floor(
         (Date.now() - new Date(user.last_active_at).getTime()) / (1000 * 60 * 60 * 24)
       );
 
-      // Get due cards count
-      const { count: dueCount } = await supabaseAdmin
-        .from("card_performance")
-        .select("*", { count: "exact", head: true })
-        .eq("user_id", user.id)
-        .lt("next_due", new Date().toISOString());
+      // Get due cards count per enabled subject
+      const subjectCounts: string[] = [];
+      let totalDue = 0;
+      for (const subj of enabledSubjects) {
+        const { count } = await supabaseAdmin
+          .from("card_performance")
+          .select("*", { count: "exact", head: true })
+          .eq("user_id", user.id)
+          .eq("topic", subj)
+          .lt("next_due", new Date().toISOString());
 
-      const msg = `Hey${user.display_name ? ` ${user.display_name}` : ""}! 📚\n\nYou haven't revised in ${daysSince} days.${
-        dueCount ? ` You have ${dueCount} cards due for review.` : ""
-      }\n\nOpen the app to keep your knowledge fresh: ${process.env.NEXT_PUBLIC_APP_URL}`;
+        if (count && count > 0) {
+          const name = subj.charAt(0).toUpperCase() + subj.slice(1);
+          subjectCounts.push(`${count} ${name}`);
+          totalDue += count;
+        }
+      }
+
+      // Get total due cards as fallback
+      if (subjectCounts.length === 0) {
+        const { count: dueCount } = await supabaseAdmin
+          .from("card_performance")
+          .select("*", { count: "exact", head: true })
+          .eq("user_id", user.id)
+          .lt("next_due", new Date().toISOString());
+        if (dueCount) totalDue = dueCount;
+      }
+
+      const dueInfo = subjectCounts.length > 0
+        ? ` You have cards due: ${subjectCounts.join(", ")}.`
+        : totalDue > 0
+          ? ` You have ${totalDue} cards due for review.`
+          : "";
+
+      const msg = `Hey${user.display_name ? ` ${user.display_name}` : ""}! 📚\n\nYou haven't revised in ${daysSince} days.${dueInfo}\n\nOr text me "quiz me" for a quick quiz right here! 🧠\n\nOpen the app: ${process.env.NEXT_PUBLIC_APP_URL}`;
 
       try {
         await sendWhatsApp(user.phone, msg);

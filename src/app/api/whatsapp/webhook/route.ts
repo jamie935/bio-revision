@@ -11,6 +11,13 @@ import {
   endQuiz,
   parseQuizCommand,
 } from "@/lib/whatsapp-quiz";
+import {
+  getPreferences,
+  setPreference,
+  setAllPreferences,
+  formatPreferencesMessage,
+  parseReminderCommand,
+} from "@/lib/whatsapp-reminders";
 
 export async function POST(request: Request) {
   try {
@@ -91,12 +98,49 @@ During a quiz:
 • \`skip\` — skip a question
 • \`done\` — end the quiz & see your score
 
+⏰ *Reminders*
+• \`reminders\` — see your settings
+• \`reminders on/off\` — all reminders on/off
+• \`reminders biology off\` — turn off a subject
+
 ❓ *Get this menu again*
 Type \`help\` anytime
 
 Good luck with your revision! 🎓`;
 
       await sendReply(user.id, phone, welcomeMsg, "response");
+      return new NextResponse("OK", { status: 200 });
+    }
+
+    // Handle reminder commands
+    const reminderCmd = parseReminderCommand(lower);
+    if (reminderCmd) {
+      if (reminderCmd.action === "show") {
+        const prefs = await getPreferences(user.id);
+        const msg = formatPreferencesMessage(prefs, user.whatsapp_opted_in);
+        await sendReply(user.id, phone, msg, "response");
+      } else if (reminderCmd.action === "toggle_all") {
+        await setAllPreferences(user.id, reminderCmd.enabled!);
+        const status = reminderCmd.enabled ? "ON ✅" : "OFF ❌";
+        await sendReply(
+          user.id,
+          phone,
+          `All reminders turned *${status}*\n\nType \`reminders\` to see your settings.`,
+          "response"
+        );
+      } else if (reminderCmd.action === "toggle_subject") {
+        await setPreference(user.id, reminderCmd.subject!, reminderCmd.enabled!);
+        const name =
+          reminderCmd.subject!.charAt(0).toUpperCase() +
+          reminderCmd.subject!.slice(1);
+        const status = reminderCmd.enabled ? "ON ✅" : "OFF ❌";
+        await sendReply(
+          user.id,
+          phone,
+          `${name} reminders turned *${status}*\n\nType \`reminders\` to see all settings.`,
+          "response"
+        );
+      }
       return new NextResponse("OK", { status: 200 });
     }
 
@@ -118,14 +162,15 @@ Good luck with your revision! 🎓`;
       const card = quizState.current_card_id
         ? getCardById(quizState.current_card_id)
         : null;
-      let msg = card
-        ? `*Answer:* ${card.answer}\n\n*Key points:* ${card.keyPoints.join(", ")}\n\n`
-        : "";
+      if (card) {
+        const skipMsg = `*Answer:* ${card.answer}\n\n*Key points:* ${card.keyPoints.join(", ")}`;
+        await sendReply(user.id, phone, skipMsg, "quiz_answer");
+      }
       // Record as incorrect
       await recordQuizAnswer(user.id, quizState, false);
       const updatedState = await getQuizState(user.id);
-      msg += await nextQuestion(user.id, updatedState!);
-      await sendReply(user.id, phone, msg, "quiz_answer");
+      const nextMsg = await nextQuestion(user.id, updatedState!);
+      await sendReply(user.id, phone, nextMsg, "quiz_question");
       return new NextResponse("OK", { status: 200 });
     }
 
@@ -145,12 +190,13 @@ Good luck with your revision! 🎓`;
         await recordQuizAnswer(user.id, quizState, evaluation.correct);
 
         const icon = evaluation.correct ? "✅" : "❌";
-        let msg = `${icon} ${evaluation.feedback}\n\n*Correct answer:* ${card.answer}\n\n`;
+        const feedbackMsg = `${icon} ${evaluation.feedback}\n\n*Correct answer:* ${card.answer}`;
+        await sendReply(user.id, phone, feedbackMsg, "quiz_answer");
 
         const updatedState = await getQuizState(user.id);
-        msg += await nextQuestion(user.id, updatedState!);
+        const nextMsg = await nextQuestion(user.id, updatedState!);
+        await sendReply(user.id, phone, nextMsg, "quiz_question");
 
-        await sendReply(user.id, phone, msg, "quiz_answer");
         return new NextResponse("OK", { status: 200 });
       }
     }

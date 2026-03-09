@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import { supabaseAdmin } from "@/lib/supabase/server";
 import { signJWT } from "@/lib/auth/jwt";
 import { cookies } from "next/headers";
+import { sendWhatsApp } from "@/lib/twilio";
 
 export async function POST(request: Request) {
   try {
@@ -86,6 +87,12 @@ export async function POST(request: Request) {
         .select()
         .single();
       userId = newUser!.id;
+
+      // Fire-and-forget welcome message (don't block auth response)
+      sendWhatsApp(
+        phone,
+        `🎓 Welcome to GCSE Revision Bot!\n\nYour account is set up and you have a 7-day free trial.\n\nYou can text me anytime to:\n📚 Ask GCSE questions\n🧠 Take quick quizzes — just say "quiz me"\n📊 Track your progress\n⏰ Set reminder preferences — say "reminders"\n\nType "help" for all commands.\n\nGood luck with your revision! 💪`
+      ).catch((err) => console.error("Welcome message failed:", err));
     }
 
     // Create session
