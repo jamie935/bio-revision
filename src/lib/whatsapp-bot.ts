@@ -3,7 +3,7 @@ import type { Subject } from "@/data/subjects";
 import type { Flashcard } from "@/data/flashcards";
 
 const GEMINI_API_URL =
-  "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent";
+  "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent";
 
 // Load all flashcards across all subjects
 function getAllFlashcards(): Array<Flashcard & { subject: Subject }> {
@@ -98,7 +98,11 @@ Rules:
     }),
   });
 
-  if (!response.ok) return "Sorry, I couldn't process your question right now.";
+  if (!response.ok) {
+    const errorText = await response.text();
+    console.error("Gemini API error:", response.status, errorText);
+    return "Sorry, I couldn't process your question right now. Please try again.";
+  }
 
   const data = (await response.json()) as {
     candidates?: { content?: { parts?: { text?: string }[] } }[];
