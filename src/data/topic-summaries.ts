@@ -3,7 +3,7 @@ import summariesGenerated from "./generated/summaries-generated.json";
 
 export interface TopicSummary {
   topicId: string;
-  subject: "biology" | "chemistry";
+  subject: "biology" | "chemistry" | "physics";
   title: string;
   sections: SummarySection[];
 }
@@ -1168,6 +1168,749 @@ const baseSummaries: TopicSummary[] = [
           { term: "Addition polymerisation", definition: "Alkene monomers join by opening C=C bonds — one product only" },
           { term: "Condensation polymerisation", definition: "Monomers join releasing a small molecule (usually water)" },
           { term: "Biodegradable", definition: "Can be broken down by microorganisms in the environment" },
+        ],
+      },
+    ],
+  },
+
+  // =====================================================================
+  // PHYSICS TOPIC 1: FORCES AND MOTION
+  // =====================================================================
+  {
+    topicId: "forces-motion",
+    subject: "physics",
+    title: "Forces and Motion",
+    sections: [
+      {
+        heading: "Speed, Distance and Time",
+        content:
+          "Speed is a measure of how fast something is moving. It tells you the distance travelled per unit of time. The standard SI unit of speed is metres per second (m/s), but you may also see kilometres per hour (km/h).\n\nTo calculate speed, use the equation: speed = distance / time. This can be rearranged to find distance (distance = speed x time) or time (time = distance / speed).\n\nTypical speeds vary depending on the situation. Walking is about 1.5 m/s, running about 3 m/s, cycling about 6 m/s, and a car on a motorway about 30 m/s. Sound travels at roughly 340 m/s in air.\n\nAverage speed considers the total distance covered over the total time taken. An object may speed up, slow down, or stop during a journey, but the average speed smooths this out. Instantaneous speed is the speed at a particular moment in time.",
+        keyTerms: [
+          { term: "Speed", definition: "The distance travelled per unit time, measured in m/s" },
+          { term: "Average speed", definition: "Total distance divided by total time for a whole journey" },
+          { term: "Instantaneous speed", definition: "The speed of an object at a particular moment in time" },
+        ],
+        importantEquations: [
+          "speed (m/s) = distance (m) / time (s)",
+          "distance = speed × time",
+          "time = distance / speed",
+        ],
+      },
+      {
+        heading: "Velocity and Acceleration",
+        content:
+          "Velocity is the speed of an object in a given direction. It is a vector quantity, meaning it has both magnitude and direction. Speed is a scalar quantity — it only has magnitude. Two objects moving at the same speed but in opposite directions have different velocities.\n\nAcceleration is the rate of change of velocity. If an object is speeding up, it has a positive acceleration. If it is slowing down, it has a negative acceleration (deceleration). Acceleration is measured in metres per second squared (m/s²).\n\nThe equation for acceleration is: acceleration = change in velocity / time taken, or a = (v − u) / t, where v is the final velocity, u is the initial velocity, and t is the time taken.\n\nUniform acceleration means the velocity changes by equal amounts in equal time intervals. Non-uniform acceleration means the rate of change of velocity itself varies over time. An object in free fall near the Earth's surface accelerates uniformly at approximately 9.8 m/s² (often rounded to 10 m/s² in calculations).",
+        keyTerms: [
+          { term: "Velocity", definition: "Speed in a given direction — a vector quantity (m/s)" },
+          { term: "Acceleration", definition: "The rate of change of velocity, measured in m/s²" },
+          { term: "Deceleration", definition: "Negative acceleration — the object is slowing down" },
+          { term: "Vector quantity", definition: "A quantity that has both magnitude and direction (e.g. velocity, force)" },
+          { term: "Scalar quantity", definition: "A quantity that has magnitude only (e.g. speed, mass, distance)" },
+        ],
+        importantEquations: [
+          "a = (v − u) / t  where a = acceleration, v = final velocity, u = initial velocity, t = time",
+          "v = u + at",
+          "v² = u² + 2as  (where s = distance)",
+        ],
+      },
+      {
+        heading: "Distance–Time and Velocity–Time Graphs",
+        content:
+          "Distance–time (D–T) graphs show how far an object has travelled over time. The gradient (slope) of a D–T graph gives the speed. A straight diagonal line means constant speed. A steeper line means a faster speed. A horizontal line means the object is stationary (not moving). A curved line means the speed is changing — the object is accelerating or decelerating.\n\nVelocity–time (V–T) graphs show how the velocity of an object changes over time. The gradient of a V–T graph gives the acceleration. A positive gradient means the object is accelerating. A negative gradient means it is decelerating. A horizontal line means constant velocity. The area under a V–T graph gives the distance (displacement) travelled.\n\nTo calculate the area under a V–T graph, split it into rectangles and triangles. The area of a rectangle is base × height. The area of a triangle is ½ × base × height. Add these together to find the total distance.\n\nThese graphs are essential for analysing motion. In the exam, you may be asked to draw, interpret, or calculate values from them. Always label axes clearly and include units.",
+        keyTerms: [
+          { term: "D–T graph", definition: "A graph of distance (y-axis) against time (x-axis); gradient = speed" },
+          { term: "V–T graph", definition: "A graph of velocity (y-axis) against time (x-axis); gradient = acceleration, area under graph = distance" },
+          { term: "Gradient", definition: "The slope of a line on a graph, calculated as the change in y divided by the change in x" },
+        ],
+        importantEquations: [
+          "Gradient of D–T graph = speed",
+          "Gradient of V–T graph = acceleration",
+          "Area under V–T graph = distance travelled",
+        ],
+      },
+      {
+        heading: "Forces and Newton's Laws",
+        content:
+          "A force is a push or pull that can change the shape, speed, or direction of an object. Forces are measured in newtons (N) and are vector quantities. Common forces include weight (gravitational force), friction, air resistance (drag), tension, normal contact force, and thrust.\n\nNewton's First Law: An object remains at rest or continues to move at a constant velocity unless acted on by a resultant (unbalanced) force. If the forces on an object are balanced (resultant force = 0), there is no change in motion.\n\nNewton's Second Law: The acceleration of an object is directly proportional to the resultant force acting on it and inversely proportional to its mass. This gives the equation F = ma. A larger force produces a greater acceleration. A larger mass requires a greater force to produce the same acceleration.\n\nNewton's Third Law: When two objects interact, they exert equal and opposite forces on each other. These forces act on different objects, are the same type, and are equal in magnitude but opposite in direction. For example, when you push a wall, the wall pushes back on you with an equal force.\n\nWeight is the force of gravity acting on an object's mass. Weight = mass × gravitational field strength (W = mg). On Earth, g ≈ 9.8 N/kg (often approximated as 10 N/kg). Mass is a measure of the amount of matter and does not change with location; weight does.",
+        keyTerms: [
+          { term: "Resultant force", definition: "The overall net force on an object when all forces are combined" },
+          { term: "Newton's First Law", definition: "An object stays at rest or at constant velocity unless a resultant force acts on it" },
+          { term: "Newton's Second Law", definition: "F = ma — force equals mass times acceleration" },
+          { term: "Newton's Third Law", definition: "Every action has an equal and opposite reaction, acting on different objects" },
+          { term: "Weight", definition: "The force of gravity acting on an object, measured in newtons (W = mg)" },
+          { term: "Mass", definition: "The amount of matter in an object, measured in kilograms — does not change with location" },
+        ],
+        importantEquations: [
+          "F = ma  (force = mass × acceleration)",
+          "W = mg  (weight = mass × gravitational field strength)",
+        ],
+      },
+      {
+        heading: "Stopping Distances",
+        content:
+          "Stopping distance is the total distance a vehicle travels from when the driver first sees a hazard to when the vehicle comes to a complete stop. It is made up of two parts: thinking distance + braking distance.\n\nThinking distance is the distance the car travels during the driver's reaction time (the time between seeing the hazard and pressing the brake). Factors that increase thinking distance include tiredness, alcohol or drugs, distractions (e.g. mobile phone), higher speed, and illness.\n\nBraking distance is the distance the car travels after the brakes have been applied until it stops. Factors that increase braking distance include wet or icy roads, worn tyres, worn brakes, higher speed, and a heavier vehicle. At higher speeds, the braking force needed is much greater, and the kinetic energy that must be converted to heat by the brakes is much larger.\n\nStopping distances increase significantly with speed. If the speed doubles, the thinking distance doubles, but the braking distance roughly quadruples (because kinetic energy depends on velocity squared). This is why speed limits in urban areas are lower, to reduce stopping distances and the severity of collisions.",
+        keyTerms: [
+          { term: "Stopping distance", definition: "Total distance = thinking distance + braking distance" },
+          { term: "Thinking distance", definition: "Distance travelled during the driver's reaction time before braking begins" },
+          { term: "Braking distance", definition: "Distance travelled from when brakes are applied until the vehicle stops" },
+          { term: "Reaction time", definition: "The time between a stimulus and the driver's response, typically 0.5–1.0 seconds" },
+        ],
+      },
+      {
+        heading: "Momentum",
+        content:
+          "Momentum is a property of a moving object. It depends on both the mass and the velocity of the object. Momentum is a vector quantity (it has direction) and is measured in kilogram metres per second (kg m/s).\n\nThe equation for momentum is: p = mv, where p is momentum, m is mass, and v is velocity.\n\nThe principle of conservation of momentum states that in a closed system, the total momentum before an event (such as a collision or explosion) equals the total momentum after the event, provided no external forces act.\n\nIn a collision between two objects: total momentum before = total momentum after. This applies to both elastic collisions (where kinetic energy is conserved) and inelastic collisions (where kinetic energy is not conserved, e.g. objects stick together).\n\nForce is related to the rate of change of momentum: F = (mv − mu) / t, or equivalently F = Δp / t. A longer impact time reduces the force. This principle is used in car safety features such as crumple zones, seatbelts, and airbags, which all increase the time over which the momentum changes, thereby reducing the force on the passengers.",
+        keyTerms: [
+          { term: "Momentum", definition: "The product of mass and velocity (p = mv), measured in kg m/s" },
+          { term: "Conservation of momentum", definition: "Total momentum before an event = total momentum after, in a closed system with no external forces" },
+          { term: "Elastic collision", definition: "A collision where kinetic energy is conserved (objects bounce apart)" },
+          { term: "Inelastic collision", definition: "A collision where kinetic energy is not conserved (objects may stick together)" },
+          { term: "Crumple zone", definition: "Part of a car designed to deform on impact, increasing collision time and reducing force" },
+        ],
+        importantEquations: [
+          "p = mv  (momentum = mass × velocity)",
+          "Total momentum before = Total momentum after (conservation of momentum)",
+          "F = Δp / t  (force = change in momentum / time)",
+        ],
+      },
+    ],
+  },
+
+  // =====================================================================
+  // PHYSICS TOPIC 2: ELECTRICITY
+  // =====================================================================
+  {
+    topicId: "electricity",
+    subject: "physics",
+    title: "Electricity",
+    sections: [
+      {
+        heading: "Charge, Current and Voltage",
+        content:
+          "Electric current is the rate of flow of electric charge. In metal conductors, the charge carriers are free electrons that move through the metal lattice. Current is measured in amperes (A) using an ammeter, which is connected in series in a circuit.\n\nCharge is measured in coulombs (C). The relationship between charge, current, and time is: Q = It, where Q is charge, I is current, and t is time in seconds. So 1 ampere is 1 coulomb of charge passing a point per second.\n\nPotential difference (voltage) is the energy transferred per unit of charge that passes between two points. It is measured in volts (V) using a voltmeter, which is connected in parallel across a component. One volt means one joule of energy is transferred per coulomb of charge.\n\nConventional current flows from positive to negative around a circuit. Electron flow is in the opposite direction — from negative to positive. This convention was established before the discovery of the electron.\n\nFor a circuit to work, there must be a complete loop with a source of potential difference (such as a cell or battery). A cell provides direct current (DC), which flows in one direction only. Mains electricity is alternating current (AC), where the direction of current reverses many times per second.",
+        keyTerms: [
+          { term: "Current", definition: "The rate of flow of electric charge, measured in amperes (A)" },
+          { term: "Charge", definition: "A property of matter; charge carriers (electrons) flow to create current; measured in coulombs (C)" },
+          { term: "Potential difference (voltage)", definition: "Energy transferred per coulomb of charge, measured in volts (V)" },
+          { term: "Ammeter", definition: "Instrument used to measure current; connected in series" },
+          { term: "Voltmeter", definition: "Instrument used to measure potential difference; connected in parallel" },
+          { term: "Direct current (DC)", definition: "Current that flows in one direction only (e.g. from a battery)" },
+          { term: "Alternating current (AC)", definition: "Current that repeatedly reverses direction (e.g. mains supply)" },
+        ],
+        importantEquations: [
+          "Q = It  (charge = current × time)",
+        ],
+      },
+      {
+        heading: "Resistance and Ohm's Law",
+        content:
+          "Resistance is the opposition to the flow of current in a circuit. It is measured in ohms (Ω). A higher resistance means less current flows for a given potential difference.\n\nOhm's Law states that the current through a conductor is directly proportional to the potential difference across it, provided the temperature remains constant. This gives the equation V = IR, which can be rearranged to I = V/R or R = V/I.\n\nAn ohmic conductor (e.g. a resistor at constant temperature) obeys Ohm's Law — its I–V graph is a straight line through the origin. A filament lamp does not obey Ohm's Law because as the current increases the filament heats up, increasing resistance, so the I–V graph curves.\n\nA diode only allows current to flow in one direction (forward bias). In reverse bias it has very high resistance and no current flows. An LED (light-emitting diode) emits light when current flows through it in the forward direction.\n\nA thermistor is a resistor whose resistance decreases as temperature increases. It is used in temperature sensors and thermostats. An LDR (light-dependent resistor) has a resistance that decreases as light intensity increases. It is used in automatic lighting circuits and light meters.",
+        keyTerms: [
+          { term: "Resistance", definition: "Opposition to current flow, measured in ohms (Ω)" },
+          { term: "Ohm's Law", definition: "V = IR; current is proportional to p.d. at constant temperature" },
+          { term: "Ohmic conductor", definition: "A conductor that obeys Ohm's Law (constant resistance); straight-line I–V graph" },
+          { term: "Diode", definition: "A component that allows current to flow in one direction only" },
+          { term: "Thermistor", definition: "A resistor whose resistance decreases as temperature increases" },
+          { term: "LDR", definition: "Light-dependent resistor — resistance decreases as light intensity increases" },
+        ],
+        importantEquations: [
+          "V = IR  (potential difference = current × resistance)",
+          "I = V / R",
+          "R = V / I",
+        ],
+      },
+      {
+        heading: "Series and Parallel Circuits",
+        content:
+          "In a series circuit, components are connected end to end in a single loop. The current is the same through every component. The total potential difference of the supply is shared across all components. The total resistance is the sum of all individual resistances: R_total = R₁ + R₂ + R₃.\n\nIn a parallel circuit, components are connected on separate branches. The potential difference across each branch is the same (equal to the supply voltage). The total current from the supply is shared between the branches (the current splits). Adding more resistors in parallel decreases the total resistance because there are more paths for current to flow.\n\nFor resistors in parallel, the total resistance is found using: 1/R_total = 1/R₁ + 1/R₂ + 1/R₃. The total resistance in parallel is always less than the smallest individual resistor.\n\nIn series: if one component breaks, the whole circuit stops because there is only one path. In parallel: if one branch breaks, current still flows through the other branches. This is why household circuits are wired in parallel — each appliance can be switched on and off independently, and they all receive the full mains voltage.",
+        keyTerms: [
+          { term: "Series circuit", definition: "Components connected in one loop; same current throughout; voltages shared" },
+          { term: "Parallel circuit", definition: "Components on separate branches; same voltage across each branch; current shared" },
+        ],
+        importantEquations: [
+          "Series: R_total = R₁ + R₂ + R₃",
+          "Parallel: 1/R_total = 1/R₁ + 1/R₂ + 1/R₃",
+          "Series: V_total = V₁ + V₂ + V₃",
+          "Parallel: I_total = I₁ + I₂ + I₃",
+        ],
+        tables: [
+          {
+            title: "Series vs Parallel Circuits",
+            headers: ["Property", "Series", "Parallel"],
+            rows: [
+              ["Current", "Same through all components", "Splits between branches"],
+              ["Voltage", "Shared across components", "Same across each branch"],
+              ["Resistance", "R_total = R₁ + R₂ + ...", "1/R_total = 1/R₁ + 1/R₂ + ..."],
+              ["If one component breaks", "Whole circuit stops", "Other branches still work"],
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Electrical Power and Energy",
+        content:
+          "Electrical power is the rate at which energy is transferred by an electrical component. It is measured in watts (W). One watt equals one joule of energy transferred per second.\n\nThe key power equations are: P = IV (power = current × voltage), P = I²R (power = current squared × resistance), and P = V²/R (power = voltage squared / resistance). These can all be derived from combining P = IV with V = IR.\n\nEnergy transferred by an electrical device is calculated using: E = Pt (energy = power × time), where energy is in joules (J), power is in watts (W), and time is in seconds (s). This can also be written as E = IVt (energy = current × voltage × time).\n\nElectricity bills use the kilowatt-hour (kWh) as the unit of energy. One kWh is the energy used by a 1 kW appliance running for 1 hour. To calculate: Energy (kWh) = Power (kW) × Time (hours). Cost = Energy (kWh) × Price per kWh.\n\nHigh-power appliances (like kettles and heaters) transfer energy quickly and use more electricity. Energy efficiency in the home can be improved by using low-power appliances (e.g. LED bulbs instead of filament bulbs) and reducing usage time.",
+        keyTerms: [
+          { term: "Electrical power", definition: "The rate of energy transfer by an electrical component, measured in watts (W)" },
+          { term: "Kilowatt-hour (kWh)", definition: "The energy used by a 1 kW device in 1 hour; the unit used on electricity bills" },
+          { term: "Watt", definition: "The unit of power; 1 W = 1 J/s" },
+        ],
+        importantEquations: [
+          "P = IV  (power = current × voltage)",
+          "P = I²R  (power = current² × resistance)",
+          "P = V²/R",
+          "E = Pt  (energy = power × time)",
+          "E = IVt  (energy = current × voltage × time)",
+          "Energy (kWh) = Power (kW) × Time (hours)",
+          "Cost = Energy (kWh) × Price per kWh",
+        ],
+      },
+      {
+        heading: "Static Electricity",
+        content:
+          "Static electricity is caused by the transfer of electrons between materials when they are rubbed together. When two insulating materials are rubbed, friction causes electrons to transfer from one surface to the other. The material that gains electrons becomes negatively charged; the material that loses electrons becomes positively charged.\n\nOnly electrons move — protons are fixed in the nucleus and cannot transfer. The charges are called static because they cannot flow away (insulators do not allow charge to move freely).\n\nLike charges repel each other (positive repels positive, negative repels negative). Opposite charges attract each other (positive attracts negative). A charged object can also attract a neutral (uncharged) object by inducing a charge on its surface.\n\nStatic electricity can be dangerous. Sparks from static discharge can cause explosions in fuel stations or when refuelling aircraft. Lightning is a massive natural static discharge. Anti-static measures include earthing (connecting a conductor to the ground to allow charge to flow away safely), using anti-static wrist straps when handling electronic components, and earthing straps on fuel tankers.\n\nStatic electricity has useful applications: electrostatic paint sprayers give objects an even coat by charging the paint droplets so they repel each other and are attracted to the grounded object. Photocopiers and laser printers use static charge to transfer toner onto paper. Electrostatic precipitators remove smoke particles from chimneys.",
+        keyTerms: [
+          { term: "Static electricity", definition: "A build-up of charge on an insulating surface caused by transfer of electrons" },
+          { term: "Earthing", definition: "Connecting a charged object to the ground via a conductor so charge can flow away safely" },
+          { term: "Electrostatic attraction", definition: "Opposite charges attract each other" },
+          { term: "Electrostatic repulsion", definition: "Like charges repel each other" },
+          { term: "Insulator", definition: "A material that does not allow charge to flow through it easily" },
+        ],
+      },
+    ],
+  },
+
+  // =====================================================================
+  // PHYSICS TOPIC 3: WAVES
+  // =====================================================================
+  {
+    topicId: "waves",
+    subject: "physics",
+    title: "Waves",
+    sections: [
+      {
+        heading: "Wave Properties",
+        content:
+          "A wave is a disturbance that transfers energy from one place to another without transferring matter. The particles of the medium vibrate about their rest position but do not travel with the wave.\n\nTransverse waves have oscillations (vibrations) perpendicular to the direction of energy transfer. Examples include light, all electromagnetic waves, water waves, and waves on a string. Transverse waves can be shown on a displacement–distance or displacement–time graph.\n\nLongitudinal waves have oscillations parallel to the direction of energy transfer. Sound is the most important example. Longitudinal waves consist of compressions (where particles are pushed close together) and rarefactions (where particles are spread apart).\n\nKey wave properties: Wavelength (λ) is the distance between two consecutive identical points on a wave (e.g. crest to crest or compression to compression), measured in metres. Frequency (f) is the number of complete waves passing a point per second, measured in hertz (Hz). Amplitude is the maximum displacement of a particle from its rest position — a larger amplitude means more energy. Period (T) is the time for one complete wave to pass a point; T = 1/f.\n\nThe wave equation links speed, frequency, and wavelength: v = fλ. This applies to all types of waves.",
+        keyTerms: [
+          { term: "Transverse wave", definition: "Oscillations are perpendicular to the direction of energy transfer (e.g. light, water waves)" },
+          { term: "Longitudinal wave", definition: "Oscillations are parallel to the direction of energy transfer (e.g. sound)" },
+          { term: "Wavelength (λ)", definition: "The distance between two consecutive identical points on a wave, measured in metres" },
+          { term: "Frequency (f)", definition: "The number of complete waves per second, measured in hertz (Hz)" },
+          { term: "Amplitude", definition: "The maximum displacement from the rest position; determines the wave's energy" },
+          { term: "Compression", definition: "A region in a longitudinal wave where particles are pushed close together" },
+          { term: "Rarefaction", definition: "A region in a longitudinal wave where particles are spread apart" },
+        ],
+        importantEquations: [
+          "v = fλ  (wave speed = frequency × wavelength)",
+          "T = 1/f  (period = 1 / frequency)",
+        ],
+      },
+      {
+        heading: "Reflection and Refraction",
+        content:
+          "Reflection occurs when a wave bounces off a surface. The law of reflection states that the angle of incidence equals the angle of reflection. Both angles are measured from the normal (an imaginary line perpendicular to the surface at the point of incidence). Reflection from a smooth flat surface (like a mirror) produces a clear image; reflection from a rough surface scatters the light (diffuse reflection).\n\nRefraction is the change in direction of a wave when it passes from one medium to another and changes speed. When light travels from a less dense medium (e.g. air) into a more dense medium (e.g. glass), it slows down and bends towards the normal. When it passes from a more dense to a less dense medium, it speeds up and bends away from the normal.\n\nSnell's Law relates the angles and speeds: n₁ sin θ₁ = n₂ sin θ₂, where n is the refractive index and θ is the angle to the normal. The refractive index of a material is n = c / v, where c is the speed of light in a vacuum and v is the speed in the material.\n\nTotal internal reflection occurs when light travelling through a denser medium hits the boundary with a less dense medium at an angle greater than the critical angle. All the light is reflected back into the denser medium. This principle is used in optical fibres (for broadband and medical endoscopes) and in prisms (binoculars, periscopes).",
+        keyTerms: [
+          { term: "Reflection", definition: "A wave bouncing off a surface; angle of incidence = angle of reflection" },
+          { term: "Refraction", definition: "A change in direction when a wave passes between media of different densities due to a change in speed" },
+          { term: "Normal", definition: "An imaginary line perpendicular to a surface at the point where a ray hits it" },
+          { term: "Refractive index", definition: "A measure of how much a material slows down light; n = c/v" },
+          { term: "Total internal reflection", definition: "All light reflected back inside a denser medium when the angle of incidence exceeds the critical angle" },
+          { term: "Critical angle", definition: "The angle of incidence above which total internal reflection occurs" },
+        ],
+        importantEquations: [
+          "Angle of incidence = Angle of reflection (law of reflection)",
+          "n = c / v  (refractive index = speed of light in vacuum / speed of light in material)",
+          "n₁ sin θ₁ = n₂ sin θ₂  (Snell's Law)",
+          "sin c = 1/n  (critical angle for a material-to-air boundary)",
+        ],
+      },
+      {
+        heading: "The Electromagnetic Spectrum",
+        content:
+          "The electromagnetic (EM) spectrum is a continuous range of transverse waves that all travel at the speed of light (3 × 10⁸ m/s) in a vacuum. They are produced by vibrating charges and do not need a medium to travel through.\n\nIn order of increasing frequency and decreasing wavelength, the EM spectrum is: radio waves, microwaves, infrared, visible light, ultraviolet, X-rays, and gamma rays. All EM waves transfer energy.\n\nDifferent parts of the spectrum have different uses. Radio waves are used for TV and radio broadcasts. Microwaves are used for mobile phone signals, satellite communication, and cooking. Infrared is used in remote controls, thermal cameras, heaters, and optical fibre communication. Visible light is used for seeing, photography, and optical fibre communication. Ultraviolet is used in fluorescent lamps, security marking, and sterilising water. X-rays are used for medical imaging of bones and airport security scanners. Gamma rays are used to sterilise medical equipment, treat cancer (radiotherapy), and as a tracer in medical diagnosis.\n\nHigher frequency EM waves carry more energy and are generally more dangerous to living tissue. Ultraviolet can cause sunburn and skin cancer. X-rays and gamma rays can cause cell damage, mutations, and cancer. The danger increases with exposure time and intensity.",
+        keyTerms: [
+          { term: "Electromagnetic spectrum", definition: "The continuous range of EM waves, from radio waves to gamma rays" },
+          { term: "EM wave", definition: "A transverse wave consisting of oscillating electric and magnetic fields; travels at 3 × 10⁸ m/s in a vacuum" },
+          { term: "Ionising radiation", definition: "Radiation with enough energy to remove electrons from atoms (UV, X-rays, gamma rays)" },
+        ],
+        importantEquations: [
+          "v = fλ  applies to all EM waves (v = 3 × 10⁸ m/s in a vacuum)",
+        ],
+        tables: [
+          {
+            title: "The Electromagnetic Spectrum",
+            headers: ["Type", "Wavelength", "Typical Use", "Hazard"],
+            rows: [
+              ["Radio waves", "km to m", "TV & radio broadcasts", "Generally safe"],
+              ["Microwaves", "cm", "Mobile phones, cooking, satellites", "Internal heating of body tissue"],
+              ["Infrared", "μm to mm", "Remote controls, heaters, thermal cameras", "Skin burns"],
+              ["Visible light", "400–700 nm", "Seeing, photography", "Eye damage at high intensity"],
+              ["Ultraviolet", "nm", "Fluorescent lamps, sterilisation", "Sunburn, skin cancer"],
+              ["X-rays", "< 1 nm", "Medical imaging, security", "Cell damage, mutations, cancer"],
+              ["Gamma rays", "< 0.01 nm", "Sterilisation, cancer treatment", "Cell damage, mutations, cancer"],
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Sound",
+        content:
+          "Sound is a longitudinal wave produced by vibrating objects. The vibrations create a series of compressions and rarefactions in the surrounding medium (usually air). Sound requires a medium to travel through — it cannot travel through a vacuum.\n\nThe speed of sound in air is approximately 340 m/s. Sound travels faster in solids (e.g. ~5000 m/s in steel) and liquids (e.g. ~1500 m/s in water) than in gases, because the particles are closer together and can pass on vibrations more quickly.\n\nPitch is determined by the frequency of a sound wave. A higher frequency produces a higher pitch. Volume (loudness) is determined by the amplitude. A larger amplitude means a louder sound.\n\nHumans can typically hear sounds in the frequency range of 20 Hz to 20,000 Hz (20 kHz). Sound below 20 Hz is called infrasound. Sound above 20 kHz is called ultrasound. Ultrasound has many uses including medical imaging (prenatal scans), sonar (measuring ocean depth), and industrial quality control (detecting flaws in materials).\n\nEchoes are reflections of sound waves off hard surfaces. The time delay between the original sound and the echo can be used to calculate distances using speed = distance / time.",
+        keyTerms: [
+          { term: "Sound", definition: "A longitudinal wave caused by vibrating objects; requires a medium to travel" },
+          { term: "Pitch", definition: "How high or low a sound is; determined by the frequency of the wave" },
+          { term: "Loudness", definition: "How loud a sound is; determined by the amplitude of the wave" },
+          { term: "Ultrasound", definition: "Sound waves with frequencies above 20,000 Hz (above human hearing range)" },
+          { term: "Infrasound", definition: "Sound waves with frequencies below 20 Hz (below human hearing range)" },
+          { term: "Echo", definition: "A reflection of a sound wave off a surface" },
+        ],
+        importantEquations: [
+          "v = fλ  (applies to sound waves)",
+          "Speed of sound in air ≈ 340 m/s",
+        ],
+      },
+      {
+        heading: "Lenses and Images",
+        content:
+          "A lens is a shaped piece of transparent material (usually glass) that refracts light. There are two main types: converging (convex) lenses and diverging (concave) lenses.\n\nA converging lens is thicker in the middle and causes parallel rays of light to converge (come together) at a single point called the principal focus (or focal point). The focal length is the distance from the centre of the lens to the principal focus.\n\nA diverging lens is thinner in the middle and causes parallel rays of light to spread out (diverge). The rays appear to come from a virtual principal focus on the same side as the incoming light.\n\nImages formed by converging lenses depend on the position of the object relative to the focal point. When the object is beyond 2F: the image is real, inverted, smaller (diminished), and between F and 2F on the other side. When the object is between F and 2F: the image is real, inverted, and magnified (larger), beyond 2F. When the object is closer than F: the image is virtual, upright, and magnified — this is how a magnifying glass works.\n\nA real image is formed where light rays actually converge and can be projected onto a screen. A virtual image is formed where light rays appear to come from but do not actually meet — it cannot be projected onto a screen. Magnification = image height / object height.",
+        keyTerms: [
+          { term: "Converging (convex) lens", definition: "A lens that is thicker in the middle; brings parallel light rays together at the principal focus" },
+          { term: "Diverging (concave) lens", definition: "A lens that is thinner in the middle; spreads parallel light rays apart" },
+          { term: "Principal focus (focal point)", definition: "The point where parallel rays of light converge (or appear to diverge from) after passing through a lens" },
+          { term: "Focal length", definition: "The distance from the centre of the lens to the principal focus" },
+          { term: "Real image", definition: "An image formed where light rays actually converge; can be projected onto a screen" },
+          { term: "Virtual image", definition: "An image formed where light rays appear to come from; cannot be projected onto a screen" },
+        ],
+        importantEquations: [
+          "Magnification = image height / object height",
+        ],
+      },
+    ],
+  },
+
+  // =====================================================================
+  // PHYSICS TOPIC 4: ENERGY RESOURCES AND TRANSFERS
+  // =====================================================================
+  {
+    topicId: "energy-resources",
+    subject: "physics",
+    title: "Energy Resources & Transfers",
+    sections: [
+      {
+        heading: "Energy Stores and Transfers",
+        content:
+          "Energy is measured in joules (J). Energy cannot be created or destroyed, only transferred from one store to another. There are eight main energy stores: kinetic (energy of a moving object), gravitational potential (energy of an object raised above the ground), elastic potential (energy stored in a stretched or compressed object), thermal (internal energy related to temperature), chemical (energy stored in chemical bonds, e.g. food, fuels, batteries), magnetic (energy stored in magnetic fields), electrostatic (energy stored in electric fields), and nuclear (energy stored in the nuclei of atoms).\n\nEnergy can be transferred between stores in four main ways: mechanically (by a force doing work), electrically (by a current flowing through a circuit), by heating (due to a temperature difference), and by radiation (by waves such as light or sound).\n\nWork done is the energy transferred when a force moves an object through a distance. Work done (J) = Force (N) × distance moved in the direction of the force (m). If no movement occurs, no work is done (even if a force is applied).\n\nKinetic energy is calculated using KE = ½mv², where m is mass and v is velocity. Gravitational potential energy is calculated using GPE = mgh, where m is mass, g is gravitational field strength, and h is height.",
+        keyTerms: [
+          { term: "Kinetic energy store", definition: "Energy stored in a moving object" },
+          { term: "Gravitational potential energy store", definition: "Energy stored in an object raised above the ground" },
+          { term: "Thermal energy store", definition: "Internal energy related to the temperature of an object" },
+          { term: "Chemical energy store", definition: "Energy stored in chemical bonds (fuels, food, batteries)" },
+          { term: "Nuclear energy store", definition: "Energy stored in the nuclei of atoms" },
+          { term: "Work done", definition: "Energy transferred when a force moves an object; measured in joules" },
+        ],
+        importantEquations: [
+          "Work done (J) = Force (N) × distance (m)    W = Fd",
+          "KE = ½mv²  (kinetic energy = ½ × mass × velocity²)",
+          "GPE = mgh  (gravitational potential energy = mass × g × height)",
+        ],
+      },
+      {
+        heading: "Conservation of Energy",
+        content:
+          "The principle of conservation of energy states that energy cannot be created or destroyed — it can only be transferred from one store to another. The total energy of a closed system always remains constant.\n\nIn any energy transfer, the total energy before equals the total energy after. For example, when a ball is dropped, gravitational potential energy is transferred to kinetic energy. At any point during the fall (ignoring air resistance): GPE lost = KE gained, so mgh = ½mv².\n\nIn reality, not all energy is usefully transferred. Some energy is always dissipated (wasted), usually to thermal energy stores of the surroundings through friction or air resistance. This wasted energy spreads out and becomes increasingly difficult to use. The energy has not been destroyed — it has just been spread out and is no longer useful.\n\nEnergy transfer diagrams (Sankey diagrams) show how energy is transferred. The width of each arrow is proportional to the amount of energy it represents. The useful energy output is usually shown going to the right, and the wasted energy is shown going downward. The total width of the output arrows must equal the width of the input arrow (conservation of energy).",
+        keyTerms: [
+          { term: "Conservation of energy", definition: "Energy cannot be created or destroyed, only transferred between stores" },
+          { term: "Dissipated energy", definition: "Energy that has been transferred to useless thermal energy stores, spread out to the surroundings" },
+          { term: "Sankey diagram", definition: "A diagram showing energy transfers; arrow widths are proportional to energy amounts" },
+        ],
+      },
+      {
+        heading: "Efficiency",
+        content:
+          "Efficiency is a measure of how much of the input energy is usefully transferred. No device is 100% efficient because some energy is always wasted (dissipated as heat due to friction, air resistance, or electrical resistance).\n\nEfficiency can be calculated using: Efficiency = (useful energy output / total energy input) × 100%. This gives efficiency as a percentage. Efficiency can also be calculated using power: Efficiency = (useful power output / total power input) × 100%.\n\nFor example, if a light bulb uses 60 J of electrical energy and produces 9 J of useful light energy, the efficiency is (9/60) × 100% = 15%. The remaining 51 J is wasted as thermal energy.\n\nWays to increase efficiency include: lubricating moving parts to reduce friction, streamlining shapes to reduce air resistance, using thermal insulation to reduce heat loss, and using more efficient components (e.g. LED bulbs instead of filament bulbs).\n\nEnergy efficiency is important for reducing fuel consumption, reducing energy costs, and reducing environmental impact. Higher efficiency means less wasted energy and fewer resources consumed for the same useful output.",
+        keyTerms: [
+          { term: "Efficiency", definition: "The proportion of input energy (or power) that is usefully transferred; always less than 100%" },
+          { term: "Wasted energy", definition: "Energy that is not usefully transferred, usually dissipated as heat" },
+        ],
+        importantEquations: [
+          "Efficiency = (useful energy output / total energy input) × 100%",
+          "Efficiency = (useful power output / total power input) × 100%",
+        ],
+      },
+      {
+        heading: "Renewable and Non-Renewable Energy Resources",
+        content:
+          "Non-renewable energy resources will run out eventually because they are being used faster than they can be replaced. The main non-renewable resources are fossil fuels (coal, oil, natural gas) and nuclear fuel (uranium). Fossil fuels are burned to heat water, producing steam that drives turbines connected to generators. They are reliable and can meet high demand, but they produce carbon dioxide (contributing to climate change), sulfur dioxide (causing acid rain), and particulates (causing health problems).\n\nNuclear power uses the energy released by nuclear fission of uranium (or plutonium). It does not produce greenhouse gases during operation, but it generates radioactive waste that remains dangerous for thousands of years and is expensive to decommission.\n\nRenewable energy resources will not run out because they are naturally replenished. They include solar (photovoltaic cells convert sunlight to electricity), wind (turbines driven by wind), hydroelectric (water falling from a height drives turbines), tidal (tidal barrages use the movement of tides), wave (wave machines convert wave motion to electricity), geothermal (using heat from hot rocks underground), and biomass (burning or fermenting biological material).\n\nRenewable resources generally produce little or no greenhouse gases during operation, but they can be unreliable (dependent on weather or time of day), expensive to set up, and may have visual or environmental impacts. A mix of energy resources is needed for energy security.",
+        keyTerms: [
+          { term: "Non-renewable", definition: "An energy resource that will run out; it is used faster than it is formed" },
+          { term: "Renewable", definition: "An energy resource that will not run out; it is naturally replenished" },
+          { term: "Fossil fuel", definition: "A non-renewable fuel formed from ancient organisms (coal, oil, natural gas)" },
+          { term: "Nuclear fission", definition: "Splitting a large atomic nucleus to release energy" },
+          { term: "Biomass", definition: "Biological material used as fuel (e.g. wood, biogas)" },
+        ],
+        tables: [
+          {
+            title: "Renewable vs Non-Renewable Energy Resources",
+            headers: ["Feature", "Non-Renewable (Fossil Fuels)", "Renewable"],
+            rows: [
+              ["Availability", "Will run out", "Will not run out"],
+              ["Reliability", "Very reliable; can meet demand", "Often weather-dependent; can be unreliable"],
+              ["CO₂ emissions", "High (contributes to climate change)", "Little or none during operation"],
+              ["Set-up cost", "Moderate (power stations)", "Often high (e.g. wind farms, solar panels)"],
+              ["Environmental impact", "Air pollution, habitat destruction", "Visual impact, habitat disruption, noise"],
+              ["Examples", "Coal, oil, gas, nuclear", "Solar, wind, hydro, tidal, wave, geothermal, biomass"],
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Specific Heat Capacity",
+        content:
+          "Specific heat capacity (SHC) is the amount of energy needed to raise the temperature of 1 kg of a substance by 1°C. It is measured in J/kg°C. Different materials have different specific heat capacities.\n\nThe equation linking energy, mass, specific heat capacity, and temperature change is: E = mcΔθ, where E is energy transferred (J), m is mass (kg), c is specific heat capacity (J/kg°C), and Δθ (delta theta) is the change in temperature (°C).\n\nWater has a high specific heat capacity (4200 J/kg°C), which means it takes a lot of energy to heat up and releases a lot of energy when cooling down. This makes water very useful as a coolant (in car engines and power stations) and for heating systems (radiators and hot water bottles). It also means that coastal areas have milder climates because the sea heats up and cools down slowly.\n\nMetals typically have lower specific heat capacities than water (e.g. aluminium is 900 J/kg°C, copper is 390 J/kg°C), so they heat up and cool down more quickly. This is why a metal spoon in a hot drink quickly feels hot.\n\nYou can measure specific heat capacity experimentally by heating a known mass of material with an electric heater, measuring the temperature rise, and calculating the energy supplied using E = Pt (energy = power × time).",
+        keyTerms: [
+          { term: "Specific heat capacity", definition: "The energy needed to raise the temperature of 1 kg of a substance by 1°C, measured in J/kg°C" },
+          { term: "Thermal equilibrium", definition: "When two objects in contact reach the same temperature and no net energy is transferred between them" },
+        ],
+        importantEquations: [
+          "E = mcΔθ  (energy = mass × specific heat capacity × temperature change)",
+        ],
+      },
+    ],
+  },
+
+  // =====================================================================
+  // PHYSICS TOPIC 5: SOLIDS, LIQUIDS AND GASES
+  // =====================================================================
+  {
+    topicId: "solids-liquids-gases",
+    subject: "physics",
+    title: "Solids, Liquids & Gases",
+    sections: [
+      {
+        heading: "The Particle Model",
+        content:
+          "All matter is made up of tiny particles (atoms or molecules) that are constantly moving. The arrangement, spacing, and movement of these particles determine the state of matter: solid, liquid, or gas.\n\nIn solids, particles are closely packed in a regular arrangement. They vibrate about fixed positions but cannot move from place to place. Solids have a fixed shape and a fixed volume. The forces of attraction between particles are strong.\n\nIn liquids, particles are close together but arranged randomly. They can move around each other and slide past one another. Liquids have a fixed volume but take the shape of their container. The forces of attraction are weaker than in solids.\n\nIn gases, particles are far apart and move randomly at high speeds in all directions. They have very weak forces of attraction between them. Gases have no fixed shape and no fixed volume — they spread out to fill their container.\n\nAs temperature increases, the particles gain kinetic energy and move faster. This explains why solids expand when heated (particles vibrate more and push further apart) and why gases exert more pressure at higher temperatures (particles hit the container walls harder and more often).",
+        keyTerms: [
+          { term: "Particle model", definition: "A model describing how matter is made up of small particles whose arrangement determines the state" },
+          { term: "Solid", definition: "Particles closely packed in a regular arrangement; fixed shape and volume" },
+          { term: "Liquid", definition: "Particles close together but free to move past each other; fixed volume but no fixed shape" },
+          { term: "Gas", definition: "Particles far apart and moving rapidly in random directions; no fixed shape or volume" },
+          { term: "Kinetic energy of particles", definition: "Energy of particle motion; increases with temperature" },
+        ],
+        tables: [
+          {
+            title: "Properties of Solids, Liquids and Gases",
+            headers: ["Property", "Solid", "Liquid", "Gas"],
+            rows: [
+              ["Particle arrangement", "Regular, closely packed", "Random, close together", "Random, far apart"],
+              ["Particle movement", "Vibrate about fixed positions", "Move around each other", "Move rapidly in all directions"],
+              ["Forces between particles", "Strong", "Moderate", "Very weak"],
+              ["Shape", "Fixed", "Takes shape of container", "Fills container"],
+              ["Volume", "Fixed", "Fixed", "No fixed volume"],
+              ["Compressibility", "Cannot be compressed", "Cannot be compressed (easily)", "Easily compressed"],
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Density",
+        content:
+          "Density is the mass per unit volume of a material. It tells you how much matter is packed into a given space. Density is measured in kilograms per cubic metre (kg/m³) or grams per cubic centimetre (g/cm³).\n\nThe equation for density is: ρ = m/V, where ρ (rho) is density, m is mass, and V is volume. This can be rearranged to m = ρV or V = m/ρ.\n\nSolids generally have the highest density because their particles are closely packed. Gases have the lowest density because their particles are very spread out. Liquids are in between. However, there are exceptions — for example, some metals like lithium and sodium are less dense than water.\n\nTo measure the density of a regular solid: measure the mass using a balance, calculate the volume using measurements and the appropriate formula (e.g. length × width × height for a cuboid), then use ρ = m/V.\n\nTo measure the density of an irregular solid: measure the mass using a balance, then find the volume by displacement — lower the object into a measuring cylinder of water and record the rise in water level (this equals the volume of the object).\n\nTo measure the density of a liquid: measure the mass of an empty measuring cylinder, pour in a known volume of liquid, measure the new mass, subtract to find the mass of the liquid, then use ρ = m/V.",
+        keyTerms: [
+          { term: "Density", definition: "Mass per unit volume of a material (ρ = m/V), measured in kg/m³ or g/cm³" },
+          { term: "Displacement method", definition: "Finding the volume of an irregular object by measuring the rise in water level when it is submerged" },
+        ],
+        importantEquations: [
+          "ρ = m / V  (density = mass / volume)",
+          "m = ρV  (mass = density × volume)",
+          "V = m / ρ  (volume = mass / density)",
+        ],
+      },
+      {
+        heading: "Pressure",
+        content:
+          "Pressure is the force per unit area. It is measured in pascals (Pa), where 1 Pa = 1 N/m². The equation is: p = F/A, where p is pressure, F is force, and A is area.\n\nA smaller area with the same force gives a higher pressure. This is why sharp objects (knives, nails) cut or pierce easily — the force is concentrated on a very small area. Conversely, a larger area with the same force gives a lower pressure — snowshoes spread your weight over a bigger area so you don't sink into the snow.\n\nPressure in a fluid (liquid or gas) acts in all directions. The pressure in a liquid increases with depth because of the weight of the liquid above. The equation for pressure in a column of liquid is: p = hρg, where h is the height (depth) of the liquid column, ρ is the density of the liquid, and g is the gravitational field strength.\n\nAtmospheric pressure is caused by the weight of the column of air above us. At sea level, atmospheric pressure is approximately 101,325 Pa (about 101 kPa). Atmospheric pressure decreases with altitude because there is less air above.\n\nGas pressure is caused by gas particles colliding with the walls of their container. Increasing the temperature increases the speed of the particles, so they hit the walls harder and more often, increasing the pressure (if the volume is constant). Decreasing the volume pushes particles closer together, increasing the frequency of collisions and therefore the pressure (at constant temperature).",
+        keyTerms: [
+          { term: "Pressure", definition: "Force per unit area, measured in pascals (Pa); p = F/A" },
+          { term: "Atmospheric pressure", definition: "The pressure exerted by the weight of the air above; about 101 kPa at sea level" },
+          { term: "Pascal (Pa)", definition: "The unit of pressure; 1 Pa = 1 N/m²" },
+        ],
+        importantEquations: [
+          "p = F / A  (pressure = force / area)",
+          "p = hρg  (pressure in a liquid = height × density × gravitational field strength)",
+        ],
+      },
+      {
+        heading: "Changes of State",
+        content:
+          "Changes of state occur when a substance changes between solid, liquid, and gas. These changes are physical changes — they are reversible and no new substance is formed.\n\nMelting is the change from solid to liquid. It occurs at the melting point. During melting, energy is absorbed by the particles to overcome the forces holding them in fixed positions. The temperature remains constant during melting because the energy is being used to break bonds between particles rather than to increase kinetic energy.\n\nBoiling (and evaporation) is the change from liquid to gas. Boiling occurs at the boiling point throughout the liquid. Evaporation can occur at any temperature from the surface of a liquid — faster-moving particles escape from the surface. Evaporation causes cooling because the most energetic particles leave, reducing the average kinetic energy (and therefore temperature) of the remaining liquid.\n\nCondensation is the change from gas to liquid (energy released). Freezing is the change from liquid to solid (energy released). Sublimation is the change directly from solid to gas without passing through the liquid state.\n\nDuring a change of state, the temperature remains constant even though energy is being supplied or removed. This is because the energy is being used to change the arrangement and separation of particles (breaking or forming bonds), not to change their kinetic energy.",
+        keyTerms: [
+          { term: "Melting", definition: "The change from solid to liquid at the melting point; energy is absorbed" },
+          { term: "Boiling", definition: "The change from liquid to gas at the boiling point throughout the liquid; energy is absorbed" },
+          { term: "Evaporation", definition: "The change from liquid to gas that occurs at any temperature from the surface of a liquid" },
+          { term: "Condensation", definition: "The change from gas to liquid; energy is released" },
+          { term: "Freezing", definition: "The change from liquid to solid; energy is released" },
+          { term: "Sublimation", definition: "The change directly from solid to gas, without passing through the liquid state" },
+        ],
+      },
+      {
+        heading: "Specific and Latent Heat",
+        content:
+          "Specific latent heat is the energy needed to change the state of 1 kg of a substance without changing its temperature. It is measured in J/kg.\n\nThere are two types. Specific latent heat of fusion (Lf) is the energy needed to change 1 kg of a substance from solid to liquid (or released when changing from liquid to solid) at its melting point. Specific latent heat of vaporisation (Lv) is the energy needed to change 1 kg of a substance from liquid to gas (or released when changing from gas to liquid) at its boiling point.\n\nThe equation is: E = mL, where E is energy transferred (J), m is mass (kg), and L is specific latent heat (J/kg). The latent heat of vaporisation is always much larger than the latent heat of fusion for the same substance because more energy is needed to completely separate the particles (liquid to gas) than to loosen their arrangement (solid to liquid).\n\nFor water: Lf = 334,000 J/kg (334 kJ/kg) and Lv = 2,260,000 J/kg (2260 kJ/kg). This means it takes about 6.8 times more energy to boil water than to melt ice (for the same mass).\n\nOn a heating curve (temperature vs time graph for a substance being heated steadily), the flat sections represent changes of state where the temperature is constant despite energy being supplied. The sloped sections represent the substance warming up in a single state.",
+        keyTerms: [
+          { term: "Specific latent heat", definition: "The energy needed to change the state of 1 kg of a substance without changing its temperature (J/kg)" },
+          { term: "Specific latent heat of fusion", definition: "The energy to change 1 kg of a substance from solid to liquid (or vice versa) at the melting point" },
+          { term: "Specific latent heat of vaporisation", definition: "The energy to change 1 kg of a substance from liquid to gas (or vice versa) at the boiling point" },
+          { term: "Heating curve", definition: "A graph of temperature against time for a substance being heated; flat sections show changes of state" },
+        ],
+        importantEquations: [
+          "E = mL  (energy = mass × specific latent heat)",
+        ],
+      },
+    ],
+  },
+
+  // =====================================================================
+  // PHYSICS TOPIC 6: MAGNETISM AND ELECTROMAGNETISM
+  // =====================================================================
+  {
+    topicId: "magnetism",
+    subject: "physics",
+    title: "Magnetism & Electromagnetism",
+    sections: [
+      {
+        heading: "Magnets and Magnetic Fields",
+        content:
+          "A magnet has two poles: a north pole and a south pole. Like poles repel (north-north or south-south), and unlike poles attract (north-south). This is the fundamental rule of magnetism.\n\nA magnetic field is the region around a magnet where a magnetic force is experienced. Magnetic field lines show the direction and strength of the field. They go from north to south outside the magnet. The field lines are closer together where the field is stronger (near the poles) and further apart where it is weaker.\n\nThe Earth has a magnetic field similar to that of a giant bar magnet. A compass needle is a small bar magnet that aligns with the Earth's magnetic field — the north-seeking pole of the compass points towards the Earth's magnetic north.\n\nMagnetic materials are attracted to magnets but are not themselves magnets. These include iron, steel, nickel, and cobalt. Non-magnetic materials (e.g. wood, plastic, copper, aluminium) are not attracted to magnets.\n\nThere are two types of magnets. Permanent magnets (e.g. bar magnets) produce their own magnetic field and always have magnetism. Induced magnets (temporary magnets) only become magnetic when placed in a magnetic field — when removed from the field, they lose most or all of their magnetism. Soft magnetic materials like iron are easy to magnetise and demagnetise (good for temporary magnets). Hard magnetic materials like steel are difficult to magnetise but retain magnetism well (good for permanent magnets).",
+        keyTerms: [
+          { term: "Magnetic field", definition: "The region around a magnet where a magnetic force is experienced" },
+          { term: "Magnetic field lines", definition: "Lines showing the direction and strength of a magnetic field; run from north to south outside the magnet" },
+          { term: "Permanent magnet", definition: "A magnet that produces its own persistent magnetic field" },
+          { term: "Induced magnet", definition: "A material that becomes magnetic temporarily when placed in a magnetic field" },
+          { term: "Magnetic material", definition: "A material that is attracted to magnets (iron, steel, nickel, cobalt)" },
+        ],
+      },
+      {
+        heading: "Electromagnets",
+        content:
+          "When an electric current flows through a wire, it produces a magnetic field around the wire. The field lines form concentric circles around the wire. The direction of the field can be found using the right-hand grip rule: grip the wire with your right hand so your thumb points in the direction of conventional current — your fingers curl in the direction of the magnetic field.\n\nA solenoid is a coil of wire. When current flows through a solenoid, it produces a magnetic field pattern similar to a bar magnet, with a north pole at one end and a south pole at the other. Inside the solenoid, the field is strong and uniform (field lines are parallel and evenly spaced).\n\nAn electromagnet is a solenoid with a soft iron core inside. The iron core becomes magnetised when current flows, greatly increasing the strength of the magnetic field. Electromagnets are very useful because they can be switched on and off by controlling the current.\n\nThe strength of an electromagnet can be increased by: increasing the current, increasing the number of turns (coils) of wire, and using a soft iron core. Electromagnets are used in electric bells, relay switches, magnetic locks, scrapyard cranes (for picking up and dropping magnetic materials), circuit breakers, and loudspeakers.",
+        keyTerms: [
+          { term: "Electromagnet", definition: "A solenoid with a soft iron core that produces a magnetic field when current flows; can be switched on and off" },
+          { term: "Solenoid", definition: "A coil of wire that produces a magnetic field like a bar magnet when current flows through it" },
+          { term: "Right-hand grip rule", definition: "A rule for finding the direction of the magnetic field around a current-carrying wire" },
+          { term: "Soft iron core", definition: "An iron core inside a solenoid that greatly strengthens the magnetic field and is easily magnetised/demagnetised" },
+        ],
+      },
+      {
+        heading: "The Motor Effect",
+        content:
+          "When a current-carrying conductor is placed in a magnetic field, it experiences a force. This is called the motor effect. The force is at its maximum when the wire is perpendicular to the magnetic field and zero when the wire is parallel to the field.\n\nThe direction of the force can be determined using Fleming's left-hand rule: hold your left hand with the thumb, first finger, and second finger all at right angles to each other. The First finger points in the direction of the magnetic Field, the seCond finger points in the direction of the Current, and the thuMb points in the direction of the Motion (force).\n\nThe size of the force on a current-carrying conductor in a magnetic field is given by: F = BIl, where F is force (N), B is magnetic flux density (T, tesla), I is current (A), and l is the length of conductor in the field (m).\n\nThe force can be increased by increasing the current, increasing the magnetic field strength (flux density), or increasing the length of wire in the field.\n\nAn electric motor (DC motor) uses the motor effect. A coil of wire carrying a current is placed in a magnetic field. The forces on each side of the coil act in opposite directions, causing the coil to rotate. A split-ring commutator reverses the direction of current every half turn to keep the coil spinning in the same direction. Motors can spin faster by increasing the current, using a stronger magnet, or increasing the number of turns on the coil.",
+        keyTerms: [
+          { term: "Motor effect", definition: "The force experienced by a current-carrying conductor in a magnetic field" },
+          { term: "Fleming's left-hand rule", definition: "First finger = Field, seCond finger = Current, thuMb = Motion (force)" },
+          { term: "Magnetic flux density (B)", definition: "The strength of a magnetic field, measured in tesla (T)" },
+          { term: "Split-ring commutator", definition: "A device in a DC motor that reverses the current direction every half turn to maintain rotation" },
+        ],
+        importantEquations: [
+          "F = BIl  (force = magnetic flux density × current × length)",
+        ],
+      },
+      {
+        heading: "Electromagnetic Induction",
+        content:
+          "Electromagnetic induction is the process of generating a potential difference (voltage) across a conductor by changing the magnetic field around it. If the conductor is part of a complete circuit, a current will flow. This is the principle behind generators.\n\nA potential difference is induced when: a wire or coil moves through a magnetic field, or a magnet moves into or out of a coil, or the magnetic field through a coil changes. The key requirement is that there must be a change in the magnetic field experienced by the conductor — a stationary conductor in a constant magnetic field will not have an induced p.d.\n\nFaraday's law states that the magnitude of the induced p.d. is proportional to the rate of change of the magnetic flux through the circuit. The induced p.d. (and therefore the current) can be increased by: moving the magnet or wire faster, using a stronger magnet, increasing the number of turns on the coil, or increasing the area of the coil.\n\nLenz's law states that the direction of the induced current is always such that it opposes the change that produced it. This is a consequence of conservation of energy — energy must be supplied to maintain the changing magnetic field against the opposing effect of the induced current.\n\nA generator (dynamo) uses electromagnetic induction to convert kinetic energy into electrical energy. An AC generator rotates a coil in a magnetic field, producing an alternating current. Slip rings and brushes maintain the electrical connection as the coil rotates.",
+        keyTerms: [
+          { term: "Electromagnetic induction", definition: "Generating a p.d. (voltage) by changing the magnetic field around a conductor" },
+          { term: "Faraday's law", definition: "The induced p.d. is proportional to the rate of change of magnetic flux" },
+          { term: "Lenz's law", definition: "The induced current always opposes the change that produced it" },
+          { term: "Generator (dynamo)", definition: "A device that converts kinetic energy to electrical energy using electromagnetic induction" },
+          { term: "Alternating current (AC)", definition: "Current that repeatedly reverses direction" },
+        ],
+      },
+      {
+        heading: "Transformers",
+        content:
+          "A transformer is a device used to change the voltage of an alternating current (AC) supply. It consists of two coils of insulated wire (the primary coil and the secondary coil) wound on a soft iron core. Transformers only work with AC because a changing current is needed to produce a changing magnetic field, which is required for electromagnetic induction.\n\nWhen AC flows through the primary coil, it produces a changing magnetic field. The soft iron core carries this changing magnetic field to the secondary coil. The changing magnetic field induces an alternating p.d. across the secondary coil by electromagnetic induction.\n\nA step-up transformer increases the voltage. It has more turns on the secondary coil than the primary coil. A step-down transformer decreases the voltage. It has fewer turns on the secondary coil than the primary coil.\n\nThe transformer equation links the voltages and number of turns: Vs/Vp = Ns/Np, where Vs is the secondary voltage, Vp is the primary voltage, Ns is the number of secondary turns, and Np is the number of primary turns.\n\nFor an ideal (100% efficient) transformer, the power input equals the power output: VpIp = VsIs. This means that if a step-up transformer increases the voltage, the current must decrease by the same factor (and vice versa for step-down). In practice, energy is lost as heat in the coils (due to resistance) and in the core (due to eddy currents and magnetisation/demagnetisation).\n\nTransformers are essential in the National Grid. Step-up transformers increase voltage (and decrease current) for long-distance transmission, reducing energy losses in the cables (since power lost as heat = I²R). Step-down transformers then reduce the voltage to safe levels for use in homes and businesses.",
+        keyTerms: [
+          { term: "Transformer", definition: "A device that changes the voltage of an AC supply using electromagnetic induction; consists of primary and secondary coils on an iron core" },
+          { term: "Step-up transformer", definition: "Increases voltage; more turns on the secondary coil than the primary" },
+          { term: "Step-down transformer", definition: "Decreases voltage; fewer turns on the secondary coil than the primary" },
+          { term: "National Grid", definition: "The network of cables and transformers that distributes electricity from power stations to consumers" },
+        ],
+        importantEquations: [
+          "Vs / Vp = Ns / Np  (transformer equation)",
+          "VpIp = VsIs  (for an ideal transformer, power in = power out)",
+        ],
+      },
+    ],
+  },
+
+  // =====================================================================
+  // PHYSICS TOPIC 7: RADIOACTIVITY AND PARTICLES
+  // =====================================================================
+  {
+    topicId: "radioactivity",
+    subject: "physics",
+    title: "Radioactivity & Particles",
+    sections: [
+      {
+        heading: "Atomic Structure",
+        content:
+          "The atom consists of a small, dense, positively charged nucleus surrounded by negatively charged electrons in orbits (energy levels or shells). The nucleus contains protons (positive charge) and neutrons (no charge). Electrons orbit the nucleus and have a negative charge.\n\nThe atomic (proton) number is the number of protons in the nucleus. The mass (nucleon) number is the total number of protons and neutrons. The number of neutrons = mass number − atomic number. In a neutral atom, the number of electrons equals the number of protons.\n\nIsotopes are atoms of the same element with the same number of protons but different numbers of neutrons. They have identical chemical properties (because they have the same electron configuration) but different physical properties (because they have different masses). Some isotopes are unstable and radioactive.\n\nThe nuclear model of the atom was developed over time. Thomson's plum pudding model (1897) proposed that the atom was a sphere of positive charge with electrons embedded in it. Rutherford's alpha scattering experiment (1909) showed that most of the atom is empty space, with a tiny dense positive nucleus at the centre. This led to the nuclear model. Bohr later refined this model by proposing that electrons orbit in fixed energy levels (shells), not just anywhere.",
+        keyTerms: [
+          { term: "Proton", definition: "A positively charged particle in the nucleus; relative charge +1, relative mass 1" },
+          { term: "Neutron", definition: "A neutral particle in the nucleus; relative charge 0, relative mass 1" },
+          { term: "Electron", definition: "A negatively charged particle orbiting the nucleus; relative charge −1, relative mass negligible (1/1836)" },
+          { term: "Atomic (proton) number", definition: "The number of protons in the nucleus of an atom" },
+          { term: "Mass (nucleon) number", definition: "The total number of protons and neutrons in the nucleus" },
+          { term: "Isotope", definition: "Atoms of the same element with the same number of protons but different numbers of neutrons" },
+        ],
+        importantEquations: [
+          "Number of neutrons = Mass number − Atomic number",
+        ],
+      },
+      {
+        heading: "Types of Radiation",
+        content:
+          "Radioactive decay is a random process in which unstable nuclei emit radiation to become more stable. It is not affected by external conditions such as temperature, pressure, or chemical reactions.\n\nAlpha (α) radiation consists of particles made of 2 protons and 2 neutrons (a helium nucleus). Alpha particles have a relative charge of +2 and a relative mass of 4. They are strongly ionising (they knock electrons off atoms easily) but have a very short range (a few centimetres in air) and are stopped by a sheet of paper or skin. When a nucleus emits an alpha particle, its atomic number decreases by 2 and its mass number decreases by 4.\n\nBeta (β) radiation consists of high-speed electrons emitted from the nucleus when a neutron changes into a proton. Beta particles have a relative charge of −1 and negligible mass. They are moderately ionising, have a range of about 1 metre in air, and are stopped by a few millimetres of aluminium. When a nucleus emits a beta particle, its atomic number increases by 1 and its mass number stays the same.\n\nGamma (γ) radiation is a high-frequency electromagnetic wave emitted from the nucleus. It has no charge and no mass. Gamma rays are weakly ionising but very penetrating — they have a very long range and are only significantly reduced by several centimetres of lead or several metres of concrete. Gamma emission does not change the atomic number or mass number of the nucleus.",
+        keyTerms: [
+          { term: "Radioactive decay", definition: "The random process by which unstable nuclei emit radiation to become more stable" },
+          { term: "Alpha (α) particle", definition: "2 protons + 2 neutrons (helium nucleus); strongly ionising, stopped by paper" },
+          { term: "Beta (β) particle", definition: "A high-speed electron from the nucleus; moderately ionising, stopped by aluminium" },
+          { term: "Gamma (γ) ray", definition: "A high-frequency EM wave from the nucleus; weakly ionising, reduced by thick lead or concrete" },
+          { term: "Ionising", definition: "Able to remove electrons from atoms, creating ions" },
+        ],
+        tables: [
+          {
+            title: "Comparison of Alpha, Beta and Gamma Radiation",
+            headers: ["Property", "Alpha (α)", "Beta (β)", "Gamma (γ)"],
+            rows: [
+              ["Nature", "2 protons + 2 neutrons (He nucleus)", "High-speed electron", "Electromagnetic wave"],
+              ["Charge", "+2", "−1", "0"],
+              ["Relative mass", "4", "Very small (~1/1836)", "0"],
+              ["Ionising ability", "Strongly ionising", "Moderately ionising", "Weakly ionising"],
+              ["Penetrating power", "Stopped by paper / few cm of air", "Stopped by few mm aluminium", "Reduced by thick lead / concrete"],
+              ["Range in air", "A few centimetres", "About 1 metre", "Very long range"],
+              ["Deflected by fields?", "Yes (deflected a lot)", "Yes (deflected opposite way to α)", "No"],
+              ["Effect on nucleus", "A decreases by 2, Z decreases by 4", "A stays same, Z increases by 1", "No change to A or Z"],
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Half-Life",
+        content:
+          "Half-life is the time taken for half of the radioactive nuclei in a sample to decay (or the time taken for the activity or count rate to halve). Each radioactive isotope has its own characteristic half-life, which cannot be changed.\n\nHalf-lives vary enormously between different isotopes — from fractions of a second to billions of years. For example, radon-220 has a half-life of about 56 seconds, while uranium-238 has a half-life of about 4.5 billion years.\n\nTo calculate how much of a radioactive substance remains after a given time, repeatedly halve the amount for each half-life that passes. For example, if you start with 800 Bq and the half-life is 3 hours: after 3 hours it is 400 Bq, after 6 hours it is 200 Bq, after 9 hours it is 100 Bq, and so on.\n\nActivity is the rate of decay (number of decays per second) and is measured in becquerels (Bq), where 1 Bq = 1 decay per second. Count rate is the number of decays detected per unit time by a detector (such as a Geiger-Muller tube), usually measured in counts per minute or counts per second.\n\nBackground radiation is the low-level radiation that exists all around us from natural and artificial sources. Natural sources include radon gas from rocks, cosmic rays from space, and radioactive elements in food and rocks. Artificial sources include medical X-rays and nuclear fallout. When measuring radioactivity, background radiation must be subtracted from the readings to find the corrected count rate from the source being tested.",
+        keyTerms: [
+          { term: "Half-life", definition: "The time taken for half of the radioactive nuclei in a sample to decay, or for the activity to halve" },
+          { term: "Activity", definition: "The rate of radioactive decay, measured in becquerels (Bq); 1 Bq = 1 decay per second" },
+          { term: "Count rate", definition: "The number of radioactive decays detected per unit time by a detector" },
+          { term: "Background radiation", definition: "Low-level radiation present all around us from natural and artificial sources" },
+          { term: "Geiger-Muller tube", definition: "A detector used to measure radioactive emissions (count rate)" },
+        ],
+      },
+      {
+        heading: "Uses and Hazards of Radiation",
+        content:
+          "Radioactive materials have many useful applications, but they also pose hazards because radiation can damage or kill living cells and cause mutations in DNA, potentially leading to cancer.\n\nMedical uses: Gamma rays are used in radiotherapy to kill cancer cells by directing a focused beam at the tumour. Radioactive tracers (gamma-emitting isotopes like technetium-99m, with a short half-life of 6 hours) are injected into the body and detected using a gamma camera to diagnose medical conditions. Beta radiation is used in thickness monitoring in paper and sheet metal production.\n\nOther uses: Smoke detectors use americium-241, an alpha emitter. The alpha particles ionise air molecules, creating a small current. Smoke disrupts this current, triggering the alarm. Gamma radiation is used to sterilise medical equipment and food by killing bacteria. Carbon-14 dating uses the known half-life of carbon-14 (5730 years) to determine the age of archaeological specimens.\n\nHazards: External exposure to radiation is most dangerous from gamma sources (most penetrating). Internal exposure (if a radioactive source is ingested or inhaled) is most dangerous from alpha emitters (most ionising, and all energy is absorbed by nearby cells). To reduce risk: minimise exposure time, maximise distance from the source, use appropriate shielding (lead, concrete), handle sources with long tongs, store sources in lead-lined containers, and never point sources at people.",
+        keyTerms: [
+          { term: "Radiotherapy", definition: "Using gamma rays to treat cancer by killing cancerous cells" },
+          { term: "Radioactive tracer", definition: "A gamma-emitting isotope used in medical diagnosis (e.g. technetium-99m)" },
+          { term: "Carbon-14 dating", definition: "Using the half-life of carbon-14 to determine the age of organic materials" },
+          { term: "Irradiation", definition: "Exposure to radiation from a source outside the body; the object does not become radioactive" },
+          { term: "Contamination", definition: "Radioactive material is deposited on or inside an object/person; the source is in direct contact" },
+        ],
+      },
+      {
+        heading: "Nuclear Fission and Fusion",
+        content:
+          "Nuclear fission is the splitting of a large, unstable nucleus into two smaller nuclei, releasing a large amount of energy, two or three neutrons, and gamma radiation. It is the process used in nuclear power stations and nuclear weapons.\n\nFission can be induced by a neutron being absorbed by a heavy nucleus such as uranium-235 or plutonium-239. The nucleus becomes unstable and splits. The neutrons released can go on to cause further fission reactions in other nuclei, creating a chain reaction. In a nuclear reactor, the chain reaction is controlled by using control rods (made of boron or cadmium) that absorb excess neutrons. A moderator (often water or graphite) slows down the neutrons to increase the chance of them being absorbed and causing fission.\n\nNuclear fusion is the joining of two small, light nuclei to form a single larger nucleus, releasing a huge amount of energy. It is the process that powers stars, including our Sun. In the Sun, hydrogen nuclei fuse to form helium, releasing enormous amounts of energy.\n\nFusion requires extremely high temperatures (millions of degrees) and pressures to overcome the electrostatic repulsion between the positively charged nuclei. This makes fusion very difficult to achieve and sustain on Earth. Fusion releases more energy per kilogram than fission and produces no radioactive waste, making it a highly desirable energy source, but the technical challenges of achieving the necessary conditions remain significant.",
+        keyTerms: [
+          { term: "Nuclear fission", definition: "The splitting of a large unstable nucleus into two smaller nuclei, releasing energy, neutrons, and gamma rays" },
+          { term: "Nuclear fusion", definition: "The joining of two small light nuclei to form a single larger nucleus, releasing energy" },
+          { term: "Chain reaction", definition: "A self-sustaining series of fission reactions where neutrons from one fission cause further fissions" },
+          { term: "Control rods", definition: "Rods of boron or cadmium in a reactor that absorb neutrons to control the rate of fission" },
+          { term: "Moderator", definition: "A material (water or graphite) that slows neutrons to increase the probability of fission" },
+        ],
+      },
+    ],
+  },
+
+  // =====================================================================
+  // PHYSICS TOPIC 8: ASTROPHYSICS
+  // =====================================================================
+  {
+    topicId: "astrophysics",
+    subject: "physics",
+    title: "Astrophysics",
+    sections: [
+      {
+        heading: "The Solar System",
+        content:
+          "Our solar system consists of the Sun (a star) at the centre, with eight planets orbiting it. In order from the Sun: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune. The inner planets (Mercury, Venus, Earth, Mars) are small, rocky (terrestrial) planets. The outer planets (Jupiter, Saturn, Uranus, Neptune) are much larger gas giants (though Uranus and Neptune are sometimes classed as ice giants).\n\nThe solar system also contains dwarf planets (e.g. Pluto), natural satellites (moons) that orbit planets, asteroids (rocky bodies mostly found in the asteroid belt between Mars and Jupiter), and comets (bodies of ice and dust with highly elliptical orbits that develop a tail when close to the Sun).\n\nPlanets orbit the Sun due to gravitational attraction. The gravitational force provides the centripetal force needed for circular (or near-circular) orbits. Planets closer to the Sun orbit faster and have shorter orbital periods. Moons orbit planets in a similar way.\n\nOne astronomical unit (AU) is the average distance from the Earth to the Sun (about 150 million km). One light-year is the distance that light travels in one year (about 9.46 × 10¹² km). Light-years are used to measure distances to stars and galaxies. Our Sun is part of the Milky Way galaxy, which contains hundreds of billions of stars. The observable universe contains hundreds of billions of galaxies.",
+        keyTerms: [
+          { term: "Solar system", definition: "The Sun and all objects that orbit it, including planets, moons, asteroids, and comets" },
+          { term: "Terrestrial planet", definition: "A small, rocky inner planet (Mercury, Venus, Earth, Mars)" },
+          { term: "Gas giant", definition: "A large outer planet composed mainly of gas (Jupiter, Saturn)" },
+          { term: "Asteroid", definition: "A small rocky body orbiting the Sun, mostly found in the belt between Mars and Jupiter" },
+          { term: "Comet", definition: "A body of ice and dust with a highly elliptical orbit; develops a tail when near the Sun" },
+          { term: "Light-year", definition: "The distance light travels in one year (about 9.46 × 10¹² km)" },
+          { term: "Astronomical unit (AU)", definition: "The average distance from the Earth to the Sun (about 150 million km)" },
+        ],
+      },
+      {
+        heading: "Stellar Evolution (Life Cycle of Stars)",
+        content:
+          "All stars begin as a nebula — a huge cloud of dust and gas (mainly hydrogen). Gravity causes the nebula to collapse, and as it contracts it heats up. When the core temperature is high enough, hydrogen nuclei begin to fuse into helium — nuclear fusion begins and a protostar becomes a main sequence star.\n\nA main sequence star (like our Sun) is stable because the inward force of gravity is balanced by the outward pressure from the energy released by fusion. Stars spend most of their lives in this phase. The Sun has been a main sequence star for about 4.6 billion years.\n\nWhat happens next depends on the size of the star. For a star about the size of the Sun: it eventually runs low on hydrogen fuel. The outer layers expand and cool, forming a red giant. The outer layers are then ejected as a planetary nebula, leaving behind a hot, dense white dwarf, which gradually cools and fades over billions of years.\n\nFor a star much more massive than the Sun: it swells into a red supergiant. When fusion can no longer support the core, the star collapses and explodes in a supernova, scattering heavy elements into space. The remaining core may collapse into a neutron star (incredibly dense) or, if massive enough, a black hole (where gravity is so strong that not even light can escape).\n\nElements heavier than iron are formed during supernovae. The debris from supernovae forms new nebulae, which can collapse to form new stars and planets — so the elements in our bodies were forged in ancient stars.",
+        keyTerms: [
+          { term: "Nebula", definition: "A large cloud of dust and gas from which stars are born" },
+          { term: "Protostar", definition: "A forming star that has not yet begun nuclear fusion" },
+          { term: "Main sequence star", definition: "A stable star fusing hydrogen into helium; gravity is balanced by radiation pressure" },
+          { term: "Red giant", definition: "An expanded, cooled star that has exhausted its core hydrogen supply (from Sun-sized stars)" },
+          { term: "White dwarf", definition: "The small, hot, dense remnant core of a Sun-sized star after the red giant phase" },
+          { term: "Red supergiant", definition: "A very large expanded star formed from a massive star that has run low on fuel" },
+          { term: "Supernova", definition: "The explosive death of a massive star, scattering heavy elements into space" },
+          { term: "Neutron star", definition: "An incredibly dense remnant of a massive star after a supernova" },
+          { term: "Black hole", definition: "A remnant so dense that its gravity prevents even light from escaping" },
+        ],
+        tables: [
+          {
+            title: "Life Cycle of Stars",
+            headers: ["Stage", "Sun-sized Star", "Massive Star"],
+            rows: [
+              ["Birth", "Nebula → Protostar", "Nebula → Protostar"],
+              ["Stable phase", "Main sequence star", "Main sequence star (shorter)"],
+              ["Expansion", "Red giant", "Red supergiant"],
+              ["Death", "Planetary nebula → White dwarf", "Supernova → Neutron star or Black hole"],
+            ],
+          },
+        ],
+      },
+      {
+        heading: "The Big Bang and Red Shift",
+        content:
+          "Red shift is the observation that light from distant galaxies is shifted towards the red end of the spectrum (longer wavelength, lower frequency). This indicates that the galaxies are moving away from us. The further away a galaxy is, the greater its red shift, meaning it is moving away faster. This relationship was discovered by Edwin Hubble.\n\nRed shift is caused by the Doppler effect applied to light. Just as the pitch of a siren changes as it moves towards or away from you (sound waves are compressed or stretched), the wavelength of light from a moving source is shortened (blue shift) if approaching or lengthened (red shift) if receding.\n\nThe observation that almost all galaxies show red shift, and that more distant galaxies have greater red shift, provides strong evidence that the universe is expanding. If the universe is expanding, it must have been smaller in the past — tracing this expansion backwards leads to the conclusion that the universe began from a single, extremely hot, dense point. This is the Big Bang theory.\n\nCosmic microwave background radiation (CMBR) is another key piece of evidence for the Big Bang. It is low-energy microwave radiation that fills all of space uniformly. It is the remnant thermal radiation from the very early universe, which has cooled as the universe expanded. The Big Bang theory predicted this radiation before it was discovered in 1965 by Penzias and Wilson.\n\nThe Big Bang is the currently accepted scientific model for the origin of the universe, estimated to have occurred approximately 13.8 billion years ago. The universe has been expanding and cooling ever since.",
+        keyTerms: [
+          { term: "Red shift", definition: "The shift of light from distant galaxies to longer wavelengths (red end), indicating they are moving away" },
+          { term: "Blue shift", definition: "The shift of light to shorter wavelengths, indicating an object is moving towards us" },
+          { term: "Doppler effect", definition: "The change in wavelength and frequency of a wave caused by the relative motion of the source and observer" },
+          { term: "Big Bang theory", definition: "The theory that the universe began from an extremely hot dense point about 13.8 billion years ago and has been expanding ever since" },
+          { term: "Cosmic microwave background radiation (CMBR)", definition: "Low-energy microwave radiation filling all of space uniformly; remnant radiation from the early universe" },
+          { term: "Hubble's observation", definition: "The further a galaxy is from us, the faster it is moving away (greater red shift)" },
+        ],
+      },
+      {
+        heading: "Orbits and Gravity",
+        content:
+          "Gravity is a force of attraction between any two objects with mass. The greater the masses, the greater the gravitational force. The greater the distance between the objects, the weaker the gravitational force. Gravity is the force responsible for keeping planets in orbit around the Sun and moons in orbit around planets.\n\nFor an object in a stable circular orbit, gravity provides the centripetal force needed to maintain the orbit. The object is constantly accelerating towards the centre (changing direction) but never gets closer because it is also moving forward at the right speed. If the speed were too low, the object would spiral inwards; if too high, it would fly off into space.\n\nOrbital speed and period depend on the distance from the central body. Closer orbits have higher speeds and shorter orbital periods. Mercury (closest to the Sun) orbits in 88 days; Neptune (furthest major planet) takes about 165 years.\n\nArtificial satellites orbit the Earth at different heights depending on their purpose. Low-orbit satellites (a few hundred kilometres up) orbit quickly (about 90 minutes) and are used for imaging, weather monitoring, and the International Space Station. Geostationary satellites orbit at about 36,000 km and take exactly 24 hours to orbit, so they stay above the same point on the Earth's surface — they are used for communications and weather monitoring.\n\nComets have highly elliptical orbits. They speed up as they approach the Sun (stronger gravity, less GPE, more KE) and slow down as they move away (weaker gravity, more GPE, less KE).",
+        keyTerms: [
+          { term: "Gravity", definition: "A force of attraction between any two objects with mass; increases with mass and decreases with distance" },
+          { term: "Centripetal force", definition: "The resultant force directed towards the centre of a circular path that keeps an object moving in a circle" },
+          { term: "Orbital period", definition: "The time taken for an object to complete one full orbit" },
+          { term: "Geostationary orbit", definition: "An orbit at ~36,000 km above the equator with a period of 24 hours; satellite stays above one point" },
+          { term: "Low-orbit satellite", definition: "A satellite a few hundred km above Earth with a short orbital period (~90 minutes)" },
+          { term: "Elliptical orbit", definition: "An oval-shaped orbit (e.g. comets); speed varies — fastest when closest to the Sun" },
         ],
       },
     ],

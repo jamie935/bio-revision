@@ -1,11 +1,13 @@
 import { flashcards, topics, type Flashcard, type Topic } from "./flashcards";
 import { chemistryFlashcards, chemistryTopics } from "./chemistry-flashcards";
+import { physicsFlashcards, physicsTopics } from "./physics-flashcards";
 
-// Import AI-generated content (auto-populated by the upload pipeline)
+// Import AI-generated / user-uploaded content (auto-populated by the upload pipeline)
 import bioGenerated from "./generated/biology-generated.json";
 import chemGenerated from "./generated/chemistry-generated.json";
+import physGenerated from "./generated/physics-generated.json";
 
-export type Subject = "biology" | "chemistry";
+export type Subject = "biology" | "chemistry" | "physics";
 
 export interface SubjectConfig {
   id: Subject;
@@ -16,6 +18,45 @@ export interface SubjectConfig {
   topics: Topic[];
   flashcards: Flashcard[];
 }
+
+// Centralised theme for each subject — replaces scattered ternaries in components
+export const subjectTheme: Record<Subject, {
+  gradient: string;
+  accent: string;
+  ring: string;
+  bg: string;
+  lightBg: string;
+  lightText: string;
+  bullet: string;
+}> = {
+  biology: {
+    gradient: "from-indigo-500 to-purple-600",
+    accent: "text-indigo-500",
+    ring: "ring-indigo-300",
+    bg: "bg-indigo-50",
+    lightBg: "bg-indigo-100",
+    lightText: "text-indigo-700",
+    bullet: "text-indigo-500",
+  },
+  chemistry: {
+    gradient: "from-orange-500 to-red-500",
+    accent: "text-orange-500",
+    ring: "ring-orange-300",
+    bg: "bg-orange-50",
+    lightBg: "bg-orange-100",
+    lightText: "text-orange-700",
+    bullet: "text-orange-500",
+  },
+  physics: {
+    gradient: "from-blue-500 to-cyan-500",
+    accent: "text-blue-500",
+    ring: "ring-blue-300",
+    bg: "bg-blue-50",
+    lightBg: "bg-blue-100",
+    lightText: "text-blue-700",
+    bullet: "text-blue-500",
+  },
+};
 
 // Merge AI-generated topics and subtopics into existing topic list
 interface GeneratedData {
@@ -65,6 +106,15 @@ export const subjects: Record<Subject, SubjectConfig> = {
     topics: mergeTopics(chemistryTopics, chemGenerated),
     flashcards: [...chemistryFlashcards, ...(chemGenerated.flashcards as unknown as Flashcard[])],
   },
+  physics: {
+    id: "physics",
+    name: "Physics",
+    shortName: "Phys",
+    icon: "⚛️",
+    gradient: "from-blue-500 to-cyan-500",
+    topics: mergeTopics(physicsTopics, physGenerated),
+    flashcards: [...physicsFlashcards, ...(physGenerated.flashcards as unknown as Flashcard[])],
+  },
 };
 
 export function getSubjectData(subject: Subject) {
@@ -75,8 +125,10 @@ export function getAllFlashcards(): Flashcard[] {
   return [
     ...flashcards,
     ...chemistryFlashcards,
+    ...physicsFlashcards,
     ...(bioGenerated.flashcards as unknown as Flashcard[]),
     ...(chemGenerated.flashcards as unknown as Flashcard[]),
+    ...(physGenerated.flashcards as unknown as Flashcard[]),
   ];
 }
 
@@ -84,5 +136,41 @@ export function getAllTopics(): Topic[] {
   return [
     ...mergeTopics(topics, bioGenerated),
     ...mergeTopics(chemistryTopics, chemGenerated),
+    ...mergeTopics(physicsTopics, physGenerated),
   ];
+}
+
+// --- Added Content accessors (read from generated JSON = user-uploaded content) ---
+
+export function getAddedContent(): Record<Subject, { topics: Topic[]; flashcards: Flashcard[] }> {
+  return {
+    biology: {
+      topics: bioGenerated.newTopics as unknown as Topic[],
+      flashcards: bioGenerated.flashcards as unknown as Flashcard[],
+    },
+    chemistry: {
+      topics: chemGenerated.newTopics as unknown as Topic[],
+      flashcards: chemGenerated.flashcards as unknown as Flashcard[],
+    },
+    physics: {
+      topics: physGenerated.newTopics as unknown as Topic[],
+      flashcards: physGenerated.flashcards as unknown as Flashcard[],
+    },
+  };
+}
+
+export function hasAddedContent(): boolean {
+  return (
+    bioGenerated.flashcards.length > 0 ||
+    chemGenerated.flashcards.length > 0 ||
+    physGenerated.flashcards.length > 0
+  );
+}
+
+export function getAddedContentCount(): Record<Subject, number> {
+  return {
+    biology: bioGenerated.flashcards.length,
+    chemistry: chemGenerated.flashcards.length,
+    physics: physGenerated.flashcards.length,
+  };
 }

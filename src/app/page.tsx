@@ -5,35 +5,61 @@ import { motion, AnimatePresence } from "framer-motion";
 import { TopicBrowser } from "@/components/TopicBrowser";
 import { QuizMode } from "@/components/QuizMode";
 import { Dashboard } from "@/components/Dashboard";
+import { AddedContent } from "@/components/AddedContent";
 import { Button } from "@/components/ui/button";
-import { BookOpen, BarChart3, GraduationCap, Dna, FlaskConical, Atom, Upload } from "lucide-react";
-import { type Subject } from "@/data/subjects";
+import { BookOpen, BarChart3, GraduationCap, Dna, FlaskConical, Atom, Upload, FolderPlus } from "lucide-react";
+import { type Subject, subjectTheme } from "@/data/subjects";
+import { type Flashcard } from "@/data/flashcards";
 import { PeriodicTable } from "@/components/PeriodicTable";
 import { ContentUpload } from "@/components/ContentUpload";
 
-type View = "topics" | "quiz" | "dashboard" | "periodic-table";
+type View = "topics" | "quiz" | "dashboard" | "periodic-table" | "added-content";
+
+const subjectIcons: Record<Subject, React.ReactNode> = {
+  biology: <Dna className="w-6 h-6 text-white" />,
+  chemistry: <FlaskConical className="w-6 h-6 text-white" />,
+  physics: <Atom className="w-6 h-6 text-white" />,
+};
 
 export default function Home() {
   const [view, setView] = useState<View>("topics");
   const [quizTopic, setQuizTopic] = useState<string | undefined>();
   const [subject, setSubject] = useState<Subject>("biology");
   const [showUpload, setShowUpload] = useState(false);
+  const [customQuizCards, setCustomQuizCards] = useState<Flashcard[] | undefined>();
+  const [customQuizLabel, setCustomQuizLabel] = useState<string | undefined>();
 
   const startQuiz = (topicId?: string) => {
+    setCustomQuizCards(undefined);
+    setCustomQuizLabel(undefined);
     setQuizTopic(topicId);
+    setView("quiz");
+  };
+
+  const startAddedQuiz = (subj: Subject, cards: Flashcard[]) => {
+    setSubject(subj);
+    setCustomQuizCards(cards);
+    setCustomQuizLabel(`Added ${subj.charAt(0).toUpperCase() + subj.slice(1)} Content`);
+    setQuizTopic(undefined);
     setView("quiz");
   };
 
   const goBack = () => {
     setView("topics");
     setQuizTopic(undefined);
+    setCustomQuizCards(undefined);
+    setCustomQuizLabel(undefined);
   };
 
   const switchSubject = (s: Subject) => {
     setSubject(s);
     setView("topics");
     setQuizTopic(undefined);
+    setCustomQuizCards(undefined);
+    setCustomQuizLabel(undefined);
   };
+
+  const theme = subjectTheme[subject];
 
   return (
     <div className="min-h-screen">
@@ -42,17 +68,9 @@ export default function Home() {
         <div className="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <div
-              className={`w-10 h-10 bg-gradient-to-br rounded-xl flex items-center justify-center transition-all duration-300 ${
-                subject === "biology"
-                  ? "from-indigo-500 to-purple-600"
-                  : "from-orange-500 to-red-500"
-              }`}
+              className={`w-10 h-10 bg-gradient-to-br rounded-xl flex items-center justify-center transition-all duration-300 ${theme.gradient}`}
             >
-              {subject === "biology" ? (
-                <Dna className="w-6 h-6 text-white" />
-              ) : (
-                <FlaskConical className="w-6 h-6 text-white" />
-              )}
+              {subjectIcons[subject]}
             </div>
             <div>
               <p className="font-[family-name:var(--font-signature)] text-base text-blue-600">By Avi True</p>
@@ -101,13 +119,22 @@ export default function Home() {
               </Button>
             )}
             <Button
+              variant={view === "added-content" ? "default" : "ghost"}
+              size="sm"
+              onClick={() => setView("added-content")}
+              className="gap-1.5"
+            >
+              <FolderPlus className="w-4 h-4" />
+              <span className="hidden sm:inline">Added</span>
+            </Button>
+            <Button
               variant="ghost"
               size="sm"
               onClick={() => setShowUpload(true)}
               className="gap-1.5 text-green-600 hover:text-green-700 hover:bg-green-50"
             >
               <Upload className="w-4 h-4" />
-              <span className="hidden sm:inline">Add Content</span>
+              <span className="hidden sm:inline">Upload</span>
             </Button>
           </nav>
         </div>
@@ -115,28 +142,25 @@ export default function Home() {
         {/* Subject Switcher */}
         <div className="max-w-5xl mx-auto px-4 pb-3">
           <div className="flex gap-2">
-            <button
-              onClick={() => switchSubject("biology")}
-              className={`flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 ${
-                subject === "biology"
-                  ? "bg-indigo-100 text-indigo-700 ring-2 ring-indigo-300 shadow-sm"
-                  : "bg-gray-100 text-gray-500 hover:bg-gray-200"
-              }`}
-            >
-              <span className="text-lg">🧬</span>
-              Biology
-            </button>
-            <button
-              onClick={() => switchSubject("chemistry")}
-              className={`flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 ${
-                subject === "chemistry"
-                  ? "bg-orange-100 text-orange-700 ring-2 ring-orange-300 shadow-sm"
-                  : "bg-gray-100 text-gray-500 hover:bg-gray-200"
-              }`}
-            >
-              <span className="text-lg">⚗️</span>
-              Chemistry
-            </button>
+            {(["biology", "chemistry", "physics"] as Subject[]).map((s) => {
+              const t = subjectTheme[s];
+              const icons: Record<Subject, string> = { biology: "🧬", chemistry: "⚗️", physics: "⚛️" };
+              const labels: Record<Subject, string> = { biology: "Biology", chemistry: "Chemistry", physics: "Physics" };
+              return (
+                <button
+                  key={s}
+                  onClick={() => switchSubject(s)}
+                  className={`flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 ${
+                    subject === s
+                      ? `${t.lightBg} ${t.lightText} ring-2 ${t.ring} shadow-sm`
+                      : "bg-gray-100 text-gray-500 hover:bg-gray-200"
+                  }`}
+                >
+                  <span className="text-lg">{icons[s]}</span>
+                  {labels[s]}
+                </button>
+              );
+            })}
           </div>
         </div>
       </header>
@@ -164,7 +188,13 @@ export default function Home() {
               exit={{ opacity: 0, y: -10 }}
               transition={{ duration: 0.2 }}
             >
-              <QuizMode onBack={goBack} topicFilter={quizTopic} subject={subject} />
+              <QuizMode
+                onBack={goBack}
+                topicFilter={quizTopic}
+                subject={subject}
+                customCards={customQuizCards}
+                customLabel={customQuizLabel}
+              />
             </motion.div>
           )}
 
@@ -191,6 +221,18 @@ export default function Home() {
               <div className="bg-white rounded-2xl shadow-sm border p-6">
                 <PeriodicTable />
               </div>
+            </motion.div>
+          )}
+
+          {view === "added-content" && (
+            <motion.div
+              key="added-content"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              transition={{ duration: 0.2 }}
+            >
+              <AddedContent onStartQuiz={startAddedQuiz} onUpload={() => setShowUpload(true)} />
             </motion.div>
           )}
         </AnimatePresence>

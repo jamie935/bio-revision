@@ -100,10 +100,12 @@ export async function mergeAndCommit(
   env: Env
 ): Promise<{ commitUrl: string; flashcardsAdded: number }> {
   // Determine which file to update
-  const filePath =
-    content.subject === "biology"
-      ? "src/data/generated/biology-generated.json"
-      : "src/data/generated/chemistry-generated.json";
+  const filePathMap: Record<string, string> = {
+    biology: "src/data/generated/biology-generated.json",
+    chemistry: "src/data/generated/chemistry-generated.json",
+    physics: "src/data/generated/physics-generated.json",
+  };
+  const filePath = filePathMap[content.subject];
 
   // Read current file from GitHub
   const currentFile = await getFile(filePath, env);
@@ -118,7 +120,8 @@ export async function mergeAndCommit(
   }
 
   // Assign IDs to new flashcards
-  const prefix = content.subject === "biology" ? "gen-bio" : "gen-chem";
+  const prefixMap: Record<string, string> = { biology: "gen-bio", chemistry: "gen-chem", physics: "gen-phys" };
+  const prefix = prefixMap[content.subject];
   let nextId = maxId + 1;
 
   const newFlashcards = content.flashcards
@@ -167,9 +170,8 @@ export async function mergeAndCommit(
     existingData.newTopics.push({
       id: topicId,
       name: content.detectedTopic.name,
-      icon: content.subject === "biology" ? "📚" : "🧪",
-      color:
-        content.subject === "biology" ? "bg-blue-500" : "bg-yellow-500",
+      icon: content.subject === "biology" ? "📚" : content.subject === "chemistry" ? "🧪" : "⚡",
+      color: content.subject === "biology" ? "bg-blue-500" : content.subject === "chemistry" ? "bg-yellow-500" : "bg-cyan-500",
       subtopics: content.newSubtopics,
     });
   }

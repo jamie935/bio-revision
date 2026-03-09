@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
 import { type Flashcard } from "@/data/flashcards";
-import { type Subject, subjects } from "@/data/subjects";
+import { type Subject, subjects, subjectTheme } from "@/data/subjects";
 import { loadPerformance, getTopicStats, type CardPerformance, type TopicStats } from "@/lib/spaced-repetition";
 import { ChevronLeft, ChevronRight, BookOpen, Lightbulb, CheckCircle2, AlertTriangle, FileText } from "lucide-react";
 import { topicSummaries } from "@/data/topic-summaries";
@@ -138,8 +138,9 @@ export function TopicBrowser({ onStartQuiz, subject }: TopicBrowserProps) {
     ? getFlashcardsBySubtopic(selectedTopic, selectedSubtopic)
     : [];
 
-  const accentColor = subject === "chemistry" ? "text-orange-400" : "text-indigo-400";
-  const ringColor = subject === "chemistry" ? "ring-orange-300" : "ring-indigo-300";
+  const theme = subjectTheme[subject];
+  const accentColor = theme.accent;
+  const ringColor = theme.ring;
 
   // Find the summary for this topic
   const topicSummary = selectedTopic
@@ -184,9 +185,7 @@ export function TopicBrowser({ onStartQuiz, subject }: TopicBrowserProps) {
             onClick={() => setShowSummary(false)}
             className={`flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-medium transition-all ${
               !showSummary
-                ? subject === "chemistry"
-                  ? "bg-orange-100 text-orange-700 ring-2 ring-orange-300"
-                  : "bg-indigo-100 text-indigo-700 ring-2 ring-indigo-300"
+                ? `${theme.lightBg} ${theme.lightText} ring-2 ${theme.ring}`
                 : "bg-gray-100 text-gray-500 hover:bg-gray-200"
             }`}
           >
@@ -196,9 +195,7 @@ export function TopicBrowser({ onStartQuiz, subject }: TopicBrowserProps) {
             onClick={() => setShowSummary(true)}
             className={`flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-medium transition-all ${
               showSummary
-                ? subject === "chemistry"
-                  ? "bg-orange-100 text-orange-700 ring-2 ring-orange-300"
-                  : "bg-indigo-100 text-indigo-700 ring-2 ring-indigo-300"
+                ? `${theme.lightBg} ${theme.lightText} ring-2 ${theme.ring}`
                 : "bg-gray-100 text-gray-500 hover:bg-gray-200"
             }`}
           >

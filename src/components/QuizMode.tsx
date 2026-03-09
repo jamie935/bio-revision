@@ -8,7 +8,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 import { Badge } from "@/components/ui/badge";
 import { type Flashcard } from "@/data/flashcards";
-import { type Subject, subjects } from "@/data/subjects";
+import { type Subject, subjects, subjectTheme } from "@/data/subjects";
 import {
   loadPerformance,
   recordAnswer,
@@ -33,9 +33,11 @@ interface QuizModeProps {
   onBack: () => void;
   topicFilter?: string;
   subject: Subject;
+  customCards?: Flashcard[];
+  customLabel?: string;
 }
 
-export function QuizMode({ onBack, topicFilter, subject }: QuizModeProps) {
+export function QuizMode({ onBack, topicFilter, subject, customCards, customLabel }: QuizModeProps) {
   const [performance, setPerformance] = useState<Record<string, CardPerformance>>({});
   const [cards, setCards] = useState<Flashcard[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -58,9 +60,10 @@ export function QuizMode({ onBack, topicFilter, subject }: QuizModeProps) {
   useEffect(() => {
     const perf = loadPerformance();
     setPerformance(perf);
-    const selected = selectNextCards(subjectFlashcards, perf, quizSize, topicFilter);
+    const pool = customCards || subjectFlashcards;
+    const selected = selectNextCards(pool, perf, quizSize, customCards ? undefined : topicFilter);
     setCards(selected);
-  }, [topicFilter, quizSize, subject, subjectFlashcards]);
+  }, [topicFilter, quizSize, subject, subjectFlashcards, customCards]);
 
   const handleAnswer = useCallback(
     (correct: boolean) => {
@@ -97,7 +100,8 @@ export function QuizMode({ onBack, topicFilter, subject }: QuizModeProps) {
   const handleRestart = () => {
     const perf = loadPerformance();
     setPerformance(perf);
-    const selected = selectNextCards(subjectFlashcards, perf, quizSize, topicFilter);
+    const pool = customCards || subjectFlashcards;
+    const selected = selectNextCards(pool, perf, quizSize, customCards ? undefined : topicFilter);
     setCards(selected);
     setCurrentIndex(0);
     setIsComplete(false);
@@ -112,13 +116,13 @@ export function QuizMode({ onBack, topicFilter, subject }: QuizModeProps) {
     });
   };
 
-  const topicName = topicFilter
-    ? subjectTopics.find((t) => t.id === topicFilter)?.name || "All Topics"
-    : "All Topics";
+  const topicName = customLabel
+    ? customLabel
+    : topicFilter
+      ? subjectTopics.find((t) => t.id === topicFilter)?.name || "All Topics"
+      : "All Topics";
 
-  const gradientClass = subject === "chemistry"
-    ? "from-orange-500 to-red-500"
-    : "from-indigo-500 to-purple-600";
+  const gradientClass = subjectTheme[subject].gradient;
 
   if (cards.length === 0) {
     return (

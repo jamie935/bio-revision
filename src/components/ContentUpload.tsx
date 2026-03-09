@@ -233,7 +233,7 @@ export function ContentUpload({ isOpen, onClose }: ContentUploadProps) {
                 )}
 
                 <p className="text-[11px] text-gray-400 text-center mt-4">
-                  AI will auto-detect Biology or Chemistry and generate flashcards, quiz questions, and revision notes
+                  AI will auto-detect Biology, Chemistry or Physics and generate flashcards, quiz questions, and revision notes
                 </p>
               </>
             )}

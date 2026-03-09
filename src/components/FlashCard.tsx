@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Flashcard } from "@/data/flashcards";
-import { type Subject } from "@/data/subjects";
+import { type Subject, subjectTheme } from "@/data/subjects";
 import { Badge } from "@/components/ui/badge";
 import { Lightbulb } from "lucide-react";
 
@@ -38,11 +38,9 @@ export function FlashCard({ card, onAnswer, showResult, subject = "biology" }: F
       ? "bg-amber-100 text-amber-800"
       : "bg-red-100 text-red-800";
 
-  const cardGradient = subject === "chemistry"
-    ? "from-orange-500 to-red-500"
-    : "from-indigo-500 to-purple-600";
-
-  const bulletColor = subject === "chemistry" ? "text-orange-500" : "text-indigo-500";
+  const theme = subjectTheme[subject];
+  const cardGradient = theme.gradient;
+  const bulletColor = theme.bullet;
 
   return (
     <div className="w-full max-w-2xl mx-auto perspective-1000">

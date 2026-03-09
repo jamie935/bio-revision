@@ -33,7 +33,7 @@ export const TopicSummarySchema = z
   .optional();
 
 export const ContentSchema = z.object({
-  subject: z.union([z.literal("biology"), z.literal("chemistry")]),
+  subject: z.union([z.literal("biology"), z.literal("chemistry"), z.literal("physics")]),
   detectedTopic: z.object({
     id: z.string().regex(/^[a-z][a-z0-9-]*$/),
     name: z.string(),

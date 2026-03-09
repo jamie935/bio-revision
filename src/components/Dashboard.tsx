@@ -6,7 +6,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
 import { Badge } from "@/components/ui/badge";
-import { type Subject, subjects } from "@/data/subjects";
+import { type Subject, subjects, subjectTheme } from "@/data/subjects";
 import {
   loadPerformance,
   getOverallStats,
@@ -51,7 +51,8 @@ export function Dashboard({ onStartQuiz, subject }: DashboardProps) {
     setShowResetConfirm(false);
   };
 
-  const accentColor = subject === "chemistry" ? "text-orange-500" : "text-indigo-500";
+  const theme = subjectTheme[subject];
+  const accentColor = theme.accent;
 
   return (
     <div>
@@ -70,7 +71,7 @@ export function Dashboard({ onStartQuiz, subject }: DashboardProps) {
             label: "Total Cards",
             value: overall.totalCards,
             color: accentColor,
-            bg: subject === "chemistry" ? "bg-orange-50" : "bg-indigo-50",
+            bg: theme.bg,
           },
           {
             icon: Target,

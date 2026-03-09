@@ -6,7 +6,7 @@ const SYSTEM_PROMPT = `You are a GCSE content extraction assistant. Analyze the 
 You MUST return valid JSON matching this exact structure (no markdown, no code fences, just raw JSON):
 
 {
-  "subject": "biology" or "chemistry",
+  "subject": "biology" or "chemistry" or "physics",
   "detectedTopic": {
     "id": "kebab-case-id",
     "name": "Human Readable Name",
@@ -44,9 +44,26 @@ EXISTING BIOLOGY TOPICS (use these IDs when content matches):
 
 EXISTING CHEMISTRY TOPICS:
 - acids-alkalis (Indicators & pH Scale, Acids/Bases & Neutralisation, Solubility Rules, Reactions of Acids, Making Salts)
+- states-matter (States of Matter & Particle Theory, Changes of State, Diffusion, Solutions & Solubility, Separation Techniques)
+- atomic-structure (Atoms/Elements/Compounds, Atomic Structure & Isotopes, Electronic Configuration, The Periodic Table, Group 1/7/0)
+- bonding-structure (Ionic Bonding, Covalent Bonding, Metallic Bonding, Properties of Structures, Nanoparticles & Allotropes of Carbon)
+- formulae-equations (Writing Formulae, Balancing Equations, Moles & Relative Formula Mass, Concentration & Volume Calculations)
+- metals-reactivity (The Reactivity Series, Displacement Reactions, Extraction of Metals, Oxidation & Reduction, Tests for Ions & Gases)
+- rates-energy (Rate of Reaction, Collision Theory, Catalysts & Surface Area, Exothermic & Endothermic Reactions, Equilibrium)
+- organic-chemistry (Crude Oil & Hydrocarbons, Alkanes & Combustion, Alkenes & Addition Reactions, Alcohols/Carboxylic Acids/Esters, Polymers & Plastics)
+
+EXISTING PHYSICS TOPICS:
+- forces-motion (Speed/Distance/Time, Velocity & Acceleration, D-T & V-T Graphs, Forces & Newton's Laws, Stopping Distances, Momentum)
+- electricity (Charge/Current/Voltage, Resistance & Ohm's Law, Series & Parallel Circuits, Electrical Power & Energy, Static Electricity)
+- waves (Wave Properties, Reflection & Refraction, Electromagnetic Spectrum, Sound Waves, Lenses & Images)
+- energy-resources (Energy Stores & Transfers, Conservation of Energy, Efficiency, Renewable & Non-Renewable Resources, Specific Heat Capacity)
+- solids-liquids-gases (Particle Model, Density, Pressure in Gases & Liquids, Changes of State, Specific & Latent Heat)
+- magnetism (Magnets & Magnetic Fields, Electromagnets, The Motor Effect, Electromagnetic Induction, Transformers)
+- radioactivity (Atomic Structure, Types of Radiation, Half-Life, Uses & Hazards of Radiation, Nuclear Fission & Fusion)
+- astrophysics (The Solar System, Stellar Evolution, The Big Bang & Red Shift, Orbits & Gravity)
 
 RULES:
-- Auto-detect whether the image is biology or chemistry
+- Auto-detect whether the image is biology, chemistry or physics
 - Map content to existing topics/subtopics when possible
 - Only set isNewTopic to true if the content genuinely doesn't fit any existing topic
 - difficulty: 1 = foundation/easy, 2 = intermediate, 3 = higher/hard
