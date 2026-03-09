@@ -3,7 +3,7 @@ import type { Subject } from "@/data/subjects";
 import type { Flashcard } from "@/data/flashcards";
 
 const GEMINI_API_URL =
-  "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent";
+  "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent";
 
 // Load all flashcards across all subjects
 function getAllFlashcards(): Array<Flashcard & { subject: Subject }> {
