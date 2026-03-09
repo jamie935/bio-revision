@@ -6,8 +6,11 @@ import { TopicBrowser } from "@/components/TopicBrowser";
 import { QuizMode } from "@/components/QuizMode";
 import { Dashboard } from "@/components/Dashboard";
 import { AddedContent } from "@/components/AddedContent";
+import { AuthGate } from "@/components/AuthGate";
+import { PaymentGate } from "@/components/PaymentGate";
+import { useAuth } from "@/components/AuthProvider";
 import { Button } from "@/components/ui/button";
-import { BookOpen, BarChart3, GraduationCap, Dna, FlaskConical, Atom, Upload, FolderPlus } from "lucide-react";
+import { BookOpen, BarChart3, GraduationCap, Dna, FlaskConical, Atom, Upload, FolderPlus, Shield, LogOut } from "lucide-react";
 import { type Subject, subjectTheme } from "@/data/subjects";
 import { type Flashcard } from "@/data/flashcards";
 import { PeriodicTable } from "@/components/PeriodicTable";
@@ -22,6 +25,7 @@ const subjectIcons: Record<Subject, React.ReactNode> = {
 };
 
 export default function Home() {
+  const { user, logout } = useAuth();
   const [view, setView] = useState<View>("topics");
   const [quizTopic, setQuizTopic] = useState<string | undefined>();
   const [subject, setSubject] = useState<Subject>("biology");
@@ -62,6 +66,8 @@ export default function Home() {
   const theme = subjectTheme[subject];
 
   return (
+    <AuthGate>
+      <PaymentGate>
     <div className="min-h-screen">
       {/* Header */}
       <header className="bg-white border-b sticky top-0 z-50">
@@ -135,6 +141,25 @@ export default function Home() {
             >
               <Upload className="w-4 h-4" />
               <span className="hidden sm:inline">Upload</span>
+            </Button>
+            {user && user.role !== "user" && (
+              <Button
+                variant="ghost"
+                size="sm"
+                onClick={() => window.location.href = "/admin"}
+                className="gap-1.5 text-purple-600 hover:text-purple-700 hover:bg-purple-50"
+              >
+                <Shield className="w-4 h-4" />
+                <span className="hidden sm:inline">Admin</span>
+              </Button>
+            )}
+            <Button
+              variant="ghost"
+              size="sm"
+              onClick={logout}
+              className="gap-1.5 text-gray-400 hover:text-red-500"
+            >
+              <LogOut className="w-4 h-4" />
             </Button>
           </nav>
         </div>
@@ -241,5 +266,7 @@ export default function Home() {
       {/* Upload Modal */}
       <ContentUpload isOpen={showUpload} onClose={() => setShowUpload(false)} />
     </div>
+      </PaymentGate>
+    </AuthGate>
   );
 }

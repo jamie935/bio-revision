@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { motion } from "framer-motion";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -8,13 +8,12 @@ import { Progress } from "@/components/ui/progress";
 import { Badge } from "@/components/ui/badge";
 import { type Subject, subjects, subjectTheme } from "@/data/subjects";
 import {
-  loadPerformance,
   getOverallStats,
   getTopicStats,
   getWeakestTopics,
   resetPerformance,
-  type CardPerformance,
 } from "@/lib/spaced-repetition";
+import { usePerformance } from "@/lib/performance-api";
 import {
   Brain,
   Target,
@@ -31,16 +30,12 @@ interface DashboardProps {
 }
 
 export function Dashboard({ onStartQuiz, subject }: DashboardProps) {
-  const [performance, setPerformance] = useState<Record<string, CardPerformance>>({});
+  const { performance, setPerformance } = usePerformance();
   const [showResetConfirm, setShowResetConfirm] = useState(false);
 
   const subjectData = subjects[subject];
   const currentTopics = subjectData.topics;
   const currentFlashcards = subjectData.flashcards;
-
-  useEffect(() => {
-    setPerformance(loadPerformance());
-  }, [subject]);
 
   const overall = getOverallStats(currentFlashcards, performance);
   const weakAreas = getWeakestTopics(currentFlashcards, performance).slice(0, 5);

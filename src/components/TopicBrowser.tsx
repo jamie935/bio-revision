@@ -8,7 +8,8 @@ import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
 import { type Flashcard } from "@/data/flashcards";
 import { type Subject, subjects, subjectTheme } from "@/data/subjects";
-import { loadPerformance, getTopicStats, type CardPerformance, type TopicStats } from "@/lib/spaced-repetition";
+import { getTopicStats, type TopicStats } from "@/lib/spaced-repetition";
+import { usePerformance } from "@/lib/performance-api";
 import { ChevronLeft, ChevronRight, BookOpen, Lightbulb, CheckCircle2, AlertTriangle, FileText } from "lucide-react";
 import { topicSummaries } from "@/data/topic-summaries";
 import { TopicSummaryView } from "./TopicSummary";
@@ -22,7 +23,7 @@ export function TopicBrowser({ onStartQuiz, subject }: TopicBrowserProps) {
   const [selectedTopic, setSelectedTopic] = useState<string | null>(null);
   const [selectedSubtopic, setSelectedSubtopic] = useState<string | null>(null);
   const [expandedCard, setExpandedCard] = useState<string | null>(null);
-  const [performance, setPerformance] = useState<Record<string, CardPerformance>>({});
+  const { performance } = usePerformance();
   const [topicStats, setTopicStats] = useState<Record<string, TopicStats>>({});
   const [showSummary, setShowSummary] = useState(false);
 
@@ -39,14 +40,12 @@ export function TopicBrowser({ onStartQuiz, subject }: TopicBrowserProps) {
   }, [subject]);
 
   useEffect(() => {
-    const perf = loadPerformance();
-    setPerformance(perf);
     const stats: Record<string, TopicStats> = {};
     for (const topic of currentTopics) {
-      stats[topic.id] = getTopicStats(currentFlashcards, perf, topic.id);
+      stats[topic.id] = getTopicStats(currentFlashcards, performance, topic.id);
     }
     setTopicStats(stats);
-  }, [subject, currentTopics, currentFlashcards]);
+  }, [subject, currentTopics, currentFlashcards, performance]);
 
   const selectedTopicData = currentTopics.find((t) => t.id === selectedTopic);
 

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Dancing_Script } from "next/font/google";
 import "./globals.css";
+import { AuthProvider } from "@/components/AuthProvider";
 
 const dancingScript = Dancing_Script({
   subsets: ["latin"],
@@ -9,8 +10,8 @@ const dancingScript = Dancing_Script({
 });
 
 export const metadata: Metadata = {
-  title: "GCSE Biology Revision - Edexcel IGCSE",
-  description: "Interactive flashcards and revision notes for Year 10 GCSE Biology (Edexcel IGCSE) with spaced repetition",
+  title: "GCSE Revision - Edexcel IGCSE",
+  description: "Interactive flashcards and revision notes for GCSE Biology, Chemistry & Physics (Edexcel IGCSE) with spaced repetition",
 };
 
 export default function RootLayout({
@@ -21,7 +22,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`antialiased bg-gray-50 min-h-screen ${dancingScript.variable}`}>
-        {children}
+        <AuthProvider>
+          {children}
+        </AuthProvider>
       </body>
     </html>
   );

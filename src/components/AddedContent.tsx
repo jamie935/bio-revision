@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { motion } from "framer-motion";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -13,10 +13,7 @@ import {
   getAddedContentCount,
 } from "@/data/subjects";
 import { type Flashcard } from "@/data/flashcards";
-import {
-  loadPerformance,
-  type CardPerformance,
-} from "@/lib/spaced-repetition";
+import { usePerformance } from "@/lib/performance-api";
 import {
   Upload,
   ChevronLeft,
@@ -33,15 +30,11 @@ export function AddedContent({ onStartQuiz, onUpload }: AddedContentProps) {
   const [selectedSubject, setSelectedSubject] = useState<Subject | null>(null);
   const [selectedTopic, setSelectedTopic] = useState<string | null>(null);
   const [expandedCard, setExpandedCard] = useState<string | null>(null);
-  const [performance, setPerformance] = useState<Record<string, CardPerformance>>({});
+  const { performance } = usePerformance();
 
   const addedContent = getAddedContent();
   const counts = getAddedContentCount();
   const totalAdded = counts.biology + counts.chemistry + counts.physics;
-
-  useEffect(() => {
-    setPerformance(loadPerformance());
-  }, []);
 
   // Empty state
   if (totalAdded === 0) {

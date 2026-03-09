@@ -10,13 +10,11 @@ import { Badge } from "@/components/ui/badge";
 import { type Flashcard } from "@/data/flashcards";
 import { type Subject, subjects, subjectTheme } from "@/data/subjects";
 import {
-  loadPerformance,
-  recordAnswer,
   selectNextCards,
   getWeakestTopics,
-  type CardPerformance,
   type SessionStats,
 } from "@/lib/spaced-repetition";
+import { usePerformance } from "@/lib/performance-api";
 import {
   ArrowRight,
   Brain,
@@ -38,7 +36,7 @@ interface QuizModeProps {
 }
 
 export function QuizMode({ onBack, topicFilter, subject, customCards, customLabel }: QuizModeProps) {
-  const [performance, setPerformance] = useState<Record<string, CardPerformance>>({});
+  const { performance, recordAnswerAndSync } = usePerformance();
   const [cards, setCards] = useState<Flashcard[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [sessionStats, setSessionStats] = useState<SessionStats>({
@@ -58,19 +56,16 @@ export function QuizMode({ onBack, topicFilter, subject, customCards, customLabe
   const subjectTopics = subjectData.topics;
 
   useEffect(() => {
-    const perf = loadPerformance();
-    setPerformance(perf);
     const pool = customCards || subjectFlashcards;
-    const selected = selectNextCards(pool, perf, quizSize, customCards ? undefined : topicFilter);
+    const selected = selectNextCards(pool, performance, quizSize, customCards ? undefined : topicFilter);
     setCards(selected);
-  }, [topicFilter, quizSize, subject, subjectFlashcards, customCards]);
+  }, [topicFilter, quizSize, subject, subjectFlashcards, customCards, performance]);
 
   const handleAnswer = useCallback(
     (correct: boolean) => {
       const card = cards[currentIndex];
       if (!card) return;
-      const updated = recordAnswer(performance, card, correct);
-      setPerformance(updated);
+      recordAnswerAndSync(card, correct);
       setLastAnswer(correct);
 
       setSessionStats((prev) => {
@@ -85,7 +80,7 @@ export function QuizMode({ onBack, topicFilter, subject, customCards, customLabe
         };
       });
     },
-    [cards, currentIndex, performance]
+    [cards, currentIndex, recordAnswerAndSync]
   );
 
   const handleNext = () => {
@@ -98,10 +93,8 @@ export function QuizMode({ onBack, topicFilter, subject, customCards, customLabe
   };
 
   const handleRestart = () => {
-    const perf = loadPerformance();
-    setPerformance(perf);
     const pool = customCards || subjectFlashcards;
-    const selected = selectNextCards(pool, perf, quizSize, customCards ? undefined : topicFilter);
+    const selected = selectNextCards(pool, performance, quizSize, customCards ? undefined : topicFilter);
     setCards(selected);
     setCurrentIndex(0);
     setIsComplete(false);
