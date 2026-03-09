@@ -34,7 +34,7 @@ export async function POST(request: Request) {
     if (!user) {
       await sendWhatsApp(
         phone,
-        `Welcome! Sign up at ${process.env.NEXT_PUBLIC_APP_URL || "the app"} to use the GCSE study bot.`
+        `👋 Welcome to GCSE Revision Bot!\n\nTo get started, sign up at ${process.env.NEXT_PUBLIC_APP_URL || "the app"} using your phone number.\n\nOnce registered, you can:\n📚 Ask any GCSE question\n🧠 Take quick quizzes\n📊 Track your progress\n\nSign up now and get a 7-day free trial! 🎓`
       );
       return new NextResponse("OK", { status: 200 });
     }
@@ -62,7 +62,43 @@ export async function POST(request: Request) {
       content: body,
     });
 
+    // Update last_active_at
+    await supabaseAdmin
+      .from("users")
+      .update({ last_active_at: new Date().toISOString() })
+      .eq("id", user.id);
+
     const lower = body.toLowerCase().trim();
+
+    // Handle help/welcome commands
+    if (/^(hi|hello|hey|start|help|menu|commands)\b/i.test(lower)) {
+      const welcomeMsg = `👋 *Welcome to GCSE Revision Bot!*
+
+Here's what I can do:
+
+📚 *Ask a question*
+Just type any GCSE question and I'll answer it using our flashcard database.
+Example: _"What is mitosis?"_
+
+🧠 *Start a quiz*
+• \`quiz me\` — random subject
+• \`quiz biology\` — biology questions
+• \`quiz physics forces\` — specific topic
+• \`quiz chemistry\` — chemistry questions
+
+During a quiz:
+• Just type your answer to reply
+• \`skip\` — skip a question
+• \`done\` — end the quiz & see your score
+
+❓ *Get this menu again*
+Type \`help\` anytime
+
+Good luck with your revision! 🎓`;
+
+      await sendReply(user.id, phone, welcomeMsg, "response");
+      return new NextResponse("OK", { status: 200 });
+    }
 
     // Get current quiz state
     const quizState = await getQuizState(user.id);
