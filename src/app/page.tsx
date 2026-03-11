@@ -10,13 +10,14 @@ import { AuthGate } from "@/components/AuthGate";
 import { PaymentGate } from "@/components/PaymentGate";
 import { useAuth } from "@/components/AuthProvider";
 import { Button } from "@/components/ui/button";
-import { BookOpen, BarChart3, GraduationCap, Dna, FlaskConical, Atom, Upload, FolderPlus, Shield, LogOut } from "lucide-react";
+import { BookOpen, BarChart3, GraduationCap, Dna, FlaskConical, Atom, Upload, FolderPlus, Shield, LogOut, Calculator } from "lucide-react";
 import { type Subject, subjectTheme } from "@/data/subjects";
 import { type Flashcard } from "@/data/flashcards";
 import { PeriodicTable } from "@/components/PeriodicTable";
+import { PhysicsEquations } from "@/components/PhysicsEquations";
 import { ContentUpload } from "@/components/ContentUpload";
 
-type View = "topics" | "quiz" | "dashboard" | "periodic-table" | "added-content";
+type View = "topics" | "quiz" | "dashboard" | "periodic-table" | "equations" | "added-content";
 
 const subjectIcons: Record<Subject, React.ReactNode> = {
   biology: <Dna className="w-6 h-6 text-white" />,
@@ -122,6 +123,17 @@ export default function Home() {
               >
                 <Atom className="w-4 h-4" />
                 <span className="hidden sm:inline">Periodic Table</span>
+              </Button>
+            )}
+            {subject === "physics" && (
+              <Button
+                variant={view === "equations" ? "default" : "ghost"}
+                size="sm"
+                onClick={() => setView("equations")}
+                className="gap-1.5"
+              >
+                <Calculator className="w-4 h-4" />
+                <span className="hidden sm:inline">Equations</span>
               </Button>
             )}
             <Button
@@ -245,6 +257,20 @@ export default function Home() {
             >
               <div className="bg-white rounded-2xl shadow-sm border p-6">
                 <PeriodicTable />
+              </div>
+            </motion.div>
+          )}
+
+          {view === "equations" && (
+            <motion.div
+              key="equations"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              transition={{ duration: 0.2 }}
+            >
+              <div className="bg-white rounded-2xl shadow-sm border p-6">
+                <PhysicsEquations />
               </div>
             </motion.div>
           )}
