@@ -3,13 +3,19 @@ import { supabaseAdmin } from "@/lib/supabase/server";
 import { verifyJWT } from "@/lib/auth/jwt";
 import { cookies } from "next/headers";
 
+// Ensure this route is never cached
+export const dynamic = "force-dynamic";
+
 export async function GET() {
   try {
     const cookieStore = await cookies();
     const token = cookieStore.get("session-token")?.value;
 
     if (!token) {
-      return NextResponse.json({ error: "Not authenticated" }, { status: 401 });
+      return NextResponse.json(
+        { error: "Not authenticated" },
+        { status: 401, headers: { "Cache-Control": "no-store" } }
+      );
     }
 
     const payload = await verifyJWT(token);
@@ -23,7 +29,10 @@ export async function GET() {
       .single();
 
     if (!session || new Date(session.expires_at) < new Date()) {
-      return NextResponse.json({ error: "Session expired" }, { status: 401 });
+      return NextResponse.json(
+        { error: "Session expired" },
+        { status: 401, headers: { "Cache-Control": "no-store" } }
+      );
     }
 
     // Fetch user
@@ -34,31 +43,42 @@ export async function GET() {
       .single();
 
     if (!user) {
-      return NextResponse.json({ error: "User not found" }, { status: 401 });
+      return NextResponse.json(
+        { error: "User not found" },
+        { status: 401, headers: { "Cache-Control": "no-store" } }
+      );
     }
 
-    // Update last active
-    await supabaseAdmin
+    // Update last active (fire-and-forget, don't block auth response)
+    supabaseAdmin
       .from("users")
       .update({ last_active_at: new Date().toISOString() })
-      .eq("id", user.id);
+      .eq("id", user.id)
+      .then(() => {});
 
     const hasAccess =
       user.has_paid || user.free_access || new Date(user.trial_ends_at) > new Date();
 
-    return NextResponse.json({
-      user: {
-        id: user.id,
-        phone: user.phone,
-        displayName: user.display_name,
-        role: user.role,
-        hasAccess,
-        trialEndsAt: user.trial_ends_at,
-        hasPaid: user.has_paid,
-        freeAccess: user.free_access,
+    return NextResponse.json(
+      {
+        user: {
+          id: user.id,
+          phone: user.phone,
+          displayName: user.display_name,
+          role: user.role,
+          hasAccess,
+          trialEndsAt: user.trial_ends_at,
+          hasPaid: user.has_paid,
+          freeAccess: user.free_access,
+        },
       },
-    });
-  } catch {
-    return NextResponse.json({ error: "Not authenticated" }, { status: 401 });
+      { headers: { "Cache-Control": "no-store" } }
+    );
+  } catch (error) {
+    console.error("Auth /me error:", error);
+    return NextResponse.json(
+      { error: "Not authenticated" },
+      { status: 401, headers: { "Cache-Control": "no-store" } }
+    );
   }
 }

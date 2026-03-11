@@ -8,6 +8,8 @@ const publicPaths = [
   "/login",
   "/api/auth/request-otp",
   "/api/auth/verify-otp",
+  "/api/auth/me",
+  "/api/auth/logout",
   "/api/payment/webhook",
   "/api/whatsapp/webhook",
   "/api/cron/",
@@ -16,7 +18,7 @@ const publicPaths = [
 export async function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
-  // Allow public paths
+  // Allow public paths (auth endpoints handle their own verification)
   if (publicPaths.some((p) => pathname.startsWith(p))) {
     return NextResponse.next();
   }
@@ -44,22 +46,15 @@ export async function middleware(request: NextRequest) {
     const { payload } = await jwtVerify(token, secret);
     const response = NextResponse.next();
     response.headers.set("x-user-id", payload.sub as string);
-
-    // Admin route protection
-    if (pathname.startsWith("/admin") || pathname.startsWith("/api/admin")) {
-      // We can't check role in middleware without a DB call.
-      // Role check is done in the admin API routes and page component.
-    }
-
     return response;
   } catch {
+    // JWT verification failed — redirect to login but DON'T delete the cookie.
+    // The /api/auth/me endpoint will handle proper session validation.
+    // Only redirect page requests; API requests get a 401.
     if (pathname.startsWith("/api/")) {
       return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
     }
-    // Clear invalid cookie and redirect
-    const response = NextResponse.redirect(new URL("/login", request.url));
-    response.cookies.delete("session-token");
-    return response;
+    return NextResponse.redirect(new URL("/login", request.url));
   }
 }
 
