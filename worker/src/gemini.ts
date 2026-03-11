@@ -1,7 +1,7 @@
 const GEMINI_API_URL =
   "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent";
 
-const SYSTEM_PROMPT = `You are a GCSE content extraction assistant. Analyze the uploaded image (curriculum document, textbook page, specification screenshot) and extract educational content.
+const SYSTEM_PROMPT = `You are a GCSE content extraction assistant. Analyze the uploaded content (image, PDF, or text — e.g. curriculum document, textbook page, specification, revision notes) and extract educational content.
 
 You MUST return valid JSON matching this exact structure (no markdown, no code fences, just raw JSON):
 
@@ -63,7 +63,7 @@ EXISTING PHYSICS TOPICS:
 - astrophysics (The Solar System, Stellar Evolution, The Big Bang & Red Shift, Orbits & Gravity)
 
 RULES:
-- Auto-detect whether the image is biology, chemistry or physics
+- Auto-detect whether the content is biology, chemistry or physics
 - Map content to existing topics/subtopics when possible
 - Only set isNewTopic to true if the content genuinely doesn't fit any existing topic
 - difficulty: 1 = foundation/easy, 2 = intermediate, 3 = higher/hard
@@ -74,27 +74,39 @@ RULES:
 - Return ONLY valid JSON, no other text`;
 
 export async function analyzeWithGemini(
-  imageBase64: string,
+  base64Data: string | null,
   mimeType: string,
-  apiKey: string
+  apiKey: string,
+  textContent?: string
 ): Promise<unknown> {
+  // Build the content parts based on input type
+  const parts: Array<Record<string, unknown>> = [];
+
+  if (textContent) {
+    // Text file: send the content as a text part
+    parts.push({
+      text: `Here is the educational content to analyze:\n\n---\n${textContent}\n---\n\n${SYSTEM_PROMPT}`,
+    });
+  } else if (base64Data) {
+    // Image or PDF: send as inline data
+    parts.push({
+      inlineData: {
+        mimeType,
+        data: base64Data,
+      },
+    });
+    parts.push({
+      text: SYSTEM_PROMPT,
+    });
+  }
+
   const response = await fetch(`${GEMINI_API_URL}?key=${apiKey}`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
       contents: [
         {
-          parts: [
-            {
-              inlineData: {
-                mimeType,
-                data: imageBase64,
-              },
-            },
-            {
-              text: SYSTEM_PROMPT,
-            },
-          ],
+          parts,
         },
       ],
       generationConfig: {

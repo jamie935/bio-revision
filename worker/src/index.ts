@@ -78,11 +78,12 @@ export default {
       // Parse the request body
       const body = (await request.json()) as {
         image?: string;
+        text?: string;
         mimeType?: string;
       };
 
-      if (!body.image || !body.mimeType) {
-        return errorResponse("Missing image or mimeType", 400, env);
+      if (!body.mimeType) {
+        return errorResponse("Missing mimeType", 400, env);
       }
 
       // Validate mime type
@@ -91,26 +92,45 @@ export default {
         "image/png",
         "image/gif",
         "image/webp",
+        "application/pdf",
+        "text/plain",
+        "text/csv",
       ];
       if (!allowedTypes.includes(body.mimeType)) {
         return errorResponse(
-          "Invalid image type. Use JPEG, PNG, GIF, or WebP.",
+          "Invalid file type. Use JPEG, PNG, GIF, WebP, PDF, or text.",
           400,
           env
         );
       }
 
-      // Check image size (base64 is ~33% larger than binary)
-      const estimatedSize = (body.image.length * 3) / 4;
-      if (estimatedSize > 5 * 1024 * 1024) {
-        return errorResponse("Image too large. Max 5MB.", 400, env);
+      const isTextInput = body.mimeType === "text/plain" || body.mimeType === "text/csv";
+
+      // Must have either image/base64 data or text content
+      if (!isTextInput && !body.image) {
+        return errorResponse("Missing image/PDF data", 400, env);
+      }
+      if (isTextInput && !body.text) {
+        return errorResponse("Missing text content", 400, env);
       }
 
-      // Call Gemini API to analyze the image
+      // Check size limits
+      if (body.image) {
+        const estimatedSize = (body.image.length * 3) / 4;
+        if (estimatedSize > 10 * 1024 * 1024) {
+          return errorResponse("File too large. Max 10MB.", 400, env);
+        }
+      }
+      if (body.text && body.text.length > 500000) {
+        return errorResponse("Text too long. Max 500KB.", 400, env);
+      }
+
+      // Call Gemini API to analyze the content
       const rawContent = await analyzeWithGemini(
-        body.image,
+        isTextInput ? null : body.image!,
         body.mimeType,
-        env.GEMINI_API_KEY
+        env.GEMINI_API_KEY,
+        isTextInput ? body.text : undefined
       );
 
       // Validate the response against our schema
@@ -118,7 +138,7 @@ export default {
       if (!validated.success) {
         console.error("Validation failed:", validated.error.issues);
         return errorResponse(
-          "Could not extract valid GCSE content from this image. Try a clearer photo of a textbook or curriculum page.",
+          "Could not extract valid GCSE content from this file. Try a clearer photo, PDF, or text file of a textbook or curriculum page.",
           422,
           env
         );

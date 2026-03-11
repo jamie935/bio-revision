@@ -10,6 +10,8 @@ import {
   AlertCircle,
   Loader2,
   ImageIcon,
+  FileText,
+  FileIcon,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -52,19 +54,35 @@ export function ContentUpload({ isOpen, onClose }: ContentUploadProps) {
     onClose();
   }, [reset, onClose]);
 
+  const isImage = (f: File) => f.type.startsWith("image/");
+  const isPdf = (f: File) => f.type === "application/pdf";
+
   const handleFile = useCallback((f: File) => {
-    if (!f.type.startsWith("image/")) {
-      alert("Please upload an image file (JPEG, PNG, etc.)");
+    const imageFile = f.type.startsWith("image/");
+    const pdfFile = f.type === "application/pdf";
+    const textFile =
+      f.type === "text/plain" ||
+      f.type === "text/csv" ||
+      f.name.endsWith(".txt") ||
+      f.name.endsWith(".csv");
+
+    if (!imageFile && !pdfFile && !textFile) {
+      alert("Please upload an image, PDF, or text file.");
       return;
     }
-    if (f.size > 5 * 1024 * 1024) {
-      alert("Image too large. Maximum size is 5MB.");
+    if (f.size > 10 * 1024 * 1024) {
+      alert("File too large. Maximum size is 10MB.");
       return;
     }
     setFile(f);
-    const reader = new FileReader();
-    reader.onload = (e) => setPreview(e.target?.result as string);
-    reader.readAsDataURL(f);
+    if (imageFile) {
+      const reader = new FileReader();
+      reader.onload = (e) => setPreview(e.target?.result as string);
+      reader.readAsDataURL(f);
+    } else {
+      // For PDFs and text files, no image preview
+      setPreview("file-selected");
+    }
   }, []);
 
   const handleDrop = useCallback(
@@ -83,28 +101,50 @@ export function ContentUpload({ isOpen, onClose }: ContentUploadProps) {
     setState("uploading");
 
     try {
-      // Convert file to base64
-      const base64 = await new Promise<string>((resolve, reject) => {
-        const reader = new FileReader();
-        reader.onload = () => {
-          const result = reader.result as string;
-          // Remove the data:image/...;base64, prefix
-          const base64Data = result.split(",")[1];
-          resolve(base64Data);
+      const isTextFile =
+        file.type === "text/plain" ||
+        file.type === "text/csv" ||
+        file.name.endsWith(".txt") ||
+        file.name.endsWith(".csv");
+
+      let payload: Record<string, string>;
+
+      if (isTextFile) {
+        // Read text content directly
+        const textContent = await new Promise<string>((resolve, reject) => {
+          const reader = new FileReader();
+          reader.onload = () => resolve(reader.result as string);
+          reader.onerror = reject;
+          reader.readAsText(file);
+        });
+        payload = {
+          text: textContent,
+          mimeType: "text/plain",
         };
-        reader.onerror = reject;
-        reader.readAsDataURL(file);
-      });
+      } else {
+        // Convert image/PDF to base64
+        const base64 = await new Promise<string>((resolve, reject) => {
+          const reader = new FileReader();
+          reader.onload = () => {
+            const result = reader.result as string;
+            const base64Data = result.split(",")[1];
+            resolve(base64Data);
+          };
+          reader.onerror = reject;
+          reader.readAsDataURL(file);
+        });
+        payload = {
+          image: base64,
+          mimeType: file.type || "application/pdf",
+        };
+      }
 
       setState("processing");
 
       const response = await fetch(WORKER_URL, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          image: base64,
-          mimeType: file.type,
-        }),
+        body: JSON.stringify(payload),
       });
 
       const data: UploadResult = await response.json();
@@ -184,7 +224,7 @@ export function ContentUpload({ isOpen, onClose }: ContentUploadProps) {
                     <input
                       ref={fileInputRef}
                       type="file"
-                      accept="image/*"
+                      accept="image/*,.pdf,.txt,.csv,application/pdf,text/plain,text/csv"
                       className="hidden"
                       onChange={(e) => {
                         const f = e.target.files?.[0];
@@ -193,30 +233,55 @@ export function ContentUpload({ isOpen, onClose }: ContentUploadProps) {
                     />
                     <Upload className="w-10 h-10 text-gray-300 mx-auto mb-3" />
                     <p className="text-sm font-medium text-gray-600 mb-1">
-                      Drop an image here or tap to upload
+                      Drop a file here or tap to upload
                     </p>
                     <p className="text-xs text-gray-400">
-                      Photo of a textbook page, curriculum doc, or specification
+                      Image, PDF, or text file — textbook pages, curriculum docs, notes, or specifications
                     </p>
                   </div>
                 ) : (
                   <div className="space-y-4">
-                    <div className="relative rounded-xl overflow-hidden bg-gray-100">
-                      {/* eslint-disable-next-line @next/next/no-img-element */}
-                      <img
-                        src={preview}
-                        alt="Preview"
-                        className="w-full max-h-48 object-contain"
-                      />
-                      <button
-                        onClick={reset}
-                        className="absolute top-2 right-2 p-1.5 bg-black/50 rounded-full hover:bg-black/70 transition-colors"
-                      >
-                        <X className="w-4 h-4 text-white" />
-                      </button>
-                    </div>
+                    {preview && preview !== "file-selected" ? (
+                      <div className="relative rounded-xl overflow-hidden bg-gray-100">
+                        {/* eslint-disable-next-line @next/next/no-img-element */}
+                        <img
+                          src={preview}
+                          alt="Preview"
+                          className="w-full max-h-48 object-contain"
+                        />
+                        <button
+                          onClick={reset}
+                          className="absolute top-2 right-2 p-1.5 bg-black/50 rounded-full hover:bg-black/70 transition-colors"
+                        >
+                          <X className="w-4 h-4 text-white" />
+                        </button>
+                      </div>
+                    ) : (
+                      <div className="relative rounded-xl bg-gray-50 border border-gray-200 p-6 flex flex-col items-center justify-center">
+                        {file && isPdf(file) ? (
+                          <FileIcon className="w-12 h-12 text-red-400 mb-2" />
+                        ) : (
+                          <FileText className="w-12 h-12 text-blue-400 mb-2" />
+                        )}
+                        <p className="text-sm font-medium text-gray-600">
+                          {file && isPdf(file) ? "PDF Document" : "Text File"}
+                        </p>
+                        <button
+                          onClick={reset}
+                          className="absolute top-2 right-2 p-1.5 bg-gray-200 rounded-full hover:bg-gray-300 transition-colors"
+                        >
+                          <X className="w-4 h-4 text-gray-500" />
+                        </button>
+                      </div>
+                    )}
                     <div className="flex items-center gap-2 text-sm text-gray-500">
-                      <ImageIcon className="w-4 h-4" />
+                      {file && isImage(file) ? (
+                        <ImageIcon className="w-4 h-4" />
+                      ) : file && isPdf(file) ? (
+                        <FileIcon className="w-4 h-4" />
+                      ) : (
+                        <FileText className="w-4 h-4" />
+                      )}
                       <span className="truncate">{file?.name}</span>
                       <span className="text-gray-300">
                         ({((file?.size || 0) / 1024).toFixed(0)} KB)
@@ -244,8 +309,8 @@ export function ContentUpload({ isOpen, onClose }: ContentUploadProps) {
                 <Loader2 className="w-10 h-10 text-indigo-500 mx-auto mb-4 animate-spin" />
                 <p className="font-medium text-gray-700 mb-1">
                   {state === "uploading"
-                    ? "Uploading image..."
-                    : "AI is analysing your image..."}
+                    ? "Uploading file..."
+                    : "AI is analysing your content..."}
                 </p>
                 <p className="text-sm text-gray-400">
                   {state === "processing"
@@ -300,7 +365,7 @@ export function ContentUpload({ isOpen, onClose }: ContentUploadProps) {
               <div className="py-6 text-center">
                 <AlertCircle className="w-12 h-12 text-red-400 mx-auto mb-4" />
                 <p className="font-semibold text-gray-800 mb-2">
-                  Could not process image
+                  Could not process file
                 </p>
                 <p className="text-sm text-gray-500 mb-4">
                   {result.error}
