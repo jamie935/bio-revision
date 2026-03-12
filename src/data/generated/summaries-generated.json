@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-12T21:49:38.341Z",
+  "lastUpdated": "2026-03-12T21:51:37.123Z",
   "summaries": [
     {
       "topicId": "waves",
@@ -139,6 +139,56 @@
           ],
           "importantEquations": [
             "6CO2 + 6H2O → C6H12O6 + 6O2"
+          ],
+          "tables": null
+        }
+      ]
+    },
+    {
+      "topicId": "organisation",
+      "subject": "biology",
+      "title": "Organisation",
+      "sections": [
+        {
+          "heading": "Organisation: Digestive System, Plant Transport, and Gas Exchange",
+          "content": "Living organisms are highly organised, with specialised cells, tissues, organs, and organ systems working together to carry out life processes. This section covers key aspects of organisation in both animals and plants.\n\n**Digestive System:** The human digestive system is responsible for breaking down food and absorbing nutrients. The gall bladder plays a crucial role by storing bile, which is produced by the liver. Bile is essential for the emulsification of fats in the small intestine, making them easier to digest by enzymes. Different types of teeth, such as canines, incisors, molars, and premolars, are adapted for various functions like tearing, cutting, and grinding food. Chemical digestion of starch begins in the mouth with amylase and continues in the small intestine, but not in the stomach due to the acidic environment.\n\n**Plant Transport:** Plants have specialised systems for transporting water and nutrients. Water is absorbed from the soil by root hair cells, then moves through the root cortex to the xylem vessels. The xylem forms a continuous pathway, transporting water and dissolved minerals upwards to the leaves, where it reaches the mesophyll cells for photosynthesis. Vascular bundles, found in stems and leaves, contain xylem vessels along with phloem, which transports sugars.\n\n**Gas Exchange:** In humans, gas exchange occurs in the lungs, specifically in the alveoli. The alveoli are tiny air sacs surrounded by a network of capillaries. Carbon dioxide moves from the blood in the capillaries (where its concentration is higher) to the air in the alveoli (where its concentration is lower) by diffusion. Oxygen moves in the opposite direction. The diaphragm is a key muscle in the breathing system, contracting to increase the volume of the chest cavity and draw air into the lungs. Red blood cells, containing haemoglobin, are specialised to transport oxygen from the lungs to the body tissues.",
+          "keyTerms": [
+            {
+              "term": "Gall bladder",
+              "definition": "An organ that stores and concentrates bile produced by the liver."
+            },
+            {
+              "term": "Bile",
+              "definition": "A digestive fluid produced by the liver, stored in the gall bladder, that aids in fat emulsification."
+            },
+            {
+              "term": "Xylem",
+              "definition": "Plant tissue that transports water and dissolved minerals from the roots to the rest of the plant."
+            },
+            {
+              "term": "Root hair cells",
+              "definition": "Specialised epidermal cells in plant roots that absorb water and mineral ions from the soil."
+            },
+            {
+              "term": "Alveoli",
+              "definition": "Tiny air sacs in the lungs where gas exchange occurs."
+            },
+            {
+              "term": "Haemoglobin",
+              "definition": "A protein in red blood cells that binds to oxygen for transport."
+            },
+            {
+              "term": "Diaphragm",
+              "definition": "A large, dome-shaped muscle at the base of the chest cavity that plays a major role in breathing."
+            },
+            {
+              "term": "Diffusion",
+              "definition": "The net movement of particles from an area of higher concentration to an area of lower concentration."
+            }
+          ],
+          "importantEquations": [
+            "Magnification = Length of image / Actual length of object",
+            "Aerobic Respiration: Oxygen + Glucose → Carbon Dioxide + Water"
           ],
           "tables": null
         }
