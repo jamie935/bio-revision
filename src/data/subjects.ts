@@ -142,18 +142,46 @@ export function getAllTopics(): Topic[] {
 
 // --- Added Content accessors (read from generated JSON = user-uploaded content) ---
 
+// Build topic list from generated flashcards — includes both existing topics
+// (that flashcards were mapped to) and genuinely new topics from the AI.
+function getAddedTopics(
+  generated: GeneratedData,
+  baseTopics: Topic[]
+): Topic[] {
+  // Collect unique topic IDs referenced by generated flashcards
+  const topicIds = Array.from(new Set(generated.flashcards.map((fc) => fc.topic)));
+
+  const result: Topic[] = [];
+
+  for (const id of topicIds) {
+    // First check existing topics
+    const existing = baseTopics.find((t) => t.id === id);
+    if (existing) {
+      result.push(existing);
+      continue;
+    }
+    // Then check newTopics (AI-invented topics that don't exist in the base set)
+    const newTopic = generated.newTopics.find((t) => t.id === id);
+    if (newTopic) {
+      result.push(newTopic as Topic);
+    }
+  }
+
+  return result;
+}
+
 export function getAddedContent(): Record<Subject, { topics: Topic[]; flashcards: Flashcard[] }> {
   return {
     biology: {
-      topics: bioGenerated.newTopics as unknown as Topic[],
+      topics: getAddedTopics(bioGenerated, topics),
       flashcards: bioGenerated.flashcards as unknown as Flashcard[],
     },
     chemistry: {
-      topics: chemGenerated.newTopics as unknown as Topic[],
+      topics: getAddedTopics(chemGenerated, chemistryTopics),
       flashcards: chemGenerated.flashcards as unknown as Flashcard[],
     },
     physics: {
-      topics: physGenerated.newTopics as unknown as Topic[],
+      topics: getAddedTopics(physGenerated, physicsTopics),
       flashcards: physGenerated.flashcards as unknown as Flashcard[],
     },
   };
