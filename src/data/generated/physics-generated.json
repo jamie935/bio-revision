@@ -1,7 +1,14 @@
 {
-  "lastUpdated": "2026-03-12T15:59:12.294Z",
+  "lastUpdated": "2026-03-12T21:19:08.244Z",
   "newTopics": [],
-  "newSubtopics": {},
+  "newSubtopics": {
+    "solids-liquids-gases": [
+      "Hooke's Law",
+      "Temperature",
+      "Electrical Safety",
+      "Astronomical Units"
+    ]
+  },
   "flashcards": [
     {
       "id": "gen-phys-001",
@@ -35,12 +42,12 @@
       "id": "gen-phys-003",
       "topic": "solids-liquids-gases",
       "subtopic": "Density",
-      "question": "A bottle full of oil has a mass of 650 g, and when empty, it has a mass of 50 g. If the oil volume is 750 cm³, what is the density of the oil?",
-      "answer": "Mass of oil = Mass (full) - Mass (empty) = 650 g - 50 g = 600 g. Density = Mass / Volume = 600 g / 750 cm³ = 0.80 g/cm³.",
+      "question": "A bottle full of oil has a mass of 650 g, and when empty, it has a mass of 50 g. If the oil volume is 750 cmÂ³, what is the density of the oil?",
+      "answer": "Mass of oil = Mass (full) - Mass (empty) = 650 g - 50 g = 600 g. Density = Mass / Volume = 600 g / 750 cmÂ³ = 0.80 g/cmÂ³.",
       "keyPoints": [
         "Calculate the mass of the oil first.",
         "Use the formula Density = Mass / Volume.",
-        "Ensure units are consistent (g/cm³)."
+        "Ensure units are consistent (g/cmÂ³)."
       ],
       "difficulty": 2,
       "examTip": "Pay attention to units and ensure they are consistent throughout the calculation. Convert if necessary."
@@ -78,9 +85,9 @@
       "topic": "energy-resources",
       "subtopic": "Efficiency",
       "question": "A man applies a force of 40 N to push a box 4.0 m in 3.0 seconds. How much power is required?",
-      "answer": "Work done = Force × Distance = 40 N × 4.0 m = 160 J. Power = Work done / Time = 160 J / 3.0 s = 53.33... W, which is 53 W (to 2 s.f.).",
+      "answer": "Work done = Force Ã Distance = 40 N Ã 4.0 m = 160 J. Power = Work done / Time = 160 J / 3.0 s = 53.33... W, which is 53 W (to 2 s.f.).",
       "keyPoints": [
-        "Calculate work done using Force × Distance.",
+        "Calculate work done using Force Ã Distance.",
         "Calculate power using Work done / Time.",
         "Ensure correct units (Joules for work, Watts for power)."
       ],
@@ -92,14 +99,14 @@
       "topic": "solids-liquids-gases",
       "subtopic": "Pressure in Gases & Liquids",
       "question": "Four identical submarines are lowered in water. Which submarine experiences the greatest change in pressure from its initial to final depth?",
-      "answer": "The change in pressure in a liquid depends on the change in depth (ΔP = ρgΔh). Submarine R moves from 10m to 70m (Δh = 60m). Submarine S moves from 30m to 70m (Δh = 40m). Submarine P moves from 10m to 30m (Δh = 20m). Submarine Q moves from 50m to 70m (Δh = 20m). Therefore, submarine R has the greatest change in depth and thus the greatest change in pressure.",
+      "answer": "The change in pressure in a liquid depends on the change in depth (ÎP = ÏgÎh). Submarine R moves from 10m to 70m (Îh = 60m). Submarine S moves from 30m to 70m (Îh = 40m). Submarine P moves from 10m to 30m (Îh = 20m). Submarine Q moves from 50m to 70m (Îh = 20m). Therefore, submarine R has the greatest change in depth and thus the greatest change in pressure.",
       "keyPoints": [
         "Pressure in a liquid increases with depth.",
         "Change in pressure depends on the change in depth.",
-        "Calculate Δh for each submarine to find the greatest change."
+        "Calculate Îh for each submarine to find the greatest change."
       ],
       "difficulty": 2,
-      "examTip": "The formula for pressure in a liquid is P = ρgh. The change in pressure is ΔP = ρgΔh."
+      "examTip": "The formula for pressure in a liquid is P = Ïgh. The change in pressure is ÎP = ÏgÎh."
     },
     {
       "id": "gen-phys-008",
@@ -206,12 +213,166 @@
       "question": "What happens to the nucleus of a radon atom during the emission of an alpha-particle?",
       "answer": "During alpha decay, the nucleus emits an alpha-particle, which consists of 2 protons and 2 neutrons. This means the proton number (atomic number) decreases by 2, and the nucleon number (mass number) decreases by 4. The atom transforms into a nucleus of a different element with a lower proton number.",
       "keyPoints": [
-        "Alpha particle is a helium nucleus (²⁴He).",
+        "Alpha particle is a helium nucleus (Â²â´He).",
         "Proton number decreases by 2.",
         "Mass number decreases by 4."
       ],
       "difficulty": 2,
       "examTip": "Be able to write and balance nuclear equations for alpha and beta decay."
+    },
+    {
+      "id": "gen-phys-016",
+      "topic": "forces-motion",
+      "subtopic": "Measurement of Physical Quantities",
+      "question": "How do you measure the length of a small object using a ruler with millimeter and centimeter markings?",
+      "answer": "Align one end of the object with a major marking (e.g., 0 cm or 1 cm) on the ruler. Read the marking at the other end of the object, estimating between the smallest divisions if necessary. The length is the difference between the two readings.",
+      "keyPoints": [
+        "Align one end with a known mark.",
+        "Read the position of the other end.",
+        "Subtract initial reading from final reading."
+      ],
+      "difficulty": 1,
+      "examTip": "Always read the scale carefully, noting whether it's in mm or cm, and estimate to the nearest half or quarter of the smallest division if possible."
+    },
+    {
+      "id": "gen-phys-017",
+      "topic": "solids-liquids-gases",
+      "subtopic": "Density",
+      "question": "How is the density of an oil calculated if you know the mass of the full bottle, empty bottle, and the volume of the oil?",
+      "answer": "First, find the mass of the oil by subtracting the mass of the empty bottle from the mass of the full bottle. Then, divide the mass of the oil by its volume to find the density (Density = Mass / Volume).",
+      "keyPoints": [
+        "Mass of oil = Mass (full) - Mass (empty).",
+        "Density = Mass of oil / Volume of oil.",
+        "Ensure units are consistent (e.g., g/cm³)."
+      ],
+      "difficulty": 2,
+      "examTip": "Pay close attention to units. If mass is in grams and volume in cm³, density will be in g/cm³."
+    },
+    {
+      "id": "gen-phys-018",
+      "topic": "forces-motion",
+      "subtopic": "Hooke's Law",
+      "question": "How is the weight of an object determined using a spring's extension-load graph and its unstretched length?",
+      "answer": "First, calculate the extension of the spring by subtracting its unstretched length from its stretched length. Then, use the extension-load graph to find the corresponding load (weight) for that specific extension.",
+      "keyPoints": [
+        "Extension = Stretched length - Unstretched length.",
+        "Locate the calculated extension on the y-axis of the graph.",
+        "Read the corresponding load (weight) from the x-axis."
+      ],
+      "difficulty": 2,
+      "examTip": "Ensure you correctly identify the extension, not just the final length, before using the graph. The graph typically shows extension vs. load."
+    },
+    {
+      "id": "gen-phys-019",
+      "topic": "solids-liquids-gases",
+      "subtopic": "Pressure in Gases & Liquids",
+      "question": "What causes the difference in pressure experienced by submarines at different depths in water?",
+      "answer": "Pressure in a liquid increases with depth due to the weight of the column of liquid above. The greater the change in depth, the greater the change in pressure, assuming constant liquid density.",
+      "keyPoints": [
+        "Pressure increases with depth.",
+        "Caused by the weight of the liquid column.",
+        "Change in pressure depends on change in depth."
+      ],
+      "difficulty": 2,
+      "examTip": "Remember the formula P = ρgh, where ρ is density, g is acceleration due to gravity, and h is depth. A larger 'h' means larger pressure."
+    },
+    {
+      "id": "gen-phys-020",
+      "topic": "solids-liquids-gases",
+      "subtopic": "Changes of State",
+      "question": "Which two terms describe the same change of state?",
+      "answer": "Boiling and evaporation both describe the process where a liquid changes into a gas. Boiling occurs throughout the liquid at a specific temperature, while evaporation occurs only at the surface and can happen at any temperature below the boiling point.",
+      "keyPoints": [
+        "Boiling: liquid to gas, throughout, specific temperature.",
+        "Evaporation: liquid to gas, surface only, any temperature.",
+        "Both are forms of vaporization."
+      ],
+      "difficulty": 1,
+      "examTip": "While both are liquid to gas, understand the key differences in conditions and location of the change."
+    },
+    {
+      "id": "gen-phys-021",
+      "topic": "solids-liquids-gases",
+      "subtopic": "Particle Model",
+      "question": "Why do smoke particles move randomly (Brownian motion)?",
+      "answer": "Smoke particles move randomly because they are constantly being hit by invisible, fast-moving air particles. These collisions are random and cause the larger smoke particles to change direction unpredictably.",
+      "keyPoints": [
+        "Collisions with air particles.",
+        "Air particles are in constant random motion.",
+        "Smoke particles are larger but still affected by these collisions."
+      ],
+      "difficulty": 2,
+      "examTip": "Brownian motion provides evidence for the existence of atoms and molecules and their random movement."
+    },
+    {
+      "id": "gen-phys-022",
+      "topic": "solids-liquids-gases",
+      "subtopic": "Temperature",
+      "question": "How do you convert a temperature in degrees Celsius (°C) to Kelvin (K)?",
+      "answer": "To convert a temperature from degrees Celsius to Kelvin, you add 273 to the Celsius temperature. For example, 0°C is 273 K.",
+      "keyPoints": [
+        "Add 273 to the Celsius value.",
+        "Kelvin is an absolute temperature scale.",
+        "0 K is absolute zero."
+      ],
+      "difficulty": 1,
+      "examTip": "Remember the exact conversion factor: +273. Be careful not to subtract or multiply."
+    },
+    {
+      "id": "gen-phys-023",
+      "topic": "waves",
+      "subtopic": "Wave Properties",
+      "question": "How are wavelength and amplitude represented on a diagram of a transverse wave?",
+      "answer": "Wavelength (λ) is the distance between two consecutive corresponding points on a wave, such as two crests or two troughs. Amplitude (A) is the maximum displacement of a point on the wave from its equilibrium (rest) position.",
+      "keyPoints": [
+        "Wavelength: distance between identical points on consecutive waves.",
+        "Amplitude: maximum displacement from equilibrium.",
+        "Both are measured in units of length."
+      ],
+      "difficulty": 1,
+      "examTip": "Be precise when identifying wavelength (e.g., crest to crest, or trough to trough). Amplitude is from the middle line to a crest/trough."
+    },
+    {
+      "id": "gen-phys-024",
+      "topic": "waves",
+      "subtopic": "Reflection & Refraction",
+      "question": "What happens when the angle of incidence of light in glass is made larger than the critical angle for the glass?",
+      "answer": "When the angle of incidence in a denser medium (like glass) exceeds the critical angle, total internal reflection occurs. This means there is no refracted ray; all the light is reflected back into the denser medium.",
+      "keyPoints": [
+        "Angle of incidence > critical angle.",
+        "No refraction occurs.",
+        "All light is reflected internally."
+      ],
+      "difficulty": 2,
+      "examTip": "Total internal reflection only happens when light travels from a denser medium to a less dense medium."
+    },
+    {
+      "id": "gen-phys-025",
+      "topic": "electricity",
+      "subtopic": "Electrical Safety",
+      "question": "What is the purpose of an earth connection on the metal case of an electrical appliance?",
+      "answer": "The earth connection protects the user from electric shock. If a fault causes the live wire to touch the metal casing, the earth wire provides a low-resistance path for the current to flow to the ground, causing the fuse to blow or circuit breaker to trip, disconnecting the appliance.",
+      "keyPoints": [
+        "Protects user from electric shock.",
+        "Provides low-resistance path for fault current.",
+        "Causes fuse to blow/breaker to trip."
+      ],
+      "difficulty": 2,
+      "examTip": "Always ensure appliances with metal casings are earthed. Double-insulated appliances do not require an earth wire."
+    },
+    {
+      "id": "gen-phys-026",
+      "topic": "astrophysics",
+      "subtopic": "Astronomical Units",
+      "question": "What is a light-year?",
+      "answer": "A light-year is a unit of distance, not time. It is defined as the distance that light travels in a vacuum in one Earth year.",
+      "keyPoints": [
+        "Unit of distance.",
+        "Distance light travels in one year.",
+        "Used for vast astronomical distances."
+      ],
+      "difficulty": 1,
+      "examTip": "Do not confuse 'light-year' with a unit of time. It's a common misconception."
     }
   ]
 }
