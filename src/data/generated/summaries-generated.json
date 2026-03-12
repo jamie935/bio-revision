@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-12T21:19:09.196Z",
+  "lastUpdated": "2026-03-12T21:49:38.341Z",
   "summaries": [
     {
       "topicId": "waves",
@@ -106,6 +106,39 @@
             "Pressure = Force / Area (P = F/A)",
             "Pressure in liquid = Density × g × depth (P = ρgh)",
             "Kelvin = Celsius + 273 (K = °C + 273)"
+          ],
+          "tables": null
+        }
+      ]
+    },
+    {
+      "topicId": "bioenergetics",
+      "subject": "biology",
+      "title": "Bioenergetics",
+      "sections": [
+        {
+          "heading": "Photosynthesis: Converting Light to Chemical Energy",
+          "content": "Photosynthesis is a fundamental biological process carried out by plants, algae, and some bacteria. It involves the conversion of light energy, typically from the sun, into chemical energy in the form of glucose. This chemical energy is then used by the plant for growth, respiration, and other metabolic activities. The process primarily takes place within specialized organelles called chloroplasts, which contain the green pigment chlorophyll. Chlorophyll absorbs light energy, initiating the reactions. The overall balanced chemical equation for photosynthesis is: 6CO2 + 6H2O → C6H12O6 + 6O2. This shows that carbon dioxide and water are the reactants, and glucose and oxygen are the products.",
+          "keyTerms": [
+            {
+              "term": "Photosynthesis",
+              "definition": "The process by which plants convert light energy into chemical energy."
+            },
+            {
+              "term": "Chloroplasts",
+              "definition": "Organelles in plant cells where photosynthesis occurs."
+            },
+            {
+              "term": "Glucose",
+              "definition": "A simple sugar produced during photosynthesis, used as an energy source."
+            },
+            {
+              "term": "Chlorophyll",
+              "definition": "The green pigment in chloroplasts that absorbs light energy."
+            }
+          ],
+          "importantEquations": [
+            "6CO2 + 6H2O → C6H12O6 + 6O2"
           ],
           "tables": null
         }
