@@ -1,6 +1,217 @@
 {
-  "lastUpdated": null,
+  "lastUpdated": "2026-03-12T15:59:12.294Z",
   "newTopics": [],
   "newSubtopics": {},
-  "flashcards": []
+  "flashcards": [
+    {
+      "id": "gen-phys-001",
+      "topic": "forces-motion",
+      "subtopic": "Speed/Distance/Time",
+      "question": "How is the length of the feather determined from the ruler diagram?",
+      "answer": "The feather starts at 10 mm (1 cm) and ends at 29 mm (2.9 cm). The length is the difference: 29 mm - 10 mm = 19 mm.",
+      "keyPoints": [
+        "Identify start and end points on the scale.",
+        "Subtract the start reading from the end reading.",
+        "Ensure consistent units for measurement."
+      ],
+      "difficulty": 1,
+      "examTip": "Always check the starting point of the measurement on the ruler, it might not be zero."
+    },
+    {
+      "id": "gen-phys-002",
+      "topic": "forces-motion",
+      "subtopic": "Forces & Newton's Laws",
+      "question": "If two identical springs have different extensions when objects X and Y are suspended, what can be concluded about their masses and weights?",
+      "answer": "Since the springs are identical and have different extensions, the forces (weights) causing the extensions must be different. Therefore, the masses of the objects must also be different. The object causing the larger extension has a greater weight and thus a greater mass.",
+      "keyPoints": [
+        "Identical springs imply the same spring constant.",
+        "Different extensions mean different forces (weights).",
+        "Mass is directly proportional to weight (W=mg)."
+      ],
+      "difficulty": 2,
+      "examTip": "Remember that mass is a measure of inertia and is constant, while weight is a force due to gravity and can vary."
+    },
+    {
+      "id": "gen-phys-003",
+      "topic": "solids-liquids-gases",
+      "subtopic": "Density",
+      "question": "A bottle full of oil has a mass of 650 g, and when empty, it has a mass of 50 g. If the oil volume is 750 cm³, what is the density of the oil?",
+      "answer": "Mass of oil = Mass (full) - Mass (empty) = 650 g - 50 g = 600 g. Density = Mass / Volume = 600 g / 750 cm³ = 0.80 g/cm³.",
+      "keyPoints": [
+        "Calculate the mass of the oil first.",
+        "Use the formula Density = Mass / Volume.",
+        "Ensure units are consistent (g/cm³)."
+      ],
+      "difficulty": 2,
+      "examTip": "Pay attention to units and ensure they are consistent throughout the calculation. Convert if necessary."
+    },
+    {
+      "id": "gen-phys-004",
+      "topic": "forces-motion",
+      "subtopic": "Forces & Newton's Laws",
+      "question": "A spring has an unstretched length of 15.0 cm. When an object is suspended, its length becomes 16.4 cm. Using the provided extension-load graph, determine the weight of the object.",
+      "answer": "Extension = Stretched length - Unstretched length = 16.4 cm - 15.0 cm = 1.4 cm. From the graph, an extension of 1.4 cm corresponds to a load (weight) of 3.5 N.",
+      "keyPoints": [
+        "Calculate the extension of the spring.",
+        "Locate the extension on the y-axis of the graph.",
+        "Read the corresponding load (weight) from the x-axis."
+      ],
+      "difficulty": 2,
+      "examTip": "Always calculate the extension, not just use the final length, when working with Hooke's Law graphs."
+    },
+    {
+      "id": "gen-phys-005",
+      "topic": "energy-resources",
+      "subtopic": "Energy Stores & Transfers",
+      "question": "When a cyclist stops using brakes, which energy stores change and how?",
+      "answer": "The kinetic energy store of the bicycle decreases as it slows down. This energy is transferred to the thermal energy store of the brakes (and surroundings) due to friction, causing them to heat up.",
+      "keyPoints": [
+        "Kinetic energy is converted to other forms.",
+        "Friction converts kinetic energy into thermal energy.",
+        "Energy is conserved, but transferred between stores."
+      ],
+      "difficulty": 2,
+      "examTip": "Always consider the initial and final energy stores and the mechanisms of energy transfer (e.g., friction, heating, work done)."
+    },
+    {
+      "id": "gen-phys-006",
+      "topic": "energy-resources",
+      "subtopic": "Efficiency",
+      "question": "A man applies a force of 40 N to push a box 4.0 m in 3.0 seconds. How much power is required?",
+      "answer": "Work done = Force × Distance = 40 N × 4.0 m = 160 J. Power = Work done / Time = 160 J / 3.0 s = 53.33... W, which is 53 W (to 2 s.f.).",
+      "keyPoints": [
+        "Calculate work done using Force × Distance.",
+        "Calculate power using Work done / Time.",
+        "Ensure correct units (Joules for work, Watts for power)."
+      ],
+      "difficulty": 2,
+      "examTip": "Remember the definitions and formulas for work and power. Work is energy transferred, power is the rate of energy transfer."
+    },
+    {
+      "id": "gen-phys-007",
+      "topic": "solids-liquids-gases",
+      "subtopic": "Pressure in Gases & Liquids",
+      "question": "Four identical submarines are lowered in water. Which submarine experiences the greatest change in pressure from its initial to final depth?",
+      "answer": "The change in pressure in a liquid depends on the change in depth (ΔP = ρgΔh). Submarine R moves from 10m to 70m (Δh = 60m). Submarine S moves from 30m to 70m (Δh = 40m). Submarine P moves from 10m to 30m (Δh = 20m). Submarine Q moves from 50m to 70m (Δh = 20m). Therefore, submarine R has the greatest change in depth and thus the greatest change in pressure.",
+      "keyPoints": [
+        "Pressure in a liquid increases with depth.",
+        "Change in pressure depends on the change in depth.",
+        "Calculate Δh for each submarine to find the greatest change."
+      ],
+      "difficulty": 2,
+      "examTip": "The formula for pressure in a liquid is P = ρgh. The change in pressure is ΔP = ρgΔh."
+    },
+    {
+      "id": "gen-phys-008",
+      "topic": "solids-liquids-gases",
+      "subtopic": "Changes of State",
+      "question": "Which two terms identify the same change of state: boiling, solidification, condensation, evaporation?",
+      "answer": "Boiling and evaporation both describe the change of state from liquid to gas. Boiling occurs throughout the liquid at a specific temperature, while evaporation occurs only at the surface and can happen at any temperature below the boiling point. However, both are liquid to gas transitions.",
+      "keyPoints": [
+        "Boiling is rapid vaporisation throughout the liquid.",
+        "Evaporation is slow vaporisation from the surface.",
+        "Both are processes where a liquid turns into a gas."
+      ],
+      "difficulty": 1,
+      "examTip": "Distinguish between boiling and evaporation, but recognise they are both liquid-to-gas phase changes."
+    },
+    {
+      "id": "gen-phys-009",
+      "topic": "solids-liquids-gases",
+      "subtopic": "Particle Model",
+      "question": "Why do smoke particles move randomly in Brownian motion?",
+      "answer": "Smoke particles move randomly because they are constantly being hit by invisible, fast-moving air particles. The air particles are much smaller and more numerous, causing the smoke particles to be pushed in random directions.",
+      "keyPoints": [
+        "Brownian motion is evidence for the particle model of matter.",
+        "Random movement is due to collisions with air/gas particles.",
+        "The air particles are in constant, random motion."
+      ],
+      "difficulty": 2,
+      "examTip": "Remember that Brownian motion demonstrates the kinetic theory of gases (or liquids)."
+    },
+    {
+      "id": "gen-phys-010",
+      "topic": "waves",
+      "subtopic": "Wave Properties",
+      "question": "In a diagram of a wave, what do 'x' and 'y' represent if 'x' is the horizontal distance for one complete wave and 'y' is the vertical distance from the equilibrium position to a crest?",
+      "answer": "'x' represents the wavelength (the distance for one complete wave cycle). 'y' represents the amplitude (the maximum displacement from the equilibrium position).",
+      "keyPoints": [
+        "Wavelength is the distance between two consecutive crests or troughs.",
+        "Amplitude is the maximum displacement from the rest position.",
+        "These are fundamental properties of waves."
+      ],
+      "difficulty": 1,
+      "examTip": "Be careful to distinguish between amplitude (from equilibrium to crest/trough) and peak-to-trough distance (which is twice the amplitude)."
+    },
+    {
+      "id": "gen-phys-011",
+      "topic": "waves",
+      "subtopic": "Sound Waves",
+      "question": "Describe a seismic P-wave in terms of its type and direction of vibration.",
+      "answer": "A seismic P-wave is a longitudinal wave, meaning its particles vibrate parallel to the direction of wave propagation.",
+      "keyPoints": [
+        "P-waves are primary waves, the fastest seismic waves.",
+        "Longitudinal waves involve vibrations parallel to energy transfer.",
+        "Sound waves are also longitudinal waves."
+      ],
+      "difficulty": 2,
+      "examTip": "Remember 'P' for Primary and Parallel (for vibration direction), and 'S' for Secondary and Sideways (perpendicular)."
+    },
+    {
+      "id": "gen-phys-012",
+      "topic": "waves",
+      "subtopic": "Reflection & Refraction",
+      "question": "What happens if the angle of incidence of a light ray in glass is made larger than the critical angle for the glass?",
+      "answer": "If the angle of incidence exceeds the critical angle, total internal reflection occurs. This means there is only a ray reflected inside the glass, and no light is refracted out into the air.",
+      "keyPoints": [
+        "Total internal reflection occurs when light travels from a denser to a less dense medium.",
+        "The angle of incidence must be greater than the critical angle.",
+        "No light is transmitted (refracted) across the boundary."
+      ],
+      "difficulty": 2,
+      "examTip": "Total internal reflection is used in optical fibres and prisms. Remember the two conditions for it to occur."
+    },
+    {
+      "id": "gen-phys-013",
+      "topic": "magnetism",
+      "subtopic": "Magnets & Magnetic Fields",
+      "question": "Describe the pattern and direction of magnetic field lines around a bar magnet.",
+      "answer": "Magnetic field lines emerge from the North pole and enter the South pole. Outside the magnet, they form continuous loops. Inside the magnet, they go from South to North. The lines are closest together where the field is strongest (at the poles).",
+      "keyPoints": [
+        "Field lines go from North to South outside the magnet.",
+        "Lines are denser where the field is stronger.",
+        "They never cross each other."
+      ],
+      "difficulty": 1,
+      "examTip": "Always draw arrows on magnetic field lines to indicate direction."
+    },
+    {
+      "id": "gen-phys-014",
+      "topic": "electricity",
+      "subtopic": "Charge/Current/Voltage",
+      "question": "What is an electric current and how is an ammeter positioned in a circuit to measure it?",
+      "answer": "An electric current is a flow of charge. An ammeter is positioned in series with the resistor (or component) to measure the current flowing through it.",
+      "keyPoints": [
+        "Current is the rate of flow of charge.",
+        "Ammeters have very low resistance.",
+        "Connecting in series ensures all current flows through the ammeter."
+      ],
+      "difficulty": 1,
+      "examTip": "Remember that current is the same at all points in a series circuit, so an ammeter can be placed anywhere in series."
+    },
+    {
+      "id": "gen-phys-015",
+      "topic": "radioactivity",
+      "subtopic": "Types of Radiation",
+      "question": "What happens to the nucleus of a radon atom during the emission of an alpha-particle?",
+      "answer": "During alpha decay, the nucleus emits an alpha-particle, which consists of 2 protons and 2 neutrons. This means the proton number (atomic number) decreases by 2, and the nucleon number (mass number) decreases by 4. The atom transforms into a nucleus of a different element with a lower proton number.",
+      "keyPoints": [
+        "Alpha particle is a helium nucleus (²⁴He).",
+        "Proton number decreases by 2.",
+        "Mass number decreases by 4."
+      ],
+      "difficulty": 2,
+      "examTip": "Be able to write and balance nuclear equations for alpha and beta decay."
+    }
+  ]
 }
