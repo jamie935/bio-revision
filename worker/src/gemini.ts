@@ -1,5 +1,5 @@
 const GEMINI_API_URL =
-  "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent";
+  "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent";
 
 const SYSTEM_PROMPT = `You are a GCSE content extraction assistant. Analyze the uploaded content (image, PDF, or text — e.g. curriculum document, textbook page, specification, revision notes) and extract educational content.
 
@@ -100,26 +100,44 @@ export async function analyzeWithGemini(
     });
   }
 
-  const response = await fetch(`${GEMINI_API_URL}?key=${apiKey}`, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
-      contents: [
-        {
-          parts,
-        },
-      ],
-      generationConfig: {
-        temperature: 0.2,
-        maxOutputTokens: 8192,
-        responseMimeType: "application/json",
+  const requestBody = JSON.stringify({
+    contents: [
+      {
+        parts,
       },
-    }),
+    ],
+    generationConfig: {
+      temperature: 0.2,
+      maxOutputTokens: 65536,
+      responseMimeType: "application/json",
+    },
   });
 
-  if (!response.ok) {
-    const error = await response.text();
-    throw new Error(`Gemini API error (${response.status}): ${error}`);
+  // Retry up to 2 times on rate limit (429) errors
+  let response: Response | null = null;
+  for (let attempt = 0; attempt < 3; attempt++) {
+    response = await fetch(`${GEMINI_API_URL}?key=${apiKey}`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: requestBody,
+    });
+
+    if (response.status === 429 && attempt < 2) {
+      // Wait before retrying: 1s, then 3s
+      await new Promise((r) => setTimeout(r, (attempt + 1) * 2000));
+      continue;
+    }
+    break;
+  }
+
+  if (!response || !response.ok) {
+    const error = response ? await response.text() : "No response";
+    if (response?.status === 429) {
+      throw new Error(
+        "AI service is temporarily busy. Please wait a minute and try again."
+      );
+    }
+    throw new Error(`Gemini API error (${response?.status}): ${error}`);
   }
 
   const data = (await response.json()) as {

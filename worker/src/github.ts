@@ -55,6 +55,7 @@ async function githubFetch(
       Authorization: `token ${env.GITHUB_PAT}`,
       Accept: "application/vnd.github.v3+json",
       "Content-Type": "application/json",
+      "User-Agent": "bio-revision-worker",
       ...(options?.headers || {}),
     },
   });
@@ -71,6 +72,16 @@ async function getFile(
   return res.json() as Promise<GitHubFileResponse>;
 }
 
+function utf8ToBase64(str: string): string {
+  const encoder = new TextEncoder();
+  const bytes = encoder.encode(str);
+  let binary = "";
+  for (const byte of bytes) {
+    binary += String.fromCharCode(byte);
+  }
+  return btoa(binary);
+}
+
 async function putFile(
   path: string,
   content: string,
@@ -82,7 +93,7 @@ async function putFile(
     method: "PUT",
     body: JSON.stringify({
       message,
-      content: btoa(content),
+      content: utf8ToBase64(content),
       sha,
     }),
   });
