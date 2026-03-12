@@ -58,33 +58,12 @@ export const subjectTheme: Record<Subject, {
   },
 };
 
-// Merge AI-generated topics and subtopics into existing topic list
+// Type for AI-generated / user-uploaded content JSON files
 interface GeneratedData {
   newTopics: { id: string; name: string; icon: string; color: string; subtopics: string[] }[];
   newSubtopics: Record<string, string[]>;
   flashcards: { id: string; topic: string; subtopic: string; question: string; answer: string; keyPoints: string[]; difficulty: number; examTip?: string }[];
   lastUpdated: string | null;
-}
-
-function mergeTopics(
-  base: Topic[],
-  generated: GeneratedData
-): Topic[] {
-  const merged = base.map((t) => {
-    const newSubs = generated.newSubtopics[t.id] || [];
-    return newSubs.length > 0
-      ? { ...t, subtopics: [...t.subtopics, ...newSubs.filter((s: string) => !t.subtopics.includes(s))] }
-      : t;
-  });
-
-  // Add entirely new topics from AI-generated content
-  for (const nt of generated.newTopics) {
-    if (!merged.find((t) => t.id === nt.id)) {
-      merged.push(nt as Topic);
-    }
-  }
-
-  return merged;
 }
 
 export const subjects: Record<Subject, SubjectConfig> = {
@@ -94,8 +73,8 @@ export const subjects: Record<Subject, SubjectConfig> = {
     shortName: "Bio",
     icon: "🧬",
     gradient: "from-indigo-500 to-purple-600",
-    topics: mergeTopics(topics, bioGenerated),
-    flashcards: [...flashcards, ...(bioGenerated.flashcards as unknown as Flashcard[])],
+    topics,
+    flashcards,
   },
   chemistry: {
     id: "chemistry",
@@ -103,8 +82,8 @@ export const subjects: Record<Subject, SubjectConfig> = {
     shortName: "Chem",
     icon: "⚗️",
     gradient: "from-orange-500 to-red-500",
-    topics: mergeTopics(chemistryTopics, chemGenerated),
-    flashcards: [...chemistryFlashcards, ...(chemGenerated.flashcards as unknown as Flashcard[])],
+    topics: chemistryTopics,
+    flashcards: chemistryFlashcards,
   },
   physics: {
     id: "physics",
@@ -112,8 +91,8 @@ export const subjects: Record<Subject, SubjectConfig> = {
     shortName: "Phys",
     icon: "⚛️",
     gradient: "from-blue-500 to-cyan-500",
-    topics: mergeTopics(physicsTopics, physGenerated),
-    flashcards: [...physicsFlashcards, ...(physGenerated.flashcards as unknown as Flashcard[])],
+    topics: physicsTopics,
+    flashcards: physicsFlashcards,
   },
 };
 
@@ -126,17 +105,14 @@ export function getAllFlashcards(): Flashcard[] {
     ...flashcards,
     ...chemistryFlashcards,
     ...physicsFlashcards,
-    ...(bioGenerated.flashcards as unknown as Flashcard[]),
-    ...(chemGenerated.flashcards as unknown as Flashcard[]),
-    ...(physGenerated.flashcards as unknown as Flashcard[]),
   ];
 }
 
 export function getAllTopics(): Topic[] {
   return [
-    ...mergeTopics(topics, bioGenerated),
-    ...mergeTopics(chemistryTopics, chemGenerated),
-    ...mergeTopics(physicsTopics, physGenerated),
+    ...topics,
+    ...chemistryTopics,
+    ...physicsTopics,
   ];
 }
 
