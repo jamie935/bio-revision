@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-12T21:49:37.623Z",
+  "lastUpdated": "2026-03-12T21:51:36.416Z",
   "newTopics": [],
   "newSubtopics": {},
   "flashcards": [
@@ -86,6 +86,216 @@
       ],
       "difficulty": 1,
       "examTip": "Be specific about the types of energy involved in the conversion."
+    },
+    {
+      "id": "gen-bio-007",
+      "topic": "cells",
+      "subtopic": "Cell Structure",
+      "question": "Which features indicate a cell is a plant cell?",
+      "answer": "A plant cell has a cell wall and a vacuole. It may also contain chloroplasts.",
+      "keyPoints": [
+        "Presence of a cell wall for structural support.",
+        "Presence of a large central vacuole for turgor and storage.",
+        "Chloroplasts for photosynthesis (though not all plant cells have them)."
+      ],
+      "difficulty": 1,
+      "examTip": "Remember that animal cells lack a cell wall and a large central vacuole."
+    },
+    {
+      "id": "gen-bio-008",
+      "topic": "cells",
+      "subtopic": "Transport in Cells",
+      "question": "How does carbon dioxide move from the blood capillary (Y) to the alveolus (X)?",
+      "answer": "Carbon dioxide moves from Y to X by diffusion.",
+      "keyPoints": [
+        "Diffusion is the net movement of particles from an area of higher concentration to an area of lower concentration.",
+        "Blood arriving at the lungs has a higher concentration of carbon dioxide.",
+        "The air in the alveoli has a lower concentration of carbon dioxide."
+      ],
+      "difficulty": 1,
+      "examTip": "Gas exchange in the lungs and tissues always occurs by diffusion, not active transport or osmosis."
+    },
+    {
+      "id": "gen-bio-009",
+      "topic": "cells",
+      "subtopic": "Cell Structure",
+      "question": "What is the effect of penicillin and tetracycline on bacteria?",
+      "answer": "Penicillin affects the cell wall, causing bacterial cells to burst. Tetracycline affects the ribosomes, stopping protein synthesis.",
+      "keyPoints": [
+        "Penicillin targets the bacterial cell wall, which is essential for maintaining cell integrity.",
+        "Tetracycline targets bacterial ribosomes, preventing the production of proteins vital for bacterial survival and growth.",
+        "These different mechanisms highlight how antibiotics can specifically target bacterial structures without harming human cells."
+      ],
+      "difficulty": 2,
+      "examTip": "Understand that antibiotics have specific targets within bacterial cells, which is why they are effective treatments."
+    },
+    {
+      "id": "gen-bio-010",
+      "topic": "cells",
+      "subtopic": "Cell Specialisation",
+      "question": "How is magnification calculated?",
+      "answer": "Magnification is calculated by dividing the length of the image by the actual length of the object.",
+      "keyPoints": [
+        "Magnification = Image length / Actual length.",
+        "Ensure both lengths are in the same units before calculation.",
+        "A magnification of 'x3' means the image is three times larger than the actual object."
+      ],
+      "difficulty": 2,
+      "examTip": "Always pay attention to units and convert them if necessary to ensure a correct calculation."
+    },
+    {
+      "id": "gen-bio-011",
+      "topic": "cells",
+      "subtopic": "Enzymes",
+      "question": "What is the relationship between an enzyme's active site and its substrate?",
+      "answer": "The shape of the enzyme's active site is complementary to the shape of its specific substrate.",
+      "keyPoints": [
+        "Enzymes are highly specific, often described by the 'lock and key' model.",
+        "The active site is where the substrate binds.",
+        "This complementary shape allows the enzyme to catalyse a specific reaction."
+      ],
+      "difficulty": 2,
+      "examTip": "Remember that enzymes are not complementary to all proteins or products, only to their specific substrates."
+    },
+    {
+      "id": "gen-bio-012",
+      "topic": "bioenergetics",
+      "subtopic": "Photosynthesis",
+      "question": "What are the correct labels for the x-axis and y-axis of a graph showing the effect of light intensity on photosynthesis?",
+      "answer": "The x-axis should be 'light intensity' and the y-axis should be 'rate of oxygen production' (or 'rate of photosynthesis').",
+      "keyPoints": [
+        "The x-axis represents the independent variable, which is light intensity in this experiment.",
+        "The y-axis represents the dependent variable, which is the rate of photosynthesis, often measured by oxygen production or carbon dioxide uptake.",
+        "As light intensity increases, the rate of photosynthesis generally increases until a limiting factor is reached."
+      ],
+      "difficulty": 2,
+      "examTip": "Always label axes clearly with the variable and units in graphs related to experiments."
+    },
+    {
+      "id": "gen-bio-013",
+      "topic": "organisation",
+      "subtopic": "Digestive System",
+      "question": "What is the function of the gall bladder?",
+      "answer": "The gall bladder stores bile, which is produced by the liver.",
+      "keyPoints": [
+        "Bile aids in the digestion and absorption of fats.",
+        "It emulsifies fats, breaking them into smaller droplets.",
+        "The gall bladder releases bile into the small intestine when food is present."
+      ],
+      "difficulty": 1,
+      "examTip": "Distinguish between the production of bile (liver) and the storage of bile (gall bladder)."
+    },
+    {
+      "id": "gen-bio-014",
+      "topic": "organisation",
+      "subtopic": "Blood & Heart",
+      "question": "Which cell contains haemoglobin?",
+      "answer": "Red blood cells contain haemoglobin.",
+      "keyPoints": [
+        "Haemoglobin is a protein responsible for transporting oxygen in the blood.",
+        "Red blood cells are biconcave discs, increasing their surface area for oxygen absorption.",
+        "They lack a nucleus in mammals, allowing more space for haemoglobin."
+      ],
+      "difficulty": 1,
+      "examTip": "Know the key features and functions of different blood cells (red blood cells, white blood cells, platelets)."
+    },
+    {
+      "id": "gen-bio-015",
+      "topic": "organisation",
+      "subtopic": "Plant Transport",
+      "question": "What is the pathway taken by water from the soil to the leaf?",
+      "answer": "Water moves from root hair cells to the root cortex, then to the xylem, and finally to the mesophyll cells in the leaf.",
+      "keyPoints": [
+        "Root hair cells absorb water from the soil by osmosis.",
+        "Water moves across the root cortex to the central vascular tissue.",
+        "Xylem vessels transport water upwards through the stem to the leaves."
+      ],
+      "difficulty": 2,
+      "examTip": "Remember the order of tissues involved in water transport: root hair cell -> cortex -> xylem -> mesophyll."
+    },
+    {
+      "id": "gen-bio-016",
+      "topic": "bioenergetics",
+      "subtopic": "Respiration",
+      "question": "What is the word equation for aerobic respiration?",
+      "answer": "The word equation for aerobic respiration is: Oxygen + Glucose → Carbon Dioxide + Water.",
+      "keyPoints": [
+        "Aerobic respiration requires oxygen.",
+        "Glucose is the primary fuel source.",
+        "Carbon dioxide and water are the waste products."
+      ],
+      "difficulty": 1,
+      "examTip": "Do not confuse the reactants and products of aerobic respiration with those of photosynthesis."
+    },
+    {
+      "id": "gen-bio-017",
+      "topic": "homeostasis",
+      "subtopic": "Blood Glucose",
+      "question": "Where is insulin secreted and what is its effect on blood glucose concentration?",
+      "answer": "Insulin is secreted by the pancreas and it decreases blood glucose concentration.",
+      "keyPoints": [
+        "The pancreas monitors blood glucose levels.",
+        "When blood glucose is high, insulin is released.",
+        "Insulin promotes the uptake of glucose by cells and its conversion to glycogen in the liver and muscles."
+      ],
+      "difficulty": 2,
+      "examTip": "Remember that insulin lowers blood glucose, while glucagon (also from the pancreas) raises it."
+    },
+    {
+      "id": "gen-bio-018",
+      "topic": "genetics",
+      "subtopic": "Evolution & Natural Selection",
+      "question": "Which statements correctly describe natural selection?",
+      "answer": "Natural selection involves genetic variation, struggle for survival, individuals better adapted to the environment surviving, and passing on their alleles to the next generation.",
+      "keyPoints": [
+        "Genetic variation exists within a population.",
+        "Organisms produce many offspring, leading to competition for resources.",
+        "Individuals with advantageous adaptations are more likely to survive and reproduce."
+      ],
+      "difficulty": 2,
+      "examTip": "Distinguish natural selection from artificial selection, where humans select desirable features."
+    },
+    {
+      "id": "gen-bio-019",
+      "topic": "ecology",
+      "subtopic": "Food Chains & Cycles",
+      "question": "Which processes in the carbon cycle release carbon dioxide into the atmosphere?",
+      "answer": "Combustion, decomposition, and respiration release carbon dioxide into the atmosphere.",
+      "keyPoints": [
+        "Combustion (burning of fossil fuels or biomass) releases stored carbon.",
+        "Decomposition by microorganisms breaks down organic matter, releasing CO2.",
+        "Respiration by all living organisms releases CO2 as a byproduct of energy production."
+      ],
+      "difficulty": 2,
+      "examTip": "Photosynthesis is the main process that removes carbon dioxide from the atmosphere."
+    },
+    {
+      "id": "gen-bio-020",
+      "topic": "ecology",
+      "subtopic": "Human Impact",
+      "question": "What are the effects of sewage pollution on biodiversity and the number of bacteria in a river?",
+      "answer": "Sewage pollution decreases biodiversity and increases the number of bacteria in a river.",
+      "keyPoints": [
+        "Sewage provides nutrients, leading to an increase in decomposer bacteria.",
+        "Increased bacterial activity consumes oxygen, reducing oxygen levels in the water.",
+        "Low oxygen levels harm aquatic organisms, leading to a decrease in biodiversity."
+      ],
+      "difficulty": 2,
+      "examTip": "Understand the chain reaction: sewage -> bacteria increase -> oxygen decrease -> biodiversity decrease."
+    },
+    {
+      "id": "gen-bio-021",
+      "topic": "ecology",
+      "subtopic": "Human Impact",
+      "question": "Which gases contribute to an enhanced greenhouse effect?",
+      "answer": "Carbon dioxide and methane are key gases that contribute to an enhanced greenhouse effect.",
+      "keyPoints": [
+        "The greenhouse effect is a natural process that warms the Earth's surface.",
+        "Human activities increase the concentration of greenhouse gases like CO2 and methane.",
+        "This enhanced effect traps more heat, leading to global warming and climate change."
+      ],
+      "difficulty": 1,
+      "examTip": "Be aware of the main greenhouse gases and their sources (e.g., CO2 from fossil fuels, methane from agriculture)."
     }
   ]
 }
