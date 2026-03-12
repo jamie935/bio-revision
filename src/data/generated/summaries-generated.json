@@ -1,4 +1,59 @@
 {
-  "lastUpdated": null,
-  "summaries": []
+  "lastUpdated": "2026-03-12T15:59:13.208Z",
+  "summaries": [
+    {
+      "topicId": "waves",
+      "subject": "physics",
+      "title": "Waves",
+      "sections": [
+        {
+          "heading": "Wave Properties and the Electromagnetic Spectrum",
+          "content": "Waves are disturbances that transfer energy without transferring matter. They can be classified as transverse or longitudinal.\n*   **Transverse waves:** Oscillations are perpendicular to the direction of energy transfer (e.g., electromagnetic waves, water waves). Key properties include:\n    *   **Wavelength (λ):** The distance between two consecutive crests or troughs.\n    *   **Amplitude (A):** The maximum displacement of a point on the wave from its equilibrium position.\n    *   **Frequency (f):** The number of complete oscillations per second (measured in Hertz, Hz).\n    *   **Period (T):** The time taken for one complete oscillation (T = 1/f).\n    *   **Wave speed (v):** The distance travelled by the wave per second (v = fλ).\n*   **Longitudinal waves:** Oscillations are parallel to the direction of energy transfer (e.g., sound waves, seismic P-waves). They consist of compressions (regions of high pressure/density) and rarefactions (regions of low pressure/density).\n*   **Wave Phenomena:**\n    *   **Reflection:** Waves bounce off a surface (e.g., light reflecting off a mirror).\n    *   **Refraction:** Waves change direction as they pass from one medium to another due to a change in speed (e.g., light bending when entering water).\n    *   **Diffraction:** Waves spread out as they pass through an opening or around an obstacle. The amount of diffraction is significant when the wavelength is comparable to the size of the opening/obstacle.\n    *   **Total Internal Reflection (TIR):** Occurs when light travels from a denser to a less dense medium, and the angle of incidence exceeds the critical angle. All light is reflected back into the denser medium.\n*   **Electromagnetic Spectrum:** A continuous spectrum of transverse waves that travel at the speed of light in a vacuum (approximately 3 x 10⁸ m/s). The spectrum, in order of increasing frequency (decreasing wavelength), is: Radio waves, Microwaves, Infrared, Visible light, Ultraviolet, X-rays, Gamma rays.\n    *   **Infrared:** Used in thermal imaging, remote controls, intruder alarms. Can cause skin burns.\n    *   **Visible Light:** The portion of the spectrum detectable by the human eye.\n    *   **Ultraviolet:** Causes skin tanning/sunburn, used in sterilisation. Can cause skin cancer.\n    *   **X-rays:** Used in medical imaging, security scans. Can cause cell damage.\n    *   **Gamma rays:** Used in medical sterilisation, cancer treatment. Highly ionising, causes cell damage/mutations.\n*   **Sound Waves:** Longitudinal waves that require a medium to travel.\n    *   **Human Hearing Range:** Typically 20 Hz to 20 000 Hz.\n    *   **Ultrasound:** Sound waves with frequencies above 20 000 Hz, used in medical imaging and sonar.",
+          "keyTerms": [
+            {
+              "term": "Wavelength",
+              "definition": "The distance between two consecutive crests or troughs of a wave."
+            },
+            {
+              "term": "Amplitude",
+              "definition": "The maximum displacement of a point on a wave from its equilibrium position."
+            },
+            {
+              "term": "Frequency",
+              "definition": "The number of complete wave cycles or oscillations per second, measured in Hertz (Hz)."
+            },
+            {
+              "term": "Transverse wave",
+              "definition": "A wave in which the oscillations are perpendicular to the direction of energy transfer."
+            },
+            {
+              "term": "Longitudinal wave",
+              "definition": "A wave in which the oscillations are parallel to the direction of energy transfer."
+            },
+            {
+              "term": "Diffraction",
+              "definition": "The spreading out of waves as they pass through an opening or around an obstacle."
+            },
+            {
+              "term": "Critical angle",
+              "definition": "The angle of incidence in the denser medium for which the angle of refraction in the less dense medium is 90 degrees."
+            },
+            {
+              "term": "Electromagnetic spectrum",
+              "definition": "The range of all types of electromagnetic radiation, ordered by frequency or wavelength."
+            },
+            {
+              "term": "Ultrasound",
+              "definition": "Sound waves with frequencies higher than the upper limit of human hearing (above 20 kHz)."
+            }
+          ],
+          "importantEquations": [
+            "v = fλ",
+            "T = 1/f"
+          ],
+          "tables": null
+        }
+      ]
+    }
+  ]
 }
