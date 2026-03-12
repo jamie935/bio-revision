@@ -1,6 +1,91 @@
 {
-  "lastUpdated": null,
+  "lastUpdated": "2026-03-12T21:49:37.623Z",
   "newTopics": [],
   "newSubtopics": {},
-  "flashcards": []
+  "flashcards": [
+    {
+      "id": "gen-bio-001",
+      "topic": "bioenergetics",
+      "subtopic": "Photosynthesis",
+      "question": "What is the definition of photosynthesis?",
+      "answer": "Photosynthesis is the process by which plants convert light energy into chemical energy.",
+      "keyPoints": [
+        "Plants convert light energy.",
+        "Energy is transformed into chemical energy.",
+        "It's a vital process for plant survival."
+      ],
+      "difficulty": 1,
+      "examTip": "Remember to include both the energy conversion and the organisms involved (plants)."
+    },
+    {
+      "id": "gen-bio-002",
+      "topic": "bioenergetics",
+      "subtopic": "Photosynthesis",
+      "question": "Where does photosynthesis occur in plant cells?",
+      "answer": "Photosynthesis primarily occurs in chloroplasts within plant cells.",
+      "keyPoints": [
+        "Occurs in plant cells.",
+        "The specific organelle is the chloroplast.",
+        "Chloroplasts contain chlorophyll."
+      ],
+      "difficulty": 1,
+      "examTip": "Be precise with the organelle name; 'chloroplasts' not just 'cells'."
+    },
+    {
+      "id": "gen-bio-003",
+      "topic": "bioenergetics",
+      "subtopic": "Photosynthesis",
+      "question": "What is the balanced chemical equation for photosynthesis?",
+      "answer": "The balanced chemical equation for photosynthesis is: 6CO2 + 6H2O → C6H12O6 + 6O2.",
+      "keyPoints": [
+        "Reactants: 6 molecules of Carbon Dioxide and 6 molecules of Water.",
+        "Products: 1 molecule of Glucose and 6 molecules of Oxygen.",
+        "The arrow indicates the direction of the reaction."
+      ],
+      "difficulty": 2,
+      "examTip": "Pay close attention to the coefficients to ensure the equation is balanced correctly."
+    },
+    {
+      "id": "gen-bio-004",
+      "topic": "bioenergetics",
+      "subtopic": "Photosynthesis",
+      "question": "What are the main reactants required for photosynthesis?",
+      "answer": "The main reactants for photosynthesis are carbon dioxide (CO2) and water (H2O).",
+      "keyPoints": [
+        "Carbon dioxide is absorbed from the atmosphere.",
+        "Water is absorbed from the soil by roots.",
+        "These are the inputs converted into products."
+      ],
+      "difficulty": 1,
+      "examTip": "Clearly distinguish between reactants (inputs) and products (outputs)."
+    },
+    {
+      "id": "gen-bio-005",
+      "topic": "bioenergetics",
+      "subtopic": "Photosynthesis",
+      "question": "What are the main products of photosynthesis?",
+      "answer": "The main products of photosynthesis are glucose (C6H12O6) and oxygen (O2).",
+      "keyPoints": [
+        "Glucose is used by the plant for energy and growth.",
+        "Oxygen is released into the atmosphere.",
+        "These are the outputs formed from the reactants."
+      ],
+      "difficulty": 1,
+      "examTip": "Understand the fate of each product: glucose for the plant, oxygen for the atmosphere."
+    },
+    {
+      "id": "gen-bio-006",
+      "topic": "bioenergetics",
+      "subtopic": "Photosynthesis",
+      "question": "What type of energy is converted during photosynthesis?",
+      "answer": "During photosynthesis, light energy is converted into chemical energy.",
+      "keyPoints": [
+        "Light energy is the initial energy source.",
+        "Chemical energy is stored in glucose.",
+        "This conversion is fundamental to life on Earth."
+      ],
+      "difficulty": 1,
+      "examTip": "Be specific about the types of energy involved in the conversion."
+    }
+  ]
 }
