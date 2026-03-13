@@ -10,14 +10,15 @@ import { AuthGate } from "@/components/AuthGate";
 import { PaymentGate } from "@/components/PaymentGate";
 import { useAuth } from "@/components/AuthProvider";
 import { Button } from "@/components/ui/button";
-import { BookOpen, BarChart3, GraduationCap, Dna, FlaskConical, Atom, Upload, FolderPlus, Shield, LogOut, Calculator } from "lucide-react";
+import { BookOpen, BarChart3, GraduationCap, Dna, FlaskConical, Atom, Upload, FolderPlus, Shield, LogOut, Calculator, FileText } from "lucide-react";
 import { type Subject, subjectTheme } from "@/data/subjects";
 import { type Flashcard } from "@/data/flashcards";
 import { PeriodicTable } from "@/components/PeriodicTable";
 import { PhysicsEquations } from "@/components/PhysicsEquations";
 import { ContentUpload } from "@/components/ContentUpload";
+import { ExamMode } from "@/components/ExamMode";
 
-type View = "topics" | "quiz" | "dashboard" | "periodic-table" | "equations" | "added-content";
+type View = "topics" | "quiz" | "dashboard" | "periodic-table" | "equations" | "added-content" | "exam";
 
 const subjectIcons: Record<Subject, React.ReactNode> = {
   biology: <Dna className="w-6 h-6 text-white" />,
@@ -104,6 +105,15 @@ export default function Home() {
             >
               <GraduationCap className="w-4 h-4" />
               <span className="hidden sm:inline">Quick Quiz</span>
+            </Button>
+            <Button
+              variant={view === "exam" ? "default" : "ghost"}
+              size="sm"
+              onClick={() => { setQuizTopic(undefined); setView("exam"); }}
+              className="gap-1.5"
+            >
+              <FileText className="w-4 h-4" />
+              <span className="hidden sm:inline">Exam</span>
             </Button>
             <Button
               variant={view === "dashboard" ? "default" : "ghost"}
@@ -231,6 +241,22 @@ export default function Home() {
                 subject={subject}
                 customCards={customQuizCards}
                 customLabel={customQuizLabel}
+              />
+            </motion.div>
+          )}
+
+          {view === "exam" && (
+            <motion.div
+              key={`exam-${subject}`}
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              transition={{ duration: 0.2 }}
+            >
+              <ExamMode
+                onBack={goBack}
+                subject={subject}
+                topicFilter={quizTopic}
               />
             </motion.div>
           )}

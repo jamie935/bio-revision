@@ -1,12 +1,12 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
 import { Badge } from "@/components/ui/badge";
-import { type Subject, subjects, subjectTheme } from "@/data/subjects";
+import { type Subject, subjects, subjectTheme, getAddedContentCount } from "@/data/subjects";
 import {
   getOverallStats,
   getTopicStats,
@@ -14,6 +14,7 @@ import {
   resetPerformance,
 } from "@/lib/spaced-repetition";
 import { usePerformance } from "@/lib/performance-api";
+import { getExamHistory, type ExamSessionRecord } from "./ExamMode";
 import {
   Brain,
   Target,
@@ -22,6 +23,9 @@ import {
   Trophy,
   TrendingUp,
   Trash2,
+  FileText,
+  Clock,
+  Upload,
 } from "lucide-react";
 
 interface DashboardProps {
@@ -32,10 +36,16 @@ interface DashboardProps {
 export function Dashboard({ onStartQuiz, subject }: DashboardProps) {
   const { performance, setPerformance } = usePerformance();
   const [showResetConfirm, setShowResetConfirm] = useState(false);
+  const [examHistory, setExamHistory] = useState<ExamSessionRecord[]>([]);
 
   const subjectData = subjects[subject];
   const currentTopics = subjectData.topics;
   const currentFlashcards = subjectData.flashcards;
+  const addedCounts = getAddedContentCount();
+
+  useEffect(() => {
+    setExamHistory(getExamHistory().filter((r) => r.subject === subject).slice(0, 5));
+  }, [subject]);
 
   const overall = getOverallStats(currentFlashcards, performance);
   const weakAreas = getWeakestTopics(currentFlashcards, performance).slice(0, 5);
@@ -227,6 +237,114 @@ export function Dashboard({ onStartQuiz, subject }: DashboardProps) {
           </Card>
         </motion.div>
       )}
+
+      {/* Exam Paper History */}
+      {examHistory.length > 0 && (
+        <motion.div
+          initial={{ y: 20, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ delay: 0.55 }}
+        >
+          <Card className="mb-8">
+            <CardHeader>
+              <CardTitle className="text-lg flex items-center gap-2">
+                <FileText className={`w-5 h-5 ${accentColor}`} />
+                Exam Paper History
+              </CardTitle>
+            </CardHeader>
+            <CardContent>
+              <div className="space-y-3">
+                {examHistory.map((record) => {
+                  const topicData = record.topic
+                    ? currentTopics.find((t) => t.id === record.topic)
+                    : null;
+                  const totalMarks = record.mcqCorrect + record.structuredMarks;
+                  const totalPossible = record.mcqTotal + record.structuredTotal;
+                  const date = new Date(record.date);
+                  const mins = Math.floor(record.timeTakenSeconds / 60);
+                  const secs = record.timeTakenSeconds % 60;
+
+                  return (
+                    <div
+                      key={record.id}
+                      className="flex items-center justify-between bg-gray-50 border border-gray-100 rounded-lg p-3"
+                    >
+                      <div className="flex items-center gap-3">
+                        <div
+                          className={`w-10 h-10 rounded-full flex items-center justify-center text-white font-bold text-sm bg-gradient-to-br ${theme.gradient}`}
+                        >
+                          {record.overallPercent}%
+                        </div>
+                        <div>
+                          <p className="text-sm font-medium">
+                            {topicData ? topicData.name : "All Topics"}
+                          </p>
+                          <p className="text-xs text-gray-400">
+                            {date.toLocaleDateString()} — {mins}m {secs}s
+                          </p>
+                        </div>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <Badge variant="secondary" className="text-xs">
+                          {totalMarks}/{totalPossible} marks
+                        </Badge>
+                        {record.mcqTotal > 0 && (
+                          <Badge className="text-[10px] bg-blue-50 text-blue-600">
+                            MCQ {record.mcqCorrect}/{record.mcqTotal}
+                          </Badge>
+                        )}
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            </CardContent>
+          </Card>
+        </motion.div>
+      )}
+
+      {/* Uploaded Content */}
+      <motion.div
+        initial={{ y: 20, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ delay: 0.58 }}
+      >
+        <Card className="mb-8">
+          <CardHeader>
+            <CardTitle className="text-lg flex items-center gap-2">
+              <Upload className={`w-5 h-5 ${accentColor}`} />
+              Uploaded Content
+            </CardTitle>
+          </CardHeader>
+          <CardContent>
+            <div className="grid grid-cols-3 gap-4">
+              {(["biology", "chemistry", "physics"] as Subject[]).map((s) => {
+                const count = addedCounts[s];
+                const t = subjectTheme[s];
+                const icons: Record<Subject, string> = { biology: "🧬", chemistry: "⚗️", physics: "⚛️" };
+                const labels: Record<Subject, string> = { biology: "Biology", chemistry: "Chemistry", physics: "Physics" };
+                return (
+                  <div
+                    key={s}
+                    className={`text-center p-3 rounded-xl border ${
+                      s === subject ? `${t.lightBg} border-transparent` : "border-gray-100"
+                    }`}
+                  >
+                    <span className="text-lg">{icons[s]}</span>
+                    <p className="text-xl font-bold mt-1">{count}</p>
+                    <p className="text-[10px] text-gray-500">{labels[s]} cards</p>
+                  </div>
+                );
+              })}
+            </div>
+            {addedCounts.biology + addedCounts.chemistry + addedCounts.physics === 0 && (
+              <p className="text-xs text-gray-400 text-center mt-3">
+                No content uploaded yet. Use the Upload button to add your own questions.
+              </p>
+            )}
+          </CardContent>
+        </Card>
+      </motion.div>
 
       {/* Reset */}
       <motion.div
