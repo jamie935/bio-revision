@@ -24,7 +24,6 @@ import {
   TrendingUp,
   Trash2,
   FileText,
-  Clock,
   Upload,
 } from "lucide-react";
 
