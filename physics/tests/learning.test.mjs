@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import {loadCorpus} from '../scripts/validate.mjs';
-import {emptyProgress,validateProgress,recordAttempt,reviseAttempt,requiresUnit,parseNumber,normaliseUnit,markAnswer,criterionMatches,pickCard,createPaper,secondsRemaining,formatTime,dayKey,getStats} from '../lib/learning.js';
+import {emptyProgress,validateProgress,recordAttempt,reviseAttempt,requiresUnit,instantiate,parseNumber,normaliseUnit,markAnswer,criterionMatches,pickCard,createPaper,secondsRemaining,formatTime,dayKey,getStats} from '../lib/learning.js';
 
 const corpus=await loadCorpus();
 const cards=corpus.cards;
@@ -22,6 +22,11 @@ test('every original correct response and numerical variant earns full marks; bl
    for(const v of c.variants||[])assert.equal(markAnswer({...c,...v},{value:String(v.answer),unit:c.unit}).earned,c.marks,`variant ${c.id}`);
    if(c.kind==='choice')for(let i=0;i<4;i++)if(i!==c.correctIndex)assert.equal(markAnswer(c,{choice:i}).earned,0,`distractor ${c.id}`);
  }
+});
+test('choice order varies without changing the correct physics or modifying the source',()=>{
+ const rng=seeded(),c=cards.find(c=>c.kind==='choice'),before=JSON.stringify(c),positions=new Set();
+ for(let i=0;i<100;i++){const shuffled=instantiate(c,rng);positions.add(shuffled.correctIndex);assert.equal(shuffled.options[shuffled.correctIndex],c.options[c.correctIndex]);assert.equal(markAnswer(shuffled,{choice:shuffled.correctIndex}).earned,c.marks);}
+ assert.equal(positions.size,4);assert.equal(JSON.stringify(c),before);
 });
 test('numerical answers handle standard form, fractions, signs and attached units',()=>{
  assert.equal(parseNumber('3.5 × 10^-8 m').value,3.5e-8);

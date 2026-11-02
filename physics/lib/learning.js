@@ -89,6 +89,11 @@ export function pickCard(cards, progress, {topic='all', mode='smart', recent=[],
 }
 
 export function instantiate(card, rng=Math.random) {
+  if(card.kind==='choice') {
+    const options=card.options.map((text,index)=>({text,correct:index===card.correctIndex}));
+    for(let i=options.length-1;i>0;i--){const j=Math.min(i,Math.floor(rng()*(i+1)));[options[i],options[j]]=[options[j],options[i]];}
+    return {...card,options:options.map(o=>o.text),correctIndex:options.findIndex(o=>o.correct)};
+  }
   if (!card.variants?.length) return {...card};
   const variants=[{prompt:card.prompt,answer:card.answer,modelAnswer:card.modelAnswer},...card.variants];
   const index=Math.min(variants.length-1,Math.floor(rng()*variants.length));
