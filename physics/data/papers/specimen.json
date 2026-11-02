@@ -1,0 +1,1650 @@
+{
+  "paper": "specimen",
+  "totalMarks": 100,
+  "reviewStatus": "question-and-mark-scheme-reviewed",
+  "rows": [
+    {
+      "id": "specimen-1a",
+      "question": "1(a)",
+      "marks": 2,
+      "topic": "waves",
+      "skill": "transverse-longitudinal-comparison",
+      "answer": "Transverse oscillations are perpendicular to propagation; longitudinal oscillations are parallel to propagation.",
+      "learning": "Classify waves by the direction of oscillation relative to energy transfer, not by whether they move horizontally or vertically on a page.",
+      "questionPage": 2,
+      "markSchemePage": 1,
+      "card": {
+        "kind": "text",
+        "prompt": "A rope pulse travels along a rope and sound travels through air. Compare the oscillation directions in these transverse and longitudinal waves.",
+        "marks": 2,
+        "rubric": [
+          {
+            "point": "Transverse oscillations are perpendicular to wave travel",
+            "patterns": [
+              "transverse.*perpendicular",
+              "rope.*(perpendicular|right angles)"
+            ]
+          },
+          {
+            "point": "Longitudinal oscillations are parallel to wave travel",
+            "patterns": [
+              "longitudinal.*parallel",
+              "sound.*(parallel|same direction)"
+            ]
+          }
+        ],
+        "modelAnswer": "In the transverse rope wave, oscillations are perpendicular to wave travel. In the longitudinal sound wave, air particles oscillate parallel to wave travel.",
+        "hint": "Compare each oscillation direction with the wave’s travel direction.",
+        "misconception": "Transverse does not simply mean vertical.",
+        "steps": [
+          "Transverse oscillations are perpendicular to wave travel",
+          "Longitudinal oscillations are parallel to wave travel"
+        ],
+        "id": "specimen-1a",
+        "title": "Transverse longitudinal comparison",
+        "explanation": "Classify waves by the direction of oscillation relative to energy transfer, not by whether they move horizontally or vertically on a page."
+      }
+    },
+    {
+      "id": "specimen-1bi",
+      "question": "1(b)(i)",
+      "marks": 2,
+      "topic": "waves",
+      "skill": "frequency-measurement",
+      "answer": "Count waves crossing a fixed position during a measured interval; frequency equals count divided by elapsed time.",
+      "learning": "Frequency is the number of complete oscillations per second. Timing several waves gives a more reliable result than timing one.",
+      "questionPage": 3,
+      "markSchemePage": 1,
+      "card": {
+        "kind": "text",
+        "prompt": "Describe how to measure the frequency of ripples passing a mark on the side of a tank.",
+        "marks": 2,
+        "rubric": [
+          {
+            "point": "Count complete waves past a fixed mark in a measured time",
+            "patterns": [
+              "count.*(waves|crests).*(time|second)",
+              "(waves|crests).*(fixed|mark).*time"
+            ]
+          },
+          {
+            "point": "Divide wave count by elapsed time",
+            "patterns": [
+              "(number|count).*divid.*time",
+              "frequency.*(number|count).*time"
+            ]
+          }
+        ],
+        "modelAnswer": "Count complete crests passing the fixed mark over a measured time. Frequency equals the number of waves divided by the elapsed time in seconds, giving a result in hertz.",
+        "hint": "Think about the meaning of waves per second.",
+        "misconception": "Time divided by wave count gives period, not frequency.",
+        "steps": [
+          "Count complete waves past a fixed mark in a measured time",
+          "Divide wave count by elapsed time"
+        ],
+        "id": "specimen-1bi",
+        "title": "Frequency measurement",
+        "explanation": "Frequency is the number of complete oscillations per second. Timing several waves gives a more reliable result than timing one."
+      }
+    },
+    {
+      "id": "specimen-1bii",
+      "question": "1(b)(ii)",
+      "marks": 1,
+      "topic": "waves",
+      "skill": "wavelength-scale",
+      "answer": "The 80 cm screen spans about 20 wavelengths, giving approximately 4 cm per wavelength.",
+      "learning": "Count complete spatial repeats over a known total distance. Be careful about the scale and whether an image is magnified.",
+      "questionPage": 3,
+      "markSchemePage": 1,
+      "card": {
+        "kind": "number",
+        "prompt": "A displayed ripple pattern contains 12 complete cycles across a 72 cm ruler. What is the wavelength on the display?",
+        "marks": 2,
+        "answer": 6,
+        "unit": "cm",
+        "tolerance": 0.07200000000000001,
+        "modelAnswer": "Displayed wavelength = 72/12 = 6.0 cm.",
+        "hint": "Divide the full span by the number of complete repeats.",
+        "misconception": "The number of crests is not always the number of full intervals.",
+        "steps": [
+          "Divide the full span by the number of complete repeats.",
+          "Displayed wavelength = 72/12 = 6.0 cm."
+        ],
+        "id": "specimen-1bii",
+        "title": "Wavelength scale",
+        "explanation": "Count complete spatial repeats over a known total distance. Be careful about the scale and whether an image is magnified."
+      }
+    },
+    {
+      "id": "specimen-1biii",
+      "question": "1(b)(iii)",
+      "marks": 1,
+      "topic": "waves",
+      "skill": "magnification-measurement",
+      "answer": "The projected wave pattern is magnified, so screen distances do not directly equal water-surface distances.",
+      "learning": "A projection can preserve the time behaviour while changing apparent spatial lengths. A speed calculation must use true distances or correct for magnification.",
+      "questionPage": 3,
+      "markSchemePage": 1,
+      "card": {
+        "kind": "choice",
+        "prompt": "A water-wave image is projected at twice its actual size. A student calculates speed from the projected crest spacing without correcting the scale. Why is the result too large?",
+        "marks": 1,
+        "options": [
+          "The frequency has doubled",
+          "The measured distances are magnified",
+          "The water has become hotter",
+          "The real waves now travel twice as fast"
+        ],
+        "correctIndex": 1,
+        "modelAnswer": "The projected distances are doubled, so the calculated speed is doubled unless the scale is corrected.",
+        "hint": "Projection changes image size, not the real water-wave motion.",
+        "misconception": "A larger image does not imply faster physical waves.",
+        "steps": [
+          "Identify the physical principle in the question.",
+          "The projected distances are doubled, so the calculated speed is doubled unless the scale is corrected."
+        ],
+        "id": "specimen-1biii",
+        "title": "Magnification measurement",
+        "explanation": "A projection can preserve the time behaviour while changing apparent spatial lengths. A speed calculation must use true distances or correct for magnification."
+      }
+    },
+    {
+      "id": "specimen-2a",
+      "question": "2(a)",
+      "marks": 3,
+      "topic": "astronomy",
+      "skill": "historical-geocentric-evidence",
+      "answer": "Naked-eye observations showed the Sun, Moon and planets apparently moving across the sky in a repeating daily pattern, consistent with an Earth-centred interpretation at that time.",
+      "learning": "Scientific models are evaluated against available observations. Apparent daily celestial motion can be explained by Earth’s rotation, but early observations did not make that distinction easy.",
+      "questionPage": 4,
+      "markSchemePage": 1,
+      "card": {
+        "kind": "text",
+        "prompt": "Before telescopes, observers thought the sky revolved around a stationary Earth. Explain why their everyday observations could seem to support that view.",
+        "marks": 3,
+        "rubric": [
+          {
+            "point": "Observations were limited to the naked eye",
+            "patterns": [
+              "naked.eye",
+              "without telescope"
+            ]
+          },
+          {
+            "point": "Sun or stars appear to move across the sky",
+            "patterns": [
+              "(sun|stars|moon).*appear.*mov",
+              "(sun|stars|moon).*across.*sky"
+            ]
+          },
+          {
+            "point": "The apparent pattern repeats each day",
+            "patterns": [
+              "(repeat|same|regular).*day",
+              "daily.*(pattern|motion)"
+            ]
+          }
+        ],
+        "modelAnswer": "They relied on naked-eye observations. The Sun, Moon and stars appeared to move across the sky, with a similar daily pattern. Without later evidence, this could be interpreted as the sky moving around a stationary Earth.",
+        "hint": "Describe what an observer sees, then distinguish the interpretation.",
+        "misconception": "A model being historically accepted does not make it correct.",
+        "steps": [
+          "Observations were limited to the naked eye",
+          "Sun or stars appear to move across the sky",
+          "The apparent pattern repeats each day"
+        ],
+        "id": "specimen-2a",
+        "title": "Historical geocentric evidence",
+        "explanation": "Scientific models are evaluated against available observations. Apparent daily celestial motion can be explained by Earth’s rotation, but early observations did not make that distinction easy."
+      }
+    },
+    {
+      "id": "specimen-2b",
+      "question": "2(b)",
+      "marks": 3,
+      "topic": "astronomy",
+      "skill": "cosmological-model-evidence",
+      "answer": "Redshift is consistent with expansion in both models. A pervasive cooled background is expected from a hot beginning, supporting Big Bang rather than an eternal unchanging Steady State.",
+      "learning": "An observation can agree with more than one theory. Evidence that separates the predictions of rival models is especially useful.",
+      "questionPage": 4,
+      "markSchemePage": 2,
+      "card": {
+        "kind": "text",
+        "prompt": "Why did finding a cosmic microwave background favour the Big Bang model over the Steady State model, while galaxy redshifts alone did not distinguish them?",
+        "marks": 3,
+        "rubric": [
+          {
+            "point": "Both models can account for expansion",
+            "patterns": [
+              "both.*expand",
+              "expan.*both"
+            ]
+          },
+          {
+            "point": "Redshift indicates recession or expansion",
+            "patterns": [
+              "red.?shift.*(reced|moving away|expand|expan)"
+            ]
+          },
+          {
+            "point": "CMB supports a hot beginning rather than eternal steady conditions",
+            "patterns": [
+              "(cmb|background).*(hot|beginning|big bang)",
+              "(hot|beginning).*(cmb|background)"
+            ]
+          }
+        ],
+        "modelAnswer": "Both models could account for an expanding Universe. Redshift indicates recession and expansion. The CMB is a remnant of an early hot beginning, as expected after a Big Bang. The traditional Steady State model instead describes an eternal Universe in broadly steady conditions, so this observation distinguishes the models.",
+        "hint": "Ask which prediction differs between the two models.",
+        "misconception": "Evidence supporting expansion does not by itself uniquely prove a hot beginning.",
+        "steps": [
+          "Both models can account for expansion",
+          "Redshift indicates recession or expansion",
+          "CMB supports a hot beginning rather than eternal steady conditions"
+        ],
+        "id": "specimen-2b",
+        "title": "Cosmological model evidence",
+        "explanation": "An observation can agree with more than one theory. Evidence that separates the predictions of rival models is especially useful."
+      }
+    },
+    {
+      "id": "specimen-2ci",
+      "question": "2(c)(i)",
+      "marks": 1,
+      "topic": "astronomy",
+      "skill": "massive-star-lifetime",
+      "answer": "The physically correct option is D: a much more massive star has a shorter main-sequence lifetime and may leave a black hole. The supplied mark scheme labels B, which appears to be an error.",
+      "learning": "Massive stars have more fuel but use it much faster, so they have shorter main-sequence lifetimes. Sufficiently massive remnants can collapse into black holes.",
+      "questionPage": 5,
+      "markSchemePage": 2,
+      "card": {
+        "kind": "choice",
+        "prompt": "Compared with the Sun, a very massive star generally has which main-sequence lifetime?",
+        "marks": 1,
+        "options": [
+          "A shorter lifetime because it uses fuel much faster",
+          "A longer lifetime simply because it contains more fuel",
+          "An infinite lifetime",
+          "No nuclear fusion stage"
+        ],
+        "correctIndex": 0,
+        "modelAnswer": "A very massive star fuses fuel much more rapidly, so its main-sequence lifetime is shorter.",
+        "hint": "Compare fuel supply with fuel-use rate.",
+        "misconception": "More fuel does not necessarily mean a longer lifetime.",
+        "steps": [
+          "Identify the physical principle in the question.",
+          "A very massive star fuses fuel much more rapidly, so its main-sequence lifetime is shorter."
+        ],
+        "id": "specimen-2ci",
+        "title": "Massive star lifetime",
+        "explanation": "Massive stars have more fuel but use it much faster, so they have shorter main-sequence lifetimes. Sufficiently massive remnants can collapse into black holes."
+      }
+    },
+    {
+      "id": "specimen-2cii",
+      "question": "2(c)(ii)",
+      "marks": 1,
+      "topic": "astronomy",
+      "skill": "black-hole-formation",
+      "answer": "A black hole may form when a sufficiently massive star’s core collapses; light cannot escape from within its event horizon.",
+      "learning": "Black holes are linked to the collapse of very massive stellar remnants. The event horizon marks the boundary from which even light cannot escape.",
+      "questionPage": 5,
+      "markSchemePage": 2,
+      "card": {
+        "kind": "choice",
+        "prompt": "Which description of a stellar black hole is correct?",
+        "marks": 1,
+        "options": [
+          "It forms when any ordinary cloud becomes cold",
+          "It may form from a massive collapsed stellar core, and light cannot escape its event horizon",
+          "It only traps sound",
+          "It must emit visible light from inside its event horizon"
+        ],
+        "correctIndex": 1,
+        "modelAnswer": "A massive collapsed stellar core can form a black hole; no light signal can escape from inside its event horizon.",
+        "hint": "Separate the formation process from the escape condition.",
+        "misconception": "A black hole is not an ordinary dark, unlit star.",
+        "steps": [
+          "Identify the physical principle in the question.",
+          "A massive collapsed stellar core can form a black hole; no light signal can escape from inside its event horizon."
+        ],
+        "id": "specimen-2cii",
+        "title": "Black hole formation",
+        "explanation": "Black holes are linked to the collapse of very massive stellar remnants. The event horizon marks the boundary from which even light cannot escape."
+      }
+    },
+    {
+      "id": "specimen-3ai",
+      "question": "3(a)(i)",
+      "marks": 3,
+      "topic": "astronomy",
+      "skill": "redshift-distance-comparison",
+      "answer": "Galaxy C has the largest redshift, indicating the greatest recession speed and, by the distance–recession trend, greatest distance.",
+      "learning": "Compare matching spectral features. A larger systematic shift towards longer wavelengths indicates faster recession and generally a greater distance.",
+      "questionPage": 6,
+      "markSchemePage": 2,
+      "card": {
+        "kind": "text",
+        "prompt": "Three galaxies show shifts of the same line by 12 nm, 28 nm and 55 nm. Explain which is likely to be most distant.",
+        "marks": 3,
+        "rubric": [
+          {
+            "point": "Choose the galaxy with 55 nm shift",
+            "patterns": [
+              "55\\s*nm",
+              "55.*shift"
+            ]
+          },
+          {
+            "point": "Greater redshift means faster recession",
+            "patterns": [
+              "(larger|greater|biggest).*red.?shift.*(faster|speed)",
+              "(faster|greater speed).*reced"
+            ]
+          },
+          {
+            "point": "Faster recession is linked to greater distance",
+            "patterns": [
+              "(faster|greater speed).*(distant|distance|farther|further)",
+              "(more distant|further|farther).*(faster|speed)"
+            ]
+          }
+        ],
+        "modelAnswer": "The galaxy with the 55 nm shift has the greatest redshift. A larger redshift means faster recession. Faster recession generally indicates greater distance, so this galaxy is most likely to be furthest away.",
+        "hint": "Link the observed shift to speed, then to distance.",
+        "misconception": "Do not choose the largest absolute wavelength from unrelated spectral lines.",
+        "steps": [
+          "Choose the galaxy with 55 nm shift",
+          "Greater redshift means faster recession",
+          "Faster recession is linked to greater distance"
+        ],
+        "id": "specimen-3ai",
+        "title": "Redshift distance comparison",
+        "explanation": "Compare matching spectral features. A larger systematic shift towards longer wavelengths indicates faster recession and generally a greater distance."
+      }
+    },
+    {
+      "id": "specimen-3aii",
+      "question": "3(a)(ii)",
+      "marks": 1,
+      "topic": "astronomy",
+      "skill": "redshift-wavelength-change",
+      "answer": "Galaxy D’s reference line has shifted by about 20 nm (graph tolerance 19–25 nm).",
+      "learning": "A shift is the difference between corresponding observed and laboratory wavelengths, measured using the same scale.",
+      "questionPage": 7,
+      "markSchemePage": 3,
+      "card": {
+        "kind": "number",
+        "prompt": "A laboratory spectral line is at 410 nm and the corresponding galaxy line is at 442 nm. Find the redshift in wavelength.",
+        "marks": 2,
+        "answer": 32,
+        "unit": "nm",
+        "tolerance": 0.384,
+        "modelAnswer": "Δλ = 442 − 410 = 32 nm.",
+        "hint": "Match the same line before subtracting.",
+        "misconception": "A redshift is not the whole observed wavelength.",
+        "steps": [
+          "Match the same line before subtracting.",
+          "Δλ = 442 − 410 = 32 nm."
+        ],
+        "id": "specimen-3aii",
+        "title": "Redshift wavelength change",
+        "explanation": "A shift is the difference between corresponding observed and laboratory wavelengths, measured using the same scale."
+      }
+    },
+    {
+      "id": "specimen-3aiii",
+      "question": "3(a)(iii)",
+      "marks": 2,
+      "topic": "astronomy",
+      "skill": "redshift-speed-equation",
+      "answer": "v = cΔλ/λ₀ = 3 × 10⁸ × 20/390 ≈ 1.54 × 10⁷ m/s.",
+      "learning": "When a supplied equation contains a wavelength ratio, consistent wavelength units cancel. For small redshifts the recession speed is proportional to the fractional shift.",
+      "questionPage": 7,
+      "markSchemePage": 3,
+      "card": {
+        "kind": "number",
+        "prompt": "A galaxy’s spectral line shifts by 30 nm from its laboratory value of 500 nm. Using v = cΔλ/λ₀ and c = 3.0 × 10⁸ m/s, calculate recession speed.",
+        "marks": 2,
+        "answer": 18000000,
+        "unit": "m/s",
+        "tolerance": 216000,
+        "modelAnswer": "Fractional shift = 30/500 = 0.060; v = 3.0 × 10⁸ × 0.060 = 1.8 × 10⁷ m/s.",
+        "hint": "Both wavelengths can stay in nm because they form a ratio.",
+        "misconception": "Do not divide the wavelength shift by the speed of light.",
+        "steps": [
+          "Fractional shift = 30/500 = 0.060",
+          "v = 3.0 × 10⁸ × 0.060 = 1.8 × 10⁷ m/s."
+        ],
+        "id": "specimen-3aiii",
+        "title": "Redshift speed equation",
+        "explanation": "When a supplied equation contains a wavelength ratio, consistent wavelength units cancel. For small redshifts the recession speed is proportional to the fractional shift."
+      }
+    },
+    {
+      "id": "specimen-3b",
+      "question": "3(b)",
+      "marks": 2,
+      "topic": "astronomy",
+      "skill": "telescope-image-quality",
+      "answer": "Use a larger aperture, improved optics, longer tracked exposure or a darker/drier/higher observing site.",
+      "learning": "A larger aperture collects more light. Dark skies, stable air and tracking during longer exposures can improve faint astronomical images.",
+      "questionPage": 8,
+      "markSchemePage": 3,
+      "card": {
+        "kind": "text",
+        "prompt": "Suggest two improvements that help a home telescope record a faint galaxy.",
+        "marks": 2,
+        "rubric": [
+          {
+            "point": "Collect more light using larger aperture or longer tracked exposure",
+            "patterns": [
+              "(larger|wider).*aperture",
+              "(longer|increase).*exposure"
+            ]
+          },
+          {
+            "point": "Use darker skies or a site with better atmosphere",
+            "patterns": [
+              "(dark|less light pollution).*sk",
+              "(higher|mountain|dry).*site",
+              "dark.*(site|location)"
+            ]
+          }
+        ],
+        "modelAnswer": "Use a wider telescope aperture or a longer exposure while tracking the galaxy. Observe from a dark site with less light pollution and good atmospheric conditions.",
+        "hint": "Think about the amount of collected light and the unwanted light or blur.",
+        "misconception": "Zooming a poor image does not create missing detail.",
+        "steps": [
+          "Collect more light using larger aperture or longer tracked exposure",
+          "Use darker skies or a site with better atmosphere"
+        ],
+        "id": "specimen-3b",
+        "title": "Telescope image quality",
+        "explanation": "A larger aperture collects more light. Dark skies, stable air and tracking during longer exposures can improve faint astronomical images."
+      }
+    },
+    {
+      "id": "specimen-4ai",
+      "question": "4(a)(i)",
+      "marks": 2,
+      "topic": "skills",
+      "skill": "mean-and-significant-figures",
+      "answer": "Mean = 18.36 cm, rounded to two significant figures as 18 cm.",
+      "learning": "Calculate from all the valid readings, then round only at the end. Significant figures count meaningful digits, not decimal places.",
+      "questionPage": 10,
+      "markSchemePage": 4,
+      "card": {
+        "kind": "number",
+        "prompt": "A falling-ruler trial gives 15.2, 16.3, 14.8, 17.0 and 16.7 cm. Calculate the mean to two significant figures.",
+        "marks": 2,
+        "answer": 16,
+        "unit": "cm",
+        "tolerance": 0.192,
+        "modelAnswer": "Sum = 80.0 cm; mean = 80.0/5 = 16.0 cm; to two significant figures, 16 cm.",
+        "hint": "Add the five values before dividing by five.",
+        "misconception": "Two significant figures is not the same as two decimal places.",
+        "steps": [
+          "Sum = 80.0 cm",
+          "mean = 80.0/5 = 16.0 cm",
+          "to two significant figures, 16 cm."
+        ],
+        "id": "specimen-4ai",
+        "title": "Mean and significant figures",
+        "explanation": "Calculate from all the valid readings, then round only at the end. Significant figures count meaningful digits, not decimal places."
+      }
+    },
+    {
+      "id": "specimen-4aii",
+      "question": "4(a)(ii)",
+      "marks": 2,
+      "topic": "motion",
+      "skill": "reaction-time-square-root",
+      "answer": "For the left-hand mean distance 14 cm, t = √(14/500) ≈ 0.167 s, about 0.17 s.",
+      "learning": "To undo a squared quantity, take a square root. Use the exact distance units specified by a supplied empirical equation.",
+      "questionPage": 10,
+      "markSchemePage": 4,
+      "card": {
+        "kind": "number",
+        "prompt": "In a ruler-drop experiment, t² = d/500 when d is in cm and t is in s. For d = 20 cm, find the reaction time.",
+        "marks": 2,
+        "answer": 0.2,
+        "unit": "s",
+        "tolerance": 0.0024000000000000002,
+        "modelAnswer": "t² = 20/500 = 0.040; t = √0.040 = 0.20 s.",
+        "hint": "The equation gives t squared, not t itself.",
+        "misconception": "Do not convert the distance to metres when this equation specifically requires cm.",
+        "steps": [
+          "t² = 20/500 = 0.040",
+          "t = √0.040 = 0.20 s."
+        ],
+        "id": "specimen-4aii",
+        "title": "Reaction time square root",
+        "explanation": "To undo a squared quantity, take a square root. Use the exact distance units specified by a supplied empirical equation."
+      }
+    },
+    {
+      "id": "specimen-4b",
+      "question": "4(b)",
+      "marks": 2,
+      "topic": "skills",
+      "skill": "anomalous-result",
+      "answer": "The 25.5 cm reading is anomalous because it lies much further from the cluster/mean than the other left-hand readings.",
+      "learning": "An anomalous value is inconsistent with the pattern of comparable results. Identify it and explain using the evidence; do not discard a result merely because it is inconvenient.",
+      "questionPage": 11,
+      "markSchemePage": 4,
+      "card": {
+        "kind": "text",
+        "prompt": "Reaction distances are 12.1, 12.5, 25.0, 11.8 and 12.3 cm. Identify the anomalous reading and explain your choice.",
+        "marks": 2,
+        "rubric": [
+          {
+            "point": "Identify 25.0 cm",
+            "patterns": [
+              "25(\\.0)?\\s*cm",
+              "25(\\.0)?.*anomal"
+            ]
+          },
+          {
+            "point": "It is well outside the cluster near 12 cm",
+            "patterns": [
+              "(far|much|well).*(other|cluster|mean)",
+              "(other|rest).*(around|near|close).*12",
+              "outside.*(cluster|pattern)"
+            ]
+          }
+        ],
+        "modelAnswer": "25.0 cm is anomalous because it is far from the other readings, which cluster near 12 cm. It should be investigated and repeated rather than automatically trusted.",
+        "hint": "Compare each value with the whole group.",
+        "misconception": "The largest reading is not automatically anomalous if all readings follow a trend.",
+        "steps": [
+          "Identify 25.0 cm",
+          "It is well outside the cluster near 12 cm"
+        ],
+        "id": "specimen-4b",
+        "title": "Anomalous result",
+        "explanation": "An anomalous value is inconsistent with the pattern of comparable results. Identify it and explain using the evidence; do not discard a result merely because it is inconvenient."
+      }
+    },
+    {
+      "id": "specimen-4c",
+      "question": "4(c)",
+      "marks": 2,
+      "topic": "skills",
+      "skill": "repeatability-and-sample-size",
+      "answer": "Take additional repeated readings and include another participant to improve the dataset.",
+      "learning": "Repeated measurements help estimate random variation; studying more participants tests whether findings apply beyond one individual.",
+      "questionPage": 11,
+      "markSchemePage": 4,
+      "card": {
+        "kind": "text",
+        "prompt": "A student compares reaction times using only three trials from one friend. Give two ways to improve the evidence.",
+        "marks": 2,
+        "rubric": [
+          {
+            "point": "Take more repeated trials",
+            "patterns": [
+              "more.*(trial|repeat|reading|measurement)",
+              "repeat.*(trial|reading|measurement)"
+            ]
+          },
+          {
+            "point": "Include more participants",
+            "patterns": [
+              "more.*(participant|people|student|friend)",
+              "larger.*sample"
+            ]
+          }
+        ],
+        "modelAnswer": "Take more repeated trials for each condition and include more participants. This reduces dependence on random variation or one person’s unusual response.",
+        "hint": "Improve both repeat measurements and the number of people represented.",
+        "misconception": "Many repeats on one person do not represent a whole age group.",
+        "steps": [
+          "Take more repeated trials",
+          "Include more participants"
+        ],
+        "id": "specimen-4c",
+        "title": "Repeatability and sample size",
+        "explanation": "Repeated measurements help estimate random variation; studying more participants tests whether findings apply beyond one individual."
+      }
+    },
+    {
+      "id": "specimen-4d",
+      "question": "4(d)",
+      "marks": 2,
+      "topic": "skills",
+      "skill": "reaction-time-investigation",
+      "answer": "Measure a larger group and compare reaction time with a chosen variable such as age, holding the test method constant.",
+      "learning": "An investigation needs an independent variable with a range, a defined measurement and suitable controls. Larger samples help distinguish a trend from individual variation.",
+      "questionPage": 11,
+      "markSchemePage": 5,
+      "card": {
+        "kind": "text",
+        "prompt": "Plan an extension to test whether age affects reaction time in a ruler-drop task.",
+        "marks": 2,
+        "rubric": [
+          {
+            "point": "Test a group covering several ages",
+            "patterns": [
+              "(different|several|range).*age",
+              "age.*(group|range)"
+            ]
+          },
+          {
+            "point": "Measure reaction time using the same method for comparison",
+            "patterns": [
+              "same.*(method|test|procedure)",
+              "measure.*reaction.*time"
+            ]
+          }
+        ],
+        "modelAnswer": "Recruit participants from several age groups. Measure their reaction times using the same ruler-drop procedure, repeat trials and compare group means while keeping the setup consistent.",
+        "hint": "What will you change, measure and keep the same?",
+        "misconception": "A single person cannot represent every age group.",
+        "steps": [
+          "Test a group covering several ages",
+          "Measure reaction time using the same method for comparison"
+        ],
+        "id": "specimen-4d",
+        "title": "Reaction time investigation",
+        "explanation": "An investigation needs an independent variable with a range, a defined measurement and suitable controls. Larger samples help distinguish a trend from individual variation."
+      }
+    },
+    {
+      "id": "specimen-5a",
+      "question": "5(a)",
+      "marks": 3,
+      "topic": "forces",
+      "skill": "force-mass-unit-conversion",
+      "answer": "Convert 1.870 kN to 1870 N; m = 1870/1.83 ≈ 1020 kg to three significant figures.",
+      "learning": "Equations require consistent units. Convert kilonewtons to newtons before using F = ma, and round only the final mass.",
+      "questionPage": 12,
+      "markSchemePage": 5,
+      "card": {
+        "kind": "number",
+        "prompt": "A car has acceleration 2.4 m/s² under a resultant force of 3.6 kN. Calculate its mass.",
+        "marks": 3,
+        "answer": 1500,
+        "unit": "kg",
+        "tolerance": 18,
+        "modelAnswer": "3.6 kN = 3600 N; m = F/a = 3600/2.4 = 1500 kg.",
+        "hint": "One kilonewton is 1000 newtons.",
+        "misconception": "Using 3.6 as a force in newtons makes the mass 1000 times too small.",
+        "steps": [
+          "3.6 kN = 3600 N",
+          "m = F/a = 3600/2.4 = 1500 kg."
+        ],
+        "id": "specimen-5a",
+        "title": "Force mass unit conversion",
+        "explanation": "Equations require consistent units. Convert kilonewtons to newtons before using F = ma, and round only the final mass."
+      }
+    },
+    {
+      "id": "specimen-5b",
+      "question": "5(b)",
+      "marks": 3,
+      "topic": "motion",
+      "skill": "uniform-acceleration-final-speed",
+      "answer": "v = u + at = 0 + 1.83 × 16 = 29.28 m/s, about 29.3 m/s.",
+      "learning": "For constant acceleration, velocity changes by acceleration times elapsed time. Include initial velocity if the object is not initially at rest.",
+      "questionPage": 12,
+      "markSchemePage": 5,
+      "card": {
+        "kind": "number",
+        "prompt": "A delivery cart starts at 3.0 m/s and accelerates uniformly at 1.5 m/s² for 8.0 s. Find its final velocity.",
+        "marks": 3,
+        "answer": 15,
+        "unit": "m/s",
+        "tolerance": 0.18,
+        "modelAnswer": "v = u + at; v = 3.0 + 1.5 × 8.0 = 15 m/s.",
+        "hint": "Add the velocity gained to the starting velocity.",
+        "misconception": "Acceleration times time is the change in velocity, not always the final velocity.",
+        "steps": [
+          "v = u + at",
+          "v = 3.0 + 1.5 × 8.0 = 15 m/s."
+        ],
+        "id": "specimen-5b",
+        "title": "Uniform acceleration final speed",
+        "explanation": "For constant acceleration, velocity changes by acceleration times elapsed time. Include initial velocity if the object is not initially at rest."
+      }
+    },
+    {
+      "id": "specimen-5c",
+      "question": "5(c)",
+      "marks": 4,
+      "topic": "motion",
+      "skill": "velocity-time-distance-comparison",
+      "answer": "Constant-speed area AB = 16 × 15 = 240 m; slowing-down area CD = ½ × 9 × 30 = 135 m, so AB gives the greater distance.",
+      "learning": "Distances can be compared by graph areas even when the time intervals and maximum speeds differ. Use rectangle and triangle areas appropriately.",
+      "questionPage": 13,
+      "markSchemePage": 6,
+      "card": {
+        "kind": "number",
+        "prompt": "A car travels at 12 m/s for 20 s, then later slows uniformly from 18 m/s to rest in 10 s. How much further does it travel during the constant-speed stage?",
+        "marks": 3,
+        "answer": 150,
+        "unit": "m",
+        "tolerance": 1.8,
+        "modelAnswer": "Constant-speed distance = 12 × 20 = 240 m; braking distance = ½ × 10 × 18 = 90 m; difference = 240 − 90 = 150 m.",
+        "hint": "Compare the rectangle area with the triangle area.",
+        "misconception": "Higher initial speed does not guarantee greater distance if the travel time differs.",
+        "steps": [
+          "Constant-speed distance = 12 × 20 = 240 m",
+          "braking distance = ½ × 10 × 18 = 90 m",
+          "difference = 240 − 90 = 150 m."
+        ],
+        "id": "specimen-5c",
+        "title": "Velocity time distance comparison",
+        "explanation": "Distances can be compared by graph areas even when the time intervals and maximum speeds differ. Use rectangle and triangle areas appropriately."
+      }
+    },
+    {
+      "id": "specimen-6a",
+      "question": "6(a)",
+      "marks": 1,
+      "topic": "radioactivity",
+      "skill": "neutron-number",
+      "answer": "Uranium-235 has 235 − 92 = 143 neutrons; americium-238 has 238 − 95 = 143, so these match.",
+      "learning": "Mass number counts protons plus neutrons. Neutron number equals mass number minus proton number.",
+      "questionPage": 14,
+      "markSchemePage": 6,
+      "card": {
+        "kind": "number",
+        "prompt": "A nucleus has mass number 59 and proton number 27. How many neutrons does it contain?",
+        "marks": 2,
+        "answer": 32,
+        "unit": "",
+        "tolerance": 0.384,
+        "modelAnswer": "Neutrons = mass number − proton number; 59 − 27 = 32.",
+        "hint": "Subtract the proton count from the total nucleon count.",
+        "misconception": "Mass number is not the neutron count.",
+        "steps": [
+          "Neutrons = mass number − proton number",
+          "59 − 27 = 32."
+        ],
+        "id": "specimen-6a",
+        "title": "Neutron number",
+        "explanation": "Mass number counts protons plus neutrons. Neutron number equals mass number minus proton number."
+      }
+    },
+    {
+      "id": "specimen-6bi",
+      "question": "6(b)(i)",
+      "marks": 1,
+      "topic": "radioactivity",
+      "skill": "half-life-definition",
+      "answer": "Half-life is the time for the activity or number of undecayed nuclei in a sample to halve.",
+      "learning": "Radioactive decay is random for an individual nucleus, but large samples have a predictable halving time.",
+      "questionPage": 14,
+      "markSchemePage": 6,
+      "card": {
+        "kind": "choice",
+        "prompt": "What is radioactive half-life?",
+        "marks": 1,
+        "options": [
+          "Time until every nucleus has decayed",
+          "Time for a sample’s activity to fall to half its value",
+          "Half the time a detector is switched on",
+          "Time for a nucleus to split into equal pieces"
+        ],
+        "correctIndex": 1,
+        "modelAnswer": "Half-life is the time required for activity or the number of undecayed nuclei to halve.",
+        "hint": "The definition refers to a fraction of a large sample.",
+        "misconception": "Half-life is not a guarantee about one nucleus.",
+        "steps": [
+          "Identify the physical principle in the question.",
+          "Half-life is the time required for activity or the number of undecayed nuclei to halve."
+        ],
+        "id": "specimen-6bi",
+        "title": "Half life definition",
+        "explanation": "Radioactive decay is random for an individual nucleus, but large samples have a predictable halving time."
+      }
+    },
+    {
+      "id": "specimen-6bii",
+      "question": "6(b)(ii)",
+      "marks": 4,
+      "topic": "radioactivity",
+      "skill": "half-life-power-output",
+      "answer": "263/87.7 ≈ 3 half-lives; remaining Pu-238 = 925/8 = 115.625 g; power = 115.625 × 0.54 ≈ 62.4 W, or 62.4 J each second.",
+      "learning": "After each half-life, halve the undecayed isotope amount. If power is proportional to that amount, it falls by the same factor.",
+      "questionPage": 14,
+      "markSchemePage": 6,
+      "card": {
+        "kind": "number",
+        "prompt": "A radioisotope generator starts with 800 g of fuel. Its half-life is 40 years and power output is 0.60 W per gram of undecayed fuel. Find its power after 120 years.",
+        "marks": 3,
+        "answer": 60,
+        "unit": "W",
+        "tolerance": 0.72,
+        "modelAnswer": "Number of half-lives = 120/40 = 3; remaining mass = 800/2³ = 100 g; power = 100 × 0.60 = 60 W.",
+        "hint": "Find the number of halvings before calculating the remaining mass.",
+        "misconception": "Three half-lives leave one eighth, not one third.",
+        "steps": [
+          "Number of half-lives = 120/40 = 3",
+          "remaining mass = 800/2³ = 100 g",
+          "power = 100 × 0.60 = 60 W."
+        ],
+        "id": "specimen-6bii",
+        "title": "Half life power output",
+        "explanation": "After each half-life, halve the undecayed isotope amount. If power is proportional to that amount, it falls by the same factor.",
+        "variants": [
+          {
+            "prompt": "A radioisotope generator starts with 600 g of fuel. Its half-life is 25 years and power output is 0.80 W per gram of undecayed fuel. Find its power after 75 years.",
+            "answer": 60,
+            "modelAnswer": "75/25 = 3 half-lives. Remaining mass = 600/8 = 75 g. Power = 75 × 0.80 = 60 W."
+          },
+          {
+            "prompt": "A radioisotope generator starts with 960 g of fuel. Its half-life is 30 years and power output is 0.50 W per gram of undecayed fuel. Find its power after 120 years.",
+            "answer": 30,
+            "modelAnswer": "120/30 = 4 half-lives. Remaining mass = 960/16 = 60 g. Power = 60 × 0.50 = 30 W."
+          }
+        ]
+      }
+    },
+    {
+      "id": "specimen-6ci",
+      "question": "6(c)(i)",
+      "marks": 2,
+      "topic": "radioactivity",
+      "skill": "electron-capture",
+      "answer": "Electron capture turns a proton into a neutron, reducing Z by one with A unchanged.",
+      "learning": "Changing one proton into one neutron preserves the nucleon total but changes the element’s proton number.",
+      "questionPage": 15,
+      "markSchemePage": 7,
+      "card": {
+        "kind": "text",
+        "prompt": "In electron capture, a proton in a nucleus becomes a neutron. State the effects on proton number and mass number.",
+        "marks": 2,
+        "rubric": [
+          {
+            "point": "Proton number decreases by one",
+            "patterns": [
+              "proton.*number.*(decreas|fall|reduc).*(one|1)",
+              "atomic.*number.*(decreas|fall|reduc).*(one|1)"
+            ]
+          },
+          {
+            "point": "Mass number remains unchanged",
+            "patterns": [
+              "mass.*number.*(unchanged|same|constant)",
+              "nucleon.*number.*(unchanged|same|constant)"
+            ]
+          }
+        ],
+        "modelAnswer": "The proton number decreases by one. The mass number remains unchanged because one nucleon is converted into another rather than removed.",
+        "hint": "Count protons and total nucleons separately.",
+        "misconception": "Capturing an electron does not add a whole nucleon to the nucleus.",
+        "steps": [
+          "Proton number decreases by one",
+          "Mass number remains unchanged"
+        ],
+        "id": "specimen-6ci",
+        "title": "Electron capture",
+        "explanation": "Changing one proton into one neutron preserves the nucleon total but changes the element’s proton number."
+      }
+    },
+    {
+      "id": "specimen-6cii",
+      "question": "6(c)(ii)",
+      "marks": 1,
+      "topic": "radioactivity",
+      "skill": "electron-capture-daughter",
+      "answer": "Americium-238, Z = 95, becomes plutonium-238, Z = 94.",
+      "learning": "To identify a daughter nucleus, calculate its mass and proton numbers before looking up the element. Electron capture keeps A fixed and reduces Z by one.",
+      "questionPage": 15,
+      "markSchemePage": 7,
+      "card": {
+        "kind": "number",
+        "prompt": "A nucleus with mass number 64 and proton number 29 undergoes electron capture. What is the daughter proton number?",
+        "marks": 2,
+        "answer": 28,
+        "unit": "",
+        "tolerance": 0.336,
+        "modelAnswer": "Electron capture converts a proton to a neutron; Z changes from 29 to 28, with A = 64 unchanged.",
+        "hint": "The proton becomes a neutron.",
+        "misconception": "Do not change the mass number for electron capture.",
+        "steps": [
+          "Electron capture converts a proton to a neutron",
+          "Z changes from 29 to 28, with A = 64 unchanged."
+        ],
+        "id": "specimen-6cii",
+        "title": "Electron capture daughter",
+        "explanation": "To identify a daughter nucleus, calculate its mass and proton numbers before looking up the element. Electron capture keeps A fixed and reduces Z by one."
+      }
+    },
+    {
+      "id": "specimen-7a",
+      "question": "7(a)",
+      "marks": 4,
+      "topic": "motion",
+      "skill": "trolley-speed-practical",
+      "answer": "Measure a known runway distance and the trolley’s travel time with suitable timing equipment, repeat and average, and record the release height.",
+      "learning": "A good method specifies measurable quantities and controls. Average speed is measured distance divided by elapsed time; repeated trials help reduce random variation.",
+      "questionPage": 16,
+      "markSchemePage": 7,
+      "card": {
+        "kind": "text",
+        "prompt": "Plan how to measure a trolley’s average speed down a ramp at a fixed release height.",
+        "marks": 4,
+        "rubric": [
+          {
+            "point": "Measure the distance along the track",
+            "patterns": [
+              "measure.*distance.*(track|ramp|runway)",
+              "(ruler|rule|tape).*distance"
+            ]
+          },
+          {
+            "point": "Measure travel time using timing equipment",
+            "patterns": [
+              "(time|timing).*(light.gate|stopwatch)",
+              "(light.gate|stopwatch).*time"
+            ]
+          },
+          {
+            "point": "Use distance divided by time",
+            "patterns": [
+              "distance.*(divid|/).*time",
+              "speed.*distance.*time"
+            ]
+          },
+          {
+            "point": "Repeat trials and average results",
+            "patterns": [
+              "repeat.*(mean|average)",
+              "(mean|average).*repeat"
+            ]
+          }
+        ],
+        "modelAnswer": "Mark and measure a distance along the ramp. Use a stopwatch or light gates to measure the trolley’s travel time over that distance. Calculate speed as distance divided by time. Keep the release height fixed, repeat trials and average the calculated speeds.",
+        "hint": "The distance and timing must refer to the same part of the journey.",
+        "misconception": "Do not use vertical height as the distance travelled along the ramp.",
+        "steps": [
+          "Measure the distance along the track",
+          "Measure travel time using timing equipment",
+          "Use distance divided by time",
+          "Repeat trials and average results"
+        ],
+        "id": "specimen-7a",
+        "title": "Trolley speed practical",
+        "explanation": "A good method specifies measurable quantities and controls. Average speed is measured distance divided by elapsed time; repeated trials help reduce random variation."
+      }
+    },
+    {
+      "id": "specimen-7bi",
+      "question": "7(b)(i)",
+      "marks": 2,
+      "topic": "energy",
+      "skill": "kinetic-energy-from-graph",
+      "answer": "Read speed ≈ 0.61 m/s at h = 0.075 m; convert 650 g to 0.650 kg, then KE ≈ ½ × 0.650 × 0.61² = 0.12 J.",
+      "learning": "Combine graph reading with the correct formula. Mass must be in kilograms and speed must be squared.",
+      "questionPage": 18,
+      "markSchemePage": 8,
+      "card": {
+        "kind": "number",
+        "prompt": "A trolley has mass 750 g. A graph gives its speed as 0.80 m/s. Calculate its kinetic energy.",
+        "marks": 2,
+        "answer": 0.24,
+        "unit": "J",
+        "tolerance": 0.0028799999999999997,
+        "modelAnswer": "750 g = 0.750 kg; KE = ½mv² = ½ × 0.750 × 0.80² = 0.240 J.",
+        "hint": "Convert grams to kilograms before substitution.",
+        "misconception": "Do not multiply by speed only once.",
+        "steps": [
+          "750 g = 0.750 kg",
+          "KE = ½mv² = ½ × 0.750 × 0.80² = 0.240 J."
+        ],
+        "id": "specimen-7bi",
+        "title": "Kinetic energy from graph",
+        "explanation": "Combine graph reading with the correct formula. Mass must be in kilograms and speed must be squared."
+      }
+    },
+    {
+      "id": "specimen-7bii",
+      "question": "7(b)(ii)",
+      "marks": 2,
+      "topic": "motion",
+      "skill": "curve-gradient",
+      "answer": "A tangent at h = 0.10 m gives a gradient about 3.5–3.6 (m/s)/m.",
+      "learning": "For a curved graph, use a tangent for the local gradient. Its physical meaning and unit come from the particular axis quantities.",
+      "questionPage": 18,
+      "markSchemePage": 8,
+      "card": {
+        "kind": "number",
+        "prompt": "A tangent to a speed–height curve passes through (0.04 m, 0.45 m/s) and (0.16 m, 0.87 m/s). Find its gradient.",
+        "marks": 2,
+        "answer": 3.5,
+        "unit": "1/s",
+        "tolerance": 0.042,
+        "modelAnswer": "Gradient = change in speed/change in height; (0.87 − 0.45)/(0.16 − 0.04) = 0.42/0.12 = 3.5 s⁻¹.",
+        "hint": "Calculate rise divided by run for the tangent.",
+        "misconception": "A speed–height gradient is not acceleration; its denominator is height, not time.",
+        "steps": [
+          "Gradient = change in speed/change in height",
+          "(0.87 − 0.45)/(0.16 − 0.04) = 0.42/0.12 = 3.5 s⁻¹."
+        ],
+        "id": "specimen-7bii",
+        "title": "Curve gradient",
+        "explanation": "For a curved graph, use a tangent for the local gradient. Its physical meaning and unit come from the particular axis quantities."
+      }
+    },
+    {
+      "id": "specimen-7biii",
+      "question": "7(b)(iii)",
+      "marks": 2,
+      "topic": "motion",
+      "skill": "nonlinear-trend-description",
+      "answer": "Speed rises with starting height; the increase from 0.04 to 0.09 m is greater than from 0.09 to 0.12 m in the supplied data.",
+      "learning": "Describe both the direction of a trend and how its rate changes, using data. Increasing does not necessarily mean directly proportional.",
+      "questionPage": 18,
+      "markSchemePage": 9,
+      "card": {
+        "kind": "text",
+        "prompt": "A table gives heights 0.05, 0.10 and 0.15 m with speeds 0.50, 0.68 and 0.81 m/s. Describe the pattern.",
+        "marks": 2,
+        "rubric": [
+          {
+            "point": "Speed increases as height increases",
+            "patterns": [
+              "speed.*increas.*height",
+              "height.*increas.*speed"
+            ]
+          },
+          {
+            "point": "The speed gain becomes smaller for equal height steps",
+            "patterns": [
+              "(gain|increase|change).*speed.*(smaller|less|decreas)",
+              "(0\\.18|0\\.13)",
+              "(rate|gradient).*(decreas|smaller)"
+            ]
+          }
+        ],
+        "modelAnswer": "Speed increases with starting height. For equal 0.05 m height steps, the speed gain falls from 0.18 m/s to 0.13 m/s, so the graph becomes less steep.",
+        "hint": "Compare equal steps in the independent variable.",
+        "misconception": "A rising curve is not necessarily a straight-line proportional relationship.",
+        "steps": [
+          "Speed increases as height increases",
+          "The speed gain becomes smaller for equal height steps"
+        ],
+        "id": "specimen-7biii",
+        "title": "Nonlinear trend description",
+        "explanation": "Describe both the direction of a trend and how its rate changes, using data. Increasing does not necessarily mean directly proportional."
+      }
+    },
+    {
+      "id": "specimen-7c",
+      "question": "7(c)",
+      "marks": 3,
+      "topic": "forces",
+      "skill": "friction-surface-investigation",
+      "answer": "Use at least three runway surfaces, keep height/slope/release point and measured length fixed, and compare repeated average-speed measurements.",
+      "learning": "A fair comparison changes the surface while controlling the energy input and measurement geometry. Repetition makes comparisons more reliable.",
+      "questionPage": 19,
+      "markSchemePage": 9,
+      "card": {
+        "kind": "text",
+        "prompt": "Plan an investigation of how ramp surface affects a trolley’s average speed.",
+        "marks": 3,
+        "rubric": [
+          {
+            "point": "Use at least three different surfaces",
+            "patterns": [
+              "(three|3|several).*surface",
+              "different.*surfaces"
+            ]
+          },
+          {
+            "point": "Keep release height or slope and distance fixed",
+            "patterns": [
+              "(same|constant|fixed).*(height|slope|release|distance)",
+              "(height|slope|distance).*(same|constant|fixed)"
+            ]
+          },
+          {
+            "point": "Measure repeated speeds and compare means",
+            "patterns": [
+              "repeat.*speed",
+              "(mean|average).*speed",
+              "speed.*(mean|average)"
+            ]
+          }
+        ],
+        "modelAnswer": "Cover the same ramp with at least three different surfaces. Keep the release height, starting point and measured distance fixed. For each surface, measure distance and travel time, calculate speed, repeat and compare mean speeds.",
+        "hint": "Change one cause of friction while keeping the starting conditions the same.",
+        "misconception": "Pushing harder on one surface makes the comparison unfair.",
+        "steps": [
+          "Use at least three different surfaces",
+          "Keep release height or slope and distance fixed",
+          "Measure repeated speeds and compare means"
+        ],
+        "id": "specimen-7c",
+        "title": "Friction surface investigation",
+        "explanation": "A fair comparison changes the surface while controlling the energy input and measurement geometry. Repetition makes comparisons more reliable."
+      }
+    },
+    {
+      "id": "specimen-8ai",
+      "question": "8(a)(i)",
+      "marks": 4,
+      "topic": "electromagnetic",
+      "skill": "thermal-spectrum-temperature",
+      "answer": "Higher temperature increases emitted intensity and shifts the peak towards shorter wavelengths, increasing visible emission and making the filament brighter and less red.",
+      "learning": "Hotter objects emit more radiation per second and their spectrum peaks at shorter wavelengths. A glowing object can change apparent colour as its temperature rises.",
+      "questionPage": 20,
+      "markSchemePage": 9,
+      "card": {
+        "kind": "text",
+        "prompt": "A heated metal strip changes from dull red to bright yellow-white as it gets hotter. Explain this using its radiation spectrum.",
+        "marks": 4,
+        "rubric": [
+          {
+            "point": "Higher temperature increases emitted intensity",
+            "patterns": [
+              "(higher|increas|hotter).*temperature.*(intensity|radiation)",
+              "hotter.*emit.*more",
+              "intensity.*increas"
+            ]
+          },
+          {
+            "point": "The spectrum shifts towards shorter wavelengths",
+            "patterns": [
+              "(shorter|decreas).*wavelength",
+              "peak.*(short|shift)"
+            ]
+          },
+          {
+            "point": "More visible light is emitted so it is brighter",
+            "patterns": [
+              "more.*visible.*light",
+              "brighter.*(visible|light|intensity)"
+            ]
+          },
+          {
+            "point": "More short-wavelength colours make it less red",
+            "patterns": [
+              "(less red|yellow|white).*short",
+              "short.*(less red|yellow|white)",
+              "colour.*(yellow|white)"
+            ]
+          }
+        ],
+        "modelAnswer": "As the strip gets hotter, the emitted intensity increases and its spectrum shifts towards shorter wavelengths. More visible light is emitted, making it brighter. A larger share of the visible output is at shorter wavelengths, so the colour becomes less red and more yellow-white.",
+        "hint": "Explain brightness and colour as two related changes.",
+        "misconception": "Heating does not make every emitted photon have the same wavelength.",
+        "steps": [
+          "Higher temperature increases emitted intensity",
+          "The spectrum shifts towards shorter wavelengths",
+          "More visible light is emitted so it is brighter",
+          "More short-wavelength colours make it less red"
+        ],
+        "id": "specimen-8ai",
+        "title": "Thermal spectrum temperature",
+        "explanation": "Hotter objects emit more radiation per second and their spectrum peaks at shorter wavelengths. A glowing object can change apparent colour as its temperature rises."
+      }
+    },
+    {
+      "id": "specimen-8aii",
+      "question": "8(a)(ii)",
+      "marks": 3,
+      "topic": "radioactivity",
+      "skill": "inverse-square-count-rate",
+      "answer": "k = 85000 × 0.70² = 41650; count rate at 1.3 m = 41650/1.3² ≈ 24645 counts/min, about 25000 counts/min.",
+      "learning": "An inverse-square relation means doubling distance reduces intensity to one quarter. Use the same constant at both positions and square both distances.",
+      "questionPage": 21,
+      "markSchemePage": 10,
+      "card": {
+        "kind": "number",
+        "prompt": "A gamma detector records 12000 counts/min at 0.50 m from a small source. Assuming inverse-square behaviour, what count rate is expected at 1.00 m?",
+        "marks": 3,
+        "answer": 3000,
+        "unit": "counts/min",
+        "tolerance": 36,
+        "modelAnswer": "Count rate ∝ 1/d²; new rate = 12000 × (0.50/1.00)² = 3000 counts/min.",
+        "hint": "The distance doubles. Square that factor.",
+        "misconception": "Doubling distance divides the rate by four, not by two.",
+        "steps": [
+          "Count rate ∝ 1/d²",
+          "new rate = 12000 × (0.50/1.00)² = 3000 counts/min."
+        ],
+        "id": "specimen-8aii",
+        "title": "Inverse square count rate",
+        "explanation": "An inverse-square relation means doubling distance reduces intensity to one quarter. Use the same constant at both positions and square both distances.",
+        "variants": [
+          {
+            "prompt": "A gamma detector reads 16000 counts/min at 0.40 m from a small source. Assuming inverse-square behaviour, find the rate at 0.80 m.",
+            "answer": 4000,
+            "modelAnswer": "New rate = 16000 × (0.40/0.80)² = 4000 counts/min."
+          },
+          {
+            "prompt": "A gamma detector reads 18000 counts/min at 0.30 m from a small source. Assuming inverse-square behaviour, find the rate at 0.90 m.",
+            "answer": 2000,
+            "modelAnswer": "Distance is tripled. New rate = 18000/3² = 2000 counts/min."
+          }
+        ]
+      }
+    },
+    {
+      "id": "specimen-8b",
+      "question": "8(b)",
+      "marks": 6,
+      "topic": "electromagnetic",
+      "skill": "aerosols-albedo-climate",
+      "answer": "Less soot leaves brighter ice that absorbs less sunlight, tending to cool. Fewer sulfate aerosols means less sunlight scattered back to space, tending to warm. The two effects compete.",
+      "learning": "Surface reflectivity and atmospheric scattering both affect incoming solar energy. When a change removes two opposing effects, the net temperature change cannot be inferred without comparing their sizes.",
+      "questionPage": 22,
+      "markSchemePage": 10,
+      "card": {
+        "kind": "text",
+        "prompt": "A region reduces emissions of dark dust that settles on snow and pale aerosols that scatter sunlight in the air. Discuss the possible temperature effects.",
+        "marks": 6,
+        "rubric": [
+          {
+            "point": "Dark dust makes snow less reflective",
+            "patterns": [
+              "dark.*(snow|dust).*(reflect|absor)",
+              "dust.*dark.*snow"
+            ]
+          },
+          {
+            "point": "Darker snow absorbs more solar energy",
+            "patterns": [
+              "(dark|dust).*absor.*(more|greater)",
+              "more.*solar.*absor"
+            ]
+          },
+          {
+            "point": "Reducing dark dust tends to reduce warming",
+            "patterns": [
+              "(less|reduc).*dust.*(cool|less.*warm|less.*absor)",
+              "(brighter|cleaner).*snow.*(cool|less.*absor)"
+            ]
+          },
+          {
+            "point": "Pale aerosols scatter incoming sunlight",
+            "patterns": [
+              "aerosol.*scatter.*sun",
+              "scatter.*sunlight"
+            ]
+          },
+          {
+            "point": "Reducing aerosols lets more sunlight reach the surface",
+            "patterns": [
+              "(less|fewer|reduc).*aerosol.*(more|warm)",
+              "more.*sunlight.*(reach|surface)"
+            ]
+          },
+          {
+            "point": "The two changes have opposing effects so net effect needs evidence",
+            "patterns": [
+              "(oppos|compet).*effect",
+              "net.*(depend|uncertain|evidence)",
+              "cannot.*(net|overall)"
+            ]
+          }
+        ],
+        "modelAnswer": "Dark dust makes snow less reflective, so the darker snow absorbs more solar energy and tends to warm. Reducing dark dust leaves brighter snow that absorbs less sunlight and tends to cool. Pale aerosols scatter sunlight away. Reducing aerosols lets more sunlight reach the surface and can cause warming. These effects oppose one another, so the net change depends on their relative sizes.",
+        "hint": "Follow each type of particle separately from sunlight to temperature.",
+        "misconception": "Removing all particles does not guarantee a single-direction temperature change.",
+        "steps": [
+          "Dark dust makes snow less reflective",
+          "Darker snow absorbs more solar energy",
+          "Reducing dark dust tends to reduce warming",
+          "Pale aerosols scatter incoming sunlight",
+          "Reducing aerosols lets more sunlight reach the surface",
+          "The two changes have opposing effects so net effect needs evidence"
+        ],
+        "id": "specimen-8b",
+        "title": "Aerosols albedo climate",
+        "explanation": "Surface reflectivity and atmospheric scattering both affect incoming solar energy. When a change removes two opposing effects, the net temperature change cannot be inferred without comparing their sizes."
+      }
+    },
+    {
+      "id": "specimen-9a",
+      "question": "9(a)",
+      "marks": 2,
+      "topic": "light",
+      "skill": "refraction-wavelength-explanation",
+      "answer": "Light slows on entering glass while its frequency remains constant, so wavelength decreases according to λ = v/f.",
+      "learning": "Boundary refraction changes propagation speed; the oscillation frequency is still set by the source. Wavelength adjusts to satisfy v = fλ.",
+      "questionPage": 23,
+      "markSchemePage": 11,
+      "card": {
+        "kind": "text",
+        "prompt": "A laser’s speed falls when it enters transparent resin from air. Explain what happens to its wavelength.",
+        "marks": 2,
+        "rubric": [
+          {
+            "point": "Frequency stays unchanged",
+            "patterns": [
+              "frequency.*(unchanged|same|constant)",
+              "(same|constant).*frequency"
+            ]
+          },
+          {
+            "point": "Lower speed at fixed frequency means shorter wavelength",
+            "patterns": [
+              "(lower|slower|decreas).*speed.*(shorter|decreas).*wavelength",
+              "wavelength.*(decreas|shorter).*speed",
+              "wavelength.*decreas"
+            ]
+          }
+        ],
+        "modelAnswer": "The frequency remains unchanged at the boundary. Because λ = v/f, the lower speed in resin gives a shorter wavelength.",
+        "hint": "Use the wave equation after identifying the unchanged quantity.",
+        "misconception": "Refraction does not normally change the frequency of the light.",
+        "steps": [
+          "Frequency stays unchanged",
+          "Lower speed at fixed frequency means shorter wavelength"
+        ],
+        "id": "specimen-9a",
+        "title": "Refraction wavelength explanation",
+        "explanation": "Boundary refraction changes propagation speed; the oscillation frequency is still set by the source. Wavelength adjusts to satisfy v = fλ."
+      }
+    },
+    {
+      "id": "specimen-9b",
+      "question": "9(b)",
+      "marks": 6,
+      "topic": "light",
+      "skill": "wavefront-refraction",
+      "answer": "The leading end enters glass first and slows while the other end remains faster in air, rotating the wavefront so that the ray bends towards the normal. At the second parallel face the process reverses and the emergent beam is parallel to the original.",
+      "learning": "Refraction can be understood from different parts of a wavefront changing speed at different times. With parallel boundaries, the bending on exit reverses the directional change on entry.",
+      "questionPage": 23,
+      "markSchemePage": 12,
+      "card": {
+        "kind": "text",
+        "prompt": "A straight wavefront reaches a rectangular glass slab obliquely from air. Explain its change of direction on entering and leaving the slab.",
+        "marks": 6,
+        "rubric": [
+          {
+            "point": "One end enters the glass first",
+            "patterns": [
+              "(one|first|leading).*end.*(enter|glass)",
+              "one.*part.*enter.*first"
+            ]
+          },
+          {
+            "point": "That end slows in glass",
+            "patterns": [
+              "(end|part).*slow.*glass",
+              "glass.*slower"
+            ]
+          },
+          {
+            "point": "The other end is still faster in air",
+            "patterns": [
+              "other.*(end|part).*air",
+              "air.*faster"
+            ]
+          },
+          {
+            "point": "The direction bends towards the normal on entry",
+            "patterns": [
+              "towards.*normal"
+            ]
+          },
+          {
+            "point": "On exit the leading end speeds up first",
+            "patterns": [
+              "exit.*(speed|fast)",
+              "leav.*(speed|fast)",
+              "speed.*up.*first"
+            ]
+          },
+          {
+            "point": "The exit bend is away from the normal and the beam emerges parallel",
+            "patterns": [
+              "away.*normal.*parallel",
+              "parallel.*(original|incident)",
+              "emerg.*parallel"
+            ]
+          }
+        ],
+        "modelAnswer": "One end of the wavefront enters the glass first. That end slows in glass, while the other end is still moving faster in air. This rotates the wavefront and bends the ray towards the normal. On exit, the leading end speeds up first, bending the ray away from the normal. The parallel faces make the emergent beam parallel to the original direction, with a sideways displacement.",
+        "hint": "Track the two ends of the wavefront rather than treating it as a single point.",
+        "misconception": "The wave does not always bend towards the normal; its speed change determines the direction.",
+        "steps": [
+          "One end enters the glass first",
+          "That end slows in glass",
+          "The other end is still faster in air",
+          "The direction bends towards the normal on entry",
+          "On exit the leading end speeds up first",
+          "The exit bend is away from the normal and the beam emerges parallel"
+        ],
+        "id": "specimen-9b",
+        "title": "Wavefront refraction",
+        "explanation": "Refraction can be understood from different parts of a wavefront changing speed at different times. With parallel boundaries, the bending on exit reverses the directional change on entry."
+      }
+    },
+    {
+      "id": "specimen-9c",
+      "question": "9(c)",
+      "marks": 4,
+      "topic": "light",
+      "skill": "linked-speed-frequency-calculation",
+      "answer": "Speed = 1.50 × 10¹¹/500 = 3.0 × 10⁸ m/s; f = speed/(670 × 10⁻⁹) ≈ 4.48 × 10¹⁴ Hz.",
+      "learning": "Link equations when a needed quantity is not directly given: first find wave speed from distance and time, then use f = v/λ.",
+      "questionPage": 24,
+      "markSchemePage": 13,
+      "card": {
+        "kind": "number",
+        "prompt": "A light pulse travels 3.60 × 10⁸ m in 1.20 s. Its wavelength is 600 nm. Using only these data, calculate its frequency.",
+        "marks": 3,
+        "answer": 500000000000000,
+        "unit": "Hz",
+        "tolerance": 6000000000000,
+        "modelAnswer": "Speed = distance/time = 3.60 × 10⁸/1.20 = 3.00 × 10⁸ m/s; wavelength = 600 × 10⁻⁹ m; f = v/λ = 5.00 × 10¹⁴ Hz.",
+        "hint": "Find the speed first, then convert the wavelength to metres.",
+        "misconception": "A two-equation question needs the intermediate result carried into the next step.",
+        "steps": [
+          "Speed = distance/time = 3.60 × 10⁸/1.20 = 3.00 × 10⁸ m/s",
+          "wavelength = 600 × 10⁻⁹ m",
+          "f = v/λ = 5.00 × 10¹⁴ Hz."
+        ],
+        "id": "specimen-9c",
+        "title": "Linked speed frequency calculation",
+        "explanation": "Link equations when a needed quantity is not directly given: first find wave speed from distance and time, then use f = v/λ."
+      }
+    },
+    {
+      "id": "specimen-10ai",
+      "question": "10(a)(i)",
+      "marks": 4,
+      "topic": "radioactivity",
+      "skill": "fission-chain-reaction",
+      "answer": "Fission emits additional neutrons, which can be absorbed by other uranium nuclei and cause further fissions, releasing more neutrons and sustaining a chain.",
+      "learning": "A chain reaction needs the products of one event to trigger further similar events. Neutrons carry the reaction from one nucleus to the next.",
+      "questionPage": 25,
+      "markSchemePage": 13,
+      "card": {
+        "kind": "text",
+        "prompt": "Explain how one fission event can lead to a self-sustaining chain reaction in suitable nuclear fuel.",
+        "marks": 4,
+        "rubric": [
+          {
+            "point": "A fission event releases neutrons",
+            "patterns": [
+              "fission.*releas.*neutron",
+              "neutron.*releas.*fission"
+            ]
+          },
+          {
+            "point": "Released neutrons are absorbed by other fuel nuclei",
+            "patterns": [
+              "neutron.*absor.*(other|fuel|nuclei)",
+              "other.*nuclei.*absor.*neutron"
+            ]
+          },
+          {
+            "point": "These nuclei undergo further fission",
+            "patterns": [
+              "(further|more).*fission",
+              "nuclei.*split"
+            ]
+          },
+          {
+            "point": "More neutrons are released and the process repeats",
+            "patterns": [
+              "more.*neutron.*releas",
+              "(repeat|chain|continue).*process",
+              "process.*(repeat|continue)"
+            ]
+          }
+        ],
+        "modelAnswer": "A fission event releases neutrons. Released neutrons are absorbed by other suitable fuel nuclei, causing further fissions. These fissions release more neutrons, so the process repeats and can sustain a chain reaction.",
+        "hint": "What comes out of one fission that can trigger the next?",
+        "misconception": "A chain reaction is not simply one nucleus breaking once.",
+        "steps": [
+          "A fission event releases neutrons",
+          "Released neutrons are absorbed by other fuel nuclei",
+          "These nuclei undergo further fission",
+          "More neutrons are released and the process repeats"
+        ],
+        "id": "specimen-10ai",
+        "title": "Fission chain reaction",
+        "explanation": "A chain reaction needs the products of one event to trigger further similar events. Neutrons carry the reaction from one nucleus to the next."
+      }
+    },
+    {
+      "id": "specimen-10aii",
+      "question": "10(a)(ii)",
+      "marks": 1,
+      "topic": "radioactivity",
+      "skill": "chain-reaction-trigger",
+      "answer": "To sustain this chain, the emitted particle must also be capable of initiating the next event; beryllium absorbs alpha particles but emits neutrons, so that mechanism does not self-propagate.",
+      "learning": "For a reaction to reproduce itself, its output must be able to serve as the next reaction’s trigger.",
+      "questionPage": 25,
+      "markSchemePage": 13,
+      "card": {
+        "kind": "choice",
+        "prompt": "A nuclear process needs an alpha particle to start but produces only a neutron. Why does this not automatically form a chain of identical events?",
+        "marks": 1,
+        "options": [
+          "The product is not the particle needed to trigger the next event",
+          "All neutrons are positively charged",
+          "Alpha particles are light waves",
+          "The first event cannot release energy"
+        ],
+        "correctIndex": 0,
+        "modelAnswer": "The outgoing neutron is not the alpha particle needed to initiate another identical event.",
+        "hint": "Compare the input trigger with the output particle.",
+        "misconception": "Energy release alone does not guarantee a chain reaction.",
+        "steps": [
+          "Identify the physical principle in the question.",
+          "The outgoing neutron is not the alpha particle needed to initiate another identical event."
+        ],
+        "id": "specimen-10aii",
+        "title": "Chain reaction trigger",
+        "explanation": "For a reaction to reproduce itself, its output must be able to serve as the next reaction’s trigger."
+      }
+    },
+    {
+      "id": "specimen-10b",
+      "question": "10(b)",
+      "marks": 3,
+      "topic": "radioactivity",
+      "skill": "moderator-neutron-speed",
+      "answer": "Without slowing by the moderator, fewer neutrons are captured efficiently by uranium-235; fewer fissions occur and the thermal-reactor chain slows or stops.",
+      "learning": "In a thermal reactor, slow neutrons are more likely than fast ones to cause uranium-235 fission. The moderator changes neutron speed; control rods absorb neutrons.",
+      "questionPage": 25,
+      "markSchemePage": 14,
+      "card": {
+        "kind": "text",
+        "prompt": "Explain why removing the moderator from a thermal uranium-235 reactor tends to reduce its fission rate.",
+        "marks": 3,
+        "rubric": [
+          {
+            "point": "The neutrons remain too fast or are not slowed",
+            "patterns": [
+              "neutron.*(fast|not slowed)",
+              "(without|no).*slow.*neutron"
+            ]
+          },
+          {
+            "point": "Slow neutrons are more likely to cause fission",
+            "patterns": [
+              "slow.*neutron.*(more likely|fission)",
+              "fission.*(more likely|efficient).*slow"
+            ]
+          },
+          {
+            "point": "Fewer fissions occur so the reaction slows",
+            "patterns": [
+              "fewer.*fission",
+              "reaction.*(slow|stop|decreas)"
+            ]
+          }
+        ],
+        "modelAnswer": "Without the moderator, many neutrons remain fast. Slow neutrons are more likely to cause fission in this thermal fuel. Fewer successful fissions occur, so the chain reaction slows or can stop.",
+        "hint": "Distinguish the moderator from the control rods.",
+        "misconception": "Faster neutrons do not automatically produce a faster chain reaction in a thermal reactor.",
+        "steps": [
+          "The neutrons remain too fast or are not slowed",
+          "Slow neutrons are more likely to cause fission",
+          "Fewer fissions occur so the reaction slows"
+        ],
+        "id": "specimen-10b",
+        "title": "Moderator neutron speed",
+        "explanation": "In a thermal reactor, slow neutrons are more likely than fast ones to cause uranium-235 fission. The moderator changes neutron speed; control rods absorb neutrons."
+      }
+    },
+    {
+      "id": "specimen-10c",
+      "question": "10(c)",
+      "marks": 3,
+      "topic": "radioactivity",
+      "skill": "nuclear-energy-to-turbine",
+      "answer": "Fission heats coolant; the hot coolant transfers energy to water to make steam, which drives a turbine.",
+      "learning": "The nuclear reaction supplies thermal energy. A power station uses that energy to produce moving steam and turn a turbine before electrical generation.",
+      "questionPage": 26,
+      "markSchemePage": 14,
+      "card": {
+        "kind": "text",
+        "prompt": "Describe the energy-transfer path from a reactor core to a steam turbine in a nuclear power station.",
+        "marks": 3,
+        "rubric": [
+          {
+            "point": "The reactor heats a coolant",
+            "patterns": [
+              "(reactor|fission|core).*heat.*coolant",
+              "coolant.*(heat|hot)"
+            ]
+          },
+          {
+            "point": "Coolant transfers energy to make steam",
+            "patterns": [
+              "(coolant|heat).*steam",
+              "water.*(boil|steam)"
+            ]
+          },
+          {
+            "point": "Steam drives the turbine",
+            "patterns": [
+              "steam.*(drive|turn|spin).*turbine",
+              "turbine.*(driven|turned).*steam"
+            ]
+          }
+        ],
+        "modelAnswer": "Fission in the core heats a coolant. The hot coolant transfers energy to water, producing steam. The moving steam turns the turbine, which can drive an electrical generator.",
+        "hint": "Follow the thermal energy before it becomes rotational motion.",
+        "misconception": "The reactor does not send electrons directly into the turbine.",
+        "steps": [
+          "The reactor heats a coolant",
+          "Coolant transfers energy to make steam",
+          "Steam drives the turbine"
+        ],
+        "id": "specimen-10c",
+        "title": "Nuclear energy to turbine",
+        "explanation": "The nuclear reaction supplies thermal energy. A power station uses that energy to produce moving steam and turn a turbine before electrical generation."
+      }
+    }
+  ],
+  "notes": [
+    "All 28 question-paper and 14 mark-scheme pages were visually reviewed because these PDFs have no extractable text.",
+    "Apparent error in the supplied scheme at Q2(c)(i): it gives B, but physical reasoning and question options require D: a much more massive star has a shorter main-sequence lifetime and may end as a black hole. Cross-checked against NASA: https://science.nasa.gov/exoplanets/stars/ and https://starchild.gsfc.nasa.gov/docs/StarChild/questions/question41.html .",
+    "Source mark-scheme Q7(a) prints (speed A − speed B)/2; for uniform acceleration the mean of endpoint speeds uses a plus, not a minus. Practice teaches distance/time.",
+    "Source mark-scheme Q7(b)(iii) prints upper height 0.9 m; the question/data clearly require 0.09 m."
+  ]
+}

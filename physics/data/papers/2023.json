@@ -1,0 +1,1686 @@
+{
+  "paper": "2023",
+  "totalMarks": 100,
+  "reviewStatus": "question-and-mark-scheme-reviewed",
+  "notes": "All separately marked parts reconciled to 100. Relevant graph and nuclear-notation figures checked visually. Original extended-response practice uses learning criteria, not official holistic examiner level descriptors.",
+  "rows": [
+    {
+      "id": "2023-1a",
+      "question": "1(a)",
+      "marks": 2,
+      "topic": "waves",
+      "skill": "wave-frequency",
+      "answer": "f = 330/(11 × 10⁻³) = 30,000 Hz.",
+      "learning": "Convert millimetres to metres before finding frequency from speed and wavelength.",
+      "questionPage": 2,
+      "markSchemePage": 5,
+      "card": {
+        "title": "A tiny sound wavelength",
+        "kind": "number",
+        "prompt": "A sound wave travels at 340 m/s and has wavelength 8.5 mm. Calculate its frequency.",
+        "answer": 40000,
+        "unit": "Hz",
+        "tolerance": 200.0,
+        "marks": 2,
+        "modelAnswer": "λ = 8.5 × 10⁻³ m. f = v/λ = 340/0.0085 = 40,000 Hz.",
+        "explanation": "The wavelength must use metres when wave speed is in metres per second. A small wavelength at a fixed speed means a high frequency.",
+        "hint": "Milli means one thousandth.",
+        "steps": [
+          "Write the relevant equation.",
+          "Substitute the values using consistent units.",
+          "Calculate, round sensibly and give the unit."
+        ],
+        "misconception": "Dividing by 8.5 without converting millimetres gives a frequency a thousand times too small.",
+        "id": "2023-1a",
+        "variants": [
+          {
+            "prompt": "A sound wave has speed 330 m/s and wavelength 10 mm. Calculate its frequency.",
+            "answer": 33000,
+            "modelAnswer": "10 mm = 0.010 m. f = 330/0.010 = 33,000 Hz."
+          },
+          {
+            "prompt": "A sound wave moves at 340 m/s with wavelength 5.0 mm. Calculate its frequency.",
+            "answer": 68000,
+            "modelAnswer": "5.0 mm = 0.0050 m. f = 340/0.0050 = 68,000 Hz."
+          }
+        ]
+      }
+    },
+    {
+      "id": "2023-1b",
+      "question": "1(b)",
+      "marks": 4,
+      "topic": "waves",
+      "skill": "echo-distance",
+      "answer": "The round-trip distance is 330 × 0.018 = 5.94 m; the bat-prey distance is 2.97 m, about 3.0 m.",
+      "learning": "Combine milliseconds conversion with the two-way nature of an echo.",
+      "questionPage": 2,
+      "markSchemePage": 6,
+      "card": {
+        "title": "How far to the reflector?",
+        "kind": "number",
+        "prompt": "A sound pulse returns to a sensor after 24 ms. Sound speed is 350 m/s. How far is the reflecting surface from the sensor?",
+        "answer": 4.2,
+        "unit": "m",
+        "tolerance": 0.021,
+        "marks": 3,
+        "modelAnswer": "t = 0.024 s. Round-trip distance = 350 × 0.024 = 8.4 m, so one-way distance = 8.4/2 = 4.2 m.",
+        "explanation": "An echo returns to its starting point. The measured time includes both outward and return travel.",
+        "hint": "Convert the time to seconds, then halve the total path length.",
+        "steps": [
+          "Write the relevant equation.",
+          "Substitute the values using consistent units.",
+          "Calculate, round sensibly and give the unit."
+        ],
+        "misconception": "The pulse does not travel only one sensor-to-surface distance.",
+        "id": "2023-1b",
+        "variants": [
+          {
+            "prompt": "A sound sensor receives an echo after 30 ms. The sound speed is 320 m/s. How far away is the reflector?",
+            "answer": 4.8,
+            "modelAnswer": "t = 0.030 s. One-way distance = vt/2 = 320 × 0.030/2 = 4.8 m."
+          },
+          {
+            "prompt": "An echo arrives 16 ms after a pulse is sent. With sound speed 340 m/s, calculate the distance to the reflecting surface.",
+            "answer": 2.72,
+            "modelAnswer": "Distance = vt/2 = 340 × 0.016/2 = 2.72 m."
+          }
+        ]
+      }
+    },
+    {
+      "id": "2023-2a",
+      "question": "2(a)",
+      "marks": 1,
+      "topic": "skills",
+      "skill": "scalar-vector",
+      "answer": "Distance is a scalar; acceleration, force and weight are vectors.",
+      "learning": "Classify quantities by whether a direction is required.",
+      "questionPage": 4,
+      "markSchemePage": 7,
+      "card": {
+        "title": "Scalar or vector?",
+        "kind": "choice",
+        "prompt": "Which quantity needs magnitude but no direction?",
+        "options": [
+          "Momentum",
+          "Displacement",
+          "Energy",
+          "Acceleration"
+        ],
+        "correctIndex": 2,
+        "marks": 1,
+        "modelAnswer": "Energy is a scalar quantity.",
+        "explanation": "A scalar has magnitude only. A vector needs magnitude and direction to describe it completely.",
+        "hint": "Ask whether changing direction changes the quantity.",
+        "steps": [
+          "Read the physical situation.",
+          "Rule out alternatives using the stated physics.",
+          "Choose the statement that fits all the evidence."
+        ],
+        "misconception": "Distance and displacement are not interchangeable: displacement is a vector.",
+        "id": "2023-2a"
+      }
+    },
+    {
+      "id": "2023-2bi",
+      "question": "2(b)(i)",
+      "marks": 4,
+      "topic": "motion",
+      "skill": "falling-object-investigation",
+      "answer": "Measure a fixed fall distance and time for different stack sizes, calculate average speed, repeat and average, then compare or graph results.",
+      "learning": "Plan a controlled investigation with a changed independent variable and calculated dependent variable.",
+      "questionPage": 5,
+      "markSchemePage": 7,
+      "card": {
+        "title": "Investigate falling filters",
+        "kind": "text",
+        "prompt": "Describe how to investigate how the number of stacked paper filters affects their average falling speed.",
+        "marks": 4,
+        "rubric": [
+          {
+            "point": "Measure or keep fixed fall height",
+            "patterns": [
+              "(measur|same|fixed).*height",
+              "(measur|same|fixed).*distance"
+            ]
+          },
+          {
+            "point": "Measure fall time",
+            "patterns": [
+              "(measur|record|time).*fall.*time",
+              "(stopwatch|timer|stop.?clock)"
+            ]
+          },
+          {
+            "point": "Use speed = distance/time",
+            "patterns": [
+              "speed.*distance.*(time|divid)",
+              "distance.*divid.*time"
+            ]
+          },
+          {
+            "point": "Change stack size and repeat",
+            "patterns": [
+              "(different|chang|increas).*number.*(filter|stack)",
+              "repeat.*(mean|average)"
+            ]
+          }
+        ],
+        "modelAnswer": "Choose and measure a fixed drop height. Time each stack falling that distance and calculate average speed = distance/time. Repeat each stack size and average, then repeat with different numbers of filters and compare the speeds.",
+        "explanation": "Keeping the drop height fixed makes the calculated averages comparable; repeated trials reveal random variation.",
+        "hint": "What do you change, measure and keep constant?",
+        "steps": [
+          "Identify the physical idea.",
+          "Link each statement to a reason or observation.",
+          "Check that every part of the question is answered."
+        ],
+        "misconception": "Timing alone is not a speed measurement unless the distance is also known.",
+        "id": "2023-2bi"
+      }
+    },
+    {
+      "id": "2023-2bii",
+      "question": "2(b)(ii)",
+      "marks": 2,
+      "topic": "forces",
+      "skill": "weight-mass",
+      "answer": "W = mg = 0.005 × 10 = 0.05 N.",
+      "learning": "Convert mass to force using gravitational field strength.",
+      "questionPage": 5,
+      "markSchemePage": 8,
+      "card": {
+        "title": "Mass is not weight",
+        "kind": "number",
+        "prompt": "A stack of filters has mass 0.0080 kg. Find its weight where g = 10 N/kg.",
+        "answer": 0.08,
+        "unit": "N",
+        "tolerance": 0.0004,
+        "marks": 2,
+        "modelAnswer": "W = mg = 0.0080 × 10 = 0.080 N.",
+        "explanation": "Mass measures how much matter is present; weight is a gravitational force.",
+        "hint": "Use W = mg.",
+        "steps": [
+          "Write the relevant equation.",
+          "Substitute the values using consistent units.",
+          "Calculate, round sensibly and give the unit."
+        ],
+        "misconception": "The unit of weight is newtons, not kilograms.",
+        "id": "2023-2bii"
+      }
+    },
+    {
+      "id": "2023-2biii",
+      "question": "2(b)(iii)",
+      "marks": 1,
+      "topic": "forces",
+      "skill": "air-resistance-direction",
+      "answer": "The air-resistance force points vertically upwards, opposing the downward motion.",
+      "learning": "Show a drag force opposite to the relative motion through air.",
+      "questionPage": 6,
+      "markSchemePage": 8,
+      "card": {
+        "title": "Direction of air resistance",
+        "kind": "choice",
+        "prompt": "A paper filter falls vertically downwards through still air. In which direction does drag act?",
+        "options": [
+          "Downwards",
+          "Upwards",
+          "Horizontally left",
+          "There is never drag on paper"
+        ],
+        "correctIndex": 1,
+        "marks": 1,
+        "modelAnswer": "Air resistance acts upwards, opposite the filter’s downward motion.",
+        "explanation": "Drag opposes motion relative to the air. The object can move downwards while experiencing an upward force.",
+        "hint": "Compare the motion with the resisting force.",
+        "steps": [
+          "Read the physical situation.",
+          "Rule out alternatives using the stated physics.",
+          "Choose the statement that fits all the evidence."
+        ],
+        "misconception": "The direction of a force is not necessarily the direction of motion.",
+        "id": "2023-2biii"
+      }
+    },
+    {
+      "id": "2023-2biv",
+      "question": "2(b)(iv)",
+      "marks": 1,
+      "topic": "motion",
+      "skill": "constant-velocity-acceleration",
+      "answer": "Acceleration is zero when velocity is constant.",
+      "learning": "Distinguish motion from a change in motion.",
+      "questionPage": 6,
+      "markSchemePage": 8,
+      "card": {
+        "title": "Moving without accelerating",
+        "kind": "number",
+        "prompt": "A falling object maintains a constant downward velocity of 4.0 m/s. What is its acceleration?",
+        "answer": 0,
+        "unit": "m/s²",
+        "tolerance": 1e-09,
+        "marks": 1,
+        "modelAnswer": "a = Δv/Δt = 0 because the velocity is not changing.",
+        "explanation": "Acceleration describes velocity change. An object can move quickly and still have zero acceleration.",
+        "hint": "Does the velocity change?",
+        "steps": [
+          "Write the relevant equation.",
+          "Substitute the values using consistent units.",
+          "Calculate, round sensibly and give the unit."
+        ],
+        "misconception": "Zero acceleration does not mean zero velocity.",
+        "id": "2023-2biv"
+      }
+    },
+    {
+      "id": "2023-3ai",
+      "question": "3(a)(i)",
+      "marks": 3,
+      "topic": "energy",
+      "skill": "gravitational-potential-height",
+      "answer": "Δh = 11/(0.42 × 10) = 2.62 m, approximately 2.6 m.",
+      "learning": "Rearrange ΔE = mgΔh to find vertical height gain.",
+      "questionPage": 7,
+      "markSchemePage": 9,
+      "card": {
+        "title": "Height from stored energy",
+        "kind": "number",
+        "prompt": "A 0.50 kg ball gains 15 J of gravitational potential energy. With g = 10 N/kg, how far vertically does it rise?",
+        "answer": 3,
+        "unit": "m",
+        "tolerance": 0.015,
+        "marks": 3,
+        "modelAnswer": "Δh = ΔE/(mg) = 15/(0.50 × 10) = 3.0 m.",
+        "explanation": "Only vertical height changes gravitational potential energy in a uniform field; the full curved path length is irrelevant.",
+        "hint": "Put mg together in the denominator.",
+        "steps": [
+          "Write the relevant equation.",
+          "Substitute the values using consistent units.",
+          "Calculate, round sensibly and give the unit."
+        ],
+        "misconception": "Do not use horizontal distance in the height term.",
+        "id": "2023-3ai",
+        "variants": [
+          {
+            "prompt": "A 0.80 kg ball gains 20 J of gravitational potential energy. Use g = 10 N/kg. Calculate its vertical rise.",
+            "answer": 2.5,
+            "modelAnswer": "h = ΔE/(mg) = 20/(0.80 × 10) = 2.5 m."
+          },
+          {
+            "prompt": "A 0.30 kg object gains 12 J of gravitational potential energy. With g = 10 N/kg, find its increase in height.",
+            "answer": 4,
+            "modelAnswer": "h = 12/(0.30 × 10) = 4.0 m."
+          }
+        ]
+      }
+    },
+    {
+      "id": "2023-3aii",
+      "question": "3(a)(ii)",
+      "marks": 2,
+      "topic": "energy",
+      "skill": "kinetic-energy",
+      "answer": "Eₖ = ½ × 0.42 × 12² = 30.24 J, about 30 J.",
+      "learning": "Use the squared speed in a kinetic-energy calculation.",
+      "questionPage": 7,
+      "markSchemePage": 10,
+      "card": {
+        "title": "Energy of a moving ball",
+        "kind": "number",
+        "prompt": "A 0.60 kg ball moves at 10 m/s. Calculate its kinetic energy.",
+        "answer": 30,
+        "unit": "J",
+        "tolerance": 0.15,
+        "marks": 2,
+        "modelAnswer": "Eₖ = ½mv² = 0.5 × 0.60 × 10² = 30 J.",
+        "explanation": "Speed is squared, making high-speed impacts much more energetic.",
+        "hint": "Square 10 before multiplying.",
+        "steps": [
+          "Write the relevant equation.",
+          "Substitute the values using consistent units.",
+          "Calculate, round sensibly and give the unit."
+        ],
+        "misconception": "Doubling speed quadruples kinetic energy; it does not merely double it.",
+        "id": "2023-3aii"
+      }
+    },
+    {
+      "id": "2023-3aiii",
+      "question": "3(a)(iii)",
+      "marks": 2,
+      "topic": "energy",
+      "skill": "collision-energy-transfers",
+      "answer": "The ball’s kinetic store decreases; energy is stored elastically during deformation and transferred to thermal stores and sound.",
+      "learning": "Trace energy through deformation and dissipation in a collision.",
+      "questionPage": 8,
+      "markSchemePage": 10,
+      "card": {
+        "title": "A ball meets a wall",
+        "kind": "text",
+        "prompt": "Describe energy transfers when a rubber ball hits a wall and deforms.",
+        "marks": 2,
+        "rubric": [
+          {
+            "point": "Kinetic store decreases",
+            "patterns": [
+              "kinetic.*(decreas|transfer|lost|reduc)",
+              "(decreas|transfer).*kinetic"
+            ]
+          },
+          {
+            "point": "Elastic or thermal store increases",
+            "patterns": [
+              "elastic.*(store|energy)",
+              "thermal.*(store|energy)",
+              "(sound|heat).*energy"
+            ]
+          }
+        ],
+        "modelAnswer": "The ball’s kinetic energy decreases as it deforms, increasing its elastic potential store. Some energy is transferred to thermal stores of the ball and wall and to the surroundings by sound.",
+        "explanation": "Deformation can temporarily store energy elastically. Not all of it returns to the ball’s kinetic store in a real bounce.",
+        "hint": "Follow the moving ball into its deformed state.",
+        "steps": [
+          "Identify the physical idea.",
+          "Link each statement to a reason or observation.",
+          "Check that every part of the question is answered."
+        ],
+        "misconception": "Energy is transferred, not destroyed during the collision.",
+        "id": "2023-3aiii"
+      }
+    },
+    {
+      "id": "2023-3b",
+      "question": "3(b)",
+      "marks": 2,
+      "topic": "motion",
+      "skill": "free-fall-distance",
+      "answer": "With u = 0 and g = 10 m/s², x = 17²/(2 × 10) = 14.45 m.",
+      "learning": "Use a kinematics equation to relate fall speed to distance.",
+      "questionPage": 8,
+      "markSchemePage": 11,
+      "card": {
+        "title": "Distance fallen from speed",
+        "kind": "number",
+        "prompt": "A stone dropped from rest reaches 20 m/s. Neglect air resistance and use g = 10 m/s². How far has it fallen?",
+        "answer": 20,
+        "unit": "m",
+        "tolerance": 0.1,
+        "marks": 2,
+        "modelAnswer": "v² − u² = 2gx, so x = 20²/(2 × 10) = 20 m.",
+        "explanation": "Free-fall acceleration links distance and speed even when time is not given.",
+        "hint": "Use v² = 2gx.",
+        "steps": [
+          "Write the relevant equation.",
+          "Substitute the values using consistent units.",
+          "Calculate, round sensibly and give the unit."
+        ],
+        "misconception": "Do not divide speed by acceleration and call the result a distance; that gives time.",
+        "id": "2023-3b"
+      }
+    },
+    {
+      "id": "2023-4ai",
+      "question": "4(a)(i)",
+      "marks": 1,
+      "topic": "waves",
+      "skill": "wavelength-shift",
+      "answer": "The wavelength difference is 1.98 − 1.86 = 0.12 m.",
+      "learning": "Calculate a change from observed and emitted wavelengths.",
+      "questionPage": 9,
+      "markSchemePage": 11,
+      "card": {
+        "title": "Measure the wavelength shift",
+        "kind": "number",
+        "prompt": "A moving sound source emits a wavelength of 1.60 m. A stationary detector measures 1.72 m. Find the increase in wavelength.",
+        "answer": 0.12,
+        "unit": "m",
+        "tolerance": 0.0006,
+        "marks": 1,
+        "modelAnswer": "Δλ = 1.72 − 1.60 = 0.12 m.",
+        "explanation": "A wavelength change compares the same wave’s emitted and detected values.",
+        "hint": "Observed minus original gives the increase.",
+        "steps": [
+          "Write the relevant equation.",
+          "Substitute the values using consistent units.",
+          "Calculate, round sensibly and give the unit."
+        ],
+        "misconception": "A shift is a difference, not the full observed wavelength.",
+        "id": "2023-4ai"
+      }
+    },
+    {
+      "id": "2023-4aii",
+      "question": "4(a)(ii)",
+      "marks": 2,
+      "topic": "waves",
+      "skill": "doppler-speed",
+      "answer": "Source speed = 330 × 0.12/1.86 = 21.3 m/s, away from the detector.",
+      "learning": "Use a fractional wavelength change to estimate source motion.",
+      "questionPage": 9,
+      "markSchemePage": 11,
+      "card": {
+        "title": "Doppler speed estimate",
+        "kind": "number",
+        "prompt": "A sound source emits wavelength 2.0 m and is detected at 2.2 m. Using source speed = sound speed × wavelength change/emitted wavelength and sound speed 340 m/s, calculate the source speed.",
+        "answer": 34,
+        "unit": "m/s",
+        "tolerance": 0.17,
+        "marks": 2,
+        "modelAnswer": "Δλ = 0.20 m. Source speed = 340 × 0.20/2.0 = 34 m/s.",
+        "explanation": "A receding source spreads successive wavefronts farther apart, increasing detected wavelength.",
+        "hint": "Use the original emitted wavelength in the denominator.",
+        "steps": [
+          "Write the relevant equation.",
+          "Substitute the values using consistent units.",
+          "Calculate, round sensibly and give the unit."
+        ],
+        "misconception": "Do not substitute the detected wavelength as the wavelength change.",
+        "id": "2023-4aii"
+      }
+    },
+    {
+      "id": "2023-4b",
+      "question": "4(b)",
+      "marks": 2,
+      "topic": "astronomy",
+      "skill": "cosmological-redshift",
+      "answer": "Longer detected wavelengths from distant galaxies indicate recession; the general redshift pattern supports an expanding Universe.",
+      "learning": "Connect spectral shifts to galaxy recession and cosmological expansion.",
+      "questionPage": 10,
+      "markSchemePage": 12,
+      "card": {
+        "title": "Light stretched by expansion",
+        "kind": "text",
+        "prompt": "Why do increased observed wavelengths from distant galaxies support an expanding Universe?",
+        "marks": 2,
+        "rubric": [
+          {
+            "point": "Observed wavelengths are longer / redshifted",
+            "patterns": [
+              "wavelength.*(longer|increas|stretch)",
+              "(longer|increas|stretch).*wavelength",
+              "red.?shift"
+            ]
+          },
+          {
+            "point": "Galaxies recede / universe expands",
+            "patterns": [
+              "galax.*(away|reced)",
+              "universe.*expand"
+            ]
+          }
+        ],
+        "modelAnswer": "The spectral wavelengths are increased, or redshifted, compared with laboratory values. This shows distant galaxies are generally receding and supports expansion of the Universe.",
+        "explanation": "Patterns in many galaxies establish a cosmological trend; peculiar motions of individual nearby galaxies do not overturn that trend.",
+        "hint": "What does a longer wavelength tell you about recession?",
+        "steps": [
+          "Identify the physical idea.",
+          "Link each statement to a reason or observation.",
+          "Check that every part of the question is answered."
+        ],
+        "misconception": "Redshift is not simply that a galaxy contains red-coloured stars.",
+        "id": "2023-4b"
+      }
+    },
+    {
+      "id": "2023-4c",
+      "question": "4(c)",
+      "marks": 2,
+      "topic": "astronomy",
+      "skill": "cmb-wavelength",
+      "answer": "A typical microwave wavelength from the supplied table is 1.0 mm, or 1.0 × 10⁻³ m.",
+      "learning": "Identify the spectral region of CMB and express an appropriate wavelength with units.",
+      "questionPage": 10,
+      "markSchemePage": 12,
+      "card": {
+        "title": "A microwave in metres",
+        "kind": "number",
+        "prompt": "A microwave has a wavelength of 2.0 mm. Express this in metres.",
+        "answer": 0.002,
+        "unit": "m",
+        "tolerance": 1e-05,
+        "marks": 2,
+        "modelAnswer": "2.0 mm = 2.0 × 10⁻³ m = 0.0020 m.",
+        "explanation": "Microwaves occupy wavelengths much longer than visible light but generally shorter than familiar radio broadcast wavelengths.",
+        "hint": "Milli means 10⁻³.",
+        "steps": [
+          "Write the relevant equation.",
+          "Substitute the values using consistent units.",
+          "Calculate, round sensibly and give the unit."
+        ],
+        "misconception": "Millimetres are not micrometres.",
+        "id": "2023-4c"
+      }
+    },
+    {
+      "id": "2023-4di",
+      "question": "4(d)(i)",
+      "marks": 1,
+      "topic": "astronomy",
+      "skill": "protostar-collapse",
+      "answer": "Gravitational attraction pulls the nebula’s gas and dust together.",
+      "learning": "Identify gravity as the cause of star-forming cloud collapse.",
+      "questionPage": 10,
+      "markSchemePage": 12,
+      "card": {
+        "title": "What starts a star?",
+        "kind": "choice",
+        "prompt": "What force draws a cloud of gas and dust together during star formation?",
+        "options": [
+          "Electrostatic repulsion alone",
+          "Gravity",
+          "Friction with space",
+          "Magnetic attraction between all neutral atoms"
+        ],
+        "correctIndex": 1,
+        "marks": 1,
+        "modelAnswer": "Gravity causes the cloud to contract.",
+        "explanation": "Each part of the cloud attracts the rest. Contraction raises density and temperature as gravitational energy is transferred.",
+        "hint": "Think of an attractive force acting on mass.",
+        "steps": [
+          "Read the physical situation.",
+          "Rule out alternatives using the stated physics.",
+          "Choose the statement that fits all the evidence."
+        ],
+        "misconception": "Fusion starts later; it is not the initial cause of the cloud’s collapse.",
+        "id": "2023-4di"
+      }
+    },
+    {
+      "id": "2023-4dii",
+      "question": "4(d)(ii)",
+      "marks": 3,
+      "topic": "astronomy",
+      "skill": "main-sequence-equilibrium",
+      "answer": "Collapse heats the gas until fusion begins; outward pressure then balances inward gravity in a main-sequence star.",
+      "learning": "Explain the sequence from gravitational contraction to stable stellar equilibrium.",
+      "questionPage": 11,
+      "markSchemePage": 12,
+      "card": {
+        "title": "How a star becomes stable",
+        "kind": "text",
+        "prompt": "Explain why a forming star eventually stops contracting when it reaches the main sequence.",
+        "marks": 3,
+        "rubric": [
+          {
+            "point": "Contraction raises temperature",
+            "patterns": [
+              "(contract|collaps|gravity).*(temperature|heat)",
+              "temperature.*(rise|increas)"
+            ]
+          },
+          {
+            "point": "Hydrogen fusion starts",
+            "patterns": [
+              "(fusion|fuse).*",
+              "hydrogen.*helium"
+            ]
+          },
+          {
+            "point": "Outward pressure balances inward gravity",
+            "patterns": [
+              "(pressure|outward).*(balance|equal|counter).*gravit",
+              "gravit.*(balance|equal|counter).*(pressure|outward)"
+            ]
+          }
+        ],
+        "modelAnswer": "Contraction raises the core temperature and pressure until hydrogen fusion begins. Energy from fusion maintains outward pressure. In a stable main-sequence star, outward pressure balances inward gravity, so the star maintains a steady size.",
+        "explanation": "A stable star still transfers energy and undergoes fusion; stability means the forces are balanced.",
+        "hint": "Link heating, fusion and a force balance.",
+        "steps": [
+          "Identify the physical idea.",
+          "Link each statement to a reason or observation.",
+          "Check that every part of the question is answered."
+        ],
+        "misconception": "Fusion is not a force by itself: its energy helps maintain the pressure that opposes gravity.",
+        "id": "2023-4dii"
+      }
+    },
+    {
+      "id": "2023-5a",
+      "question": "5(a)",
+      "marks": 1,
+      "topic": "motion",
+      "skill": "rest-on-velocity-graph",
+      "answer": "The lift is at rest from 6 s to 9 s, a duration of 3.0 s.",
+      "learning": "Find rest intervals where velocity is zero, then subtract their boundary times.",
+      "questionPage": 12,
+      "markSchemePage": 13,
+      "card": {
+        "title": "Time spent at rest",
+        "kind": "number",
+        "prompt": "A velocity-time graph lies on v = 0 between t = 7 s and t = 11 s. How long is the object at rest?",
+        "answer": 4,
+        "unit": "s",
+        "tolerance": 0.02,
+        "marks": 1,
+        "modelAnswer": "Rest duration = 11 − 7 = 4 s.",
+        "explanation": "Rest means zero velocity, not zero acceleration while moving.",
+        "hint": "Read the start and end of the zero-velocity section.",
+        "steps": [
+          "Write the relevant equation.",
+          "Substitute the values using consistent units.",
+          "Calculate, round sensibly and give the unit."
+        ],
+        "misconception": "A horizontal nonzero velocity line shows steady motion, not rest.",
+        "id": "2023-5a"
+      }
+    },
+    {
+      "id": "2023-5b",
+      "question": "5(b)",
+      "marks": 1,
+      "topic": "motion",
+      "skill": "maximum-velocity-graph",
+      "answer": "The maximum velocity is approximately 4.6 m/s.",
+      "learning": "Read the greatest vertical value on a velocity-time graph.",
+      "questionPage": 12,
+      "markSchemePage": 13,
+      "card": {
+        "title": "Read the highest velocity",
+        "kind": "choice",
+        "prompt": "A lift’s velocity record reaches 3.2 m/s on its first journey and 4.8 m/s on its second. What is its maximum upward velocity?",
+        "options": [
+          "1.6 m/s",
+          "3.2 m/s",
+          "4.0 m/s",
+          "4.8 m/s"
+        ],
+        "correctIndex": 3,
+        "marks": 1,
+        "modelAnswer": "The highest recorded upward velocity is 4.8 m/s.",
+        "explanation": "The graph’s height is velocity. The steepest gradient instead gives the greatest acceleration.",
+        "hint": "Look for the greatest vertical value.",
+        "steps": [
+          "Read the physical situation.",
+          "Rule out alternatives using the stated physics.",
+          "Choose the statement that fits all the evidence."
+        ],
+        "misconception": "Maximum velocity is not the same as maximum gradient.",
+        "id": "2023-5b"
+      }
+    },
+    {
+      "id": "2023-5c",
+      "question": "5(c)",
+      "marks": 3,
+      "topic": "motion",
+      "skill": "acceleration-from-graph",
+      "answer": "Initial acceleration = 4/1.4 = 2.86 m/s², approximately 2.9 m/s².",
+      "learning": "Use a straight velocity-time segment’s gradient.",
+      "questionPage": 12,
+      "markSchemePage": 13,
+      "card": {
+        "title": "A lift starts moving",
+        "kind": "number",
+        "prompt": "A lift accelerates uniformly from rest to 3.6 m/s in 1.2 s. Calculate the acceleration.",
+        "answer": 3,
+        "unit": "m/s²",
+        "tolerance": 0.015,
+        "marks": 3,
+        "modelAnswer": "a = Δv/Δt = (3.6 − 0)/1.2 = 3.0 m/s².",
+        "explanation": "The slope of the velocity-time line tells you how quickly velocity changes.",
+        "hint": "Find rise divided by run.",
+        "steps": [
+          "Write the relevant equation.",
+          "Substitute the values using consistent units.",
+          "Calculate, round sensibly and give the unit."
+        ],
+        "misconception": "The area under the line gives displacement, not acceleration.",
+        "id": "2023-5c"
+      }
+    },
+    {
+      "id": "2023-5d",
+      "question": "5(d)",
+      "marks": 3,
+      "topic": "motion",
+      "skill": "piecewise-velocity-area",
+      "answer": "The first six seconds give ½(1.4 × 4) + (3.6 × 4) + ½(1 × 4) = 19.2 m, about 19 m.",
+      "learning": "Add geometric areas under acceleration, steady-speed and deceleration sections.",
+      "questionPage": 13,
+      "markSchemePage": 14,
+      "card": {
+        "title": "Three parts of a journey",
+        "kind": "number",
+        "prompt": "A trolley accelerates from rest to 4 m/s in 2 s, travels at 4 m/s for 5 s, then slows uniformly to rest in 3 s. Find the total distance.",
+        "answer": 30,
+        "unit": "m",
+        "tolerance": 0.15,
+        "marks": 3,
+        "modelAnswer": "Distance = ½ × 2 × 4 + 5 × 4 + ½ × 3 × 4 = 4 + 20 + 6 = 30 m.",
+        "explanation": "Each section contributes an area under the velocity-time graph. Add the two triangles and the rectangle.",
+        "hint": "Split the graph into simple shapes.",
+        "steps": [
+          "Write the relevant equation.",
+          "Substitute the values using consistent units.",
+          "Calculate, round sensibly and give the unit."
+        ],
+        "misconception": "Multiplying peak speed by the whole time overestimates the distance.",
+        "id": "2023-5d"
+      }
+    },
+    {
+      "id": "2023-5e",
+      "question": "5(e)",
+      "marks": 1,
+      "topic": "motion",
+      "skill": "negative-velocity",
+      "answer": "After 18 s the downward journey must be represented below the time axis if upward is positive.",
+      "learning": "Represent direction using the sign of velocity.",
+      "questionPage": 13,
+      "markSchemePage": 14,
+      "card": {
+        "title": "Downwards on a graph",
+        "kind": "choice",
+        "prompt": "Upward motion is defined as positive. Where should a lift’s downward velocity appear?",
+        "options": [
+          "Above the time axis",
+          "Below the time axis",
+          "Always on the time axis",
+          "On the acceleration axis only"
+        ],
+        "correctIndex": 1,
+        "marks": 1,
+        "modelAnswer": "Below the time axis, because the velocity is negative.",
+        "explanation": "The sign of velocity tells you direction relative to a chosen positive direction.",
+        "hint": "Keep the chosen positive direction fixed.",
+        "steps": [
+          "Read the physical situation.",
+          "Rule out alternatives using the stated physics.",
+          "Choose the statement that fits all the evidence."
+        ],
+        "misconception": "Negative velocity does not by itself mean slowing down.",
+        "id": "2023-5e"
+      }
+    },
+    {
+      "id": "2023-6ai",
+      "question": "6(a)(i)",
+      "marks": 3,
+      "topic": "waves",
+      "skill": "percentage-timing-error",
+      "answer": "Sound travel time = 120/330 = 0.364 s; 0.23/0.364 × 100 ≈ 63%.",
+      "learning": "Compare an absolute timing uncertainty with the time being measured.",
+      "questionPage": 15,
+      "markSchemePage": 15,
+      "card": {
+        "title": "Reaction time as a percentage",
+        "kind": "number",
+        "prompt": "Sound travels 170 m at 340 m/s. A technician’s reaction delay is 0.20 s. Express the delay as a percentage of the sound travel time.",
+        "answer": 40,
+        "unit": "%",
+        "tolerance": 0.2,
+        "marks": 3,
+        "modelAnswer": "Travel time = 170/340 = 0.50 s. Percentage = 0.20/0.50 × 100 = 40%.",
+        "explanation": "An absolute delay becomes a larger percentage error when the measured event is shorter.",
+        "hint": "Calculate the sound travel time first.",
+        "steps": [
+          "Write the relevant equation.",
+          "Substitute the values using consistent units.",
+          "Calculate, round sensibly and give the unit."
+        ],
+        "misconception": "Do not divide a time by a distance when calculating percentage timing error.",
+        "id": "2023-6ai"
+      }
+    },
+    {
+      "id": "2023-6aii",
+      "question": "6(a)(ii)",
+      "marks": 1,
+      "topic": "waves",
+      "skill": "reduce-relative-timing-error",
+      "answer": "Increasing the separation makes sound travel for longer, reducing reaction time as a fraction of the measurement.",
+      "learning": "Improve relative precision by increasing a measured interval.",
+      "questionPage": 15,
+      "markSchemePage": 15,
+      "card": {
+        "title": "Make timing less sensitive",
+        "kind": "choice",
+        "prompt": "How can two people measuring sound speed with a stopwatch reduce the percentage effect of reaction delay?",
+        "options": [
+          "Stand farther apart",
+          "Stand closer together",
+          "Use a louder bang without changing distance",
+          "Round every result to one second"
+        ],
+        "correctIndex": 0,
+        "marks": 1,
+        "modelAnswer": "Increase the separation so the sound travel time is longer.",
+        "explanation": "The same approximate reaction delay is a smaller share of a longer measured time.",
+        "hint": "Increase the signal travel time.",
+        "steps": [
+          "Read the physical situation.",
+          "Rule out alternatives using the stated physics.",
+          "Choose the statement that fits all the evidence."
+        ],
+        "misconception": "A louder sound does not remove the human reaction delay.",
+        "id": "2023-6aii"
+      }
+    },
+    {
+      "id": "2023-6b",
+      "question": "6(b)",
+      "marks": 3,
+      "topic": "waves",
+      "skill": "refraction-sound-light",
+      "answer": "Refraction comes from speed change: sound speeds up entering water while light slows down, causing opposite bending relative to the normal.",
+      "learning": "Explain different refraction directions using the wave speeds in each material.",
+      "questionPage": 16,
+      "markSchemePage": 16,
+      "card": {
+        "title": "Sound and light enter water",
+        "kind": "text",
+        "prompt": "Explain why sound and light can bend in opposite directions when entering water from air.",
+        "marks": 3,
+        "rubric": [
+          {
+            "point": "Refraction depends on speed change",
+            "patterns": [
+              "refract.*(speed|velocity).*chang",
+              "(speed|velocity).*chang.*refract"
+            ]
+          },
+          {
+            "point": "Sound faster in water",
+            "patterns": [
+              "sound.*(faster|speed.*up|increas).*water",
+              "water.*sound.*faster"
+            ]
+          },
+          {
+            "point": "Light slower in water",
+            "patterns": [
+              "light.*(slower|slow.*down|decreas).*water",
+              "water.*light.*slower",
+              "light.*more slowly.*water"
+            ]
+          }
+        ],
+        "modelAnswer": "Refraction occurs because wave speed changes at a boundary. Sound travels faster in water than in air and bends away from the normal; light travels more slowly in water and bends towards the normal.",
+        "explanation": "The direction of bending depends on whether that particular wave speeds up or slows down. Optical density does not describe sound in the same way.",
+        "hint": "Consider each wave’s speed change separately.",
+        "steps": [
+          "Identify the physical idea.",
+          "Link each statement to a reason or observation.",
+          "Check that every part of the question is answered."
+        ],
+        "misconception": "All waves do not slow down when entering water.",
+        "id": "2023-6b"
+      }
+    },
+    {
+      "id": "2023-6c",
+      "question": "6(c)",
+      "marks": 4,
+      "topic": "electromagnetic",
+      "skill": "em-energy-transfer-applications",
+      "answer": "Examples include microwaves heating food and ultraviolet damaging cells or causing fluorescence, with each effect linked to energy transfer.",
+      "learning": "Give named wave types and specific consequences of their energy transfer.",
+      "questionPage": 17,
+      "markSchemePage": 17,
+      "card": {
+        "title": "Two ways waves transfer energy",
+        "kind": "text",
+        "prompt": "Describe how microwaves in cooking and ultraviolet in sunlight transfer energy to matter.",
+        "marks": 4,
+        "rubric": [
+          {
+            "point": "Microwaves transfer energy to food",
+            "patterns": [
+              "microwave.*(food|cook|water)"
+            ]
+          },
+          {
+            "point": "Food gains internal energy / warms",
+            "patterns": [
+              "(food|water|molecule).*(heat|warm|internal energy|vibrat|kinetic)",
+              "(heat|warm).*food"
+            ]
+          },
+          {
+            "point": "Ultraviolet transfers energy to cells",
+            "patterns": [
+              "ultraviolet.*(skin|cell|tissue)",
+              "uv.*(skin|cell|tissue)"
+            ]
+          },
+          {
+            "point": "Can damage cells / DNA / sunburn",
+            "patterns": [
+              "(damag|harm|sunburn|mutation|cancer).*(cell|skin|dna)?",
+              "(cell|dna).*damag"
+            ]
+          }
+        ],
+        "modelAnswer": "Microwaves transfer energy to molecules in food, increasing its internal energy and temperature. Ultraviolet transfers energy to skin cells and can damage DNA, causing sunburn and increasing cancer risk.",
+        "explanation": "Waves transport energy. The result depends on wave frequency and how the material absorbs it.",
+        "hint": "Name the wave, the absorber and the resulting change for each example.",
+        "steps": [
+          "Identify the physical idea.",
+          "Link each statement to a reason or observation.",
+          "Check that every part of the question is answered."
+        ],
+        "misconception": "Microwaves do not cook food by making it radioactive.",
+        "id": "2023-6c"
+      }
+    },
+    {
+      "id": "2023-7ai",
+      "question": "7(a)(i)",
+      "marks": 1,
+      "topic": "radioactivity",
+      "skill": "isotope-symbol",
+      "answer": "Americium-245 with atomic number 95 is another isotope: the proton number remains 95 while mass number changes.",
+      "learning": "Read nuclear notation and identify isotopes by equal atomic number.",
+      "questionPage": 18,
+      "markSchemePage": 18,
+      "card": {
+        "title": "Read an isotope label",
+        "kind": "choice",
+        "prompt": "An atom is written with mass number 40 and proton number 18. Which is an isotope of the same element?",
+        "options": [
+          "Mass 42, proton 18",
+          "Mass 40, proton 19",
+          "Mass 38, proton 17",
+          "Mass 42, proton 20"
+        ],
+        "correctIndex": 0,
+        "marks": 1,
+        "modelAnswer": "The atom with proton number 18 and mass number 42 is the same element but a different isotope.",
+        "explanation": "The lower nuclear number fixes element identity; the upper number includes neutrons as well.",
+        "hint": "Hold proton number fixed.",
+        "steps": [
+          "Read the physical situation.",
+          "Rule out alternatives using the stated physics.",
+          "Choose the statement that fits all the evidence."
+        ],
+        "misconception": "The mass number alone does not identify an element.",
+        "id": "2023-7ai"
+      }
+    },
+    {
+      "id": "2023-7aii",
+      "question": "7(a)(ii)",
+      "marks": 1,
+      "topic": "radioactivity",
+      "skill": "alpha-range",
+      "answer": "Alpha particles have a range of only a few centimetres in ordinary air; 5 cm is the suitable approximate option.",
+      "learning": "Relate strong ionisation to the short range of alpha particles.",
+      "questionPage": 18,
+      "markSchemePage": 18,
+      "card": {
+        "title": "Alpha in air",
+        "kind": "choice",
+        "prompt": "Which is a sensible order-of-magnitude range for alpha particles in air?",
+        "options": [
+          "A few centimetres",
+          "Several kilometres",
+          "The Earth–Moon distance",
+          "Exactly zero in every case"
+        ],
+        "correctIndex": 0,
+        "marks": 1,
+        "modelAnswer": "Typically a few centimetres, depending on particle energy and air conditions.",
+        "explanation": "Alpha particles lose energy rapidly through strong ionisation, giving them a short range.",
+        "hint": "Think of the least penetrating common nuclear radiation.",
+        "steps": [
+          "Read the physical situation.",
+          "Rule out alternatives using the stated physics.",
+          "Choose the statement that fits all the evidence."
+        ],
+        "misconception": "A short range does not imply a low internal biological hazard.",
+        "id": "2023-7aii"
+      }
+    },
+    {
+      "id": "2023-7aiii",
+      "question": "7(a)(iii)",
+      "marks": 3,
+      "topic": "radioactivity",
+      "skill": "alpha-decay-equation",
+      "answer": "Alpha has mass number 4 and charge number 2; the daughter is neptunium-237 with proton number 93.",
+      "learning": "Balance nucleon and charge numbers in a nuclear equation.",
+      "questionPage": 18,
+      "markSchemePage": 18,
+      "card": {
+        "title": "Balance an alpha decay",
+        "kind": "text",
+        "prompt": "A nucleus with mass number 226 and proton number 88 emits an alpha particle. State the alpha particle’s numbers and the daughter nucleus’s numbers.",
+        "marks": 3,
+        "rubric": [
+          {
+            "point": "Alpha mass 4 and proton 2",
+            "patterns": [
+              "alpha.*4.*2",
+              "(4.*2).*alpha",
+              "two protons.*two neutrons"
+            ]
+          },
+          {
+            "point": "Daughter mass 222",
+            "patterns": [
+              "(daughter|mass).*222",
+              "222.*(daughter|mass)"
+            ]
+          },
+          {
+            "point": "Daughter proton number 86",
+            "patterns": [
+              "(daughter|proton|atomic).*86",
+              "86.*(daughter|proton|atomic)"
+            ]
+          }
+        ],
+        "modelAnswer": "The alpha particle has mass number 4 and proton number 2. The daughter has mass number 222 and proton number 86, since 226 = 222 + 4 and 88 = 86 + 2.",
+        "explanation": "Nucleon number and charge number are conserved across the equation.",
+        "hint": "Subtract the alpha particle’s numbers from the parent’s numbers.",
+        "steps": [
+          "Identify the physical idea.",
+          "Link each statement to a reason or observation.",
+          "Check that every part of the question is answered."
+        ],
+        "misconception": "Subtracting 4 from both nuclear numbers is wrong.",
+        "id": "2023-7aiii"
+      }
+    },
+    {
+      "id": "2023-7b",
+      "question": "7(b)",
+      "marks": 3,
+      "topic": "radioactivity",
+      "skill": "half-life-plot",
+      "answer": "Starting at 128 Bq, valid later points are (17 s, 64 Bq), (34 s, 32 Bq), (51 s, 16 Bq) and (68 s, 8 Bq); three were required.",
+      "learning": "Construct exponential decay points by stepping one half-life and halving activity.",
+      "questionPage": 19,
+      "markSchemePage": 19,
+      "card": {
+        "title": "Plotting decay by halving",
+        "kind": "number",
+        "prompt": "A source initially has activity 160 Bq and a half-life of 8 s. What activity should be plotted at t = 24 s?",
+        "answer": 20,
+        "unit": "Bq",
+        "tolerance": 0.1,
+        "marks": 2,
+        "modelAnswer": "24/8 = 3 half-lives. Activity = 160 → 80 → 40 → 20 Bq.",
+        "explanation": "Each equal half-life interval removes the same fraction, not the same number of becquerels.",
+        "hint": "Use three successive halvings.",
+        "steps": [
+          "Write the relevant equation.",
+          "Substitute the values using consistent units.",
+          "Calculate, round sensibly and give the unit."
+        ],
+        "misconception": "Radioactive decay is not a straight-line decrease.",
+        "id": "2023-7b"
+      }
+    },
+    {
+      "id": "2023-7c",
+      "question": "7(c)",
+      "marks": 2,
+      "topic": "radioactivity",
+      "skill": "positron-emission",
+      "answer": "In beta-plus emission, a proton in the nucleus converts into a neutron and a positron is emitted.",
+      "learning": "Distinguish beta-plus conversion from beta-minus conversion.",
+      "questionPage": 19,
+      "markSchemePage": 20,
+      "card": {
+        "title": "Inside positron emission",
+        "kind": "text",
+        "prompt": "Describe the nucleon change during beta-plus decay.",
+        "marks": 2,
+        "rubric": [
+          {
+            "point": "A proton changes",
+            "patterns": [
+              "proton.*(chang|convert|becom|turn)",
+              "p\\s*(->|→).*n"
+            ]
+          },
+          {
+            "point": "Into a neutron",
+            "patterns": [
+              "(becom|into|to|convert).*neutron",
+              "proton.*neutron",
+              "p\\s*(->|→).*n"
+            ]
+          }
+        ],
+        "modelAnswer": "A proton converts into a neutron while a positron is emitted. The atomic number falls by one and the mass number stays unchanged.",
+        "explanation": "Protons and neutrons both count as one nucleon. Converting one into the other changes charge but not total nucleon number.",
+        "hint": "Beta-plus reduces the nuclear positive charge.",
+        "steps": [
+          "Identify the physical idea.",
+          "Link each statement to a reason or observation.",
+          "Check that every part of the question is answered."
+        ],
+        "misconception": "A neutron becoming a proton describes beta-minus decay, not beta-plus.",
+        "id": "2023-7c"
+      }
+    },
+    {
+      "id": "2023-8ai",
+      "question": "8(a)(i)",
+      "marks": 1,
+      "topic": "light",
+      "skill": "normal-incidence",
+      "answer": "The ray enters along the normal to the curved surface, so its direction does not change at entry.",
+      "learning": "Recognise zero angle of incidence as no change in direction.",
+      "questionPage": 20,
+      "markSchemePage": 21,
+      "card": {
+        "title": "Straight through a boundary",
+        "kind": "choice",
+        "prompt": "A ray enters a glass surface exactly along the normal. What happens to its direction?",
+        "options": [
+          "It bends by 90°",
+          "It does not change direction",
+          "It always reflects completely",
+          "It becomes parallel to the surface"
+        ],
+        "correctIndex": 1,
+        "marks": 1,
+        "modelAnswer": "Its direction stays unchanged because its angle of incidence is zero.",
+        "explanation": "The speed and wavelength can still change even when there is no bending.",
+        "hint": "The normal is perpendicular to the boundary.",
+        "steps": [
+          "Read the physical situation.",
+          "Rule out alternatives using the stated physics.",
+          "Choose the statement that fits all the evidence."
+        ],
+        "misconception": "No direction change does not mean no speed change.",
+        "id": "2023-8ai"
+      }
+    },
+    {
+      "id": "2023-8aii",
+      "question": "8(a)(ii)",
+      "marks": 3,
+      "topic": "light",
+      "skill": "critical-angle-from-graph",
+      "answer": "Extend the refraction curve to r = 90° and read the corresponding incidence angle i; that is the critical angle.",
+      "learning": "Use the grazing refracted ray definition to interpret a graph.",
+      "questionPage": 21,
+      "markSchemePage": 21,
+      "card": {
+        "title": "Find the critical angle",
+        "kind": "text",
+        "prompt": "A graph plots refraction angle r against incidence angle i for glass-to-air travel. Explain how to use it to estimate the critical angle.",
+        "marks": 3,
+        "rubric": [
+          {
+            "point": "Extend graph if needed",
+            "patterns": [
+              "(extend|extrapolat).*curve",
+              "(extend|extrapolat).*graph"
+            ]
+          },
+          {
+            "point": "Find where refracted angle is 90 degrees",
+            "patterns": [
+              "r.*90",
+              "refract.*90"
+            ]
+          },
+          {
+            "point": "Read corresponding incidence angle",
+            "patterns": [
+              "(read|find|correspond).*inciden",
+              "(read|find).*angle i"
+            ]
+          }
+        ],
+        "modelAnswer": "Extend the fitted curve if necessary until the refraction angle r reaches 90°. Read the corresponding incidence angle i on the horizontal axis: it is the critical angle.",
+        "explanation": "At the critical angle the refracted ray travels along the boundary. Larger incidence angles give total internal reflection.",
+        "hint": "Which angle becomes 90° at the critical condition?",
+        "steps": [
+          "Identify the physical idea.",
+          "Link each statement to a reason or observation.",
+          "Check that every part of the question is answered."
+        ],
+        "misconception": "The critical angle is the incident angle, not the 90° refracted angle.",
+        "id": "2023-8aii"
+      }
+    },
+    {
+      "id": "2023-8bi",
+      "question": "8(b)(i)",
+      "marks": 2,
+      "topic": "energy",
+      "skill": "surface-absorption",
+      "answer": "The black sphere absorbs incident radiation more effectively than the white sphere, so its temperature initially rises faster.",
+      "learning": "Connect surface finish to absorption under equal illumination.",
+      "questionPage": 22,
+      "markSchemePage": 21,
+      "card": {
+        "title": "Black and white surfaces",
+        "kind": "text",
+        "prompt": "Two identical metal plates, one matt black and one white, receive equal radiation. Explain why the black plate may heat faster initially.",
+        "marks": 2,
+        "rubric": [
+          {
+            "point": "Black is better absorber",
+            "patterns": [
+              "black.*(better|more|good).*absorb",
+              "black.*absorb.*(more|better)",
+              "black.*absorbs? (a )?(greater|larger) (fraction|proportion)"
+            ]
+          },
+          {
+            "point": "White reflects more / absorbs less",
+            "patterns": [
+              "white.*(reflect.*more|more.*reflect|less.*absorb|poor.*absorb)",
+              "white.*(better|good).*reflect"
+            ]
+          }
+        ],
+        "modelAnswer": "The matt black plate is a better absorber of incident radiation than the white plate. The white plate reflects more and absorbs less, so its thermal store increases more slowly initially.",
+        "explanation": "Compare plates with the same mass and material so surface absorption is the main changed factor.",
+        "hint": "What fraction of the incoming radiation is absorbed?",
+        "steps": [
+          "Identify the physical idea.",
+          "Link each statement to a reason or observation.",
+          "Check that every part of the question is answered."
+        ],
+        "misconception": "A good absorber is also generally a good emitter; the initial heating comparison assumes the same starting temperature.",
+        "id": "2023-8bi"
+      }
+    },
+    {
+      "id": "2023-8bii",
+      "question": "8(b)(ii)",
+      "marks": 4,
+      "topic": "energy",
+      "skill": "radiative-equilibrium",
+      "answer": "The sphere both absorbs and emits radiation. As it warms its emission rate rises until emitted and absorbed powers balance.",
+      "learning": "Explain a heating curve plateau as a dynamic power balance.",
+      "questionPage": 23,
+      "markSchemePage": 22,
+      "card": {
+        "title": "Why heating levels off",
+        "kind": "text",
+        "prompt": "A black sphere under a constant radiant heater warms, then reaches a steady temperature. Explain the plateau.",
+        "marks": 4,
+        "rubric": [
+          {
+            "point": "Absorbs incoming radiation",
+            "patterns": [
+              "absorb.*radiation",
+              "absorb.*energy"
+            ]
+          },
+          {
+            "point": "Emits thermal radiation",
+            "patterns": [
+              "emit.*(thermal|infrared|radiation|energy)",
+              "radiat.*energy"
+            ]
+          },
+          {
+            "point": "Emission rate rises with temperature",
+            "patterns": [
+              "(emission|emit|radiat).*(increas|rise).*temperature",
+              "temperature.*(increas|rise).*(emit|emission|radiat)"
+            ]
+          },
+          {
+            "point": "Absorbed and emitted powers balance",
+            "patterns": [
+              "(absorb|incoming).*(equal|same|balance).*(emit|outgoing)",
+              "(emit|outgoing).*(equal|same|balance).*(absorb|incoming)",
+              "(rate|power).*(equal|balance)"
+            ]
+          }
+        ],
+        "modelAnswer": "The sphere absorbs radiation from the heater and also emits thermal radiation. As its temperature rises, its rate of emission increases. Eventually emitted power equals absorbed power, giving no net gain in internal energy and a constant temperature.",
+        "explanation": "A plateau does not mean transfers stop. The incoming and outgoing amounts per second become equal.",
+        "hint": "Follow both the incoming and outgoing energy.",
+        "steps": [
+          "Identify the physical idea.",
+          "Link each statement to a reason or observation.",
+          "Check that every part of the question is answered."
+        ],
+        "misconception": "Do not say the sphere stops absorbing when it reaches the plateau.",
+        "id": "2023-8bii"
+      }
+    },
+    {
+      "id": "2023-9a",
+      "question": "9(a)",
+      "marks": 3,
+      "topic": "forces",
+      "skill": "momentum-standard-form",
+      "answer": "p = mv = 6.6 × 10⁻²⁶ × 480 = 3.168 × 10⁻²³ kg m/s, about 3.2 × 10⁻²³.",
+      "learning": "Calculate a very small momentum while retaining powers of ten.",
+      "questionPage": 24,
+      "markSchemePage": 23,
+      "card": {
+        "title": "Momentum of an atom",
+        "kind": "number",
+        "prompt": "An atom of mass 5.0 × 10⁻²⁶ kg moves at 600 m/s. Calculate its momentum.",
+        "answer": 3e-23,
+        "unit": "kg m/s",
+        "tolerance": 1e-25,
+        "marks": 3,
+        "modelAnswer": "p = mv = 5.0 × 10⁻²⁶ × 600 = 3.0 × 10⁻²³ kg m/s.",
+        "explanation": "The momentum equation works at atomic scales as well as everyday scales, provided non-relativistic motion applies.",
+        "hint": "Multiply the leading numbers and combine powers of ten.",
+        "steps": [
+          "Write the relevant equation.",
+          "Substitute the values using consistent units.",
+          "Calculate, round sensibly and give the unit."
+        ],
+        "misconception": "A result with the correct leading digits but the wrong exponent can differ by many orders of magnitude.",
+        "id": "2023-9a"
+      }
+    },
+    {
+      "id": "2023-9b",
+      "question": "9(b)",
+      "marks": 3,
+      "topic": "forces",
+      "skill": "rebound-momentum-force",
+      "answer": "Momentum changes direction, so |Δp| = 0.80 + 0.60 = 1.40 kg m/s. Force magnitude = 1.40/0.070 = 20 N.",
+      "learning": "Track signs in a rebound and convert milliseconds.",
+      "questionPage": 24,
+      "markSchemePage": 24,
+      "card": {
+        "title": "Momentum changes direction",
+        "kind": "number",
+        "prompt": "A ball has momentum 0.90 kg m/s towards a wall and 0.50 kg m/s away afterwards. Contact lasts 50 ms. Calculate the average force magnitude.",
+        "answer": 28,
+        "unit": "N",
+        "tolerance": 0.14,
+        "marks": 3,
+        "modelAnswer": "Take away as positive. Δp = 0.50 − (−0.90) = 1.40 kg m/s. F = 1.40/0.050 = 28 N.",
+        "explanation": "A reversal requires stopping the incoming momentum and building outgoing momentum in the opposite direction.",
+        "hint": "The two momenta have opposite signs.",
+        "steps": [
+          "Write the relevant equation.",
+          "Substitute the values using consistent units.",
+          "Calculate, round sensibly and give the unit."
+        ],
+        "misconception": "Using 0.90 − 0.50 would ignore the reversal.",
+        "id": "2023-9b",
+        "variants": [
+          {
+            "prompt": "A ball’s momentum is 0.70 kg m/s towards a wall and 0.50 kg m/s away after impact. Contact lasts 60 ms. Find the average force magnitude.",
+            "answer": 20,
+            "modelAnswer": "|Δp| = 0.70 + 0.50 = 1.20 kg m/s. F = 1.20/0.060 = 20 N."
+          },
+          {
+            "prompt": "A ball rebounds from a wall. Its incoming momentum is 1.2 kg m/s and outgoing momentum is 0.80 kg m/s in the opposite direction. Contact lasts 40 ms. Find the force magnitude.",
+            "answer": 50,
+            "modelAnswer": "|Δp| = 1.2 + 0.80 = 2.0 kg m/s. F = 2.0/0.040 = 50 N."
+          }
+        ]
+      }
+    },
+    {
+      "id": "2023-9c",
+      "question": "9(c)",
+      "marks": 6,
+      "topic": "forces",
+      "skill": "force-acceleration-experiment",
+      "answer": "Pull a trolley with a measured adjustable force, measure acceleration with suitable timing equipment, keep total system mass fixed, compensate friction, repeat and compare force with acceleration.",
+      "learning": "Design a fair quantitative test of F = ma using measurements, controls and a graph.",
+      "questionPage": 25,
+      "markSchemePage": 25,
+      "card": {
+        "title": "Investigate F = ma",
+        "kind": "text",
+        "prompt": "Plan an experiment with a trolley and hanging masses to investigate how acceleration depends on applied force.",
+        "marks": 6,
+        "rubric": [
+          {
+            "point": "Measured force from hanging masses",
+            "patterns": [
+              "(hanging|hanger|suspend).*mass",
+              "force.*(weight|newtonmeter)"
+            ]
+          },
+          {
+            "point": "Measure acceleration with light gates / timed velocities",
+            "patterns": [
+              "light.?gate",
+              "(measure|calculat).*acceleration",
+              "(velocity|speed).*(time|timer)"
+            ]
+          },
+          {
+            "point": "Change applied force",
+            "patterns": [
+              "(change|vary|increase).*force",
+              "(change|vary|increase).*(hanging|hanger).*mass"
+            ]
+          },
+          {
+            "point": "Keep total moving mass constant",
+            "patterns": [
+              "(total|system).*mass.*constant",
+              "(same|constant).*mass",
+              "mass.*(trolley|hanger).*(transfer|move)"
+            ]
+          },
+          {
+            "point": "Reduce or compensate friction",
+            "patterns": [
+              "(friction).*(compensat|balance|reduc)",
+              "(compensat|balance|reduc).*friction",
+              "slop.*runway"
+            ]
+          },
+          {
+            "point": "Repeat and graph acceleration against force",
+            "patterns": [
+              "repeat.*(average|mean)",
+              "(graph|plot).*(force|acceleration)"
+            ]
+          }
+        ],
+        "modelAnswer": "Attach the trolley to a hanging mass over a pulley, so the hanging weight provides a measured pulling force. Use light gates or a motion sensor to measure acceleration. Vary force by transferring masses from the trolley to the hanger, keeping total moving mass constant. Compensate track friction, repeat each force and calculate a mean acceleration, then plot acceleration against force.",
+        "explanation": "Changing force while accidentally changing total mass confounds the result because a = F/m depends on both. The graph should show a proportional relationship for fixed mass and controlled friction.",
+        "hint": "Separate the variable you change from the variables you must keep fixed.",
+        "steps": [
+          "Identify the physical idea.",
+          "Link each statement to a reason or observation.",
+          "Check that every part of the question is answered."
+        ],
+        "misconception": "Simply adding more hanging mass changes both force and total system mass unless the masses are transferred.",
+        "id": "2023-9c"
+      }
+    },
+    {
+      "id": "2023-10ai",
+      "question": "10(a)(i)",
+      "marks": 2,
+      "topic": "energy",
+      "skill": "efficiency-useful-energy",
+      "answer": "Useful energy = 0.07 × 1300 = 91 J, approximately 90 J.",
+      "learning": "Use efficiency as a decimal multiplier to find useful output.",
+      "questionPage": 26,
+      "markSchemePage": 28,
+      "card": {
+        "title": "Useful output from a source",
+        "kind": "number",
+        "prompt": "An energy converter is 8% efficient and receives 1500 J. Calculate useful output energy.",
+        "answer": 120,
+        "unit": "J",
+        "tolerance": 0.6,
+        "marks": 2,
+        "modelAnswer": "Useful output = 0.08 × 1500 = 120 J.",
+        "explanation": "Efficiency is the fraction of input energy transferred usefully. Eight percent means 8 out of every 100.",
+        "hint": "Convert the percentage to a decimal.",
+        "steps": [
+          "Write the relevant equation.",
+          "Substitute the values using consistent units.",
+          "Calculate, round sensibly and give the unit."
+        ],
+        "misconception": "Multiplying by 8 rather than 0.08 gives an impossible output larger than the input.",
+        "id": "2023-10ai"
+      }
+    },
+    {
+      "id": "2023-10aii",
+      "question": "10(a)(ii)",
+      "marks": 2,
+      "topic": "radioactivity",
+      "skill": "radioisotope-power-source",
+      "answer": "A sufficiently long half-life allows useful thermal power over the long mission without needing replacement.",
+      "learning": "Choose a radioactive isotope property using the intended service lifetime.",
+      "questionPage": 26,
+      "markSchemePage": 28,
+      "card": {
+        "title": "Power far from home",
+        "kind": "text",
+        "prompt": "Why is a long half-life useful for a radioisotope power supply on a decade-long space mission?",
+        "marks": 2,
+        "rubric": [
+          {
+            "point": "Activity falls slowly / power lasts",
+            "patterns": [
+              "(long|slow).*half.?life",
+              "activity.*(slow|maintain)",
+              "(thermal|power|energy).*(last|long|maintain)"
+            ]
+          },
+          {
+            "point": "Mission long and replacement difficult",
+            "patterns": [
+              "(mission|operate|operat).*(long|decade|year)",
+              "cannot.*replac",
+              "(difficult|hard).*replac",
+              "replac.*cannot",
+              "replac.*(difficult|hard)",
+              "replac.*impractical"
+            ]
+          }
+        ],
+        "modelAnswer": "A long half-life means activity and thermal output decline slowly, helping the supply last for the mission. Replacing the isotope during a distant space mission is impractical.",
+        "explanation": "The appropriate half-life depends on the use: a scanner tracer and a space power source have very different requirements.",
+        "hint": "Compare isotope lifetime with mission duration.",
+        "steps": [
+          "Identify the physical idea.",
+          "Link each statement to a reason or observation.",
+          "Check that every part of the question is answered."
+        ],
+        "misconception": "A long half-life alone does not guarantee enough power; activity and isotope quantity also matter.",
+        "id": "2023-10aii"
+      }
+    },
+    {
+      "id": "2023-10b",
+      "question": "10(b)",
+      "marks": 3,
+      "topic": "radioactivity",
+      "skill": "mass-energy-equivalence",
+      "answer": "Δm = E/c² = (1.49 × 10⁻¹⁰)/(3.00 × 10⁸)² = 1.66 × 10⁻²⁷ kg.",
+      "learning": "Rearrange E = mc² and square the entire speed-of-light term.",
+      "questionPage": 27,
+      "markSchemePage": 29,
+      "card": {
+        "title": "A tiny mass change",
+        "kind": "number",
+        "prompt": "A nuclear reaction releases 2.7 × 10⁻¹⁰ J. Use c = 3.0 × 10⁸ m/s and E = Δmc² to calculate the mass decrease.",
+        "answer": 3e-27,
+        "unit": "kg",
+        "tolerance": 1e-29,
+        "marks": 3,
+        "modelAnswer": "Δm = E/c² = (2.7 × 10⁻¹⁰)/(9.0 × 10¹⁶) = 3.0 × 10⁻²⁷ kg.",
+        "explanation": "A very small mass decrease corresponds to substantial energy per nucleus because c² is enormous.",
+        "hint": "Square both 3.0 and 10⁸.",
+        "steps": [
+          "Write the relevant equation.",
+          "Substitute the values using consistent units.",
+          "Calculate, round sensibly and give the unit."
+        ],
+        "misconception": "(3 × 10⁸)² is 9 × 10¹⁶, not 3 × 10¹⁶.",
+        "id": "2023-10b",
+        "variants": [
+          {
+            "prompt": "A nuclear reaction releases 9.0 × 10⁻¹¹ J. Use E = Δmc² and c = 3.0 × 10⁸ m/s to calculate the mass decrease.",
+            "answer": 1e-27,
+            "modelAnswer": "Δm = (9.0 × 10⁻¹¹)/(9.0 × 10¹⁶) = 1.0 × 10⁻²⁷ kg."
+          },
+          {
+            "prompt": "A reaction releases 4.5 × 10⁻¹⁰ J. With c = 3.0 × 10⁸ m/s, use E = Δmc² to calculate the mass decrease.",
+            "answer": 5e-27,
+            "modelAnswer": "Δm = (4.5 × 10⁻¹⁰)/(9.0 × 10¹⁶) = 5.0 × 10⁻²⁷ kg."
+          }
+        ]
+      }
+    },
+    {
+      "id": "2023-10c",
+      "question": "10(c)",
+      "marks": 6,
+      "topic": "radioactivity",
+      "skill": "controlled-fission-chain-reaction",
+      "answer": "Many fissions are linked by emitted neutrons; a moderator slows neutrons to improve further fission probability and control rods absorb a variable share to regulate power.",
+      "learning": "Explain how a chain reaction is sustained and controlled, distinguishing moderator and control rods.",
+      "questionPage": 28,
+      "markSchemePage": 30,
+      "card": {
+        "title": "Control reactor power",
+        "kind": "text",
+        "prompt": "Explain how a fission reactor releases energy continuously and adjusts its output. Include chain reactions, moderator and control rods.",
+        "marks": 6,
+        "rubric": [
+          {
+            "point": "Fission releases neutrons",
+            "patterns": [
+              "fission.*release.*neutron",
+              "neutron.*emit.*fission"
+            ]
+          },
+          {
+            "point": "Neutrons trigger further fissions",
+            "patterns": [
+              "neutron.*(cause|trigger|hit).*fission",
+              "chain reaction"
+            ]
+          },
+          {
+            "point": "Moderator slows neutrons",
+            "patterns": [
+              "moderator.*slow.*neutron"
+            ]
+          },
+          {
+            "point": "Slower neutrons more likely to cause fission",
+            "patterns": [
+              "slow.*neutron.*(more likely|probability).*fission",
+              "more likely.*fission"
+            ]
+          },
+          {
+            "point": "Control rods absorb neutrons",
+            "patterns": [
+              "control.*rod.*absorb.*neutron",
+              "rod.*capture.*neutron"
+            ]
+          },
+          {
+            "point": "Insertion lowers fission rate / withdrawal raises it",
+            "patterns": [
+              "(insert|further|lower).*rod.*(reduc|fewer|lower|less)",
+              "(withdraw|remov|rais).*rod.*(increas|more)",
+              "(fission|power).*rate.*(control|adjust)"
+            ]
+          }
+        ],
+        "modelAnswer": "Each fission releases energy and neutrons; some neutrons trigger further fissions, sustaining a chain reaction. The moderator slows neutrons, making them more likely to cause fission in the fuel. Control rods absorb neutrons. Inserting the rods further reduces the number available for new fissions and lowers power; withdrawing them increases the fission rate.",
+        "explanation": "Reactor control is a neutron balance. Moderation improves the likelihood of a useful neutron interaction; absorption removes neutrons from the chain.",
+        "hint": "Explain the different jobs of the moderator and the control rods.",
+        "steps": [
+          "Identify the physical idea.",
+          "Link each statement to a reason or observation.",
+          "Check that every part of the question is answered."
+        ],
+        "misconception": "Do not say control rods mainly slow neutrons; that is the moderator’s role.",
+        "id": "2023-10c"
+      }
+    }
+  ]
+}

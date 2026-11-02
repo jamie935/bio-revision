@@ -1,0 +1,1840 @@
+{
+  "paper": "2025",
+  "totalMarks": 100,
+  "reviewStatus": "question-and-mark-scheme-reviewed",
+  "rows": [
+    {
+      "id": "2025-1a",
+      "question": "1(a)",
+      "marks": 1,
+      "topic": "waves",
+      "skill": "infrasound-frequency",
+      "answer": "2.2 Hz is below 20 Hz, so it is infrasound.",
+      "learning": "Human hearing is approximately 20 Hz to 20 kHz. Infrasound is below the lower limit, while ultrasound is above the upper limit.",
+      "questionPage": 2,
+      "markSchemePage": 5,
+      "card": {
+        "kind": "choice",
+        "prompt": "Which frequency is in the infrasound range?",
+        "marks": 1,
+        "options": [
+          "8 Hz",
+          "800 Hz",
+          "8 kHz",
+          "80 kHz"
+        ],
+        "correctIndex": 0,
+        "modelAnswer": "8 Hz is below the usual lower hearing limit of 20 Hz.",
+        "hint": "Convert kHz to Hz before comparing.",
+        "misconception": "Do not confuse infrasound with ultrasound.",
+        "steps": [
+          "Identify the physical principle in the question.",
+          "8 Hz is below the usual lower hearing limit of 20 Hz."
+        ],
+        "id": "2025-1a",
+        "title": "Infrasound frequency",
+        "explanation": "Human hearing is approximately 20 Hz to 20 kHz. Infrasound is below the lower limit, while ultrasound is above the upper limit."
+      }
+    },
+    {
+      "id": "2025-1b",
+      "question": "1(b)",
+      "marks": 3,
+      "topic": "waves",
+      "skill": "echo-round-trip-time",
+      "answer": "t = (2 × 7.6)/330 ≈ 0.046 s.",
+      "learning": "For an echo, the pulse travels to the reflector and back. The travel distance is twice the one-way separation.",
+      "questionPage": 2,
+      "markSchemePage": 5,
+      "card": {
+        "kind": "number",
+        "prompt": "An ultrasonic rangefinder is 12 m from a wall. Sound speed is 320 m/s. Calculate the time between sending a pulse and receiving its echo.",
+        "marks": 3,
+        "answer": 0.075,
+        "unit": "s",
+        "tolerance": 0.0009,
+        "modelAnswer": "Round-trip distance = 2 × 12 = 24 m; t = d/v = 24/320 = 0.075 s.",
+        "hint": "The pulse must return to the rangefinder.",
+        "misconception": "Using just 12 m misses half the journey.",
+        "steps": [
+          "Round-trip distance = 2 × 12 = 24 m",
+          "t = d/v = 24/320 = 0.075 s."
+        ],
+        "id": "2025-1b",
+        "title": "Echo round trip time",
+        "explanation": "For an echo, the pulse travels to the reflector and back. The travel distance is twice the one-way separation.",
+        "variants": [
+          {
+            "prompt": "A rangefinder is 8 m from a wall. Sound travels at 320 m/s. Find the pulse-to-echo time.",
+            "answer": 0.05,
+            "modelAnswer": "The round trip is 16 m. Time = 16/320 = 0.050 s."
+          },
+          {
+            "prompt": "A rangefinder is 17 m from a cliff. Sound travels at 340 m/s. Find the pulse-to-echo time.",
+            "answer": 0.1,
+            "modelAnswer": "The round trip is 34 m. Time = 34/340 = 0.10 s."
+          }
+        ]
+      }
+    },
+    {
+      "id": "2025-1c",
+      "question": "1(c)",
+      "marks": 2,
+      "topic": "waves",
+      "skill": "hearing-frequency-limits",
+      "answer": "Infrasound has a frequency below the lower human hearing limit, normally about 20 Hz.",
+      "learning": "Our hearing responds only to a limited frequency range. A wave can carry sound energy without being audible to humans.",
+      "questionPage": 3,
+      "markSchemePage": 6,
+      "card": {
+        "kind": "text",
+        "prompt": "A sensor detects a sound wave of frequency 9 Hz. Explain why a healthy human listener is unlikely to hear it.",
+        "marks": 2,
+        "rubric": [
+          {
+            "point": "Its frequency is below the human hearing range",
+            "patterns": [
+              "below.*(hearing|audible).*range",
+              "frequency.*(too low|below)"
+            ]
+          },
+          {
+            "point": "The approximate lower limit is 20 Hz",
+            "patterns": [
+              "20\\s*(hz|hertz)",
+              "lower.*limit.*20"
+            ]
+          }
+        ],
+        "modelAnswer": "The wave’s frequency is below the normal human hearing range. The lower limit is about 20 Hz, and 9 Hz is lower than that.",
+        "hint": "Compare the frequency with the lower hearing limit.",
+        "misconception": "Increasing loudness does not normally make a 9 Hz tone become an ordinary audible tone.",
+        "steps": [
+          "Its frequency is below the human hearing range",
+          "The approximate lower limit is 20 Hz"
+        ],
+        "id": "2025-1c",
+        "title": "Hearing frequency limits",
+        "explanation": "Our hearing responds only to a limited frequency range. A wave can carry sound energy without being audible to humans."
+      }
+    },
+    {
+      "id": "2025-2ai",
+      "question": "2(a)(i)",
+      "marks": 3,
+      "topic": "forces",
+      "skill": "resultant-force-acceleration",
+      "answer": "Use the resultant 0.92 N: a = 0.92/0.25 = 3.68 m/s², about 3.7 m/s² downwards.",
+      "learning": "Newton’s second law uses the resultant of all forces. Do not substitute weight or drag alone when both act.",
+      "questionPage": 5,
+      "markSchemePage": 7,
+      "card": {
+        "kind": "number",
+        "prompt": "A falling object of mass 0.40 kg has a resultant downward force of 1.6 N. Calculate its acceleration.",
+        "marks": 3,
+        "answer": 4,
+        "unit": "m/s²",
+        "tolerance": 0.048,
+        "modelAnswer": "F = ma; a = F/m = 1.6/0.40 = 4.0 m/s² downwards.",
+        "hint": "The resultant force has already combined weight and drag.",
+        "misconception": "Do not add the weight to a force already described as resultant.",
+        "steps": [
+          "F = ma",
+          "a = F/m = 1.6/0.40 = 4.0 m/s² downwards."
+        ],
+        "id": "2025-2ai",
+        "title": "Resultant force acceleration",
+        "explanation": "Newton’s second law uses the resultant of all forces. Do not substitute weight or drag alone when both act.",
+        "variants": [
+          {
+            "prompt": "A falling package of mass 0.60 kg has a downward resultant force of 1.8 N. Calculate its acceleration.",
+            "answer": 3,
+            "modelAnswer": "a = F/m = 1.8/0.60 = 3.0 m/s² downwards."
+          },
+          {
+            "prompt": "A falling capsule of mass 0.30 kg has a downward resultant force of 1.5 N. Calculate its acceleration.",
+            "answer": 5,
+            "modelAnswer": "a = F/m = 1.5/0.30 = 5.0 m/s² downwards."
+          }
+        ]
+      }
+    },
+    {
+      "id": "2025-2aii",
+      "question": "2(a)(ii)",
+      "marks": 1,
+      "topic": "forces",
+      "skill": "opposing-forces",
+      "answer": "Air resistance = 2.5 − 0.92 = 1.58 N upwards, about 1.6 N.",
+      "learning": "For opposite forces, the resultant is their difference and points in the direction of the larger force.",
+      "questionPage": 5,
+      "markSchemePage": 7,
+      "card": {
+        "kind": "number",
+        "prompt": "A falling capsule has weight 6.0 N and a downward resultant of 2.2 N. Calculate the upward drag force.",
+        "marks": 2,
+        "answer": 3.8,
+        "unit": "N",
+        "tolerance": 0.0456,
+        "modelAnswer": "Resultant = weight − drag; drag = 6.0 − 2.2 = 3.8 N.",
+        "hint": "Write an equation with the upward and downward forces.",
+        "misconception": "The upward drag is smaller than weight while the resultant is downward.",
+        "steps": [
+          "Resultant = weight − drag",
+          "drag = 6.0 − 2.2 = 3.8 N."
+        ],
+        "id": "2025-2aii",
+        "title": "Opposing forces",
+        "explanation": "For opposite forces, the resultant is their difference and points in the direction of the larger force."
+      }
+    },
+    {
+      "id": "2025-2bi",
+      "question": "2(b)(i)",
+      "marks": 1,
+      "topic": "forces",
+      "skill": "mean-force",
+      "answer": "Mean = (2.1 + 2.7 + 2.5 + 2.2)/4 = 2.375 N, about 2.4 N.",
+      "learning": "The arithmetic mean is the sum divided by the number of readings. Carry extra digits until the final answer.",
+      "questionPage": 6,
+      "markSchemePage": 8,
+      "card": {
+        "kind": "number",
+        "prompt": "Repeated holding-force measurements are 1.8 N, 2.0 N, 1.9 N and 2.3 N. Calculate the mean.",
+        "marks": 2,
+        "answer": 2,
+        "unit": "N",
+        "tolerance": 0.024,
+        "modelAnswer": "Mean force = (1.8 + 2.0 + 1.9 + 2.3)/4; 8.0/4 = 2.0 N.",
+        "hint": "Add all four readings before dividing by four.",
+        "misconception": "The mean is not the middle of the largest and smallest readings.",
+        "steps": [
+          "Mean force = (1.8 + 2.0 + 1.9 + 2.3)/4",
+          "8.0/4 = 2.0 N."
+        ],
+        "id": "2025-2bi",
+        "title": "Mean force",
+        "explanation": "The arithmetic mean is the sum divided by the number of readings. Carry extra digits until the final answer."
+      }
+    },
+    {
+      "id": "2025-2bii",
+      "question": "2(b)(ii)",
+      "marks": 2,
+      "topic": "forces",
+      "skill": "linear-extrapolation",
+      "answer": "Extend the straight best-fit line to h = 0.80 m; F ≈ 3.1 N.",
+      "learning": "Extrapolation extends a trend beyond the measured data. Continue the best-fit line rather than connecting the last point to an arbitrary target.",
+      "questionPage": 7,
+      "markSchemePage": 8,
+      "card": {
+        "kind": "number",
+        "prompt": "A straight force–height trend is F = 4.5h with F in N and h in m. Estimate the force at a height of 0.80 m.",
+        "marks": 2,
+        "answer": 3.6,
+        "unit": "N",
+        "tolerance": 0.0432,
+        "modelAnswer": "Continue the same proportional trend; F = 4.5 × 0.80 = 3.6 N.",
+        "hint": "Use the straight-line relationship beyond the measured range.",
+        "misconception": "Extrapolation assumes the relationship continues and is less certain than interpolation.",
+        "steps": [
+          "Continue the same proportional trend",
+          "F = 4.5 × 0.80 = 3.6 N."
+        ],
+        "id": "2025-2bii",
+        "title": "Linear extrapolation",
+        "explanation": "Extrapolation extends a trend beyond the measured data. Continue the best-fit line rather than connecting the last point to an arbitrary target."
+      }
+    },
+    {
+      "id": "2025-2biii",
+      "question": "2(b)(iii)",
+      "marks": 2,
+      "topic": "forces",
+      "skill": "force-height-gradient",
+      "answer": "The graph gradient is approximately 3.9 N/m.",
+      "learning": "A gradient is vertical change divided by horizontal change. Its units are the vertical-axis units divided by horizontal-axis units.",
+      "questionPage": 7,
+      "markSchemePage": 8,
+      "card": {
+        "kind": "number",
+        "prompt": "A straight force–height graph passes through (0.10 m, 0.45 N) and (0.70 m, 3.15 N). Calculate its gradient.",
+        "marks": 2,
+        "answer": 4.5,
+        "unit": "N/m",
+        "tolerance": 0.054,
+        "modelAnswer": "Gradient = ΔF/Δh; (3.15 − 0.45)/(0.70 − 0.10) = 2.70/0.60 = 4.5 N/m.",
+        "hint": "Choose two well-separated points on the best-fit line.",
+        "misconception": "Do not reverse rise and run.",
+        "steps": [
+          "Gradient = ΔF/Δh",
+          "(3.15 − 0.45)/(0.70 − 0.10) = 2.70/0.60 = 4.5 N/m."
+        ],
+        "id": "2025-2biii",
+        "title": "Force height gradient",
+        "explanation": "A gradient is vertical change divided by horizontal change. Its units are the vertical-axis units divided by horizontal-axis units."
+      }
+    },
+    {
+      "id": "2025-3ai",
+      "question": "3(a)(i)",
+      "marks": 1,
+      "topic": "waves",
+      "skill": "wave-amplitude",
+      "answer": "The 20 cm crest-to-trough height gives amplitude 10 cm.",
+      "learning": "Amplitude is the maximum displacement from equilibrium. Crest-to-trough distance is twice the amplitude.",
+      "questionPage": 8,
+      "markSchemePage": 9,
+      "card": {
+        "kind": "number",
+        "prompt": "A ripple’s crest is 14 mm above its trough. What is its amplitude?",
+        "marks": 2,
+        "answer": 7,
+        "unit": "mm",
+        "tolerance": 0.084,
+        "modelAnswer": "Crest-to-trough distance = 2 × amplitude; amplitude = 14/2 = 7 mm.",
+        "hint": "The equilibrium level is halfway between crest and trough.",
+        "misconception": "Do not give the full crest-to-trough height as amplitude.",
+        "steps": [
+          "Crest-to-trough distance = 2 × amplitude",
+          "amplitude = 14/2 = 7 mm."
+        ],
+        "id": "2025-3ai",
+        "title": "Wave amplitude",
+        "explanation": "Amplitude is the maximum displacement from equilibrium. Crest-to-trough distance is twice the amplitude."
+      }
+    },
+    {
+      "id": "2025-3aii",
+      "question": "3(a)(ii)",
+      "marks": 1,
+      "topic": "waves",
+      "skill": "wavelength-from-multiple-cycles",
+      "answer": "Four complete cycles span 48 cm, so λ = 48/4 = 12 cm.",
+      "learning": "Wavelength is the distance for one complete repeat of a wave. Count intervals, not just the number of visible peaks.",
+      "questionPage": 8,
+      "markSchemePage": 9,
+      "card": {
+        "kind": "number",
+        "prompt": "Five complete wavelengths occupy 90 cm in a water-wave photograph. Calculate one wavelength.",
+        "marks": 2,
+        "answer": 18,
+        "unit": "cm",
+        "tolerance": 0.216,
+        "modelAnswer": "Wavelength = total distance/number of complete cycles; 90/5 = 18 cm.",
+        "hint": "Check how many complete cycles the stated distance spans.",
+        "misconception": "A count of crests can differ from a count of complete wavelengths.",
+        "steps": [
+          "Wavelength = total distance/number of complete cycles",
+          "90/5 = 18 cm."
+        ],
+        "id": "2025-3aii",
+        "title": "Wavelength from multiple cycles",
+        "explanation": "Wavelength is the distance for one complete repeat of a wave. Count intervals, not just the number of visible peaks."
+      }
+    },
+    {
+      "id": "2025-3aiii",
+      "question": "3(a)(iii)",
+      "marks": 2,
+      "topic": "waves",
+      "skill": "wave-speed-practical",
+      "answer": "Time a crest travelling a known distance and use speed = distance/time; alternatively measure frequency and wavelength and multiply.",
+      "learning": "A practical method needs an actual measured distance and elapsed time, or measured frequency and wavelength. Naming a formula alone is not a procedure.",
+      "questionPage": 8,
+      "markSchemePage": 9,
+      "card": {
+        "kind": "text",
+        "prompt": "Describe a way to measure the speed of a ripple in a long water tank.",
+        "marks": 2,
+        "rubric": [
+          {
+            "point": "Measure a known distance and time a crest over it",
+            "patterns": [
+              "(measure|known|marked).*distance.*(time|crest)",
+              "time.*(crest|wave).*(known|measured|marked).*distance"
+            ]
+          },
+          {
+            "point": "Divide distance by travel time",
+            "patterns": [
+              "speed.*distance.*(time|/)",
+              "distance.*divid.*time"
+            ]
+          }
+        ],
+        "modelAnswer": "Measure a known distance along the tank and time a wave crest travelling over that distance. Calculate speed as distance divided by the measured travel time.",
+        "hint": "Track the same crest between two positions.",
+        "misconception": "Do not measure the time for an unrelated number of waves without also determining frequency.",
+        "steps": [
+          "Measure a known distance and time a crest over it",
+          "Divide distance by travel time"
+        ],
+        "id": "2025-3aiii",
+        "title": "Wave speed practical",
+        "explanation": "A practical method needs an actual measured distance and elapsed time, or measured frequency and wavelength. Naming a formula alone is not a procedure."
+      }
+    },
+    {
+      "id": "2025-3bi",
+      "question": "3(b)(i)",
+      "marks": 1,
+      "topic": "waves",
+      "skill": "transverse-examples",
+      "answer": "Examples include electromagnetic waves, water ripples or waves on a stretched string.",
+      "learning": "A transverse wave oscillates perpendicular to its direction of travel. Examples must match that displacement pattern.",
+      "questionPage": 9,
+      "markSchemePage": 10,
+      "card": {
+        "kind": "choice",
+        "prompt": "Which wave is transverse?",
+        "marks": 1,
+        "options": [
+          "A compression sound wave in air",
+          "An ultrasound wave in air",
+          "A wave on a plucked guitar string",
+          "An infrasound wave in air"
+        ],
+        "correctIndex": 2,
+        "modelAnswer": "The guitar string moves perpendicular to the direction the disturbance travels.",
+        "hint": "Consider the direction of oscillation.",
+        "misconception": "A higher-frequency sound wave remains longitudinal in air.",
+        "steps": [
+          "Identify the physical principle in the question.",
+          "The guitar string moves perpendicular to the direction the disturbance travels."
+        ],
+        "id": "2025-3bi",
+        "title": "Transverse examples",
+        "explanation": "A transverse wave oscillates perpendicular to its direction of travel. Examples must match that displacement pattern."
+      }
+    },
+    {
+      "id": "2025-3bii",
+      "question": "3(b)(ii)",
+      "marks": 2,
+      "topic": "waves",
+      "skill": "transverse-particle-motion",
+      "answer": "The rock vibrates sideways, perpendicular to the upward direction of wave/energy travel.",
+      "learning": "A wave transfers energy without transporting the medium steadily along with it. For a transverse wave, particle displacement is perpendicular to energy transfer.",
+      "questionPage": 9,
+      "markSchemePage": 10,
+      "card": {
+        "kind": "text",
+        "prompt": "A transverse wave travels horizontally along a stretched rope. Describe the motion of a small marked piece of the rope.",
+        "marks": 2,
+        "rubric": [
+          {
+            "point": "The piece oscillates about a position",
+            "patterns": [
+              "oscillat",
+              "vibrat",
+              "moves up and down"
+            ]
+          },
+          {
+            "point": "Its motion is perpendicular to wave travel",
+            "patterns": [
+              "perpendicular",
+              "right angles",
+              "up and down.*horizontal"
+            ]
+          }
+        ],
+        "modelAnswer": "The marked piece oscillates about its equilibrium position. It moves perpendicular to the horizontal direction of wave travel, rather than travelling along the whole rope.",
+        "hint": "Separate the rope’s motion from the wave’s motion.",
+        "misconception": "The rope material does not travel from one end to the other with the wave.",
+        "steps": [
+          "The piece oscillates about a position",
+          "Its motion is perpendicular to wave travel"
+        ],
+        "id": "2025-3bii",
+        "title": "Transverse particle motion",
+        "explanation": "A wave transfers energy without transporting the medium steadily along with it. For a transverse wave, particle displacement is perpendicular to energy transfer."
+      }
+    },
+    {
+      "id": "2025-3biii",
+      "question": "3(b)(iii)",
+      "marks": 2,
+      "topic": "waves",
+      "skill": "wave-distance-subtraction",
+      "answer": "R to L = 4500 × 3.8 = 17100 m; X to R = 20000 − 17100 = 2900 m, about 3000 m.",
+      "learning": "Use speed × time for the stated section of the journey, then subtract from the full path. Convert kilometres to metres first.",
+      "questionPage": 10,
+      "markSchemePage": 11,
+      "card": {
+        "kind": "number",
+        "prompt": "A seismic source is 24 km directly below a station. A wave travels at 4000 m/s and takes 4.5 s from an intermediate point to the station. How far is the intermediate point from the source?",
+        "marks": 2,
+        "answer": 6000,
+        "unit": "m",
+        "tolerance": 72.0,
+        "modelAnswer": "Intermediate point to station = 4000 × 4.5 = 18000 m; source depth = 24000 m; remaining distance = 24000 − 18000 = 6000 m.",
+        "hint": "The timed section is not the whole source-to-station journey.",
+        "misconception": "Do not subtract kilometres from metres.",
+        "steps": [
+          "Intermediate point to station = 4000 × 4.5 = 18000 m",
+          "source depth = 24000 m",
+          "remaining distance = 24000 − 18000 = 6000 m."
+        ],
+        "id": "2025-3biii",
+        "title": "Wave distance subtraction",
+        "explanation": "Use speed × time for the stated section of the journey, then subtract from the full path. Convert kilometres to metres first."
+      }
+    },
+    {
+      "id": "2025-4ai",
+      "question": "4(a)(i)",
+      "marks": 1,
+      "topic": "radioactivity",
+      "skill": "gamma-ionisation",
+      "answer": "Gamma irradiation uses ionising electromagnetic radiation.",
+      "learning": "Gamma rays are high-energy photons and can ionise atoms. In GCSE classification they are electromagnetic waves rather than alpha/beta particles.",
+      "questionPage": 12,
+      "markSchemePage": 12,
+      "card": {
+        "kind": "choice",
+        "prompt": "Gamma rays sterilise sealed medical equipment. Which property makes this possible?",
+        "marks": 1,
+        "options": [
+          "They are ionising electromagnetic radiation",
+          "They are non-ionising sound waves",
+          "They contain helium nuclei",
+          "They contain neutrons only"
+        ],
+        "correctIndex": 0,
+        "modelAnswer": "Gamma rays are ionising electromagnetic radiation and can damage microorganisms.",
+        "hint": "Recall the nature of gamma radiation.",
+        "misconception": "Penetrating ability and ionising ability are different properties.",
+        "steps": [
+          "Identify the physical principle in the question.",
+          "Gamma rays are ionising electromagnetic radiation and can damage microorganisms."
+        ],
+        "id": "2025-4ai",
+        "title": "Gamma ionisation",
+        "explanation": "Gamma rays are high-energy photons and can ionise atoms. In GCSE classification they are electromagnetic waves rather than alpha/beta particles."
+      }
+    },
+    {
+      "id": "2025-4aii",
+      "question": "4(a)(ii)",
+      "marks": 1,
+      "topic": "radioactivity",
+      "skill": "reactor-control-rods",
+      "answer": "Control rods absorb neutrons and control the chain reaction.",
+      "learning": "Control rods remove neutrons; moderators slow them. These are separate jobs in a thermal nuclear reactor.",
+      "questionPage": 12,
+      "markSchemePage": 12,
+      "card": {
+        "kind": "choice",
+        "prompt": "Which reactor component is lowered further into the core to absorb more neutrons?",
+        "marks": 1,
+        "options": [
+          "Moderator",
+          "Control rods",
+          "Turbine",
+          "Generator"
+        ],
+        "correctIndex": 1,
+        "modelAnswer": "Control rods absorb neutrons, reducing further fission events.",
+        "hint": "Distinguish absorption from slowing.",
+        "misconception": "The moderator slows neutrons but is not the main control-rod absorber.",
+        "steps": [
+          "Identify the physical principle in the question.",
+          "Control rods absorb neutrons, reducing further fission events."
+        ],
+        "id": "2025-4aii",
+        "title": "Reactor control rods",
+        "explanation": "Control rods remove neutrons; moderators slow them. These are separate jobs in a thermal nuclear reactor."
+      }
+    },
+    {
+      "id": "2025-4bi",
+      "question": "4(b)(i)",
+      "marks": 2,
+      "topic": "radioactivity",
+      "skill": "decay-percentage",
+      "answer": "At 150 min about 19.5 mg remains from 50 mg; percentage ≈ 39%.",
+      "learning": "Read the remaining quantity from the curve, divide by its initial value and multiply by 100. This is not the percentage that has decayed.",
+      "questionPage": 13,
+      "markSchemePage": 12,
+      "card": {
+        "kind": "number",
+        "prompt": "A decay graph shows an isotope decreasing from 80 mg to 30 mg. What percentage remains?",
+        "marks": 2,
+        "answer": 37.5,
+        "unit": "%",
+        "tolerance": 0.45,
+        "modelAnswer": "Percentage remaining = remaining mass/initial mass × 100; 30/80 × 100 = 37.5%.",
+        "hint": "The question asks what remains.",
+        "misconception": "100 minus this result would be the percentage that decayed.",
+        "steps": [
+          "Percentage remaining = remaining mass/initial mass × 100",
+          "30/80 × 100 = 37.5%."
+        ],
+        "id": "2025-4bi",
+        "title": "Decay percentage",
+        "explanation": "Read the remaining quantity from the curve, divide by its initial value and multiply by 100. This is not the percentage that has decayed."
+      }
+    },
+    {
+      "id": "2025-4bii",
+      "question": "4(b)(ii)",
+      "marks": 2,
+      "topic": "radioactivity",
+      "skill": "positron-annihilation",
+      "answer": "A positron and electron collide and annihilate, releasing energy as a pair of gamma photons.",
+      "learning": "Matter and antimatter can annihilate. The released energy is carried by photons; electric charge and energy remain conserved.",
+      "questionPage": 13,
+      "markSchemePage": 12,
+      "card": {
+        "kind": "text",
+        "prompt": "Describe the event when an emitted positron meets an electron in tissue.",
+        "marks": 2,
+        "rubric": [
+          {
+            "point": "Electron and positron annihilate",
+            "patterns": [
+              "annihilat"
+            ]
+          },
+          {
+            "point": "Energy is released as gamma photons",
+            "patterns": [
+              "gamma.*(photon|ray)",
+              "(emit|releas|produc).*gamma"
+            ]
+          }
+        ],
+        "modelAnswer": "The electron and positron annihilate. Their energy is released as gamma photons, typically a pair travelling in opposite directions.",
+        "hint": "Name both the interaction and its radiation product.",
+        "misconception": "The pair does not simply become a neutron.",
+        "steps": [
+          "Electron and positron annihilate",
+          "Energy is released as gamma photons"
+        ],
+        "id": "2025-4bii",
+        "title": "Positron annihilation",
+        "explanation": "Matter and antimatter can annihilate. The released energy is carried by photons; electric charge and energy remain conserved."
+      }
+    },
+    {
+      "id": "2025-4c",
+      "question": "4(c)",
+      "marks": 3,
+      "topic": "radioactivity",
+      "skill": "nuclear-fission-sequence",
+      "answer": "A neutron is absorbed by uranium, making its nucleus unstable; the nucleus splits into smaller nuclei, releasing energy and further neutrons.",
+      "learning": "Fission involves a nucleus, not a whole atom being mechanically broken. Neutrons released by one event can initiate further events.",
+      "questionPage": 14,
+      "markSchemePage": 13,
+      "card": {
+        "kind": "text",
+        "prompt": "Explain the first stages of neutron-induced fission in a uranium-235 fuel nucleus.",
+        "marks": 3,
+        "rubric": [
+          {
+            "point": "A neutron is absorbed by the nucleus",
+            "patterns": [
+              "neutron.*absor.*nucleus",
+              "nucleus.*absor.*neutron"
+            ]
+          },
+          {
+            "point": "The unstable nucleus splits into smaller nuclei",
+            "patterns": [
+              "nucleus.*(split|break)",
+              "(split|break).*smaller.*nuclei"
+            ]
+          },
+          {
+            "point": "Energy and further neutrons are released",
+            "patterns": [
+              "releas.*neutron",
+              "neutron.*releas"
+            ]
+          }
+        ],
+        "modelAnswer": "A neutron is absorbed by the uranium nucleus, making it unstable. It splits into smaller nuclei and releases energy and additional neutrons, which can cause further fissions.",
+        "hint": "Start with neutron absorption, then follow the unstable nucleus.",
+        "misconception": "Use nucleus rather than saying an electron shell splits.",
+        "steps": [
+          "A neutron is absorbed by the nucleus",
+          "The unstable nucleus splits into smaller nuclei",
+          "Energy and further neutrons are released"
+        ],
+        "id": "2025-4c",
+        "title": "Nuclear fission sequence",
+        "explanation": "Fission involves a nucleus, not a whole atom being mechanically broken. Neutrons released by one event can initiate further events."
+      }
+    },
+    {
+      "id": "2025-4d",
+      "question": "4(d)",
+      "marks": 2,
+      "topic": "radioactivity",
+      "skill": "power-ratio",
+      "answer": "Ratio Finland/UK = 4.4/8.9 ≈ 0.49 to two significant figures.",
+      "learning": "A ratio compares quantities in the same units. When both use GW, the common power-of-ten conversion cancels.",
+      "questionPage": 15,
+      "markSchemePage": 13,
+      "card": {
+        "kind": "number",
+        "prompt": "Country X produces 6.3 GW of nuclear power and country Y produces 9.0 GW. Calculate X/Y as a decimal ratio.",
+        "marks": 2,
+        "answer": 0.7,
+        "unit": "",
+        "tolerance": 0.0084,
+        "modelAnswer": "Ratio = 6.3/9.0 = 0.70.",
+        "hint": "Put the requested first country in the numerator.",
+        "misconception": "The ratio is dimensionless; do not attach GW.",
+        "steps": [
+          "Put the requested first country in the numerator.",
+          "Ratio = 6.3/9.0 = 0.70."
+        ],
+        "id": "2025-4d",
+        "title": "Power ratio",
+        "explanation": "A ratio compares quantities in the same units. When both use GW, the common power-of-ten conversion cancels."
+      }
+    },
+    {
+      "id": "2025-5a",
+      "question": "5(a)",
+      "marks": 4,
+      "topic": "light",
+      "skill": "refraction-practical",
+      "answer": "Outline the block, send a narrow ray into it, mark entry and exit paths, then remove the block and join entry to exit to locate the refracted ray.",
+      "learning": "The ray inside a transparent block is reconstructed from entry and exit points. Recording the outline preserves the boundary geometry.",
+      "questionPage": 17,
+      "markSchemePage": 14,
+      "card": {
+        "kind": "text",
+        "prompt": "Describe how to trace the path of a narrow light ray through a rectangular transparent block on paper.",
+        "marks": 4,
+        "rubric": [
+          {
+            "point": "Draw around the block",
+            "patterns": [
+              "draw.*around.*block",
+              "(trace|mark).*outline"
+            ]
+          },
+          {
+            "point": "Shine a narrow ray at the block",
+            "patterns": [
+              "(shine|send|direct).*ray.*block",
+              "ray box.*block"
+            ]
+          },
+          {
+            "point": "Mark where it enters and leaves",
+            "patterns": [
+              "(entry|enters|incident).*(exit|leav|emerg)",
+              "(exit|leav|emerg).*(entry|enters|incident)"
+            ]
+          },
+          {
+            "point": "Join entry and exit positions",
+            "patterns": [
+              "join.*(entry|points|marks)",
+              "connect.*(entry|points|marks)"
+            ]
+          }
+        ],
+        "modelAnswer": "Draw around the block on paper. Shine a narrow ray at the block and mark its entry and exit positions and the outside ray paths. Remove the block and join the entry and exit marks to show the ray within it.",
+        "hint": "How can you preserve the ray path after removing the block?",
+        "misconception": "Joining only two marks on the same outside ray does not trace the internal refracted ray.",
+        "steps": [
+          "Draw around the block",
+          "Shine a narrow ray at the block",
+          "Mark where it enters and leaves",
+          "Join entry and exit positions"
+        ],
+        "id": "2025-5a",
+        "title": "Refraction practical",
+        "explanation": "The ray inside a transparent block is reconstructed from entry and exit points. Recording the outline preserves the boundary geometry."
+      }
+    },
+    {
+      "id": "2025-5bi",
+      "question": "5(b)(i)",
+      "marks": 1,
+      "topic": "light",
+      "skill": "wavelength-at-boundary",
+      "answer": "The wavelength increases as light passes from glass into air.",
+      "learning": "At a boundary the frequency stays fixed. As light speeds up on entering air from glass, v = fλ requires a larger wavelength.",
+      "questionPage": 18,
+      "markSchemePage": 14,
+      "card": {
+        "kind": "choice",
+        "prompt": "Green light passes from glass into air. Its frequency stays the same. What happens to wavelength?",
+        "marks": 1,
+        "options": [
+          "It increases",
+          "It decreases",
+          "It becomes zero",
+          "It must remain unchanged"
+        ],
+        "correctIndex": 0,
+        "modelAnswer": "Light travels faster in air, so at fixed frequency its wavelength increases.",
+        "hint": "Use v = fλ.",
+        "misconception": "Constant frequency does not imply constant wavelength.",
+        "steps": [
+          "Identify the physical principle in the question.",
+          "Light travels faster in air, so at fixed frequency its wavelength increases."
+        ],
+        "id": "2025-5bi",
+        "title": "Wavelength at boundary",
+        "explanation": "At a boundary the frequency stays fixed. As light speeds up on entering air from glass, v = fλ requires a larger wavelength."
+      }
+    },
+    {
+      "id": "2025-5bii",
+      "question": "5(b)(ii)",
+      "marks": 1,
+      "topic": "light",
+      "skill": "frequency-at-boundary",
+      "answer": "The frequency stays unchanged when light crosses the boundary.",
+      "learning": "The source sets the oscillation frequency. A boundary changes speed and wavelength, but the rate of wavefront arrival remains continuous.",
+      "questionPage": 18,
+      "markSchemePage": 14,
+      "card": {
+        "kind": "choice",
+        "prompt": "A red laser beam enters water from air. Which quantity stays unchanged at the boundary?",
+        "marks": 1,
+        "options": [
+          "Speed",
+          "Wavelength",
+          "Frequency",
+          "Direction in every case"
+        ],
+        "correctIndex": 2,
+        "modelAnswer": "Frequency stays the same; speed and wavelength generally decrease in water.",
+        "hint": "The light source sets how many oscillations occur each second.",
+        "misconception": "Refraction does not turn red light into a different frequency colour.",
+        "steps": [
+          "Identify the physical principle in the question.",
+          "Frequency stays the same; speed and wavelength generally decrease in water."
+        ],
+        "id": "2025-5bii",
+        "title": "Frequency at boundary",
+        "explanation": "The source sets the oscillation frequency. A boundary changes speed and wavelength, but the rate of wavefront arrival remains continuous."
+      }
+    },
+    {
+      "id": "2025-5biii",
+      "question": "5(b)(iii)",
+      "marks": 3,
+      "topic": "light",
+      "skill": "light-speed-change",
+      "answer": "Speed in glass = 6.4 × 10¹⁴ × 350 × 10⁻⁹ = 2.24 × 10⁸ m/s; decrease = 7.6 × 10⁷ m/s.",
+      "learning": "Calculate the speed in the second medium using its wavelength, then subtract it from the original speed. Convert nm to m before multiplying.",
+      "questionPage": 19,
+      "markSchemePage": 15,
+      "card": {
+        "kind": "number",
+        "prompt": "Light of frequency 5.0 × 10¹⁴ Hz has wavelength 420 nm in a block. Its speed in air is 3.0 × 10⁸ m/s. Calculate the decrease in speed on entering the block.",
+        "marks": 3,
+        "answer": 90000000.0,
+        "unit": "m/s",
+        "tolerance": 1080000.0,
+        "modelAnswer": "420 nm = 4.20 × 10⁻⁷ m; speed in block = 5.0 × 10¹⁴ × 4.20 × 10⁻⁷ = 2.10 × 10⁸ m/s; decrease = 3.0 × 10⁸ − 2.10 × 10⁸ = 9.0 × 10⁷ m/s.",
+        "hint": "Find the speed in the block before finding the change.",
+        "misconception": "The speed in the medium and the change in speed are different answers.",
+        "steps": [
+          "420 nm = 4.20 × 10⁻⁷ m",
+          "speed in block = 5.0 × 10¹⁴ × 4.20 × 10⁻⁷ = 2.10 × 10⁸ m/s",
+          "decrease = 3.0 × 10⁸ − 2.10 × 10⁸ = 9.0 × 10⁷ m/s."
+        ],
+        "id": "2025-5biii",
+        "title": "Light speed change",
+        "explanation": "Calculate the speed in the second medium using its wavelength, then subtract it from the original speed. Convert nm to m before multiplying.",
+        "variants": [
+          {
+            "prompt": "Light of frequency 5.0 × 10¹⁴ Hz has wavelength 400 nm inside a block. Its speed in air is 3.0 × 10⁸ m/s. Find the decrease in speed on entering the block.",
+            "answer": 100000000.0,
+            "modelAnswer": "Speed in block = 5.0 × 10¹⁴ × 400 × 10⁻⁹ = 2.0 × 10⁸ m/s. Decrease = 1.0 × 10⁸ m/s."
+          },
+          {
+            "prompt": "Light of frequency 6.0 × 10¹⁴ Hz has wavelength 400 nm inside a block. Its speed in air is 3.0 × 10⁸ m/s. Find the decrease in speed on entering the block.",
+            "answer": 60000000.0,
+            "modelAnswer": "Speed in block = 6.0 × 10¹⁴ × 400 × 10⁻⁹ = 2.4 × 10⁸ m/s. Decrease = 6.0 × 10⁷ m/s."
+          }
+        ]
+      }
+    },
+    {
+      "id": "2025-6ai",
+      "question": "6(a)(i)",
+      "marks": 2,
+      "topic": "energy",
+      "skill": "gpe-vertical-height",
+      "answer": "h = 39000/(70 × 10) ≈ 55.7 m, about 56 m.",
+      "learning": "Gravitational potential energy uses the vertical height. A slope’s length can be much larger than its vertical height.",
+      "questionPage": 20,
+      "markSchemePage": 16,
+      "card": {
+        "kind": "number",
+        "prompt": "A 55 kg skier loses 22000 J of gravitational potential energy. Take g = 10 N/kg. Calculate the vertical drop.",
+        "marks": 2,
+        "answer": 40,
+        "unit": "m",
+        "tolerance": 0.48,
+        "modelAnswer": "ΔGPE = mgh; h = 22000/(55 × 10) = 40 m.",
+        "hint": "Divide energy by mass times gravitational field strength.",
+        "misconception": "Do not substitute the distance down the slope for vertical height.",
+        "steps": [
+          "ΔGPE = mgh",
+          "h = 22000/(55 × 10) = 40 m."
+        ],
+        "id": "2025-6ai",
+        "title": "Gpe vertical height",
+        "explanation": "Gravitational potential energy uses the vertical height. A slope’s length can be much larger than its vertical height."
+      }
+    },
+    {
+      "id": "2025-6aii",
+      "question": "6(a)(ii)",
+      "marks": 3,
+      "topic": "motion",
+      "skill": "suvat-acceleration",
+      "answer": "a = (27² − 0²)/(2 × 200) = 1.8225 m/s², about 1.8 m/s².",
+      "learning": "Select an equation containing the quantities you know. Here distance along the slope and two velocities are known, so no time is needed.",
+      "questionPage": 20,
+      "markSchemePage": 16,
+      "card": {
+        "kind": "number",
+        "prompt": "A sled starts from rest and reaches 18 m/s after travelling 90 m down a straight slope at constant acceleration. Find its acceleration.",
+        "marks": 3,
+        "answer": 1.8,
+        "unit": "m/s²",
+        "tolerance": 0.0216,
+        "modelAnswer": "v² − u² = 2as; a = (18² − 0²)/(2 × 90) = 1.8 m/s².",
+        "hint": "Use the distance travelled along the slope.",
+        "misconception": "Do not use vertical height in a calculation of acceleration along the track.",
+        "steps": [
+          "v² − u² = 2as",
+          "a = (18² − 0²)/(2 × 90) = 1.8 m/s²."
+        ],
+        "id": "2025-6aii",
+        "title": "Suvat acceleration",
+        "explanation": "Select an equation containing the quantities you know. Here distance along the slope and two velocities are known, so no time is needed."
+      }
+    },
+    {
+      "id": "2025-6aiii",
+      "question": "6(a)(iii)",
+      "marks": 2,
+      "topic": "energy",
+      "skill": "dissipation-from-energy-difference",
+      "answer": "Calculate initial GPE and final KE; their difference is the dissipated energy: 39000 − 25515 = 13485 J.",
+      "learning": "Account for useful mechanical stores before and after. Any deficit in mechanical energy is transferred to other stores, typically thermal energy.",
+      "questionPage": 21,
+      "markSchemePage": 17,
+      "card": {
+        "kind": "text",
+        "prompt": "A snowboarder starts from rest with 18000 J of gravitational potential energy and reaches the bottom with 13200 J of kinetic energy. Explain how to find the energy dissipated.",
+        "marks": 2,
+        "rubric": [
+          {
+            "point": "Compare initial gravitational energy and final kinetic energy",
+            "patterns": [
+              "(initial|start|gravitational|potential).*energy.*(final|kinetic|bottom)",
+              "(gpe|potential).*ke"
+            ]
+          },
+          {
+            "point": "Subtract final kinetic energy from initial potential energy",
+            "patterns": [
+              "18000\\s*[-−]\\s*13200",
+              "4800",
+              "subtract.*kinetic.*(potential|gravitational)"
+            ]
+          }
+        ],
+        "modelAnswer": "Compare the initial gravitational potential energy with the final kinetic energy. Subtract the final kinetic energy from the initial potential energy: 18000 − 13200 = 4800 J. This energy has been transferred to other stores.",
+        "hint": "Mechanical energy lost is input minus useful output.",
+        "misconception": "The missing kinetic energy has not been destroyed.",
+        "steps": [
+          "Compare initial gravitational energy and final kinetic energy",
+          "Subtract final kinetic energy from initial potential energy"
+        ],
+        "id": "2025-6aiii",
+        "title": "Dissipation from energy difference",
+        "explanation": "Account for useful mechanical stores before and after. Any deficit in mechanical energy is transferred to other stores, typically thermal energy."
+      }
+    },
+    {
+      "id": "2025-6bi",
+      "question": "6(b)(i)",
+      "marks": 1,
+      "topic": "motion",
+      "skill": "turning-velocity",
+      "answer": "The athletes’ direction changes; velocity includes direction.",
+      "learning": "Acceleration means changing velocity. A turning object accelerates even when its speed reading is constant.",
+      "questionPage": 21,
+      "markSchemePage": 17,
+      "card": {
+        "kind": "choice",
+        "prompt": "A runner rounds a bend at constant speed. Why is the runner accelerating?",
+        "marks": 1,
+        "options": [
+          "Their mass increases",
+          "Their direction of velocity changes",
+          "Their speed must be increasing",
+          "Their kinetic energy must be increasing"
+        ],
+        "correctIndex": 1,
+        "modelAnswer": "The direction of velocity changes, so velocity changes and there is acceleration.",
+        "hint": "Velocity is a vector.",
+        "misconception": "Constant speed is not always constant velocity.",
+        "steps": [
+          "Identify the physical principle in the question.",
+          "The direction of velocity changes, so velocity changes and there is acceleration."
+        ],
+        "id": "2025-6bi",
+        "title": "Turning velocity",
+        "explanation": "Acceleration means changing velocity. A turning object accelerates even when its speed reading is constant."
+      }
+    },
+    {
+      "id": "2025-6bii",
+      "question": "6(b)(ii)",
+      "marks": 2,
+      "topic": "motion",
+      "skill": "tangent-instantaneous-speed",
+      "answer": "Draw a tangent at 2.5 s; its gradient is approximately 6 m/s, with 5–7 m/s accepted.",
+      "learning": "For a curved distance–time graph, instantaneous speed is the gradient of a tangent at that instant, not the gradient from the origin.",
+      "questionPage": 22,
+      "markSchemePage": 18,
+      "card": {
+        "kind": "number",
+        "prompt": "At one instant a tangent to a distance–time curve passes through (1.0 s, 2.0 m) and (4.0 s, 23.0 m). Calculate the instantaneous speed.",
+        "marks": 2,
+        "answer": 7,
+        "unit": "m/s",
+        "tolerance": 0.084,
+        "modelAnswer": "Instantaneous speed = tangent gradient; (23 − 2)/(4 − 1) = 21/3 = 7.0 m/s.",
+        "hint": "Use the tangent’s coordinates, not the curve’s overall endpoints.",
+        "misconception": "A chord gives an average speed, not necessarily the instantaneous speed.",
+        "steps": [
+          "Instantaneous speed = tangent gradient",
+          "(23 − 2)/(4 − 1) = 21/3 = 7.0 m/s."
+        ],
+        "id": "2025-6bii",
+        "title": "Tangent instantaneous speed",
+        "explanation": "For a curved distance–time graph, instantaneous speed is the gradient of a tangent at that instant, not the gradient from the origin."
+      }
+    },
+    {
+      "id": "2025-7a",
+      "question": "7(a)",
+      "marks": 2,
+      "topic": "light",
+      "skill": "lens-power-shape",
+      "answer": "A more powerful lens has a shorter focal length and greater curvature (smaller radius of curvature).",
+      "learning": "Greater lens curvature produces stronger refraction. The power magnitude is inversely related to focal length measured in metres.",
+      "questionPage": 23,
+      "markSchemePage": 19,
+      "card": {
+        "kind": "text",
+        "prompt": "Compare a weak converging lens with a more powerful converging lens. State how focal length and surface curvature differ.",
+        "marks": 2,
+        "rubric": [
+          {
+            "point": "More powerful lens has shorter focal length",
+            "patterns": [
+              "(more powerful|stronger).*shorter.*focal",
+              "focal.*(shorter|decreas)"
+            ]
+          },
+          {
+            "point": "More powerful lens is more curved",
+            "patterns": [
+              "(more|greater).*curv",
+              "smaller.*radius",
+              "(thicker|fatter|more convex)"
+            ]
+          }
+        ],
+        "modelAnswer": "The more powerful lens has a shorter focal length. Its surfaces are more strongly curved, with a smaller radius of curvature.",
+        "hint": "A stronger bend in the light brings the focus nearer.",
+        "misconception": "Do not confuse a larger radius of curvature with more strongly curved surfaces.",
+        "steps": [
+          "More powerful lens has shorter focal length",
+          "More powerful lens is more curved"
+        ],
+        "id": "2025-7a",
+        "title": "Lens power shape",
+        "explanation": "Greater lens curvature produces stronger refraction. The power magnitude is inversely related to focal length measured in metres."
+      }
+    },
+    {
+      "id": "2025-7bi",
+      "question": "7(b)(i)",
+      "marks": 1,
+      "topic": "light",
+      "skill": "virtual-lens-image-examples",
+      "answer": "A magnifying glass used with an object inside its focal length gives a virtual image; a diverging lens also gives a virtual image of a real object.",
+      "learning": "A converging lens can form a virtual image if the object is closer than its focal point. A diverging lens forms virtual images for ordinary real objects.",
+      "questionPage": 23,
+      "markSchemePage": 19,
+      "card": {
+        "kind": "choice",
+        "prompt": "A stamp is placed closer to a converging lens than its focal length. What type of image is seen through the lens?",
+        "marks": 1,
+        "options": [
+          "A virtual magnified image",
+          "A real inverted image on a screen",
+          "No image is possible",
+          "A real image behind the viewer"
+        ],
+        "correctIndex": 0,
+        "modelAnswer": "With the object inside the focal length, the lens acts as a magnifier and produces a virtual upright enlarged image.",
+        "hint": "Think about a magnifying glass.",
+        "misconception": "A converging lens does not always form a real image.",
+        "steps": [
+          "Identify the physical principle in the question.",
+          "With the object inside the focal length, the lens acts as a magnifier and produces a virtual upright enlarged image."
+        ],
+        "id": "2025-7bi",
+        "title": "Virtual lens image examples",
+        "explanation": "A converging lens can form a virtual image if the object is closer than its focal point. A diverging lens forms virtual images for ordinary real objects."
+      }
+    },
+    {
+      "id": "2025-7bii",
+      "question": "7(b)(ii)",
+      "marks": 1,
+      "topic": "light",
+      "skill": "real-lens-image-examples",
+      "answer": "A camera forms a real image on a sensor; a projector or the eye can also form real images.",
+      "learning": "Real images form where actual rays converge, so they can be recorded on a sensor or projected onto a screen.",
+      "questionPage": 23,
+      "markSchemePage": 19,
+      "card": {
+        "kind": "choice",
+        "prompt": "Which is a real image formed by a lens?",
+        "marks": 1,
+        "options": [
+          "The image of your face in a plane mirror",
+          "A photograph focused onto a camera sensor",
+          "The virtual view through an ordinary magnifying glass",
+          "An image formed only by extending diverging rays backwards"
+        ],
+        "correctIndex": 1,
+        "modelAnswer": "A camera lens converges actual rays onto the sensor, forming a real image.",
+        "hint": "Look for rays physically meeting at the recording surface.",
+        "misconception": "A real image does not mean that the object itself is on the screen.",
+        "steps": [
+          "Identify the physical principle in the question.",
+          "A camera lens converges actual rays onto the sensor, forming a real image."
+        ],
+        "id": "2025-7bii",
+        "title": "Real lens image examples",
+        "explanation": "Real images form where actual rays converge, so they can be recorded on a sensor or projected onto a screen."
+      }
+    },
+    {
+      "id": "2025-7c",
+      "question": "7(c)",
+      "marks": 3,
+      "topic": "light",
+      "skill": "critical-angle-transition",
+      "answer": "As internal incidence rises, the refraction angle rises; at 38° incidence the emerging ray runs along the face, and above 38° there is total internal reflection.",
+      "learning": "Total internal reflection occurs only for travel towards a lower refractive index and an incidence angle greater than the critical angle. At the critical angle, the refracted angle is 90°.",
+      "questionPage": 24,
+      "markSchemePage": 20,
+      "card": {
+        "kind": "text",
+        "prompt": "A transparent block has critical angle 42° at its boundary with air. Describe the ray as its internal incidence angle increases from 30° to 50°.",
+        "marks": 3,
+        "rubric": [
+          {
+            "point": "Below critical angle the ray refracts away from the normal",
+            "patterns": [
+              "refract.*away.*normal",
+              "(outside|refraction).*angle.*increas"
+            ]
+          },
+          {
+            "point": "At 42 degrees the refracted ray is along the boundary",
+            "patterns": [
+              "42.*(90|along|boundary|surface)",
+              "critical.*(90|along)"
+            ]
+          },
+          {
+            "point": "Above 42 degrees total internal reflection occurs",
+            "patterns": [
+              "(above|greater|exceed).*42.*(total|reflect)",
+              "total internal reflection"
+            ]
+          }
+        ],
+        "modelAnswer": "Below 42°, part of the light refracts into air away from the normal. At 42°, the refracted ray runs along the boundary. Above 42°, the ray undergoes total internal reflection within the block.",
+        "hint": "Describe below, at and above the critical angle separately.",
+        "misconception": "The critical angle is measured inside the block from the normal.",
+        "steps": [
+          "Below critical angle the ray refracts away from the normal",
+          "At 42 degrees the refracted ray is along the boundary",
+          "Above 42 degrees total internal reflection occurs"
+        ],
+        "id": "2025-7c",
+        "title": "Critical angle transition",
+        "explanation": "Total internal reflection occurs only for travel towards a lower refractive index and an incidence angle greater than the critical angle. At the critical angle, the refracted angle is 90°."
+      }
+    },
+    {
+      "id": "2025-7d",
+      "question": "7(d)",
+      "marks": 4,
+      "topic": "electromagnetic",
+      "skill": "radiative-equilibrium",
+      "answer": "Ceres absorbs solar radiation and emits thermal radiation; a constant temperature occurs when the absorbed and emitted powers balance.",
+      "learning": "An object at steady temperature can still exchange energy. It stays steady because equal amounts enter and leave each second, not because both transfers stop.",
+      "questionPage": 25,
+      "markSchemePage": 21,
+      "card": {
+        "kind": "text",
+        "prompt": "A dark rock in space receives sunlight and eventually settles at a steady temperature. Explain this energy balance.",
+        "marks": 4,
+        "rubric": [
+          {
+            "point": "The rock absorbs radiation from the Sun",
+            "patterns": [
+              "absor.*(sun|radiation|energy)",
+              "solar.*energy.*absor"
+            ]
+          },
+          {
+            "point": "It emits thermal radiation",
+            "patterns": [
+              "emit.*(thermal|infrared|radiation)",
+              "radiat.*energy.*(away|out)"
+            ]
+          },
+          {
+            "point": "A hotter rock emits more energy per second",
+            "patterns": [
+              "(hotter|temperature.*increas).*emit.*(more|greater)",
+              "emission.*increas.*temperature"
+            ]
+          },
+          {
+            "point": "Steady temperature means equal absorbed and emitted powers",
+            "patterns": [
+              "(equal|balance|same).*(power|rate)",
+              "(power|rate).*(equal|balance|same)"
+            ]
+          }
+        ],
+        "modelAnswer": "The rock absorbs radiation from the Sun and emits thermal radiation. A hotter rock emits more energy per second. A steady temperature is reached when absorbed power equals emitted power, so there is no net energy gain each second.",
+        "hint": "A steady temperature does not mean energy transfers stop.",
+        "misconception": "Compare energy per second, not just total energy over unrelated times.",
+        "steps": [
+          "The rock absorbs radiation from the Sun",
+          "It emits thermal radiation",
+          "A hotter rock emits more energy per second",
+          "Steady temperature means equal absorbed and emitted powers"
+        ],
+        "id": "2025-7d",
+        "title": "Radiative equilibrium",
+        "explanation": "An object at steady temperature can still exchange energy. It stays steady because equal amounts enter and leave each second, not because both transfers stop."
+      }
+    },
+    {
+      "id": "2025-8ai",
+      "question": "8(a)(i)",
+      "marks": 3,
+      "topic": "forces",
+      "skill": "momentum-value-unit",
+      "answer": "p = 0.43 × 36 = 15.48 kg m/s, about 15 kg m/s.",
+      "learning": "Momentum equals mass times velocity and has units kg m/s, equivalently N s. Direction matters when combining momenta.",
+      "questionPage": 26,
+      "markSchemePage": 22,
+      "card": {
+        "kind": "number",
+        "prompt": "A 0.60 kg hockey puck travels at 14 m/s. Calculate the magnitude of its momentum.",
+        "marks": 3,
+        "answer": 8.4,
+        "unit": "kg m/s",
+        "tolerance": 0.1008,
+        "modelAnswer": "p = mv; p = 0.60 × 14 = 8.4 kg m/s.",
+        "hint": "Multiply mass in kg by velocity in m/s.",
+        "misconception": "Momentum is not measured in joules.",
+        "steps": [
+          "p = mv",
+          "p = 0.60 × 14 = 8.4 kg m/s."
+        ],
+        "id": "2025-8ai",
+        "title": "Momentum value unit",
+        "explanation": "Momentum equals mass times velocity and has units kg m/s, equivalently N s. Direction matters when combining momenta.",
+        "variants": [
+          {
+            "prompt": "A 0.80 kg puck travels at 11 m/s. Calculate the magnitude of its momentum.",
+            "answer": 8.8,
+            "modelAnswer": "p = mv = 0.80 × 11 = 8.8 kg m/s."
+          },
+          {
+            "prompt": "A 0.40 kg ball travels at 18 m/s. Calculate the magnitude of its momentum.",
+            "answer": 7.2,
+            "modelAnswer": "p = mv = 0.40 × 18 = 7.2 kg m/s."
+          }
+        ]
+      }
+    },
+    {
+      "id": "2025-8aii",
+      "question": "8(a)(ii)",
+      "marks": 2,
+      "topic": "forces",
+      "skill": "impulse-contact-time",
+      "answer": "t = Δp/F = 15.48/2700 ≈ 0.00573 s; using rounded momentum gives about 0.0056 s.",
+      "learning": "Impulse links the time a force acts to the momentum change. Keep intermediate momentum unrounded when possible.",
+      "questionPage": 26,
+      "markSchemePage": 22,
+      "card": {
+        "kind": "number",
+        "prompt": "A bat changes a ball’s momentum by 6.0 kg m/s with an average force of 1500 N. Calculate the contact time.",
+        "marks": 2,
+        "answer": 0.004,
+        "unit": "s",
+        "tolerance": 4.8e-05,
+        "modelAnswer": "F = Δp/Δt; Δt = 6.0/1500 = 0.0040 s.",
+        "hint": "Rearrange the impulse equation to make time the subject.",
+        "misconception": "The contact time can be much less than a second.",
+        "steps": [
+          "F = Δp/Δt",
+          "Δt = 6.0/1500 = 0.0040 s."
+        ],
+        "id": "2025-8aii",
+        "title": "Impulse contact time",
+        "explanation": "Impulse links the time a force acts to the momentum change. Keep intermediate momentum unrounded when possible."
+      }
+    },
+    {
+      "id": "2025-8aiii",
+      "question": "8(a)(iii)",
+      "marks": 3,
+      "topic": "forces",
+      "skill": "newton-third-law-pairs",
+      "answer": "The foot pushes the ball and the ball pushes the foot with forces of equal magnitude in opposite directions.",
+      "learning": "Newton’s third-law forces act on different objects. They do not cancel as a pair on one object, and they occur simultaneously.",
+      "questionPage": 27,
+      "markSchemePage": 23,
+      "card": {
+        "kind": "text",
+        "prompt": "A skater pushes against a wall with a hand. Explain the Newton’s third-law force pair.",
+        "marks": 3,
+        "rubric": [
+          {
+            "point": "The hand exerts a force on the wall",
+            "patterns": [
+              "hand.*(push|force).*wall",
+              "skater.*(push|force).*wall"
+            ]
+          },
+          {
+            "point": "The wall exerts a force on the hand",
+            "patterns": [
+              "wall.*(push|force).*hand",
+              "wall.*(push|force).*skater"
+            ]
+          },
+          {
+            "point": "Forces are equal and opposite",
+            "patterns": [
+              "equal.*opposite",
+              "same.*(size|magnitude).*opposite"
+            ]
+          }
+        ],
+        "modelAnswer": "The hand pushes on the wall, and the wall pushes on the hand. These forces are equal in magnitude and opposite in direction, and act on different objects.",
+        "hint": "Name the object each force acts on.",
+        "misconception": "Two opposite forces on the same object are not a Newton’s third-law pair.",
+        "steps": [
+          "The hand exerts a force on the wall",
+          "The wall exerts a force on the hand",
+          "Forces are equal and opposite"
+        ],
+        "id": "2025-8aiii",
+        "title": "Newton third law pairs",
+        "explanation": "Newton’s third-law forces act on different objects. They do not cancel as a pair on one object, and they occur simultaneously."
+      }
+    },
+    {
+      "id": "2025-8b",
+      "question": "8(b)",
+      "marks": 3,
+      "topic": "forces",
+      "skill": "sticking-collision-speed",
+      "answer": "The system momentum is conserved; after sticking, a larger total mass moves, so p = mv requires a smaller velocity.",
+      "learning": "In an isolated sticking collision, total momentum stays fixed while the moving mass increases. A lower shared speed follows from p = mv.",
+      "questionPage": 28,
+      "markSchemePage": 23,
+      "card": {
+        "kind": "text",
+        "prompt": "A moving trolley sticks to an identical stationary trolley on a low-friction track. Explain why their shared speed is lower.",
+        "marks": 3,
+        "rubric": [
+          {
+            "point": "Total momentum is conserved",
+            "patterns": [
+              "momentum.*conserv",
+              "momentum.*(constant|same)"
+            ]
+          },
+          {
+            "point": "The mass moving after collision is greater",
+            "patterns": [
+              "(more|greater|larger|double|twice).*mass",
+              "mass.*(increas|double|twice)"
+            ]
+          },
+          {
+            "point": "For p=mv the greater mass implies lower speed",
+            "patterns": [
+              "p\\s*=\\s*m\\s*v",
+              "momentum.*mass.*velocity",
+              "(lower|smaller|less).*speed"
+            ]
+          }
+        ],
+        "modelAnswer": "Total momentum is conserved. After sticking, twice the mass is moving. Since p = mv and p stays the same, their common velocity is half the original moving trolley’s velocity.",
+        "hint": "Compare the total moving mass before and after.",
+        "misconception": "Kinetic energy need not be conserved when trolleys stick.",
+        "steps": [
+          "Total momentum is conserved",
+          "The mass moving after collision is greater",
+          "For p=mv the greater mass implies lower speed"
+        ],
+        "id": "2025-8b",
+        "title": "Sticking collision speed",
+        "explanation": "In an isolated sticking collision, total momentum stays fixed while the moving mass increases. A lower shared speed follows from p = mv."
+      }
+    },
+    {
+      "id": "2025-9ai",
+      "question": "9(a)(i)",
+      "marks": 1,
+      "topic": "radioactivity",
+      "skill": "activity-unit",
+      "answer": "The activity unit is the becquerel, Bq.",
+      "learning": "One becquerel means one nuclear decay per second. Detector count rate may differ from activity because not every emitted particle is detected.",
+      "questionPage": 29,
+      "markSchemePage": 24,
+      "card": {
+        "kind": "choice",
+        "prompt": "A source has activity 360 Bq. What does this mean?",
+        "marks": 1,
+        "options": [
+          "360 nuclear decays each second",
+          "360 joules stored",
+          "360 particles detected every minute necessarily",
+          "360 years of half-life"
+        ],
+        "correctIndex": 0,
+        "modelAnswer": "An activity of 360 Bq means an average of 360 nuclear decays per second.",
+        "hint": "Recall what one becquerel measures.",
+        "misconception": "Activity and the count recorded by a particular detector are not always equal.",
+        "steps": [
+          "Identify the physical principle in the question.",
+          "An activity of 360 Bq means an average of 360 nuclear decays per second."
+        ],
+        "id": "2025-9ai",
+        "title": "Activity unit",
+        "explanation": "One becquerel means one nuclear decay per second. Detector count rate may differ from activity because not every emitted particle is detected."
+      }
+    },
+    {
+      "id": "2025-9aii",
+      "question": "9(a)(ii)",
+      "marks": 1,
+      "topic": "radioactivity",
+      "skill": "radiation-penetration-order",
+      "answer": "In increasing penetration: alpha, beta, gamma.",
+      "learning": "Alpha is strongly ionising but weakly penetrating. Gamma is weakly ionising per path length but highly penetrating; beta is intermediate.",
+      "questionPage": 29,
+      "markSchemePage": 24,
+      "card": {
+        "kind": "choice",
+        "prompt": "Which order goes from most penetrating to least penetrating?",
+        "marks": 1,
+        "options": [
+          "Alpha, beta, gamma",
+          "Gamma, beta, alpha",
+          "Beta, gamma, alpha",
+          "Gamma, alpha, beta"
+        ],
+        "correctIndex": 1,
+        "modelAnswer": "Gamma is most penetrating, then beta, then alpha.",
+        "hint": "Check whether the question asks for increasing or decreasing penetration.",
+        "misconception": "Do not confuse penetration with ionising strength.",
+        "steps": [
+          "Identify the physical principle in the question.",
+          "Gamma is most penetrating, then beta, then alpha."
+        ],
+        "id": "2025-9aii",
+        "title": "Radiation penetration order",
+        "explanation": "Alpha is strongly ionising but weakly penetrating. Gamma is weakly ionising per path length but highly penetrating; beta is intermediate."
+      }
+    },
+    {
+      "id": "2025-9aiii",
+      "question": "9(a)(iii)",
+      "marks": 2,
+      "topic": "energy",
+      "skill": "particle-kinetic-energy",
+      "answer": "KE = ½ × 9.1 × 10⁻³¹ × (3.8 × 10⁶)² ≈ 6.57 × 10⁻¹⁸ J.",
+      "learning": "Square the entire speed, including its power of ten, in KE = ½mv². Very small masses still carry kinetic energy.",
+      "questionPage": 29,
+      "markSchemePage": 24,
+      "card": {
+        "kind": "number",
+        "prompt": "An electron of mass 9.1 × 10⁻³¹ kg moves at 2.0 × 10⁶ m/s. Calculate its kinetic energy using KE = ½mv².",
+        "marks": 2,
+        "answer": 1.82e-18,
+        "unit": "J",
+        "tolerance": 2.184e-20,
+        "modelAnswer": "v² = (2.0 × 10⁶)² = 4.0 × 10¹²; KE = ½ × 9.1 × 10⁻³¹ × 4.0 × 10¹² = 1.82 × 10⁻¹⁸ J.",
+        "hint": "Square both the 2.0 and the 10⁶ factor.",
+        "misconception": "Squaring 10⁶ gives 10¹², not 10³⁶.",
+        "steps": [
+          "v² = (2.0 × 10⁶)² = 4.0 × 10¹²",
+          "KE = ½ × 9.1 × 10⁻³¹ × 4.0 × 10¹² = 1.82 × 10⁻¹⁸ J."
+        ],
+        "id": "2025-9aiii",
+        "title": "Particle kinetic energy",
+        "explanation": "Square the entire speed, including its power of ten, in KE = ½mv². Very small masses still carry kinetic energy."
+      }
+    },
+    {
+      "id": "2025-9b",
+      "question": "9(b)",
+      "marks": 2,
+      "topic": "radioactivity",
+      "skill": "beta-plus-decay",
+      "answer": "A proton changes into a neutron; a positron is emitted, so atomic number falls by one while mass number remains unchanged.",
+      "learning": "Beta-plus decay changes the identity of one nucleon rather than ejecting a whole nucleon. A proton becomes a neutron and a positron is emitted.",
+      "questionPage": 30,
+      "markSchemePage": 25,
+      "card": {
+        "kind": "text",
+        "prompt": "Describe the nuclear change in beta-plus decay and state how proton number changes.",
+        "marks": 2,
+        "rubric": [
+          {
+            "point": "A proton becomes a neutron",
+            "patterns": [
+              "proton.*(become|chang|turn).*neutron",
+              "p\\s*[→>-]+\\s*n"
+            ]
+          },
+          {
+            "point": "Proton number decreases by one",
+            "patterns": [
+              "(proton|atomic).*number.*(decreas|fall|reduc).*1",
+              "(proton|atomic).*number.*(decreas|fall|reduc).*one"
+            ]
+          }
+        ],
+        "modelAnswer": "A proton in the nucleus changes into a neutron and a positron is emitted. The proton number decreases by one, while the mass number is unchanged.",
+        "hint": "The emitted positron has positive charge.",
+        "misconception": "Beta-plus and beta-minus change proton number in opposite directions.",
+        "steps": [
+          "A proton becomes a neutron",
+          "Proton number decreases by one"
+        ],
+        "id": "2025-9b",
+        "title": "Beta plus decay",
+        "explanation": "Beta-plus decay changes the identity of one nucleon rather than ejecting a whole nucleon. A proton becomes a neutron and a positron is emitted."
+      }
+    },
+    {
+      "id": "2025-9c",
+      "question": "9(c)",
+      "marks": 6,
+      "topic": "radioactivity",
+      "skill": "alpha-gamma-decay-comparison",
+      "answer": "Alpha emission ejects a helium nucleus, decreasing A by 4 and Z by 2. Gamma emission releases a photon from an excited nucleus with A and Z unchanged.",
+      "learning": "A useful comparison covers the radiation’s nature and the effect on the parent nucleus for each type. Gamma changes nuclear energy; alpha changes nuclear composition.",
+      "questionPage": 31,
+      "markSchemePage": 26,
+      "card": {
+        "kind": "text",
+        "prompt": "Compare alpha decay and gamma decay, including the emitted radiation and what happens to the original nucleus.",
+        "marks": 6,
+        "rubric": [
+          {
+            "point": "Alpha is two protons and two neutrons or a helium nucleus",
+            "patterns": [
+              "alpha.*(helium|two protons.*two neutrons|2 protons.*2 neutrons)"
+            ]
+          },
+          {
+            "point": "Alpha reduces mass number by four",
+            "patterns": [
+              "mass.*number.*(decreas|reduc|fall).*(four|4)",
+              "(four|4).*nucleons.*(lost|leav|emit)"
+            ]
+          },
+          {
+            "point": "Alpha reduces proton number by two",
+            "patterns": [
+              "(proton|atomic).*number.*(decreas|reduc|fall).*(two|2)"
+            ]
+          },
+          {
+            "point": "Gamma is an electromagnetic photon",
+            "patterns": [
+              "gamma.*(photon|electromagnetic|wave)"
+            ]
+          },
+          {
+            "point": "Gamma leaves mass and proton numbers unchanged",
+            "patterns": [
+              "gamma.*(number|composition).*(unchang|same)",
+              "(mass|proton|atomic).*number.*unchang"
+            ]
+          },
+          {
+            "point": "Gamma removes energy from an excited nucleus",
+            "patterns": [
+              "(gamma|nucleus).*(lose|releas|emit).*energy",
+              "(lower|less).*energy.*nucleus"
+            ]
+          }
+        ],
+        "modelAnswer": "Alpha radiation is a helium nucleus containing two protons and two neutrons. In alpha decay, mass number decreases by four and proton number decreases by two, changing the element. Gamma radiation is an electromagnetic photon emitted as an excited nucleus loses energy; its mass and proton numbers remain unchanged.",
+        "hint": "For each type, explain both what leaves and what remains.",
+        "misconception": "Gamma emission does not remove protons or neutrons.",
+        "steps": [
+          "Alpha is two protons and two neutrons or a helium nucleus",
+          "Alpha reduces mass number by four",
+          "Alpha reduces proton number by two",
+          "Gamma is an electromagnetic photon",
+          "Gamma leaves mass and proton numbers unchanged",
+          "Gamma removes energy from an excited nucleus"
+        ],
+        "id": "2025-9c",
+        "title": "Alpha gamma decay comparison",
+        "explanation": "A useful comparison covers the radiation’s nature and the effect on the parent nucleus for each type. Gamma changes nuclear energy; alpha changes nuclear composition."
+      }
+    },
+    {
+      "id": "2025-10ai",
+      "question": "10(a)(i)",
+      "marks": 1,
+      "topic": "astronomy",
+      "skill": "black-hole-progenitor",
+      "answer": "Antares is the most likely listed black-hole progenitor.",
+      "learning": "The initial mass of a star strongly influences its final state. Very massive stars can leave black holes after collapse.",
+      "questionPage": 32,
+      "markSchemePage": 29,
+      "card": {
+        "kind": "choice",
+        "prompt": "Three stars have initial masses 0.5, 1 and 30 times the Sun’s mass. Which is the strongest candidate for a black-hole remnant?",
+        "marks": 1,
+        "options": [
+          "The 0.5-solar-mass star",
+          "The 1-solar-mass star",
+          "The 30-solar-mass star",
+          "All are equally likely"
+        ],
+        "correctIndex": 2,
+        "modelAnswer": "The 30-solar-mass star is much more massive and is the strongest black-hole candidate.",
+        "hint": "The key information is stellar mass.",
+        "misconception": "A star’s age alone does not select its final remnant.",
+        "steps": [
+          "Identify the physical principle in the question.",
+          "The 30-solar-mass star is much more massive and is the strongest black-hole candidate."
+        ],
+        "id": "2025-10ai",
+        "title": "Black hole progenitor",
+        "explanation": "The initial mass of a star strongly influences its final state. Very massive stars can leave black holes after collapse."
+      }
+    },
+    {
+      "id": "2025-10aii",
+      "question": "10(a)(ii)",
+      "marks": 1,
+      "topic": "astronomy",
+      "skill": "stellar-fate-mass-evidence",
+      "answer": "Antares has the greatest listed mass, approximately thirteen solar masses.",
+      "learning": "Use the data quantity physically linked to the outcome. For stellar remnants, mass is more informative than simply picking the oldest star.",
+      "questionPage": 32,
+      "markSchemePage": 29,
+      "card": {
+        "kind": "choice",
+        "prompt": "A table lists star masses and ages. Which data best justify choosing a black-hole progenitor?",
+        "marks": 1,
+        "options": [
+          "The largest initial mass",
+          "The smallest age alone",
+          "The longest name",
+          "The reddest apparent colour alone"
+        ],
+        "correctIndex": 0,
+        "modelAnswer": "A sufficiently high initial mass is the important evidence for a possible black-hole outcome.",
+        "hint": "Choose a physical cause of the outcome.",
+        "misconception": "A bigger-looking disc in a picture is not a measured mass.",
+        "steps": [
+          "Identify the physical principle in the question.",
+          "A sufficiently high initial mass is the important evidence for a possible black-hole outcome."
+        ],
+        "id": "2025-10aii",
+        "title": "Stellar fate mass evidence",
+        "explanation": "Use the data quantity physically linked to the outcome. For stellar remnants, mass is more informative than simply picking the oldest star."
+      }
+    },
+    {
+      "id": "2025-10bi",
+      "question": "10(b)(i)",
+      "marks": 2,
+      "topic": "radioactivity",
+      "skill": "nuclear-fusion",
+      "answer": "Fusion combines small nuclei to form a larger nucleus, releasing energy in the stellar reactions considered.",
+      "learning": "Fusion joins nuclei; fission splits nuclei. Distinguish nuclei from whole atoms when describing the nuclear process.",
+      "questionPage": 32,
+      "markSchemePage": 29,
+      "card": {
+        "kind": "text",
+        "prompt": "Explain what nuclear fusion means in the context of a star.",
+        "marks": 2,
+        "rubric": [
+          {
+            "point": "Small nuclei join together",
+            "patterns": [
+              "(small|hydrogen).*nuclei.*(join|combin|fus)",
+              "(join|combin|fus).*nuclei"
+            ]
+          },
+          {
+            "point": "A larger nucleus is formed",
+            "patterns": [
+              "(larger|heavier).*nucleus",
+              "(form|produc).*helium.*nucle"
+            ]
+          }
+        ],
+        "modelAnswer": "Small nuclei join together to form a larger nucleus. In stellar fusion reactions, the products have slightly less total mass and energy is released.",
+        "hint": "Name the particles that combine and the type of product.",
+        "misconception": "Do not describe a nucleus splitting into smaller parts; that is fission.",
+        "steps": [
+          "Small nuclei join together",
+          "A larger nucleus is formed"
+        ],
+        "id": "2025-10bi",
+        "title": "Nuclear fusion",
+        "explanation": "Fusion joins nuclei; fission splits nuclei. Distinguish nuclei from whole atoms when describing the nuclear process."
+      }
+    },
+    {
+      "id": "2025-10bii",
+      "question": "10(b)(ii)",
+      "marks": 2,
+      "topic": "radioactivity",
+      "skill": "mass-energy-equivalence",
+      "answer": "m = 3.9 × 10²⁶/(3.0 × 10⁸)² ≈ 4.3 × 10⁹ kg.",
+      "learning": "Use E = mc² and square the whole speed of light. An enormous energy output can correspond to a much smaller mass loss.",
+      "questionPage": 33,
+      "markSchemePage": 30,
+      "card": {
+        "kind": "number",
+        "prompt": "A fusion system releases 1.8 × 10¹⁷ J. Using c = 3.0 × 10⁸ m/s, calculate the corresponding decrease in mass.",
+        "marks": 2,
+        "answer": 2,
+        "unit": "kg",
+        "tolerance": 0.024,
+        "modelAnswer": "E = mc²; m = E/c² = 1.8 × 10¹⁷/(9.0 × 10¹⁶) = 2.0 kg.",
+        "hint": "The denominator is c squared.",
+        "misconception": "Dividing by c rather than c² gives the wrong dimensions.",
+        "steps": [
+          "E = mc²",
+          "m = E/c² = 1.8 × 10¹⁷/(9.0 × 10¹⁶) = 2.0 kg."
+        ],
+        "id": "2025-10bii",
+        "title": "Mass energy equivalence",
+        "explanation": "Use E = mc² and square the whole speed of light. An enormous energy output can correspond to a much smaller mass loss."
+      }
+    },
+    {
+      "id": "2025-10c",
+      "question": "10(c)",
+      "marks": 6,
+      "topic": "astronomy",
+      "skill": "big-bang-evidence",
+      "answer": "Redshift shows recession and expansion; the cosmic microwave background is a widespread cooled remnant of an early hot Universe. Together they support the Big Bang model.",
+      "learning": "Evidence must be described and linked to a prediction. Redshift indicates expansion, while the CMB supplies evidence of a hot early phase and subsequent cooling.",
+      "questionPage": 34,
+      "markSchemePage": 31,
+      "card": {
+        "kind": "text",
+        "prompt": "Discuss how galaxy redshifts and the cosmic microwave background support the Big Bang model.",
+        "marks": 6,
+        "rubric": [
+          {
+            "point": "Redshift means longer observed wavelengths",
+            "patterns": [
+              "red.?shift.*(longer|increas).*wavelength",
+              "wavelength.*(longer|increas)"
+            ]
+          },
+          {
+            "point": "Redshift indicates galaxies receding",
+            "patterns": [
+              "(galax|red).*(moving away|reced)",
+              "moving away.*galax"
+            ]
+          },
+          {
+            "point": "Recession pattern supports expansion",
+            "patterns": [
+              "univers.*expand",
+              "expand.*univers"
+            ]
+          },
+          {
+            "point": "CMB is microwave radiation detected in all directions",
+            "patterns": [
+              "microwave.*(everywhere|all directions|throughout)",
+              "cmb.*(everywhere|all directions)"
+            ]
+          },
+          {
+            "point": "CMB is a remnant of the early hot Universe",
+            "patterns": [
+              "(remnant|left.over|remaining).*early",
+              "early.*hot.*univers",
+              "hot.*beginning"
+            ]
+          },
+          {
+            "point": "Cooling stretched the radiation to microwaves",
+            "patterns": [
+              "cool.*microwave",
+              "(expand|stretch).*wavelength",
+              "radiation.*cool"
+            ]
+          }
+        ],
+        "modelAnswer": "Redshift means an increase in observed wavelength in galaxy light. It indicates that galaxies are receding, with more distant galaxies generally moving away faster, supporting an expanding Universe. The CMB is microwave radiation seen in all directions. It is interpreted as radiation from the early hot Universe that cooled and stretched as the Universe expanded, supporting the Big Bang model.",
+        "hint": "For each observation, say what it is and what it implies.",
+        "misconception": "Simply naming two observations does not explain why they support the model.",
+        "steps": [
+          "Redshift means longer observed wavelengths",
+          "Redshift indicates galaxies receding",
+          "Recession pattern supports expansion",
+          "CMB is microwave radiation detected in all directions",
+          "CMB is a remnant of the early hot Universe",
+          "Cooling stretched the radiation to microwaves"
+        ],
+        "id": "2025-10c",
+        "title": "Big bang evidence",
+        "explanation": "Evidence must be described and linked to a prediction. Redshift indicates expansion, while the CMB supplies evidence of a hot early phase and subsequent cooling."
+      }
+    }
+  ]
+}

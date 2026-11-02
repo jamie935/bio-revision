@@ -1,0 +1,173 @@
+{
+  "indexUrl": "https://www.physicsandmathstutor.com/past-papers/gcse-physics/edexcel-paper-1/",
+  "retrievedAt": "2026-11-02T18:45:00.839573+00:00",
+  "qualification": "Pearson Edexcel GCSE Physics 1PH0",
+  "paperCode": "1PH0/1H",
+  "tier": "Higher",
+  "durationMinutes": 105,
+  "marksPerPaper": 100,
+  "sources": [
+    {
+      "paper": "2018",
+      "kind": "mark-scheme",
+      "title": "June 2018 MS - Paper 1 (H) Edexcel Physics GCSE",
+      "url": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel/Paper-1H/June 2018 MS - Paper 1 (H) Edexcel Physics GCSE.pdf",
+      "sha256": "ecf0f93cceb833039d20c420517f989d4596d8bbf094ad26f9e43d4cebbe3471",
+      "bytes": 418516,
+      "pages": 29
+    },
+    {
+      "paper": "2018",
+      "kind": "questions",
+      "title": "June 2018 QP - Paper 1 (H) Edexcel Physics GCSE",
+      "url": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel/Paper-1H/June 2018 QP - Paper 1 (H) Edexcel Physics GCSE.pdf",
+      "sha256": "9d238c6ffd6f878750c3c5204cdaade3ee68f3f15e6dac30904b80c50d5f2e25",
+      "bytes": 151918,
+      "pages": 32
+    },
+    {
+      "paper": "2019",
+      "kind": "mark-scheme",
+      "title": "June 2019 MS - Paper 1 (H) Edexcel Physics GCSE",
+      "url": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel/Paper-1H/June 2019 MS - Paper 1 (H) Edexcel Physics GCSE.pdf",
+      "sha256": "35834fb5f465ea031a169e7f51b0ece94e1210fa13fa69200e154215e73a46ef",
+      "bytes": 352947,
+      "pages": 39
+    },
+    {
+      "paper": "2019",
+      "kind": "questions",
+      "title": "June 2019 QP - Paper 1 (H) Edexcel Physics GCSE",
+      "url": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel/Paper-1H/June 2019 QP - Paper 1 (H) Edexcel Physics GCSE.pdf",
+      "sha256": "1e3139bc9494671ce078da48a14c53038481611268f34e63f55d8cba95adc1bc",
+      "bytes": 867727,
+      "pages": 32
+    },
+    {
+      "paper": "2020",
+      "kind": "mark-scheme",
+      "title": "June 2020 MS - Paper 1 (H) Edexcel Physics GCSE",
+      "url": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel/Paper-1H/June 2020 MS - Paper 1 (H) Edexcel Physics GCSE.pdf",
+      "sha256": "a3e79631c4f4b2ba09cc2428dc764929e3131e8ed2aeab561276356abbbe284a",
+      "bytes": 399454,
+      "pages": 30
+    },
+    {
+      "paper": "2020",
+      "kind": "questions",
+      "title": "June 2020 QP - Paper 1 (H) Edexcel Physics GCSE",
+      "url": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel/Paper-1H/June 2020 QP - Paper 1 (H) Edexcel Physics GCSE.pdf",
+      "sha256": "e83c1be59b13ff24f7e7eb2b896da48812d2ad97f4320538f4b06937e87b6e44",
+      "bytes": 1197823,
+      "pages": 32
+    },
+    {
+      "paper": "2021",
+      "kind": "mark-scheme",
+      "title": "June 2021 MS - Paper 1 (H) Edexcel Physics GCSE",
+      "url": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel/Paper-1H/June 2021 MS - Paper 1 (H) Edexcel Physics GCSE.pdf",
+      "sha256": "0c0daea62f5736a15a1fa652fee6ccf8dd846ee5f9c48d32554286cae01fcb84",
+      "bytes": 484684,
+      "pages": 32
+    },
+    {
+      "paper": "2021",
+      "kind": "questions",
+      "title": "June 2021 QP - Paper 1 (H) Edexcel Physics GCSE",
+      "url": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel/Paper-1H/June 2021 QP - Paper 1 (H) Edexcel Physics GCSE.pdf",
+      "sha256": "3482901dcb09626f310699ac470983bc4b7dd6dd602269268c1fc47c686975ff",
+      "bytes": 1360861,
+      "pages": 36
+    },
+    {
+      "paper": "2022",
+      "kind": "mark-scheme",
+      "title": "June 2022 MS - Paper 1 (H) Edexcel Physics GCSE",
+      "url": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel/Paper-1H/June 2022 MS - Paper 1 (H) Edexcel Physics GCSE.pdf",
+      "sha256": "cef75ea679a206036efef99b0edc0647d3cb3095b7963ade35a44ad4f3180baa",
+      "bytes": 370997,
+      "pages": 39
+    },
+    {
+      "paper": "2022",
+      "kind": "questions",
+      "title": "June 2022 QP - Paper 1 (H) Edexcel Physics GCSE",
+      "url": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel/Paper-1H/June 2022 QP - Paper 1 (H) Edexcel Physics GCSE.pdf",
+      "sha256": "d665d3e2b107cd5f4d1a8b24722cf0fedfffc3faeed257d3a2617a31101f3470",
+      "bytes": 1380765,
+      "pages": 36
+    },
+    {
+      "paper": "2023",
+      "kind": "mark-scheme",
+      "title": "June 2023 MS - Paper 1 (H) Edexcel Physics GCSE",
+      "url": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel/Paper-1H/June 2023 MS - Paper 1 (H) Edexcel Physics GCSE.pdf",
+      "sha256": "791b7a548acb28a23a2ff144f8a992d514a58ceb2c7a52da1096ef6918d7816e",
+      "bytes": 504850,
+      "pages": 32
+    },
+    {
+      "paper": "2023",
+      "kind": "questions",
+      "title": "June 2023 QP - Paper 1 (H) Edexcel Physics GCSE",
+      "url": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel/Paper-1H/June 2023 QP - Paper 1 (H) Edexcel Physics GCSE.pdf",
+      "sha256": "5073a60c4105b7d75df353761822fd7f2b8ed10b12032f192ad118c064365d8e",
+      "bytes": 664154,
+      "pages": 36
+    },
+    {
+      "paper": "2024",
+      "kind": "mark-scheme",
+      "title": "June 2024 MS - Paper 1 (H) Edexcel Physics GCSE",
+      "url": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel/Paper-1H/June 2024 MS - Paper 1 (H) Edexcel Physics GCSE.pdf",
+      "sha256": "69089edfafcff30c72347dabdda43db9e0866aeefcd2086fa52c35c4cfaceea7",
+      "bytes": 477044,
+      "pages": 38
+    },
+    {
+      "paper": "2024",
+      "kind": "questions",
+      "title": "June 2024 QP - Paper 1 (H) Edexcel Physics GCSE",
+      "url": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel/Paper-1H/June 2024 QP - Paper 1 (H) Edexcel Physics GCSE.pdf",
+      "sha256": "1552fd7c75795fb5326b2ed44ad1d787a498f43281e56bea2a40118797509bc2",
+      "bytes": 325448,
+      "pages": 40
+    },
+    {
+      "paper": "2025",
+      "kind": "mark-scheme",
+      "title": "June 2025 MS - Paper 1 (H) Edexcel Physics GCSE",
+      "url": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel/Paper-1H/June 2025 MS - Paper 1 (H) Edexcel Physics GCSE.pdf",
+      "sha256": "f6ad5b50c8f2633ae137394a97d931c9708054f04d226257b2005ca3ba61b473",
+      "bytes": 430178,
+      "pages": 34
+    },
+    {
+      "paper": "2025",
+      "kind": "questions",
+      "title": "June 2025 QP - Paper 1 (H) Edexcel Physics GCSE",
+      "url": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel/Paper-1H/June 2025 QP - Paper 1 (H) Edexcel Physics GCSE.pdf",
+      "sha256": "47b671dfd9eaf89eb8760215bee2a5267c58bce8abeed444730a3f54ed1cd995",
+      "bytes": 734532,
+      "pages": 40
+    },
+    {
+      "paper": "specimen",
+      "kind": "mark-scheme",
+      "title": "Specimen MS - Paper 1 (H) Edexcel Physics GCSE",
+      "url": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel/Paper-1H/Specimen MS - Paper 1 (H) Edexcel Physics GCSE.pdf",
+      "sha256": "3a3d56ab9a464c7943c513b8be9be8577de8678f6500d52f75b3b73d83085c94",
+      "bytes": 1748681,
+      "pages": 14
+    },
+    {
+      "paper": "specimen",
+      "kind": "questions",
+      "title": "Specimen QP - Paper 1 (H) Edexcel Physics GCSE",
+      "url": "https://pmt.physicsandmathstutor.com/download/Physics/GCSE/Past-Papers/Edexcel/Paper-1H/Specimen QP - Paper 1 (H) Edexcel Physics GCSE.pdf",
+      "sha256": "1201b0e1d1fa87de6c5fbeb04d4a2b27c2344f59f9068ca4195922e9b26b5656",
+      "bytes": 1463086,
+      "pages": 28
+    }
+  ]
+}

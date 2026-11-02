@@ -1,0 +1,1637 @@
+{
+  "paper": "2018",
+  "totalMarks": 100,
+  "reviewStatus": "question-and-mark-scheme-reviewed",
+  "rows": [
+    {
+      "id": "2018-1a",
+      "question": "1(a)",
+      "marks": 1,
+      "topic": "waves",
+      "skill": "ultrasound-uses",
+      "answer": "Ultrasound can image a fetus or detect flaws inside materials.",
+      "learning": "Ultrasound is sound above 20 kHz. Reflections at boundaries between tissues allow a scanner to locate those boundaries without using ionising radiation.",
+      "questionPage": 2,
+      "markSchemePage": 5,
+      "card": {
+        "title": "Ultrasound in practice",
+        "kind": "choice",
+        "prompt": "Which task uses ultrasound rather than ionising radiation?",
+        "marks": 1,
+        "options": [
+          "Producing a chest X-ray",
+          "Measuring visible star colour",
+          "Checking an unborn baby with reflected sound",
+          "Sterilising surgical tools with gamma rays"
+        ],
+        "correctIndex": 2,
+        "modelAnswer": "Reflected ultrasound can form an image of an unborn baby.",
+        "explanation": "Ultrasound is sound above 20 kHz. Reflections at boundaries between tissues allow a scanner to locate those boundaries without using ionising radiation.",
+        "hint": "Think of a scanner that uses echoes.",
+        "steps": [
+          "Identify the physical quantity or process.",
+          "Apply the rule to the situation.",
+          "Check the other options for a common misconception."
+        ],
+        "misconception": "Ultrasound is a sound wave, not a member of the electromagnetic spectrum.",
+        "id": "2018-1a"
+      }
+    },
+    {
+      "id": "2018-1b",
+      "question": "1(b)",
+      "marks": 1,
+      "topic": "waves",
+      "skill": "infrasound-uses",
+      "answer": "Low-frequency seismic waves can reveal the structure of Earth.",
+      "learning": "Infrasound is below 20 Hz. Its low frequency lets it travel long distances and carry information about large-scale events.",
+      "questionPage": 2,
+      "markSchemePage": 5,
+      "card": {
+        "title": "Very low frequency sound",
+        "kind": "choice",
+        "prompt": "Which is a useful application of infrasound?",
+        "marks": 1,
+        "options": [
+          "Taking an X-ray of a bone",
+          "Investigating vibrations from a volcano",
+          "Receiving FM radio",
+          "Remote control using infrared"
+        ],
+        "correctIndex": 1,
+        "modelAnswer": "Infrasound can help monitor volcanic and seismic activity.",
+        "explanation": "Infrasound is below 20 Hz. Its low frequency lets it travel long distances and carry information about large-scale events.",
+        "hint": "Think about events that make very slow vibrations.",
+        "steps": [
+          "Identify the physical quantity or process.",
+          "Apply the rule to the situation.",
+          "Check the other options for a common misconception."
+        ],
+        "misconception": "Infrasound means low frequency, not low loudness.",
+        "id": "2018-1b"
+      }
+    },
+    {
+      "id": "2018-1c",
+      "question": "1(c)",
+      "marks": 4,
+      "topic": "waves",
+      "skill": "echo-distance-time",
+      "answer": "At 120 m from shore the depth is about 14 m. The pulse travels 28 m, so t = 28/1600 = 0.0175 s (about 0.018 s).",
+      "learning": "An echo time includes the journey out and the journey back. Use the total distance in distance = speed × time.",
+      "questionPage": 3,
+      "markSchemePage": 6,
+      "card": {
+        "title": "The echo makes a return trip",
+        "kind": "number",
+        "prompt": "A sonar pulse travels to the bottom of a lake 24 m deep and back. Sound travels at 1500 m/s in the water. How long does the return journey take?",
+        "marks": 3,
+        "answer": 0.032,
+        "unit": "s",
+        "tolerance": 0.00048,
+        "modelAnswer": "Total distance = 2 × 24 = 48 m. Time = 48/1500 = 0.032 s.",
+        "explanation": "An echo time includes the journey out and the journey back. Use the total distance in distance = speed × time.",
+        "hint": "How far does the sound travel before it gets back?",
+        "steps": [
+          "Write the relevant equation.",
+          "Convert quantities to the units requested and substitute.",
+          "Calculate, check the size of your answer and include the unit."
+        ],
+        "misconception": "Using only the depth gives half the correct time.",
+        "variants": [
+          {
+            "prompt": "A sonar pulse reflects from a seabed 45 m below a boat. Sound travels at 1500 m/s. Find the echo time.",
+            "answer": 0.06,
+            "modelAnswer": "Distance = 90 m; t = 90/1500 = 0.060 s."
+          },
+          {
+            "prompt": "A water tank is 3.6 m deep. Sound travels at 1440 m/s. Find the time for a pulse to reach the bottom and return.",
+            "answer": 0.005,
+            "modelAnswer": "Distance = 7.2 m; t = 7.2/1440 = 0.005 s."
+          }
+        ],
+        "id": "2018-1c"
+      }
+    },
+    {
+      "id": "2018-2ai",
+      "question": "2(a)(i)",
+      "marks": 1,
+      "topic": "light",
+      "skill": "refraction-angle",
+      "answer": "Y is the angle between the refracted ray and the normal: the angle of refraction.",
+      "learning": "Angles at an optical boundary are measured to the normal, the imaginary line perpendicular to the surface.",
+      "questionPage": 4,
+      "markSchemePage": 7,
+      "card": {
+        "title": "Which angle is which?",
+        "kind": "choice",
+        "prompt": "A ray enters a transparent block. What is the angle between the ray INSIDE the block and the normal called?",
+        "marks": 1,
+        "options": [
+          "Critical angle in every case",
+          "Angle of incidence",
+          "Angle of refraction",
+          "Angle of reflection"
+        ],
+        "correctIndex": 2,
+        "modelAnswer": "It is the angle of refraction.",
+        "explanation": "Angles at an optical boundary are measured to the normal, the imaginary line perpendicular to the surface.",
+        "hint": "Name the ray after it has entered the new material.",
+        "steps": [
+          "Identify the physical quantity or process.",
+          "Apply the rule to the situation.",
+          "Check the other options for a common misconception."
+        ],
+        "misconception": "Do not measure to the surface instead of the normal.",
+        "id": "2018-2ai"
+      }
+    },
+    {
+      "id": "2018-2aii",
+      "question": "2(a)(ii)",
+      "marks": 2,
+      "topic": "light",
+      "skill": "graph-ratio",
+      "answer": "Using X = 20° and Y ≈ 13° gives Y/X ≈ 0.65; the accepted graph range is 0.60–0.70.",
+      "learning": "Use two measurements from the same trial and divide in the order requested. Ratios of two quantities with the same unit have no unit.",
+      "questionPage": 5,
+      "markSchemePage": 7,
+      "card": {
+        "title": "A ratio from measurements",
+        "kind": "number",
+        "prompt": "A refraction experiment gives an incidence angle of 30° and a refraction angle of 18°. Calculate refraction angle divided by incidence angle.",
+        "marks": 2,
+        "answer": 0.6,
+        "unit": "",
+        "tolerance": 0.009,
+        "modelAnswer": "Ratio = 18/30 = 0.60. The degrees cancel.",
+        "explanation": "Use two measurements from the same trial and divide in the order requested. Ratios of two quantities with the same unit have no unit.",
+        "hint": "Which quantity goes on top?",
+        "steps": [
+          "Write the relevant equation.",
+          "Convert quantities to the units requested and substitute.",
+          "Calculate, check the size of your answer and include the unit."
+        ],
+        "misconception": "Reversing the ratio produces a different value.",
+        "id": "2018-2aii"
+      }
+    },
+    {
+      "id": "2018-2aiii",
+      "question": "2(a)(iii)",
+      "marks": 3,
+      "topic": "light",
+      "skill": "testing-proportionality",
+      "answer": "Collect repeated measurements for more incidence angles, especially beyond 20°, to test whether the apparent straight-line relationship continues.",
+      "learning": "A few points over a narrow range cannot establish a relationship over a wider range. Repeats improve reliability; a wider range tests the claim itself.",
+      "questionPage": 5,
+      "markSchemePage": 7,
+      "card": {
+        "title": "Test a relationship",
+        "kind": "text",
+        "prompt": "A student has tested light entering glass only at incidence angles of 5°, 10° and 15°. How should they test a claim that the two angles are directly proportional?",
+        "marks": 3,
+        "modelAnswer": "Repeat each measurement and find means. Test several additional incidence angles, including much larger angles. Plot all the results to see whether a straight line through the origin still fits.",
+        "explanation": "A few points over a narrow range cannot establish a relationship over a wider range. Repeats improve reliability; a wider range tests the claim itself.",
+        "hint": "Think separately about reliability and the range of values.",
+        "steps": [
+          "Repeat readings to check reliability.",
+          "Use more different incidence angles.",
+          "Extend to larger angles or check a graph through the origin."
+        ],
+        "misconception": "Repeating the same three angles many times does not test what happens outside their range.",
+        "rubric": [
+          {
+            "point": "Repeat readings to check reliability",
+            "patterns": [
+              "repeat.{0,40}(read|measure|trial|experiment)",
+              "(read|measure|trial).{0,40}repeat"
+            ]
+          },
+          {
+            "point": "Use more different incidence angles",
+            "patterns": [
+              "(more|different|additional|several).{0,30}(angle|value)"
+            ]
+          },
+          {
+            "point": "Extend to larger angles or check a graph through the origin",
+            "patterns": [
+              "(larger|greater|higher|wider).{0,30}(angle|range)",
+              "(straight|line).{0,30}origin"
+            ]
+          }
+        ],
+        "id": "2018-2aiii"
+      }
+    },
+    {
+      "id": "2018-2b",
+      "question": "2(b)",
+      "marks": 3,
+      "topic": "electromagnetic",
+      "skill": "wave-equation-frequency",
+      "answer": "f = v/λ = 3.0 × 10⁸/(5.8 × 10⁻⁷) ≈ 5.2 × 10¹⁴ Hz.",
+      "learning": "The wave equation v = fλ links the rate of oscillations to the distance between wavefronts. Dividing by a very small wavelength gives a very large frequency.",
+      "questionPage": 6,
+      "markSchemePage": 8,
+      "card": {
+        "title": "Frequency in standard form",
+        "kind": "number",
+        "prompt": "A beam of light has wavelength 6.0 × 10⁻⁷ m and speed 3.0 × 10⁸ m/s. Calculate its frequency.",
+        "marks": 3,
+        "answer": 500000000000000.0,
+        "unit": "Hz",
+        "tolerance": 7500000000000.0,
+        "modelAnswer": "f = v/λ = (3.0 × 10⁸)/(6.0 × 10⁻⁷) = 5.0 × 10¹⁴ Hz.",
+        "explanation": "The wave equation v = fλ links the rate of oscillations to the distance between wavefronts. Dividing by a very small wavelength gives a very large frequency.",
+        "hint": "Rearrange v = fλ.",
+        "steps": [
+          "Write the relevant equation.",
+          "Convert quantities to the units requested and substitute.",
+          "Calculate, check the size of your answer and include the unit."
+        ],
+        "misconception": "Subtracting exponents when dividing gives 10⁸/10⁻⁷ = 10¹⁵ before adjusting the leading number.",
+        "id": "2018-2b"
+      }
+    },
+    {
+      "id": "2018-3a",
+      "question": "3(a)",
+      "marks": 4,
+      "topic": "radioactivity",
+      "skill": "compare-activity-practical",
+      "answer": "Measure each rock separately with the same detector distance and time. Measure background, subtract it from each count and repeat to obtain means.",
+      "learning": "Count rate is affected by geometry, measurement time and background. A fair test controls these while repeats reduce the effect of random decay.",
+      "questionPage": 8,
+      "markSchemePage": 9,
+      "card": {
+        "title": "Compare radioactive samples fairly",
+        "kind": "text",
+        "prompt": "Two mineral samples may have different activities. Describe a fair comparison using one Geiger–Müller tube.",
+        "marks": 4,
+        "modelAnswer": "Keep the detector the same distance from each sample and count for the same time. Measure and subtract the background count. Repeat measurements for each sample and compare the mean corrected count rates.",
+        "explanation": "Count rate is affected by geometry, measurement time and background. A fair test controls these while repeats reduce the effect of random decay.",
+        "hint": "What must stay the same, and what else does the detector count?",
+        "steps": [
+          "Keep source-to-detector distance constant.",
+          "Count each sample for the same time.",
+          "Correct for background radiation.",
+          "Repeat readings and find a mean."
+        ],
+        "misconception": "A larger raw count does not prove a higher activity if the counting times or distances differ.",
+        "rubric": [
+          {
+            "point": "Keep source-to-detector distance constant",
+            "patterns": [
+              "same.{0,30}distance",
+              "distance.{0,30}(same|constant)"
+            ]
+          },
+          {
+            "point": "Count each sample for the same time",
+            "patterns": [
+              "same.{0,30}(time|duration)",
+              "(time|duration).{0,30}(same|constant)"
+            ]
+          },
+          {
+            "point": "Correct for background radiation",
+            "patterns": [
+              "subtract.{0,30}background",
+              "background.{0,30}(subtract|correct)"
+            ]
+          },
+          {
+            "point": "Repeat readings and find a mean",
+            "patterns": [
+              "repeat.{0,50}(mean|average)",
+              "(mean|average).{0,50}repeat"
+            ]
+          }
+        ],
+        "id": "2018-3a"
+      }
+    },
+    {
+      "id": "2018-3b",
+      "question": "3(b)",
+      "marks": 3,
+      "topic": "radioactivity",
+      "skill": "half-life-graph",
+      "answer": "Plot (0 h,80 cpm), (6 h,40), (12 h,20) and (18 h,10), with a smooth decreasing curve rather than straight segments.",
+      "learning": "Each half-life removes half of what remains, not a fixed number of counts. The graph therefore becomes progressively less steep.",
+      "questionPage": 9,
+      "markSchemePage": 10,
+      "card": {
+        "title": "Following a decay curve",
+        "kind": "number",
+        "prompt": "A sample has a corrected count rate of 240 counts/min and a half-life of 4 hours. What is its count rate after 12 hours?",
+        "marks": 3,
+        "answer": 30,
+        "unit": "counts/min",
+        "tolerance": 0.44999999999999996,
+        "modelAnswer": "12/4 = 3 half-lives. 240 → 120 → 60 → 30 counts/min.",
+        "explanation": "Each half-life removes half of what remains, not a fixed number of counts. The graph therefore becomes progressively less steep.",
+        "hint": "How many half-lives fit into 12 hours?",
+        "steps": [
+          "Write the relevant equation.",
+          "Convert quantities to the units requested and substitute.",
+          "Calculate, check the size of your answer and include the unit."
+        ],
+        "misconception": "Do not subtract half the original activity each time.",
+        "id": "2018-3b"
+      }
+    },
+    {
+      "id": "2018-3c",
+      "question": "3(c)",
+      "marks": 1,
+      "topic": "radioactivity",
+      "skill": "beta-minus-nuclear-equation",
+      "answer": "The daughter is technetium-99 with proton number 43. In beta-minus decay the mass number is unchanged and proton number increases by one.",
+      "learning": "Beta-minus decay converts a neutron into a proton and emits an electron. Nucleon number stays the same; proton number rises by one.",
+      "questionPage": 9,
+      "markSchemePage": 10,
+      "card": {
+        "title": "Balance a beta-minus equation",
+        "kind": "choice",
+        "prompt": "A nucleus has mass number 40 and atomic number 19. It emits a beta-minus particle. What are the daughter nucleus numbers?",
+        "marks": 1,
+        "options": [
+          "Mass 40, atomic 20",
+          "Mass 40, atomic 18",
+          "Mass 36, atomic 17",
+          "Mass 39, atomic 19"
+        ],
+        "correctIndex": 0,
+        "modelAnswer": "Mass number 40 and atomic number 20.",
+        "explanation": "Beta-minus decay converts a neutron into a proton and emits an electron. Nucleon number stays the same; proton number rises by one.",
+        "hint": "Track what happens to a neutron.",
+        "steps": [
+          "Identify the physical quantity or process.",
+          "Apply the rule to the situation.",
+          "Check the other options for a common misconception."
+        ],
+        "misconception": "The emitted beta electron comes from the nuclear process, not from an orbital electron shell.",
+        "id": "2018-3c"
+      }
+    },
+    {
+      "id": "2018-4a",
+      "question": "4(a)",
+      "marks": 1,
+      "topic": "skills",
+      "skill": "vectors-scalars",
+      "answer": "Both force and velocity are vectors because each has a magnitude and a direction.",
+      "learning": "A vector has a size and a direction. Speed and distance have size only; velocity and displacement also specify direction.",
+      "questionPage": 11,
+      "markSchemePage": 11,
+      "card": {
+        "title": "Vectors need a direction",
+        "kind": "choice",
+        "prompt": "Which pair contains only vector quantities?",
+        "marks": 1,
+        "options": [
+          "Energy and work",
+          "Distance and temperature",
+          "Speed and mass",
+          "Acceleration and momentum"
+        ],
+        "correctIndex": 3,
+        "modelAnswer": "Acceleration and momentum are both vectors.",
+        "explanation": "A vector has a size and a direction. Speed and distance have size only; velocity and displacement also specify direction.",
+        "hint": "Could changing direction change the quantity?",
+        "steps": [
+          "Identify the physical quantity or process.",
+          "Apply the rule to the situation.",
+          "Check the other options for a common misconception."
+        ],
+        "misconception": "Speed and velocity are not interchangeable when classifying quantities.",
+        "id": "2018-4a"
+      }
+    },
+    {
+      "id": "2018-4bi",
+      "question": "4(b)(i)",
+      "marks": 1,
+      "topic": "astronomy",
+      "skill": "orbital-force",
+      "answer": "Gravity provides the centripetal force for the satellite orbit.",
+      "learning": "Centripetal describes the direction of the resultant force in circular motion. For a natural satellite the physical force is gravity.",
+      "questionPage": 11,
+      "markSchemePage": 11,
+      "card": {
+        "title": "What holds a moon in orbit?",
+        "kind": "choice",
+        "prompt": "Which force provides the centripetal force that keeps a moon orbiting a planet?",
+        "marks": 1,
+        "options": [
+          "Gravity",
+          "The moon’s forward velocity",
+          "Friction with space",
+          "A force away from the planet"
+        ],
+        "correctIndex": 0,
+        "modelAnswer": "Gravity provides the inward centripetal force.",
+        "explanation": "Centripetal describes the direction of the resultant force in circular motion. For a natural satellite the physical force is gravity.",
+        "hint": "Name the force between masses.",
+        "steps": [
+          "Identify the physical quantity or process.",
+          "Apply the rule to the situation.",
+          "Check the other options for a common misconception."
+        ],
+        "misconception": "Centripetal force is not an extra force added to gravity.",
+        "id": "2018-4bi"
+      }
+    },
+    {
+      "id": "2018-4bii",
+      "question": "4(b)(ii)",
+      "marks": 1,
+      "topic": "astronomy",
+      "skill": "centripetal-direction",
+      "answer": "Draw F from the satellite toward the centre of Earth.",
+      "learning": "In circular motion the velocity is tangential but the resultant force points toward the centre and changes the velocity’s direction.",
+      "questionPage": 11,
+      "markSchemePage": 11,
+      "card": {
+        "title": "The direction of orbital force",
+        "kind": "choice",
+        "prompt": "At one instant a satellite is due east of Earth. Which way does the force keeping it in orbit act?",
+        "marks": 1,
+        "options": [
+          "North, along the orbit",
+          "There is no resultant force",
+          "West, towards Earth’s centre",
+          "East, away from Earth"
+        ],
+        "correctIndex": 2,
+        "modelAnswer": "The force acts west, towards Earth’s centre.",
+        "explanation": "In circular motion the velocity is tangential but the resultant force points toward the centre and changes the velocity’s direction.",
+        "hint": "Separate the direction of travel from the direction of force.",
+        "steps": [
+          "Identify the physical quantity or process.",
+          "Apply the rule to the situation.",
+          "Check the other options for a common misconception."
+        ],
+        "misconception": "An inward force does not mean the satellite must move straight inward.",
+        "id": "2018-4bii"
+      }
+    },
+    {
+      "id": "2018-4ci",
+      "question": "4(c)(i)",
+      "marks": 2,
+      "topic": "astronomy",
+      "skill": "redshift-definition",
+      "answer": "Light from a receding source has increased observed wavelength; its spectral lines move towards the red end of the spectrum.",
+      "learning": "The spectral pattern identifies the same atoms, while the shift shows relative motion. Red light has a longer wavelength than blue light.",
+      "questionPage": 12,
+      "markSchemePage": 11,
+      "card": {
+        "title": "What does redshift mean?",
+        "kind": "text",
+        "prompt": "A distant galaxy has the same spectral pattern as a laboratory sample, but its lines occur at longer wavelengths. Explain the term redshift.",
+        "marks": 2,
+        "modelAnswer": "The observed wavelengths have increased, moving the spectral lines towards the red end of the spectrum. This indicates that the galaxy is moving away from us.",
+        "explanation": "The spectral pattern identifies the same atoms, while the shift shows relative motion. Red light has a longer wavelength than blue light.",
+        "hint": "Compare observed and laboratory wavelengths.",
+        "steps": [
+          "Wavelengths become longer.",
+          "Source is moving away."
+        ],
+        "misconception": "Redshift does not mean every galaxy visibly looks red.",
+        "rubric": [
+          {
+            "point": "Wavelengths become longer",
+            "patterns": [
+              "(wavelength|spectral line).{0,30}(longer|increase|stretch)",
+              "(longer|increase|stretch).{0,30}wavelength"
+            ]
+          },
+          {
+            "point": "Source is moving away",
+            "patterns": [
+              "(galax|source).{0,30}(away|reced)",
+              "moving away"
+            ]
+          }
+        ],
+        "id": "2018-4ci"
+      }
+    },
+    {
+      "id": "2018-4cii",
+      "question": "4(c)(ii)",
+      "marks": 2,
+      "topic": "astronomy",
+      "skill": "redshift-expansion",
+      "answer": "Widespread galaxy redshifts show galaxies receding, consistent with an expanding Universe that was smaller and denser in the past.",
+      "learning": "An evidence answer must connect the observation to the inference, rather than naming redshift alone.",
+      "questionPage": 12,
+      "markSchemePage": 12,
+      "card": {
+        "title": "Redshift as evidence",
+        "kind": "text",
+        "prompt": "Most distant galaxies show redshift. How does this support an expanding Universe?",
+        "marks": 2,
+        "modelAnswer": "Redshift shows that distant galaxies are moving away from us. If galaxies are becoming farther apart, the Universe is expanding. Running this pattern backwards gives a much smaller early Universe.",
+        "explanation": "An evidence answer must connect the observation to the inference, rather than naming redshift alone.",
+        "hint": "What motion does redshift tell us about?",
+        "steps": [
+          "Distant galaxies are moving away.",
+          "The separation of galaxies or Universe increases."
+        ],
+        "misconception": "The evidence concerns galaxies becoming farther apart, not planets orbiting faster.",
+        "rubric": [
+          {
+            "point": "Distant galaxies are moving away",
+            "patterns": [
+              "galax.{0,50}(moving away|reced)",
+              "(moving away|reced).{0,50}galax"
+            ]
+          },
+          {
+            "point": "The separation of galaxies or Universe increases",
+            "patterns": [
+              "universe.{0,30}expand",
+              "galax.{0,30}(farther apart|further apart|separat)"
+            ]
+          }
+        ],
+        "id": "2018-4cii"
+      }
+    },
+    {
+      "id": "2018-4ciii",
+      "question": "4(c)(iii)",
+      "marks": 1,
+      "topic": "astronomy",
+      "skill": "cmb-microwave",
+      "answer": "The M stands for microwave.",
+      "learning": "The radiation has cooled and its wavelengths have stretched as the Universe expanded. It is now observed mainly in the microwave region.",
+      "questionPage": 12,
+      "markSchemePage": 12,
+      "card": {
+        "title": "Name the relic radiation",
+        "kind": "choice",
+        "prompt": "In cosmic microwave background radiation, what part of the electromagnetic spectrum is being detected?",
+        "marks": 1,
+        "options": [
+          "Ultraviolet",
+          "Microwaves",
+          "Gamma rays only",
+          "Sound waves"
+        ],
+        "correctIndex": 1,
+        "modelAnswer": "Microwaves are detected.",
+        "explanation": "The radiation has cooled and its wavelengths have stretched as the Universe expanded. It is now observed mainly in the microwave region.",
+        "hint": "The answer is in the name CMB.",
+        "steps": [
+          "Identify the physical quantity or process.",
+          "Apply the rule to the situation.",
+          "Check the other options for a common misconception."
+        ],
+        "misconception": "Microwaves are electromagnetic waves, not mechanical sound.",
+        "id": "2018-4ciii"
+      }
+    },
+    {
+      "id": "2018-4civ",
+      "question": "4(c)(iv)",
+      "marks": 1,
+      "topic": "astronomy",
+      "skill": "cmb-distribution",
+      "answer": "Cosmic background radiation is observed from all directions in space.",
+      "learning": "The CMB is a widespread remnant of the early Universe, rather than radiation from one nearby star.",
+      "questionPage": 12,
+      "markSchemePage": 12,
+      "card": {
+        "title": "Where is the CMB?",
+        "kind": "choice",
+        "prompt": "Which observation best describes the cosmic microwave background?",
+        "marks": 1,
+        "options": [
+          "It is detected in all directions across the sky",
+          "It is produced only by Earth’s radio transmitters",
+          "It occurs only during solar eclipses",
+          "It comes only from the Sun"
+        ],
+        "correctIndex": 0,
+        "modelAnswer": "It is detected in all directions across the sky.",
+        "explanation": "The CMB is a widespread remnant of the early Universe, rather than radiation from one nearby star.",
+        "hint": "Think about what “background” means here.",
+        "steps": [
+          "Identify the physical quantity or process.",
+          "Apply the rule to the situation.",
+          "Check the other options for a common misconception."
+        ],
+        "misconception": "Do not confuse the CMB with background ionising radiation measured by a GM tube.",
+        "id": "2018-4civ"
+      }
+    },
+    {
+      "id": "2018-4cv",
+      "question": "4(c)(v)",
+      "marks": 2,
+      "topic": "astronomy",
+      "skill": "cmb-big-bang",
+      "answer": "A hot early Universe would leave radiation; the observed all-sky microwave background is the cooled, stretched remnant predicted by that history.",
+      "learning": "Evidence is stronger when a model predicts something that is then observed. CMB links present radiation to the hot early Universe.",
+      "questionPage": 13,
+      "markSchemePage": 12,
+      "card": {
+        "title": "Why the CMB matters",
+        "kind": "text",
+        "prompt": "Why does a faint microwave background in every direction support the Big Bang model?",
+        "marks": 2,
+        "modelAnswer": "The Big Bang model predicts a very hot early Universe that emitted radiation. As the Universe expanded, this radiation cooled and its wavelength increased, leaving the microwave background we detect today.",
+        "explanation": "Evidence is stronger when a model predicts something that is then observed. CMB links present radiation to the hot early Universe.",
+        "hint": "Where could this ancient radiation have come from?",
+        "steps": [
+          "Hot early Universe emitted radiation.",
+          "Expansion cooled or stretched the radiation to microwaves."
+        ],
+        "misconception": "The CMB is leftover radiation, not sound from an explosion.",
+        "rubric": [
+          {
+            "point": "Hot early Universe emitted radiation",
+            "patterns": [
+              "(early|hot|big bang).{0,60}(radiation|emit|energy)"
+            ]
+          },
+          {
+            "point": "Expansion cooled or stretched the radiation to microwaves",
+            "patterns": [
+              "(cool|stretch|expand).{0,70}(radiation|microwave|wavelength)",
+              "(radiation|wavelength).{0,70}(cool|stretch|expand)"
+            ]
+          }
+        ],
+        "id": "2018-4cv"
+      }
+    },
+    {
+      "id": "2018-5a",
+      "question": "5(a)",
+      "marks": 2,
+      "topic": "waves",
+      "skill": "longitudinal-particles",
+      "answer": "The fork makes nearby air oscillate. Compressions and rarefactions travel through air as particles vibrate parallel to the wave direction.",
+      "learning": "A longitudinal wave transfers energy through local vibrations. The air does not travel all the way from the loudspeaker to your ear.",
+      "questionPage": 14,
+      "markSchemePage": 13,
+      "card": {
+        "title": "Sound moves, air oscillates",
+        "kind": "text",
+        "prompt": "A vibrating loudspeaker sends sound across a room. Describe the movement of the air particles.",
+        "marks": 2,
+        "modelAnswer": "The particles vibrate backwards and forwards about their fixed average positions. Their vibrations are parallel to the direction of sound travel, creating moving compressions and rarefactions.",
+        "explanation": "A longitudinal wave transfers energy through local vibrations. The air does not travel all the way from the loudspeaker to your ear.",
+        "hint": "Compare particle motion with the wave’s direction.",
+        "steps": [
+          "Particles vibrate back and forth about fixed positions.",
+          "Motion is parallel to wave travel."
+        ],
+        "misconception": "Air particles oscillate; they are not carried across the room with the sound.",
+        "rubric": [
+          {
+            "point": "Particles vibrate back and forth about fixed positions",
+            "patterns": [
+              "(particle|air).{0,40}(vibrat|oscillat|backwards and forwards|back and forth)"
+            ]
+          },
+          {
+            "point": "Motion is parallel to wave travel",
+            "patterns": [
+              "parallel.{0,50}(wave|travel|direction)",
+              "(compression|rarefaction).{0,50}(travel|move)"
+            ]
+          }
+        ],
+        "id": "2018-5a"
+      }
+    },
+    {
+      "id": "2018-5b",
+      "question": "5(b)",
+      "marks": 4,
+      "topic": "electromagnetic",
+      "skill": "spectrum-uses",
+      "answer": "The four descriptions identify infrared, microwaves, radio waves and gamma rays, respectively.",
+      "learning": "Radio and microwave regions overlap in communication uses, so use the wavelength and cooking application together. Infrared can heat surfaces, while gamma rays originate in nuclear changes.",
+      "questionPage": 15,
+      "markSchemePage": 13,
+      "card": {
+        "title": "Choose the right radiation",
+        "kind": "choice",
+        "prompt": "A communication signal has a wavelength of about 0.12 m and is also used to heat food in an oven. Which radiation is it?",
+        "marks": 1,
+        "options": [
+          "Gamma",
+          "Ultraviolet",
+          "Infrared",
+          "Microwave"
+        ],
+        "correctIndex": 3,
+        "modelAnswer": "It is microwave radiation.",
+        "explanation": "Radio and microwave regions overlap in communication uses, so use the wavelength and cooking application together. Infrared can heat surfaces, while gamma rays originate in nuclear changes.",
+        "hint": "Match both the application and wavelength.",
+        "steps": [
+          "Identify the physical quantity or process.",
+          "Apply the rule to the situation.",
+          "Check the other options for a common misconception."
+        ],
+        "misconception": "Do not decide only from the word “cooking”: more than one region can heat food.",
+        "id": "2018-5b"
+      }
+    },
+    {
+      "id": "2018-5c",
+      "question": "5(c)",
+      "marks": 3,
+      "topic": "light",
+      "skill": "dispersion",
+      "answer": "Different colours have different wavelengths and travel at different speeds in glass, so they refract through different angles.",
+      "learning": "Refraction depends on the change in speed at a boundary. Glass affects different wavelengths differently, producing dispersion.",
+      "questionPage": 16,
+      "markSchemePage": 14,
+      "card": {
+        "title": "Why a prism splits white light",
+        "kind": "text",
+        "prompt": "White light enters a glass prism. Explain why it spreads into a spectrum of colours.",
+        "marks": 3,
+        "modelAnswer": "White light contains different wavelengths. These travel at different speeds in glass, so they refract by different amounts at the boundary and separate into a spectrum.",
+        "explanation": "Refraction depends on the change in speed at a boundary. Glass affects different wavelengths differently, producing dispersion.",
+        "hint": "Link wavelength, speed and bending.",
+        "steps": [
+          "White light contains different wavelengths.",
+          "Different wavelengths have different speeds in glass.",
+          "Different refraction angles separate colours."
+        ],
+        "misconception": "All colours travel at the same speed in a vacuum; the speed difference here is in glass.",
+        "rubric": [
+          {
+            "point": "White light contains different wavelengths",
+            "patterns": [
+              "different.{0,25}(wavelength|colour|color)"
+            ]
+          },
+          {
+            "point": "Different wavelengths have different speeds in glass",
+            "patterns": [
+              "different.{0,30}speed",
+              "speed.{0,30}(different|depend)"
+            ]
+          },
+          {
+            "point": "Different refraction angles separate colours",
+            "patterns": [
+              "(refract|bend).{0,30}(different|amount)",
+              "different.{0,30}(angle|refract|bend)"
+            ]
+          }
+        ],
+        "id": "2018-5c"
+      }
+    },
+    {
+      "id": "2018-6a",
+      "question": "6(a)",
+      "marks": 1,
+      "topic": "forces",
+      "skill": "gravitational-field-units",
+      "answer": "N/kg is equivalent to m/s² because F = ma and weight = mg.",
+      "learning": "From F = ma, one newton is one kg m/s². Dividing by kg leaves m/s².",
+      "questionPage": 18,
+      "markSchemePage": 15,
+      "card": {
+        "title": "Two units for g",
+        "kind": "choice",
+        "prompt": "Which unit is equivalent to the gravitational acceleration unit m/s²?",
+        "marks": 1,
+        "options": [
+          "N/kg",
+          "kg/N",
+          "J/kg",
+          "N/m²"
+        ],
+        "correctIndex": 0,
+        "modelAnswer": "N/kg is equivalent to m/s².",
+        "explanation": "From F = ma, one newton is one kg m/s². Dividing by kg leaves m/s².",
+        "hint": "Write a newton in base units.",
+        "steps": [
+          "Identify the physical quantity or process.",
+          "Apply the rule to the situation.",
+          "Check the other options for a common misconception."
+        ],
+        "misconception": "N/m² is pressure, not gravitational field strength.",
+        "id": "2018-6a"
+      }
+    },
+    {
+      "id": "2018-6bi",
+      "question": "6(b)(i)",
+      "marks": 2,
+      "topic": "motion",
+      "skill": "freefall-acceleration",
+      "answer": "g = 2h/t² = 5.00/0.74² ≈ 9.13 m/s², usually reported as 9.1 m/s².",
+      "learning": "For motion from rest with constant acceleration, distance depends on the square of the time. Square the time before dividing.",
+      "questionPage": 18,
+      "markSchemePage": 15,
+      "card": {
+        "title": "Calculate g from a drop",
+        "kind": "number",
+        "prompt": "A ball falls 1.8 m from rest in 0.60 s. Use g = 2h/t² to calculate the measured acceleration due to gravity.",
+        "marks": 2,
+        "answer": 10,
+        "unit": "m/s²",
+        "tolerance": 0.15,
+        "modelAnswer": "g = (2 × 1.8)/(0.60²) = 3.6/0.36 = 10 m/s².",
+        "explanation": "For motion from rest with constant acceleration, distance depends on the square of the time. Square the time before dividing.",
+        "hint": "What is 0.60 squared?",
+        "steps": [
+          "Write the relevant equation.",
+          "Convert quantities to the units requested and substitute.",
+          "Calculate, check the size of your answer and include the unit."
+        ],
+        "misconception": "Do not use 2h/t; the equation contains t².",
+        "id": "2018-6bi"
+      }
+    },
+    {
+      "id": "2018-6bii",
+      "question": "6(b)(ii)",
+      "marks": 2,
+      "topic": "motion",
+      "skill": "mean-significant-figures",
+      "answer": "The mean is (0.74 + 0.69 + 0.81)/3 = 0.7467 s, sensibly reported as 0.75 s.",
+      "learning": "A mean uses every valid repeated reading. Report precision that fits the original measurements rather than all calculator digits.",
+      "questionPage": 19,
+      "markSchemePage": 15,
+      "card": {
+        "title": "A sensible mean",
+        "kind": "number",
+        "prompt": "Three fall times are 0.62 s, 0.67 s and 0.66 s. Calculate their mean to two decimal places.",
+        "marks": 2,
+        "answer": 0.65,
+        "unit": "s",
+        "tolerance": 0.0001,
+        "modelAnswer": "Mean = (0.62 + 0.67 + 0.66)/3 = 1.95/3 = 0.65 s.",
+        "explanation": "A mean uses every valid repeated reading. Report precision that fits the original measurements rather than all calculator digits.",
+        "hint": "Add all three times before dividing.",
+        "steps": [
+          "Write the relevant equation.",
+          "Convert quantities to the units requested and substitute.",
+          "Calculate, check the size of your answer and include the unit."
+        ],
+        "misconception": "Divide by the number of readings, not by the number of gaps between them.",
+        "id": "2018-6bii"
+      }
+    },
+    {
+      "id": "2018-6c",
+      "question": "6(c)",
+      "marks": 2,
+      "topic": "motion",
+      "skill": "timing-improvement",
+      "answer": "Use electronic timing such as light gates so the result is not affected by human reaction time.",
+      "learning": "When the measured interval is short, a delay of a fraction of a second can be a large percentage error.",
+      "questionPage": 19,
+      "markSchemePage": 16,
+      "card": {
+        "title": "Improve a falling-ball test",
+        "kind": "text",
+        "prompt": "A ball falls for less than a second and a student times it by hand. Give one improvement and explain why it helps.",
+        "marks": 2,
+        "modelAnswer": "Use light gates connected to an electronic timer. They start and stop timing automatically, removing the effect of the student’s reaction time.",
+        "explanation": "When the measured interval is short, a delay of a fraction of a second can be a large percentage error.",
+        "hint": "Replace the person starting and stopping the clock.",
+        "steps": [
+          "Use automatic or electronic timing.",
+          "Reduce the effect of reaction time."
+        ],
+        "misconception": "Saying only “use better equipment” does not identify the error being reduced.",
+        "rubric": [
+          {
+            "point": "Use automatic or electronic timing",
+            "patterns": [
+              "light gate",
+              "electronic timer",
+              "(sensor|data logger|datalogger).{0,30}tim"
+            ]
+          },
+          {
+            "point": "Reduce the effect of reaction time",
+            "patterns": [
+              "(remov|reduc|eliminat).{0,65}reaction",
+              "reaction.{0,65}(remov|reduc|eliminat)"
+            ]
+          }
+        ],
+        "id": "2018-6c"
+      }
+    },
+    {
+      "id": "2018-6d",
+      "question": "6(d)",
+      "marks": 3,
+      "topic": "motion",
+      "skill": "suvat-braking",
+      "answer": "a = (0² − 15²)/(2 × 14) = −8.04 m/s², so the deceleration is about 8.0 m/s².",
+      "learning": "Use v² − u² = 2as when time is not given. A negative acceleration means the velocity is decreasing in the chosen positive direction.",
+      "questionPage": 19,
+      "markSchemePage": 16,
+      "card": {
+        "title": "Stopping without a time",
+        "kind": "number",
+        "prompt": "A scooter travelling at 12 m/s stops uniformly over 18 m. Calculate the magnitude of its deceleration.",
+        "marks": 3,
+        "answer": 4,
+        "unit": "m/s²",
+        "tolerance": 0.06,
+        "modelAnswer": "v² − u² = 2as. a = (0 − 144)/(2 × 18) = −4 m/s². The deceleration magnitude is 4 m/s².",
+        "explanation": "Use v² − u² = 2as when time is not given. A negative acceleration means the velocity is decreasing in the chosen positive direction.",
+        "hint": "The final speed is zero.",
+        "steps": [
+          "Write the relevant equation.",
+          "Convert quantities to the units requested and substitute.",
+          "Calculate, check the size of your answer and include the unit."
+        ],
+        "misconception": "Do not forget to square the initial speed.",
+        "id": "2018-6d"
+      }
+    },
+    {
+      "id": "2018-7a",
+      "question": "7(a)",
+      "marks": 1,
+      "topic": "energy",
+      "skill": "renewable-nonrenewable",
+      "answer": "Natural gas is non-renewable; geothermal, tidal and solar are renewable resources.",
+      "learning": "A non-renewable resource is used far faster than it is naturally replaced. Wind and tidal flows continue without burning a finite fuel stock.",
+      "questionPage": 20,
+      "markSchemePage": 17,
+      "card": {
+        "title": "Spot the finite fuel",
+        "kind": "choice",
+        "prompt": "Which electricity source depends on a finite fossil fuel?",
+        "marks": 1,
+        "options": [
+          "Geothermal",
+          "Coal",
+          "Wind",
+          "Tidal"
+        ],
+        "correctIndex": 1,
+        "modelAnswer": "Coal is a non-renewable fossil fuel.",
+        "explanation": "A non-renewable resource is used far faster than it is naturally replaced. Wind and tidal flows continue without burning a finite fuel stock.",
+        "hint": "Which source is burned after being mined?",
+        "steps": [
+          "Identify the physical quantity or process.",
+          "Apply the rule to the situation.",
+          "Check the other options for a common misconception."
+        ],
+        "misconception": "Nuclear fuel is also non-renewable even though it is not a fossil fuel.",
+        "id": "2018-7a"
+      }
+    },
+    {
+      "id": "2018-7b",
+      "question": "7(b)",
+      "marks": 2,
+      "topic": "energy",
+      "skill": "renewables-reasons",
+      "answer": "Renewables can replace finite fossil fuels and reduce greenhouse-gas emissions, helping explain their increasing share of electricity generation.",
+      "learning": "Compare the same outcome—electricity—from different resources. Distinguish emissions during operation from emissions during construction.",
+      "questionPage": 20,
+      "markSchemePage": 17,
+      "card": {
+        "title": "Why replace fossil fuels?",
+        "kind": "text",
+        "prompt": "Give two linked reasons a country might replace some gas-fired electricity with wind generation.",
+        "marks": 2,
+        "modelAnswer": "Wind is a renewable resource, so it conserves finite gas supplies. Wind turbines also produce no carbon dioxide during operation, reducing greenhouse-gas emissions from electricity generation.",
+        "explanation": "Compare the same outcome—electricity—from different resources. Distinguish emissions during operation from emissions during construction.",
+        "hint": "Think about fuel supply and the atmosphere.",
+        "steps": [
+          "Conserve a finite fuel or use a renewable resource.",
+          "Reduce greenhouse-gas emissions during generation."
+        ],
+        "misconception": "Renewable does not mean there are no environmental impacts at all.",
+        "rubric": [
+          {
+            "point": "Conserve a finite fuel or use a renewable resource",
+            "patterns": [
+              "(finite|run out|non.?renewable).{0,40}(gas|fuel|resource)",
+              "wind.{0,30}renewable"
+            ]
+          },
+          {
+            "point": "Reduce greenhouse-gas emissions during generation",
+            "patterns": [
+              "(less|reduc|no|lower).{0,35}(carbon dioxide|co2|greenhouse)",
+              "(carbon dioxide|co2|greenhouse).{0,35}(less|reduc|lower)"
+            ]
+          }
+        ],
+        "id": "2018-7b"
+      }
+    },
+    {
+      "id": "2018-7ci",
+      "question": "7(c)(i)",
+      "marks": 3,
+      "topic": "energy",
+      "skill": "gpe-height",
+      "answer": "h = E/(mg) = 1300/(7 × 10) ≈ 18.6 m, about 19 m, assuming no energy is dissipated.",
+      "learning": "Gravitational potential energy depends on vertical height, not the length of the path. Assuming no losses gives the minimum fall needed.",
+      "questionPage": 20,
+      "markSchemePage": 17,
+      "card": {
+        "title": "Energy from a height",
+        "kind": "number",
+        "prompt": "A 5 kg mass must lose 1800 J of gravitational potential energy. Take g = 10 N/kg. Through what vertical height must it fall?",
+        "marks": 3,
+        "answer": 36,
+        "unit": "m",
+        "tolerance": 0.54,
+        "modelAnswer": "h = E/(mg) = 1800/(5 × 10) = 36 m.",
+        "explanation": "Gravitational potential energy depends on vertical height, not the length of the path. Assuming no losses gives the minimum fall needed.",
+        "hint": "Rearrange E = mgh.",
+        "steps": [
+          "Write the relevant equation.",
+          "Convert quantities to the units requested and substitute.",
+          "Calculate, check the size of your answer and include the unit."
+        ],
+        "misconception": "Do not multiply by g after dividing by m; divide by the product mg.",
+        "id": "2018-7ci"
+      }
+    },
+    {
+      "id": "2018-7cii",
+      "question": "7(c)(ii)",
+      "marks": 3,
+      "topic": "energy",
+      "skill": "kinetic-energy-speed",
+      "answer": "v = √(2E/m) = √(2200/8) ≈ 16.6 m/s, about 17 m/s.",
+      "learning": "Kinetic energy depends on speed squared. After isolating v² you must take a square root to find v.",
+      "questionPage": 21,
+      "markSchemePage": 18,
+      "card": {
+        "title": "Recover speed from energy",
+        "kind": "number",
+        "prompt": "A 4 kg parcel has kinetic energy 200 J. Calculate its speed.",
+        "marks": 3,
+        "answer": 10,
+        "unit": "m/s",
+        "tolerance": 0.15,
+        "modelAnswer": "E = ½mv², so v = √(2E/m) = √(400/4) = 10 m/s.",
+        "explanation": "Kinetic energy depends on speed squared. After isolating v² you must take a square root to find v.",
+        "hint": "First calculate v².",
+        "steps": [
+          "Write the relevant equation.",
+          "Convert quantities to the units requested and substitute.",
+          "Calculate, check the size of your answer and include the unit."
+        ],
+        "misconception": "Do not report v² as the speed.",
+        "id": "2018-7cii"
+      }
+    },
+    {
+      "id": "2018-7d",
+      "question": "7(d)",
+      "marks": 3,
+      "topic": "energy",
+      "skill": "energy-transfer-percentage",
+      "answer": "Graph readings are about 5.2 kJ before and 3.9 kJ after. The transferred fraction is (5.2−3.9)/5.2 × 100 ≈ 25%.",
+      "learning": "The percentage transferred is based on the loss from the initial store. The remaining energy is not the energy transferred.",
+      "questionPage": 22,
+      "markSchemePage": 18,
+      "card": {
+        "title": "Which energy is the percentage of?",
+        "kind": "number",
+        "prompt": "Moving air has 8.0 kJ of kinetic energy before a turbine and 6.0 kJ afterwards. What percentage of its initial energy was transferred out of the air?",
+        "marks": 3,
+        "answer": 25,
+        "unit": "%",
+        "tolerance": 0.375,
+        "modelAnswer": "Transferred energy = 8.0 − 6.0 = 2.0 kJ. Percentage = 2.0/8.0 × 100 = 25%.",
+        "explanation": "The percentage transferred is based on the loss from the initial store. The remaining energy is not the energy transferred.",
+        "hint": "Find the change before making a fraction.",
+        "steps": [
+          "Write the relevant equation.",
+          "Convert quantities to the units requested and substitute.",
+          "Calculate, check the size of your answer and include the unit."
+        ],
+        "misconception": "Divide by the initial energy, not the remaining energy.",
+        "id": "2018-7d"
+      }
+    },
+    {
+      "id": "2018-8a",
+      "question": "8(a)",
+      "marks": 2,
+      "topic": "energy",
+      "skill": "cooling-practical",
+      "answer": "Record temperature using a thermometer or sensor at regular time intervals to obtain a cooling curve.",
+      "learning": "The rate of cooling is the gradient of a temperature–time graph. Many readings show how the rate changes as the water cools.",
+      "questionPage": 23,
+      "markSchemePage": 19,
+      "card": {
+        "title": "Collect a cooling curve",
+        "kind": "text",
+        "prompt": "You have a beaker of warm water. Describe the measurements needed to show how its cooling rate changes over time.",
+        "marks": 2,
+        "modelAnswer": "Measure the water temperature with a thermometer or temperature probe, and record it at regular time intervals using a timer. Plot temperature against time.",
+        "explanation": "The rate of cooling is the gradient of a temperature–time graph. Many readings show how the rate changes as the water cools.",
+        "hint": "You need one instrument for temperature and one for time.",
+        "steps": [
+          "Measure temperature with an appropriate instrument.",
+          "Take readings at regular times."
+        ],
+        "misconception": "Only measuring the starting and final temperatures hides changes in cooling rate.",
+        "rubric": [
+          {
+            "point": "Measure temperature with an appropriate instrument",
+            "patterns": [
+              "(thermometer|temperature (probe|sensor))",
+              "measure.{0,30}temperature"
+            ]
+          },
+          {
+            "point": "Take readings at regular times",
+            "patterns": [
+              "regular.{0,25}(time|interval)",
+              "(every|each).{0,15}(second|minute)",
+              "temperature.{0,20}(against|over).{0,10}time"
+            ]
+          }
+        ],
+        "id": "2018-8a"
+      }
+    },
+    {
+      "id": "2018-8b",
+      "question": "8(b)",
+      "marks": 2,
+      "topic": "electromagnetic",
+      "skill": "radiation-spectrum-graph",
+      "answer": "The lamp spectrum has a main intensity peak, an irregular/nonlinear shape and substantial radiation outside the visible band.",
+      "learning": "A wavelength longer than visible red is in the infrared region. A hot source can emit across a broad range, not only at its peak.",
+      "questionPage": 24,
+      "markSchemePage": 19,
+      "card": {
+        "title": "Read a thermal spectrum",
+        "kind": "choice",
+        "prompt": "A lamp’s intensity rises to a maximum at 1.2 μm and then falls. Visible wavelengths are about 0.4–0.7 μm. Where is the main peak?",
+        "marks": 1,
+        "options": [
+          "Ultraviolet",
+          "Visible violet",
+          "Radio",
+          "Infrared"
+        ],
+        "correctIndex": 3,
+        "modelAnswer": "The main peak at 1.2 μm is infrared.",
+        "explanation": "A wavelength longer than visible red is in the infrared region. A hot source can emit across a broad range, not only at its peak.",
+        "hint": "Compare 1.2 μm with the visible range.",
+        "steps": [
+          "Identify the physical quantity or process.",
+          "Apply the rule to the situation.",
+          "Check the other options for a common misconception."
+        ],
+        "misconception": "A lamp that gives visible light can still emit most strongly outside the visible band.",
+        "id": "2018-8b"
+      }
+    },
+    {
+      "id": "2018-8ci",
+      "question": "8(c)(i)",
+      "marks": 4,
+      "topic": "energy",
+      "skill": "tangent-gradient",
+      "answer": "Draw a tangent at 30 ms. A representative slope is about 2.0 °C/ms (equivalent to 2000 °C/s); graph-based values around 1.8–2.5 °C/ms are accepted.",
+      "learning": "The gradient of a tangent gives the rate at one instant on a curved graph. Use a large triangle on the tangent, not two arbitrary points on the curve.",
+      "questionPage": 25,
+      "markSchemePage": 20,
+      "card": {
+        "title": "A rate at one instant",
+        "kind": "number",
+        "prompt": "At a point on a heating curve, a tangent passes through (20 s, 30 °C) and (60 s, 46 °C). Calculate the rate of temperature increase at that point.",
+        "marks": 3,
+        "answer": 0.4,
+        "unit": "°C/s",
+        "tolerance": 0.006,
+        "modelAnswer": "Gradient = (46 − 30)/(60 − 20) = 16/40 = 0.40 °C/s.",
+        "explanation": "The gradient of a tangent gives the rate at one instant on a curved graph. Use a large triangle on the tangent, not two arbitrary points on the curve.",
+        "hint": "Use change in temperature divided by change in time.",
+        "steps": [
+          "Write the relevant equation.",
+          "Convert quantities to the units requested and substitute.",
+          "Calculate, check the size of your answer and include the unit."
+        ],
+        "misconception": "Subtract both coordinates; do not divide 46 by 60.",
+        "id": "2018-8ci"
+      }
+    },
+    {
+      "id": "2018-8cii",
+      "question": "8(c)(ii)",
+      "marks": 3,
+      "topic": "energy",
+      "skill": "thermal-equilibrium-power",
+      "answer": "Temperature rises while input power exceeds radiated output power. A steady temperature is reached when output power equals input power.",
+      "learning": "A constant temperature does not mean energy transfer has stopped. It means the rates of transfer in and out are balanced.",
+      "questionPage": 25,
+      "markSchemePage": 21,
+      "card": {
+        "title": "Why does the temperature stop rising?",
+        "kind": "text",
+        "prompt": "An electric heater is left at constant power. Its temperature first rises, then becomes steady. Explain why.",
+        "marks": 3,
+        "modelAnswer": "At first the input power is greater than the output power transferred to the surroundings, so thermal energy increases. As it gets hotter, it transfers energy out faster. Eventually the output power equals the input power, so its temperature stays steady.",
+        "explanation": "A constant temperature does not mean energy transfer has stopped. It means the rates of transfer in and out are balanced.",
+        "hint": "Compare power in with power out.",
+        "steps": [
+          "Initially input power exceeds output power.",
+          "Energy loss increases as temperature rises.",
+          "Steady temperature has equal input and output rates."
+        ],
+        "misconception": "At a steady temperature the heater still receives and transfers energy.",
+        "rubric": [
+          {
+            "point": "Initially input power exceeds output power",
+            "patterns": [
+              "(input|suppl|in).{0,30}(greater|more|exceed).{0,30}(output|out|loss)",
+              "(gain|receive).{0,30}more.{0,30}(lose|radiat)"
+            ]
+          },
+          {
+            "point": "Energy loss increases as temperature rises",
+            "patterns": [
+              "(hotter|temperature increases|temperature rises).{0,60}(more|faster|increase)",
+              "(loss|radiat|transfer).{0,50}increase"
+            ]
+          },
+          {
+            "point": "Steady temperature has equal input and output rates",
+            "patterns": [
+              "(equal|same|balance).{0,40}(power|rate)",
+              "(power|rate).{0,40}(equal|same|balance)"
+            ]
+          }
+        ],
+        "id": "2018-8cii"
+      }
+    },
+    {
+      "id": "2018-9ai",
+      "question": "9(a)(i)",
+      "marks": 2,
+      "topic": "forces",
+      "skill": "force-acceleration-practical",
+      "answer": "Add mass to the hanging mass carrier to increase the pulling force on the trolley.",
+      "learning": "The hanger’s weight is mg. Increasing its mass increases the force pulling the system, although a fair investigation may require moving masses from the trolley.",
+      "questionPage": 26,
+      "markSchemePage": 22,
+      "card": {
+        "title": "Change the pulling force",
+        "kind": "choice",
+        "prompt": "A trolley is pulled by a mass hanging over a pulley. How can its driving force be increased?",
+        "marks": 1,
+        "options": [
+          "Add mass to the hanger",
+          "Start the trolley farther from the pulley only",
+          "Remove mass from the hanger",
+          "Use a longer card in the light gate"
+        ],
+        "correctIndex": 0,
+        "modelAnswer": "Add mass to the hanger so its weight provides a larger driving force.",
+        "explanation": "The hanger’s weight is mg. Increasing its mass increases the force pulling the system, although a fair investigation may require moving masses from the trolley.",
+        "hint": "Which force causes the system to accelerate?",
+        "steps": [
+          "Identify the physical quantity or process.",
+          "Apply the rule to the situation.",
+          "Check the other options for a common misconception."
+        ],
+        "misconception": "Changing release position changes the journey, not the hanger’s weight.",
+        "id": "2018-9ai"
+      }
+    },
+    {
+      "id": "2018-9aii",
+      "question": "9(a)(ii)",
+      "marks": 2,
+      "topic": "forces",
+      "skill": "constant-system-mass",
+      "answer": "Transfer slotted masses from trolley to hanger so the total moving mass stays constant while the driving force increases.",
+      "learning": "For a fair test of F against a, keep m constant in F = ma. The moving system includes both the trolley and the hanging masses.",
+      "questionPage": 26,
+      "markSchemePage": 22,
+      "card": {
+        "title": "Keep the moving mass fixed",
+        "kind": "text",
+        "prompt": "In a trolley-and-hanger experiment, how can you increase the hanging weight while keeping the total moving mass constant?",
+        "marks": 2,
+        "modelAnswer": "Move a slotted mass from the trolley to the hanger. The hanging weight increases, but the same mass is still part of the moving system, so total moving mass stays constant.",
+        "explanation": "For a fair test of F against a, keep m constant in F = ma. The moving system includes both the trolley and the hanging masses.",
+        "hint": "Move a mass rather than adding a new one.",
+        "steps": [
+          "Transfer mass from trolley to hanger.",
+          "Total moving mass stays the same."
+        ],
+        "misconception": "Keeping only the trolley mass constant is not enough; the hanger also accelerates.",
+        "rubric": [
+          {
+            "point": "Transfer mass from trolley to hanger",
+            "patterns": [
+              "(transfer|move).{0,50}trolley.{0,50}hanger",
+              "(remove|take).{0,40}trolley.{0,50}(add|put).{0,30}hanger"
+            ]
+          },
+          {
+            "point": "Total moving mass stays the same",
+            "patterns": [
+              "(total|system|moving).{0,25}mass.{0,30}(same|constant|unchanged)",
+              "mass.{0,30}(same|constant|unchanged)"
+            ]
+          }
+        ],
+        "id": "2018-9aii"
+      }
+    },
+    {
+      "id": "2018-9aiii",
+      "question": "9(a)(iii)",
+      "marks": 2,
+      "topic": "forces",
+      "skill": "friction-compensation",
+      "answer": "Tilt the runway just enough that an unattached trolley moves at constant speed; the downslope gravitational component then balances friction.",
+      "learning": "Constant velocity means zero resultant force. A small downhill component of weight can balance the otherwise unmeasured frictional force.",
+      "questionPage": 27,
+      "markSchemePage": 23,
+      "card": {
+        "title": "Compensate for friction",
+        "kind": "text",
+        "prompt": "Before measuring trolley acceleration, a student gently tilts the track. Explain how to choose a suitable tilt to compensate for friction.",
+        "marks": 2,
+        "modelAnswer": "Disconnect the trolley from the hanger. Adjust the track tilt until the trolley rolls at constant speed after a gentle start. The downhill component of its weight then balances friction.",
+        "explanation": "Constant velocity means zero resultant force. A small downhill component of weight can balance the otherwise unmeasured frictional force.",
+        "hint": "What does constant speed tell you about the forces?",
+        "steps": [
+          "Choose a tilt giving constant trolley speed.",
+          "Gravity component balances friction."
+        ],
+        "misconception": "Do not keep tilting until the trolley accelerates rapidly; that adds an unbalanced force.",
+        "rubric": [
+          {
+            "point": "Choose a tilt giving constant trolley speed",
+            "patterns": [
+              "(tilt|raise|slope).{0,80}constant speed",
+              "constant speed.{0,80}(tilt|raise|slope)"
+            ]
+          },
+          {
+            "point": "Gravity component balances friction",
+            "patterns": [
+              "(weight|gravity|gravitational).{0,50}(balanc|equal).{0,30}friction",
+              "friction.{0,50}(balanc|equal)"
+            ]
+          }
+        ],
+        "id": "2018-9aiii"
+      }
+    },
+    {
+      "id": "2018-9b",
+      "question": "9(b)",
+      "marks": 6,
+      "topic": "forces",
+      "skill": "momentum-conservation-laws",
+      "answer": "During the collision the two objects exert equal and opposite forces for the same time. Since F = Δp/Δt, their momentum changes are equal and opposite, leaving total momentum unchanged if external forces are negligible.",
+      "learning": "The laws connect forces to equal and opposite momentum changes. They explain conservation rather than merely stating it.",
+      "questionPage": 28,
+      "markSchemePage": 24,
+      "card": {
+        "title": "Explain conservation using Newton’s laws",
+        "kind": "text",
+        "prompt": "Two ice pucks collide on nearly frictionless ice. Explain, using Newton’s second and third laws, why their total momentum is conserved.",
+        "marks": 6,
+        "modelAnswer": "Momentum is mass × velocity. During contact each puck exerts an equal and opposite force on the other by Newton’s third law. The forces act for the same contact time. Newton’s second law gives change in momentum = force × time, so one puck gains exactly the momentum the other loses. With negligible external resultant force, the total momentum before and after is the same.",
+        "explanation": "The laws connect forces to equal and opposite momentum changes. They explain conservation rather than merely stating it.",
+        "hint": "Use Δp = FΔt for each puck.",
+        "steps": [
+          "Identify momentum as mass times velocity.",
+          "Interaction forces are equal and opposite.",
+          "The contact time is the same.",
+          "Use force and time to explain momentum change.",
+          "Momentum changes cancel or are equal and opposite.",
+          "No external resultant force and conserved total momentum."
+        ],
+        "misconception": "The pucks’ individual momenta can change even though their combined momentum stays constant.",
+        "rubric": [
+          {
+            "point": "Identify momentum as mass times velocity",
+            "patterns": [
+              "momentum.{0,25}mass.{0,20}velocity",
+              "p\\s*=\\s*mv"
+            ]
+          },
+          {
+            "point": "Interaction forces are equal and opposite",
+            "patterns": [
+              "equal and opposite.{0,25}force",
+              "force.{0,30}equal and opposite"
+            ]
+          },
+          {
+            "point": "The contact time is the same",
+            "patterns": [
+              "same.{0,25}(time|duration)",
+              "(time|duration).{0,25}same"
+            ]
+          },
+          {
+            "point": "Use force and time to explain momentum change",
+            "patterns": [
+              "(momentum|p).{0,25}(force|f).{0,25}(time|t)",
+              "force.{0,35}(change|rate).{0,20}momentum",
+              "[fF]\\s*=.{0,15}(p|momentum).{0,10}/.{0,5}t"
+            ]
+          },
+          {
+            "point": "Momentum changes cancel or are equal and opposite",
+            "patterns": [
+              "momentum.{0,40}(equal and opposite|cancel)",
+              "(gain|gains).{0,45}(lose|loses|loss)"
+            ]
+          },
+          {
+            "point": "No external resultant force and conserved total momentum",
+            "patterns": [
+              "(external|outside).{0,35}(negligible|zero|no force)",
+              "(no|negligible|zero).{0,35}external",
+              "total momentum.{0,40}(same|constant|conserv)"
+            ]
+          }
+        ],
+        "id": "2018-9b"
+      }
+    },
+    {
+      "id": "2018-10ai",
+      "question": "10(a)(i)",
+      "marks": 3,
+      "topic": "radioactivity",
+      "skill": "fusion-temperature",
+      "answer": "High temperature gives nuclei enough kinetic energy to overcome electrostatic repulsion between their positive charges and approach close enough to fuse.",
+      "learning": "Fusion needs nuclei to approach extremely closely. Temperature is linked to average particle kinetic energy, so heating makes close encounters more likely.",
+      "questionPage": 29,
+      "markSchemePage": 26,
+      "card": {
+        "title": "Why fusion needs heat",
+        "kind": "text",
+        "prompt": "Explain why hydrogen nuclei must reach very high temperatures before they can fuse.",
+        "marks": 3,
+        "modelAnswer": "Both nuclei are positively charged, so they repel electrically. A very high temperature gives them large kinetic energies, allowing them to get close enough to overcome the repulsion and fuse.",
+        "explanation": "Fusion needs nuclei to approach extremely closely. Temperature is linked to average particle kinetic energy, so heating makes close encounters more likely.",
+        "hint": "What force acts between two positive charges?",
+        "steps": [
+          "Both nuclei carry positive charge.",
+          "Their electrical repulsion must be overcome.",
+          "High temperature provides large kinetic energy."
+        ],
+        "misconception": "Nuclei do not become negatively charged just because they are heated.",
+        "rubric": [
+          {
+            "point": "Both nuclei carry positive charge",
+            "patterns": [
+              "(both|nuclei).{0,30}positive",
+              "same.{0,15}charge"
+            ]
+          },
+          {
+            "point": "Their electrical repulsion must be overcome",
+            "patterns": [
+              "(overcom|against).{0,30}(repul|electrostatic)",
+              "repul.{0,30}(overcom|close)"
+            ]
+          },
+          {
+            "point": "High temperature provides large kinetic energy",
+            "patterns": [
+              "(high|large|more).{0,25}kinetic energy",
+              "(temperature|heat).{0,50}(kinetic|fast)"
+            ]
+          }
+        ],
+        "id": "2018-10ai"
+      }
+    },
+    {
+      "id": "2018-10aii",
+      "question": "10(a)(ii)",
+      "marks": 3,
+      "topic": "radioactivity",
+      "skill": "mass-energy-equivalence",
+      "answer": "m = E/c² = 4.5 × 10⁻¹²/(3.0 × 10⁸)² = 5.0 × 10⁻²⁹ kg.",
+      "learning": "In nuclear reactions a small decrease in rest mass corresponds to released energy. The huge value of c² explains why the mass change is tiny.",
+      "questionPage": 29,
+      "markSchemePage": 26,
+      "card": {
+        "title": "A tiny mass, a large energy",
+        "kind": "number",
+        "prompt": "A nuclear reaction releases 1.8 × 10⁻¹² J. Use E = mc² and c = 3.0 × 10⁸ m/s to find the mass decrease.",
+        "marks": 3,
+        "answer": 2e-29,
+        "unit": "kg",
+        "tolerance": 3e-31,
+        "modelAnswer": "m = E/c² = (1.8 × 10⁻¹²)/(9.0 × 10¹⁶) = 2.0 × 10⁻²⁹ kg.",
+        "explanation": "In nuclear reactions a small decrease in rest mass corresponds to released energy. The huge value of c² explains why the mass change is tiny.",
+        "hint": "Square both the 3.0 and the power of ten.",
+        "steps": [
+          "Write the relevant equation.",
+          "Convert quantities to the units requested and substitute.",
+          "Calculate, check the size of your answer and include the unit."
+        ],
+        "misconception": "(3 × 10⁸)² = 9 × 10¹⁶, not 9 × 10⁸.",
+        "id": "2018-10aii"
+      }
+    },
+    {
+      "id": "2018-10b",
+      "question": "10(b)",
+      "marks": 6,
+      "topic": "radioactivity",
+      "skill": "reactor-control-moderator",
+      "answer": "The graphite moderator slows neutrons so they are more likely to cause further fission. Control rods absorb neutrons; lowering them removes more neutrons and reduces the reaction rate, while raising them increases it.",
+      "learning": "Maintaining a chain reaction and controlling its rate are different jobs. The moderator changes neutron speed; the rods change how many neutrons remain available.",
+      "questionPage": 30,
+      "markSchemePage": 27,
+      "card": {
+        "title": "Keep a reactor steady",
+        "kind": "text",
+        "prompt": "Explain the different jobs of a moderator and control rods in a fission reactor, including how operators reduce its power.",
+        "marks": 6,
+        "modelAnswer": "Fission releases neutrons that can cause further nuclei to split. The moderator slows these neutrons, making further fission more likely. Control rods absorb neutrons, reducing the number available to continue the chain reaction. Lowering the rods farther in absorbs more neutrons and reduces the reaction rate and power. Raising the rods increases the number of available neutrons and the reaction rate.",
+        "explanation": "Maintaining a chain reaction and controlling its rate are different jobs. The moderator changes neutron speed; the rods change how many neutrons remain available.",
+        "hint": "Which component slows neutrons and which removes them?",
+        "steps": [
+          "Fission releases neutrons for a chain reaction.",
+          "Moderator slows neutrons.",
+          "Slower neutrons make further fission more likely.",
+          "Control rods absorb neutrons.",
+          "Lowering rods reduces available neutrons and rate.",
+          "Raising rods increases rate or power."
+        ],
+        "misconception": "The moderator does not normally control power by absorbing the neutrons.",
+        "rubric": [
+          {
+            "point": "Fission releases neutrons for a chain reaction",
+            "patterns": [
+              "fission.{0,50}(neutron|chain)",
+              "neutron.{0,50}(further|more|another).{0,20}(fission|nucle)"
+            ]
+          },
+          {
+            "point": "Moderator slows neutrons",
+            "patterns": [
+              "moderator.{0,40}slow",
+              "\\bslows?\\b.{0,20}neutrons?",
+              "neutrons?.{0,20}slowed.{0,20}moderator"
+            ]
+          },
+          {
+            "point": "Slower neutrons make further fission more likely",
+            "patterns": [
+              "slow.{0,55}(fission|split)",
+              "(more likely|increase.{0,10}chance).{0,35}fission"
+            ]
+          },
+          {
+            "point": "Control rods absorb neutrons",
+            "patterns": [
+              "(rod|boron).{0,35}absorb.{0,20}neutron"
+            ]
+          },
+          {
+            "point": "Lowering rods reduces available neutrons and rate",
+            "patterns": [
+              "(lower|insert|further in).{0,65}(reduc|fewer|slow|less)"
+            ]
+          },
+          {
+            "point": "Raising rods increases rate or power",
+            "patterns": [
+              "(rais|withdraw|pull.{0,10}out).{0,60}(increase|more|faster)"
+            ]
+          }
+        ],
+        "id": "2018-10b"
+      }
+    }
+  ]
+}
