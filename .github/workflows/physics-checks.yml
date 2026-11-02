@@ -1,0 +1,24 @@
+name: Avi Physics checks
+on:
+  pull_request:
+    paths: ['physics/**', '.github/workflows/physics-checks.yml']
+  push:
+    branches: [main]
+    paths: ['physics/**', '.github/workflows/physics-checks.yml']
+permissions:
+  contents: read
+jobs:
+  physics:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: physics
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - run: npm ci --ignore-scripts
+      - run: npm run build
+      - run: npm test

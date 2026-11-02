@@ -1,0 +1,11 @@
+import {mkdir,cp,writeFile,rm} from 'node:fs/promises';
+import {resolve} from 'node:path';
+import {loadCorpus,root} from './validate.mjs';
+const corpus=await loadCorpus();
+const out=resolve(root,'dist');
+await rm(out,{recursive:true,force:true}); await mkdir(resolve(out,'data'),{recursive:true});
+for(const file of ['index.html','styles.css','app.js','lib','assets']) await cp(resolve(root,file),resolve(out,file),{recursive:true});
+await writeFile(resolve(out,'data/corpus.json'),JSON.stringify(corpus));
+await cp(resolve(root,'data/sources.json'),resolve(out,'data/sources.json'));
+await writeFile(resolve(out,'data/weightings.json'),JSON.stringify({totalMarks:corpus.totalSourceMarks,papers:corpus.papers,topicWeights:corpus.topicWeights},null,2));
+console.log(`Built ${corpus.cards.length} original questions from all 9 Higher papers to dist/.`);

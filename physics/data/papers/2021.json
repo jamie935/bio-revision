@@ -1,0 +1,1955 @@
+{
+  "paper": "2021",
+  "totalMarks": 100,
+  "reviewStatus": "question-and-mark-scheme-reviewed",
+  "notes": "PMT labels the link June 2021, but the supplied mark scheme identifies November 2021 (1PH0_1H_2111_MS). Source link labels are preserved in the manifest. Extended-response practice uses explicit learning criteria rather than reproducing official holistic level descriptors.",
+  "rows": [
+    {
+      "id": "2021-1a",
+      "question": "1(a)",
+      "marks": 1,
+      "topic": "waves",
+      "skill": "ultrasound-frequency",
+      "answer": "23 kHz is above the usual human upper hearing limit of 20 kHz.",
+      "learning": "Convert kHz to Hz and compare with the boundaries of human hearing.",
+      "questionPage": 2,
+      "markSchemePage": 5,
+      "card": {
+        "title": "Above human hearing",
+        "kind": "choice",
+        "prompt": "Which frequency is ultrasonic?",
+        "options": [
+          "18 Hz",
+          "180 Hz",
+          "18 kHz",
+          "28 kHz"
+        ],
+        "correctIndex": 3,
+        "marks": 1,
+        "modelAnswer": "28 kHz = 28,000 Hz, so it is ultrasound.",
+        "explanation": "Ultrasound is sound above 20,000 Hz. A prefix can change a frequency by a factor of a thousand.",
+        "hint": "What does kilo mean?",
+        "steps": [
+          "Read the physical situation.",
+          "Rule out alternatives using the stated physics.",
+          "Choose the statement that fits all the evidence."
+        ],
+        "misconception": "A sound does not become ultrasound simply because it is loud.",
+        "id": "2021-1a"
+      }
+    },
+    {
+      "id": "2021-1bi",
+      "question": "1(b)(i)",
+      "marks": 2,
+      "topic": "waves",
+      "skill": "hearing-ranges",
+      "answer": "The repeller frequency lies in the mouse hearing range but above the human hearing range.",
+      "learning": "Explain an effect by comparing a frequency with the hearing ranges of different species.",
+      "questionPage": 2,
+      "markSchemePage": 5,
+      "card": {
+        "title": "Different ears, different ranges",
+        "kind": "text",
+        "prompt": "A bat detects a 45 kHz sound but a person cannot. Explain why.",
+        "marks": 2,
+        "rubric": [
+          {
+            "point": "Above human hearing limit",
+            "patterns": [
+              "45.?kHz.*(above|higher|exceed)",
+              "(above|higher than|exceeds).*(20.?kHz|20000|human.*range)"
+            ]
+          },
+          {
+            "point": "Inside bat hearing range",
+            "patterns": [
+              "(within|inside|in).*(bat.*(range|hearing))",
+              "bat.*(hear|detect).*frequenc"
+            ]
+          }
+        ],
+        "modelAnswer": "45 kHz is above the human upper hearing limit of about 20 kHz, but it is within the bat’s hearing range.",
+        "explanation": "Hearing depends on whether the ear can respond to that frequency, not whether sound energy reaches it.",
+        "hint": "Compare the same frequency with both animals’ ranges.",
+        "steps": [
+          "Identify the physical idea.",
+          "Link each statement to a reason or observation.",
+          "Check that every part of the question is answered."
+        ],
+        "misconception": "Do not say ultrasound cannot travel through air.",
+        "id": "2021-1bi"
+      }
+    },
+    {
+      "id": "2021-1bii",
+      "question": "1(b)(ii)",
+      "marks": 3,
+      "topic": "waves",
+      "skill": "echo-speed-experiment",
+      "answer": "Measure the wall distance and echo time, then divide twice the wall distance by the return time.",
+      "learning": "Plan a pulse-echo measurement and account for the outward and return journeys.",
+      "questionPage": 3,
+      "markSchemePage": 5,
+      "card": {
+        "title": "Measure sound with an echo",
+        "kind": "text",
+        "prompt": "Describe how to find sound speed using an electronic pulse timer and a flat wall.",
+        "marks": 3,
+        "rubric": [
+          {
+            "point": "Measure source-to-wall distance",
+            "patterns": [
+              "measur.*distance.*wall",
+              "distance.*(source|device).*wall"
+            ]
+          },
+          {
+            "point": "Time pulse emission to echo reception",
+            "patterns": [
+              "(time|timing|timer).*(echo|return)",
+              "echo.*(time|timer)"
+            ]
+          },
+          {
+            "point": "Use twice the distance divided by time",
+            "patterns": [
+              "(2|twice|double).*distance.*(time|divid)",
+              "speed.*2.*d.*t"
+            ]
+          }
+        ],
+        "modelAnswer": "Measure the distance d from the device to the wall. Time a pulse from emission to reception of its echo. Calculate speed = 2d/t.",
+        "explanation": "The timer measures a round trip. Counting only the outward distance would halve the calculated speed.",
+        "hint": "Draw the two parts of the pulse’s journey.",
+        "steps": [
+          "Identify the physical idea.",
+          "Link each statement to a reason or observation.",
+          "Check that every part of the question is answered."
+        ],
+        "misconception": "The echo time is not the one-way travel time.",
+        "id": "2021-1bii"
+      }
+    },
+    {
+      "id": "2021-2a",
+      "question": "2(a)",
+      "marks": 2,
+      "topic": "waves",
+      "skill": "wavelength-from-graph",
+      "answer": "The spatial separation of equivalent wave points gives 28 cm.",
+      "learning": "Read wavelength from a distance axis, using two crests or two troughs.",
+      "questionPage": 4,
+      "markSchemePage": 6,
+      "card": {
+        "title": "Read a wavelength",
+        "kind": "number",
+        "prompt": "Two neighbouring crests on a distance graph are at 0.12 m and 0.46 m. What is the wavelength?",
+        "answer": 0.34,
+        "unit": "m",
+        "tolerance": 0.0017000000000000001,
+        "marks": 2,
+        "modelAnswer": "λ = 0.46 − 0.12 = 0.34 m.",
+        "explanation": "One full cycle spans the distance between matching points on successive waves.",
+        "hint": "Subtract the two crest positions.",
+        "steps": [
+          "Write the relevant equation.",
+          "Substitute the values using consistent units.",
+          "Calculate, round sensibly and give the unit."
+        ],
+        "misconception": "The height of a crest is amplitude, not wavelength.",
+        "id": "2021-2a"
+      }
+    },
+    {
+      "id": "2021-2bi",
+      "question": "2(b)(i)",
+      "marks": 3,
+      "topic": "waves",
+      "skill": "frequency-measurement",
+      "answer": "Count complete waves passing a fixed point in a measured time, then use frequency = count/time.",
+      "learning": "Design a frequency measurement with a stopwatch and repeated oscillations.",
+      "questionPage": 5,
+      "markSchemePage": 6,
+      "card": {
+        "title": "Count the cycles",
+        "kind": "text",
+        "prompt": "Describe a reliable way to measure the frequency of a floating marker bobbing on waves.",
+        "marks": 3,
+        "rubric": [
+          {
+            "point": "Count complete oscillations",
+            "patterns": [
+              "count.*(oscillation|cycle|wave|bob)"
+            ]
+          },
+          {
+            "point": "Measure the elapsed time for those cycles",
+            "patterns": [
+              "(measur|record|time).*(time|interval).*",
+              "stopwatch.*(cycle|oscillation|wave)"
+            ]
+          },
+          {
+            "point": "Divide cycle count by elapsed time",
+            "patterns": [
+              "(number|count|cycles|oscillations|waves).*(divid|/).*time",
+              "frequency.*(number|count).*time"
+            ]
+          }
+        ],
+        "modelAnswer": "Count 20 complete oscillations and measure the elapsed time for those oscillations with a stopwatch. Frequency is the number of oscillations divided by the measured time in seconds. Repeat and average.",
+        "explanation": "Timing many cycles makes the effect of reaction time smaller than timing just one cycle.",
+        "hint": "Frequency means cycles per second.",
+        "steps": [
+          "Identify the physical idea.",
+          "Link each statement to a reason or observation.",
+          "Check that every part of the question is answered."
+        ],
+        "misconception": "Do not divide the time by the number; that gives period.",
+        "id": "2021-2bi"
+      }
+    },
+    {
+      "id": "2021-2bii",
+      "question": "2(b)(ii)",
+      "marks": 2,
+      "topic": "waves",
+      "skill": "wave-equation",
+      "answer": "λ = 1.5/0.70 = 2.14 m, approximately 2.1 m.",
+      "learning": "Rearrange v = fλ to find wavelength.",
+      "questionPage": 5,
+      "markSchemePage": 7,
+      "card": {
+        "title": "Use the wave equation",
+        "kind": "number",
+        "prompt": "A wave travels at 2.4 m/s with frequency 0.80 Hz. Find its wavelength.",
+        "answer": 3,
+        "unit": "m",
+        "tolerance": 0.015,
+        "marks": 2,
+        "modelAnswer": "λ = v/f = 2.4/0.80 = 3.0 m.",
+        "explanation": "At a fixed speed, a lower frequency means each complete wave must be longer.",
+        "hint": "Start from v = fλ.",
+        "steps": [
+          "Write the relevant equation.",
+          "Substitute the values using consistent units.",
+          "Calculate, round sensibly and give the unit."
+        ],
+        "misconception": "Multiplying speed by frequency gives the wrong units.",
+        "id": "2021-2bii",
+        "variants": [
+          {
+            "prompt": "A ripple travels at 3.6 m/s with frequency 0.90 Hz. Calculate its wavelength.",
+            "answer": 4,
+            "modelAnswer": "λ = v/f = 3.6/0.90 = 4.0 m."
+          },
+          {
+            "prompt": "A wave travels at 2.0 m/s with frequency 1.0 Hz. Find its wavelength.",
+            "answer": 2,
+            "modelAnswer": "λ = v/f = 2.0/1.0 = 2.0 m."
+          }
+        ]
+      }
+    },
+    {
+      "id": "2021-2biii",
+      "question": "2(b)(iii)",
+      "marks": 2,
+      "topic": "waves",
+      "skill": "wave-types",
+      "answer": "Transverse vibrations are perpendicular to travel; longitudinal vibrations are parallel to travel.",
+      "learning": "Define wave type using the direction of oscillation relative to energy transfer.",
+      "questionPage": 6,
+      "markSchemePage": 7,
+      "card": {
+        "title": "Two kinds of wave",
+        "kind": "text",
+        "prompt": "Compare the vibration directions in transverse and longitudinal waves.",
+        "marks": 2,
+        "rubric": [
+          {
+            "point": "Transverse vibration perpendicular to travel",
+            "patterns": [
+              "transverse.*(perpendicular|right angle)"
+            ]
+          },
+          {
+            "point": "Longitudinal vibration parallel to travel",
+            "patterns": [
+              "longitudinal.*(parallel|same direction)"
+            ]
+          }
+        ],
+        "modelAnswer": "In a transverse wave, particles vibrate perpendicular to wave travel. In a longitudinal wave, particles vibrate parallel to wave travel.",
+        "explanation": "The wave carries energy along while the medium’s particles oscillate about their normal positions.",
+        "hint": "Use relative directions, not just up and down.",
+        "steps": [
+          "Identify the physical idea.",
+          "Link each statement to a reason or observation.",
+          "Check that every part of the question is answered."
+        ],
+        "misconception": "A wave can travel horizontally while particles move vertically.",
+        "id": "2021-2biii"
+      }
+    },
+    {
+      "id": "2021-3a",
+      "question": "3(a)",
+      "marks": 1,
+      "topic": "radioactivity",
+      "skill": "radioactive-emissions",
+      "answer": "All three emissions ionise matter and originate from unstable nuclei.",
+      "learning": "Recognise the shared properties of alpha, beta and gamma radiation.",
+      "questionPage": 7,
+      "markSchemePage": 8,
+      "card": {
+        "title": "What radioactive emissions share",
+        "kind": "choice",
+        "prompt": "Which property applies to alpha, beta and gamma emissions?",
+        "options": [
+          "All have positive charge",
+          "All come from unstable nuclei and can ionise matter",
+          "All are electrons",
+          "All are equally penetrating"
+        ],
+        "correctIndex": 1,
+        "marks": 1,
+        "modelAnswer": "They are emitted by unstable nuclei and can ionise atoms.",
+        "explanation": "Ionisation means removing an electron from an atom. Neutral gamma photons can still cause ionisation.",
+        "hint": "Think about origin and effect, not charge.",
+        "steps": [
+          "Read the physical situation.",
+          "Rule out alternatives using the stated physics.",
+          "Choose the statement that fits all the evidence."
+        ],
+        "misconception": "Neutral radiation is not the same as harmless radiation.",
+        "id": "2021-3a"
+      }
+    },
+    {
+      "id": "2021-3b",
+      "question": "3(b)",
+      "marks": 2,
+      "topic": "radioactivity",
+      "skill": "isotopes",
+      "answer": "The nuclei contain the same number of protons but different numbers of neutrons.",
+      "learning": "Explain isotope identity using proton number and neutron number.",
+      "questionPage": 7,
+      "markSchemePage": 8,
+      "card": {
+        "title": "Isotope identity",
+        "kind": "text",
+        "prompt": "Compare the nuclei of oxygen-16 and oxygen-18.",
+        "marks": 2,
+        "rubric": [
+          {
+            "point": "Same proton number",
+            "patterns": [
+              "same.*(proton|atomic number)",
+              "both.*8.*proton"
+            ]
+          },
+          {
+            "point": "Different neutron number",
+            "patterns": [
+              "different.*neutron",
+              "(8.*10|10.*8).*neutron",
+              "neutron.*(8.*10|10.*8)"
+            ]
+          }
+        ],
+        "modelAnswer": "Both have 8 protons, so both are oxygen. Oxygen-16 has 8 neutrons and oxygen-18 has 10 neutrons.",
+        "explanation": "An element is identified by proton number. Changing the number of neutrons changes its isotope.",
+        "hint": "Mass number counts protons plus neutrons.",
+        "steps": [
+          "Identify the physical idea.",
+          "Link each statement to a reason or observation.",
+          "Check that every part of the question is answered."
+        ],
+        "misconception": "Isotopes do not have different numbers of protons.",
+        "id": "2021-3b"
+      }
+    },
+    {
+      "id": "2021-3ci",
+      "question": "3(c)(i)",
+      "marks": 2,
+      "topic": "radioactivity",
+      "skill": "beta-absorption",
+      "answer": "Removing aluminium removes an absorber, so more beta particles reach the detector.",
+      "learning": "Link absorber penetration to a change in detected count.",
+      "questionPage": 8,
+      "markSchemePage": 8,
+      "card": {
+        "title": "Remove the shield",
+        "kind": "text",
+        "prompt": "A thin aluminium sheet is removed from between a beta source and a detector. Explain why the count rises.",
+        "marks": 2,
+        "rubric": [
+          {
+            "point": "Aluminium absorbs beta particles",
+            "patterns": [
+              "aluminium.*(absorb|stop|block).*beta",
+              "beta.*(absorb|stop|block).*aluminium"
+            ]
+          },
+          {
+            "point": "More particles reach detector after removal",
+            "patterns": [
+              "more.*(beta|particle|radiation).*(reach|detect)",
+              "(reach|detect).*more.*(beta|particle|radiation)"
+            ]
+          }
+        ],
+        "modelAnswer": "Aluminium absorbs some beta particles. Once the sheet is removed, more beta particles reach the detector each second.",
+        "explanation": "A detector records the emissions that reach it; an absorber changes the measured count without changing nuclear decay.",
+        "hint": "Distinguish emission rate from detected count rate.",
+        "steps": [
+          "Identify the physical idea.",
+          "Link each statement to a reason or observation.",
+          "Check that every part of the question is answered."
+        ],
+        "misconception": "Removing shielding does not make the source decay faster.",
+        "id": "2021-3ci"
+      }
+    },
+    {
+      "id": "2021-3cii",
+      "question": "3(c)(ii)",
+      "marks": 1,
+      "topic": "radioactivity",
+      "skill": "background-radiation",
+      "answer": "Background radiation still reaches the detector when the source is removed.",
+      "learning": "Recognise and correct for environmental radiation in measurements.",
+      "questionPage": 9,
+      "markSchemePage": 9,
+      "card": {
+        "title": "A detector never quite reads zero",
+        "kind": "choice",
+        "prompt": "Why can a Geiger counter still register counts after the test source is taken away?",
+        "options": [
+          "The removed source keeps producing echoes",
+          "Background radiation is still present",
+          "The counter creates radioactive atoms",
+          "All nearby air is highly radioactive"
+        ],
+        "correctIndex": 1,
+        "marks": 1,
+        "modelAnswer": "Natural and artificial background radiation can still reach the detector.",
+        "explanation": "Cosmic rays, rocks and building materials can contribute. Measure the background separately before measuring a weak source.",
+        "hint": "Think about radiation from the surroundings.",
+        "steps": [
+          "Read the physical situation.",
+          "Rule out alternatives using the stated physics.",
+          "Choose the statement that fits all the evidence."
+        ],
+        "misconception": "A nonzero reading does not prove the test source is still nearby.",
+        "id": "2021-3cii"
+      }
+    },
+    {
+      "id": "2021-3ciii",
+      "question": "3(c)(iii)",
+      "marks": 1,
+      "topic": "radioactivity",
+      "skill": "activity-unit",
+      "answer": "Activity is measured in becquerels, Bq; one Bq means one decay per second.",
+      "learning": "Distinguish activity from count totals and radiation dose.",
+      "questionPage": 9,
+      "markSchemePage": 9,
+      "card": {
+        "title": "Activity units",
+        "kind": "choice",
+        "prompt": "Which quantity is measured in becquerels?",
+        "options": [
+          "Energy released per decay",
+          "Number of nuclear decays each second",
+          "Time for half the nuclei to decay",
+          "Radiation dose absorbed per kilogram"
+        ],
+        "correctIndex": 1,
+        "marks": 1,
+        "modelAnswer": "Activity is the number of decays per second.",
+        "explanation": "A source can have a high activity even when shielding means a nearby detector measures a small count rate.",
+        "hint": "The unit is equivalent to one event per second.",
+        "steps": [
+          "Read the physical situation.",
+          "Rule out alternatives using the stated physics.",
+          "Choose the statement that fits all the evidence."
+        ],
+        "misconception": "Becquerels are not a measure of absorbed dose.",
+        "id": "2021-3ciii"
+      }
+    },
+    {
+      "id": "2021-3d",
+      "question": "3(d)",
+      "marks": 2,
+      "topic": "radioactivity",
+      "skill": "half-life",
+      "answer": "33/11 = 3 half-lives; 1.7 × 10²³ / 8 = 2.125 × 10²² nuclei remain.",
+      "learning": "Use repeated halving and standard form for remaining undecayed nuclei.",
+      "questionPage": 9,
+      "markSchemePage": 9,
+      "card": {
+        "title": "Repeated half-lives",
+        "kind": "number",
+        "prompt": "A sample starts with 6.4 × 10¹² unstable nuclei. Its half-life is 5 days. How many undecayed nuclei remain after 15 days?",
+        "answer": 800000000000.0,
+        "unit": "nuclei",
+        "tolerance": 4000000000.0,
+        "marks": 2,
+        "modelAnswer": "15/5 = 3 half-lives. N = 6.4 × 10¹² / 2³ = 8.0 × 10¹¹ nuclei.",
+        "explanation": "Half-life describes a fraction of the current amount, so three half-lives leave one eighth.",
+        "hint": "First find the number of half-lives.",
+        "steps": [
+          "Write the relevant equation.",
+          "Substitute the values using consistent units.",
+          "Calculate, round sensibly and give the unit."
+        ],
+        "misconception": "Three half-lives do not leave one third of the sample.",
+        "id": "2021-3d"
+      }
+    },
+    {
+      "id": "2021-4a",
+      "question": "4(a)",
+      "marks": 1,
+      "topic": "astronomy",
+      "skill": "big-bang-evidence",
+      "answer": "Cosmic microwave background radiation is evidence of the Universe’s hot, dense early state.",
+      "learning": "Distinguish evidence for an early hot Universe from evidence for expansion alone.",
+      "questionPage": 11,
+      "markSchemePage": 10,
+      "card": {
+        "title": "Evidence of the early Universe",
+        "kind": "choice",
+        "prompt": "Which observation most directly supports a hot, dense beginning to the Universe?",
+        "options": [
+          "Microwave background radiation across the sky",
+          "The Moon orbiting Earth",
+          "Planets having different masses",
+          "The existence of asteroids"
+        ],
+        "correctIndex": 0,
+        "marks": 1,
+        "modelAnswer": "Cosmic microwave background radiation is leftover radiation from the early hot Universe.",
+        "explanation": "Expansion stretches this radiation to microwave wavelengths. Its existence helped distinguish Big Bang cosmology from Steady State.",
+        "hint": "Look for a relic of an early hot state.",
+        "steps": [
+          "Read the physical situation.",
+          "Rule out alternatives using the stated physics.",
+          "Choose the statement that fits all the evidence."
+        ],
+        "misconception": "The existence of other galaxies alone does not demonstrate a beginning.",
+        "id": "2021-4a"
+      }
+    },
+    {
+      "id": "2021-4b",
+      "question": "4(b)",
+      "marks": 2,
+      "topic": "astronomy",
+      "skill": "cosmological-redshift",
+      "answer": "Galaxy spectral wavelengths are longer than equivalent laboratory wavelengths, indicating recession and expansion.",
+      "learning": "Explain redshift as increased observed wavelength and connect it to recession.",
+      "questionPage": 11,
+      "markSchemePage": 10,
+      "card": {
+        "title": "Read the redshift",
+        "kind": "text",
+        "prompt": "Light from a distant galaxy contains familiar spectral lines at longer wavelengths. Explain what this indicates.",
+        "marks": 2,
+        "rubric": [
+          {
+            "point": "Wavelengths shifted toward red / increased",
+            "patterns": [
+              "(longer|increas).*wavelength",
+              "red.?shift"
+            ]
+          },
+          {
+            "point": "Galaxy receding / universe expanding",
+            "patterns": [
+              "(galaxy|galaxies).*(moving|reced|away)",
+              "universe.*expand"
+            ]
+          }
+        ],
+        "modelAnswer": "The spectral lines are redshifted: their wavelengths are increased. This indicates the galaxy is receding and supports an expanding Universe.",
+        "explanation": "Comparing the same atomic lines lets us separate source motion from the line’s normal wavelength.",
+        "hint": "Compare the observed line with its laboratory wavelength.",
+        "steps": [
+          "Identify the physical idea.",
+          "Link each statement to a reason or observation.",
+          "Check that every part of the question is answered."
+        ],
+        "misconception": "Redshift is not caused simply by red stars being present.",
+        "id": "2021-4b"
+      }
+    },
+    {
+      "id": "2021-4c",
+      "question": "4(c)",
+      "marks": 2,
+      "topic": "astronomy",
+      "skill": "cosmology-models",
+      "answer": "Both theories allow expansion; Steady State has no beginning and requires continuous matter creation, unlike Big Bang.",
+      "learning": "Compare scientific models using a shared prediction and a discriminating difference.",
+      "questionPage": 11,
+      "markSchemePage": 11,
+      "card": {
+        "title": "Compare cosmological models",
+        "kind": "text",
+        "prompt": "Give one similarity and one difference between the Big Bang and Steady State models.",
+        "marks": 2,
+        "rubric": [
+          {
+            "point": "Both include expansion",
+            "patterns": [
+              "both.*expand",
+              "expand.*both"
+            ]
+          },
+          {
+            "point": "Steady State has no beginning or creates matter continuously",
+            "patterns": [
+              "steady.?state.*no beginning",
+              "steady.?state.*(always exist|continuous.*matter|matter.*continuous)",
+              "big.?bang.*beginning.*steady",
+              "steady.?state.*(eternal|continual.*matter)"
+            ]
+          }
+        ],
+        "modelAnswer": "Both describe an expanding Universe. The Big Bang model has an early hot, dense state, whereas Steady State proposes an eternal Universe with continual matter creation.",
+        "explanation": "Scientific models may share one successful prediction but differ on others; that is why additional observations matter.",
+        "hint": "One shared prediction, then one real difference.",
+        "steps": [
+          "Identify the physical idea.",
+          "Link each statement to a reason or observation.",
+          "Check that every part of the question is answered."
+        ],
+        "misconception": "Do not say Steady State requires a static Universe.",
+        "id": "2021-4c"
+      }
+    },
+    {
+      "id": "2021-4di",
+      "question": "4(d)(i)",
+      "marks": 1,
+      "topic": "astronomy",
+      "skill": "graph-interpolation",
+      "answer": "The fitted line predicts approximately 1050 km/s at 15 Mpc.",
+      "learning": "Interpolate from a best-fit line rather than choosing an unrelated data point.",
+      "questionPage": 12,
+      "markSchemePage": 11,
+      "card": {
+        "title": "Read a galaxy trend",
+        "kind": "number",
+        "prompt": "A best-fit recession-speed line passes through (0 Mpc, 0 km/s) and (20 Mpc, 1200 km/s). What speed does it predict at 12 Mpc?",
+        "answer": 720,
+        "unit": "km/s",
+        "tolerance": 3.6,
+        "marks": 2,
+        "modelAnswer": "Gradient = 1200/20 = 60 km/s/Mpc. At 12 Mpc, v = 60 × 12 = 720 km/s.",
+        "explanation": "Use the trend line for an estimate. Individual measurements may scatter around it.",
+        "hint": "Find the speed gained for each Mpc.",
+        "steps": [
+          "Write the relevant equation.",
+          "Substitute the values using consistent units.",
+          "Calculate, round sensibly and give the unit."
+        ],
+        "misconception": "Read the line at the requested distance, not the nearest plotted measurement.",
+        "id": "2021-4di"
+      }
+    },
+    {
+      "id": "2021-4dii",
+      "question": "4(d)(ii)",
+      "marks": 3,
+      "topic": "astronomy",
+      "skill": "gradient-units",
+      "answer": "The gradient is about 70 km/s/Mpc, calculated as velocity change divided by distance change.",
+      "learning": "Calculate a graph gradient and derive its compound units.",
+      "questionPage": 12,
+      "markSchemePage": 11,
+      "card": {
+        "title": "A gradient with units",
+        "kind": "number",
+        "prompt": "A velocity-distance line rises from 300 km/s at 4 Mpc to 1500 km/s at 24 Mpc. Find its gradient.",
+        "answer": 60,
+        "unit": "km/s/Mpc",
+        "tolerance": 0.3,
+        "marks": 3,
+        "modelAnswer": "Gradient = (1500 − 300)/(24 − 4) = 1200/20 = 60 km/s/Mpc.",
+        "explanation": "A gradient is a change in the vertical quantity divided by a change in the horizontal quantity.",
+        "hint": "Use two widely separated points on the line.",
+        "steps": [
+          "Write the relevant equation.",
+          "Substitute the values using consistent units.",
+          "Calculate, round sensibly and give the unit."
+        ],
+        "misconception": "Do not divide one point’s coordinates unless the line passes through the origin.",
+        "id": "2021-4dii"
+      }
+    },
+    {
+      "id": "2021-4diii",
+      "question": "4(d)(iii)",
+      "marks": 2,
+      "topic": "astronomy",
+      "skill": "graph-uncertainty",
+      "answer": "Scatter permits several plausible best-fit lines and hence a range of gradients and age estimates.",
+      "learning": "Explain how data scatter creates uncertainty in a derived quantity.",
+      "questionPage": 13,
+      "markSchemePage": 12,
+      "card": {
+        "title": "Why a graph gives an estimate",
+        "kind": "text",
+        "prompt": "A galaxy graph has widely scattered points. Explain why an age calculated from its gradient is uncertain.",
+        "marks": 2,
+        "rubric": [
+          {
+            "point": "Scatter allows different plausible lines",
+            "patterns": [
+              "scatter.*(line|gradient)",
+              "(different|several|range|possible).*(best.?fit|line)"
+            ]
+          },
+          {
+            "point": "Different gradients give different age estimates",
+            "patterns": [
+              "(different|range|uncertain).*(gradient|age)",
+              "gradient.*(uncertain|estimate)"
+            ]
+          }
+        ],
+        "modelAnswer": "The scattered points allow several reasonable best-fit lines. Those lines have different gradients, so a calculation using the gradient gives a range of possible ages.",
+        "explanation": "A calculated result cannot be more certain than the measurements and fitted line on which it depends.",
+        "hint": "What happens if a different reasonable line is drawn?",
+        "steps": [
+          "Identify the physical idea.",
+          "Link each statement to a reason or observation.",
+          "Check that every part of the question is answered."
+        ],
+        "misconception": "A tidy calculation does not remove uncertainty from the data.",
+        "id": "2021-4diii"
+      }
+    },
+    {
+      "id": "2021-5ai",
+      "question": "5(a)(i)",
+      "marks": 1,
+      "topic": "light",
+      "skill": "best-fit-curve",
+      "answer": "Draw a smooth curve through the origin and following the plotted refraction data.",
+      "learning": "Choose a smooth best-fit curve rather than joining experimental points with straight segments.",
+      "questionPage": 14,
+      "markSchemePage": 13,
+      "card": {
+        "title": "Fit the refraction results",
+        "kind": "choice",
+        "prompt": "Refraction data follow a smooth flattening trend. How should the best-fit graph be drawn?",
+        "options": [
+          "Join every point with sharp straight segments",
+          "Draw a smooth curve following the trend",
+          "Ignore all points and draw a horizontal line",
+          "Force a straight line through the last two points"
+        ],
+        "correctIndex": 1,
+        "marks": 1,
+        "modelAnswer": "Draw a smooth best-fit curve through the trend, including the origin when physically justified.",
+        "explanation": "The shape represents the relationship, while small deviations may be measurement error.",
+        "hint": "Choose the overall relationship rather than dot-to-dot.",
+        "steps": [
+          "Read the physical situation.",
+          "Rule out alternatives using the stated physics.",
+          "Choose the statement that fits all the evidence."
+        ],
+        "misconception": "A best-fit curve does not have to hit every experimental point exactly.",
+        "id": "2021-5ai"
+      }
+    },
+    {
+      "id": "2021-5aii",
+      "question": "5(a)(ii)",
+      "marks": 1,
+      "topic": "light",
+      "skill": "refraction-interpolation",
+      "answer": "At incidence 80°, the fitted refracted angle is about 42° (accepted within 2°).",
+      "learning": "Use a curve to estimate an unmeasured refraction angle.",
+      "questionPage": 15,
+      "markSchemePage": 13,
+      "card": {
+        "title": "Estimate between measurements",
+        "kind": "number",
+        "prompt": "For a refraction experiment, the smooth fitted curve gives r = 30° at i = 50° and r = 36° at i = 70°. Estimate r at i = 60° using linear interpolation between these nearby points.",
+        "answer": 33,
+        "unit": "°",
+        "tolerance": 0.165,
+        "marks": 1,
+        "modelAnswer": "60° is halfway from 50° to 70°, so r ≈ (30 + 36)/2 = 33°.",
+        "explanation": "Interpolation estimates values between nearby measurements; the exact physical curve may be slightly curved.",
+        "hint": "The requested incidence angle is halfway between the two given values.",
+        "steps": [
+          "Write the relevant equation.",
+          "Substitute the values using consistent units.",
+          "Calculate, round sensibly and give the unit."
+        ],
+        "misconception": "An interpolated estimate should not be presented as exact.",
+        "id": "2021-5aii"
+      }
+    },
+    {
+      "id": "2021-5aiii",
+      "question": "5(a)(iii)",
+      "marks": 2,
+      "topic": "light",
+      "skill": "nonlinear-relationship",
+      "answer": "The refracted angle increases with incidence angle, but its increase becomes smaller: the relationship is not proportional.",
+      "learning": "Describe both direction and shape of a graph trend.",
+      "questionPage": 15,
+      "markSchemePage": 13,
+      "card": {
+        "title": "Describe a curve properly",
+        "kind": "text",
+        "prompt": "In a glass experiment, equal increases in incidence angle produce progressively smaller increases in refraction angle. Describe the relationship.",
+        "marks": 2,
+        "rubric": [
+          {
+            "point": "Refraction angle increases with incidence",
+            "patterns": [
+              "refract.*increas.*inciden",
+              "(both|r).*increas"
+            ]
+          },
+          {
+            "point": "Increase becomes smaller / non-proportional",
+            "patterns": [
+              "(smaller|less|decreas).*increas",
+              "not.*proportional",
+              "non.?linear",
+              "flatten"
+            ]
+          }
+        ],
+        "modelAnswer": "The refraction angle increases as incidence angle increases, but at a decreasing rate. The relationship is not directly proportional.",
+        "explanation": "A proportional relationship has constant gradient and passes through the origin; a flattening curve does not.",
+        "hint": "State which way the values move and whether the rate changes.",
+        "steps": [
+          "Identify the physical idea.",
+          "Link each statement to a reason or observation.",
+          "Check that every part of the question is answered."
+        ],
+        "misconception": "Positive correlation does not automatically mean direct proportion.",
+        "id": "2021-5aiii"
+      }
+    },
+    {
+      "id": "2021-5b",
+      "question": "5(b)",
+      "marks": 1,
+      "topic": "light",
+      "skill": "refraction-speed-wavelength",
+      "answer": "Entering glass reduces speed and wavelength, while frequency stays unchanged.",
+      "learning": "Use v = fλ when frequency is fixed at a boundary.",
+      "questionPage": 15,
+      "markSchemePage": 14,
+      "card": {
+        "title": "Light entering glass",
+        "kind": "choice",
+        "prompt": "A ray enters glass from air. Its frequency stays constant. Which pair changes correctly?",
+        "options": [
+          "Speed increases; wavelength increases",
+          "Speed decreases; wavelength decreases",
+          "Speed decreases; wavelength increases",
+          "Speed increases; wavelength decreases"
+        ],
+        "correctIndex": 1,
+        "marks": 1,
+        "modelAnswer": "Both speed and wavelength decrease in glass.",
+        "explanation": "The source fixes frequency. With v = fλ and fixed f, a smaller wave speed requires a shorter wavelength.",
+        "hint": "Keep frequency fixed in v = fλ.",
+        "steps": [
+          "Read the physical situation.",
+          "Rule out alternatives using the stated physics.",
+          "Choose the statement that fits all the evidence."
+        ],
+        "misconception": "The light’s frequency does not decrease just because it slows down.",
+        "id": "2021-5b"
+      }
+    },
+    {
+      "id": "2021-5c",
+      "question": "5(c)",
+      "marks": 3,
+      "topic": "light",
+      "skill": "light-attenuation",
+      "answer": "Some light reflects at the air-glass boundary and some energy is absorbed in the glass, reducing transmitted intensity.",
+      "learning": "Explain a weaker transmitted beam through reflection and absorption.",
+      "questionPage": 16,
+      "markSchemePage": 14,
+      "card": {
+        "title": "Why the beam gets dimmer",
+        "kind": "text",
+        "prompt": "A beam passes through a clear plastic block and emerges dimmer. Explain two ways its intensity can be reduced.",
+        "marks": 3,
+        "rubric": [
+          {
+            "point": "Reflection at surface",
+            "patterns": [
+              "reflect.*(surface|boundary|air|block)",
+              "(surface|boundary).*reflect"
+            ]
+          },
+          {
+            "point": "Absorption within block",
+            "patterns": [
+              "absorb.*(block|plastic|material)",
+              "(block|plastic|material).*absorb"
+            ]
+          },
+          {
+            "point": "Less energy carried by transmitted beam",
+            "patterns": [
+              "less.*(energy|power).*(transmit|emerg|beam)",
+              "(transmit|emerg).*less.*(energy|power)"
+            ]
+          }
+        ],
+        "modelAnswer": "Some light is reflected at the block’s surfaces and some is absorbed inside the plastic. Less energy per second remains in the transmitted beam, so it is dimmer.",
+        "explanation": "Intensity measures energy transfer per unit area per second. Reflection redirects energy; absorption transfers it to the material.",
+        "hint": "Consider what happens at a boundary and inside the material.",
+        "steps": [
+          "Identify the physical idea.",
+          "Link each statement to a reason or observation.",
+          "Check that every part of the question is answered."
+        ],
+        "misconception": "Refraction changes direction; it is not itself the same process as absorption.",
+        "id": "2021-5c"
+      }
+    },
+    {
+      "id": "2021-5d",
+      "question": "5(d)",
+      "marks": 1,
+      "topic": "light",
+      "skill": "speed-through-media",
+      "answer": "The correct graph shows constant lower speed inside glass and the original speed restored in air afterwards.",
+      "learning": "Interpret a piecewise graph for light moving through air, glass and air.",
+      "questionPage": 17,
+      "markSchemePage": 14,
+      "card": {
+        "title": "Speed through a block",
+        "kind": "choice",
+        "prompt": "How does light speed change along an air → glass → air path?",
+        "options": [
+          "It falls continuously all the way",
+          "It is unchanged everywhere",
+          "It drops on entering glass, stays steady there, then returns to its air value",
+          "It becomes greatest in the glass"
+        ],
+        "correctIndex": 2,
+        "marks": 1,
+        "modelAnswer": "Speed is lower and constant in uniform glass, then returns to the air value on leaving.",
+        "explanation": "Within each uniform material the speed is constant; a change occurs at its boundary.",
+        "hint": "Ask which material the ray is in at each stage.",
+        "steps": [
+          "Read the physical situation.",
+          "Rule out alternatives using the stated physics.",
+          "Choose the statement that fits all the evidence."
+        ],
+        "misconception": "Light is not permanently slowed after leaving the glass.",
+        "id": "2021-5d"
+      }
+    },
+    {
+      "id": "2021-6a",
+      "question": "6(a)",
+      "marks": 1,
+      "topic": "motion",
+      "skill": "displacement-time-gradient",
+      "answer": "Graph C is a straight displacement-time line with gradient 2 m/s.",
+      "learning": "Identify constant velocity from a displacement-time graph’s gradient.",
+      "questionPage": 18,
+      "markSchemePage": 16,
+      "card": {
+        "title": "Constant velocity on a graph",
+        "kind": "choice",
+        "prompt": "Which description represents steady motion at 3 m/s?",
+        "options": [
+          "A displacement-time line rising 15 m in 5 s",
+          "A velocity-time line rising from 0 to 3 m/s",
+          "A displacement-time horizontal line at 3 m",
+          "A velocity-time line falling at 3 m/s each second"
+        ],
+        "correctIndex": 0,
+        "marks": 1,
+        "modelAnswer": "A straight displacement-time line with gradient 15/5 = 3 m/s.",
+        "explanation": "Velocity is the gradient of a displacement-time graph. A horizontal velocity-time line would also show constant velocity.",
+        "hint": "Match the meaning of the graph’s axes.",
+        "steps": [
+          "Read the physical situation.",
+          "Rule out alternatives using the stated physics.",
+          "Choose the statement that fits all the evidence."
+        ],
+        "misconception": "A rising velocity-time line means acceleration, not constant velocity.",
+        "id": "2021-6a"
+      }
+    },
+    {
+      "id": "2021-6bi",
+      "question": "6(b)(i)",
+      "marks": 3,
+      "topic": "motion",
+      "skill": "acceleration-from-graph",
+      "answer": "a = (26 − 14)/34 = 0.3529… ≈ 0.35 m/s² to two significant figures.",
+      "learning": "Find acceleration from a velocity-time gradient and round appropriately.",
+      "questionPage": 19,
+      "markSchemePage": 16,
+      "card": {
+        "title": "Acceleration from two speeds",
+        "kind": "number",
+        "prompt": "A tram’s speed rises steadily from 8 m/s to 20 m/s in 30 s. Calculate its acceleration.",
+        "answer": 0.4,
+        "unit": "m/s²",
+        "tolerance": 0.002,
+        "marks": 3,
+        "modelAnswer": "a = (v − u)/t = (20 − 8)/30 = 0.40 m/s².",
+        "explanation": "Acceleration measures the change in velocity per second, so subtract the starting velocity first.",
+        "hint": "Use the change in speed, not the final speed alone.",
+        "steps": [
+          "Write the relevant equation.",
+          "Substitute the values using consistent units.",
+          "Calculate, round sensibly and give the unit."
+        ],
+        "misconception": "20/30 ignores the tram’s initial velocity.",
+        "id": "2021-6bi",
+        "variants": [
+          {
+            "prompt": "A train speeds up uniformly from 4 m/s to 16 m/s in 8.0 s. Calculate its acceleration.",
+            "answer": 1.5,
+            "modelAnswer": "a = (16 − 4)/8.0 = 1.5 m/s²."
+          },
+          {
+            "prompt": "A tram speeds up from 10 m/s to 18 m/s in 10 s. Calculate its acceleration.",
+            "answer": 0.8,
+            "modelAnswer": "a = (18 − 10)/10 = 0.80 m/s²."
+          }
+        ]
+      }
+    },
+    {
+      "id": "2021-6bii",
+      "question": "6(b)(ii)",
+      "marks": 3,
+      "topic": "motion",
+      "skill": "distance-velocity-time-area",
+      "answer": "Area = 14 × 34 + ½ × 34 × 12 = 680 m.",
+      "learning": "Use the area of a trapezium under a velocity-time line for displacement.",
+      "questionPage": 19,
+      "markSchemePage": 17,
+      "card": {
+        "title": "Area under a velocity graph",
+        "kind": "number",
+        "prompt": "A vehicle accelerates uniformly from 6 m/s to 18 m/s over 10 s. How far does it travel?",
+        "answer": 120,
+        "unit": "m",
+        "tolerance": 0.6,
+        "marks": 3,
+        "modelAnswer": "Average velocity = (6 + 18)/2 = 12 m/s. Distance = 12 × 10 = 120 m.",
+        "explanation": "The area under a velocity-time graph is displacement. For positive velocities and uniform acceleration, use the trapezium area.",
+        "hint": "The average of the start and end speeds is useful here.",
+        "steps": [
+          "Write the relevant equation.",
+          "Substitute the values using consistent units.",
+          "Calculate, round sensibly and give the unit."
+        ],
+        "misconception": "Using only the triangular area forgets the initial-speed rectangle.",
+        "id": "2021-6bii",
+        "variants": [
+          {
+            "prompt": "A cart accelerates uniformly from 5 m/s to 10 m/s for 10 s. Calculate the distance travelled.",
+            "answer": 75,
+            "modelAnswer": "Average speed = (5 + 10)/2 = 7.5 m/s. Distance = 7.5 × 10 = 75 m."
+          },
+          {
+            "prompt": "A vehicle accelerates uniformly from 2 m/s to 14 m/s in 8.0 s. How far does it travel?",
+            "answer": 64,
+            "modelAnswer": "Average speed = (2 + 14)/2 = 8 m/s. Distance = 8 × 8 = 64 m."
+          }
+        ]
+      }
+    },
+    {
+      "id": "2021-6c",
+      "question": "6(c)",
+      "marks": 3,
+      "topic": "forces",
+      "skill": "changing-mass-acceleration",
+      "answer": "Burning fuel reduces rocket mass; at constant thrust its acceleration increases because a = F/m.",
+      "learning": "Use Newton’s second law to explain motion when mass changes.",
+      "questionPage": 20,
+      "markSchemePage": 17,
+      "card": {
+        "title": "A lighter rocket",
+        "kind": "text",
+        "prompt": "A rocket burns fuel while its resultant driving force stays constant. Explain how its acceleration changes.",
+        "marks": 3,
+        "rubric": [
+          {
+            "point": "Fuel use decreases mass",
+            "patterns": [
+              "(fuel.*(burn|used)|burn.*fuel)",
+              "mass.*(decreas|reduc|less)"
+            ]
+          },
+          {
+            "point": "Use a = F/m",
+            "patterns": [
+              "a\\s*=\\s*f\\s*/\\s*m",
+              "force.*mass.*acceleration",
+              "acceleration.*(force|inversely).*mass"
+            ]
+          },
+          {
+            "point": "Acceleration increases",
+            "patterns": [
+              "acceleration.*(increas|greater|larger)",
+              "accelerates.*(more|faster)"
+            ]
+          }
+        ],
+        "modelAnswer": "Fuel is used up, so the rocket’s mass decreases. Since a = F/m, the same resultant force acts on a smaller mass and the acceleration increases.",
+        "explanation": "The force needed for each unit of acceleration depends on how much mass is being accelerated.",
+        "hint": "Rearrange F = ma.",
+        "steps": [
+          "Identify the physical idea.",
+          "Link each statement to a reason or observation.",
+          "Check that every part of the question is answered."
+        ],
+        "misconception": "Constant force does not guarantee constant acceleration if mass changes.",
+        "id": "2021-6c"
+      }
+    },
+    {
+      "id": "2021-7a",
+      "question": "7(a)",
+      "marks": 2,
+      "topic": "motion",
+      "skill": "free-fall-time",
+      "answer": "t = √(2 × 1.4/10) = 0.529… ≈ 0.53 s.",
+      "learning": "Take the square root after substituting into a free-fall equation.",
+      "questionPage": 22,
+      "markSchemePage": 18,
+      "card": {
+        "title": "Time to fall",
+        "kind": "number",
+        "prompt": "A ball is dropped from rest through 1.8 m. Use g = 10 m/s² and t² = 2h/g to find its fall time.",
+        "answer": 0.6,
+        "unit": "s",
+        "tolerance": 0.003,
+        "marks": 2,
+        "modelAnswer": "t² = 2 × 1.8/10 = 0.36 s², so t = √0.36 = 0.60 s.",
+        "explanation": "The equation gives time squared. Taking the positive square root gives the physical elapsed time.",
+        "hint": "Your first calculation gives t², not t.",
+        "steps": [
+          "Write the relevant equation.",
+          "Substitute the values using consistent units.",
+          "Calculate, round sensibly and give the unit."
+        ],
+        "misconception": "0.36 s is not the final time.",
+        "id": "2021-7a",
+        "variants": [
+          {
+            "prompt": "A ball falls from rest through 0.80 m. Use g = 10 m/s² and t² = 2h/g to calculate its fall time.",
+            "answer": 0.4,
+            "modelAnswer": "t² = 2 × 0.80/10 = 0.16 s². Therefore t = 0.40 s."
+          },
+          {
+            "prompt": "A ball is dropped through 3.2 m. Neglect air resistance and use g = 10 m/s². Calculate the time from t² = 2h/g.",
+            "answer": 0.8,
+            "modelAnswer": "t² = 2 × 3.2/10 = 0.64 s². Therefore t = 0.80 s."
+          }
+        ]
+      }
+    },
+    {
+      "id": "2021-7bi",
+      "question": "7(b)(i)",
+      "marks": 1,
+      "topic": "motion",
+      "skill": "reaction-time-error",
+      "answer": "Human reaction delay is significant compared with the short measured fall time.",
+      "learning": "Recognise human timing error in short-duration experiments.",
+      "questionPage": 23,
+      "markSchemePage": 18,
+      "card": {
+        "title": "Timing a short fall",
+        "kind": "choice",
+        "prompt": "Why is a handheld stopwatch a poor choice for timing a 0.4 s fall?",
+        "options": [
+          "Gravity stops acting before the timer starts",
+          "Reaction time is a large fraction of the measured time",
+          "Stopwatches cannot measure seconds",
+          "The ball falls at constant speed"
+        ],
+        "correctIndex": 1,
+        "marks": 1,
+        "modelAnswer": "Starting and stopping reaction delays are large compared with 0.4 s.",
+        "explanation": "A delay that is unimportant over a minute can dominate a measurement lasting less than a second.",
+        "hint": "Compare reaction delay with the event’s duration.",
+        "steps": [
+          "Read the physical situation.",
+          "Rule out alternatives using the stated physics.",
+          "Choose the statement that fits all the evidence."
+        ],
+        "misconception": "Repeated readings reduce scatter but do not remove a consistent timing bias.",
+        "id": "2021-7bi"
+      }
+    },
+    {
+      "id": "2021-7bii",
+      "question": "7(b)(ii)",
+      "marks": 1,
+      "topic": "motion",
+      "skill": "automatic-timing",
+      "answer": "Use light gates or another automatic timer to reduce reaction-time error.",
+      "learning": "Improve measurement validity by removing the dominant source of timing error.",
+      "questionPage": 23,
+      "markSchemePage": 18,
+      "card": {
+        "title": "Improve the timing",
+        "kind": "choice",
+        "prompt": "Which change best reduces reaction-time error when measuring a falling object’s travel time?",
+        "options": [
+          "Use automatic light gates",
+          "Ask the same person to press harder",
+          "Use a brighter coloured stopwatch",
+          "Round the time to a whole second"
+        ],
+        "correctIndex": 0,
+        "marks": 1,
+        "modelAnswer": "Light gates trigger electronically when the object passes, removing human button-press reaction delays.",
+        "explanation": "An improvement should address the actual error, not merely repeat the same flawed procedure.",
+        "hint": "What can start and stop the timer without a person?",
+        "steps": [
+          "Read the physical situation.",
+          "Rule out alternatives using the stated physics.",
+          "Choose the statement that fits all the evidence."
+        ],
+        "misconception": "Averaging does not automatically eliminate systematic error.",
+        "id": "2021-7bii"
+      }
+    },
+    {
+      "id": "2021-7ci",
+      "question": "7(c)(i)",
+      "marks": 2,
+      "topic": "forces",
+      "skill": "force-change-momentum",
+      "answer": "Average force magnitude = 8.7/0.35 = 24.86… ≈ 25 N.",
+      "learning": "Use force as momentum change per unit time.",
+      "questionPage": 24,
+      "markSchemePage": 19,
+      "card": {
+        "title": "Stopping force",
+        "kind": "number",
+        "prompt": "A padded package loses 12 kg m/s of momentum while stopping in 0.40 s. Find the magnitude of the average resultant stopping force.",
+        "answer": 30,
+        "unit": "N",
+        "tolerance": 0.15,
+        "marks": 2,
+        "modelAnswer": "F = Δp/Δt = 12/0.40 = 30 N.",
+        "explanation": "The same momentum change spread over more time needs a smaller average force.",
+        "hint": "Use the momentum change divided by the stopping time.",
+        "steps": [
+          "Write the relevant equation.",
+          "Substitute the values using consistent units.",
+          "Calculate, round sensibly and give the unit."
+        ],
+        "misconception": "Do not multiply momentum by time.",
+        "id": "2021-7ci"
+      }
+    },
+    {
+      "id": "2021-7cii",
+      "question": "7(c)(ii)",
+      "marks": 2,
+      "topic": "forces",
+      "skill": "newtons-third-law",
+      "answer": "The box exerts a downward force of about 25 N on the floor, equal and opposite to the floor’s force on the box.",
+      "learning": "Identify equal-and-opposite interaction forces acting on different objects.",
+      "questionPage": 24,
+      "markSchemePage": 19,
+      "card": {
+        "title": "Action and reaction",
+        "kind": "text",
+        "prompt": "A hand pushes a trolley east with 18 N. State the trolley’s force on the hand.",
+        "marks": 2,
+        "rubric": [
+          {
+            "point": "Same magnitude, 18 N",
+            "patterns": [
+              "18\\s*n",
+              "same.*(size|magnitude)|equal.*(force|magnitude)"
+            ]
+          },
+          {
+            "point": "Opposite direction, west",
+            "patterns": [
+              "west",
+              "opposite.*direction"
+            ]
+          }
+        ],
+        "modelAnswer": "The trolley pushes the hand west with 18 N.",
+        "explanation": "Newton’s third law pairs forces from one interaction. They act on different bodies and therefore do not cancel on a single body.",
+        "hint": "Swap which object exerts the force.",
+        "steps": [
+          "Identify the physical idea.",
+          "Link each statement to a reason or observation.",
+          "Check that every part of the question is answered."
+        ],
+        "misconception": "The reaction force acts on the hand, not on the trolley.",
+        "id": "2021-7cii"
+      }
+    },
+    {
+      "id": "2021-7d",
+      "question": "7(d)",
+      "marks": 4,
+      "topic": "forces",
+      "skill": "free-fall-momentum",
+      "answer": "First v = √(2gh) = √76 = 8.72 m/s; then m = p/v = 0.40/8.72 = 0.0459 kg.",
+      "learning": "Link an energy or kinematics calculation to momentum.",
+      "questionPage": 25,
+      "markSchemePage": 20,
+      "card": {
+        "title": "Two equations, one answer",
+        "kind": "number",
+        "prompt": "An object falls from rest through 5.0 m. Its momentum just before impact is 2.0 kg m/s. With g = 10 m/s² and negligible air resistance, calculate its mass.",
+        "answer": 0.2,
+        "unit": "kg",
+        "tolerance": 0.001,
+        "marks": 3,
+        "modelAnswer": "v = √(2gh) = √(2 × 10 × 5) = 10 m/s. Then m = p/v = 2.0/10 = 0.20 kg.",
+        "explanation": "The fall determines velocity independently of mass. Momentum then links that velocity to the unknown mass.",
+        "hint": "Find the impact speed before using p = mv.",
+        "steps": [
+          "Write the relevant equation.",
+          "Substitute the values using consistent units.",
+          "Calculate, round sensibly and give the unit."
+        ],
+        "misconception": "Do not substitute height directly as a velocity.",
+        "id": "2021-7d"
+      }
+    },
+    {
+      "id": "2021-8a",
+      "question": "8(a)",
+      "marks": 1,
+      "topic": "astronomy",
+      "skill": "solar-system-structure",
+      "answer": "The main asteroid belt lies between the orbits of Mars and Jupiter.",
+      "learning": "Know the large-scale order of objects in the Solar System.",
+      "questionPage": 27,
+      "markSchemePage": 21,
+      "card": {
+        "title": "The asteroid belt",
+        "kind": "choice",
+        "prompt": "Where is the main asteroid belt?",
+        "options": [
+          "Between Mercury and Venus",
+          "Between Earth and Mars",
+          "Between Mars and Jupiter",
+          "Beyond Neptune"
+        ],
+        "correctIndex": 2,
+        "marks": 1,
+        "modelAnswer": "It lies mainly between Mars and Jupiter.",
+        "explanation": "The main belt contains many small rocky bodies orbiting the Sun. It is different from the icy Kuiper belt beyond Neptune.",
+        "hint": "Recall the order Earth, Mars, Jupiter.",
+        "steps": [
+          "Read the physical situation.",
+          "Rule out alternatives using the stated physics.",
+          "Choose the statement that fits all the evidence."
+        ],
+        "misconception": "The asteroid belt is not the same as the Kuiper belt.",
+        "id": "2021-8a"
+      }
+    },
+    {
+      "id": "2021-8b",
+      "question": "8(b)",
+      "marks": 2,
+      "topic": "astronomy",
+      "skill": "orbital-period-distance-speed",
+      "answer": "Time = 2.2 × 10¹²/(1.9 × 10⁴) = 1.16 × 10⁸ s, about 1.2 × 10⁸ s.",
+      "learning": "Calculate orbital period from path length and orbital speed in standard form.",
+      "questionPage": 27,
+      "markSchemePage": 21,
+      "card": {
+        "title": "Time for an orbit",
+        "kind": "number",
+        "prompt": "A small body travels 9.0 × 10¹¹ m in one orbit at a steady speed of 1.5 × 10⁴ m/s. Calculate its orbital period.",
+        "answer": 60000000.0,
+        "unit": "s",
+        "tolerance": 300000.0,
+        "marks": 2,
+        "modelAnswer": "T = distance/speed = (9.0 × 10¹¹)/(1.5 × 10⁴) = 6.0 × 10⁷ s.",
+        "explanation": "Use the full orbital path length. Standard-form powers divide by subtracting their exponents.",
+        "hint": "Distance divided by speed gives time.",
+        "steps": [
+          "Write the relevant equation.",
+          "Substitute the values using consistent units.",
+          "Calculate, round sensibly and give the unit."
+        ],
+        "misconception": "Orbital radius and distance travelled in one orbit are different quantities.",
+        "id": "2021-8b"
+      }
+    },
+    {
+      "id": "2021-8c",
+      "question": "8(c)",
+      "marks": 2,
+      "topic": "astronomy",
+      "skill": "circular-motion-acceleration",
+      "answer": "The orbital velocity changes direction, so the asteroid accelerates even at constant speed.",
+      "learning": "Distinguish scalar speed from vector velocity in circular motion.",
+      "questionPage": 27,
+      "markSchemePage": 21,
+      "card": {
+        "title": "Constant speed can accelerate",
+        "kind": "text",
+        "prompt": "A satellite moves in a circular orbit at steady speed. Explain why it is accelerating.",
+        "marks": 2,
+        "rubric": [
+          {
+            "point": "Velocity changes direction",
+            "patterns": [
+              "(velocity|motion).*(direction.*chang|chang.*direction)",
+              "direction.*(velocity|motion).*chang"
+            ]
+          },
+          {
+            "point": "Acceleration is change of velocity",
+            "patterns": [
+              "acceleration.*chang.*velocity",
+              "chang.*velocity.*acceleration",
+              "velocity.*vector"
+            ]
+          }
+        ],
+        "modelAnswer": "The satellite’s velocity continuously changes direction. Acceleration is the rate of change of velocity, so the satellite has an acceleration towards the centre even while its speed stays constant.",
+        "explanation": "Acceleration is not restricted to speeding up or slowing down. A change of direction counts too.",
+        "hint": "What extra information does velocity have compared with speed?",
+        "steps": [
+          "Identify the physical idea.",
+          "Link each statement to a reason or observation.",
+          "Check that every part of the question is answered."
+        ],
+        "misconception": "Constant speed does not mean constant velocity.",
+        "id": "2021-8c"
+      }
+    },
+    {
+      "id": "2021-8d",
+      "question": "8(d)",
+      "marks": 3,
+      "topic": "energy",
+      "skill": "radiative-equilibrium",
+      "answer": "Vesta emits radiation at the same average rate as it absorbs solar energy, so its temperature can remain steady.",
+      "learning": "Explain equilibrium as equal incoming and outgoing power, not absence of energy transfer.",
+      "questionPage": 28,
+      "markSchemePage": 22,
+      "card": {
+        "title": "A planet’s steady temperature",
+        "kind": "text",
+        "prompt": "A small planet absorbs sunlight continuously but its average temperature stays steady. Explain.",
+        "marks": 3,
+        "rubric": [
+          {
+            "point": "Planet emits thermal radiation",
+            "patterns": [
+              "(planet|it).*emit.*(thermal|infrared|radiation)",
+              "radiat.*energy"
+            ]
+          },
+          {
+            "point": "Incoming and outgoing rates equal",
+            "patterns": [
+              "(same|equal|balance).*(rate|power)",
+              "(rate|power).*(same|equal|balance)"
+            ]
+          },
+          {
+            "point": "No net energy gain / constant temperature",
+            "patterns": [
+              "no net.*energy",
+              "energy.*(store|gain).*constant",
+              "temperature.*(constant|steady|unchang)"
+            ]
+          }
+        ],
+        "modelAnswer": "The planet emits thermal radiation. At equilibrium its emitted power equals its absorbed power, so there is no net increase in its internal energy and its average temperature remains steady.",
+        "explanation": "Equilibrium is dynamic: energy still enters and leaves, but the amounts per second balance.",
+        "hint": "Compare energy transferred each second in both directions.",
+        "steps": [
+          "Identify the physical idea.",
+          "Link each statement to a reason or observation.",
+          "Check that every part of the question is answered."
+        ],
+        "misconception": "A steady temperature does not mean the planet has stopped absorbing sunlight.",
+        "id": "2021-8d"
+      }
+    },
+    {
+      "id": "2021-8ei",
+      "question": "8(e)(i)",
+      "marks": 1,
+      "topic": "energy",
+      "skill": "dimensional-analysis",
+      "answer": "The scheme identifies K with units W, equivalent to J/s.",
+      "learning": "Derive the units of a constant by rearranging an equation and combining units.",
+      "questionPage": 28,
+      "markSchemePage": 22,
+      "card": {
+        "title": "Units of a constant",
+        "kind": "choice",
+        "prompt": "Radiation intensity I is in W/m² and I = K/r², with r measured in metres. What is the unit of K?",
+        "options": [
+          "W",
+          "W/m⁴",
+          "W/m",
+          "J"
+        ],
+        "correctIndex": 0,
+        "marks": 1,
+        "modelAnswer": "K = Ir², so (W/m²) × m² = W.",
+        "explanation": "Units follow the same multiplication and division rules as algebra. Squaring a length also squares its unit.",
+        "hint": "Rearrange to K = Ir².",
+        "steps": [
+          "Read the physical situation.",
+          "Rule out alternatives using the stated physics.",
+          "Choose the statement that fits all the evidence."
+        ],
+        "misconception": "W and W/s are not interchangeable.",
+        "id": "2021-8ei"
+      }
+    },
+    {
+      "id": "2021-8eii",
+      "question": "8(e)(ii)",
+      "marks": 3,
+      "topic": "energy",
+      "skill": "inverse-square-intensity",
+      "answer": "Intensity = 1400/(2.4²) = 243 W/m², approximately 240 W/m².",
+      "learning": "Use an inverse-square relationship to compare intensity at different distances.",
+      "questionPage": 29,
+      "markSchemePage": 23,
+      "card": {
+        "title": "Further from a source",
+        "kind": "number",
+        "prompt": "A star’s intensity is 1800 W/m² at distance r. What is its intensity at distance 3r?",
+        "answer": 200,
+        "unit": "W/m²",
+        "tolerance": 1.0,
+        "marks": 3,
+        "modelAnswer": "I₂ = I₁/3² = 1800/9 = 200 W/m².",
+        "explanation": "The same power is spread over a spherical area proportional to radius squared. Tripling distance spreads it over nine times the area.",
+        "hint": "Square the distance multiplier.",
+        "steps": [
+          "Write the relevant equation.",
+          "Substitute the values using consistent units.",
+          "Calculate, round sensibly and give the unit."
+        ],
+        "misconception": "Tripling distance does not merely divide intensity by three.",
+        "id": "2021-8eii",
+        "variants": [
+          {
+            "prompt": "A star’s intensity at distance r is 900 W/m². What is it at 3r?",
+            "answer": 100,
+            "modelAnswer": "I₂ = I₁/3² = 900/9 = 100 W/m²."
+          },
+          {
+            "prompt": "A star’s intensity at distance r is 3200 W/m². Calculate its intensity at 4r.",
+            "answer": 200,
+            "modelAnswer": "I₂ = I₁/4² = 3200/16 = 200 W/m²."
+          }
+        ]
+      }
+    },
+    {
+      "id": "2021-9a",
+      "question": "9(a)",
+      "marks": 2,
+      "topic": "radioactivity",
+      "skill": "internal-contamination",
+      "answer": "Radioactive material enters the body and can irradiate nearby cells from within, causing damage or cancer.",
+      "learning": "Explain why contamination differs from external irradiation.",
+      "questionPage": 30,
+      "markSchemePage": 24,
+      "card": {
+        "title": "Contamination inside the body",
+        "kind": "text",
+        "prompt": "Explain why swallowing a small amount of an alpha-emitting material can be dangerous.",
+        "marks": 2,
+        "rubric": [
+          {
+            "point": "Radioactive material remains inside and emits radiation",
+            "patterns": [
+              "(inside|within|internal).*(body|radiation)",
+              "(swallow|ingest|material).*emit"
+            ]
+          },
+          {
+            "point": "Ionisation damages nearby cells",
+            "patterns": [
+              "(ionis|damag|harm).*(cell|tissue|dna)",
+              "(cell|tissue|dna).*(damag|harm|ionis)"
+            ]
+          }
+        ],
+        "modelAnswer": "The radioactive material is inside the body and emits alpha particles close to living cells. Their strong ionisation can damage cells and DNA, increasing cancer risk.",
+        "explanation": "Alpha radiation is easily stopped by skin but is highly ionising over its short range inside tissue.",
+        "hint": "Think about what happens when the skin barrier is bypassed.",
+        "steps": [
+          "Identify the physical idea.",
+          "Link each statement to a reason or observation.",
+          "Check that every part of the question is answered."
+        ],
+        "misconception": "Low external penetration does not make internal contamination safe.",
+        "id": "2021-9a"
+      }
+    },
+    {
+      "id": "2021-9b",
+      "question": "9(b)",
+      "marks": 2,
+      "topic": "radioactivity",
+      "skill": "gamma-sterilisation",
+      "answer": "Penetrating gamma radiation kills microorganisms throughout food and helps preserve it.",
+      "learning": "Connect a radiation property to a useful application.",
+      "questionPage": 30,
+      "markSchemePage": 24,
+      "card": {
+        "title": "Preserving packaged food",
+        "kind": "text",
+        "prompt": "Why can gamma radiation be useful for treating sealed food packages?",
+        "marks": 2,
+        "rubric": [
+          {
+            "point": "Gamma penetrates package and food",
+            "patterns": [
+              "gamma.*penetrat",
+              "penetrat.*(package|food|packaging)"
+            ]
+          },
+          {
+            "point": "Kills microorganisms / reduces spoilage",
+            "patterns": [
+              "(kill|destroy).*(bacter|microorgan|microb)",
+              "(prevent|reduce|delay).*spoil"
+            ]
+          }
+        ],
+        "modelAnswer": "Gamma rays penetrate the package and food, killing microorganisms and reducing spoilage.",
+        "explanation": "High penetration allows treatment through packaging. Irradiating food does not normally make the food radioactive.",
+        "hint": "Link penetration to reaching microorganisms throughout the package.",
+        "steps": [
+          "Identify the physical idea.",
+          "Link each statement to a reason or observation.",
+          "Check that every part of the question is answered."
+        ],
+        "misconception": "Irradiation and radioactive contamination are different processes.",
+        "id": "2021-9b"
+      }
+    },
+    {
+      "id": "2021-9c",
+      "question": "9(c)",
+      "marks": 1,
+      "topic": "radioactivity",
+      "skill": "gamma-nuclear-change",
+      "answer": "The nucleus loses energy and becomes more stable; proton and neutron numbers stay the same.",
+      "learning": "Recognise gamma emission as de-excitation rather than a change of nuclear composition.",
+      "questionPage": 30,
+      "markSchemePage": 24,
+      "card": {
+        "title": "Gamma emission",
+        "kind": "choice",
+        "prompt": "What happens to a nucleus when it emits a gamma photon?",
+        "options": [
+          "It loses two protons",
+          "It gains one neutron",
+          "It loses energy without changing proton or neutron number",
+          "Its mass number increases by four"
+        ],
+        "correctIndex": 2,
+        "marks": 1,
+        "modelAnswer": "The nucleus moves to a lower energy state with unchanged proton and neutron numbers.",
+        "explanation": "Gamma emission releases excess nuclear energy. It does not change the identity of the element.",
+        "hint": "A gamma photon contains no protons or neutrons.",
+        "steps": [
+          "Read the physical situation.",
+          "Rule out alternatives using the stated physics.",
+          "Choose the statement that fits all the evidence."
+        ],
+        "misconception": "Gamma emission is not alpha emission.",
+        "id": "2021-9c"
+      }
+    },
+    {
+      "id": "2021-9d",
+      "question": "9(d)",
+      "marks": 6,
+      "topic": "radioactivity",
+      "skill": "alpha-beta-decay",
+      "answer": "Alpha emission releases a helium nucleus, reducing mass number by 4 and atomic number by 2. Beta-minus emission releases an electron as a neutron becomes a proton: mass number is unchanged and atomic number rises by 1.",
+      "learning": "Construct a linked comparison of radiation composition, charge and nuclear changes.",
+      "questionPage": 31,
+      "markSchemePage": 25,
+      "card": {
+        "title": "Compare two decays",
+        "kind": "text",
+        "prompt": "Compare alpha decay with beta-minus decay. Include each emitted particle and changes to the parent nucleus.",
+        "marks": 6,
+        "rubric": [
+          {
+            "point": "Alpha is helium nucleus",
+            "patterns": [
+              "alpha.*(helium|two protons.*two neutrons|2 protons.*2 neutrons)"
+            ]
+          },
+          {
+            "point": "Alpha mass number decreases by 4",
+            "patterns": [
+              "(alpha|mass number).*(decreas|reduc|less|down).*4",
+              "mass number.*(minus|−|-)\\s*4",
+              "mass number.*falls? by 4"
+            ]
+          },
+          {
+            "point": "Alpha atomic number decreases by 2",
+            "patterns": [
+              "(alpha|atomic number|proton number).*(decreas|reduc|less|down).*2",
+              "atomic number.*(minus|−|-)\\s*2",
+              "atomic number.*falls? by 2"
+            ]
+          },
+          {
+            "point": "Beta-minus is electron",
+            "patterns": [
+              "beta.*electron"
+            ]
+          },
+          {
+            "point": "Beta-minus atomic number increases by 1",
+            "patterns": [
+              "(beta|atomic number|proton number).*(increas|up|plus).*1",
+              "neutron.*(becom|turn|convert).*proton"
+            ]
+          },
+          {
+            "point": "Beta-minus mass number unchanged",
+            "patterns": [
+              "(beta|mass number).*(unchanged|same)",
+              "mass number does not change"
+            ]
+          }
+        ],
+        "modelAnswer": "Alpha decay emits a positively charged helium nucleus containing two protons and two neutrons, so the parent’s mass number falls by 4 and atomic number falls by 2. Beta-minus decay emits an electron when a neutron converts into a proton; mass number stays the same and atomic number rises by 1.",
+        "explanation": "Count the nucleons before and after. Alpha physically removes four nucleons; beta-minus changes the type of one nucleon but not the total number.",
+        "hint": "Organise your answer as alpha: particle and changes; beta-minus: particle and changes.",
+        "steps": [
+          "Identify the physical idea.",
+          "Link each statement to a reason or observation.",
+          "Check that every part of the question is answered."
+        ],
+        "misconception": "The beta electron is created in the nuclear process; it is not an ordinary orbital electron leaving the atom.",
+        "id": "2021-9d"
+      }
+    },
+    {
+      "id": "2021-10ai",
+      "question": "10(a)(i)",
+      "marks": 2,
+      "topic": "energy",
+      "skill": "renewable-sources",
+      "answer": "Examples include solar, hydroelectric, tidal, geothermal and biomass energy.",
+      "learning": "Identify energy resources replenished on a human timescale.",
+      "questionPage": 32,
+      "markSchemePage": 28,
+      "card": {
+        "title": "Renewable resources",
+        "kind": "choice",
+        "prompt": "Which pair contains only renewable energy resources?",
+        "options": [
+          "Coal and natural gas",
+          "Uranium and solar",
+          "Geothermal and tidal",
+          "Oil and biomass"
+        ],
+        "correctIndex": 2,
+        "marks": 1,
+        "modelAnswer": "Geothermal and tidal resources are renewable.",
+        "explanation": "Renewable means naturally replenished; it does not mean there are no environmental effects.",
+        "hint": "Check both resources in each pair.",
+        "steps": [
+          "Read the physical situation.",
+          "Rule out alternatives using the stated physics.",
+          "Choose the statement that fits all the evidence."
+        ],
+        "misconception": "Nuclear fuel is low-carbon in use but is not renewable.",
+        "id": "2021-10ai"
+      }
+    },
+    {
+      "id": "2021-10aii",
+      "question": "10(a)(ii)",
+      "marks": 2,
+      "topic": "energy",
+      "skill": "efficiency",
+      "answer": "Efficiency = 2.2/6.2 = 0.355, or about 35%.",
+      "learning": "Calculate useful output divided by total input and distinguish fraction from percentage.",
+      "questionPage": 33,
+      "markSchemePage": 28,
+      "card": {
+        "title": "Useful output",
+        "kind": "number",
+        "prompt": "A generator receives 8.0 kJ each second and supplies 3.2 kJ each second usefully. Calculate its efficiency as a percentage.",
+        "answer": 40,
+        "unit": "%",
+        "tolerance": 0.2,
+        "marks": 2,
+        "modelAnswer": "Efficiency = useful output/total input × 100 = 3.2/8.0 × 100 = 40%.",
+        "explanation": "An efficiency of 40% means 40 of every 100 units of input energy become useful output.",
+        "hint": "The useful output belongs on top of the fraction.",
+        "steps": [
+          "Write the relevant equation.",
+          "Substitute the values using consistent units.",
+          "Calculate, round sensibly and give the unit."
+        ],
+        "misconception": "Do not report the fraction 0.40 with a percent sign.",
+        "id": "2021-10aii",
+        "variants": [
+          {
+            "prompt": "A generator receives 12.5 kJ and transfers 7.5 kJ usefully. Calculate percentage efficiency.",
+            "answer": 60,
+            "modelAnswer": "Efficiency = 7.5/12.5 × 100 = 60%."
+          },
+          {
+            "prompt": "A turbine receives 20 kJ and gives 9.0 kJ of useful output. Calculate its percentage efficiency.",
+            "answer": 45,
+            "modelAnswer": "Efficiency = 9.0/20 × 100 = 45%."
+          }
+        ]
+      }
+    },
+    {
+      "id": "2021-10aiii",
+      "question": "10(a)(iii)",
+      "marks": 1,
+      "topic": "energy",
+      "skill": "wind-turbine-losses",
+      "answer": "Some energy remains in moving air or is dissipated by friction; not all input energy becomes useful electrical output.",
+      "learning": "Explain practical limits on useful energy conversion without claiming energy disappears.",
+      "questionPage": 33,
+      "markSchemePage": 29,
+      "card": {
+        "title": "Where unused energy goes",
+        "kind": "choice",
+        "prompt": "Why can a real turbine not convert all incoming wind energy into useful electrical output?",
+        "options": [
+          "Some energy is dissipated by friction and some remains in moving air",
+          "Energy is destroyed by the blades",
+          "The air becomes massless",
+          "The generator creates extra input energy"
+        ],
+        "correctIndex": 0,
+        "marks": 1,
+        "modelAnswer": "Some energy is transferred to thermal stores by friction and the air still carries kinetic energy after passing the blades.",
+        "explanation": "Energy is conserved. Efficiency describes the share transferred usefully, not the share that continues to exist.",
+        "hint": "Follow both the air and the moving machinery.",
+        "steps": [
+          "Read the physical situation.",
+          "Rule out alternatives using the stated physics.",
+          "Choose the statement that fits all the evidence."
+        ],
+        "misconception": "Wasted energy is not destroyed energy.",
+        "id": "2021-10aiii"
+      }
+    },
+    {
+      "id": "2021-10b",
+      "question": "10(b)",
+      "marks": 6,
+      "topic": "radioactivity",
+      "skill": "fission-fusion-comparison",
+      "answer": "Fission splits a heavy nucleus after neutron absorption and can sustain a chain reaction, but produces long-lived radioactive waste. Fusion joins light nuclei at extreme temperature and pressure; sustaining controlled practical power generation is difficult.",
+      "learning": "Compare nuclear mechanisms with practical benefits and challenges, using linked scientific reasoning.",
+      "questionPage": 34,
+      "markSchemePage": 30,
+      "card": {
+        "title": "Fission or fusion for power?",
+        "kind": "text",
+        "prompt": "Compare fission and fusion as possible electricity sources. Explain both processes and one practical difficulty for each.",
+        "marks": 6,
+        "rubric": [
+          {
+            "point": "Fission splits heavy nucleus",
+            "patterns": [
+              "fission.*split.*(heavy|large|nucle)"
+            ]
+          },
+          {
+            "point": "Neutron initiates / chain reaction",
+            "patterns": [
+              "neutron.*(absorb|hit|collid|fission)",
+              "fission.*chain reaction"
+            ]
+          },
+          {
+            "point": "Fission creates radioactive waste",
+            "patterns": [
+              "fission.*radioactive.*waste",
+              "radioactive.*waste.*fission"
+            ]
+          },
+          {
+            "point": "Fusion joins light nuclei",
+            "patterns": [
+              "fusion.*(join|combin|fuse).*(light|small|nucle)"
+            ]
+          },
+          {
+            "point": "Fusion needs extreme temperature",
+            "patterns": [
+              "fusion.*(high|extreme|very hot).*temperature",
+              "temperature.*(high|extreme).*fusion"
+            ]
+          },
+          {
+            "point": "Fusion containment / practical power difficulty",
+            "patterns": [
+              "fusion.*(contain|sustain|difficult|practical|commercial)",
+              "(contain|sustain).*plasma"
+            ]
+          }
+        ],
+        "modelAnswer": "Fission splits a heavy nucleus after neutron absorption, releasing energy and more neutrons that can sustain a chain reaction. Fission produces radioactive waste needing long-term management. Fusion joins light nuclei and releases energy. Fusion requires extremely high temperatures and difficult plasma confinement, making sustained practical power generation challenging.",
+        "explanation": "Both release nuclear energy, but their engineering problems differ. Avoid claiming fusion has no radiation issues: some designs produce neutrons that can activate materials.",
+        "hint": "Compare process, energy release and engineering challenge for each.",
+        "steps": [
+          "Identify the physical idea.",
+          "Link each statement to a reason or observation.",
+          "Check that every part of the question is answered."
+        ],
+        "misconception": "Fusion does not mean burning hydrogen chemically.",
+        "id": "2021-10b"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1874 @@
+{
+  "paper": "2022",
+  "totalMarks": 100,
+  "reviewStatus": "question-and-mark-scheme-reviewed",
+  "notes": "All separately marked parts reconciled to 100. Long-answer practice uses explicit learning criteria rather than copying holistic examiner level descriptors.",
+  "rows": [
+    {
+      "id": "2022-1a",
+      "question": "1(a)",
+      "marks": 1,
+      "topic": "light",
+      "skill": "total-internal-reflection",
+      "answer": "Diagram B shows reflection inside glass, with equal incident and reflected angles and no transmitted ray.",
+      "learning": "Recognise total internal reflection at a dense-to-less-dense boundary above the critical angle.",
+      "questionPage": 2,
+      "markSchemePage": 5,
+      "card": {
+        "title": "Keep the light inside",
+        "kind": "choice",
+        "prompt": "Which situation allows total internal reflection?",
+        "options": [
+          "Air to glass at any angle",
+          "Glass to air with incidence above the critical angle",
+          "Glass to air at normal incidence",
+          "Air to glass below the critical angle"
+        ],
+        "correctIndex": 1,
+        "marks": 1,
+        "modelAnswer": "Light travels from glass to air and meets the boundary above the critical angle.",
+        "explanation": "Total internal reflection requires travel towards a lower refractive index and a sufficiently large angle to the normal.",
+        "hint": "Two conditions must both be satisfied.",
+        "steps": [
+          "Read the physical situation.",
+          "Rule out alternatives using the stated physics.",
+          "Choose the statement that fits all the evidence."
+        ],
+        "misconception": "A large angle alone is insufficient if light is entering glass from air.",
+        "id": "2022-1a"
+      }
+    },
+    {
+      "id": "2022-1bi",
+      "question": "1(b)(i)",
+      "marks": 2,
+      "topic": "light",
+      "skill": "magnification",
+      "answer": "The virtual image is approximately 2.6 times the object height, from the measured height ratio.",
+      "learning": "Measure image and object heights in the same units and form their ratio.",
+      "questionPage": 3,
+      "markSchemePage": 5,
+      "card": {
+        "title": "Image size compared with object",
+        "kind": "number",
+        "prompt": "A virtual image is 36 mm tall and the object is 12 mm tall. Calculate the magnification.",
+        "answer": 3,
+        "unit": "×",
+        "tolerance": 0.015,
+        "marks": 2,
+        "modelAnswer": "Magnification = image height/object height = 36/12 = 3.0.",
+        "explanation": "Magnification is a ratio, so the length units cancel when both heights use the same unit.",
+        "hint": "Put image height above object height.",
+        "steps": [
+          "Write the relevant equation.",
+          "Substitute the values using consistent units.",
+          "Calculate, round sensibly and give the unit."
+        ],
+        "misconception": "Magnification has no metre or millimetre unit.",
+        "id": "2022-1bi"
+      }
+    },
+    {
+      "id": "2022-1bii",
+      "question": "1(b)(ii)",
+      "marks": 2,
+      "topic": "light",
+      "skill": "magnifying-glass-adjustment",
+      "answer": "For a virtual magnified image, increase object-lens distance while keeping the object inside the focal length, or choose a more powerful converging lens.",
+      "learning": "Relate virtual-image magnification to lens power and the object’s position.",
+      "questionPage": 4,
+      "markSchemePage": 6,
+      "card": {
+        "title": "Adjust a magnifier",
+        "kind": "text",
+        "prompt": "An object lies inside the focal length of a converging lens. Describe how to increase its virtual-image magnification by moving the object.",
+        "marks": 2,
+        "rubric": [
+          {
+            "point": "Move object farther from lens",
+            "patterns": [
+              "(object|lens).*(further|farther|increase.*distance)",
+              "increase.*distance.*(object|lens)"
+            ]
+          },
+          {
+            "point": "Keep object within focal length",
+            "patterns": [
+              "(inside|within|less than).*(focal|focus)",
+              "(do not|without).*pass.*(focus|focal)"
+            ]
+          }
+        ],
+        "modelAnswer": "Move the object farther from the lens towards its focal point, while keeping it inside the focal length. The virtual image becomes more magnified.",
+        "explanation": "Inside the focal length a converging lens makes an upright virtual image. Moving towards the focal point increases its size.",
+        "hint": "The object must remain on the magnifying-glass side of the focal point.",
+        "steps": [
+          "Identify the physical idea.",
+          "Link each statement to a reason or observation.",
+          "Check that every part of the question is answered."
+        ],
+        "misconception": "Moving beyond the focal point changes the image to a real inverted image.",
+        "id": "2022-1bii"
+      }
+    },
+    {
+      "id": "2022-1c",
+      "question": "1(c)",
+      "marks": 3,
+      "topic": "light",
+      "skill": "lens-equation",
+      "answer": "1/f = (20 + 40)/(20 × 40) = 0.075 cm⁻¹, hence f = 13.3 cm.",
+      "learning": "Evaluate a reciprocal lens equation and invert to obtain focal length.",
+      "questionPage": 5,
+      "markSchemePage": 7,
+      "card": {
+        "title": "Find a focal length",
+        "kind": "number",
+        "prompt": "An object is 30 cm from a lens and its sharp real image is 60 cm from the lens. Use 1/f = (a + b)/(ab) to calculate f.",
+        "answer": 20,
+        "unit": "cm",
+        "tolerance": 0.1,
+        "marks": 3,
+        "modelAnswer": "1/f = (30 + 60)/(30 × 60) = 90/1800 = 0.05 cm⁻¹. Therefore f = 20 cm.",
+        "explanation": "The right-hand side gives reciprocal focal length. The final inverse is essential.",
+        "hint": "First calculate 1/f, then take its reciprocal.",
+        "steps": [
+          "Write the relevant equation.",
+          "Substitute the values using consistent units.",
+          "Calculate, round sensibly and give the unit."
+        ],
+        "misconception": "0.05 cm⁻¹ is not a focal length of 0.05 cm.",
+        "id": "2022-1c",
+        "variants": [
+          {
+            "prompt": "An object and its sharp real image are each 40 cm from a converging lens. Use 1/f = (a + b)/(ab) to find the focal length.",
+            "answer": 20,
+            "modelAnswer": "1/f = 80/1600 = 0.05 cm⁻¹, so f = 20 cm."
+          },
+          {
+            "prompt": "An object is 15 cm from a converging lens and its real image is 30 cm away on the opposite side. Use 1/f = (a + b)/(ab) to find f.",
+            "answer": 10,
+            "modelAnswer": "1/f = 45/450 = 0.10 cm⁻¹, so f = 10 cm."
+          }
+        ]
+      }
+    },
+    {
+      "id": "2022-2a",
+      "question": "2(a)",
+      "marks": 1,
+      "topic": "energy",
+      "skill": "conservation-energy",
+      "answer": "In a closed system, transfers do not change total energy.",
+      "learning": "Distinguish redistribution of energy from changes in total energy.",
+      "questionPage": 6,
+      "markSchemePage": 8,
+      "card": {
+        "title": "Energy cannot disappear",
+        "kind": "choice",
+        "prompt": "A sealed, insulated mechanical system slows because of friction. What happens to its total energy?",
+        "options": [
+          "It falls to zero",
+          "It increases because friction creates energy",
+          "It stays constant as energy is redistributed",
+          "It is all destroyed"
+        ],
+        "correctIndex": 2,
+        "marks": 1,
+        "modelAnswer": "The total energy stays constant; energy is redistributed into thermal stores.",
+        "explanation": "A closed-system energy account includes energy that is no longer useful mechanically.",
+        "hint": "Include thermal energy in the total.",
+        "steps": [
+          "Read the physical situation.",
+          "Rule out alternatives using the stated physics.",
+          "Choose the statement that fits all the evidence."
+        ],
+        "misconception": "A decrease in useful energy is not a decrease in total energy.",
+        "id": "2022-2a"
+      }
+    },
+    {
+      "id": "2022-2bi",
+      "question": "2(b)(i)",
+      "marks": 3,
+      "topic": "energy",
+      "skill": "insulation-experiment",
+      "answer": "Use hot water in an inner can, an insulating material between nested cans, and a thermometer immersed in the water.",
+      "learning": "Design an insulation comparison with meaningful temperature measurements.",
+      "questionPage": 6,
+      "markSchemePage": 8,
+      "card": {
+        "title": "Set up a cooling test",
+        "kind": "text",
+        "prompt": "Describe an apparatus arrangement to compare two insulating fibres around a container of hot water.",
+        "marks": 3,
+        "rubric": [
+          {
+            "point": "Insulator surrounds hot-water container",
+            "patterns": [
+              "(insulat|fibre).*(around|surround|between).*",
+              "(around|surround).*container"
+            ]
+          },
+          {
+            "point": "Thermometer measures water temperature",
+            "patterns": [
+              "thermometer.*(water|immers)",
+              "temperature.*water"
+            ]
+          },
+          {
+            "point": "Record cooling over measured time",
+            "patterns": [
+              "(record|measur).*temperature.*(time|interval)",
+              "(timer|stopwatch|stop.?clock).*cool"
+            ]
+          }
+        ],
+        "modelAnswer": "Put hot water in a small metal container. Pack one fibre around it inside a larger container. Immerse a thermometer in the water and record temperature at measured time intervals; repeat with the other fibre.",
+        "explanation": "A good comparison measures the cooling of the water while changing the insulation material alone.",
+        "hint": "Where must the thermometer be to measure the water itself?",
+        "steps": [
+          "Identify the physical idea.",
+          "Link each statement to a reason or observation.",
+          "Check that every part of the question is answered."
+        ],
+        "misconception": "Measuring air temperature outside the container does not directly measure the water’s cooling.",
+        "id": "2022-2bi"
+      }
+    },
+    {
+      "id": "2022-2bii",
+      "question": "2(b)(ii)",
+      "marks": 3,
+      "topic": "energy",
+      "skill": "controlled-variables",
+      "answer": "Keep water amount, insulation thickness and starting water temperature fixed; use the same cooling interval.",
+      "learning": "Choose controls that make the independent-variable comparison fair.",
+      "questionPage": 7,
+      "markSchemePage": 9,
+      "card": {
+        "title": "Make the insulation test fair",
+        "kind": "text",
+        "prompt": "You compare cooling with wool and foam insulation. Name three variables to keep the same.",
+        "marks": 3,
+        "rubric": [
+          {
+            "point": "Same water mass or volume",
+            "patterns": [
+              "same.*(mass|volume|amount).*water",
+              "water.*(mass|volume|amount).*(same|constant)"
+            ]
+          },
+          {
+            "point": "Same insulation thickness",
+            "patterns": [
+              "same.*(thickness|amount|volume|mass).*insulat",
+              "insulat.*thickness.*(same|constant)"
+            ]
+          },
+          {
+            "point": "Same initial temperature",
+            "patterns": [
+              "same.*(initial|starting|start).*temperature",
+              "(initial|starting).*temperature.*(same|constant)"
+            ]
+          }
+        ],
+        "modelAnswer": "Use the same water mass, the same insulation thickness, and the same initial water temperature. Compare temperature change over the same measured interval.",
+        "explanation": "Any variable that changes the rate of cooling could otherwise give a false advantage to one material.",
+        "hint": "Control the water, the insulating layer and the starting conditions.",
+        "steps": [
+          "Identify the physical idea.",
+          "Link each statement to a reason or observation.",
+          "Check that every part of the question is answered."
+        ],
+        "misconception": "Saying only “same time” is vague: specify the measured cooling interval.",
+        "id": "2022-2bii"
+      }
+    },
+    {
+      "id": "2022-2c",
+      "question": "2(c)",
+      "marks": 2,
+      "topic": "energy",
+      "skill": "nonlinear-cooling-material-trend",
+      "answer": "Conductivity decreases as density rises, with the decrease becoming progressively smaller and levelling out.",
+      "learning": "Describe a negative nonlinear relationship without assuming inverse proportionality.",
+      "questionPage": 7,
+      "markSchemePage": 9,
+      "card": {
+        "title": "Describe a flattening trend",
+        "kind": "text",
+        "prompt": "A material’s conductivity falls as density rises, but the curve becomes almost horizontal at high density. Describe the relationship.",
+        "marks": 2,
+        "rubric": [
+          {
+            "point": "Conductivity decreases as density increases",
+            "patterns": [
+              "conductivity.*decreas.*density.*increas",
+              "density.*increas.*conductivity.*decreas",
+              "negative correlation"
+            ]
+          },
+          {
+            "point": "Decrease slows / levels off",
+            "patterns": [
+              "(level|flatten|plateau)",
+              "(decrease|fall).*(slower|smaller|less|decreasing rate)"
+            ]
+          }
+        ],
+        "modelAnswer": "Thermal conductivity decreases as density increases. The rate of decrease gets smaller, so the curve levels off.",
+        "explanation": "A curved negative relationship need not be inversely proportional. Describe only what the evidence supports.",
+        "hint": "Mention both direction and changing gradient.",
+        "steps": [
+          "Identify the physical idea.",
+          "Link each statement to a reason or observation.",
+          "Check that every part of the question is answered."
+        ],
+        "misconception": "Do not call every decreasing curve an inverse-square relationship.",
+        "id": "2022-2c"
+      }
+    },
+    {
+      "id": "2022-3ai",
+      "question": "3(a)(i)",
+      "marks": 2,
+      "topic": "forces",
+      "skill": "stopping-distance-weather",
+      "answer": "Wet surfaces reduce tyre-road friction and increase braking distance; reducing speed reduces the stopping distance and risk of skidding.",
+      "learning": "Link road conditions and speed to braking safety.",
+      "questionPage": 8,
+      "markSchemePage": 10,
+      "card": {
+        "title": "Wet-road driving",
+        "kind": "text",
+        "prompt": "Explain why a lower driving speed is sensible on a wet road.",
+        "marks": 2,
+        "rubric": [
+          {
+            "point": "Wet road reduces tyre friction",
+            "patterns": [
+              "wet.*(less|reduc|lower).*(friction|grip)",
+              "(less|reduc|lower).*(friction|grip).*wet"
+            ]
+          },
+          {
+            "point": "Lower speed reduces stopping distance",
+            "patterns": [
+              "(lower|slower|reduc).*speed.*(shorter|reduc|less).*(stopping|braking)",
+              "(stopping|braking).*distance.*(shorter|reduc)"
+            ]
+          }
+        ],
+        "modelAnswer": "A wet road gives less tyre-road friction, so braking takes a longer distance. A lower speed reduces stopping distance and the risk of losing control.",
+        "explanation": "Braking must remove kinetic energy through a limited frictional force; wet conditions reduce that available force.",
+        "hint": "Link the surface to friction and then to stopping distance.",
+        "steps": [
+          "Identify the physical idea.",
+          "Link each statement to a reason or observation.",
+          "Check that every part of the question is answered."
+        ],
+        "misconception": "Do not say a wet road increases friction.",
+        "id": "2022-3ai"
+      }
+    },
+    {
+      "id": "2022-3aii",
+      "question": "3(a)(ii)",
+      "marks": 2,
+      "topic": "motion",
+      "skill": "speed-unit-conversion",
+      "answer": "31 m/s = 31 × 3.6 = 111.6 km/h, which is below 130 km/h.",
+      "learning": "Compare speeds only after converting to common units.",
+      "questionPage": 8,
+      "markSchemePage": 11,
+      "card": {
+        "title": "Convert a road speed",
+        "kind": "number",
+        "prompt": "Convert 25 m/s into km/h.",
+        "answer": 90,
+        "unit": "km/h",
+        "tolerance": 0.45,
+        "marks": 2,
+        "modelAnswer": "25 × 3600/1000 = 25 × 3.6 = 90 km/h.",
+        "explanation": "An hour has 3600 seconds and a kilometre has 1000 metres, so m/s becomes km/h by multiplying by 3.6.",
+        "hint": "Convert both the distance unit and the time unit.",
+        "steps": [
+          "Write the relevant equation.",
+          "Substitute the values using consistent units.",
+          "Calculate, round sensibly and give the unit."
+        ],
+        "misconception": "Multiplying only by 1000 gives the wrong conversion.",
+        "id": "2022-3aii",
+        "variants": [
+          {
+            "prompt": "Convert 18 m/s into km/h.",
+            "answer": 64.8,
+            "modelAnswer": "18 × 3.6 = 64.8 km/h."
+          },
+          {
+            "prompt": "Convert a speed of 32 m/s into km/h.",
+            "answer": 115.2,
+            "modelAnswer": "32 × 3.6 = 115.2 km/h."
+          }
+        ]
+      }
+    },
+    {
+      "id": "2022-3aiii",
+      "question": "3(a)(iii)",
+      "marks": 3,
+      "topic": "motion",
+      "skill": "reaction-time-distance",
+      "answer": "Reaction time = 46/31 = 1.48… s, written as 1.5 s to two significant figures.",
+      "learning": "Rearrange distance = speed × time and obey a significant-figures instruction.",
+      "questionPage": 9,
+      "markSchemePage": 12,
+      "card": {
+        "title": "Thinking time",
+        "kind": "number",
+        "prompt": "A cyclist travels 9.0 m at 12 m/s before beginning to brake. Calculate the reaction time.",
+        "answer": 0.75,
+        "unit": "s",
+        "tolerance": 0.00375,
+        "marks": 3,
+        "modelAnswer": "t = thinking distance/speed = 9.0/12 = 0.75 s.",
+        "explanation": "During reaction time the cyclist has not yet braked, so this section of motion can be treated as constant speed.",
+        "hint": "Use the distance covered before braking.",
+        "steps": [
+          "Write the relevant equation.",
+          "Substitute the values using consistent units.",
+          "Calculate, round sensibly and give the unit."
+        ],
+        "misconception": "Do not confuse thinking time with the later braking time.",
+        "id": "2022-3aiii"
+      }
+    },
+    {
+      "id": "2022-4ai",
+      "question": "4(a)(i)",
+      "marks": 1,
+      "topic": "radioactivity",
+      "skill": "medical-tracer-radiation",
+      "answer": "Gamma radiation can pass from the kidney through the body to an external scanner.",
+      "learning": "Choose a tracer emission that can escape the body and be detected.",
+      "questionPage": 11,
+      "markSchemePage": 13,
+      "card": {
+        "title": "Detect a tracer from outside",
+        "kind": "choice",
+        "prompt": "Which emission is most suitable for detecting a medical tracer using a camera outside the body?",
+        "options": [
+          "Alpha only",
+          "Low-energy beta only",
+          "Gamma",
+          "Neutrons because they are visible"
+        ],
+        "correctIndex": 2,
+        "marks": 1,
+        "modelAnswer": "Gamma radiation is sufficiently penetrating to leave the body and reach an external detector.",
+        "explanation": "A useful tracer needs a detectable signal outside the body while keeping the dose as low as practical.",
+        "hint": "Which radiation has the greatest penetration?",
+        "steps": [
+          "Read the physical situation.",
+          "Rule out alternatives using the stated physics.",
+          "Choose the statement that fits all the evidence."
+        ],
+        "misconception": "A highly ionising but short-range emission may be unsuitable for an external scan.",
+        "id": "2022-4ai"
+      }
+    },
+    {
+      "id": "2022-4aii1",
+      "question": "4(a)(ii)(1)",
+      "marks": 1,
+      "topic": "radioactivity",
+      "skill": "tracer-half-life-short",
+      "answer": "A six-minute half-life makes activity fall too far during the approximately thirty-minute measurement.",
+      "learning": "Choose a half-life long enough for the procedure to be completed.",
+      "questionPage": 11,
+      "markSchemePage": 13,
+      "card": {
+        "title": "A tracer that fades too quickly",
+        "kind": "choice",
+        "prompt": "A scan takes one hour. Why might a tracer with a two-minute half-life be unsuitable?",
+        "options": [
+          "It may decay too much before useful measurements are completed",
+          "It never emits radiation",
+          "Its atoms become heavier each minute",
+          "Its activity rises during the scan"
+        ],
+        "correctIndex": 0,
+        "marks": 1,
+        "modelAnswer": "Too many half-lives pass during the scan, so the detectable activity may become too small.",
+        "explanation": "Half-life must be judged against the measurement duration, not simply chosen to be as short as possible.",
+        "hint": "How many halvings happen in an hour?",
+        "steps": [
+          "Read the physical situation.",
+          "Rule out alternatives using the stated physics.",
+          "Choose the statement that fits all the evidence."
+        ],
+        "misconception": "The shortest possible half-life is not always the best medical choice.",
+        "id": "2022-4aii1"
+      }
+    },
+    {
+      "id": "2022-4aii2",
+      "question": "4(a)(ii)(2)",
+      "marks": 1,
+      "topic": "radioactivity",
+      "skill": "tracer-half-life-long",
+      "answer": "A six-day half-life leaves the patient radioactive unnecessarily long and increases exposure.",
+      "learning": "Balance measurement duration against unnecessary radiation dose.",
+      "questionPage": 11,
+      "markSchemePage": 13,
+      "card": {
+        "title": "A tracer that lasts too long",
+        "kind": "choice",
+        "prompt": "Why avoid a tracer with a half-life of several years for a short diagnostic scan?",
+        "options": [
+          "It would be too cold to detect",
+          "It would expose the patient to radiation for an unnecessarily long time",
+          "Its radiation would stop at the skin before being emitted",
+          "Long half-life means every atom decays at once"
+        ],
+        "correctIndex": 1,
+        "marks": 1,
+        "modelAnswer": "Its activity persists long after the measurement, creating unnecessary exposure.",
+        "explanation": "The best isotope lasts long enough for the scan but decays sufficiently quickly afterwards.",
+        "hint": "Consider what happens after the scan finishes.",
+        "steps": [
+          "Read the physical situation.",
+          "Rule out alternatives using the stated physics.",
+          "Choose the statement that fits all the evidence."
+        ],
+        "misconception": "A long half-life is not automatically safer because activity falls slowly.",
+        "id": "2022-4aii2"
+      }
+    },
+    {
+      "id": "2022-4aiii",
+      "question": "4(a)(iii)",
+      "marks": 2,
+      "topic": "radioactivity",
+      "skill": "radiation-safety",
+      "answer": "Limit exposure time, increase distance and use suitable shielding such as lead barriers.",
+      "learning": "Apply time, distance and shielding to reduce occupational exposure.",
+      "questionPage": 11,
+      "markSchemePage": 14,
+      "card": {
+        "title": "Protect the technician",
+        "kind": "text",
+        "prompt": "State two practical ways a technician can reduce exposure while handling a gamma source.",
+        "marks": 2,
+        "rubric": [
+          {
+            "point": "Increase distance / use remote handling",
+            "patterns": [
+              "(increase|greater|more).*distance",
+              "(tongs|remote|stand.*away|stay.*away)"
+            ]
+          },
+          {
+            "point": "Use shielding or reduce time",
+            "patterns": [
+              "(lead|shield|barrier)",
+              "(limit|reduce|minimis|short).*time"
+            ]
+          }
+        ],
+        "modelAnswer": "Use remote handling to keep a greater distance from the source, and work behind suitable lead shielding. Minimise the time spent close to it.",
+        "explanation": "Distance, time and shielding reduce dose through different physical mechanisms. Ordinary thin gloves do not stop penetrating gamma rays.",
+        "hint": "Think distance and shielding.",
+        "steps": [
+          "Identify the physical idea.",
+          "Link each statement to a reason or observation.",
+          "Check that every part of the question is answered."
+        ],
+        "misconception": "Ordinary goggles alone do not shield gamma radiation.",
+        "id": "2022-4aiii"
+      }
+    },
+    {
+      "id": "2022-4bi",
+      "question": "4(b)(i)",
+      "marks": 2,
+      "topic": "radioactivity",
+      "skill": "control-rods",
+      "answer": "Control rods absorb more neutrons when inserted further, leaving fewer neutrons to trigger subsequent fissions.",
+      "learning": "Explain how neutron absorption controls a nuclear chain reaction.",
+      "questionPage": 12,
+      "markSchemePage": 14,
+      "card": {
+        "title": "Control a chain reaction",
+        "kind": "text",
+        "prompt": "Explain why inserting reactor control rods further reduces the fission rate.",
+        "marks": 2,
+        "rubric": [
+          {
+            "point": "Rods absorb neutrons",
+            "patterns": [
+              "(rod|control).*absorb.*neutron",
+              "neutron.*absorb.*rod"
+            ]
+          },
+          {
+            "point": "Fewer neutrons trigger further fissions",
+            "patterns": [
+              "fewer.*neutron.*(fission|chain|react)",
+              "(fewer|less).*(fission|chain reaction)"
+            ]
+          }
+        ],
+        "modelAnswer": "Control rods absorb neutrons. Inserting them further removes more neutrons, so fewer remain to cause new fissions and the chain reaction slows.",
+        "explanation": "A chain reaction depends on neutrons from one fission causing the next generation of fissions.",
+        "hint": "What particle carries the chain reaction from nucleus to nucleus?",
+        "steps": [
+          "Identify the physical idea.",
+          "Link each statement to a reason or observation.",
+          "Check that every part of the question is answered."
+        ],
+        "misconception": "The moderator slows neutrons; control rods mainly absorb them.",
+        "id": "2022-4bi"
+      }
+    },
+    {
+      "id": "2022-4bii",
+      "question": "4(b)(ii)",
+      "marks": 2,
+      "topic": "radioactivity",
+      "skill": "percentage-standard-form",
+      "answer": "(4.0 × 10³)/(3.0 × 10⁷) × 100 = 0.0133%.",
+      "learning": "Calculate a very small percentage while tracking powers of ten.",
+      "questionPage": 13,
+      "markSchemePage": 14,
+      "card": {
+        "title": "A small percentage",
+        "kind": "number",
+        "prompt": "Slow neutrons have speed 6.0 × 10³ m/s and fast neutrons 2.0 × 10⁷ m/s. Express the slow speed as a percentage of the fast speed.",
+        "answer": 0.03,
+        "unit": "%",
+        "tolerance": 0.00015,
+        "marks": 2,
+        "modelAnswer": "(6.0 × 10³)/(2.0 × 10⁷) × 100 = 0.0003 × 100 = 0.030%.",
+        "explanation": "A percentage is a ratio multiplied by 100. With standard form, the power of ten matters as much as the leading number.",
+        "hint": "First calculate the dimensionless ratio.",
+        "steps": [
+          "Write the relevant equation.",
+          "Substitute the values using consistent units.",
+          "Calculate, round sensibly and give the unit."
+        ],
+        "misconception": "0.0003 and 0.0003% describe different fractions.",
+        "id": "2022-4bii"
+      }
+    },
+    {
+      "id": "2022-4biii",
+      "question": "4(b)(iii)",
+      "marks": 2,
+      "topic": "radioactivity",
+      "skill": "reactor-energy-transfer",
+      "answer": "Kinetic energy of fission fragments is transferred into the thermal store of the coolant.",
+      "learning": "Trace a specific energy transfer at the first stage of a nuclear power station.",
+      "questionPage": 13,
+      "markSchemePage": 15,
+      "card": {
+        "title": "From nucleus to coolant",
+        "kind": "text",
+        "prompt": "Describe the first transfer of energy after nuclei undergo fission in a reactor.",
+        "marks": 2,
+        "rubric": [
+          {
+            "point": "Fission fragments carry kinetic energy",
+            "patterns": [
+              "fission.*(fragment|product).*kinetic",
+              "(fragment|product).*kinetic"
+            ]
+          },
+          {
+            "point": "Coolant gains thermal energy",
+            "patterns": [
+              "coolant.*(thermal|heat|hotter)",
+              "(thermal|heat).*coolant"
+            ]
+          }
+        ],
+        "modelAnswer": "The fission fragments have kinetic energy. As they collide with surrounding material, energy is transferred to the thermal store of the coolant, heating it.",
+        "explanation": "Electricity is not produced directly by a splitting nucleus. Heat transfer and a turbine-generator follow.",
+        "hint": "Start with the moving fission fragments.",
+        "steps": [
+          "Identify the physical idea.",
+          "Link each statement to a reason or observation.",
+          "Check that every part of the question is answered."
+        ],
+        "misconception": "Do not skip straight from the nucleus to electrical energy without an intermediate stage.",
+        "id": "2022-4biii"
+      }
+    },
+    {
+      "id": "2022-5ai",
+      "question": "5(a)(i)",
+      "marks": 2,
+      "topic": "motion",
+      "skill": "uniform-acceleration",
+      "answer": "a = (82 − 0)/36 = 2.28 m/s², which is about 2 m/s².",
+      "learning": "Show a claimed approximate result with an equation and substitution.",
+      "questionPage": 14,
+      "markSchemePage": 16,
+      "card": {
+        "title": "Acceleration at take-off",
+        "kind": "number",
+        "prompt": "A plane reaches 72 m/s from rest in 24 s at constant acceleration. Calculate the acceleration.",
+        "answer": 3,
+        "unit": "m/s²",
+        "tolerance": 0.015,
+        "marks": 2,
+        "modelAnswer": "a = (72 − 0)/24 = 3.0 m/s².",
+        "explanation": "A “show that” answer should display the calculation rather than repeat a supplied approximate value.",
+        "hint": "Acceleration is velocity change per second.",
+        "steps": [
+          "Write the relevant equation.",
+          "Substitute the values using consistent units.",
+          "Calculate, round sensibly and give the unit."
+        ],
+        "misconception": "The take-off speed alone is not the acceleration.",
+        "id": "2022-5ai"
+      }
+    },
+    {
+      "id": "2022-5aii",
+      "question": "5(a)(ii)",
+      "marks": 3,
+      "topic": "motion",
+      "skill": "suvat-distance",
+      "answer": "Using a ≈ 2.3 m/s² gives x = 82²/(2 × 2.3) ≈ 1.5 × 10³ m.",
+      "learning": "Rearrange v² − u² = 2ax and avoid premature rounding.",
+      "questionPage": 14,
+      "markSchemePage": 16,
+      "card": {
+        "title": "Runway distance",
+        "kind": "number",
+        "prompt": "An aircraft accelerates uniformly from rest to 60 m/s at 2.0 m/s². Calculate the distance travelled.",
+        "answer": 900,
+        "unit": "m",
+        "tolerance": 4.5,
+        "marks": 3,
+        "modelAnswer": "x = (v² − u²)/(2a) = 60²/(2 × 2.0) = 900 m.",
+        "explanation": "The square on velocity is essential. This equation is useful when time is not needed.",
+        "hint": "Rearrange before substituting.",
+        "steps": [
+          "Write the relevant equation.",
+          "Substitute the values using consistent units.",
+          "Calculate, round sensibly and give the unit."
+        ],
+        "misconception": "Do not use v rather than v² in the numerator.",
+        "id": "2022-5aii",
+        "variants": [
+          {
+            "prompt": "An aircraft accelerates from rest to 80 m/s at a constant 4.0 m/s². Find its take-off run distance.",
+            "answer": 800,
+            "modelAnswer": "x = (v² − u²)/(2a) = 80²/(2 × 4.0) = 800 m."
+          },
+          {
+            "prompt": "An aircraft accelerates from rest to 40 m/s at 1.25 m/s². How far does it travel?",
+            "answer": 640,
+            "modelAnswer": "x = 40²/(2 × 1.25) = 1600/2.5 = 640 m."
+          }
+        ]
+      }
+    },
+    {
+      "id": "2022-5aiii",
+      "question": "5(a)(iii)",
+      "marks": 1,
+      "topic": "motion",
+      "skill": "model-safety-margin",
+      "answer": "A longer runway allows for aborted take-off, poorer acceleration, weather or other non-ideal conditions.",
+      "learning": "Recognise limitations of idealised calculations and engineering safety margins.",
+      "questionPage": 15,
+      "markSchemePage": 17,
+      "card": {
+        "title": "Beyond the ideal calculation",
+        "kind": "choice",
+        "prompt": "Why should a real runway exceed the ideal calculated take-off distance?",
+        "options": [
+          "To allow for variable conditions and an aborted take-off",
+          "Because acceleration has no unit",
+          "Because all aircraft have the same mass",
+          "Because the calculated distance is always zero"
+        ],
+        "correctIndex": 0,
+        "marks": 1,
+        "modelAnswer": "Weather, load, reduced engine performance or an aborted take-off can require extra distance.",
+        "explanation": "Physics calculations often use ideal assumptions. Engineering designs must accommodate variation and failures.",
+        "hint": "Which real conditions were left out of the model?",
+        "steps": [
+          "Read the physical situation.",
+          "Rule out alternatives using the stated physics.",
+          "Choose the statement that fits all the evidence."
+        ],
+        "misconception": "A model’s numerical result is not automatically a safe design limit.",
+        "id": "2022-5aiii"
+      }
+    },
+    {
+      "id": "2022-5bi",
+      "question": "5(b)(i)",
+      "marks": 2,
+      "topic": "energy",
+      "skill": "kinetic-energy",
+      "answer": "Eₖ = ½ × 3.6 × 10⁵ × 71² = 9.07 × 10⁸ J.",
+      "learning": "Calculate kinetic energy with squared speed and standard-form mass.",
+      "questionPage": 15,
+      "markSchemePage": 17,
+      "card": {
+        "title": "Energy on landing",
+        "kind": "number",
+        "prompt": "A light aircraft has mass 2000 kg and landing speed 40 m/s. Calculate its kinetic energy.",
+        "answer": 1600000,
+        "unit": "J",
+        "tolerance": 8000.0,
+        "marks": 2,
+        "modelAnswer": "Eₖ = ½mv² = 0.5 × 2000 × 40² = 1.6 × 10⁶ J.",
+        "explanation": "Doubling speed quadruples kinetic energy because speed is squared.",
+        "hint": "Square the speed before multiplying by mass.",
+        "steps": [
+          "Write the relevant equation.",
+          "Substitute the values using consistent units.",
+          "Calculate, round sensibly and give the unit."
+        ],
+        "misconception": "½mv is not the kinetic-energy equation.",
+        "id": "2022-5bi"
+      }
+    },
+    {
+      "id": "2022-5bii",
+      "question": "5(b)(ii)",
+      "marks": 1,
+      "topic": "energy",
+      "skill": "braking-energy-dissipation",
+      "answer": "Friction and air resistance transfer energy mechanically into thermal stores of the surroundings.",
+      "learning": "Describe an energy transfer pathway when motion is stopped.",
+      "questionPage": 15,
+      "markSchemePage": 17,
+      "card": {
+        "title": "After the plane stops",
+        "kind": "choice",
+        "prompt": "Where has much of an aircraft’s kinetic energy gone after braking?",
+        "options": [
+          "Into thermal stores of the brakes, tyres, air and surroundings",
+          "It has disappeared",
+          "It has become extra mass in the runway",
+          "It has all become nuclear energy"
+        ],
+        "correctIndex": 0,
+        "marks": 1,
+        "modelAnswer": "Friction and drag transfer the kinetic energy into thermal stores, with some sound.",
+        "explanation": "Energy spreads out into the surroundings, becoming less useful for doing work.",
+        "hint": "Think of hot brakes.",
+        "steps": [
+          "Read the physical situation.",
+          "Rule out alternatives using the stated physics.",
+          "Choose the statement that fits all the evidence."
+        ],
+        "misconception": "Stopping does not destroy energy.",
+        "id": "2022-5bii"
+      }
+    },
+    {
+      "id": "2022-6a",
+      "question": "6(a)",
+      "marks": 1,
+      "topic": "astronomy",
+      "skill": "big-bang-evidence",
+      "answer": "Both redshift and cosmic microwave background support Big Bang cosmology; Steady State does not account for CMB in the same way.",
+      "learning": "Use distinct observations to compare cosmological models.",
+      "questionPage": 17,
+      "markSchemePage": 18,
+      "card": {
+        "title": "Which model explains both?",
+        "kind": "choice",
+        "prompt": "Which model explains an expanding Universe and leftover microwave radiation from a hot early state?",
+        "options": [
+          "Steady State alone",
+          "Big Bang",
+          "A geocentric Solar System",
+          "A model in which all galaxies are stationary"
+        ],
+        "correctIndex": 1,
+        "marks": 1,
+        "modelAnswer": "The Big Bang model explains expansion and the cosmic microwave background.",
+        "explanation": "Redshift alone was compatible with more than one expanding-Universe model; CMB provided additional discriminating evidence.",
+        "hint": "Which model includes a hot beginning?",
+        "steps": [
+          "Read the physical situation.",
+          "Rule out alternatives using the stated physics.",
+          "Choose the statement that fits all the evidence."
+        ],
+        "misconception": "Do not assume one shared prediction makes two models equivalent.",
+        "id": "2022-6a"
+      }
+    },
+    {
+      "id": "2022-6bi",
+      "question": "6(b)(i)",
+      "marks": 2,
+      "topic": "astronomy",
+      "skill": "redshift-calculation",
+      "answer": "z = (6.72 − 6.56)/6.56 = 0.02439, approximately 0.024.",
+      "learning": "Use fractional wavelength change, with the rest wavelength in the denominator.",
+      "questionPage": 18,
+      "markSchemePage": 18,
+      "card": {
+        "title": "Calculate redshift",
+        "kind": "number",
+        "prompt": "A spectral line has rest wavelength 500 nm and is observed at 515 nm. Calculate z = (observed − rest)/rest.",
+        "answer": 0.03,
+        "unit": "dimensionless",
+        "tolerance": 0.00015,
+        "marks": 2,
+        "modelAnswer": "z = (515 − 500)/500 = 15/500 = 0.030.",
+        "explanation": "Redshift is a ratio of two lengths, so units cancel if both wavelengths use the same unit.",
+        "hint": "Divide the shift by the original wavelength.",
+        "steps": [
+          "Write the relevant equation.",
+          "Substitute the values using consistent units.",
+          "Calculate, round sensibly and give the unit."
+        ],
+        "misconception": "The denominator is not the observed wavelength.",
+        "id": "2022-6bi"
+      }
+    },
+    {
+      "id": "2022-6bii",
+      "question": "6(b)(ii)",
+      "marks": 2,
+      "topic": "astronomy",
+      "skill": "redshift-recession-speed",
+      "answer": "v = zc ≈ 0.024 × 3.00 × 10⁸ = 7.2 × 10⁶ m/s.",
+      "learning": "Calculate approximate recession speed from a small redshift.",
+      "questionPage": 19,
+      "markSchemePage": 19,
+      "card": {
+        "title": "From redshift to speed",
+        "kind": "number",
+        "prompt": "For a small redshift z = 0.020, use v = zc with c = 3.0 × 10⁸ m/s to estimate recession speed.",
+        "answer": 6000000.0,
+        "unit": "m/s",
+        "tolerance": 30000.0,
+        "marks": 2,
+        "modelAnswer": "v = zc = 0.020 × 3.0 × 10⁸ = 6.0 × 10⁶ m/s.",
+        "explanation": "For small redshifts, fractional wavelength change approximately equals recession speed divided by light speed.",
+        "hint": "Multiply the redshift by c.",
+        "steps": [
+          "Write the relevant equation.",
+          "Substitute the values using consistent units.",
+          "Calculate, round sensibly and give the unit."
+        ],
+        "misconception": "This simple relation is an approximation, not the general formula for very large cosmological redshifts.",
+        "id": "2022-6bii"
+      }
+    },
+    {
+      "id": "2022-6biii",
+      "question": "6(b)(iii)",
+      "marks": 2,
+      "topic": "astronomy",
+      "skill": "redshift-distance-expansion",
+      "answer": "The more distant galaxy has a greater redshift and therefore a greater recession velocity, supporting expansion.",
+      "learning": "Connect greater distance, larger wavelength shift and faster recession.",
+      "questionPage": 19,
+      "markSchemePage": 19,
+      "card": {
+        "title": "The distant galaxy moves faster",
+        "kind": "text",
+        "prompt": "A more distant galaxy has a larger redshift than a nearer one. Explain how that supports expansion.",
+        "marks": 2,
+        "rubric": [
+          {
+            "point": "Larger redshift means faster recession",
+            "patterns": [
+              "larger.*red.?shift.*(faster|greater|higher).*",
+              "red.?shift.*(greater|higher).*veloc",
+              "(faster|greater).*recession"
+            ]
+          },
+          {
+            "point": "More distant galaxies recede faster, indicating expansion",
+            "patterns": [
+              "(further|farther|distant).*galax.*(faster|reced)",
+              "(universe|space).*expand"
+            ]
+          }
+        ],
+        "modelAnswer": "The larger redshift means the more distant galaxy is receding faster. The general pattern of recession speed increasing with distance supports expansion of the Universe.",
+        "explanation": "Use a population trend, not just the fact that one galaxy is moving.",
+        "hint": "Link wavelength shift to speed, then speed to distance.",
+        "steps": [
+          "Identify the physical idea.",
+          "Link each statement to a reason or observation.",
+          "Check that every part of the question is answered."
+        ],
+        "misconception": "A larger redshift is not a larger emitted light frequency.",
+        "id": "2022-6biii"
+      }
+    },
+    {
+      "id": "2022-6c",
+      "question": "6(c)",
+      "marks": 2,
+      "topic": "astronomy",
+      "skill": "space-telescopes",
+      "answer": "A telescope above Earth’s atmosphere avoids clouds and atmospheric distortion and can detect wavelengths absorbed by air.",
+      "learning": "Explain an observing location using atmospheric transmission.",
+      "questionPage": 20,
+      "markSchemePage": 20,
+      "card": {
+        "title": "Why put a telescope in space?",
+        "kind": "text",
+        "prompt": "Give two linked reasons why an infrared telescope may work better above Earth’s atmosphere.",
+        "marks": 2,
+        "rubric": [
+          {
+            "point": "Above atmosphere",
+            "patterns": [
+              "(above|outside|beyond).*(atmosphere|earth.*air)",
+              "space.*atmospher"
+            ]
+          },
+          {
+            "point": "Avoids absorption or distortion",
+            "patterns": [
+              "atmospher.*(absorb|distort)",
+              "(avoid|less).*(cloud|distort|absorp)",
+              "no (cloud|atmospheric distortion|atmospheric absorption)",
+              "infrared.*absorb"
+            ]
+          }
+        ],
+        "modelAnswer": "Above Earth’s atmosphere the telescope avoids atmospheric absorption of infrared and distortion or blockage by clouds and air.",
+        "explanation": "Different wavelengths pass through the atmosphere by different amounts. Space observations can reveal radiation that never reaches ground instruments.",
+        "hint": "What can the atmosphere do to incoming radiation?",
+        "steps": [
+          "Identify the physical idea.",
+          "Link each statement to a reason or observation.",
+          "Check that every part of the question is answered."
+        ],
+        "misconception": "The small reduction in distance to a galaxy is not the meaningful advantage.",
+        "id": "2022-6c"
+      }
+    },
+    {
+      "id": "2022-7a",
+      "question": "7(a)",
+      "marks": 1,
+      "topic": "forces",
+      "skill": "momentum-unit",
+      "answer": "Momentum has unit kg m/s because p = mv.",
+      "learning": "Derive a compound unit from an equation.",
+      "questionPage": 21,
+      "markSchemePage": 21,
+      "card": {
+        "title": "Momentum dimensions",
+        "kind": "choice",
+        "prompt": "Which is a unit of momentum?",
+        "options": [
+          "kg m/s²",
+          "kg m/s",
+          "kg/s²",
+          "N/m"
+        ],
+        "correctIndex": 1,
+        "marks": 1,
+        "modelAnswer": "Momentum = mass × velocity, giving kg m/s.",
+        "explanation": "The unit N = kg m/s² belongs to force, whereas momentum can also be expressed as N s.",
+        "hint": "Multiply the units in p = mv.",
+        "steps": [
+          "Read the physical situation.",
+          "Rule out alternatives using the stated physics.",
+          "Choose the statement that fits all the evidence."
+        ],
+        "misconception": "Momentum and force do not have the same unit.",
+        "id": "2022-7a"
+      }
+    },
+    {
+      "id": "2022-7bi",
+      "question": "7(b)(i)",
+      "marks": 4,
+      "topic": "forces",
+      "skill": "momentum-conservation-experiment",
+      "answer": "Measure trolley masses and velocities before and after a sticking collision, calculate total momentum on each side and compare, repeating measurements.",
+      "learning": "Design a quantitative conservation test, including measurements and comparison.",
+      "questionPage": 21,
+      "markSchemePage": 21,
+      "card": {
+        "title": "Test momentum conservation",
+        "kind": "text",
+        "prompt": "Describe how to test whether momentum is conserved when a moving trolley sticks to a stationary trolley.",
+        "marks": 4,
+        "rubric": [
+          {
+            "point": "Measure trolley masses",
+            "patterns": [
+              "measur.*mass",
+              "weigh.*troll"
+            ]
+          },
+          {
+            "point": "Measure velocities before and after",
+            "patterns": [
+              "(measur|light.?gate|record).*(speed|veloc).*(before|after)",
+              "(before.*after|after.*before).*(speed|veloc)"
+            ]
+          },
+          {
+            "point": "Calculate total momentum before and after",
+            "patterns": [
+              "(calculat|compare).*momentum.*(before|after)",
+              "p\\s*=\\s*m\\s*v"
+            ]
+          },
+          {
+            "point": "Compare totals / equality, repeat",
+            "patterns": [
+              "(equal|same|agree|conserved).*momentum",
+              "momentum.*(equal|same|agree|conserved)",
+              "repeat.*(mean|average)",
+              "compare.*totals",
+              "repeat.*assess"
+            ]
+          }
+        ],
+        "modelAnswer": "Measure both trolley masses. Use light gates to measure the moving trolley’s speed before impact and the combined trolleys’ speed after they stick. Calculate total momentum before and after using p = mv, compare the totals, and repeat to assess consistency.",
+        "explanation": "Conservation is tested by adding all momentum in the system. Measuring only one trolley after impact would miss part of the total.",
+        "hint": "What measurements let you calculate both sides of the conservation equation?",
+        "steps": [
+          "Identify the physical idea.",
+          "Link each statement to a reason or observation.",
+          "Check that every part of the question is answered."
+        ],
+        "misconception": "The trolleys’ kinetic energy need not be conserved in a sticking collision.",
+        "id": "2022-7bi"
+      }
+    },
+    {
+      "id": "2022-7bii",
+      "question": "7(b)(ii)",
+      "marks": 1,
+      "topic": "forces",
+      "skill": "friction-compensation",
+      "answer": "The slight slope supplies a downslope force that balances friction, helping the trolley move at constant speed.",
+      "learning": "Distinguish compensating a force from removing the force itself.",
+      "questionPage": 22,
+      "markSchemePage": 22,
+      "card": {
+        "title": "Why tilt the track?",
+        "kind": "choice",
+        "prompt": "A trolley track is tilted just enough that the trolley rolls at constant speed. What does the tilt do?",
+        "options": [
+          "Removes friction completely",
+          "Balances friction with a component of weight",
+          "Makes momentum a scalar",
+          "Makes the trolley mass zero"
+        ],
+        "correctIndex": 1,
+        "marks": 1,
+        "modelAnswer": "The downslope component of weight balances the frictional force.",
+        "explanation": "With balanced forces the trolley has no resultant force and maintains constant velocity before impact.",
+        "hint": "Constant speed tells you about the resultant force.",
+        "steps": [
+          "Read the physical situation.",
+          "Rule out alternatives using the stated physics.",
+          "Choose the statement that fits all the evidence."
+        ],
+        "misconception": "The tilt compensates friction; it does not make friction cease to exist.",
+        "id": "2022-7bii"
+      }
+    },
+    {
+      "id": "2022-7ci",
+      "question": "7(c)(i)",
+      "marks": 3,
+      "topic": "forces",
+      "skill": "rebound-momentum-force",
+      "answer": "Opposite velocities give |Δp| = 0.075(15 + 8.2) = 1.74 kg m/s; divide by 0.012 s to get 145 N, about 150 N.",
+      "learning": "Use signed velocities and convert milliseconds when calculating collision force.",
+      "questionPage": 22,
+      "markSchemePage": 23,
+      "card": {
+        "title": "A ball rebounds",
+        "kind": "number",
+        "prompt": "A 0.050 kg ball approaches a wall at 10 m/s and rebounds at 14 m/s. Contact lasts 8.0 ms. Find the magnitude of the average force.",
+        "answer": 150,
+        "unit": "N",
+        "tolerance": 0.75,
+        "marks": 3,
+        "modelAnswer": "Take away from the wall as positive: Δp = 0.050 × [14 − (−10)] = 1.2 kg m/s. F = 1.2/0.0080 = 150 N.",
+        "explanation": "Changing direction makes the velocity change larger than either speed alone. Milliseconds must be converted to seconds.",
+        "hint": "Give the incoming and outgoing velocities opposite signs.",
+        "steps": [
+          "Write the relevant equation.",
+          "Substitute the values using consistent units.",
+          "Calculate, round sensibly and give the unit."
+        ],
+        "misconception": "Subtracting the two positive speeds would underestimate the momentum change.",
+        "id": "2022-7ci",
+        "variants": [
+          {
+            "prompt": "A 0.10 kg ball approaches a wall at 8 m/s and rebounds at 12 m/s. Contact lasts 20 ms. Calculate the average force magnitude.",
+            "answer": 100,
+            "modelAnswer": "Δp = 0.10 × [12 − (−8)] = 2.0 kg m/s. F = 2.0/0.020 = 100 N."
+          },
+          {
+            "prompt": "A 0.080 kg ball approaches a racket at 6 m/s and leaves in the opposite direction at 9 m/s. Contact lasts 10 ms. Calculate the average force magnitude.",
+            "answer": 120,
+            "modelAnswer": "Δp = 0.080 × [9 − (−6)] = 1.2 kg m/s. F = 1.2/0.010 = 120 N."
+          }
+        ]
+      }
+    },
+    {
+      "id": "2022-7cii",
+      "question": "7(c)(ii)",
+      "marks": 2,
+      "topic": "forces",
+      "skill": "newtons-third-law",
+      "answer": "The racket and ball exert equal-sized forces in opposite directions on each other; the forces act on different objects.",
+      "learning": "Explain an interaction-force pair without incorrectly cancelling forces on one body.",
+      "questionPage": 23,
+      "markSchemePage": 24,
+      "card": {
+        "title": "The racket feels it too",
+        "kind": "text",
+        "prompt": "Describe the force pair when a racket strikes a ball.",
+        "marks": 2,
+        "rubric": [
+          {
+            "point": "Equal magnitude, opposite directions",
+            "patterns": [
+              "equal.*opposite",
+              "same.*(size|magnitude).*opposite"
+            ]
+          },
+          {
+            "point": "Act on different objects",
+            "patterns": [
+              "different.*(object|bodies|body)",
+              "(ball.*racket|racket.*ball).*force"
+            ]
+          }
+        ],
+        "modelAnswer": "The racket exerts a force on the ball and the ball exerts an equal force in the opposite direction on the racket. They act on different objects.",
+        "explanation": "Third-law forces belong to the same interaction but appear on two separate free-body diagrams.",
+        "hint": "Which force acts on which object?",
+        "steps": [
+          "Identify the physical idea.",
+          "Link each statement to a reason or observation.",
+          "Check that every part of the question is answered."
+        ],
+        "misconception": "The two forces do not cancel on the ball alone.",
+        "id": "2022-7cii"
+      }
+    },
+    {
+      "id": "2022-8a",
+      "question": "8(a)",
+      "marks": 2,
+      "topic": "radioactivity",
+      "skill": "atomic-scale-estimate",
+      "answer": "4.0 × 10⁻⁷/(0.15 × 10⁻⁹) ≈ 2700 atoms across the foil.",
+      "learning": "Convert nanometres and use a length ratio for an order-of-magnitude estimate.",
+      "questionPage": 24,
+      "markSchemePage": 25,
+      "card": {
+        "title": "How many atoms thick?",
+        "kind": "number",
+        "prompt": "A metal film is 6.0 × 10⁻⁷ m thick. An atom is about 0.20 nm across. Estimate how many atomic diameters span the thickness.",
+        "answer": 3000,
+        "unit": "atoms",
+        "tolerance": 15.0,
+        "marks": 2,
+        "modelAnswer": "0.20 nm = 2.0 × 10⁻¹⁰ m. Number ≈ (6.0 × 10⁻⁷)/(2.0 × 10⁻¹⁰) = 3000.",
+        "explanation": "Dividing the total thickness by one atom’s diameter estimates the number of layers.",
+        "hint": "Nano means 10⁻⁹.",
+        "steps": [
+          "Write the relevant equation.",
+          "Substitute the values using consistent units.",
+          "Calculate, round sensibly and give the unit."
+        ],
+        "misconception": "Do not divide values expressed in different length units.",
+        "id": "2022-8a"
+      }
+    },
+    {
+      "id": "2022-8bi",
+      "question": "8(b)(i)",
+      "marks": 2,
+      "topic": "radioactivity",
+      "skill": "logarithmic-graph-ratio",
+      "answer": "The graph gives roughly 10⁶·⁵ particles at 5° and 10² at 100°, so the ratio is about 10⁴·⁵:1 (within 10⁴:1 to 10⁵:1).",
+      "learning": "Read powers of ten on a logarithmic axis and compare counts by division.",
+      "questionPage": 25,
+      "markSchemePage": 26,
+      "card": {
+        "title": "Compare scattering counts",
+        "kind": "number",
+        "prompt": "A scattering experiment detects 2.4 × 10⁶ particles near the forward direction and 80 particles at a large angle. How many times larger is the first count?",
+        "answer": 30000,
+        "unit": "times",
+        "tolerance": 150.0,
+        "marks": 2,
+        "modelAnswer": "Ratio = (2.4 × 10⁶)/80 = 3.0 × 10⁴ = 30,000.",
+        "explanation": "A logarithmic graph can show counts differing by many powers of ten. A vertical step is a multiplication factor, not a fixed added amount.",
+        "hint": "Divide the larger count by the smaller count.",
+        "steps": [
+          "Write the relevant equation.",
+          "Substitute the values using consistent units.",
+          "Calculate, round sensibly and give the unit."
+        ],
+        "misconception": "Do not subtract the counts when asked for a ratio.",
+        "id": "2022-8bi"
+      }
+    },
+    {
+      "id": "2022-8bii",
+      "question": "8(b)(ii)",
+      "marks": 4,
+      "topic": "radioactivity",
+      "skill": "rutherford-evidence",
+      "answer": "Most alpha particles pass almost straight through, showing atoms are mainly empty space; rare large-angle deflections reveal a tiny, dense, positively charged nucleus.",
+      "learning": "Link each scattering observation to the atomic feature it supports.",
+      "questionPage": 26,
+      "markSchemePage": 27,
+      "card": {
+        "title": "Evidence for the nucleus",
+        "kind": "text",
+        "prompt": "Explain how alpha-particle scattering shows that an atom has a small dense nucleus and is mostly empty space.",
+        "marks": 4,
+        "rubric": [
+          {
+            "point": "Most alpha particles pass straight through",
+            "patterns": [
+              "most.*(alpha|particle).*(straight|through)"
+            ]
+          },
+          {
+            "point": "Atoms mostly empty space",
+            "patterns": [
+              "(atom|atoms).*mostly.*empty",
+              "mostly empty space",
+              "atom.*empty space"
+            ]
+          },
+          {
+            "point": "Few large deflections / backscattering",
+            "patterns": [
+              "(few|rare|small fraction).*(deflect|scatter|back)",
+              "(large angle|backscatter|bounce back)"
+            ]
+          },
+          {
+            "point": "Small dense positive nucleus",
+            "patterns": [
+              "(small|tiny).*nucleus",
+              "nucleus.*(dense|positive)",
+              "(dense|positive).*nucleus"
+            ]
+          }
+        ],
+        "modelAnswer": "Most alpha particles pass straight through, so most of an atom is empty space. Only a very small fraction undergo large deflections or rebound, showing the mass and positive charge are concentrated in a tiny dense nucleus that repels alpha particles.",
+        "explanation": "The strength of the conclusion comes from connecting the frequency of each observation to a structural feature.",
+        "hint": "What does “most pass” imply, and what does “a few turn back” imply?",
+        "steps": [
+          "Identify the physical idea.",
+          "Link each statement to a reason or observation.",
+          "Check that every part of the question is answered."
+        ],
+        "misconception": "The alpha particles are repelled by positive charge, not deflected mainly by electrons.",
+        "id": "2022-8bii"
+      }
+    },
+    {
+      "id": "2022-8ci",
+      "question": "8(c)(i)",
+      "marks": 2,
+      "topic": "radioactivity",
+      "skill": "scattering-model-experiment",
+      "answer": "Release marbles down the slope at the obstacle and record their outgoing directions or scattering angles.",
+      "learning": "Use a physical model to collect a distribution of deflections.",
+      "questionPage": 27,
+      "markSchemePage": 28,
+      "card": {
+        "title": "Model a scattering pattern",
+        "kind": "text",
+        "prompt": "A marble rolls towards a circular obstacle on a flat sheet. Describe how to collect scattering data with a protractor.",
+        "marks": 2,
+        "rubric": [
+          {
+            "point": "Release marbles along several approach paths",
+            "patterns": [
+              "(roll|release).*marble.*(path|slope|obstacle)",
+              "marble.*(different|several).*path"
+            ]
+          },
+          {
+            "point": "Measure outgoing deflection angles",
+            "patterns": [
+              "measur.*(angle|deflection)",
+              "record.*(direction|path|angle)"
+            ]
+          }
+        ],
+        "modelAnswer": "Release marbles along several marked approach paths towards the obstacle. Mark the incoming and outgoing directions, then use a protractor to measure each deflection angle.",
+        "explanation": "A model can show how different approach paths produce different deflections, even if the interaction mechanism is not identical.",
+        "hint": "Record the change in direction, not just where the marble stops.",
+        "steps": [
+          "Identify the physical idea.",
+          "Link each statement to a reason or observation.",
+          "Check that every part of the question is answered."
+        ],
+        "misconception": "A single collision is not enough to establish a pattern.",
+        "id": "2022-8ci"
+      }
+    },
+    {
+      "id": "2022-8cii",
+      "question": "8(c)(ii)",
+      "marks": 1,
+      "topic": "radioactivity",
+      "skill": "model-limitations",
+      "answer": "The marble-obstacle model uses contact rather than electrostatic repulsion and is not an accurate scale model.",
+      "learning": "Evaluate what a model represents and what important physics it omits.",
+      "questionPage": 27,
+      "markSchemePage": 28,
+      "card": {
+        "title": "Where the model breaks down",
+        "kind": "choice",
+        "prompt": "What is a key limitation of modelling alpha scattering with marbles hitting an uncharged obstacle?",
+        "options": [
+          "Real alpha particles are deflected by electrostatic forces without needing contact",
+          "Real atoms contain large marbles",
+          "A protractor cannot measure an angle",
+          "All alpha particles stop at the nucleus"
+        ],
+        "correctIndex": 0,
+        "marks": 1,
+        "modelAnswer": "Real alpha particles can be deflected by electrostatic repulsion before touching the nucleus; the marble model relies on contact.",
+        "explanation": "A useful model illustrates some features while leaving out others. Naming the missing mechanism makes the limitation precise.",
+        "hint": "Compare the forces in the model and the atom.",
+        "steps": [
+          "Read the physical situation.",
+          "Rule out alternatives using the stated physics.",
+          "Choose the statement that fits all the evidence."
+        ],
+        "misconception": "A model is not wrong merely because it is simplified; explain the relevant missing feature.",
+        "id": "2022-8cii"
+      }
+    },
+    {
+      "id": "2022-9a",
+      "question": "9(a)",
+      "marks": 1,
+      "topic": "electromagnetic",
+      "skill": "photon-energy-frequency",
+      "answer": "Higher electromagnetic frequency corresponds to higher photon energy and generally greater potential for ionisation.",
+      "learning": "Relate increasing frequency to energy per photon while recognising exposure also matters.",
+      "questionPage": 28,
+      "markSchemePage": 29,
+      "card": {
+        "title": "Frequency and photon energy",
+        "kind": "choice",
+        "prompt": "Which change increases the energy carried by each electromagnetic photon?",
+        "options": [
+          "Increase its frequency",
+          "Decrease its frequency",
+          "Reduce the number of photons only",
+          "Change the vacuum speed of light"
+        ],
+        "correctIndex": 0,
+        "marks": 1,
+        "modelAnswer": "Photon energy increases with frequency.",
+        "explanation": "At the high-frequency end, individual photons can carry enough energy to ionise atoms. Actual risk also depends on dose and exposure.",
+        "hint": "Think energy per photon, not total beam brightness.",
+        "steps": [
+          "Read the physical situation.",
+          "Rule out alternatives using the stated physics.",
+          "Choose the statement that fits all the evidence."
+        ],
+        "misconception": "All electromagnetic waves have the same speed in vacuum despite different frequencies.",
+        "id": "2022-9a"
+      }
+    },
+    {
+      "id": "2022-9bi",
+      "question": "9(b)(i)",
+      "marks": 3,
+      "topic": "electromagnetic",
+      "skill": "em-wave-equation",
+      "answer": "λ = c/f = (3.00 × 10⁸)/(2.45 × 10⁹) ≈ 0.12 m.",
+      "learning": "Convert GHz to Hz and use the electromagnetic wave equation.",
+      "questionPage": 28,
+      "markSchemePage": 29,
+      "card": {
+        "title": "Microwave wavelength",
+        "kind": "number",
+        "prompt": "A radar emits microwaves at 5.0 GHz. With c = 3.0 × 10⁸ m/s, calculate their wavelength.",
+        "answer": 0.06,
+        "unit": "m",
+        "tolerance": 0.0003,
+        "marks": 3,
+        "modelAnswer": "f = 5.0 × 10⁹ Hz. λ = c/f = (3.0 × 10⁸)/(5.0 × 10⁹) = 0.060 m.",
+        "explanation": "Giga means a billion. At a fixed wave speed, higher frequency gives shorter wavelength.",
+        "hint": "Convert GHz before dividing c by f.",
+        "steps": [
+          "Write the relevant equation.",
+          "Substitute the values using consistent units.",
+          "Calculate, round sensibly and give the unit."
+        ],
+        "misconception": "5 GHz is not 5 × 10⁶ Hz.",
+        "id": "2022-9bi"
+      }
+    },
+    {
+      "id": "2022-9bii",
+      "question": "9(b)(ii)",
+      "marks": 3,
+      "topic": "energy",
+      "skill": "efficiency-input-energy",
+      "answer": "Input energy = 42,000/0.55 ≈ 76,000 J.",
+      "learning": "Rearrange efficiency to obtain the required total input energy.",
+      "questionPage": 29,
+      "markSchemePage": 30,
+      "card": {
+        "title": "How much input is needed?",
+        "kind": "number",
+        "prompt": "A heater transfers 36,000 J usefully and is 60% efficient. Calculate the input energy.",
+        "answer": 60000,
+        "unit": "J",
+        "tolerance": 300.0,
+        "marks": 3,
+        "modelAnswer": "Efficiency = useful/input, so input = 36,000/0.60 = 60,000 J.",
+        "explanation": "Input must be larger than useful output for a device below 100% efficiency.",
+        "hint": "Write 60% as 0.60.",
+        "steps": [
+          "Write the relevant equation.",
+          "Substitute the values using consistent units.",
+          "Calculate, round sensibly and give the unit."
+        ],
+        "misconception": "Multiplying useful output by efficiency would make the input too small.",
+        "id": "2022-9bii",
+        "variants": [
+          {
+            "prompt": "A machine is 40% efficient and supplies 24,000 J usefully. Calculate its input energy.",
+            "answer": 60000,
+            "modelAnswer": "Input = useful/efficiency = 24,000/0.40 = 60,000 J."
+          },
+          {
+            "prompt": "An appliance supplies 18,000 J usefully and has efficiency 75%. Calculate the total energy supplied.",
+            "answer": 24000,
+            "modelAnswer": "Input = 18,000/0.75 = 24,000 J."
+          }
+        ]
+      }
+    },
+    {
+      "id": "2022-9c",
+      "question": "9(c)",
+      "marks": 6,
+      "topic": "electromagnetic",
+      "skill": "xray-radio-production",
+      "answer": "X-rays are high-frequency radiation used for imaging and can be emitted when energetic atomic electrons drop to lower levels. Radio waves are used in communication and are produced by oscillating charges in circuits or aerials.",
+      "learning": "Compare applications and production mechanisms, linking electron behaviour to emitted waves.",
+      "questionPage": 30,
+      "markSchemePage": 31,
+      "card": {
+        "title": "From electrons to signals",
+        "kind": "text",
+        "prompt": "Compare the uses and production of X-rays and radio waves. Include what electrons do in each process.",
+        "marks": 6,
+        "rubric": [
+          {
+            "point": "X-ray use in imaging or security",
+            "patterns": [
+              "x.?ray.*(imag|bone|medical|security|cancer)"
+            ]
+          },
+          {
+            "point": "Radio use in communication",
+            "patterns": [
+              "radio.*(communicat|broadcast|transmi)"
+            ]
+          },
+          {
+            "point": "Electrons fall to lower atomic energy levels for X-rays",
+            "patterns": [
+              "electron.*(lower.*energy|drop.*level|fall.*level)"
+            ]
+          },
+          {
+            "point": "Energy difference emitted as X-ray photon",
+            "patterns": [
+              "(energy|difference).*(emit|photon|x.?ray)",
+              "x.?ray.*(photon|energy.*release)"
+            ]
+          },
+          {
+            "point": "Radio from oscillating electrons / alternating current",
+            "patterns": [
+              "(oscillat.*electron|electron.*oscillat|alternating current|current.*alternat)"
+            ]
+          },
+          {
+            "point": "Aerial generates electromagnetic radio wave",
+            "patterns": [
+              "(aerial|antenna).*(radio|wave|radiat)",
+              "radio.*(aerial|antenna)"
+            ]
+          }
+        ],
+        "modelAnswer": "X-rays can image bones or inspect luggage. In one production process, an electron falls to a lower atomic energy level and the energy difference is emitted as an X-ray photon. Radio waves carry communications: alternating currents make electrons oscillate in a transmitting aerial, generating electromagnetic waves at the oscillation frequency.",
+        "explanation": "Both are electromagnetic radiation, but their typical frequencies, uses and source mechanisms differ. A complete comparison explains the electron motion rather than merely naming electrons.",
+        "hint": "For X-rays think energy levels; for radio think oscillation in an aerial.",
+        "steps": [
+          "Identify the physical idea.",
+          "Link each statement to a reason or observation.",
+          "Check that every part of the question is answered."
+        ],
+        "misconception": "Electrons do not travel from the transmitter to the radio receiver as the radio wave.",
+        "id": "2022-9c"
+      }
+    },
+    {
+      "id": "2022-10ai",
+      "question": "10(a)(i)",
+      "marks": 1,
+      "topic": "waves",
+      "skill": "human-hearing-range",
+      "answer": "The approximate human hearing range is 20 Hz to 20 kHz.",
+      "learning": "Recall hearing boundaries and interpret kilo correctly.",
+      "questionPage": 31,
+      "markSchemePage": 34,
+      "card": {
+        "title": "Human hearing",
+        "kind": "choice",
+        "prompt": "Which interval is the usual approximate range of human hearing?",
+        "options": [
+          "20 Hz to 20,000 Hz",
+          "20,000 Hz to 200,000 Hz",
+          "0.2 Hz to 20 Hz",
+          "2 Hz to 200 Hz"
+        ],
+        "correctIndex": 0,
+        "marks": 1,
+        "modelAnswer": "About 20 Hz to 20,000 Hz (20 kHz).",
+        "explanation": "Real hearing varies with age and individual, but GCSE questions use these approximate limits.",
+        "hint": "One boundary is 20 Hz; the other is a thousand times larger.",
+        "steps": [
+          "Read the physical situation.",
+          "Rule out alternatives using the stated physics.",
+          "Choose the statement that fits all the evidence."
+        ],
+        "misconception": "Do not write 20 kHz as 20 Hz.",
+        "id": "2022-10ai"
+      }
+    },
+    {
+      "id": "2022-10aii",
+      "question": "10(a)(ii)",
+      "marks": 2,
+      "topic": "waves",
+      "skill": "ear-frequency-response",
+      "answer": "Ear structures have sizes, stiffnesses and response ranges that limit the frequencies they can vibrate to and detect.",
+      "learning": "Explain biological detection as the frequency response of a physical system.",
+      "questionPage": 31,
+      "markSchemePage": 34,
+      "card": {
+        "title": "Why ears have limits",
+        "kind": "text",
+        "prompt": "Suggest why the human ear cannot detect every possible sound frequency.",
+        "marks": 2,
+        "rubric": [
+          {
+            "point": "Ear structures have physical response limits",
+            "patterns": [
+              "(ear|cochlea|eardrum|membrane).*(size|stiff|thick|length)",
+              "(size|stiff|thick).*ear"
+            ]
+          },
+          {
+            "point": "Only certain frequencies produce detectable response",
+            "patterns": [
+              "(limited|certain|range).*frequenc.*(vibrat|detect|respond)",
+              "(vibrat|respond|detect).*(limited|certain|range).*frequenc"
+            ]
+          }
+        ],
+        "modelAnswer": "The size and stiffness of the eardrum and inner-ear structures limit their response. Only a particular range of vibration frequencies produces a response that can be detected and interpreted.",
+        "explanation": "A detector has a frequency response just like other physical systems; incoming energy alone does not guarantee detection.",
+        "hint": "Think about how a vibrating membrane responds to different frequencies.",
+        "steps": [
+          "Identify the physical idea.",
+          "Link each statement to a reason or observation.",
+          "Check that every part of the question is answered."
+        ],
+        "misconception": "Sound outside human hearing can still exist and travel through air.",
+        "id": "2022-10aii"
+      }
+    },
+    {
+      "id": "2022-10bi",
+      "question": "10(b)(i)",
+      "marks": 2,
+      "topic": "waves",
+      "skill": "ultrasound-crack-detection",
+      "answer": "An extra earlier echo comes from the crack, which is closer than the back face and therefore has a shorter round-trip time.",
+      "learning": "Interpret echo timing as a measure of reflector depth.",
+      "questionPage": 32,
+      "markSchemePage": 35,
+      "card": {
+        "title": "Spot a hidden crack",
+        "kind": "text",
+        "prompt": "An ultrasound trace gains a new echo before the usual far-surface echo. Explain what this suggests.",
+        "marks": 2,
+        "rubric": [
+          {
+            "point": "Crack reflects ultrasound",
+            "patterns": [
+              "(crack|flaw|defect).*reflect",
+              "reflect.*(crack|flaw|defect)"
+            ]
+          },
+          {
+            "point": "Shorter travel path gives earlier echo",
+            "patterns": [
+              "(shorter|less).*distance",
+              "(closer|nearer).*surface",
+              "(earlier|shorter).*time",
+              "boundary.*nearer",
+              "round trip.*shorter"
+            ]
+          }
+        ],
+        "modelAnswer": "A crack can reflect part of the pulse back before it reaches the far surface. Because that reflecting boundary is nearer, the round trip is shorter and its echo arrives earlier.",
+        "explanation": "The echo trace maps return time to depth, provided the wave speed is known.",
+        "hint": "Compare the two round-trip path lengths.",
+        "steps": [
+          "Identify the physical idea.",
+          "Link each statement to a reason or observation.",
+          "Check that every part of the question is answered."
+        ],
+        "misconception": "An earlier echo does not mean the ultrasound sped up.",
+        "id": "2022-10bi"
+      }
+    },
+    {
+      "id": "2022-10bii",
+      "question": "10(b)(ii)",
+      "marks": 1,
+      "topic": "waves",
+      "skill": "ultrasound-echo-amplitude",
+      "answer": "The crack reflects or absorbs some pulse energy, leaving less energy to reach and return from the back surface.",
+      "learning": "Connect amplitude changes to energy lost from a transmitted pulse.",
+      "questionPage": 32,
+      "markSchemePage": 35,
+      "card": {
+        "title": "A smaller far echo",
+        "kind": "choice",
+        "prompt": "Why can a metal’s far-surface echo become smaller when an internal crack is present?",
+        "options": [
+          "The crack reflects some energy before it reaches the far surface",
+          "The wave frequency becomes zero",
+          "The metal becomes a vacuum",
+          "The crack makes the source emit no waves"
+        ],
+        "correctIndex": 0,
+        "marks": 1,
+        "modelAnswer": "The crack redirects or absorbs some of the ultrasound, so less energy reaches the far surface and returns.",
+        "explanation": "Echo amplitude depends on how much wave energy survives each part of the journey.",
+        "hint": "Account for the energy in the extra crack echo.",
+        "steps": [
+          "Read the physical situation.",
+          "Rule out alternatives using the stated physics.",
+          "Choose the statement that fits all the evidence."
+        ],
+        "misconception": "Less received amplitude does not necessarily mean a lower wave speed.",
+        "id": "2022-10bii"
+      }
+    },
+    {
+      "id": "2022-10c",
+      "question": "10(c)",
+      "marks": 6,
+      "topic": "waves",
+      "skill": "seismic-earth-structure",
+      "answer": "P and S waves through the mantle indicate solid material; S-wave absence through the core indicates a liquid outer core; P-wave refraction and different arrivals imply changing density and a solid inner core.",
+      "learning": "Use multiple observations and wave properties to infer inaccessible internal structure.",
+      "questionPage": 33,
+      "markSchemePage": 36,
+      "card": {
+        "title": "What seismic waves reveal",
+        "kind": "text",
+        "prompt": "At one station both P and S waves arrive; beyond a shadow zone only P waves arrive. Explain how seismic waves provide evidence for a solid mantle and a liquid outer core.",
+        "marks": 6,
+        "rubric": [
+          {
+            "point": "P waves longitudinal and travel through solids/liquids",
+            "patterns": [
+              "p.*wave.*(longitudinal|solid.*liquid|liquid.*solid)"
+            ]
+          },
+          {
+            "point": "S waves transverse and cannot cross liquid",
+            "patterns": [
+              "s.*wave.*transverse",
+              "s.*wave.*cannot (travel|pass|propagate).*liquid",
+              "s.*wave.*(do|does) not (travel|pass|propagate).*liquid",
+              "s.*wave.*only.*solid"
+            ]
+          },
+          {
+            "point": "Both waves through mantle show solid mantle",
+            "patterns": [
+              "(both|p and s|p.*s).*mantle.*solid",
+              "mantle.*solid"
+            ]
+          },
+          {
+            "point": "No S waves through core implies liquid outer core",
+            "patterns": [
+              "(no|absen|cannot).*s.*wave.*(liquid|core)",
+              "outer core.*liquid"
+            ]
+          },
+          {
+            "point": "P refraction changes direction and makes shadow zone",
+            "patterns": [
+              "p.*wave.*refract",
+              "(refract|bend|chang.*direction).*shadow"
+            ]
+          },
+          {
+            "point": "Changing speed/density bends paths / layers",
+            "patterns": [
+              "(density|speed).*(chang|different|vary)",
+              "(chang|different|vary).*(density|speed)"
+            ]
+          }
+        ],
+        "modelAnswer": "P waves are longitudinal and can travel through solids and liquids; S waves are transverse and cannot travel through liquids. Detection of both after passage through the mantle supports a solid mantle. The absence of S waves along core-crossing paths supports a liquid outer core. P waves enter the core but refract as their speed changes at boundaries, producing shadow zones. Curved paths and different arrivals show that material properties vary with depth.",
+        "explanation": "Geophysicists infer structure by matching travel paths, arrival times and missing waves to known wave behaviour. One missing wave alone is weaker evidence than the combined pattern.",
+        "hint": "Use each observation to support a specific inference.",
+        "steps": [
+          "Identify the physical idea.",
+          "Link each statement to a reason or observation.",
+          "Check that every part of the question is answered."
+        ],
+        "misconception": "Do not conclude the entire core is liquid: other P-wave evidence supports a solid inner core.",
+        "id": "2022-10c"
+      }
+    }
+  ]
+}

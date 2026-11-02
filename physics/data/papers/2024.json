@@ -1,0 +1,1922 @@
+{
+  "paper": "2024",
+  "totalMarks": 100,
+  "reviewStatus": "question-and-mark-scheme-reviewed",
+  "rows": [
+    {
+      "id": "2024-1a",
+      "question": "1(a)",
+      "marks": 1,
+      "topic": "radioactivity",
+      "skill": "fusion-conditions",
+      "answer": "D: fusion needs very high temperature and pressure.",
+      "learning": "Positive nuclei repel. Very high temperatures supply enough kinetic energy for close approaches; high density increases collision opportunities.",
+      "questionPage": 2,
+      "markSchemePage": 4,
+      "card": {
+        "kind": "choice",
+        "prompt": "Inside a star, what combination makes fusion of hydrogen nuclei more likely?",
+        "marks": 1,
+        "options": [
+          "Low temperature and low pressure",
+          "High temperature and high pressure",
+          "Low temperature and no gravity",
+          "A supply of oxygen"
+        ],
+        "correctIndex": 1,
+        "modelAnswer": "High temperature and high pressure allow nuclei to approach closely and collide often.",
+        "hint": "Think about the repulsion between positively charged nuclei.",
+        "misconception": "Fusion is a nuclear process, not chemical burning.",
+        "steps": [
+          "Identify the physical principle in the question.",
+          "High temperature and high pressure allow nuclei to approach closely and collide often."
+        ],
+        "id": "2024-1a",
+        "title": "Fusion conditions",
+        "explanation": "Positive nuclei repel. Very high temperatures supply enough kinetic energy for close approaches; high density increases collision opportunities."
+      }
+    },
+    {
+      "id": "2024-1b",
+      "question": "1(b)",
+      "marks": 3,
+      "topic": "radioactivity",
+      "skill": "fusion-mass-defect",
+      "answer": "Mass difference = 5.0 × 10⁻²⁹ kg; percentage = 100 × 0.05/6.69 ≈ 0.75%.",
+      "learning": "Find the small loss of mass first, then divide by the original mass. Nuclear energy release corresponds to a decrease in the total rest mass of the products.",
+      "questionPage": 2,
+      "markSchemePage": 4,
+      "card": {
+        "kind": "number",
+        "prompt": "A fusion process starts with nuclei of total mass 8.00 × 10⁻²⁷ kg and forms products of total mass 7.96 × 10⁻²⁷ kg. What percentage of the original mass becomes energy?",
+        "marks": 2,
+        "answer": 0.5,
+        "unit": "%",
+        "tolerance": 0.006,
+        "modelAnswer": "Mass lost = (8.00 − 7.96) × 10⁻²⁷ kg; percentage = 0.04/8.00 × 100 = 0.50%.",
+        "hint": "Subtract the final mass from the initial mass before calculating a percentage.",
+        "misconception": "Use the original mass as the denominator, not the mass lost.",
+        "steps": [
+          "Mass lost = (8.00 − 7.96) × 10⁻²⁷ kg",
+          "percentage = 0.04/8.00 × 100 = 0.50%."
+        ],
+        "id": "2024-1b",
+        "title": "Fusion mass defect",
+        "explanation": "Find the small loss of mass first, then divide by the original mass. Nuclear energy release corresponds to a decrease in the total rest mass of the products."
+      }
+    },
+    {
+      "id": "2024-1ci",
+      "question": "1(c)(i)",
+      "marks": 1,
+      "topic": "astronomy",
+      "skill": "spectral-line-shift",
+      "answer": "Approximately 60 nm, with 50–70 nm accepted from the graph.",
+      "learning": "Match the same spectral line in both spectra. A redshift is a change in wavelength, not the absolute wavelength of the line.",
+      "questionPage": 3,
+      "markSchemePage": 5,
+      "card": {
+        "kind": "number",
+        "prompt": "A hydrogen line is measured at 490 nm in a laboratory and 535 nm in a distant galaxy. Calculate its wavelength shift.",
+        "marks": 2,
+        "answer": 45,
+        "unit": "nm",
+        "tolerance": 0.54,
+        "modelAnswer": "Shift = observed wavelength − laboratory wavelength; 535 − 490 = 45 nm.",
+        "hint": "Subtract the reference wavelength from the observed wavelength.",
+        "misconception": "Do not give the observed wavelength itself.",
+        "steps": [
+          "Shift = observed wavelength − laboratory wavelength",
+          "535 − 490 = 45 nm."
+        ],
+        "id": "2024-1ci",
+        "title": "Spectral line shift",
+        "explanation": "Match the same spectral line in both spectra. A redshift is a change in wavelength, not the absolute wavelength of the line."
+      }
+    },
+    {
+      "id": "2024-1cii",
+      "question": "1(c)(ii)",
+      "marks": 3,
+      "topic": "astronomy",
+      "skill": "redshift-expansion",
+      "answer": "Galaxies are receding; farther galaxies generally show larger redshifts and recede faster, consistent with expansion.",
+      "learning": "Use a chain of reasoning: longer observed wavelengths imply recession, and the distance–recession trend supports an expanding Universe.",
+      "questionPage": 3,
+      "markSchemePage": 5,
+      "card": {
+        "kind": "text",
+        "prompt": "Observations show that a galaxy twice as far away usually has a larger redshift. Explain how this supports an expanding Universe.",
+        "marks": 3,
+        "rubric": [
+          {
+            "point": "Redshift indicates galaxies moving away",
+            "patterns": [
+              "moving away",
+              "reced"
+            ]
+          },
+          {
+            "point": "More distant galaxies show larger redshifts",
+            "patterns": [
+              "(further|farther|more distant).*(larger|greater|bigger).*red",
+              "red.*(increases|greater).*distance"
+            ]
+          },
+          {
+            "point": "Greater redshift corresponds to faster recession",
+            "patterns": [
+              "(faster|greater speed).*(away|reced)",
+              "red.*(faster|greater speed)"
+            ]
+          }
+        ],
+        "modelAnswer": "Redshift indicates that galaxies are moving away. More distant galaxies generally have greater redshifts, so they are receding faster. This systematic pattern supports expansion.",
+        "hint": "Connect wavelength, motion and distance in that order.",
+        "misconception": "Redshift does not mean that a galaxy has become a red star.",
+        "steps": [
+          "Redshift indicates galaxies moving away",
+          "More distant galaxies show larger redshifts",
+          "Greater redshift corresponds to faster recession"
+        ],
+        "id": "2024-1cii",
+        "title": "Redshift expansion",
+        "explanation": "Use a chain of reasoning: longer observed wavelengths imply recession, and the distance–recession trend supports an expanding Universe."
+      }
+    },
+    {
+      "id": "2024-2a",
+      "question": "2(a)",
+      "marks": 2,
+      "topic": "energy",
+      "skill": "gpe-height",
+      "answer": "h = 980/(35 × 10) = 2.8 m.",
+      "learning": "Gravitational potential energy depends on vertical height, mass and gravitational field strength. Rearrange ΔE = mgΔh before substituting.",
+      "questionPage": 4,
+      "markSchemePage": 6,
+      "card": {
+        "kind": "number",
+        "prompt": "A 48 kg climber gains 1440 J of gravitational potential energy. Take g = 10 N/kg. Calculate the vertical height gained.",
+        "marks": 2,
+        "answer": 3,
+        "unit": "m",
+        "tolerance": 0.036000000000000004,
+        "modelAnswer": "ΔE = mgh; h = 1440/(48 × 10) = 3.0 m.",
+        "hint": "Divide the energy gain by the weight.",
+        "misconception": "Use vertical height, not the length of the climbing route.",
+        "steps": [
+          "ΔE = mgh",
+          "h = 1440/(48 × 10) = 3.0 m."
+        ],
+        "id": "2024-2a",
+        "title": "Gpe height",
+        "explanation": "Gravitational potential energy depends on vertical height, mass and gravitational field strength. Rearrange ΔE = mgΔh before substituting.",
+        "variants": [
+          {
+            "prompt": "A 72 kg hiker gains 2160 J of gravitational potential energy. Take g = 10 N/kg. Calculate the vertical height gained.",
+            "answer": 3,
+            "modelAnswer": "ΔGPE = mgh. Height = 2160/(72 × 10) = 3.0 m."
+          },
+          {
+            "prompt": "A 40 kg child gains 2000 J of gravitational potential energy. Take g = 10 N/kg. Calculate the vertical height gained.",
+            "answer": 5,
+            "modelAnswer": "Height = ΔGPE/(mg) = 2000/(40 × 10) = 5.0 m."
+          }
+        ]
+      }
+    },
+    {
+      "id": "2024-2b",
+      "question": "2(b)",
+      "marks": 3,
+      "topic": "energy",
+      "skill": "kinetic-energy-speed",
+      "answer": "v = √(2 × 950/35) ≈ 7.4 m/s.",
+      "learning": "Kinetic energy is proportional to speed squared. After rearranging for v², take the square root to obtain speed.",
+      "questionPage": 5,
+      "markSchemePage": 7,
+      "card": {
+        "kind": "number",
+        "prompt": "A 60 kg rider has 1920 J of kinetic energy. Calculate the rider’s speed.",
+        "marks": 3,
+        "answer": 8,
+        "unit": "m/s",
+        "tolerance": 0.096,
+        "modelAnswer": "KE = ½mv²; v² = 2 × 1920/60 = 64; v = √64 = 8.0 m/s.",
+        "hint": "First calculate v².",
+        "misconception": "The value of v² is not the speed.",
+        "steps": [
+          "KE = ½mv²",
+          "v² = 2 × 1920/60 = 64",
+          "v = √64 = 8.0 m/s."
+        ],
+        "id": "2024-2b",
+        "title": "Kinetic energy speed",
+        "explanation": "Kinetic energy is proportional to speed squared. After rearranging for v², take the square root to obtain speed.",
+        "variants": [
+          {
+            "prompt": "A 50 kg rider has 900 J of kinetic energy. Calculate the rider’s speed.",
+            "answer": 6,
+            "modelAnswer": "v² = 2KE/m = 2 × 900/50 = 36. Taking the square root, v = 6.0 m/s."
+          },
+          {
+            "prompt": "A 64 kg athlete has 3200 J of kinetic energy. Calculate the athlete’s speed.",
+            "answer": 10,
+            "modelAnswer": "v² = 2 × 3200/64 = 100. Taking the square root gives v = 10 m/s."
+          }
+        ]
+      }
+    },
+    {
+      "id": "2024-2ci",
+      "question": "2(c)(i)",
+      "marks": 1,
+      "topic": "energy",
+      "skill": "dissipated-energy-store",
+      "answer": "X is energy transferred to thermal stores by friction and air resistance.",
+      "learning": "Energy is conserved even when useful mechanical energy decreases. Friction transfers energy to thermal stores of the objects and surroundings.",
+      "questionPage": 6,
+      "markSchemePage": 7,
+      "card": {
+        "kind": "choice",
+        "prompt": "A bicycle slows on a rough level track without braking. Where is most of its lost kinetic energy transferred?",
+        "marks": 1,
+        "options": [
+          "To the gravitational store",
+          "To thermal stores of tyres, track and surroundings",
+          "Destroyed by friction",
+          "Into extra mass"
+        ],
+        "correctIndex": 1,
+        "modelAnswer": "Friction transfers energy to thermal stores of the tyres, track and surroundings.",
+        "hint": "Think about the effect of rubbing surfaces.",
+        "misconception": "Energy is transferred, not used up or destroyed.",
+        "steps": [
+          "Identify the physical principle in the question.",
+          "Friction transfers energy to thermal stores of the tyres, track and surroundings."
+        ],
+        "id": "2024-2ci",
+        "title": "Dissipated energy store",
+        "explanation": "Energy is conserved even when useful mechanical energy decreases. Friction transfers energy to thermal stores of the objects and surroundings."
+      }
+    },
+    {
+      "id": "2024-2cii",
+      "question": "2(c)(ii)",
+      "marks": 1,
+      "topic": "energy",
+      "skill": "energy-balance",
+      "answer": "Dissipated energy = 980 − 950 = 30 J.",
+      "learning": "In a closed energy accounting calculation, total input equals useful output plus dissipated energy.",
+      "questionPage": 6,
+      "markSchemePage": 8,
+      "card": {
+        "kind": "number",
+        "prompt": "A moving toy receives 760 J of energy and gains 690 J of kinetic energy. How much energy is dissipated?",
+        "marks": 2,
+        "answer": 70,
+        "unit": "J",
+        "tolerance": 0.84,
+        "modelAnswer": "Dissipated energy = input − useful output; 760 − 690 = 70 J.",
+        "hint": "Use conservation of energy.",
+        "misconception": "Do not add the input and useful output.",
+        "steps": [
+          "Dissipated energy = input − useful output",
+          "760 − 690 = 70 J."
+        ],
+        "id": "2024-2cii",
+        "title": "Energy balance",
+        "explanation": "In a closed energy accounting calculation, total input equals useful output plus dissipated energy."
+      }
+    },
+    {
+      "id": "2024-2ciii",
+      "question": "2(c)(iii)",
+      "marks": 2,
+      "topic": "energy",
+      "skill": "efficiency",
+      "answer": "Efficiency = 950/980 ≈ 0.97 = 97%.",
+      "learning": "Efficiency is the useful fraction of the total energy input. Multiply a decimal efficiency by 100 only when a percentage is requested.",
+      "questionPage": 6,
+      "markSchemePage": 8,
+      "card": {
+        "kind": "number",
+        "prompt": "A motor receives 1500 J and transfers 1140 J usefully. Calculate its efficiency as a percentage.",
+        "marks": 2,
+        "answer": 76,
+        "unit": "%",
+        "tolerance": 0.912,
+        "modelAnswer": "Efficiency = useful energy/input energy; 1140/1500 × 100 = 76%.",
+        "hint": "Put useful output on top of total input.",
+        "misconception": "An efficiency greater than 100% indicates an error.",
+        "steps": [
+          "Efficiency = useful energy/input energy",
+          "1140/1500 × 100 = 76%."
+        ],
+        "id": "2024-2ciii",
+        "title": "Efficiency",
+        "explanation": "Efficiency is the useful fraction of the total energy input. Multiply a decimal efficiency by 100 only when a percentage is requested.",
+        "variants": [
+          {
+            "prompt": "A pump receives 2400 J and transfers 1800 J usefully. Calculate its efficiency as a percentage.",
+            "answer": 75,
+            "modelAnswer": "Efficiency = 1800/2400 × 100 = 75%."
+          },
+          {
+            "prompt": "A crane receives 5000 J and transfers 4200 J usefully. Calculate its efficiency as a percentage.",
+            "answer": 84,
+            "modelAnswer": "Efficiency = 4200/5000 × 100 = 84%."
+          }
+        ]
+      }
+    },
+    {
+      "id": "2024-3ai",
+      "question": "3(a)(i)",
+      "marks": 1,
+      "topic": "motion",
+      "skill": "distance-graph-intersection",
+      "answer": "The crossing is at approximately 66 m; the permitted graph range is 64–68 m.",
+      "learning": "The intersection of two position–time lines means both objects are at the same position at the same time.",
+      "questionPage": 8,
+      "markSchemePage": 9,
+      "card": {
+        "kind": "number",
+        "prompt": "Two cyclists have distance–time lines that intersect at (12 s, 84 m). How far has each travelled at the overtaking point?",
+        "marks": 2,
+        "answer": 84,
+        "unit": "m",
+        "tolerance": 1.008,
+        "modelAnswer": "The y-coordinate of the intersection is the distance; distance = 84 m.",
+        "hint": "Read the distance coordinate, not the time coordinate.",
+        "misconception": "Do not subtract one cyclist’s starting time from the distance.",
+        "steps": [
+          "The y-coordinate of the intersection is the distance",
+          "distance = 84 m."
+        ],
+        "id": "2024-3ai",
+        "title": "Distance graph intersection",
+        "explanation": "The intersection of two position–time lines means both objects are at the same position at the same time."
+      }
+    },
+    {
+      "id": "2024-3aii",
+      "question": "3(a)(ii)",
+      "marks": 2,
+      "topic": "motion",
+      "skill": "distance-time-gradient",
+      "answer": "L travels 100 m in about 15.2 s, giving approximately 6.6 m/s.",
+      "learning": "On a distance–time graph, gradient is speed. Use a large triangle and divide change in distance by change in time.",
+      "questionPage": 8,
+      "markSchemePage": 9,
+      "card": {
+        "kind": "number",
+        "prompt": "A runner’s straight distance–time line goes through (3 s, 18 m) and (11 s, 66 m). Calculate the speed.",
+        "marks": 2,
+        "answer": 6,
+        "unit": "m/s",
+        "tolerance": 0.07200000000000001,
+        "modelAnswer": "Speed = change in distance/change in time; (66 − 18)/(11 − 3) = 48/8 = 6.0 m/s.",
+        "hint": "Use the differences between both coordinates.",
+        "misconception": "Do not divide 66 by 11 when the chosen line does not pass through the origin.",
+        "steps": [
+          "Speed = change in distance/change in time",
+          "(66 − 18)/(11 − 3) = 48/8 = 6.0 m/s."
+        ],
+        "id": "2024-3aii",
+        "title": "Distance time gradient",
+        "explanation": "On a distance–time graph, gradient is speed. Use a large triangle and divide change in distance by change in time."
+      }
+    },
+    {
+      "id": "2024-3bi",
+      "question": "3(b)(i)",
+      "marks": 2,
+      "topic": "motion",
+      "skill": "acceleration-time",
+      "answer": "t = (10 − 6.2)/2.5 = 1.52 s, about 1.5 s.",
+      "learning": "Acceleration is the rate of change of velocity. Use the change, not the final velocity, when calculating the time.",
+      "questionPage": 9,
+      "markSchemePage": 10,
+      "card": {
+        "kind": "number",
+        "prompt": "A scooter accelerates from 4 m/s to 13 m/s at 3 m/s². How long does this take?",
+        "marks": 2,
+        "answer": 3,
+        "unit": "s",
+        "tolerance": 0.036000000000000004,
+        "modelAnswer": "a = (v − u)/t; t = (13 − 4)/3 = 3.0 s.",
+        "hint": "Calculate the change in velocity first.",
+        "misconception": "Final velocity divided by acceleration only works if initial velocity is zero.",
+        "steps": [
+          "a = (v − u)/t",
+          "t = (13 − 4)/3 = 3.0 s."
+        ],
+        "id": "2024-3bi",
+        "title": "Acceleration time",
+        "explanation": "Acceleration is the rate of change of velocity. Use the change, not the final velocity, when calculating the time.",
+        "variants": [
+          {
+            "prompt": "A model car accelerates from 2 m/s to 14 m/s at 4 m/s². Calculate the time.",
+            "answer": 3,
+            "modelAnswer": "t = (v − u)/a = (14 − 2)/4 = 3.0 s."
+          },
+          {
+            "prompt": "A tram accelerates from 5 m/s to 17 m/s at 2 m/s². Calculate the time.",
+            "answer": 6,
+            "modelAnswer": "t = (17 − 5)/2 = 6.0 s."
+          }
+        ]
+      }
+    },
+    {
+      "id": "2024-3bii",
+      "question": "3(b)(ii)",
+      "marks": 2,
+      "topic": "motion",
+      "skill": "suvat-stopping-distance",
+      "answer": "Using a = −4.4 m/s², s = (0² − 10²)/(2 × −4.4) ≈ 11.4 m.",
+      "learning": "When time is absent and acceleration is constant, v² − u² = 2as links speeds and distance. Choose signs consistently.",
+      "questionPage": 9,
+      "markSchemePage": 10,
+      "card": {
+        "kind": "number",
+        "prompt": "A cart moving at 12 m/s slows uniformly at 3 m/s² until it stops. Calculate its braking distance.",
+        "marks": 2,
+        "answer": 24,
+        "unit": "m",
+        "tolerance": 0.28800000000000003,
+        "modelAnswer": "v² − u² = 2as; s = (0² − 12²)/(2 × −3) = 24 m.",
+        "hint": "Take final velocity as zero and acceleration as negative.",
+        "misconception": "A negative acceleration does not imply a negative distance travelled.",
+        "steps": [
+          "v² − u² = 2as",
+          "s = (0² − 12²)/(2 × −3) = 24 m."
+        ],
+        "id": "2024-3bii",
+        "title": "Suvat stopping distance",
+        "explanation": "When time is absent and acceleration is constant, v² − u² = 2as links speeds and distance. Choose signs consistently.",
+        "variants": [
+          {
+            "prompt": "A kart slows uniformly from 18 m/s to rest at 3 m/s². Calculate its stopping distance.",
+            "answer": 54,
+            "modelAnswer": "s = (v² − u²)/(2a) = (0 − 18²)/(2 × −3) = 54 m."
+          },
+          {
+            "prompt": "A cart slows uniformly from 16 m/s to rest at 4 m/s². Calculate its stopping distance.",
+            "answer": 32,
+            "modelAnswer": "s = (0 − 16²)/(2 × −4) = 32 m."
+          }
+        ]
+      }
+    },
+    {
+      "id": "2024-3c",
+      "question": "3(c)",
+      "marks": 2,
+      "topic": "forces",
+      "skill": "collision-force-factors",
+      "answer": "For a fixed stopping time, increasing mass or the velocity change increases force: F = mΔv/Δt.",
+      "learning": "Collision force depends on change in momentum per second. Keep the variables specified as fixed in the question fixed in your explanation.",
+      "questionPage": 10,
+      "markSchemePage": 11,
+      "card": {
+        "kind": "text",
+        "prompt": "Two vans stop in the same collision time and have the same initial velocity. One has twice the mass. Explain which experiences the greater average stopping force.",
+        "marks": 2,
+        "rubric": [
+          {
+            "point": "The heavier van has a larger change in momentum",
+            "patterns": [
+              "(heavier|twice.*mass|larger mass).*(momentum|change)",
+              "momentum.*(twice|double|larger)"
+            ]
+          },
+          {
+            "point": "With equal stopping times this means a greater force",
+            "patterns": [
+              "force.*(twice|double|larger|greater)",
+              "(twice|double|larger|greater).*force"
+            ]
+          }
+        ],
+        "modelAnswer": "The heavier van has twice the initial momentum, so stopping it requires twice the momentum change. With the same stopping time, F = Δp/Δt gives twice the average force.",
+        "hint": "Use F = Δp/Δt and p = mv.",
+        "misconception": "Do not confuse mass in kg with weight in N.",
+        "steps": [
+          "The heavier van has a larger change in momentum",
+          "With equal stopping times this means a greater force"
+        ],
+        "id": "2024-3c",
+        "title": "Collision force factors",
+        "explanation": "Collision force depends on change in momentum per second. Keep the variables specified as fixed in the question fixed in your explanation."
+      }
+    },
+    {
+      "id": "2024-4a",
+      "question": "4(a)",
+      "marks": 1,
+      "topic": "radioactivity",
+      "skill": "internal-radiotherapy",
+      "answer": "Gamma rays can be emitted by a radioactive source placed inside the body.",
+      "learning": "Radioactive gamma sources can be sealed into implants. X-rays from machines and microwave sources are normally applied externally.",
+      "questionPage": 12,
+      "markSchemePage": 12,
+      "card": {
+        "kind": "choice",
+        "prompt": "A tiny sealed radioactive seed is placed beside a tumour. Which radiation could the seed emit for treatment?",
+        "marks": 1,
+        "options": [
+          "Gamma radiation",
+          "Ultrasound",
+          "A radio transmission from an aerial",
+          "Visible light from a lamp"
+        ],
+        "correctIndex": 0,
+        "modelAnswer": "A radioactive implant can emit gamma radiation to irradiate nearby tissue.",
+        "hint": "Choose radiation emitted by radioactive decay.",
+        "misconception": "Medical ultrasound is not ionising radiation.",
+        "steps": [
+          "Identify the physical principle in the question.",
+          "A radioactive implant can emit gamma radiation to irradiate nearby tissue."
+        ],
+        "id": "2024-4a",
+        "title": "Internal radiotherapy",
+        "explanation": "Radioactive gamma sources can be sealed into implants. X-rays from machines and microwave sources are normally applied externally."
+      }
+    },
+    {
+      "id": "2024-4bi",
+      "question": "4(b)(i)",
+      "marks": 3,
+      "topic": "radioactivity",
+      "skill": "pet-localisation",
+      "answer": "An emitted positron annihilates with an electron, producing two gamma photons moving in opposite directions; paired detections locate the event.",
+      "learning": "PET reconstructs the position of a tracer from pairs of gamma detections. The detectors see gamma radiation, not the positrons directly.",
+      "questionPage": 13,
+      "markSchemePage": 12,
+      "card": {
+        "kind": "text",
+        "prompt": "A PET tracer emits a positron inside a patient. Explain how a ring of detectors helps identify the tracer’s position.",
+        "marks": 3,
+        "rubric": [
+          {
+            "point": "Positron and electron annihilate",
+            "patterns": [
+              "positron.*electron.*annihilat",
+              "electron.*positron.*annihilat"
+            ]
+          },
+          {
+            "point": "Two gamma photons travel in opposite directions",
+            "patterns": [
+              "(two|2|pair).*gamma",
+              "gamma.*opposite"
+            ]
+          },
+          {
+            "point": "Paired gamma detections locate the event",
+            "patterns": [
+              "detect.*(pair|same time|coinciden|position|locat)",
+              "(pair|coinciden).*detect"
+            ]
+          }
+        ],
+        "modelAnswer": "A positron meets an electron and they annihilate. Two gamma photons travel in opposite directions. Paired gamma detections around the ring identify a line through the annihilation event. Many such pairs build an image.",
+        "hint": "Follow the energy from emitted positron to what the detectors detect.",
+        "misconception": "The tracer does not emit X-rays that are photographed directly.",
+        "steps": [
+          "Positron and electron annihilate",
+          "Two gamma photons travel in opposite directions",
+          "Paired gamma detections locate the event"
+        ],
+        "id": "2024-4bi",
+        "title": "Pet localisation",
+        "explanation": "PET reconstructs the position of a tracer from pairs of gamma detections. The detectors see gamma radiation, not the positrons directly."
+      }
+    },
+    {
+      "id": "2024-4bii",
+      "question": "4(b)(ii)",
+      "marks": 2,
+      "topic": "radioactivity",
+      "skill": "short-lived-tracer-production",
+      "answer": "The isotope has a short half-life, so its activity falls rapidly; it must reach the scanner soon after production.",
+      "learning": "A short half-life reduces how long a patient remains radioactive, but also means the tracer cannot be stored or transported for long.",
+      "questionPage": 13,
+      "markSchemePage": 12,
+      "card": {
+        "kind": "text",
+        "prompt": "A hospital’s imaging tracer has a half-life of 14 minutes. Explain why its production facility should be nearby.",
+        "marks": 2,
+        "rubric": [
+          {
+            "point": "The isotope has a short half-life",
+            "patterns": [
+              "short half.life",
+              "half.life.*14"
+            ]
+          },
+          {
+            "point": "Activity falls rapidly during transport",
+            "patterns": [
+              "activ.*(fall|decreas|drop|reduc)",
+              "decay.*(rapid|quick|transport)"
+            ]
+          }
+        ],
+        "modelAnswer": "Its short half-life means the activity falls rapidly. Long transport would leave too little activity for a useful scan.",
+        "hint": "Think about what happens to activity while the tracer is travelling.",
+        "misconception": "Short half-life does not mean the radiation travels slowly.",
+        "steps": [
+          "The isotope has a short half-life",
+          "Activity falls rapidly during transport"
+        ],
+        "id": "2024-4bii",
+        "title": "Short lived tracer production",
+        "explanation": "A short half-life reduces how long a patient remains radioactive, but also means the tracer cannot be stored or transported for long."
+      }
+    },
+    {
+      "id": "2024-4c",
+      "question": "4(c)",
+      "marks": 2,
+      "topic": "radioactivity",
+      "skill": "irradiation-contamination",
+      "answer": "Irradiation exposes an object to an external source; contamination places radioactive material on or inside it and can continue after external sources are removed.",
+      "learning": "The key distinction is whether radioactive material is present on or in the object. Exposure alone does not normally make the object radioactive.",
+      "questionPage": 13,
+      "markSchemePage": 13,
+      "card": {
+        "kind": "text",
+        "prompt": "A worker is exposed to gamma rays in one incident and gets radioactive dust on clothing in another. Explain the distinction.",
+        "marks": 2,
+        "rubric": [
+          {
+            "point": "Irradiation is exposure from an external source",
+            "patterns": [
+              "irradiat.*(external|outside|expos)",
+              "external.*source"
+            ]
+          },
+          {
+            "point": "Contamination leaves radioactive material on or inside the object",
+            "patterns": [
+              "contaminat.*(material|dust|substance).*(on|in)",
+              "radioactive (dust|material).*on"
+            ]
+          }
+        ],
+        "modelAnswer": "Gamma exposure from an external source is irradiation. Radioactive dust on clothing is contamination, so radiation continues until the dust is removed or decays.",
+        "hint": "Ask whether radioactive material has been transferred.",
+        "misconception": "Irradiation does not mean radioactive particles have necessarily been deposited.",
+        "steps": [
+          "Irradiation is exposure from an external source",
+          "Contamination leaves radioactive material on or inside the object"
+        ],
+        "id": "2024-4c",
+        "title": "Irradiation contamination",
+        "explanation": "The key distinction is whether radioactive material is present on or in the object. Exposure alone does not normally make the object radioactive."
+      }
+    },
+    {
+      "id": "2024-4di",
+      "question": "4(d)(i)",
+      "marks": 2,
+      "topic": "radioactivity",
+      "skill": "half-life-graph",
+      "answer": "P falls from 100 Bq to 50 Bq in about 120 hours; 110–130 hours is accepted.",
+      "learning": "Half-life is a halving interval, not the time for activity to reach zero. Choose two activities differing by a factor of two and subtract their times.",
+      "questionPage": 14,
+      "markSchemePage": 13,
+      "card": {
+        "kind": "number",
+        "prompt": "A decay graph shows an activity of 640 Bq at 10 hours and 320 Bq at 46 hours. Determine the half-life.",
+        "marks": 2,
+        "answer": 36,
+        "unit": "hours",
+        "tolerance": 0.432,
+        "modelAnswer": "320 Bq is half of 640 Bq; half-life = 46 − 10 = 36 hours.",
+        "hint": "Compare the times at a value and half that value.",
+        "misconception": "Do not use 46 hours without subtracting the starting time.",
+        "steps": [
+          "320 Bq is half of 640 Bq",
+          "half-life = 46 − 10 = 36 hours."
+        ],
+        "id": "2024-4di",
+        "title": "Half life graph",
+        "explanation": "Half-life is a halving interval, not the time for activity to reach zero. Choose two activities differing by a factor of two and subtract their times."
+      }
+    },
+    {
+      "id": "2024-4dii",
+      "question": "4(d)(ii)",
+      "marks": 1,
+      "topic": "radioactivity",
+      "skill": "half-life-hazard",
+      "answer": "Q maintains a higher activity for longer because it has a longer half-life, so it may give a greater total exposure.",
+      "learning": "Danger depends on the exposure situation, radiation type and activity. A longer-lived sample can remain a hazard for longer; half-life alone does not determine every risk.",
+      "questionPage": 14,
+      "markSchemePage": 14,
+      "card": {
+        "kind": "choice",
+        "prompt": "Two sealed samples initially have the same activity and emit the same radiation. Sample A has a much longer half-life. Which statement follows?",
+        "marks": 1,
+        "options": [
+          "A stops emitting sooner",
+          "A stays active for longer",
+          "A must initially emit faster",
+          "A is harmless because it decays slowly"
+        ],
+        "correctIndex": 1,
+        "modelAnswer": "A retains its activity for longer and can remain an exposure hazard for longer.",
+        "hint": "The initial activities are stated to be equal.",
+        "misconception": "Do not claim longer half-life always means greater initial activity.",
+        "steps": [
+          "Identify the physical principle in the question.",
+          "A retains its activity for longer and can remain an exposure hazard for longer."
+        ],
+        "id": "2024-4dii",
+        "title": "Half life hazard",
+        "explanation": "Danger depends on the exposure situation, radiation type and activity. A longer-lived sample can remain a hazard for longer; half-life alone does not determine every risk."
+      }
+    },
+    {
+      "id": "2024-5ai",
+      "question": "5(a)(i)",
+      "marks": 2,
+      "topic": "electromagnetic",
+      "skill": "uv-hazard-atmosphere",
+      "answer": "UVC has the shortest wavelengths and highest photon energies of the three UV bands, but the atmosphere absorbs it before it reaches the surface.",
+      "learning": "Shorter-wavelength UV photons are more energetic. The radiation arriving at the ground depends on atmospheric absorption as well as the Sun’s emission.",
+      "questionPage": 15,
+      "markSchemePage": 15,
+      "card": {
+        "kind": "text",
+        "prompt": "A UV band has shorter wavelengths than UVA but is fully absorbed high in the atmosphere. Explain why it could damage cells yet not directly reach people at ground level.",
+        "marks": 2,
+        "rubric": [
+          {
+            "point": "Shorter wavelengths correspond to higher photon energy",
+            "patterns": [
+              "shorter.*(higher|more).*energy",
+              "(high|greater).*photon.*energy"
+            ]
+          },
+          {
+            "point": "The atmosphere absorbs the radiation",
+            "patterns": [
+              "atmosphere.*absor",
+              "absor.*atmosphere"
+            ]
+          }
+        ],
+        "modelAnswer": "Its shorter wavelengths mean higher-energy photons that can damage cells. However, the atmosphere absorbs this band before it reaches the ground.",
+        "hint": "Separate the radiation’s potential hazard from whether it reaches us.",
+        "misconception": "A potentially dangerous band need not be the largest ground-level exposure.",
+        "steps": [
+          "Shorter wavelengths correspond to higher photon energy",
+          "The atmosphere absorbs the radiation"
+        ],
+        "id": "2024-5ai",
+        "title": "Uv hazard atmosphere",
+        "explanation": "Shorter-wavelength UV photons are more energetic. The radiation arriving at the ground depends on atmospheric absorption as well as the Sun’s emission."
+      }
+    },
+    {
+      "id": "2024-5aii",
+      "question": "5(a)(ii)",
+      "marks": 3,
+      "topic": "electromagnetic",
+      "skill": "frequency-from-nanometres",
+      "answer": "f = 3.00 × 10⁸/(280 × 10⁻⁹) ≈ 1.07 × 10¹⁵ Hz.",
+      "learning": "Convert nanometres to metres before using f = v/λ. A very short wavelength gives a very high frequency.",
+      "questionPage": 15,
+      "markSchemePage": 15,
+      "card": {
+        "kind": "number",
+        "prompt": "An ultraviolet wave has wavelength 250 nm and travels at 3.0 × 10⁸ m/s. Calculate its frequency.",
+        "marks": 3,
+        "answer": 1200000000000000.0,
+        "unit": "Hz",
+        "tolerance": 14400000000000.0,
+        "modelAnswer": "250 nm = 2.50 × 10⁻⁷ m; f = v/λ = 3.0 × 10⁸/(2.50 × 10⁻⁷) = 1.2 × 10¹⁵ Hz.",
+        "hint": "One nanometre is 10⁻⁹ m.",
+        "misconception": "Leaving the wavelength in nm gives a power-of-ten error.",
+        "steps": [
+          "250 nm = 2.50 × 10⁻⁷ m",
+          "f = v/λ = 3.0 × 10⁸/(2.50 × 10⁻⁷) = 1.2 × 10¹⁵ Hz."
+        ],
+        "id": "2024-5aii",
+        "title": "Frequency from nanometres",
+        "explanation": "Convert nanometres to metres before using f = v/λ. A very short wavelength gives a very high frequency."
+      }
+    },
+    {
+      "id": "2024-5b",
+      "question": "5(b)",
+      "marks": 4,
+      "topic": "electromagnetic",
+      "skill": "fluorescence-electron-levels",
+      "answer": "UV excites electrons to higher energy levels; subsequent transitions to lower levels release visible photons, making the marks glow.",
+      "learning": "Atoms have discrete electron energy levels. Fluorescence converts some absorbed higher-energy radiation into lower-energy emitted light.",
+      "questionPage": 16,
+      "markSchemePage": 16,
+      "card": {
+        "kind": "text",
+        "prompt": "A fluorescent mineral glows green under an ultraviolet lamp. Explain this using electron energy levels.",
+        "marks": 4,
+        "rubric": [
+          {
+            "point": "Electrons absorb ultraviolet energy",
+            "patterns": [
+              "electron.*absor.*(ultraviolet|uv|energy)",
+              "(ultraviolet|uv).*absor.*electron"
+            ]
+          },
+          {
+            "point": "Electrons move to higher energy levels",
+            "patterns": [
+              "electron.*higher.*(level|shell)",
+              "excit.*electron",
+              "electron.*excit"
+            ]
+          },
+          {
+            "point": "Electrons return to lower levels",
+            "patterns": [
+              "electron.*(lower|fall|return|de.excit)",
+              "(fall|return).*lower.*level"
+            ]
+          },
+          {
+            "point": "Visible photons are emitted",
+            "patterns": [
+              "emit.*(visible|green|photon|light)",
+              "(visible|green).*light.*emit"
+            ]
+          }
+        ],
+        "modelAnswer": "Electrons absorb UV energy and become excited to higher energy levels. As they return to lower levels, they emit photons, some in the visible green range. This is fluorescence.",
+        "hint": "Describe absorption, excitation and de-excitation in sequence.",
+        "misconception": "The electrons are not coloured green; the emitted photons have a green wavelength.",
+        "steps": [
+          "Electrons absorb ultraviolet energy",
+          "Electrons move to higher energy levels",
+          "Electrons return to lower levels",
+          "Visible photons are emitted"
+        ],
+        "id": "2024-5b",
+        "title": "Fluorescence electron levels",
+        "explanation": "Atoms have discrete electron energy levels. Fluorescence converts some absorbed higher-energy radiation into lower-energy emitted light."
+      }
+    },
+    {
+      "id": "2024-6ai",
+      "question": "6(a)(i)",
+      "marks": 1,
+      "topic": "light",
+      "skill": "law-of-reflection",
+      "answer": "The reflection law applies at all surfaces, including individual points on rough surfaces.",
+      "learning": "At each reflection point the incident and reflected angles, measured from the local normal, are equal. Roughness changes the directions of the local normals.",
+      "questionPage": 17,
+      "markSchemePage": 17,
+      "card": {
+        "kind": "choice",
+        "prompt": "A rough white wall scatters light. What is true about reflection at each tiny point on its surface?",
+        "marks": 1,
+        "options": [
+          "The law of reflection still applies",
+          "Angles are equal only on metal",
+          "Light cannot reflect from rough surfaces",
+          "The reflected angle is always zero"
+        ],
+        "correctIndex": 0,
+        "modelAnswer": "At each point, angle of incidence equals angle of reflection relative to the local normal.",
+        "hint": "Distinguish a local reflection from the overall scattered beam.",
+        "misconception": "Scattering does not break the law of reflection.",
+        "steps": [
+          "Identify the physical principle in the question.",
+          "At each point, angle of incidence equals angle of reflection relative to the local normal."
+        ],
+        "id": "2024-6ai",
+        "title": "Law of reflection",
+        "explanation": "At each reflection point the incident and reflected angles, measured from the local normal, are equal. Roughness changes the directions of the local normals."
+      }
+    },
+    {
+      "id": "2024-6aii",
+      "question": "6(a)(ii)",
+      "marks": 3,
+      "topic": "light",
+      "skill": "reflection-practical",
+      "answer": "Trace the mirror and rays on paper, draw the perpendicular normal at the reflection point, and use a protractor to compare the angles to that normal.",
+      "learning": "A reproducible optical method records geometry and measures both angles from the same normal rather than the mirror surface.",
+      "questionPage": 17,
+      "markSchemePage": 17,
+      "card": {
+        "kind": "text",
+        "prompt": "Plan a check of the law of reflection using a plane mirror and a narrow light beam.",
+        "marks": 3,
+        "rubric": [
+          {
+            "point": "Trace the mirror and incident/reflected rays",
+            "patterns": [
+              "(trace|mark|draw).*(mirror|rays)",
+              "paper.*mirror"
+            ]
+          },
+          {
+            "point": "Draw a normal perpendicular to the mirror",
+            "patterns": [
+              "normal.*(perpendicular|right angle|90)",
+              "perpendicular.*normal"
+            ]
+          },
+          {
+            "point": "Measure both angles with a protractor",
+            "patterns": [
+              "protractor.*(angle|inciden|reflect)",
+              "measure.*(inciden|reflect).*angle"
+            ]
+          }
+        ],
+        "modelAnswer": "Trace the mirror and both ray paths on paper. Draw a normal perpendicular to the mirror at the incidence point. Use a protractor to measure incidence and reflection angles from the normal and compare them.",
+        "hint": "What line must both angles be measured from?",
+        "misconception": "Measuring from the mirror gives the complementary angles.",
+        "steps": [
+          "Trace the mirror and incident/reflected rays",
+          "Draw a normal perpendicular to the mirror",
+          "Measure both angles with a protractor"
+        ],
+        "id": "2024-6aii",
+        "title": "Reflection practical",
+        "explanation": "A reproducible optical method records geometry and measures both angles from the same normal rather than the mirror surface."
+      }
+    },
+    {
+      "id": "2024-6bi",
+      "question": "6(b)(i)",
+      "marks": 1,
+      "topic": "light",
+      "skill": "normal-incidence",
+      "answer": "The ray enters along the normal, so its angle of incidence is zero.",
+      "learning": "A ray entering a different medium along the normal changes speed and wavelength but does not change direction.",
+      "questionPage": 18,
+      "markSchemePage": 18,
+      "card": {
+        "kind": "choice",
+        "prompt": "A narrow light beam enters glass perpendicular to the surface. What happens to its direction?",
+        "marks": 1,
+        "options": [
+          "It bends away from the normal",
+          "It bends towards the normal",
+          "It continues straight along the normal",
+          "It must be totally reflected"
+        ],
+        "correctIndex": 2,
+        "modelAnswer": "At normal incidence the ray continues straight, although its speed in the glass changes.",
+        "hint": "The incidence angle is zero.",
+        "misconception": "No change in direction does not mean no change in speed.",
+        "steps": [
+          "Identify the physical principle in the question.",
+          "At normal incidence the ray continues straight, although its speed in the glass changes."
+        ],
+        "id": "2024-6bi",
+        "title": "Normal incidence",
+        "explanation": "A ray entering a different medium along the normal changes speed and wavelength but does not change direction."
+      }
+    },
+    {
+      "id": "2024-6bii",
+      "question": "6(b)(ii)",
+      "marks": 3,
+      "topic": "light",
+      "skill": "critical-angle-practical",
+      "answer": "Increase the incidence angle inside the glass until the refracted ray runs along the surface; that internal incidence angle is the critical angle.",
+      "learning": "The critical angle is defined for travel from higher to lower refractive index. At the critical angle the refraction angle is 90°.",
+      "questionPage": 18,
+      "markSchemePage": 18,
+      "card": {
+        "kind": "text",
+        "prompt": "A laser enters a semicircular glass block along a radius. Describe how to find the glass–air critical angle at the flat face.",
+        "marks": 3,
+        "rubric": [
+          {
+            "point": "Increase the incidence angle inside the glass",
+            "patterns": [
+              "increas.*(inciden|angle).*glass",
+              "rotate.*(ray|block)"
+            ]
+          },
+          {
+            "point": "Find when the emerging ray runs along the boundary",
+            "patterns": [
+              "(ray|beam).*(along.*(surface|boundary|edge)|90)",
+              "refraction.*90"
+            ]
+          },
+          {
+            "point": "Measure the internal angle to the normal",
+            "patterns": [
+              "(measure|read).*(internal|inciden).*angle",
+              "critical.*angle.*(inside|glass|normal)"
+            ]
+          }
+        ],
+        "modelAnswer": "Increase the incidence angle inside the glass while observing the emerging ray. When the emerging ray runs along the surface, its refraction angle is 90°. Measure the incidence angle inside the glass from the normal; that is the critical angle.",
+        "hint": "Look for a refracted ray at 90° to the normal.",
+        "misconception": "Do not read the angle outside the glass as the critical angle.",
+        "steps": [
+          "Increase the incidence angle inside the glass",
+          "Find when the emerging ray runs along the boundary",
+          "Measure the internal angle to the normal"
+        ],
+        "id": "2024-6bii",
+        "title": "Critical angle practical",
+        "explanation": "The critical angle is defined for travel from higher to lower refractive index. At the critical angle the refraction angle is 90°."
+      }
+    },
+    {
+      "id": "2024-6c",
+      "question": "6(c)",
+      "marks": 1,
+      "topic": "light",
+      "skill": "virtual-image",
+      "answer": "A virtual image is formed where backward extensions of rays appear to meet; it cannot be projected directly onto a screen.",
+      "learning": "Real rays pass through a real image. For a virtual image, the rays only appear to come from the image position.",
+      "questionPage": 19,
+      "markSchemePage": 19,
+      "card": {
+        "kind": "choice",
+        "prompt": "Which observation identifies a virtual image?",
+        "marks": 1,
+        "options": [
+          "It can be projected directly onto a screen",
+          "The actual rays meet at the image",
+          "The rays appear to come from a position they do not pass through",
+          "It must always be smaller than the object"
+        ],
+        "correctIndex": 2,
+        "modelAnswer": "A virtual image is located where backward extensions of rays appear to meet, not where the real rays meet.",
+        "hint": "Think about whether light actually passes through the image position.",
+        "misconception": "Image size alone does not distinguish real from virtual.",
+        "steps": [
+          "Identify the physical principle in the question.",
+          "A virtual image is located where backward extensions of rays appear to meet, not where the real rays meet."
+        ],
+        "id": "2024-6c",
+        "title": "Virtual image",
+        "explanation": "Real rays pass through a real image. For a virtual image, the rays only appear to come from the image position."
+      }
+    },
+    {
+      "id": "2024-7ai",
+      "question": "7(a)(i)",
+      "marks": 1,
+      "topic": "motion",
+      "skill": "velocity-time-plateau",
+      "answer": "The constant-velocity interval is 20–45 s.",
+      "learning": "A horizontal segment on a velocity–time graph means velocity is constant and acceleration is zero.",
+      "questionPage": 20,
+      "markSchemePage": 20,
+      "card": {
+        "kind": "choice",
+        "prompt": "A velocity–time graph rises from 0–8 s, is horizontal from 8–18 s, then slopes down from 18–24 s. When is acceleration zero?",
+        "marks": 1,
+        "options": [
+          "0–8 s",
+          "8–18 s",
+          "18–24 s",
+          "Throughout"
+        ],
+        "correctIndex": 1,
+        "modelAnswer": "Acceleration is zero during the horizontal section, from 8 to 18 s.",
+        "hint": "Acceleration is the gradient of a velocity–time graph.",
+        "misconception": "A horizontal velocity graph does not mean the object is stationary.",
+        "steps": [
+          "Identify the physical principle in the question.",
+          "Acceleration is zero during the horizontal section, from 8 to 18 s."
+        ],
+        "id": "2024-7ai",
+        "title": "Velocity time plateau",
+        "explanation": "A horizontal segment on a velocity–time graph means velocity is constant and acceleration is zero."
+      }
+    },
+    {
+      "id": "2024-7aii",
+      "question": "7(a)(ii)",
+      "marks": 3,
+      "topic": "motion",
+      "skill": "velocity-time-area",
+      "answer": "Areas are 150 m + 375 m + 187.5 m = 712.5 m.",
+      "learning": "Distance for motion in one direction is the area under the speed/velocity–time graph. Split the region into rectangles and triangles.",
+      "questionPage": 21,
+      "markSchemePage": 20,
+      "card": {
+        "kind": "number",
+        "prompt": "A cart accelerates uniformly from rest to 10 m/s in 6 s, continues at 10 m/s for 12 s, then slows uniformly to rest in 4 s. Find the total distance.",
+        "marks": 3,
+        "answer": 170,
+        "unit": "m",
+        "tolerance": 2.04,
+        "modelAnswer": "First triangle = ½ × 6 × 10 = 30 m; rectangle = 12 × 10 = 120 m; final triangle = ½ × 4 × 10 = 20 m; total = 170 m.",
+        "hint": "Add the three areas under the velocity–time graph.",
+        "misconception": "A triangle’s area is half base × height.",
+        "steps": [
+          "First triangle = ½ × 6 × 10 = 30 m",
+          "rectangle = 12 × 10 = 120 m",
+          "final triangle = ½ × 4 × 10 = 20 m",
+          "total = 170 m."
+        ],
+        "id": "2024-7aii",
+        "title": "Velocity time area",
+        "explanation": "Distance for motion in one direction is the area under the speed/velocity–time graph. Split the region into rectangles and triangles."
+      }
+    },
+    {
+      "id": "2024-7aiii",
+      "question": "7(a)(iii)",
+      "marks": 1,
+      "topic": "motion",
+      "skill": "whole-journey-average-speed",
+      "answer": "Average speed = 712.5/70 ≈ 10.2 m/s.",
+      "learning": "Average speed uses the total distance divided by total elapsed time, including periods at different speeds.",
+      "questionPage": 21,
+      "markSchemePage": 21,
+      "card": {
+        "kind": "number",
+        "prompt": "A delivery robot travels 144 m in a total time of 24 s. Calculate its average speed.",
+        "marks": 2,
+        "answer": 6,
+        "unit": "m/s",
+        "tolerance": 0.07200000000000001,
+        "modelAnswer": "Average speed = total distance/total time; 144/24 = 6.0 m/s.",
+        "hint": "Use totals for the entire journey.",
+        "misconception": "Do not average the largest and smallest speeds unless the conditions justify it.",
+        "steps": [
+          "Average speed = total distance/total time",
+          "144/24 = 6.0 m/s."
+        ],
+        "id": "2024-7aiii",
+        "title": "Whole journey average speed",
+        "explanation": "Average speed uses the total distance divided by total elapsed time, including periods at different speeds."
+      }
+    },
+    {
+      "id": "2024-7b",
+      "question": "7(b)",
+      "marks": 2,
+      "topic": "forces",
+      "skill": "inertial-mass",
+      "answer": "m = 450/0.35 ≈ 1286 kg, approximately 1300 kg.",
+      "learning": "Inertial mass measures resistance to acceleration: m = resultant force/acceleration. A greater mass needs more force for the same acceleration.",
+      "questionPage": 21,
+      "markSchemePage": 21,
+      "card": {
+        "kind": "number",
+        "prompt": "A resultant force of 840 N accelerates a small car at 0.60 m/s². Calculate its inertial mass.",
+        "marks": 2,
+        "answer": 1400,
+        "unit": "kg",
+        "tolerance": 16.8,
+        "modelAnswer": "F = ma; m = F/a = 840/0.60 = 1400 kg.",
+        "hint": "Rearrange F = ma.",
+        "misconception": "Use resultant force, not just one of several opposing forces.",
+        "steps": [
+          "F = ma",
+          "m = F/a = 840/0.60 = 1400 kg."
+        ],
+        "id": "2024-7b",
+        "title": "Inertial mass",
+        "explanation": "Inertial mass measures resistance to acceleration: m = resultant force/acceleration. A greater mass needs more force for the same acceleration.",
+        "variants": [
+          {
+            "prompt": "A resultant force of 660 N gives a cart acceleration of 0.55 m/s². Calculate its inertial mass.",
+            "answer": 1200,
+            "modelAnswer": "m = F/a = 660/0.55 = 1200 kg."
+          },
+          {
+            "prompt": "A resultant force of 1020 N gives a vehicle acceleration of 0.60 m/s². Calculate its inertial mass.",
+            "answer": 1700,
+            "modelAnswer": "m = 1020/0.60 = 1700 kg."
+          }
+        ]
+      }
+    },
+    {
+      "id": "2024-7ci",
+      "question": "7(c)(i)",
+      "marks": 1,
+      "topic": "motion",
+      "skill": "graph-equation-variables",
+      "answer": "In y = mx + c for this graph, x is time and y is velocity.",
+      "learning": "Match mathematical variables to the actual axis quantities. The gradient’s meaning depends on which quantities are plotted.",
+      "questionPage": 22,
+      "markSchemePage": 22,
+      "card": {
+        "kind": "choice",
+        "prompt": "For a velocity–time graph written as y = mx + c, what does x represent?",
+        "marks": 1,
+        "options": [
+          "Velocity",
+          "Time",
+          "Acceleration",
+          "Distance"
+        ],
+        "correctIndex": 1,
+        "modelAnswer": "The horizontal coordinate x represents time; y represents velocity.",
+        "hint": "Read the horizontal axis.",
+        "misconception": "The x in a graph equation is not automatically a distance.",
+        "steps": [
+          "Identify the physical principle in the question.",
+          "The horizontal coordinate x represents time; y represents velocity."
+        ],
+        "id": "2024-7ci",
+        "title": "Graph equation variables",
+        "explanation": "Match mathematical variables to the actual axis quantities. The gradient’s meaning depends on which quantities are plotted."
+      }
+    },
+    {
+      "id": "2024-7cii",
+      "question": "7(c)(ii)",
+      "marks": 2,
+      "topic": "motion",
+      "skill": "velocity-time-gradient",
+      "answer": "m = 25/120 ≈ 0.208 m/s², approximately 0.21 m/s².",
+      "learning": "The gradient of a velocity–time graph is acceleration: change in velocity divided by change in time.",
+      "questionPage": 23,
+      "markSchemePage": 22,
+      "card": {
+        "kind": "number",
+        "prompt": "A straight velocity–time line passes through (0 s, 2 m/s) and (40 s, 14 m/s). Calculate its gradient.",
+        "marks": 2,
+        "answer": 0.3,
+        "unit": "m/s²",
+        "tolerance": 0.0036,
+        "modelAnswer": "Gradient = Δv/Δt; (14 − 2)/(40 − 0) = 0.30 m/s².",
+        "hint": "Use a large triangle and subtract the starting velocity.",
+        "misconception": "The gradient is not velocity divided by time unless the line passes through the origin.",
+        "steps": [
+          "Gradient = Δv/Δt",
+          "(14 − 2)/(40 − 0) = 0.30 m/s²."
+        ],
+        "id": "2024-7cii",
+        "title": "Velocity time gradient",
+        "explanation": "The gradient of a velocity–time graph is acceleration: change in velocity divided by change in time."
+      }
+    },
+    {
+      "id": "2024-7ciii",
+      "question": "7(c)(iii)",
+      "marks": 1,
+      "topic": "motion",
+      "skill": "velocity-time-intercept",
+      "answer": "c = 0 because the line passes through the origin.",
+      "learning": "The y-intercept of a velocity–time line is the initial velocity. In v = at + u, it plays the same role as c in y = mx + c.",
+      "questionPage": 23,
+      "markSchemePage": 22,
+      "card": {
+        "kind": "number",
+        "prompt": "A straight velocity–time graph follows v = 0.8t + 3.5, with SI units. What is its y-intercept?",
+        "marks": 2,
+        "answer": 3.5,
+        "unit": "m/s",
+        "tolerance": 0.042,
+        "modelAnswer": "At t = 0, v = 3.5 m/s; the y-intercept is 3.5 m/s.",
+        "hint": "Set time equal to zero.",
+        "misconception": "Do not confuse the gradient 0.8 with the intercept.",
+        "steps": [
+          "At t = 0, v = 3.5 m/s",
+          "the y-intercept is 3.5 m/s."
+        ],
+        "id": "2024-7ciii",
+        "title": "Velocity time intercept",
+        "explanation": "The y-intercept of a velocity–time line is the initial velocity. In v = at + u, it plays the same role as c in y = mx + c."
+      }
+    },
+    {
+      "id": "2024-8a",
+      "question": "8(a)",
+      "marks": 1,
+      "topic": "radioactivity",
+      "skill": "alpha-charge",
+      "answer": "An alpha particle has relative charge +2.",
+      "learning": "An alpha particle contains two protons and two neutrons. Neutrons are neutral, so the two protons give charge +2.",
+      "questionPage": 24,
+      "markSchemePage": 23,
+      "card": {
+        "kind": "choice",
+        "prompt": "A particle contains two protons and two neutrons, with no electrons. What is its relative electric charge?",
+        "marks": 1,
+        "options": [
+          "−2",
+          "0",
+          "+1",
+          "+2"
+        ],
+        "correctIndex": 3,
+        "modelAnswer": "Only the two protons contribute charge, giving +2.",
+        "hint": "Neutrons carry no electric charge.",
+        "misconception": "Mass number 4 is not the charge.",
+        "steps": [
+          "Identify the physical principle in the question.",
+          "Only the two protons contribute charge, giving +2."
+        ],
+        "id": "2024-8a",
+        "title": "Alpha charge",
+        "explanation": "An alpha particle contains two protons and two neutrons. Neutrons are neutral, so the two protons give charge +2."
+      }
+    },
+    {
+      "id": "2024-8b",
+      "question": "8(b)",
+      "marks": 1,
+      "topic": "radioactivity",
+      "skill": "ionisation",
+      "answer": "Ionisation is the formation of ions by adding or removing electrons from atoms.",
+      "learning": "Ionising radiation has enough energy to change the electron population of an atom, leaving it electrically charged.",
+      "questionPage": 24,
+      "markSchemePage": 23,
+      "card": {
+        "kind": "choice",
+        "prompt": "What makes radiation ionising?",
+        "marks": 1,
+        "options": [
+          "It always produces heat",
+          "It can remove electrons from atoms",
+          "It changes every neutron into a proton",
+          "It travels faster than light"
+        ],
+        "correctIndex": 1,
+        "modelAnswer": "Ionising radiation can transfer enough energy to remove an electron from an atom, leaving an ion.",
+        "hint": "Think about how a neutral atom becomes charged.",
+        "misconception": "Ionisation is different from splitting the nucleus.",
+        "steps": [
+          "Identify the physical principle in the question.",
+          "Ionising radiation can transfer enough energy to remove an electron from an atom, leaving an ion."
+        ],
+        "id": "2024-8b",
+        "title": "Ionisation",
+        "explanation": "Ionising radiation has enough energy to change the electron population of an atom, leaving it electrically charged."
+      }
+    },
+    {
+      "id": "2024-8c",
+      "question": "8(c)",
+      "marks": 3,
+      "topic": "radioactivity",
+      "skill": "background-count-rate",
+      "answer": "With no deliberately placed source present, use a G-M detector to count for a measured time; divide by time, repeat and average.",
+      "learning": "Background must be measured separately because a detector counts environmental radiation as well as radiation from the investigated source. Longer timings and repeats reduce random variation.",
+      "questionPage": 24,
+      "markSchemePage": 23,
+      "card": {
+        "kind": "text",
+        "prompt": "Explain how to measure the background radiation count rate before testing a sealed source.",
+        "marks": 3,
+        "rubric": [
+          {
+            "point": "Use a detector with no experimental source nearby",
+            "patterns": [
+              "(remove|without|no).*(source)",
+              "source.*(away|removed)"
+            ]
+          },
+          {
+            "point": "Count for a measured time and divide by time",
+            "patterns": [
+              "count.*(divid|/).*time",
+              "(number|total).*count.*time"
+            ]
+          },
+          {
+            "point": "Repeat and average the count rates",
+            "patterns": [
+              "repeat.*(mean|average)",
+              "(mean|average).*repeat"
+            ]
+          }
+        ],
+        "modelAnswer": "Keep the experimental source away and use a G-M tube and counter. Count for a measured interval and divide the count by that time. Repeat and average the rates.",
+        "hint": "A count is a total; count rate needs a time.",
+        "misconception": "Do not subtract background before measuring background itself.",
+        "steps": [
+          "Use a detector with no experimental source nearby",
+          "Count for a measured time and divide by time",
+          "Repeat and average the count rates"
+        ],
+        "id": "2024-8c",
+        "title": "Background count rate",
+        "explanation": "Background must be measured separately because a detector counts environmental radiation as well as radiation from the investigated source. Longer timings and repeats reduce random variation."
+      }
+    },
+    {
+      "id": "2024-8di",
+      "question": "8(d)(i)",
+      "marks": 2,
+      "topic": "radioactivity",
+      "skill": "absorption-apparatus",
+      "answer": "Put aluminium between the beta source and the G-M tube, with a counter connected to the detector; label the components.",
+      "learning": "A test absorber must be in the radiation path. A clear apparatus layout shows the independent variable and the measurement path.",
+      "questionPage": 25,
+      "markSchemePage": 24,
+      "card": {
+        "kind": "choice",
+        "prompt": "Which arrangement tests how plastic absorbs beta radiation?",
+        "marks": 1,
+        "options": [
+          "Source → detector → plastic",
+          "Plastic → source → detector",
+          "Source → plastic → detector connected to counter",
+          "Counter → plastic → ruler, with no detector"
+        ],
+        "correctIndex": 2,
+        "modelAnswer": "The plastic absorber lies between the source and the detector so the detector measures transmitted radiation.",
+        "hint": "The rays must pass through the absorber before being counted.",
+        "misconception": "A counter without a radiation detector cannot measure beta radiation.",
+        "steps": [
+          "Identify the physical principle in the question.",
+          "The plastic absorber lies between the source and the detector so the detector measures transmitted radiation."
+        ],
+        "id": "2024-8di",
+        "title": "Absorption apparatus",
+        "explanation": "A test absorber must be in the radiation path. A clear apparatus layout shows the independent variable and the measurement path."
+      }
+    },
+    {
+      "id": "2024-8dii",
+      "question": "8(d)(ii)",
+      "marks": 1,
+      "topic": "radioactivity",
+      "skill": "absorption-independent-variable",
+      "answer": "The independent variable is aluminium thickness or the number of identical sheets.",
+      "learning": "The independent variable is what the investigator deliberately changes, rather than what is measured in response.",
+      "questionPage": 25,
+      "markSchemePage": 24,
+      "card": {
+        "kind": "choice",
+        "prompt": "A student adds one identical absorber sheet before each radiation measurement. What is the independent variable?",
+        "marks": 1,
+        "options": [
+          "Count rate",
+          "Total absorber thickness",
+          "Background count rate",
+          "Source half-life"
+        ],
+        "correctIndex": 1,
+        "modelAnswer": "The deliberately changed quantity is absorber thickness.",
+        "hint": "Identify what the student changes between readings.",
+        "misconception": "The measured count rate is the dependent variable.",
+        "steps": [
+          "Identify the physical principle in the question.",
+          "The deliberately changed quantity is absorber thickness."
+        ],
+        "id": "2024-8dii",
+        "title": "Absorption independent variable",
+        "explanation": "The independent variable is what the investigator deliberately changes, rather than what is measured in response."
+      }
+    },
+    {
+      "id": "2024-8diii",
+      "question": "8(d)(iii)",
+      "marks": 1,
+      "topic": "radioactivity",
+      "skill": "absorption-control-variable",
+      "answer": "Keep source–detector separation constant; measurement time and source are also valid controls.",
+      "learning": "Changing distance can alter detector counts independently of absorber thickness. Control other causes of change to make the comparison fair.",
+      "questionPage": 25,
+      "markSchemePage": 25,
+      "card": {
+        "kind": "choice",
+        "prompt": "When comparing radiation absorption by sheet thickness, which quantity should stay fixed?",
+        "marks": 1,
+        "options": [
+          "The number of sheets",
+          "The measured count",
+          "The distance from source to detector",
+          "The amount absorbed"
+        ],
+        "correctIndex": 2,
+        "modelAnswer": "Keep the source–detector distance fixed so only absorber thickness causes the intended change.",
+        "hint": "Choose a possible alternative cause of a change in counts.",
+        "misconception": "The dependent variable should be allowed to change.",
+        "steps": [
+          "Identify the physical principle in the question.",
+          "Keep the source–detector distance fixed so only absorber thickness causes the intended change."
+        ],
+        "id": "2024-8diii",
+        "title": "Absorption control variable",
+        "explanation": "Changing distance can alter detector counts independently of absorber thickness. Control other causes of change to make the comparison fair."
+      }
+    },
+    {
+      "id": "2024-8div",
+      "question": "8(d)(iv)",
+      "marks": 2,
+      "topic": "radioactivity",
+      "skill": "beta-minus-nuclear-equation",
+      "answer": "⁹⁰₃₈Sr → ⁰₋₁β + ⁹⁰₃₉Y: beta charge number −1 and daughter proton number 39.",
+      "learning": "In beta-minus decay a neutron becomes a proton and an electron is emitted. Mass number stays constant; atomic number increases by one.",
+      "questionPage": 26,
+      "markSchemePage": 25,
+      "card": {
+        "kind": "number",
+        "prompt": "A nucleus with mass number 32 and proton number 15 emits a beta-minus particle. What is the daughter nucleus’s proton number?",
+        "marks": 2,
+        "answer": 16,
+        "unit": "",
+        "tolerance": 0.192,
+        "modelAnswer": "Beta-minus decay changes one neutron into a proton; daughter proton number = 15 + 1 = 16.",
+        "hint": "Conserve the total charge number in the nuclear equation.",
+        "misconception": "Beta-minus emission does not reduce the daughter’s proton number.",
+        "steps": [
+          "Beta-minus decay changes one neutron into a proton",
+          "daughter proton number = 15 + 1 = 16."
+        ],
+        "id": "2024-8div",
+        "title": "Beta minus nuclear equation",
+        "explanation": "In beta-minus decay a neutron becomes a proton and an electron is emitted. Mass number stays constant; atomic number increases by one."
+      }
+    },
+    {
+      "id": "2024-9ai",
+      "question": "9(a)(i)",
+      "marks": 1,
+      "topic": "forces",
+      "skill": "centripetal-force-direction",
+      "answer": "Arrow D points towards the centre of the circular path.",
+      "learning": "Centripetal means centre-seeking. The resultant force needed for a circular path points inward, perpendicular to the instantaneous velocity.",
+      "questionPage": 27,
+      "markSchemePage": 26,
+      "card": {
+        "kind": "choice",
+        "prompt": "A satellite travels around Earth in a circular orbit. In which direction is the resultant force?",
+        "marks": 1,
+        "options": [
+          "Along its forward velocity",
+          "Away from Earth",
+          "Towards Earth’s centre",
+          "Opposite its forward velocity"
+        ],
+        "correctIndex": 2,
+        "modelAnswer": "Gravity provides an inward resultant force towards Earth’s centre.",
+        "hint": "A circular path needs the direction of motion to keep changing.",
+        "misconception": "Do not invent an outward force on the satellite to balance gravity.",
+        "steps": [
+          "Identify the physical principle in the question.",
+          "Gravity provides an inward resultant force towards Earth’s centre."
+        ],
+        "id": "2024-9ai",
+        "title": "Centripetal force direction",
+        "explanation": "Centripetal means centre-seeking. The resultant force needed for a circular path points inward, perpendicular to the instantaneous velocity."
+      }
+    },
+    {
+      "id": "2024-9aii",
+      "question": "9(a)(ii)",
+      "marks": 1,
+      "topic": "motion",
+      "skill": "circular-velocity",
+      "answer": "The direction changes continuously; velocity includes direction even when speed stays constant.",
+      "learning": "Speed is a scalar, whereas velocity is a vector. Turning changes velocity without necessarily changing speed.",
+      "questionPage": 27,
+      "markSchemePage": 26,
+      "card": {
+        "kind": "choice",
+        "prompt": "A cyclist rides around a circular track at a steady 5 m/s. Which statement is correct?",
+        "marks": 1,
+        "options": [
+          "Velocity stays constant because speed stays constant",
+          "Velocity changes because direction changes",
+          "There is no acceleration",
+          "The cyclist must be speeding up"
+        ],
+        "correctIndex": 1,
+        "modelAnswer": "Velocity changes because its direction changes continuously.",
+        "hint": "Velocity contains more information than speed.",
+        "misconception": "Acceleration can be a change of direction.",
+        "steps": [
+          "Identify the physical principle in the question.",
+          "Velocity changes because its direction changes continuously."
+        ],
+        "id": "2024-9aii",
+        "title": "Circular velocity",
+        "explanation": "Speed is a scalar, whereas velocity is a vector. Turning changes velocity without necessarily changing speed."
+      }
+    },
+    {
+      "id": "2024-9b",
+      "question": "9(b)",
+      "marks": 3,
+      "topic": "forces",
+      "skill": "impulse-stopping-time",
+      "answer": "t = (53 × 4)/3500 = 0.06057 s ≈ 0.061 s to two significant figures.",
+      "learning": "Average force is change in momentum divided by contact time. Keep full calculator precision until the final rounding.",
+      "questionPage": 28,
+      "markSchemePage": 26,
+      "card": {
+        "kind": "number",
+        "prompt": "A 45 kg gymnast reaches a pad at 3.0 m/s and comes to rest. The average resultant stopping force is 2250 N. Find the stopping time.",
+        "marks": 3,
+        "answer": 0.06,
+        "unit": "s",
+        "tolerance": 0.0007199999999999999,
+        "modelAnswer": "Change in momentum magnitude = 45 × 3.0 = 135 kg m/s; t = Δp/F = 135/2250 = 0.060 s.",
+        "hint": "Use t = change in momentum/average resultant force.",
+        "misconception": "Use the velocity change, not the final velocity zero.",
+        "steps": [
+          "Change in momentum magnitude = 45 × 3.0 = 135 kg m/s",
+          "t = Δp/F = 135/2250 = 0.060 s."
+        ],
+        "id": "2024-9b",
+        "title": "Impulse stopping time",
+        "explanation": "Average force is change in momentum divided by contact time. Keep full calculator precision until the final rounding."
+      }
+    },
+    {
+      "id": "2024-9c",
+      "question": "9(c)",
+      "marks": 6,
+      "topic": "forces",
+      "skill": "inelastic-collision-conservation",
+      "answer": "Equal opposite initial momenta sum to zero, matching the stationary combined trolleys. Their kinetic energy becomes thermal energy and sound, so total energy is conserved.",
+      "learning": "Momentum is a signed vector; energy is a scalar. In an inelastic collision total momentum remains constant in an isolated system, but kinetic energy is transferred to other stores.",
+      "questionPage": 29,
+      "markSchemePage": 28,
+      "card": {
+        "kind": "text",
+        "prompt": "Two identical 0.5 kg carts move towards each other at 2 m/s on a frictionless track and stick together at rest. Explain conservation of momentum and energy.",
+        "marks": 6,
+        "rubric": [
+          {
+            "point": "Momentum is mass times signed velocity",
+            "patterns": [
+              "momentum.*mass.*velocity",
+              "p\\s*=\\s*m\\s*v"
+            ]
+          },
+          {
+            "point": "Initial momenta are equal and opposite",
+            "patterns": [
+              "(equal|same).*opposite.*moment",
+              "moment.*(equal|same).*opposite"
+            ]
+          },
+          {
+            "point": "Total initial momentum is zero",
+            "patterns": [
+              "(initial|before).*momentum.*zero",
+              "momentum.*before.*0"
+            ]
+          },
+          {
+            "point": "Final momentum is also zero so conserved",
+            "patterns": [
+              "(final|after).*momentum.*(zero|0)",
+              "momentum.*conserv"
+            ]
+          },
+          {
+            "point": "Initial kinetic energy is transferred to other stores",
+            "patterns": [
+              "kinetic.*(thermal|sound|internal|heat)",
+              "(thermal|sound|internal).*energy"
+            ]
+          },
+          {
+            "point": "Total energy remains conserved",
+            "patterns": [
+              "(total )?energy.*conserv",
+              "energy.*(not|cannot).*destroy"
+            ]
+          }
+        ],
+        "modelAnswer": "Momentum is mass times velocity, p = mv. The initial momenta of the carts are equal and opposite, so total initial momentum is zero. The joined carts are at rest, so final momentum is also zero and momentum is conserved. Initial kinetic energy is transferred to thermal stores, deformation and sound. Total energy is conserved although kinetic energy is not.",
+        "hint": "Treat momentum signs separately from the energy stores.",
+        "misconception": "A collision can conserve total energy while losing kinetic energy.",
+        "steps": [
+          "Momentum is mass times signed velocity",
+          "Initial momenta are equal and opposite",
+          "Total initial momentum is zero",
+          "Final momentum is also zero so conserved",
+          "Initial kinetic energy is transferred to other stores",
+          "Total energy remains conserved"
+        ],
+        "id": "2024-9c",
+        "title": "Inelastic collision conservation",
+        "explanation": "Momentum is a signed vector; energy is a scalar. In an inelastic collision total momentum remains constant in an isolated system, but kinetic energy is transferred to other stores."
+      }
+    },
+    {
+      "id": "2024-10a",
+      "question": "10(a)",
+      "marks": 1,
+      "topic": "waves",
+      "skill": "transverse-wave-examples",
+      "answer": "Infrared and ultraviolet are both transverse electromagnetic waves.",
+      "learning": "All electromagnetic waves are transverse. Sound, infrasound and ultrasound in air are longitudinal.",
+      "questionPage": 30,
+      "markSchemePage": 32,
+      "card": {
+        "kind": "choice",
+        "prompt": "Which pair consists entirely of transverse electromagnetic waves?",
+        "marks": 1,
+        "options": [
+          "Microwaves and X-rays",
+          "Ultrasound and microwaves",
+          "Sound and infrared",
+          "Infrasound and ultrasound"
+        ],
+        "correctIndex": 0,
+        "modelAnswer": "Microwaves and X-rays are both electromagnetic and therefore transverse.",
+        "hint": "Separate electromagnetic waves from sound waves.",
+        "misconception": "Ultrasound is sound with high frequency, not electromagnetic radiation.",
+        "steps": [
+          "Identify the physical principle in the question.",
+          "Microwaves and X-rays are both electromagnetic and therefore transverse."
+        ],
+        "id": "2024-10a",
+        "title": "Transverse wave examples",
+        "explanation": "All electromagnetic waves are transverse. Sound, infrasound and ultrasound in air are longitudinal."
+      }
+    },
+    {
+      "id": "2024-10bi",
+      "question": "10(b)(i)",
+      "marks": 2,
+      "topic": "waves",
+      "skill": "wave-energy-partition",
+      "answer": "Transmitted fraction = 100 − 67 − 15 = 18%; energy = 0.25 × 0.18 = 0.045 J.",
+      "learning": "Incident wave energy is divided among reflection, absorption and transmission. All fractions must add to the incident energy.",
+      "questionPage": 30,
+      "markSchemePage": 32,
+      "card": {
+        "kind": "number",
+        "prompt": "A wave carries 0.80 J to a panel. The panel absorbs 55% and reflects 20%. Calculate the transmitted energy.",
+        "marks": 2,
+        "answer": 0.2,
+        "unit": "J",
+        "tolerance": 0.0024000000000000002,
+        "modelAnswer": "Transmitted percentage = 100 − 55 − 20 = 25%; transmitted energy = 0.80 × 0.25 = 0.20 J.",
+        "hint": "Find the missing percentage first.",
+        "misconception": "Do not calculate 25 × 0.80 without dividing the percentage by 100.",
+        "steps": [
+          "Transmitted percentage = 100 − 55 − 20 = 25%",
+          "transmitted energy = 0.80 × 0.25 = 0.20 J."
+        ],
+        "id": "2024-10bi",
+        "title": "Wave energy partition",
+        "explanation": "Incident wave energy is divided among reflection, absorption and transmission. All fractions must add to the incident energy."
+      }
+    },
+    {
+      "id": "2024-10bii",
+      "question": "10(b)(ii)",
+      "marks": 1,
+      "topic": "waves",
+      "skill": "sound-insulation",
+      "answer": "Use a thicker absorber, a more absorbing/reflecting surface, or a layered structure with different densities and/or an air gap.",
+      "learning": "To reduce transmission, increase energy absorbed or reflected. Specify a physical change rather than simply saying to add insulation.",
+      "questionPage": 31,
+      "markSchemePage": 33,
+      "card": {
+        "kind": "choice",
+        "prompt": "Which specific change could reduce sound transmitted through a partition?",
+        "marks": 1,
+        "options": [
+          "Make the absorbing layer thicker",
+          "Remove the partition",
+          "Make a large open hole",
+          "Replace it with empty space"
+        ],
+        "correctIndex": 0,
+        "modelAnswer": "A thicker absorbing layer can transfer more sound energy into internal energy before the wave emerges.",
+        "hint": "Reduce the fraction of incident energy that emerges on the other side.",
+        "misconception": "Soundproofing requires a stated physical change.",
+        "steps": [
+          "Identify the physical principle in the question.",
+          "A thicker absorbing layer can transfer more sound energy into internal energy before the wave emerges."
+        ],
+        "id": "2024-10bii",
+        "title": "Sound insulation",
+        "explanation": "To reduce transmission, increase energy absorbed or reflected. Specify a physical change rather than simply saying to add insulation."
+      }
+    },
+    {
+      "id": "2024-10c",
+      "question": "10(c)",
+      "marks": 2,
+      "topic": "waves",
+      "skill": "sound-absorption-echoes",
+      "answer": "Carpets and curtains absorb a larger fraction of incident sound than hard surfaces, so less sound is reflected around the room.",
+      "learning": "A high absorption coefficient means a large energy fraction is absorbed, reducing reflections and reverberation.",
+      "questionPage": 31,
+      "markSchemePage": 33,
+      "card": {
+        "kind": "text",
+        "prompt": "A curtain absorbs 65% of incident sound; a painted wall absorbs 4%. Explain why fitting curtains can make a room less echoey.",
+        "marks": 2,
+        "rubric": [
+          {
+            "point": "Curtains absorb a greater fraction of sound",
+            "patterns": [
+              "curtain.*absor.*(more|greater|65)",
+              "(more|greater).*sound.*absor"
+            ]
+          },
+          {
+            "point": "Less sound is reflected back into the room",
+            "patterns": [
+              "less.*(reflect|echo|reverber)",
+              "(reflect|echo).*reduc"
+            ]
+          }
+        ],
+        "modelAnswer": "Curtains absorb more of the incident sound energy than the painted wall. Less sound is reflected back into the room, reducing echoes and reverberation.",
+        "hint": "Link absorption to what remains available for reflection.",
+        "misconception": "Absorbing sound is different from making sound travel faster.",
+        "steps": [
+          "Curtains absorb a greater fraction of sound",
+          "Less sound is reflected back into the room"
+        ],
+        "id": "2024-10c",
+        "title": "Sound absorption echoes",
+        "explanation": "A high absorption coefficient means a large energy fraction is absorbed, reducing reflections and reverberation."
+      }
+    },
+    {
+      "id": "2024-10d",
+      "question": "10(d)",
+      "marks": 6,
+      "topic": "waves",
+      "skill": "sonar-depth-method",
+      "answer": "Emit an ultrasound pulse downward, detect its echo from the seabed, time the round trip and use depth = sound speed × time/2.",
+      "learning": "Echo timing measures a round trip. Use the speed in seawater, not the speed in air, and halve the travelled distance to find one-way depth.",
+      "questionPage": 32,
+      "markSchemePage": 34,
+      "card": {
+        "kind": "text",
+        "prompt": "Explain how an echo sounder on a research boat measures the water depth directly below it.",
+        "marks": 6,
+        "rubric": [
+          {
+            "point": "Emit a short ultrasound pulse downwards",
+            "patterns": [
+              "(emit|send|transmit).*ultrasound.*pulse",
+              "ultrasound.*pulse.*(emit|send|down)"
+            ]
+          },
+          {
+            "point": "Pulse travels to the seabed",
+            "patterns": [
+              "(pulse|wave|sound).*(seabed|sea bed|bottom)"
+            ]
+          },
+          {
+            "point": "Pulse reflects and returns to the boat",
+            "patterns": [
+              "(reflect|echo|bounce).*(back|boat|return)",
+              "return.*echo"
+            ]
+          },
+          {
+            "point": "Measure the round-trip time",
+            "patterns": [
+              "(measure|time).*(emission|round.trip|send.*recei|emit.*recei)",
+              "time.*echo"
+            ]
+          },
+          {
+            "point": "Use the known sound speed in water",
+            "patterns": [
+              "speed.*(water|sea)",
+              "known.*speed"
+            ]
+          },
+          {
+            "point": "Halve speed times time to obtain depth",
+            "patterns": [
+              "(halv|divid.*2|/\\s*2)",
+              "depth.*(vt|speed.*time).*2"
+            ]
+          }
+        ],
+        "modelAnswer": "Send a short ultrasound pulse through the water to the seabed. The pulse reflects from the seabed and returns to the boat. Measure the time from emission to reception. With the known speed of sound in water, calculate total distance as speed × time, then halve it to obtain the depth.",
+        "hint": "The echo travels down and back.",
+        "misconception": "Using the whole round-trip distance doubles the depth.",
+        "steps": [
+          "Emit a short ultrasound pulse downwards",
+          "Pulse travels to the seabed",
+          "Pulse reflects and returns to the boat",
+          "Measure the round-trip time",
+          "Use the known sound speed in water",
+          "Halve speed times time to obtain depth"
+        ],
+        "id": "2024-10d",
+        "title": "Sonar depth method",
+        "explanation": "Echo timing measures a round trip. Use the speed in seawater, not the speed in air, and halve the travelled distance to find one-way depth."
+      }
+    }
+  ]
+}

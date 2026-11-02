@@ -1,0 +1,1778 @@
+{
+  "paper": "2020",
+  "totalMarks": 100,
+  "reviewStatus": "question-and-mark-scheme-reviewed",
+  "rows": [
+    {
+      "id": "2020-1a",
+      "question": "1(a)",
+      "marks": 2,
+      "topic": "radioactivity",
+      "skill": "radioactive-uses",
+      "answer": "Examples beyond electricity generation include smoke alarms, medical tracers, cancer treatment and sterilising equipment.",
+      "learning": "A useful application exploits a particular property such as penetration, ionisation or a measurable decay signal. Name the task rather than just saying “medicine”.",
+      "questionPage": 2,
+      "markSchemePage": 5,
+      "card": {
+        "title": "Radioactivity has useful applications",
+        "kind": "text",
+        "prompt": "Give two uses of radioactive sources other than generating electricity, and briefly state their purpose.",
+        "marks": 2,
+        "modelAnswer": "A medical tracer helps doctors locate or follow processes inside the body. Gamma irradiation can sterilise surgical equipment by killing microorganisms.",
+        "explanation": "A useful application exploits a particular property such as penetration, ionisation or a measurable decay signal. Name the task rather than just saying “medicine”.",
+        "hint": "Think of one diagnostic use and one sterilising use.",
+        "steps": [
+          "A medical tracer, diagnostic use or tumour treatment.",
+          "Sterilising, food irradiation or smoke detection."
+        ],
+        "misconception": "Not all medical imaging uses radioactive sources: an ordinary ultrasound scanner does not.",
+        "rubric": [
+          {
+            "point": "A medical tracer, diagnostic use or tumour treatment",
+            "patterns": [
+              "(medical|radioactive).{0,20}tracer",
+              "(diagnos|tumou?r|cancer|radiotherap)"
+            ]
+          },
+          {
+            "point": "Sterilising, food irradiation or smoke detection",
+            "patterns": [
+              "sterili[sz]",
+              "food.{0,20}irradiat",
+              "smoke.{0,15}(alarm|detect)"
+            ]
+          }
+        ],
+        "id": "2020-1a"
+      }
+    },
+    {
+      "id": "2020-1b",
+      "question": "1(b)",
+      "marks": 2,
+      "topic": "radioactivity",
+      "skill": "reactor-parts",
+      "answer": "P is the control rods, which absorb neutrons; Q is the moderator, commonly graphite, which slows neutrons.",
+      "learning": "Slowing neutrons can help maintain fission; removing some neutrons controls the chain reaction. The two jobs must not be confused.",
+      "questionPage": 2,
+      "markSchemePage": 5,
+      "card": {
+        "title": "Two reactor components",
+        "kind": "choice",
+        "prompt": "Which pair correctly matches a reactor component to its job?",
+        "marks": 1,
+        "options": [
+          "Moderator cools the turbine; rods supply uranium",
+          "Moderator speeds neutrons; rods produce steam",
+          "Moderator absorbs all neutrons; rods heat the fuel",
+          "Moderator slows neutrons; control rods absorb neutrons"
+        ],
+        "correctIndex": 3,
+        "modelAnswer": "The moderator slows neutrons and the control rods absorb neutrons.",
+        "explanation": "Slowing neutrons can help maintain fission; removing some neutrons controls the chain reaction. The two jobs must not be confused.",
+        "hint": "One changes speed and one changes the number available.",
+        "steps": [
+          "Identify the physical quantity or process.",
+          "Apply the rule to the situation.",
+          "Check the other options for a common misconception."
+        ],
+        "misconception": "Control rods do not control the reaction by slowing neutrons.",
+        "id": "2020-1b"
+      }
+    },
+    {
+      "id": "2020-1c",
+      "question": "1(c)",
+      "marks": 2,
+      "topic": "radioactivity",
+      "skill": "chain-reaction",
+      "answer": "A neutron is absorbed by a fissile nucleus, causing it to split and release additional neutrons. Those neutrons can cause further fissions.",
+      "learning": "A chain reaction needs a repeated feedback step: each event produces the particles capable of triggering later events.",
+      "questionPage": 3,
+      "markSchemePage": 5,
+      "card": {
+        "title": "How a chain reaction continues",
+        "kind": "text",
+        "prompt": "Explain how one fission event can lead to more fission events.",
+        "marks": 2,
+        "modelAnswer": "When a nucleus absorbs a neutron it can split, releasing more neutrons. Some of these neutrons are absorbed by other fissile nuclei, which split and release more neutrons, continuing the chain reaction.",
+        "explanation": "A chain reaction needs a repeated feedback step: each event produces the particles capable of triggering later events.",
+        "hint": "What does a fission release besides energy?",
+        "steps": [
+          "Fission releases additional neutrons.",
+          "Neutrons cause further nuclei to split."
+        ],
+        "misconception": "Energy release alone does not explain how the next nucleus is triggered.",
+        "rubric": [
+          {
+            "point": "Fission releases additional neutrons",
+            "patterns": [
+              "(fission|split).{0,50}(release|produc).{0,20}neutron",
+              "(release|produc).{0,20}(more|additional|extra).{0,10}neutron"
+            ]
+          },
+          {
+            "point": "Neutrons cause further nuclei to split",
+            "patterns": [
+              "neutron.{0,60}(other|further|more|another).{0,25}(nucle|fission)",
+              "(other|further|more).{0,25}nucle.{0,30}split"
+            ]
+          }
+        ],
+        "id": "2020-1c"
+      }
+    },
+    {
+      "id": "2020-2a",
+      "question": "2(a)",
+      "marks": 2,
+      "topic": "energy",
+      "skill": "lifting-energy-transfer",
+      "answer": "Chemical energy in the student’s body is transferred mechanically to the car’s gravitational potential energy store as the car is lifted.",
+      "learning": "Doing work against gravity transfers energy to a gravitational potential store. Energy stores and transfer pathways describe different parts of the process.",
+      "questionPage": 4,
+      "markSchemePage": 6,
+      "card": {
+        "title": "Lifting changes an energy store",
+        "kind": "text",
+        "prompt": "A person lifts a toolbox from the floor onto a shelf. Describe the main energy transfer.",
+        "marks": 2,
+        "modelAnswer": "Energy is transferred from the chemical energy store in the person’s body to the gravitational potential energy store of the toolbox–Earth system as work is done lifting it.",
+        "explanation": "Doing work against gravity transfers energy to a gravitational potential store. Energy stores and transfer pathways describe different parts of the process.",
+        "hint": "Identify the starting and finishing stores.",
+        "steps": [
+          "Energy comes from the person’s chemical store.",
+          "Gravitational potential energy increases."
+        ],
+        "misconception": "The toolbox does not gain kinetic energy if it begins and ends at rest.",
+        "rubric": [
+          {
+            "point": "Energy comes from the person’s chemical store",
+            "patterns": [
+              "chemical.{0,30}(energy|store)",
+              "(body|person|muscle).{0,30}chemical"
+            ]
+          },
+          {
+            "point": "Gravitational potential energy increases",
+            "patterns": [
+              "gravitational potential",
+              "\\bgpe\\b"
+            ]
+          }
+        ],
+        "id": "2020-2a"
+      }
+    },
+    {
+      "id": "2020-2b",
+      "question": "2(b)",
+      "marks": 4,
+      "topic": "motion",
+      "skill": "instantaneous-speed-lightgate",
+      "answer": "Measure a card length and the time it blocks a light gate at the slope bottom; calculate length/time and repeat. Alternatively time a very short marked distance near the bottom.",
+      "learning": "A short card gives a speed averaged over a very short interval near the chosen position, which approximates the speed there.",
+      "questionPage": 4,
+      "markSchemePage": 7,
+      "card": {
+        "title": "Speed at the bottom",
+        "kind": "text",
+        "prompt": "Describe how to measure a toy truck’s speed at the bottom of a ramp using a light gate.",
+        "marks": 4,
+        "modelAnswer": "Attach a card to the truck and measure the card’s length. Put the light gate at the bottom of the ramp and measure how long the card blocks the beam. Calculate speed = card length/blocking time. Repeat the release from the same position and find a mean.",
+        "explanation": "A short card gives a speed averaged over a very short interval near the chosen position, which approximates the speed there.",
+        "hint": "Which length passes through the light gate?",
+        "steps": [
+          "Measure the card length.",
+          "Measure time blocking a light gate at the bottom.",
+          "Divide card length by blocking time.",
+          "Repeat releases and average."
+        ],
+        "misconception": "The full ramp length divided by the full journey time gives average speed over the ramp, not speed at its bottom.",
+        "rubric": [
+          {
+            "point": "Measure the card length",
+            "patterns": [
+              "(measure|length).{0,35}card",
+              "card.{0,25}length"
+            ]
+          },
+          {
+            "point": "Measure time blocking a light gate at the bottom",
+            "patterns": [
+              "light gate",
+              "blocking time",
+              "time.{0,40}(beam|card)"
+            ]
+          },
+          {
+            "point": "Divide card length by blocking time",
+            "patterns": [
+              "(speed|v).{0,30}(length|distance).{0,20}(/|divid|over)",
+              "(length|distance).{0,20}(divid|/).{0,20}time"
+            ]
+          },
+          {
+            "point": "Repeat releases and average",
+            "patterns": [
+              "repeat.{0,50}(mean|average)"
+            ]
+          }
+        ],
+        "id": "2020-2b"
+      }
+    },
+    {
+      "id": "2020-2c",
+      "question": "2(c)",
+      "marks": 2,
+      "topic": "energy",
+      "skill": "gpe-kinetic-measurements",
+      "answer": "Besides the speed measurement, measure the car’s mass and the vertical height fallen to calculate mgh and ½mv².",
+      "learning": "Both Eₖ = ½mv² and ΔEₚ = mgΔh need mass; gravitational energy needs vertical height. Use the correct geometric height, not ramp length.",
+      "questionPage": 5,
+      "markSchemePage": 7,
+      "card": {
+        "title": "What else must you measure?",
+        "kind": "choice",
+        "prompt": "You already know a cart’s final speed. Which two extra measurements let you compare its gravitational energy loss with kinetic energy gain?",
+        "marks": 1,
+        "options": [
+          "Cart mass and vertical height fallen",
+          "Ramp colour and room pressure",
+          "Only distance along the ramp and its width",
+          "Only the time taken and cart colour"
+        ],
+        "correctIndex": 0,
+        "modelAnswer": "Measure the cart mass and its vertical height change.",
+        "explanation": "Both Eₖ = ½mv² and ΔEₚ = mgΔh need mass; gravitational energy needs vertical height. Use the correct geometric height, not ramp length.",
+        "hint": "Write both energy equations and list the missing quantities.",
+        "steps": [
+          "Identify the physical quantity or process.",
+          "Apply the rule to the situation.",
+          "Check the other options for a common misconception."
+        ],
+        "misconception": "A longer sloping route is not the same as a larger vertical fall.",
+        "id": "2020-2c"
+      }
+    },
+    {
+      "id": "2020-2d",
+      "question": "2(d)",
+      "marks": 1,
+      "topic": "energy",
+      "skill": "energy-dissipation-difference",
+      "answer": "Energy transferred to the surroundings equals gravitational potential energy lost minus kinetic energy gained, for the stores considered.",
+      "learning": "Conservation of energy means the difference has not vanished. It may become thermal energy through friction or sound.",
+      "questionPage": 5,
+      "markSchemePage": 8,
+      "card": {
+        "title": "Find the dissipated energy",
+        "kind": "number",
+        "prompt": "A rolling ball loses 18 J of gravitational potential energy but gains only 13 J of kinetic energy. How much energy is transferred to other stores?",
+        "marks": 2,
+        "answer": 5,
+        "unit": "J",
+        "tolerance": 0.075,
+        "modelAnswer": "Other energy transfers = 18 − 13 = 5 J.",
+        "explanation": "Conservation of energy means the difference has not vanished. It may become thermal energy through friction or sound.",
+        "hint": "Compare the energy lost and gained.",
+        "steps": [
+          "Write the relevant equation.",
+          "Convert quantities to the units requested and substitute.",
+          "Calculate, check the size of your answer and include the unit."
+        ],
+        "misconception": "Do not add the two energies to find the loss.",
+        "id": "2020-2d"
+      }
+    },
+    {
+      "id": "2020-3a",
+      "question": "3(a)",
+      "marks": 1,
+      "topic": "skills",
+      "skill": "identify-vector",
+      "answer": "Force is a vector; energy, mass and work are scalars.",
+      "learning": "A vector changes if its direction changes, even when its size is unchanged. Scalars have no associated direction.",
+      "questionPage": 6,
+      "markSchemePage": 9,
+      "card": {
+        "title": "A direction is essential",
+        "kind": "choice",
+        "prompt": "Which quantity must include a direction for a complete description?",
+        "marks": 1,
+        "options": [
+          "Mass",
+          "Work done",
+          "Resultant force",
+          "Temperature"
+        ],
+        "correctIndex": 2,
+        "modelAnswer": "Resultant force needs both a magnitude and a direction.",
+        "explanation": "A vector changes if its direction changes, even when its size is unchanged. Scalars have no associated direction.",
+        "hint": "Can “20 units east” make physical sense for the quantity?",
+        "steps": [
+          "Identify the physical quantity or process.",
+          "Apply the rule to the situation.",
+          "Check the other options for a common misconception."
+        ],
+        "misconception": "Work can be positive or negative but is still a scalar quantity.",
+        "id": "2020-3a"
+      }
+    },
+    {
+      "id": "2020-3bi",
+      "question": "3(b)(i)",
+      "marks": 1,
+      "topic": "motion",
+      "skill": "acceleration-equation",
+      "answer": "Acceleration is change in velocity divided by time: a = (v−u)/t.",
+      "learning": "Average acceleration describes how much velocity changes per unit time. Subtract initial from final velocity before dividing.",
+      "questionPage": 6,
+      "markSchemePage": 9,
+      "card": {
+        "title": "Choose the acceleration equation",
+        "kind": "choice",
+        "prompt": "A vehicle changes velocity from u to v in time t. Which expression gives its average acceleration?",
+        "marks": 1,
+        "options": [
+          "t/(v − u)",
+          "vt/u",
+          "(v + u)t",
+          "(v − u)/t"
+        ],
+        "correctIndex": 3,
+        "modelAnswer": "a = (v − u)/t.",
+        "explanation": "Average acceleration describes how much velocity changes per unit time. Subtract initial from final velocity before dividing.",
+        "hint": "Acceleration has units of velocity per second.",
+        "steps": [
+          "Identify the physical quantity or process.",
+          "Apply the rule to the situation.",
+          "Check the other options for a common misconception."
+        ],
+        "misconception": "Final velocity divided by time works only when the initial velocity is zero.",
+        "id": "2020-3bi"
+      }
+    },
+    {
+      "id": "2020-3bii",
+      "question": "3(b)(ii)",
+      "marks": 2,
+      "topic": "motion",
+      "skill": "acceleration-calculation",
+      "answer": "a = (20−2)/12 = 1.5 m/s².",
+      "learning": "Use velocity change, not the final velocity. The result tells you the average increase in velocity each second.",
+      "questionPage": 6,
+      "markSchemePage": 9,
+      "card": {
+        "title": "A change every second",
+        "kind": "number",
+        "prompt": "A bus speeds up from 5 m/s to 17 m/s in 8 s. Calculate its average acceleration.",
+        "marks": 2,
+        "answer": 1.5,
+        "unit": "m/s²",
+        "tolerance": 0.0225,
+        "modelAnswer": "a = (17 − 5)/8 = 12/8 = 1.5 m/s².",
+        "explanation": "Use velocity change, not the final velocity. The result tells you the average increase in velocity each second.",
+        "hint": "Start by subtracting 5 from 17.",
+        "steps": [
+          "Write the relevant equation.",
+          "Convert quantities to the units requested and substitute.",
+          "Calculate, check the size of your answer and include the unit."
+        ],
+        "misconception": "17/8 would count the initial motion as part of the increase.",
+        "id": "2020-3bii"
+      }
+    },
+    {
+      "id": "2020-3ci",
+      "question": "3(c)(i)",
+      "marks": 3,
+      "topic": "motion",
+      "skill": "velocity-time-area",
+      "answer": "The straight-line velocity–time graph forms a triangle: distance = ½ × 15 × 7 = 52.5 m.",
+      "learning": "Area under a velocity–time graph gives displacement. Here velocity stays positive, so displacement equals distance.",
+      "questionPage": 7,
+      "markSchemePage": 10,
+      "card": {
+        "title": "Area under a velocity graph",
+        "kind": "number",
+        "prompt": "A velocity–time graph is a straight line from 0 m/s at 0 s to 8 m/s at 12 s. How far does the object travel?",
+        "marks": 3,
+        "answer": 48,
+        "unit": "m",
+        "tolerance": 0.72,
+        "modelAnswer": "Distance = triangular area = ½ × 12 × 8 = 48 m.",
+        "explanation": "Area under a velocity–time graph gives displacement. Here velocity stays positive, so displacement equals distance.",
+        "hint": "What is the area of a triangle?",
+        "steps": [
+          "Write the relevant equation.",
+          "Convert quantities to the units requested and substitute.",
+          "Calculate, check the size of your answer and include the unit."
+        ],
+        "misconception": "Multiplying final speed by total time gives twice the correct answer for motion from rest with uniform acceleration.",
+        "id": "2020-3ci"
+      }
+    },
+    {
+      "id": "2020-3cii",
+      "question": "3(c)(ii)",
+      "marks": 2,
+      "topic": "motion",
+      "skill": "velocity-time-decreasing-gradient",
+      "answer": "Draw a curve starting at (0,0) that rises with a progressively smaller positive gradient.",
+      "learning": "The gradient of a velocity–time graph is acceleration. A positive but decreasing gradient means velocity still increases, just more slowly.",
+      "questionPage": 7,
+      "markSchemePage": 10,
+      "card": {
+        "title": "A changing acceleration graph",
+        "kind": "choice",
+        "prompt": "An object starts from rest and keeps speeding up, but its acceleration gets smaller. Which velocity–time graph description fits?",
+        "marks": 1,
+        "options": [
+          "It is a horizontal line at zero",
+          "It rises and becomes progressively steeper",
+          "It slopes down at a constant rate",
+          "It rises from the origin and gradually becomes less steep"
+        ],
+        "correctIndex": 3,
+        "modelAnswer": "The curve rises from the origin with decreasing positive gradient.",
+        "explanation": "The gradient of a velocity–time graph is acceleration. A positive but decreasing gradient means velocity still increases, just more slowly.",
+        "hint": "What does gradient mean on this graph?",
+        "steps": [
+          "Identify the physical quantity or process.",
+          "Apply the rule to the situation.",
+          "Check the other options for a common misconception."
+        ],
+        "misconception": "A decreasing acceleration does not necessarily mean the object is slowing down.",
+        "id": "2020-3cii"
+      }
+    },
+    {
+      "id": "2020-4a",
+      "question": "4(a)",
+      "marks": 2,
+      "topic": "astronomy",
+      "skill": "stellar-mass-ratio",
+      "answer": "The mass ratio is (3.4 × 10²⁹)/(2.0 × 10³⁰) = 0.17.",
+      "learning": "In a ratio the matching mass units cancel. A less massive star must give a ratio below one.",
+      "questionPage": 8,
+      "markSchemePage": 11,
+      "card": {
+        "title": "Compare enormous masses",
+        "kind": "number",
+        "prompt": "A small star has mass 6.0 × 10²⁹ kg and a reference star has mass 2.0 × 10³⁰ kg. Calculate small-star mass divided by reference-star mass.",
+        "marks": 2,
+        "answer": 0.3,
+        "unit": "",
+        "tolerance": 0.0045,
+        "modelAnswer": "Ratio = (6.0/2.0) × 10⁻¹ = 0.30.",
+        "explanation": "In a ratio the matching mass units cancel. A less massive star must give a ratio below one.",
+        "hint": "Divide the leading numbers and subtract the exponents.",
+        "steps": [
+          "Write the relevant equation.",
+          "Convert quantities to the units requested and substitute.",
+          "Calculate, check the size of your answer and include the unit."
+        ],
+        "misconception": "A ratio below one is sensible here; 3 would make the smaller star more massive.",
+        "id": "2020-4a"
+      }
+    },
+    {
+      "id": "2020-4bi",
+      "question": "4(b)(i)",
+      "marks": 1,
+      "topic": "astronomy",
+      "skill": "stellar-temperature-graph",
+      "answer": "The plotted Sun lies around 6000 K; the mark scheme accepts graph estimates between 5500 K and 7500 K.",
+      "learning": "Graph axes do not always increase to the right. Read the labelled scale and whether it is linear before estimating.",
+      "questionPage": 8,
+      "markSchemePage": 11,
+      "card": {
+        "title": "Read a reversed temperature axis",
+        "kind": "choice",
+        "prompt": "A stellar graph’s temperature axis runs from 20 000 K on the left to 5000 K on the right. A star is halfway between these values on a locally linear section. What temperature is it?",
+        "marks": 1,
+        "options": [
+          "7500 K",
+          "25 000 K",
+          "12 500 K",
+          "2500 K"
+        ],
+        "correctIndex": 2,
+        "modelAnswer": "It is 12 500 K.",
+        "explanation": "Graph axes do not always increase to the right. Read the labelled scale and whether it is linear before estimating.",
+        "hint": "Average the two temperatures for the stated linear section.",
+        "steps": [
+          "Identify the physical quantity or process.",
+          "Apply the rule to the situation.",
+          "Check the other options for a common misconception."
+        ],
+        "misconception": "Do not assume every astronomical axis is linear or increases left to right.",
+        "id": "2020-4bi"
+      }
+    },
+    {
+      "id": "2020-4bii",
+      "question": "4(b)(ii)",
+      "marks": 1,
+      "topic": "astronomy",
+      "skill": "main-sequence-temperature-luminosity",
+      "answer": "Among the main-sequence stars shown, higher temperature corresponds to greater luminosity.",
+      "learning": "Luminosity means total power emitted, whereas temperature describes the surface. The trend is for main-sequence stars and should not be applied blindly to every stage of stellar life.",
+      "questionPage": 9,
+      "markSchemePage": 11,
+      "card": {
+        "title": "A main-sequence trend",
+        "kind": "choice",
+        "prompt": "For main-sequence stars in a typical temperature–luminosity diagram, which general trend is shown?",
+        "marks": 1,
+        "options": [
+          "Hotter stars are generally more luminous",
+          "Hotter stars are always dimmer",
+          "Temperature and luminosity are identical quantities",
+          "All stars have the Sun’s luminosity"
+        ],
+        "correctIndex": 0,
+        "modelAnswer": "Hotter main-sequence stars are generally more luminous.",
+        "explanation": "Luminosity means total power emitted, whereas temperature describes the surface. The trend is for main-sequence stars and should not be applied blindly to every stage of stellar life.",
+        "hint": "Distinguish the surface property from total output.",
+        "steps": [
+          "Identify the physical quantity or process.",
+          "Apply the rule to the situation.",
+          "Check the other options for a common misconception."
+        ],
+        "misconception": "A nearby dim star can look bright; apparent brightness and luminosity are different.",
+        "id": "2020-4bii"
+      }
+    },
+    {
+      "id": "2020-4biii",
+      "question": "4(b)(iii)",
+      "marks": 1,
+      "topic": "astronomy",
+      "skill": "main-sequence-mass-luminosity",
+      "answer": "Higher-mass main-sequence stars in the diagram have greater luminosity.",
+      "learning": "Greater core pressure and temperature allow a much higher fusion rate. Massive stars can use their fuel faster despite starting with more of it.",
+      "questionPage": 9,
+      "markSchemePage": 11,
+      "card": {
+        "title": "Mass and main-sequence power",
+        "kind": "choice",
+        "prompt": "Compared with a low-mass main-sequence star, a much more massive main-sequence star generally has which property?",
+        "marks": 1,
+        "options": [
+          "An infinite lifetime",
+          "Greater luminosity",
+          "No nuclear fusion",
+          "Exactly the same temperature and power"
+        ],
+        "correctIndex": 1,
+        "modelAnswer": "It generally has greater luminosity.",
+        "explanation": "Greater core pressure and temperature allow a much higher fusion rate. Massive stars can use their fuel faster despite starting with more of it.",
+        "hint": "Think about the rate of fusion.",
+        "steps": [
+          "Identify the physical quantity or process.",
+          "Apply the rule to the situation.",
+          "Check the other options for a common misconception."
+        ],
+        "misconception": "More fuel does not automatically mean a longer main-sequence lifetime.",
+        "id": "2020-4biii"
+      }
+    },
+    {
+      "id": "2020-4c",
+      "question": "4(c)",
+      "marks": 3,
+      "topic": "radioactivity",
+      "skill": "fusion-process",
+      "answer": "Small nuclei join to form a larger nucleus, releasing energy; very high temperature is needed to overcome repulsion.",
+      "learning": "Fusion changes the nucleus, not the electron arrangement. The mass of the final products is slightly lower, corresponding to the energy released.",
+      "questionPage": 9,
+      "markSchemePage": 12,
+      "card": {
+        "title": "What happens in fusion?",
+        "kind": "text",
+        "prompt": "Describe nuclear fusion in a star.",
+        "marks": 3,
+        "modelAnswer": "Small nuclei, such as hydrogen nuclei, join to form a larger nucleus such as helium. This process releases energy. Very high temperatures let positively charged nuclei approach closely enough to fuse.",
+        "explanation": "Fusion changes the nucleus, not the electron arrangement. The mass of the final products is slightly lower, corresponding to the energy released.",
+        "hint": "Does fusion split or join nuclei?",
+        "steps": [
+          "Small nuclei join.",
+          "A larger nucleus is formed.",
+          "Energy is released."
+        ],
+        "misconception": "Fusion is not chemical bonding between whole atoms.",
+        "rubric": [
+          {
+            "point": "Small nuclei join",
+            "patterns": [
+              "(small|hydrogen).{0,30}nucle.{0,40}(join|fuse)",
+              "nucle.{0,30}(join|fuse)"
+            ]
+          },
+          {
+            "point": "A larger nucleus is formed",
+            "patterns": [
+              "(larger|helium).{0,20}nucle",
+              "(form|produc).{0,30}(larger|helium)"
+            ]
+          },
+          {
+            "point": "Energy is released",
+            "patterns": [
+              "energy.{0,20}release",
+              "release.{0,20}energy"
+            ]
+          }
+        ],
+        "id": "2020-4c"
+      }
+    },
+    {
+      "id": "2020-4d",
+      "question": "4(d)",
+      "marks": 3,
+      "topic": "astronomy",
+      "skill": "nebula-collapse",
+      "answer": "Gravity draws the nebula’s gas and dust together. Contraction increases density and temperature until nuclear fusion begins in the core.",
+      "learning": "The main sequence is the stable hydrogen-fusing stage. Gravity starts the contraction; fusion then supplies the energy needed to maintain pressure.",
+      "questionPage": 9,
+      "markSchemePage": 12,
+      "card": {
+        "title": "From nebula to main sequence",
+        "kind": "text",
+        "prompt": "Explain the steps that turn a nebula into a main-sequence star.",
+        "marks": 3,
+        "modelAnswer": "A nebula is a cloud of gas and dust. Gravity makes it collapse inward, increasing its density and temperature. Once the core is hot enough, hydrogen fusion begins; the star enters its main-sequence stage when outward pressure balances gravity.",
+        "explanation": "The main sequence is the stable hydrogen-fusing stage. Gravity starts the contraction; fusion then supplies the energy needed to maintain pressure.",
+        "hint": "What initially pulls the cloud together?",
+        "steps": [
+          "Gas or dust collapse under gravity.",
+          "Temperature increases as the cloud contracts.",
+          "Fusion begins when the core is hot enough."
+        ],
+        "misconception": "A protostar is not yet a stable main-sequence star before sustained fusion begins.",
+        "rubric": [
+          {
+            "point": "Gas or dust collapse under gravity",
+            "patterns": [
+              "gravit.{0,50}(collaps|contract|pull)",
+              "(collaps|contract).{0,35}gravit"
+            ]
+          },
+          {
+            "point": "Temperature increases as the cloud contracts",
+            "patterns": [
+              "temperature.{0,30}(increas|rise)",
+              "(increas|rise|hotter).{0,30}temperature"
+            ]
+          },
+          {
+            "point": "Fusion begins when the core is hot enough",
+            "patterns": [
+              "fusion.{0,25}(begin|start)",
+              "(hot|core).{0,45}fusion"
+            ]
+          }
+        ],
+        "id": "2020-4d"
+      }
+    },
+    {
+      "id": "2020-5a",
+      "question": "5(a)",
+      "marks": 3,
+      "topic": "electromagnetic",
+      "skill": "half-wavelength-aerial",
+      "answer": "λ = c/f = 3.00 × 10⁸/(97.4 × 10⁶) ≈ 3.08 m, so the half-wavelength aerial length is about 1.54 m.",
+      "learning": "Use the wave equation to find wavelength, then apply the stated fraction. Prefix conversion and the final halving are separate steps.",
+      "questionPage": 10,
+      "markSchemePage": 13,
+      "card": {
+        "title": "Choose a half-wave aerial",
+        "kind": "number",
+        "prompt": "A transmitter broadcasts at 75 MHz. An aerial should be half a wavelength long. Take wave speed as 3.0 × 10⁸ m/s. Calculate the aerial length.",
+        "marks": 3,
+        "answer": 2,
+        "unit": "m",
+        "tolerance": 0.03,
+        "modelAnswer": "75 MHz = 75 × 10⁶ Hz. λ = (3.0 × 10⁸)/(75 × 10⁶) = 4.0 m. Aerial length = λ/2 = 2.0 m.",
+        "explanation": "Use the wave equation to find wavelength, then apply the stated fraction. Prefix conversion and the final halving are separate steps.",
+        "hint": "MHz means a million hertz.",
+        "steps": [
+          "Write the relevant equation.",
+          "Convert quantities to the units requested and substitute.",
+          "Calculate, check the size of your answer and include the unit."
+        ],
+        "misconception": "Do not report the full wavelength as the aerial length.",
+        "id": "2020-5a"
+      }
+    },
+    {
+      "id": "2020-5b",
+      "question": "5(b)",
+      "marks": 2,
+      "topic": "light",
+      "skill": "refraction-practical-angle",
+      "answer": "Trace the ray’s entry and exit points, remove the block and join them. Measure the angle between the internal ray and the normal using a protractor.",
+      "learning": "The ray inside the solid is reconstructed from its endpoints. Refraction angles are always measured relative to the normal.",
+      "questionPage": 10,
+      "markSchemePage": 14,
+      "card": {
+        "title": "Measure a hidden refracted ray",
+        "kind": "text",
+        "prompt": "A rectangular glass block sits on paper. How can you measure the angle of the ray inside the block?",
+        "marks": 2,
+        "modelAnswer": "Mark where the narrow ray enters and leaves the block. Remove the block and join those points to trace the internal ray. Draw a normal to the entry face and use a protractor to measure the angle between that normal and the internal ray.",
+        "explanation": "The ray inside the solid is reconstructed from its endpoints. Refraction angles are always measured relative to the normal.",
+        "hint": "Use the two visible boundary points.",
+        "steps": [
+          "Trace or join the entry and exit points.",
+          "Measure the internal ray angle to the normal."
+        ],
+        "misconception": "Do not measure the angle between the ray and the side of the block.",
+        "rubric": [
+          {
+            "point": "Trace or join the entry and exit points",
+            "patterns": [
+              "(entry|enter).{0,60}(exit|leave)",
+              "(join|trace).{0,40}(point|ray)"
+            ]
+          },
+          {
+            "point": "Measure the internal ray angle to the normal",
+            "patterns": [
+              "(measure|protractor).{0,65}normal",
+              "normal.{0,65}(protractor|measure)"
+            ]
+          }
+        ],
+        "id": "2020-5b"
+      }
+    },
+    {
+      "id": "2020-5c",
+      "question": "5(c)",
+      "marks": 4,
+      "topic": "electromagnetic",
+      "skill": "reflection-refraction-speed",
+      "answer": "P refracts towards the normal and slows in the upper layer; Q reflects at an equal angle and keeps its speed in the original lower layer.",
+      "learning": "Refraction accompanies a change of propagation speed. Reflection sends energy back into the same medium and follows equal angles to the normal.",
+      "questionPage": 11,
+      "markSchemePage": 14,
+      "card": {
+        "title": "One wave splits at a boundary",
+        "kind": "text",
+        "prompt": "A wave meets a boundary: the transmitted wave enters a slower medium, and another part is reflected. Describe the direction and speed changes of both parts.",
+        "marks": 4,
+        "modelAnswer": "The transmitted part slows and bends towards the normal. The reflected part remains in the original medium, so its speed is unchanged, and its angle of reflection equals its angle of incidence.",
+        "explanation": "Refraction accompanies a change of propagation speed. Reflection sends energy back into the same medium and follows equal angles to the normal.",
+        "hint": "Treat the transmitted and reflected parts separately.",
+        "steps": [
+          "Transmitted ray bends towards normal.",
+          "Transmitted wave slows.",
+          "Reflection angle equals incidence angle.",
+          "Reflected speed is unchanged."
+        ],
+        "misconception": "The reflected wave does not acquire the slower speed of the second medium.",
+        "rubric": [
+          {
+            "point": "Transmitted ray bends towards normal",
+            "patterns": [
+              "(transmit|refract).{0,60}towards?.{0,15}normal",
+              "towards? the normal"
+            ]
+          },
+          {
+            "point": "Transmitted wave slows",
+            "patterns": [
+              "(transmit|refract).{0,50}(slow|speed.{0,10}decreas)",
+              "slower medium"
+            ]
+          },
+          {
+            "point": "Reflection angle equals incidence angle",
+            "patterns": [
+              "(reflect|inciden).{0,50}(equal|same).{0,50}(angle|inciden|reflect)",
+              "angle.{0,20}reflect.{0,20}equal"
+            ]
+          },
+          {
+            "point": "Reflected speed is unchanged",
+            "patterns": [
+              "reflect.{0,60}(speed.{0,20}(same|unchanged)|same.{0,15}speed)",
+              "original medium.{0,50}speed.{0,20}unchanged"
+            ]
+          }
+        ],
+        "id": "2020-5c"
+      }
+    },
+    {
+      "id": "2020-6ai",
+      "question": "6(a)(i)",
+      "marks": 2,
+      "topic": "waves",
+      "skill": "percentage-error",
+      "answer": "Percentage difference = (343−240)/343 × 100 ≈ 30%.",
+      "learning": "A percentage error compares the size of the discrepancy with the reference value. State which value is being used as the denominator.",
+      "questionPage": 12,
+      "markSchemePage": 15,
+      "card": {
+        "title": "Percentage difference from a reference",
+        "kind": "number",
+        "prompt": "A sound-speed experiment gives 306 m/s and the accepted value is 340 m/s. Calculate the percentage difference relative to the accepted value.",
+        "marks": 2,
+        "answer": 10,
+        "unit": "%",
+        "tolerance": 0.15,
+        "modelAnswer": "Difference = 340 − 306 = 34 m/s. Percentage difference = 34/340 × 100 = 10%.",
+        "explanation": "A percentage error compares the size of the discrepancy with the reference value. State which value is being used as the denominator.",
+        "hint": "Divide the difference by the accepted value.",
+        "steps": [
+          "Write the relevant equation.",
+          "Convert quantities to the units requested and substitute.",
+          "Calculate, check the size of your answer and include the unit."
+        ],
+        "misconception": "Do not divide by the experimental value when the question asks for the accepted-value reference.",
+        "id": "2020-6ai"
+      }
+    },
+    {
+      "id": "2020-6aii",
+      "question": "6(a)(ii)",
+      "marks": 2,
+      "topic": "waves",
+      "skill": "reaction-time-uncertainty",
+      "answer": "Human reaction times differ and are a large fraction of the short sound-travel interval, so manual times vary between students.",
+      "learning": "A variable human delay can dominate a short interval. This is measurement uncertainty, not evidence that sound speed changes for each student.",
+      "questionPage": 12,
+      "markSchemePage": 15,
+      "card": {
+        "title": "Why do manual times scatter?",
+        "kind": "text",
+        "prompt": "Several students time a sound delay of about 0.3 s by hand and get different answers. Explain why.",
+        "marks": 2,
+        "modelAnswer": "Their reaction times vary from one trial and student to another. Since reaction time is a large fraction of the short 0.3 s interval, those differences make the measured delays scatter considerably.",
+        "explanation": "A variable human delay can dominate a short interval. This is measurement uncertainty, not evidence that sound speed changes for each student.",
+        "hint": "Compare tenths of a second with a human response delay.",
+        "steps": [
+          "Reaction times vary between people or trials.",
+          "Reaction time is significant compared with the short interval."
+        ],
+        "misconception": "Repeated readings can vary even when everyone follows the method carefully.",
+        "rubric": [
+          {
+            "point": "Reaction times vary between people or trials",
+            "patterns": [
+              "reaction.{0,35}(var|differ)",
+              "(var|differ).{0,35}reaction"
+            ]
+          },
+          {
+            "point": "Reaction time is significant compared with the short interval",
+            "patterns": [
+              "(large|significant|fraction).{0,40}(time|interval|delay)",
+              "short.{0,35}(interval|time|delay)"
+            ]
+          }
+        ],
+        "id": "2020-6aii"
+      }
+    },
+    {
+      "id": "2020-6aiii",
+      "question": "6(a)(iii)",
+      "marks": 2,
+      "topic": "waves",
+      "skill": "reduce-relative-timing-error",
+      "answer": "Use a much longer separation or electronic timing; this reduces the relative importance of reaction time or removes human timing delays.",
+      "learning": "An improvement answer needs both a specific change and the source of uncertainty it addresses.",
+      "questionPage": 13,
+      "markSchemePage": 16,
+      "card": {
+        "title": "An improvement needs a reason",
+        "kind": "text",
+        "prompt": "A class measures the speed of sound using visual and sound signals. Suggest an improvement to the timing and explain how it reduces error.",
+        "marks": 2,
+        "modelAnswer": "Use microphones linked to an electronic timer to detect the sound automatically. This removes the students’ reaction delays from starting and stopping the timing.",
+        "explanation": "An improvement answer needs both a specific change and the source of uncertainty it addresses.",
+        "hint": "Replace manual responses with automatic detection.",
+        "steps": [
+          "Automatic timing with microphones or sensors.",
+          "Reduce or remove reaction-time effects."
+        ],
+        "misconception": "“Use a more accurate stopwatch” does not remove the student’s reaction time.",
+        "rubric": [
+          {
+            "point": "Automatic timing with microphones or sensors",
+            "patterns": [
+              "(microphone|sensor|electronic|data.?logger|automatic).{0,50}(tim|detect)",
+              "electronic timer"
+            ]
+          },
+          {
+            "point": "Reduce or remove reaction-time effects",
+            "patterns": [
+              "(remov|eliminat|reduc).{0,40}reaction",
+              "reaction.{0,40}(remov|eliminat|reduc)"
+            ]
+          }
+        ],
+        "id": "2020-6aiii"
+      }
+    },
+    {
+      "id": "2020-6bi",
+      "question": "6(b)(i)",
+      "marks": 1,
+      "topic": "waves",
+      "skill": "longitudinal-wavelength",
+      "answer": "One wavelength is the distance between equivalent points on adjacent compressions, or adjacent rarefactions.",
+      "learning": "Equivalent points repeat once per cycle. A compression to the neighbouring rarefaction is half a cycle.",
+      "questionPage": 13,
+      "markSchemePage": 16,
+      "card": {
+        "title": "Wavelength in a sound picture",
+        "kind": "choice",
+        "prompt": "A picture shows alternating compressions and rarefactions in air. Which distance is one wavelength?",
+        "marks": 1,
+        "options": [
+          "The full length of every compression shown",
+          "Centre of one compression to centre of the next compression",
+          "The distance one air particle travels to the listener",
+          "Centre of one compression to the next rarefaction"
+        ],
+        "correctIndex": 1,
+        "modelAnswer": "Measure between the centres of two consecutive compressions.",
+        "explanation": "Equivalent points repeat once per cycle. A compression to the neighbouring rarefaction is half a cycle.",
+        "hint": "Choose matching points on neighbouring cycles.",
+        "steps": [
+          "Identify the physical quantity or process.",
+          "Apply the rule to the situation.",
+          "Check the other options for a common misconception."
+        ],
+        "misconception": "The spacing between particles inside one compression is not the wavelength.",
+        "id": "2020-6bi"
+      }
+    },
+    {
+      "id": "2020-6bii",
+      "question": "6(b)(ii)",
+      "marks": 2,
+      "topic": "waves",
+      "skill": "longitudinal-particle-motion",
+      "answer": "Air particles oscillate backwards and forwards about their mean positions, parallel to the direction of sound travel.",
+      "learning": "Sound transfers energy through neighbouring particles’ oscillations. The longitudinal direction of oscillation differs from a transverse wave.",
+      "questionPage": 13,
+      "markSchemePage": 17,
+      "card": {
+        "title": "Follow one air particle",
+        "kind": "text",
+        "prompt": "A sound wave travels from left to right. Describe what one air particle does.",
+        "marks": 2,
+        "modelAnswer": "The particle vibrates left and right about its average position. This is parallel to the direction of wave travel, rather than travelling all the way with the wave.",
+        "explanation": "Sound transfers energy through neighbouring particles’ oscillations. The longitudinal direction of oscillation differs from a transverse wave.",
+        "hint": "Separate the wave travelling across the room from one particle’s movement.",
+        "steps": [
+          "Back-and-forth vibration about a mean position.",
+          "Motion parallel to wave direction."
+        ],
+        "misconception": "The air particle does not steadily move from the loudspeaker to your ear.",
+        "rubric": [
+          {
+            "point": "Back-and-forth vibration about a mean position",
+            "patterns": [
+              "(vibrat|oscillat).{0,45}(left and right|back|mean|average|fixed)",
+              "(left and right|back and forth).{0,35}(particle|vibrat)"
+            ]
+          },
+          {
+            "point": "Motion parallel to wave direction",
+            "patterns": [
+              "parallel.{0,45}(direction|wave)",
+              "same direction.{0,25}wave"
+            ]
+          }
+        ],
+        "id": "2020-6bii"
+      }
+    },
+    {
+      "id": "2020-7a",
+      "question": "7(a)",
+      "marks": 1,
+      "topic": "radioactivity",
+      "skill": "isotopes-definition",
+      "answer": "Isotopes have the same atomic/proton number but different neutron numbers.",
+      "learning": "Proton number defines the element. Changing neutron number changes the isotope and mass number without changing the element.",
+      "questionPage": 15,
+      "markSchemePage": 18,
+      "card": {
+        "title": "What makes two isotopes?",
+        "kind": "choice",
+        "prompt": "Two nuclei are isotopes of the same element. Which statement must be true?",
+        "marks": 1,
+        "options": [
+          "They have no neutrons",
+          "They have the same proton number but different neutron numbers",
+          "They have different proton numbers but the same electrons",
+          "They have the same mass number but different proton numbers"
+        ],
+        "correctIndex": 1,
+        "modelAnswer": "They have equal proton numbers and different neutron numbers.",
+        "explanation": "Proton number defines the element. Changing neutron number changes the isotope and mass number without changing the element.",
+        "hint": "Which particle number defines an element?",
+        "steps": [
+          "Identify the physical quantity or process.",
+          "Apply the rule to the situation.",
+          "Check the other options for a common misconception."
+        ],
+        "misconception": "A change in proton number makes a different element.",
+        "id": "2020-7a"
+      }
+    },
+    {
+      "id": "2020-7b",
+      "question": "7(b)",
+      "marks": 1,
+      "topic": "radioactivity",
+      "skill": "beta-plus-process",
+      "answer": "The diagram shows a proton changing into a neutron and emitting a positron: beta-plus decay.",
+      "learning": "Beta-plus emission converts a proton into a neutron, decreasing atomic number by one while leaving mass number unchanged. A positron is the positive antiparticle of an electron.",
+      "questionPage": 15,
+      "markSchemePage": 18,
+      "card": {
+        "title": "Identify beta-plus decay",
+        "kind": "choice",
+        "prompt": "A proton in a nucleus changes into a neutron and a positron is emitted. What process is this?",
+        "marks": 1,
+        "options": [
+          "Alpha decay",
+          "Beta-minus decay",
+          "Gamma emission",
+          "Beta-plus decay"
+        ],
+        "correctIndex": 3,
+        "modelAnswer": "It is beta-plus decay.",
+        "explanation": "Beta-plus emission converts a proton into a neutron, decreasing atomic number by one while leaving mass number unchanged. A positron is the positive antiparticle of an electron.",
+        "hint": "Use the sign of the emitted particle.",
+        "steps": [
+          "Identify the physical quantity or process.",
+          "Apply the rule to the situation.",
+          "Check the other options for a common misconception."
+        ],
+        "misconception": "Beta-minus decay changes a neutron into a proton, the reverse nuclear conversion.",
+        "id": "2020-7b"
+      }
+    },
+    {
+      "id": "2020-7c",
+      "question": "7(c)",
+      "marks": 3,
+      "topic": "radioactivity",
+      "skill": "activity-after-half-lives",
+      "answer": "Twenty years is four 5-year half-lives. Activity = 38.5/16 = 2.40625 kBq, about 2.4 kBq.",
+      "learning": "Every additional half-life halves the remaining activity, producing exponential decay. Use the same time units before counting half-lives.",
+      "questionPage": 15,
+      "markSchemePage": 18,
+      "card": {
+        "title": "An old source loses activity",
+        "kind": "number",
+        "prompt": "A source has activity 64 kBq and a half-life of 3 years. What is its activity after 15 years?",
+        "marks": 3,
+        "answer": 2,
+        "unit": "kBq",
+        "tolerance": 0.03,
+        "modelAnswer": "15/3 = 5 half-lives. 64 → 32 → 16 → 8 → 4 → 2 kBq.",
+        "explanation": "Every additional half-life halves the remaining activity, producing exponential decay. Use the same time units before counting half-lives.",
+        "hint": "Count how many 3-year periods fit into 15 years.",
+        "steps": [
+          "Write the relevant equation.",
+          "Convert quantities to the units requested and substitute.",
+          "Calculate, check the size of your answer and include the unit."
+        ],
+        "misconception": "Five half-lives means divide by 2⁵, not by 5.",
+        "id": "2020-7c"
+      }
+    },
+    {
+      "id": "2020-7d",
+      "question": "7(d)",
+      "marks": 2,
+      "topic": "radioactivity",
+      "skill": "gamma-biological-effects",
+      "answer": "Gamma is ionising and can damage or kill cells and damage DNA, potentially causing mutations and cancer.",
+      "learning": "Radiation risk depends on dose and tissue exposure. Ionisation is the mechanism linking radiation to cellular damage.",
+      "questionPage": 16,
+      "markSchemePage": 19,
+      "card": {
+        "title": "Why prolonged exposure is harmful",
+        "kind": "text",
+        "prompt": "Explain how a prolonged gamma exposure can increase the risk of cancer.",
+        "marks": 2,
+        "modelAnswer": "Gamma radiation is ionising, so it can remove electrons from atoms in living cells. This can damage DNA and cause mutations; if damaged cells divide uncontrollably, cancer can develop.",
+        "explanation": "Radiation risk depends on dose and tissue exposure. Ionisation is the mechanism linking radiation to cellular damage.",
+        "hint": "Link ionisation to DNA or cell damage.",
+        "steps": [
+          "Gamma is ionising and disrupts atoms or cells.",
+          "DNA damage, mutation or uncontrolled division can cause cancer."
+        ],
+        "misconception": "Radiation does not guarantee cancer in every exposed person.",
+        "rubric": [
+          {
+            "point": "Gamma is ionising and disrupts atoms or cells",
+            "patterns": [
+              "gamma.{0,35}ionis",
+              "ionis.{0,35}(atom|cell|electron)"
+            ]
+          },
+          {
+            "point": "DNA damage, mutation or uncontrolled division can cause cancer",
+            "patterns": [
+              "(dna|mutation|uncontrolled|cell).{0,50}(damage|cancer|division)",
+              "cancer.{0,40}(mutation|damage)"
+            ]
+          }
+        ],
+        "id": "2020-7d"
+      }
+    },
+    {
+      "id": "2020-7ei",
+      "question": "7(e)(i)",
+      "marks": 2,
+      "topic": "radioactivity",
+      "skill": "count-time-gradient",
+      "answer": "Average count rate is the gradient of the best-fit cumulative-count graph, about 15 counts/s (the accepted graph range is 12–16 counts/s).",
+      "learning": "The gradient of cumulative count against time gives counts per second. Use changes between two well-separated points on the best-fit line.",
+      "questionPage": 16,
+      "markSchemePage": 19,
+      "card": {
+        "title": "Count rate is a gradient",
+        "kind": "number",
+        "prompt": "A cumulative radiation counter reads 120 counts at 10 s and 1020 counts at 70 s on its best-fit line. Calculate the mean count rate.",
+        "marks": 2,
+        "answer": 15,
+        "unit": "counts/s",
+        "tolerance": 0.22499999999999998,
+        "modelAnswer": "Count rate = (1020 − 120)/(70 − 10) = 900/60 = 15 counts/s.",
+        "explanation": "The gradient of cumulative count against time gives counts per second. Use changes between two well-separated points on the best-fit line.",
+        "hint": "Subtract both count readings and both times.",
+        "steps": [
+          "Write the relevant equation.",
+          "Convert quantities to the units requested and substitute.",
+          "Calculate, check the size of your answer and include the unit."
+        ],
+        "misconception": "The cumulative counter reading itself is not a count rate.",
+        "id": "2020-7ei"
+      }
+    },
+    {
+      "id": "2020-7eii",
+      "question": "7(e)(ii)",
+      "marks": 2,
+      "topic": "radioactivity",
+      "skill": "decay-randomness",
+      "answer": "Individual nuclear decays occur randomly and cannot be predicted, so repeated count readings naturally scatter even with a good procedure.",
+      "learning": "A predictable average decay pattern can coexist with unpredictable individual events. Longer counts and repeats improve estimates of the average.",
+      "questionPage": 17,
+      "markSchemePage": 19,
+      "card": {
+        "title": "Scatter is expected",
+        "kind": "text",
+        "prompt": "A careful radiation experiment gives different counts in equal 10-second intervals. Explain why this does not necessarily mean the experiment was careless.",
+        "marks": 2,
+        "modelAnswer": "Individual radioactive decays are random and unpredictable. Therefore the number occurring in each equal interval naturally varies, so readings scatter even if the equipment and method are unchanged.",
+        "explanation": "A predictable average decay pattern can coexist with unpredictable individual events. Longer counts and repeats improve estimates of the average.",
+        "hint": "Consider whether individual nuclei decay on a timetable.",
+        "steps": [
+          "Individual decay events are random or unpredictable.",
+          "Counts vary between equal intervals despite unchanged method."
+        ],
+        "misconception": "Random scatter is not automatically caused by poor technique.",
+        "rubric": [
+          {
+            "point": "Individual decay events are random or unpredictable",
+            "patterns": [
+              "(decay|nucle|radioactiv).{0,40}(random|unpredict)",
+              "(random|unpredict).{0,40}(decay|nucle|radioactiv)"
+            ]
+          },
+          {
+            "point": "Counts vary between equal intervals despite unchanged method",
+            "patterns": [
+              "(count|reading).{0,45}(var|scatter|differ)",
+              "(var|scatter|differ).{0,35}(count|reading)"
+            ]
+          }
+        ],
+        "id": "2020-7eii"
+      }
+    },
+    {
+      "id": "2020-8a",
+      "question": "8(a)",
+      "marks": 3,
+      "topic": "energy",
+      "skill": "heating-curve-tangent",
+      "answer": "A tangent at 150 s gives a gradient around 0.33 °C/s; the mark scheme accepts 0.26–0.40 °C/s.",
+      "learning": "For a curved line, the gradient changes. A tangent isolates the local rate at the chosen time.",
+      "questionPage": 18,
+      "markSchemePage": 20,
+      "card": {
+        "title": "A heating curve’s local rate",
+        "kind": "number",
+        "prompt": "A tangent at 90 s on a heating curve passes through (50 s, 42 °C) and (130 s, 74 °C). What is the heating rate at 90 s?",
+        "marks": 3,
+        "answer": 0.4,
+        "unit": "°C/s",
+        "tolerance": 0.006,
+        "modelAnswer": "Rate = tangent gradient = (74 − 42)/(130 − 50) = 32/80 = 0.40 °C/s.",
+        "explanation": "For a curved line, the gradient changes. A tangent isolates the local rate at the chosen time.",
+        "hint": "Use the two tangent points, not the total rise from zero.",
+        "steps": [
+          "Write the relevant equation.",
+          "Convert quantities to the units requested and substitute.",
+          "Calculate, check the size of your answer and include the unit."
+        ],
+        "misconception": "The tangent does not have to pass through the graph’s origin.",
+        "id": "2020-8a"
+      }
+    },
+    {
+      "id": "2020-8b",
+      "question": "8(b)",
+      "marks": 2,
+      "topic": "energy",
+      "skill": "efficiency-input-energy",
+      "answer": "Input energy = useful energy/efficiency = 3.3 × 10⁵/0.91 ≈ 3.63 × 10⁵ J.",
+      "learning": "The useful output is only a fraction of the input. Dividing by a fraction below one must give a larger input energy.",
+      "questionPage": 19,
+      "markSchemePage": 21,
+      "card": {
+        "title": "Work backwards from efficiency",
+        "kind": "number",
+        "prompt": "A heater transfers 240 kJ usefully and is 80% efficient. Calculate the total energy supplied.",
+        "marks": 2,
+        "answer": 300,
+        "unit": "kJ",
+        "tolerance": 4.5,
+        "modelAnswer": "Efficiency = useful/input. Input = 240/0.80 = 300 kJ.",
+        "explanation": "The useful output is only a fraction of the input. Dividing by a fraction below one must give a larger input energy.",
+        "hint": "Write 80% as 0.80.",
+        "steps": [
+          "Write the relevant equation.",
+          "Convert quantities to the units requested and substitute.",
+          "Calculate, check the size of your answer and include the unit."
+        ],
+        "misconception": "Multiplying the useful output by efficiency makes it smaller; it cannot give total input.",
+        "id": "2020-8b"
+      }
+    },
+    {
+      "id": "2020-8c",
+      "question": "8(c)",
+      "marks": 6,
+      "topic": "energy",
+      "skill": "nuclear-power-evaluation",
+      "answer": "Nuclear power offers large, reliable output and low operational carbon emissions, but has high construction/decommissioning costs, long-lived radioactive waste and accident risks. A balanced judgement weighs these trade-offs rather than listing one side.",
+      "learning": "An evaluation links each fact to a consequence, covers both sides and ends with a reasoned judgement. Low operational emissions do not mean zero lifetime environmental impact.",
+      "questionPage": 20,
+      "markSchemePage": 22,
+      "card": {
+        "title": "Evaluate a nuclear-power proposal",
+        "kind": "text",
+        "prompt": "A country wants reliable low-carbon electricity. Discuss benefits and drawbacks of adding nuclear generation, then give a justified conclusion.",
+        "marks": 6,
+        "modelAnswer": "Nuclear generation can provide a large, reliable output without burning fossil fuels, so operational carbon emissions are low and supply is not dependent on wind or sunshine. However, plants are expensive and slow to build and decommission. Radioactive waste needs secure long-term management, and although serious accidents are uncommon, their consequences can be severe. Nuclear could contribute to a low-carbon mix if the country can fund construction and manage waste and safety, alongside renewables and storage.",
+        "explanation": "An evaluation links each fact to a consequence, covers both sides and ends with a reasoned judgement. Low operational emissions do not mean zero lifetime environmental impact.",
+        "hint": "Include reliability, emissions, cost, waste and a conclusion.",
+        "steps": [
+          "Low operational carbon emissions reduce climate impact.",
+          "Reliable or large power output.",
+          "High build or decommissioning cost.",
+          "Radioactive waste needs long-term management.",
+          "Accidents can have serious consequences.",
+          "A balanced reasoned conclusion."
+        ],
+        "misconception": "Nuclear fuel is finite, so nuclear generation is not classified as renewable.",
+        "rubric": [
+          {
+            "point": "Low operational carbon emissions reduce climate impact",
+            "patterns": [
+              "(low|no|less).{0,35}(operational|carbon|co2|greenhouse)",
+              "carbon.{0,30}(low|reduc)"
+            ]
+          },
+          {
+            "point": "Reliable or large power output",
+            "patterns": [
+              "(reliable|continuous|large).{0,30}(power|output|electricity)",
+              "not.{0,20}(weather|wind|sunshine).{0,20}depend"
+            ]
+          },
+          {
+            "point": "High build or decommissioning cost",
+            "patterns": [
+              "(expensive|high.{0,10}cost).{0,45}(build|construct|decommission)",
+              "(build|construct|decommission).{0,45}(expensive|cost)"
+            ]
+          },
+          {
+            "point": "Radioactive waste needs long-term management",
+            "patterns": [
+              "(radioactive|nuclear).{0,20}waste.{0,45}(long|stor|manag)",
+              "waste.{0,35}(long.term|secure)"
+            ]
+          },
+          {
+            "point": "Accidents can have serious consequences",
+            "patterns": [
+              "accident.{0,50}(severe|serious|contaminat|risk|consequence)",
+              "risk.{0,30}(accident|contaminat)"
+            ]
+          },
+          {
+            "point": "A balanced reasoned conclusion",
+            "patterns": [
+              "(could|should|conclud|overall|mix|contribut).{0,80}(if|because|provided|alongside|balance)"
+            ]
+          }
+        ],
+        "id": "2020-8c"
+      }
+    },
+    {
+      "id": "2020-9ai",
+      "question": "9(a)(i)",
+      "marks": 1,
+      "topic": "forces",
+      "skill": "momentum-unit-conversion",
+      "answer": "Convert 14 km/s to 14000 m/s. Momentum = 5.5 × 10⁵ × 14000 = 7.7 × 10⁹ kg m/s.",
+      "learning": "Momentum calculations use SI velocity in metres per second. The kilo in kilometres adds a factor of one thousand; the mass in kg already uses the correct unit.",
+      "questionPage": 21,
+      "markSchemePage": 24,
+      "card": {
+        "title": "Kilometres per second to momentum",
+        "kind": "number",
+        "prompt": "A spacecraft has mass 2.5 × 10⁴ kg and speed 6 km/s. Calculate its momentum in kg m/s.",
+        "marks": 2,
+        "answer": 150000000,
+        "unit": "kg m/s",
+        "tolerance": 2250000,
+        "modelAnswer": "6 km/s = 6000 m/s. p = mv = 2.5 × 10⁴ × 6000 = 1.5 × 10⁸ kg m/s.",
+        "explanation": "Momentum calculations use SI velocity in metres per second. The kilo in kilometres adds a factor of one thousand; the mass in kg already uses the correct unit.",
+        "hint": "Convert the velocity first.",
+        "steps": [
+          "Write the relevant equation.",
+          "Convert quantities to the units requested and substitute.",
+          "Calculate, check the size of your answer and include the unit."
+        ],
+        "misconception": "Do not convert kilograms into grams in an SI momentum calculation.",
+        "id": "2020-9ai"
+      }
+    },
+    {
+      "id": "2020-9aii",
+      "question": "9(a)(ii)",
+      "marks": 2,
+      "topic": "forces",
+      "skill": "momentum-speed",
+      "answer": "v = p/m = 7.5 × 10¹⁰/(8.0 × 10⁶) = 9375 m/s, about 9.4 × 10³ m/s.",
+      "learning": "Rearrange p = mv by dividing momentum by mass. The mass units cancel, leaving speed units.",
+      "questionPage": 21,
+      "markSchemePage": 24,
+      "card": {
+        "title": "Find speed from momentum",
+        "kind": "number",
+        "prompt": "An object of mass 4.0 × 10⁵ kg has momentum 2.4 × 10⁹ kg m/s. Calculate its speed.",
+        "marks": 2,
+        "answer": 6000,
+        "unit": "m/s",
+        "tolerance": 90,
+        "modelAnswer": "v = p/m = (2.4 × 10⁹)/(4.0 × 10⁵) = 6.0 × 10³ m/s.",
+        "explanation": "Rearrange p = mv by dividing momentum by mass. The mass units cancel, leaving speed units.",
+        "hint": "Write v = p/m before entering powers of ten.",
+        "steps": [
+          "Write the relevant equation.",
+          "Convert quantities to the units requested and substitute.",
+          "Calculate, check the size of your answer and include the unit."
+        ],
+        "misconception": "Multiplying momentum by mass does not give velocity.",
+        "id": "2020-9aii"
+      }
+    },
+    {
+      "id": "2020-9b",
+      "question": "9(b)",
+      "marks": 6,
+      "topic": "forces",
+      "skill": "crumple-zone-investigation",
+      "answer": "Measure trolley mass, signed velocities before and after impact, and contact time; calculate average F = m(v−u)/t. Compare with/without the spring under matched release conditions, repeat and average. A longer time reduces force for the same momentum change.",
+      "learning": "Collision force depends on both momentum change and duration. A fair test must measure these rather than assume identical rebounds.",
+      "questionPage": 22,
+      "markSchemePage": 25,
+      "card": {
+        "title": "Investigate a collision buffer",
+        "kind": "text",
+        "prompt": "Plan an experiment comparing a trolley with a soft buffer and one without it to test how the buffer affects average collision force. Include measurements, fair-test controls and the expected effect.",
+        "marks": 6,
+        "modelAnswer": "Measure each trolley’s mass and its velocities just before and just after impact, using light gates and a consistent sign convention. Measure contact time electronically. Calculate average force from F = m(v − u)/t. Compare the trolleys with the same mass and approach speed, released without pushing from the same ramp position. Repeat each condition and average. A buffer should increase contact time and reduce average force for the same momentum change; measure rebound speed because it can also change the momentum change.",
+        "explanation": "Collision force depends on both momentum change and duration. A fair test must measure these rather than assume identical rebounds.",
+        "hint": "Use Δp divided by contact time.",
+        "steps": [
+          "Measure mass and pre/post-impact velocities.",
+          "Measure collision/contact time.",
+          "Use force equals momentum change divided by time.",
+          "Match mass, speed or release conditions.",
+          "Repeat and average.",
+          "Longer contact time reduces force for matched momentum change."
+        ],
+        "misconception": "If a trolley rebounds, its final velocity has the opposite sign; do not just subtract two positive speeds.",
+        "rubric": [
+          {
+            "point": "Measure mass and pre/post-impact velocities",
+            "patterns": [
+              "mass.{0,70}veloc",
+              "veloc.{0,70}mass"
+            ]
+          },
+          {
+            "point": "Measure collision/contact time",
+            "patterns": [
+              "(contact|collision|impact).{0,20}time",
+              "time.{0,25}(contact|collision|impact)"
+            ]
+          },
+          {
+            "point": "Use force equals momentum change divided by time",
+            "patterns": [
+              "(force|f).{0,40}(momentum|m\\s*\\().{0,25}(/|divid|time)",
+              "f\\s*=.{0,30}/\\s*t"
+            ]
+          },
+          {
+            "point": "Match mass, speed or release conditions",
+            "patterns": [
+              "same.{0,25}(mass|speed|position)",
+              "(control|match).{0,35}(mass|speed|release)"
+            ]
+          },
+          {
+            "point": "Repeat and average",
+            "patterns": [
+              "repeat.{0,50}(average|mean)"
+            ]
+          },
+          {
+            "point": "Longer contact time reduces force for matched momentum change",
+            "patterns": [
+              "(longer|increase).{0,35}(contact|time).{0,70}(reduc|smaller|lower|less)",
+              "force.{0,40}(reduc|smaller|lower).{0,60}time"
+            ]
+          }
+        ],
+        "id": "2020-9b"
+      }
+    },
+    {
+      "id": "2020-9c",
+      "question": "9(c)",
+      "marks": 4,
+      "topic": "forces",
+      "skill": "newton-momentum-conservation",
+      "answer": "Equal and opposite interaction forces act for the same time, causing equal and opposite momentum changes. With no external resultant force, total momentum before equals total momentum after.",
+      "learning": "The interaction transfers momentum between objects. Conservation applies to the combined system, not to each object separately.",
+      "questionPage": 24,
+      "markSchemePage": 27,
+      "card": {
+        "title": "Connect forces to conserved momentum",
+        "kind": "text",
+        "prompt": "A moving cart collides with another cart on a low-friction track. Explain why equal and opposite contact forces imply conservation of their total momentum.",
+        "marks": 4,
+        "modelAnswer": "The carts exert equal and opposite forces on each other. Both forces act for the same collision time. Since change in momentum = force × time, the changes in the two carts’ momenta are equal and opposite. They cancel in the total, so with negligible external force the combined momentum stays constant.",
+        "explanation": "The interaction transfers momentum between objects. Conservation applies to the combined system, not to each object separately.",
+        "hint": "Apply the same contact time to both carts.",
+        "steps": [
+          "Forces are equal and opposite.",
+          "Contact time is the same for both.",
+          "Momentum change is force times time and changes cancel.",
+          "Combined momentum is unchanged when external force negligible."
+        ],
+        "misconception": "Equal forces do not necessarily give equal accelerations if the carts have different masses.",
+        "rubric": [
+          {
+            "point": "Forces are equal and opposite",
+            "patterns": [
+              "equal and opposite.{0,25}force",
+              "force.{0,30}equal and opposite"
+            ]
+          },
+          {
+            "point": "Contact time is the same for both",
+            "patterns": [
+              "same.{0,25}(time|duration)",
+              "(time|duration).{0,25}same"
+            ]
+          },
+          {
+            "point": "Momentum change is force times time and changes cancel",
+            "patterns": [
+              "(momentum|p).{0,30}(force|f).{0,25}(time|t)",
+              "moment.{0,35}equal and opposite"
+            ]
+          },
+          {
+            "point": "Combined momentum is unchanged when external force negligible",
+            "patterns": [
+              "(combined|total).{0,25}momentum.{0,35}(constant|same|unchanged|conserv)",
+              "(negligible|no|zero).{0,25}external"
+            ]
+          }
+        ],
+        "id": "2020-9c"
+      }
+    },
+    {
+      "id": "2020-10ai",
+      "question": "10(a)(i)",
+      "marks": 2,
+      "topic": "waves",
+      "skill": "hearing-threshold-comparison",
+      "answer": "Humans are more sensitive at lower frequencies and have a lower minimum threshold overall in the graph; mice can hear higher frequencies and show two distinct sensitivity minima.",
+      "learning": "Read lower and upper limits separately. A hearing range is not the same as how quiet a sound must be for detection.",
+      "questionPage": 26,
+      "markSchemePage": 28,
+      "card": {
+        "title": "Read an animal-hearing graph",
+        "kind": "text",
+        "prompt": "A graph shows animal A detecting down to 100 Hz while animal B detects only above 2 kHz. Animal B detects up to 70 kHz, but animal A stops at 18 kHz. State two differences.",
+        "marks": 2,
+        "modelAnswer": "Animal A can hear lower frequencies than animal B. Animal B can hear higher frequencies than animal A, extending into ultrasound.",
+        "explanation": "Read lower and upper limits separately. A hearing range is not the same as how quiet a sound must be for detection.",
+        "hint": "Compare one lower limit and one upper limit.",
+        "steps": [
+          "Animal A reaches lower frequencies.",
+          "Animal B reaches higher frequencies or ultrasound."
+        ],
+        "misconception": "A higher frequency limit does not mean an animal detects every frequency more sensitively.",
+        "rubric": [
+          {
+            "point": "Animal A reaches lower frequencies",
+            "patterns": [
+              "(animal a|\\ba\\b).{0,40}lower.{0,20}frequen",
+              "(100|one hundred).{0,20}hz"
+            ]
+          },
+          {
+            "point": "Animal B reaches higher frequencies or ultrasound",
+            "patterns": [
+              "(animal b|\\bb\\b).{0,40}(higher|ultrasound)",
+              "70.{0,15}khz"
+            ]
+          }
+        ],
+        "id": "2020-10ai"
+      }
+    },
+    {
+      "id": "2020-10aii",
+      "question": "10(a)(ii)",
+      "marks": 1,
+      "topic": "waves",
+      "skill": "hearing-optimal-frequency",
+      "answer": "The bird threshold curve has its minimum near 2.5 kHz; roughly 2.0–3.0 kHz is accepted.",
+      "learning": "A minimum threshold means the animal can detect a quieter sound at that frequency. Read the vertical-axis meaning carefully.",
+      "questionPage": 26,
+      "markSchemePage": 28,
+      "card": {
+        "title": "Choose a detectable alarm",
+        "kind": "choice",
+        "prompt": "A bird’s hearing-threshold graph has its lowest point at 4 kHz. To make an alarm detectable at the lowest intensity, which frequency should you choose?",
+        "marks": 1,
+        "options": [
+          "4 kHz",
+          "4 Hz",
+          "40 MHz",
+          "The highest frequency on the axis regardless of threshold"
+        ],
+        "correctIndex": 0,
+        "modelAnswer": "Choose 4 kHz, where the required intensity is lowest.",
+        "explanation": "A minimum threshold means the animal can detect a quieter sound at that frequency. Read the vertical-axis meaning carefully.",
+        "hint": "A low threshold means greater sensitivity.",
+        "steps": [
+          "Identify the physical quantity or process.",
+          "Apply the rule to the situation.",
+          "Check the other options for a common misconception."
+        ],
+        "misconception": "The lowest point on a threshold graph does not mean the animal hears that frequency least well.",
+        "id": "2020-10aii"
+      }
+    },
+    {
+      "id": "2020-10aiii",
+      "question": "10(a)(iii)",
+      "marks": 1,
+      "topic": "waves",
+      "skill": "hearing-threshold-reason",
+      "answer": "The minimum required intensity means the bird is most sensitive at that frequency.",
+      "learning": "Sensitivity compares the minimum intensity required for detection, rather than wave speed or loudness of the source.",
+      "questionPage": 27,
+      "markSchemePage": 28,
+      "card": {
+        "title": "What does a low threshold mean?",
+        "kind": "choice",
+        "prompt": "An animal needs less sound intensity to detect a tone at 3 kHz than at 6 kHz. What does that mean?",
+        "marks": 1,
+        "options": [
+          "It cannot hear 3 kHz",
+          "It is more sensitive at 3 kHz",
+          "The 3 kHz wave travels faster",
+          "3 kHz is below the infrasound boundary"
+        ],
+        "correctIndex": 1,
+        "modelAnswer": "The animal is more sensitive at 3 kHz.",
+        "explanation": "Sensitivity compares the minimum intensity required for detection, rather than wave speed or loudness of the source.",
+        "hint": "Which tone is easier to detect when faint?",
+        "steps": [
+          "Identify the physical quantity or process.",
+          "Apply the rule to the situation.",
+          "Check the other options for a common misconception."
+        ],
+        "misconception": "Frequency and intensity describe different properties.",
+        "id": "2020-10aiii"
+      }
+    },
+    {
+      "id": "2020-10b",
+      "question": "10(b)",
+      "marks": 2,
+      "topic": "waves",
+      "skill": "ultrasound-infrasound-limits",
+      "answer": "Infrasound is below 20 Hz; ultrasound is above 20000 Hz, beyond the approximate human hearing range.",
+      "learning": "These names compare frequency with the approximate human hearing range. They do not classify sound by amplitude or volume.",
+      "questionPage": 27,
+      "markSchemePage": 29,
+      "card": {
+        "title": "Beyond the human hearing range",
+        "kind": "text",
+        "prompt": "State the frequency boundaries that define infrasound and ultrasound.",
+        "marks": 2,
+        "modelAnswer": "Infrasound has frequency below 20 Hz. Ultrasound has frequency above 20 000 Hz, or 20 kHz.",
+        "explanation": "These names compare frequency with the approximate human hearing range. They do not classify sound by amplitude or volume.",
+        "hint": "Remember the human range of roughly 20 Hz to 20 kHz.",
+        "steps": [
+          "Infrasound below 20 Hz.",
+          "Ultrasound above 20 kHz or 20000 Hz."
+        ],
+        "misconception": "A quiet audible sound is not infrasound just because it is quiet.",
+        "rubric": [
+          {
+            "point": "Infrasound below 20 Hz",
+            "patterns": [
+              "infrasound.{0,35}(below|less than|<).{0,10}20\\s*hz"
+            ]
+          },
+          {
+            "point": "Ultrasound above 20 kHz or 20000 Hz",
+            "patterns": [
+              "ultrasound.{0,35}(above|greater than|over|>).{0,10}(20\\s*k|20[ ,]?000)"
+            ]
+          }
+        ],
+        "id": "2020-10b"
+      }
+    },
+    {
+      "id": "2020-10c",
+      "question": "10(c)",
+      "marks": 2,
+      "topic": "waves",
+      "skill": "sonar-depth",
+      "answer": "Convert 48 ms to 0.048 s. Depth = vt/2 = 1500 × 0.048/2 = 36 m.",
+      "learning": "A sonar echo travels twice the depth. Convert milliseconds to seconds before using SI speed.",
+      "questionPage": 28,
+      "markSchemePage": 29,
+      "card": {
+        "title": "Echo time to depth",
+        "kind": "number",
+        "prompt": "A sonar echo returns 60 ms after emission. Sound speed in the water is 1400 m/s. Calculate the depth below the boat.",
+        "marks": 2,
+        "answer": 42,
+        "unit": "m",
+        "tolerance": 0.63,
+        "modelAnswer": "60 ms = 0.060 s. Total distance = 1400 × 0.060 = 84 m. Depth = 84/2 = 42 m.",
+        "explanation": "A sonar echo travels twice the depth. Convert milliseconds to seconds before using SI speed.",
+        "hint": "The time is for there and back.",
+        "steps": [
+          "Write the relevant equation.",
+          "Convert quantities to the units requested and substitute.",
+          "Calculate, check the size of your answer and include the unit."
+        ],
+        "misconception": "Using 60 seconds instead of 0.060 seconds creates a factor-of-1000 error.",
+        "id": "2020-10c"
+      }
+    },
+    {
+      "id": "2020-10d",
+      "question": "10(d)",
+      "marks": 4,
+      "topic": "waves",
+      "skill": "seismic-earth-structure",
+      "answer": "Seismometers record P and S waves. Their paths and refraction reveal layers with different properties; S waves cannot pass through liquid, and their shadow zone is evidence that the outer core is liquid. P waves can pass through it.",
+      "learning": "Scientists infer inaccessible structure from how waves travel. A missing signal can be evidence when a model predicts which materials stop that wave.",
+      "questionPage": 29,
+      "markSchemePage": 30,
+      "card": {
+        "title": "Use earthquakes to probe Earth",
+        "kind": "text",
+        "prompt": "Explain how P-wave and S-wave observations show that Earth has a liquid outer core.",
+        "marks": 4,
+        "modelAnswer": "Seismometers detect seismic waves from earthquakes at many locations. P waves can travel through solids and liquids, but S waves cannot travel through liquid. The absence of direct S waves through the outer core creates an S-wave shadow zone. Changes in P-wave paths and refraction give further evidence of boundaries between layers, supporting a liquid outer core.",
+        "explanation": "Scientists infer inaccessible structure from how waves travel. A missing signal can be evidence when a model predicts which materials stop that wave.",
+        "hint": "Compare which materials transmit P and S waves.",
+        "steps": [
+          "Use seismometers or recorded earthquake waves.",
+          "S waves cannot travel through liquids.",
+          "Missing S waves or a shadow zone implies a liquid outer core.",
+          "P waves pass through liquid or refract at boundaries."
+        ],
+        "misconception": "Do not conclude the whole core is liquid: Earth also has a solid inner core.",
+        "rubric": [
+          {
+            "point": "Use seismometers or recorded earthquake waves",
+            "patterns": [
+              "seismometer",
+              "(record|detect).{0,40}(seismic|earthquake)"
+            ]
+          },
+          {
+            "point": "S waves cannot travel through liquids",
+            "patterns": [
+              "s.?wave.{0,35}(cannot|can.t|not).{0,20}(pass|travel).{0,20}liquid",
+              "liquid.{0,30}(stop|block).{0,20}s.?wave"
+            ]
+          },
+          {
+            "point": "Missing S waves or a shadow zone implies a liquid outer core",
+            "patterns": [
+              "(shadow|absence|missing).{0,70}(liquid|core)",
+              "liquid outer core"
+            ]
+          },
+          {
+            "point": "P waves pass through liquid or refract at boundaries",
+            "patterns": [
+              "p.?wave.{0,50}(liquid|refract)",
+              "refract.{0,40}(boundar|layer)"
+            ]
+          }
+        ],
+        "id": "2020-10d"
+      }
+    }
+  ]
+}

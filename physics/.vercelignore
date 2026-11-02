@@ -1,0 +1,5 @@
+.source-cache/
+dist/
+node_modules/
+.git/
+test-results/

@@ -1,0 +1,1659 @@
+{
+  "paper": "2019",
+  "totalMarks": 100,
+  "reviewStatus": "question-and-mark-scheme-reviewed",
+  "rows": [
+    {
+      "id": "2019-1a",
+      "question": "1(a)",
+      "marks": 1,
+      "topic": "energy",
+      "skill": "work-distance-graph",
+      "answer": "With constant braking force, W = Fd gives a straight-line work–distance graph through the origin.",
+      "learning": "When force is constant, work is directly proportional to distance. Zero movement means zero work by that force.",
+      "questionPage": 2,
+      "markSchemePage": 5,
+      "card": {
+        "title": "A constant force does work",
+        "kind": "choice",
+        "prompt": "A crate is pulled with a constant 40 N force. What shape is its work-done against distance graph?",
+        "marks": 1,
+        "options": [
+          "An upward curve",
+          "A downward curve",
+          "A straight line through the origin",
+          "A horizontal line above zero"
+        ],
+        "correctIndex": 2,
+        "modelAnswer": "A straight line through the origin: W = 40d.",
+        "explanation": "When force is constant, work is directly proportional to distance. Zero movement means zero work by that force.",
+        "hint": "Use W = Fd.",
+        "steps": [
+          "Identify the physical quantity or process.",
+          "Apply the rule to the situation.",
+          "Check the other options for a common misconception."
+        ],
+        "misconception": "A line through the origin is essential for direct proportionality.",
+        "id": "2019-1a"
+      }
+    },
+    {
+      "id": "2019-1b",
+      "question": "1(b)",
+      "marks": 1,
+      "topic": "energy",
+      "skill": "braking-energy-stores",
+      "answer": "Braking transfers the car’s kinetic energy mainly into thermal energy of the brakes, tyres, road and surroundings.",
+      "learning": "Friction transfers energy away from organised movement into microscopic motion and heating. Energy is conserved even when it becomes less useful.",
+      "questionPage": 2,
+      "markSchemePage": 5,
+      "card": {
+        "title": "Where did the motion energy go?",
+        "kind": "choice",
+        "prompt": "A skateboard slows when its wheels rub against the ground. What happens to most of its lost kinetic energy?",
+        "marks": 1,
+        "options": [
+          "It remains entirely as kinetic energy of the skateboard",
+          "It becomes extra mass of the skateboard",
+          "It becomes thermal energy in the wheels and surroundings",
+          "It is destroyed"
+        ],
+        "correctIndex": 2,
+        "modelAnswer": "It is transferred mainly to thermal energy stores.",
+        "explanation": "Friction transfers energy away from organised movement into microscopic motion and heating. Energy is conserved even when it becomes less useful.",
+        "hint": "Friction makes surfaces warmer.",
+        "steps": [
+          "Identify the physical quantity or process.",
+          "Apply the rule to the situation.",
+          "Check the other options for a common misconception."
+        ],
+        "misconception": "Energy is transferred or dissipated, not used up or destroyed.",
+        "id": "2019-1b"
+      }
+    },
+    {
+      "id": "2019-1c",
+      "question": "1(c)",
+      "marks": 4,
+      "topic": "motion",
+      "skill": "braking-speed-squared",
+      "answer": "Using v = 20 m/s and d ≈ 31 m gives C = v²/d ≈ 13 m/s²; the units follow from (m/s)²/m.",
+      "learning": "Rearrange the equation before inserting values. Dividing speed squared by distance gives acceleration units.",
+      "questionPage": 3,
+      "markSchemePage": 6,
+      "card": {
+        "title": "Rearrange a braking model",
+        "kind": "number",
+        "prompt": "A model gives stopping distance d = v²/K. A bicycle at 10 m/s needs 20 m to stop. Calculate K.",
+        "marks": 3,
+        "answer": 5,
+        "unit": "m/s²",
+        "tolerance": 0.075,
+        "modelAnswer": "K = v²/d = 10²/20 = 5 m/s².",
+        "explanation": "Rearrange the equation before inserting values. Dividing speed squared by distance gives acceleration units.",
+        "hint": "Multiply by K, then divide by d.",
+        "steps": [
+          "Write the relevant equation.",
+          "Convert quantities to the units requested and substitute.",
+          "Calculate, check the size of your answer and include the unit."
+        ],
+        "misconception": "Use v², not v, in the numerator.",
+        "id": "2019-1c"
+      }
+    },
+    {
+      "id": "2019-2a",
+      "question": "2(a)",
+      "marks": 1,
+      "topic": "electromagnetic",
+      "skill": "visible-spectrum-order",
+      "answer": "Red has the longest wavelength among blue, green, red and yellow light.",
+      "learning": "From red to violet, wavelength decreases while frequency increases. All visible colours travel at the same speed in a vacuum.",
+      "questionPage": 4,
+      "markSchemePage": 7,
+      "card": {
+        "title": "The ends of visible light",
+        "kind": "choice",
+        "prompt": "Which visible colour has the shortest wavelength?",
+        "marks": 1,
+        "options": [
+          "Orange",
+          "Red",
+          "Violet",
+          "Green"
+        ],
+        "correctIndex": 2,
+        "modelAnswer": "Violet has the shortest visible wavelength.",
+        "explanation": "From red to violet, wavelength decreases while frequency increases. All visible colours travel at the same speed in a vacuum.",
+        "hint": "Remember the order of a rainbow.",
+        "steps": [
+          "Identify the physical quantity or process.",
+          "Apply the rule to the situation.",
+          "Check the other options for a common misconception."
+        ],
+        "misconception": "Highest frequency means shortest wavelength, not longest.",
+        "id": "2019-2a"
+      }
+    },
+    {
+      "id": "2019-2b",
+      "question": "2(b)",
+      "marks": 2,
+      "topic": "electromagnetic",
+      "skill": "wave-material-interaction",
+      "answer": "An armchair can absorb or block infrared, which needs line of sight. Radio waves can transmit through or diffract around it because their wavelengths and interactions differ.",
+      "learning": "Electromagnetic waves have the same speed in a vacuum but different wavelengths interact differently with objects and materials.",
+      "questionPage": 4,
+      "markSchemePage": 7,
+      "card": {
+        "title": "Why one remote works around a corner",
+        "kind": "text",
+        "prompt": "A cupboard blocks an infrared remote, but a radio remote can still control a lamp behind it. Explain the difference.",
+        "marks": 2,
+        "modelAnswer": "Infrared is absorbed or blocked by the cupboard and normally needs a clear line of sight. Radio waves have much longer wavelengths and can pass through or diffract around the obstacle.",
+        "explanation": "Electromagnetic waves have the same speed in a vacuum but different wavelengths interact differently with objects and materials.",
+        "hint": "Think about transmission, blocking and wavelength.",
+        "steps": [
+          "Infrared is blocked or needs line of sight.",
+          "Radio transmits or diffracts because its wavelength differs."
+        ],
+        "misconception": "The radio signal does not work because it travels faster than infrared.",
+        "rubric": [
+          {
+            "point": "Infrared is blocked or needs line of sight",
+            "patterns": [
+              "infrared.{0,45}(block|absorb|line.of.sight)",
+              "(block|absorb).{0,30}infrared"
+            ]
+          },
+          {
+            "point": "Radio transmits or diffracts because its wavelength differs",
+            "patterns": [
+              "radio.{0,50}(pass|transmit|diffract|longer)",
+              "longer wavelength"
+            ]
+          }
+        ],
+        "id": "2019-2b"
+      }
+    },
+    {
+      "id": "2019-2ci",
+      "question": "2(c)(i)",
+      "marks": 2,
+      "topic": "waves",
+      "skill": "measure-wavelength",
+      "answer": "The horizontal distance between consecutive crests is about 12 cm.",
+      "learning": "A wavelength is the separation of equivalent points on neighbouring cycles, measured in the direction the wave travels.",
+      "questionPage": 5,
+      "markSchemePage": 8,
+      "card": {
+        "title": "Read one whole wavelength",
+        "kind": "number",
+        "prompt": "Two neighbouring crests of a ripple are at positions 8 cm and 26 cm along a horizontal scale. What is the wavelength?",
+        "marks": 2,
+        "answer": 18,
+        "unit": "cm",
+        "tolerance": 0.27,
+        "modelAnswer": "Wavelength = 26 − 8 = 18 cm.",
+        "explanation": "A wavelength is the separation of equivalent points on neighbouring cycles, measured in the direction the wave travels.",
+        "hint": "Subtract the positions of the two crests.",
+        "steps": [
+          "Write the relevant equation.",
+          "Convert quantities to the units requested and substitute.",
+          "Calculate, check the size of your answer and include the unit."
+        ],
+        "misconception": "Crest to trough is only half a wavelength.",
+        "id": "2019-2ci"
+      }
+    },
+    {
+      "id": "2019-2cii",
+      "question": "2(c)(ii)",
+      "marks": 2,
+      "topic": "waves",
+      "skill": "transverse-particles",
+      "answer": "The cork oscillates up and down, perpendicular to the horizontal direction of wave travel.",
+      "learning": "In a transverse model, particles move at right angles to the transfer of energy. The travelling pattern is not a stream of water carrying the marker east.",
+      "questionPage": 5,
+      "markSchemePage": 8,
+      "card": {
+        "title": "A floating marker",
+        "kind": "text",
+        "prompt": "A ripple travels east across a tray. Describe the motion of a small floating marker in the simplified transverse-wave model.",
+        "marks": 2,
+        "modelAnswer": "The marker oscillates up and down about its average position. Its motion is perpendicular to the eastward travel of the wave.",
+        "explanation": "In a transverse model, particles move at right angles to the transfer of energy. The travelling pattern is not a stream of water carrying the marker east.",
+        "hint": "Compare the marker’s motion with the wave’s motion.",
+        "steps": [
+          "Marker oscillates up and down.",
+          "Motion is perpendicular to wave travel."
+        ],
+        "misconception": "Wave speed and particle oscillation speed are different ideas.",
+        "rubric": [
+          {
+            "point": "Marker oscillates up and down",
+            "patterns": [
+              "(up and down|vertical).{0,30}(oscillat|vibrat|move)",
+              "(oscillat|vibrat|move).{0,30}(up and down|vertical)"
+            ]
+          },
+          {
+            "point": "Motion is perpendicular to wave travel",
+            "patterns": [
+              "perpendicular",
+              "right angles"
+            ]
+          }
+        ],
+        "id": "2019-2cii"
+      }
+    },
+    {
+      "id": "2019-2d",
+      "question": "2(d)",
+      "marks": 2,
+      "topic": "waves",
+      "skill": "wave-speed",
+      "answer": "v = fλ = 1.5 × 0.25 = 0.375 m/s, about 0.38 m/s.",
+      "learning": "Every second, f wavelengths pass a point. Multiplying the length of one wavelength by the number per second gives speed.",
+      "questionPage": 5,
+      "markSchemePage": 9,
+      "card": {
+        "title": "Multiply frequency by wavelength",
+        "kind": "number",
+        "prompt": "A ripple has wavelength 0.40 m and frequency 2.5 Hz. Calculate its speed.",
+        "marks": 2,
+        "answer": 1,
+        "unit": "m/s",
+        "tolerance": 0.015,
+        "modelAnswer": "v = fλ = 2.5 × 0.40 = 1.0 m/s.",
+        "explanation": "Every second, f wavelengths pass a point. Multiplying the length of one wavelength by the number per second gives speed.",
+        "hint": "Use v = fλ.",
+        "steps": [
+          "Write the relevant equation.",
+          "Convert quantities to the units requested and substitute.",
+          "Calculate, check the size of your answer and include the unit."
+        ],
+        "misconception": "Do not divide wavelength by frequency.",
+        "variants": [
+          {
+            "prompt": "A water wave has wavelength 0.15 m and frequency 4 Hz. Calculate its speed.",
+            "answer": 0.6,
+            "modelAnswer": "v = fλ = 4 × 0.15 = 0.60 m/s."
+          },
+          {
+            "prompt": "A wave has wavelength 0.8 m and frequency 5 Hz. Find its speed.",
+            "answer": 4,
+            "modelAnswer": "v = fλ = 5 × 0.8 = 4 m/s."
+          }
+        ],
+        "id": "2019-2d"
+      }
+    },
+    {
+      "id": "2019-3a",
+      "question": "3(a)",
+      "marks": 2,
+      "topic": "radioactivity",
+      "skill": "isotope-particle-numbers",
+      "answer": "Carbon-13 has 7 neutrons and 6 electrons; carbon-14 has 8 neutrons and 6 electrons. Both neutral atoms have six protons.",
+      "learning": "Atomic number counts protons. Mass number counts protons plus neutrons. A neutral atom has equal numbers of protons and electrons.",
+      "questionPage": 6,
+      "markSchemePage": 10,
+      "card": {
+        "title": "Count an isotope’s particles",
+        "kind": "choice",
+        "prompt": "A neutral oxygen-18 atom has atomic number 8. Which set of particle numbers is correct?",
+        "marks": 1,
+        "options": [
+          "10 protons, 8 neutrons, 10 electrons",
+          "8 protons, 18 neutrons, 8 electrons",
+          "18 protons, 8 neutrons, 18 electrons",
+          "8 protons, 10 neutrons, 8 electrons"
+        ],
+        "correctIndex": 3,
+        "modelAnswer": "It has 8 protons, 10 neutrons and 8 electrons.",
+        "explanation": "Atomic number counts protons. Mass number counts protons plus neutrons. A neutral atom has equal numbers of protons and electrons.",
+        "hint": "Subtract atomic number from mass number.",
+        "steps": [
+          "Identify the physical quantity or process.",
+          "Apply the rule to the situation.",
+          "Check the other options for a common misconception."
+        ],
+        "misconception": "Isotopes differ in neutron number, not in proton number.",
+        "id": "2019-3a"
+      }
+    },
+    {
+      "id": "2019-3bi",
+      "question": "3(b)(i)",
+      "marks": 1,
+      "topic": "radioactivity",
+      "skill": "radiation-detector",
+      "answer": "A Geiger–Müller tube and counter can detect ionising radiation.",
+      "learning": "Ionising radiation produces electrical pulses in the detector. Counting pulses over a measured time gives count rate.",
+      "questionPage": 6,
+      "markSchemePage": 10,
+      "card": {
+        "title": "Detect ionising radiation",
+        "kind": "choice",
+        "prompt": "Which instrument is most suitable for comparing count rates from weak radioactive sources?",
+        "marks": 1,
+        "options": [
+          "A light-dependent resistor alone",
+          "Geiger–Müller tube and counter",
+          "A barometer",
+          "A microphone"
+        ],
+        "correctIndex": 1,
+        "modelAnswer": "A Geiger–Müller tube and counter.",
+        "explanation": "Ionising radiation produces electrical pulses in the detector. Counting pulses over a measured time gives count rate.",
+        "hint": "Choose a detector designed for ionisation.",
+        "steps": [
+          "Identify the physical quantity or process.",
+          "Apply the rule to the situation.",
+          "Check the other options for a common misconception."
+        ],
+        "misconception": "A detector measures counts, not the exact number of nuclei that have decayed in all directions.",
+        "id": "2019-3bi"
+      }
+    },
+    {
+      "id": "2019-3bii",
+      "question": "3(b)(ii)",
+      "marks": 2,
+      "topic": "radioactivity",
+      "skill": "background-sources",
+      "answer": "Two valid sources include cosmic rays and radon gas released from rocks; buildings and some foods also contribute.",
+      "learning": "Background radiation is present even without an experimental source. It can come from space, the ground and naturally radioactive materials around us.",
+      "questionPage": 6,
+      "markSchemePage": 11,
+      "card": {
+        "title": "Background radiation sources",
+        "kind": "text",
+        "prompt": "Name two natural sources of background ionising radiation.",
+        "marks": 2,
+        "modelAnswer": "Cosmic rays from space and radon gas released by rocks are natural sources of background ionising radiation.",
+        "explanation": "Background radiation is present even without an experimental source. It can come from space, the ground and naturally radioactive materials around us.",
+        "hint": "Choose sources, not types of radiation.",
+        "steps": [
+          "Identify cosmic rays or radiation from space.",
+          "Identify rocks, radon or naturally radioactive food."
+        ],
+        "misconception": "“Alpha” and “gamma” name emissions, not where background radiation comes from.",
+        "rubric": [
+          {
+            "point": "Identify cosmic rays or radiation from space",
+            "patterns": [
+              "cosmic ray",
+              "radiation from space"
+            ]
+          },
+          {
+            "point": "Identify rocks, radon or naturally radioactive food",
+            "patterns": [
+              "radon",
+              "rock",
+              "(radioactive|natural).{0,20}(food|banana)"
+            ]
+          }
+        ],
+        "id": "2019-3bii"
+      }
+    },
+    {
+      "id": "2019-3c",
+      "question": "3(c)",
+      "marks": 2,
+      "topic": "radioactivity",
+      "skill": "half-life-age",
+      "answer": "The remaining fraction is 125000/1000000 = 1/8, which is three half-lives. Age = 3 × 5700 = 17100 years.",
+      "learning": "Use the fraction that remains to count halvings, then multiply by one half-life.",
+      "questionPage": 7,
+      "markSchemePage": 12,
+      "card": {
+        "title": "Date a sample by repeated halving",
+        "kind": "number",
+        "prompt": "A radioactive isotope has a half-life of 1200 years. A sample contains one-sixteenth of its original radioactive atoms. How old is it?",
+        "marks": 2,
+        "answer": 4800,
+        "unit": "years",
+        "tolerance": 72,
+        "modelAnswer": "1 → 1/2 → 1/4 → 1/8 → 1/16 is four half-lives. Age = 4 × 1200 = 4800 years.",
+        "explanation": "Use the fraction that remains to count halvings, then multiply by one half-life.",
+        "hint": "How many times must you halve 1 to reach 1/16?",
+        "steps": [
+          "Write the relevant equation.",
+          "Convert quantities to the units requested and substitute.",
+          "Calculate, check the size of your answer and include the unit."
+        ],
+        "misconception": "One-sixteenth remaining means four half-lives, not sixteen.",
+        "id": "2019-3c"
+      }
+    },
+    {
+      "id": "2019-3d",
+      "question": "3(d)",
+      "marks": 2,
+      "topic": "radioactivity",
+      "skill": "beta-minus-process",
+      "answer": "A neutron changes into a proton and a beta-minus electron is emitted. The nucleon number stays 14, while proton number rises from 6 to 7.",
+      "learning": "A neutron and a proton each count as one nucleon, so their conversion changes charge without changing the total nucleon number.",
+      "questionPage": 7,
+      "markSchemePage": 13,
+      "card": {
+        "title": "Inside a beta-minus nucleus",
+        "kind": "text",
+        "prompt": "A nucleus undergoes beta-minus decay. Describe what happens to its particles.",
+        "marks": 2,
+        "modelAnswer": "A neutron changes into a proton inside the nucleus. A fast electron, the beta-minus particle, is emitted; the mass number stays the same and the atomic number increases by one.",
+        "explanation": "A neutron and a proton each count as one nucleon, so their conversion changes charge without changing the total nucleon number.",
+        "hint": "Track a neutron, not an orbiting electron.",
+        "steps": [
+          "Neutron converts into a proton.",
+          "An electron or beta-minus particle is emitted."
+        ],
+        "misconception": "Beta-minus emission does not remove a pre-existing electron from an electron shell.",
+        "rubric": [
+          {
+            "point": "Neutron converts into a proton",
+            "patterns": [
+              "neutron.{0,30}(become|turn|chang|convert|decay).{0,20}proton"
+            ]
+          },
+          {
+            "point": "An electron or beta-minus particle is emitted",
+            "patterns": [
+              "(electron|beta.?minus).{0,30}(emit|release|eject)",
+              "(emit|release|eject).{0,30}(electron|beta.?minus)"
+            ]
+          }
+        ],
+        "id": "2019-3d"
+      }
+    },
+    {
+      "id": "2019-4ai",
+      "question": "4(a)(i)",
+      "marks": 1,
+      "topic": "light",
+      "skill": "lens-power-shape",
+      "answer": "B is the more strongly curved converging lens, giving the shorter focal length and greater positive power.",
+      "learning": "For the same material, stronger curvature bends light more and brings parallel rays together sooner. Power = 1/f with f in metres.",
+      "questionPage": 8,
+      "markSchemePage": 14,
+      "card": {
+        "title": "Stronger converging lenses",
+        "kind": "choice",
+        "prompt": "Two converging lenses are made from the same glass. One is more strongly curved. Which statement is correct?",
+        "marks": 1,
+        "options": [
+          "The more curved lens generally has greater power and shorter focal length",
+          "The more curved lens is always diverging",
+          "Greater power means longer focal length",
+          "Both must have the same power"
+        ],
+        "correctIndex": 0,
+        "modelAnswer": "A more strongly curved converging lens has greater power and a shorter focal length.",
+        "explanation": "For the same material, stronger curvature bends light more and brings parallel rays together sooner. Power = 1/f with f in metres.",
+        "hint": "Strong bending brings the focus closer.",
+        "steps": [
+          "Identify the physical quantity or process.",
+          "Apply the rule to the situation.",
+          "Check the other options for a common misconception."
+        ],
+        "misconception": "A thick centre is characteristic of a converging lens; a thin centre usually indicates a diverging lens.",
+        "id": "2019-4ai"
+      }
+    },
+    {
+      "id": "2019-4aii",
+      "question": "4(a)(ii)",
+      "marks": 2,
+      "topic": "light",
+      "skill": "lens-power-calculation",
+      "answer": "f = 1/P = 1/5 m = 0.20 m = 20 cm.",
+      "learning": "The reciprocal power equation gives focal length in metres. Convert metres to centimetres only after calculating.",
+      "questionPage": 8,
+      "markSchemePage": 14,
+      "card": {
+        "title": "Power to focal length",
+        "kind": "number",
+        "prompt": "A converging lens has power 4 dioptres. Calculate its focal length in centimetres.",
+        "marks": 2,
+        "answer": 25,
+        "unit": "cm",
+        "tolerance": 0.375,
+        "modelAnswer": "f = 1/P = 1/4 = 0.25 m = 25 cm.",
+        "explanation": "The reciprocal power equation gives focal length in metres. Convert metres to centimetres only after calculating.",
+        "hint": "How many centimetres are in one metre?",
+        "steps": [
+          "Write the relevant equation.",
+          "Convert quantities to the units requested and substitute.",
+          "Calculate, check the size of your answer and include the unit."
+        ],
+        "misconception": "0.25 m is 25 cm, not 0.25 cm.",
+        "id": "2019-4aii"
+      }
+    },
+    {
+      "id": "2019-4b",
+      "question": "4(b)",
+      "marks": 4,
+      "topic": "light",
+      "skill": "critical-angle-practical",
+      "answer": "Send a narrow ray radially through the curved face so it reaches the flat glass–air face. Increase incidence until refraction is 90° or total internal reflection just begins, then measure incidence to the normal and repeat.",
+      "learning": "The critical angle is an incidence angle inside the denser material. Entering along a radius avoids an unwanted first refraction.",
+      "questionPage": 9,
+      "markSchemePage": 15,
+      "card": {
+        "title": "Find a critical angle",
+        "kind": "text",
+        "prompt": "Describe how to use a semicircular transparent block and a ray box to measure its critical angle against air.",
+        "marks": 4,
+        "modelAnswer": "Send a narrow ray through the curved face along a radius, so it does not refract there. Adjust the ray until the refracted ray at the flat face runs along the surface, at 90° to the normal. Measure the angle inside the block to the normal with a protractor. Repeat the measurement to check the result.",
+        "explanation": "The critical angle is an incidence angle inside the denser material. Entering along a radius avoids an unwanted first refraction.",
+        "hint": "Why is the semicircular shape useful?",
+        "steps": [
+          "Ray enters curved face along a radius.",
+          "Adjust until refracted angle is 90° or TIR just starts.",
+          "Measure incidence angle to the normal.",
+          "Repeat the measurement."
+        ],
+        "misconception": "Measure to the normal at the flat face, not to the glass surface.",
+        "rubric": [
+          {
+            "point": "Ray enters curved face along a radius",
+            "patterns": [
+              "curved.{0,50}(radius|radial)",
+              "(radius|radial).{0,50}curved"
+            ]
+          },
+          {
+            "point": "Adjust until refracted angle is 90° or TIR just starts",
+            "patterns": [
+              "(90|along the surface|just.{0,20}(total|tir))"
+            ]
+          },
+          {
+            "point": "Measure incidence angle to the normal",
+            "patterns": [
+              "(measure|protractor).{0,70}(normal|inciden)",
+              "normal.{0,50}(measure|protractor)"
+            ]
+          },
+          {
+            "point": "Repeat the measurement",
+            "patterns": [
+              "repeat.{0,30}(read|measure|test|experiment)",
+              "(read|measure).{0,30}repeat"
+            ]
+          }
+        ],
+        "id": "2019-4b"
+      }
+    },
+    {
+      "id": "2019-4ci",
+      "question": "4(c)(i)",
+      "marks": 1,
+      "topic": "astronomy",
+      "skill": "solar-system-models",
+      "answer": "A valid historical change is recognition that planetary orbits are elliptical, not perfectly circular; Pluto’s classification has also changed.",
+      "learning": "Scientific models are revised when evidence is better explained by a new model. This can refine a model rather than make all earlier observations useless.",
+      "questionPage": 10,
+      "markSchemePage": 16,
+      "card": {
+        "title": "Scientific models can change",
+        "kind": "choice",
+        "prompt": "Which statement describes a change in our scientific model of the Solar System?",
+        "marks": 1,
+        "options": [
+          "Gravity was removed from planetary motion",
+          "Planetary orbits were shown to be elliptical rather than perfect circles",
+          "Earth no longer rotates",
+          "The Sun stopped producing energy"
+        ],
+        "correctIndex": 1,
+        "modelAnswer": "Observations showed that planetary orbits are elliptical.",
+        "explanation": "Scientific models are revised when evidence is better explained by a new model. This can refine a model rather than make all earlier observations useless.",
+        "hint": "Choose a change supported by astronomical observations.",
+        "steps": [
+          "Identify the physical quantity or process.",
+          "Apply the rule to the situation.",
+          "Check the other options for a common misconception."
+        ],
+        "misconception": "A model changing does not mean planets suddenly changed their motion.",
+        "id": "2019-4ci"
+      }
+    },
+    {
+      "id": "2019-4cii",
+      "question": "4(c)(ii)",
+      "marks": 3,
+      "topic": "astronomy",
+      "skill": "orbit-graph-interpolation",
+      "answer": "A suitable smooth curve through the planet data gives Ceres’s distance as approximately 430 million km; graph-based values within about ±30 million km are accepted.",
+      "learning": "Interpolation estimates a value inside the measured range. A straight approximation is reasonable only where the question explicitly permits it; orbital relations are not generally straight.",
+      "questionPage": 11,
+      "markSchemePage": 17,
+      "card": {
+        "title": "Interpolate orbital data",
+        "kind": "number",
+        "prompt": "On a section of an orbital-data graph the curve passes through (300 million km, 3 years) and (500 million km, 7 years). Treat this short section as straight. Estimate the distance for a 5-year orbit.",
+        "marks": 3,
+        "answer": 400,
+        "unit": "million km",
+        "tolerance": 6,
+        "modelAnswer": "5 years is halfway between 3 and 7, so distance is halfway between 300 and 500: 400 million km.",
+        "explanation": "Interpolation estimates a value inside the measured range. A straight approximation is reasonable only where the question explicitly permits it; orbital relations are not generally straight.",
+        "hint": "Find the fraction of the interval first.",
+        "steps": [
+          "Write the relevant equation.",
+          "Convert quantities to the units requested and substitute.",
+          "Calculate, check the size of your answer and include the unit."
+        ],
+        "misconception": "Do not assume the whole orbital relation is directly proportional.",
+        "id": "2019-4cii"
+      }
+    },
+    {
+      "id": "2019-5a",
+      "question": "5(a)",
+      "marks": 4,
+      "topic": "energy",
+      "skill": "gpe-practical-measurements",
+      "answer": "Measure trolley mass and its maximum vertical rise, repeat launches and repeat for a range of masses. Use a ruler or clear reference to measure vertical height.",
+      "learning": "A useful plan names the independent variable, dependent variable, how each is measured and how fair, reliable comparisons are made.",
+      "questionPage": 12,
+      "markSchemePage": 18,
+      "card": {
+        "title": "Plan an energy investigation",
+        "kind": "text",
+        "prompt": "A launcher sends carts up a ramp. Describe measurements needed to investigate how cart mass affects maximum vertical height.",
+        "marks": 4,
+        "modelAnswer": "Measure the cart mass with a balance and the maximum vertical rise with a ruler. Repeat launches for each mass and calculate a mean height. Test a range of masses while keeping the launcher setting and ramp angle constant.",
+        "explanation": "A useful plan names the independent variable, dependent variable, how each is measured and how fair, reliable comparisons are made.",
+        "hint": "Measure vertical rise rather than distance along the ramp.",
+        "steps": [
+          "Measure cart mass.",
+          "Measure maximum vertical height.",
+          "Repeat at each mass and average.",
+          "Test a range of masses under controlled conditions."
+        ],
+        "misconception": "The height of the top of the ramp is not necessarily the maximum height the cart reaches.",
+        "rubric": [
+          {
+            "point": "Measure cart mass",
+            "patterns": [
+              "(measure|balance|weigh).{0,35}(cart|mass)",
+              "mass.{0,30}balance"
+            ]
+          },
+          {
+            "point": "Measure maximum vertical height",
+            "patterns": [
+              "(vertical|maximum).{0,25}(rise|height)",
+              "height.{0,30}ruler"
+            ]
+          },
+          {
+            "point": "Repeat at each mass and average",
+            "patterns": [
+              "repeat.{0,50}(mean|average)"
+            ]
+          },
+          {
+            "point": "Test a range of masses under controlled conditions",
+            "patterns": [
+              "(range|different|several).{0,20}mass",
+              "mass.{0,30}(range|vary)"
+            ]
+          }
+        ],
+        "id": "2019-5a"
+      }
+    },
+    {
+      "id": "2019-5b",
+      "question": "5(b)",
+      "marks": 3,
+      "topic": "energy",
+      "skill": "constant-gpe-test",
+      "answer": "Using E = mgh, 0.6 × 10 × 0.230 ≈ 1.38 J and 1.0 × 10 × 0.138 ≈ 1.38 J support equal energy transfer.",
+      "learning": "A lower height for a heavier mass can still represent the same energy transfer. Compare mgh, not height alone.",
+      "questionPage": 13,
+      "markSchemePage": 19,
+      "card": {
+        "title": "Compare two energy results",
+        "kind": "number",
+        "prompt": "A launcher sends a 0.50 kg cart up by 0.24 m, and a 0.80 kg cart up by 0.15 m. Use g = 10 N/kg. What is the gravitational energy gain of either cart?",
+        "marks": 3,
+        "answer": 1.2,
+        "unit": "J",
+        "tolerance": 0.018,
+        "modelAnswer": "First cart: 0.50 × 10 × 0.24 = 1.2 J. Second: 0.80 × 10 × 0.15 = 1.2 J. Equal gains support equal launcher energy.",
+        "explanation": "A lower height for a heavier mass can still represent the same energy transfer. Compare mgh, not height alone.",
+        "hint": "Calculate mgh for both trials.",
+        "steps": [
+          "Write the relevant equation.",
+          "Convert quantities to the units requested and substitute.",
+          "Calculate, check the size of your answer and include the unit."
+        ],
+        "misconception": "Equal heights are not required for equal energy when masses differ.",
+        "id": "2019-5b"
+      }
+    },
+    {
+      "id": "2019-5c",
+      "question": "5(c)",
+      "marks": 3,
+      "topic": "motion",
+      "skill": "average-speed-practical",
+      "answer": "Measure the distance travelled back down the track and the corresponding time, then divide distance by time.",
+      "learning": "Average speed describes the whole interval, even if the cart accelerates. The timed interval must match the measured distance.",
+      "questionPage": 14,
+      "markSchemePage": 19,
+      "card": {
+        "title": "Average speed on a ramp",
+        "kind": "text",
+        "prompt": "Describe how to measure a cart’s average speed between two marks on a ramp.",
+        "marks": 3,
+        "modelAnswer": "Measure the distance along the track between the marks. Measure the time taken to move from the first mark to the second, using sensors or a timer. Divide that distance by that time, repeating and averaging if possible.",
+        "explanation": "Average speed describes the whole interval, even if the cart accelerates. The timed interval must match the measured distance.",
+        "hint": "Which distance and which time belong together?",
+        "steps": [
+          "Measure distance along the route.",
+          "Time the same interval.",
+          "Use speed equals distance divided by time."
+        ],
+        "misconception": "Do not use vertical height as the distance travelled along the ramp.",
+        "rubric": [
+          {
+            "point": "Measure distance along the route",
+            "patterns": [
+              "(distance|length).{0,40}(track|ramp|mark)",
+              "measure.{0,30}distance"
+            ]
+          },
+          {
+            "point": "Time the same interval",
+            "patterns": [
+              "time.{0,35}(mark|interval|between|travel)",
+              "(sensor|timer|light gate)"
+            ]
+          },
+          {
+            "point": "Use speed equals distance divided by time",
+            "patterns": [
+              "(speed|v).{0,20}(distance|d|s).{0,15}(/|divid|over).{0,15}(time|t)",
+              "divid.{0,25}distance.{0,25}(by|/).{0,25}time"
+            ]
+          }
+        ],
+        "id": "2019-5c"
+      }
+    },
+    {
+      "id": "2019-6a",
+      "question": "6(a)",
+      "marks": 2,
+      "topic": "waves",
+      "skill": "sound-speed-practical-improvement",
+      "answer": "Increase separation to give a longer, more measurable interval, or use automatic sound sensors to reduce reaction-time effects.",
+      "learning": "Increasing the measured interval reduces the percentage effect of a similar absolute timing uncertainty.",
+      "questionPage": 16,
+      "markSchemePage": 20,
+      "card": {
+        "title": "Make a sound-speed test better",
+        "kind": "text",
+        "prompt": "Two students 30 m apart time the delay between seeing a flag and hearing a bang. Why would moving much farther apart improve the measurement?",
+        "marks": 2,
+        "modelAnswer": "A longer distance gives a longer sound travel time. Their reaction-time uncertainty is then a smaller fraction of the interval being measured.",
+        "explanation": "Increasing the measured interval reduces the percentage effect of a similar absolute timing uncertainty.",
+        "hint": "Compare the size of the delay with the size of reaction time.",
+        "steps": [
+          "Longer sound travel time.",
+          "Smaller relative effect of reaction time."
+        ],
+        "misconception": "A longer distance does not make the sound itself travel faster.",
+        "rubric": [
+          {
+            "point": "Longer sound travel time",
+            "patterns": [
+              "longer.{0,25}(travel time|time|delay)",
+              "time.{0,25}(longer|increase)"
+            ]
+          },
+          {
+            "point": "Smaller relative effect of reaction time",
+            "patterns": [
+              "reaction.{0,50}(smaller|less|reduc|fraction|percentage)",
+              "(smaller|less|reduc).{0,50}reaction"
+            ]
+          }
+        ],
+        "id": "2019-6a"
+      }
+    },
+    {
+      "id": "2019-6b",
+      "question": "6(b)",
+      "marks": 2,
+      "topic": "waves",
+      "skill": "sound-solid-particles",
+      "answer": "The struck end makes particles vibrate about fixed positions, passing these vibrations to neighbouring particles along the rod.",
+      "learning": "The solid’s particles stay in the material, but energy is transferred from one local vibration to the next.",
+      "questionPage": 17,
+      "markSchemePage": 21,
+      "card": {
+        "title": "Sound through a solid",
+        "kind": "text",
+        "prompt": "A tap on one end of a metal rail is heard at the other end. Explain how the vibration travels through the rail.",
+        "marks": 2,
+        "modelAnswer": "Particles near the tap vibrate about their fixed positions. Their interactions make neighbouring particles vibrate, passing the disturbance and energy along the rail.",
+        "explanation": "The solid’s particles stay in the material, but energy is transferred from one local vibration to the next.",
+        "hint": "Think about neighbouring particles.",
+        "steps": [
+          "Particles vibrate about fixed positions.",
+          "Vibration is transferred to neighbours."
+        ],
+        "misconception": "Metal atoms do not travel from the tapped end to the listener.",
+        "rubric": [
+          {
+            "point": "Particles vibrate about fixed positions",
+            "patterns": [
+              "particle.{0,40}(vibrat|oscillat)",
+              "(atom|ion).{0,40}(vibrat|oscillat)"
+            ]
+          },
+          {
+            "point": "Vibration is transferred to neighbours",
+            "patterns": [
+              "(neighbour|neighbor|next).{0,45}vibrat",
+              "vibrat.{0,45}(neighbour|neighbor|next|pass)"
+            ]
+          }
+        ],
+        "id": "2019-6b"
+      }
+    },
+    {
+      "id": "2019-6c",
+      "question": "6(c)",
+      "marks": 2,
+      "topic": "waves",
+      "skill": "sound-refraction",
+      "answer": "The transmitted ray continues into the upper-right air region but bends towards the normal because sound travels more slowly in air than in water.",
+      "learning": "Refraction depends on speed change, not whether a wave is sound or light. Moving into a slower medium bends an oblique ray towards the normal.",
+      "questionPage": 18,
+      "markSchemePage": 21,
+      "card": {
+        "title": "Sound can refract too",
+        "kind": "choice",
+        "prompt": "A sound ray enters a material where it travels more slowly, at an angle to the normal. How does the transmitted ray change?",
+        "marks": 1,
+        "options": [
+          "It bends towards the normal",
+          "It bends away from the normal",
+          "It stops oscillating",
+          "It always turns back into the first material"
+        ],
+        "correctIndex": 0,
+        "modelAnswer": "It bends towards the normal because its speed decreases.",
+        "explanation": "Refraction depends on speed change, not whether a wave is sound or light. Moving into a slower medium bends an oblique ray towards the normal.",
+        "hint": "Use the change in speed, not memorised air/water rules for light.",
+        "steps": [
+          "Identify the physical quantity or process.",
+          "Apply the rule to the situation.",
+          "Check the other options for a common misconception."
+        ],
+        "misconception": "Sound and light have different relative speeds in water and air.",
+        "id": "2019-6c"
+      }
+    },
+    {
+      "id": "2019-6d",
+      "question": "6(d)",
+      "marks": 3,
+      "topic": "waves",
+      "skill": "inverse-square-root-model",
+      "answer": "K = 331√1.29 ≈ 376; then v = K/√1.16 ≈ 349 m/s, to three significant figures.",
+      "learning": "First find the constant using a complete set of data, then reuse it. The square root means speed is not simply inversely proportional to density.",
+      "questionPage": 19,
+      "markSchemePage": 22,
+      "card": {
+        "title": "Use a supplied wave model",
+        "kind": "number",
+        "prompt": "A model gives sound speed v = K/√ρ. In one gas sample v = 300 m/s at density 1.44 kg/m³. Find v when the density is 1.00 kg/m³ and K is unchanged.",
+        "marks": 3,
+        "answer": 360,
+        "unit": "m/s",
+        "tolerance": 5.3999999999999995,
+        "modelAnswer": "K = 300 × √1.44 = 360. Then v = 360/√1.00 = 360 m/s.",
+        "explanation": "First find the constant using a complete set of data, then reuse it. The square root means speed is not simply inversely proportional to density.",
+        "hint": "Calculate K before using the new density.",
+        "steps": [
+          "Write the relevant equation.",
+          "Convert quantities to the units requested and substitute.",
+          "Calculate, check the size of your answer and include the unit."
+        ],
+        "misconception": "Divide by the square root of density, not density itself.",
+        "id": "2019-6d"
+      }
+    },
+    {
+      "id": "2019-7a",
+      "question": "7(a)",
+      "marks": 1,
+      "topic": "forces",
+      "skill": "centripetal-force-name",
+      "answer": "The inward resultant force for circular motion is called centripetal force.",
+      "learning": "A changing direction means changing velocity and therefore acceleration. An inward resultant force produces that acceleration.",
+      "questionPage": 21,
+      "markSchemePage": 23,
+      "card": {
+        "title": "A circular path needs a force",
+        "kind": "choice",
+        "prompt": "A ball on a string moves in a circle. What name describes the inward resultant force?",
+        "marks": 1,
+        "options": [
+          "A balancing force giving zero resultant",
+          "Momentum force",
+          "Centrifugal contact force",
+          "Centripetal force"
+        ],
+        "correctIndex": 3,
+        "modelAnswer": "It is called centripetal force.",
+        "explanation": "A changing direction means changing velocity and therefore acceleration. An inward resultant force produces that acceleration.",
+        "hint": "The name means centre-seeking.",
+        "steps": [
+          "Identify the physical quantity or process.",
+          "Apply the rule to the situation.",
+          "Check the other options for a common misconception."
+        ],
+        "misconception": "At constant speed around a circle, the resultant force is not zero.",
+        "id": "2019-7a"
+      }
+    },
+    {
+      "id": "2019-7bi",
+      "question": "7(b)(i)",
+      "marks": 1,
+      "topic": "forces",
+      "skill": "centripetal-direction",
+      "answer": "The force arrow points from the moving object toward the centre of its circular path.",
+      "learning": "Centripetal force always points towards the centre, while the instantaneous velocity is along the tangent.",
+      "questionPage": 21,
+      "markSchemePage": 23,
+      "card": {
+        "title": "Force in a circle",
+        "kind": "choice",
+        "prompt": "A model train is at the northernmost point of a circular track. Which direction is the inward resultant force?",
+        "marks": 1,
+        "options": [
+          "East, along the track",
+          "North",
+          "Upward out of the plane",
+          "South, towards the circle’s centre"
+        ],
+        "correctIndex": 3,
+        "modelAnswer": "It acts south, towards the centre.",
+        "explanation": "Centripetal force always points towards the centre, while the instantaneous velocity is along the tangent.",
+        "hint": "Locate the centre relative to the train.",
+        "steps": [
+          "Identify the physical quantity or process.",
+          "Apply the rule to the situation.",
+          "Check the other options for a common misconception."
+        ],
+        "misconception": "Do not draw the force along the direction of motion.",
+        "id": "2019-7bi"
+      }
+    },
+    {
+      "id": "2019-7bii",
+      "question": "7(b)(ii)",
+      "marks": 2,
+      "topic": "motion",
+      "skill": "circular-velocity",
+      "answer": "Velocity includes direction, and the object’s direction changes continuously despite its constant speed.",
+      "learning": "Vector quantities can change when only their direction changes. This is why circular motion has acceleration at constant speed.",
+      "questionPage": 21,
+      "markSchemePage": 23,
+      "card": {
+        "title": "Constant speed, changing velocity",
+        "kind": "text",
+        "prompt": "A cyclist rides around a circular track at a steady 6 m/s. Explain why her velocity is not constant.",
+        "marks": 2,
+        "modelAnswer": "Velocity includes both speed and direction. Although her speed stays at 6 m/s, her direction changes as she goes around the circle, so her velocity changes.",
+        "explanation": "Vector quantities can change when only their direction changes. This is why circular motion has acceleration at constant speed.",
+        "hint": "What does velocity include that speed does not?",
+        "steps": [
+          "Velocity has direction or is a vector.",
+          "Direction changes during circular motion."
+        ],
+        "misconception": "Acceleration does not always mean speeding up.",
+        "rubric": [
+          {
+            "point": "Velocity has direction or is a vector",
+            "patterns": [
+              "velocity.{0,35}(direction|vector)"
+            ]
+          },
+          {
+            "point": "Direction changes during circular motion",
+            "patterns": [
+              "direction.{0,30}chang",
+              "chang.{0,30}direction"
+            ]
+          }
+        ],
+        "id": "2019-7bii"
+      }
+    },
+    {
+      "id": "2019-7ci",
+      "question": "7(c)(i)",
+      "marks": 3,
+      "topic": "motion",
+      "skill": "suvat-distance",
+      "answer": "s = (24² − 7.6²)/(2 × 3.0) ≈ 86.4 m, usually 86 m.",
+      "learning": "The equation v² − u² = 2as applies when acceleration is constant and avoids needing the time.",
+      "questionPage": 22,
+      "markSchemePage": 24,
+      "card": {
+        "title": "Distance with uniform acceleration",
+        "kind": "number",
+        "prompt": "A runner accelerates uniformly from 4 m/s to 10 m/s at 2 m/s². Calculate the distance covered.",
+        "marks": 3,
+        "answer": 21,
+        "unit": "m",
+        "tolerance": 0.315,
+        "modelAnswer": "s = (v² − u²)/(2a) = (100 − 16)/4 = 21 m.",
+        "explanation": "The equation v² − u² = 2as applies when acceleration is constant and avoids needing the time.",
+        "hint": "Subtract the squared speeds.",
+        "steps": [
+          "Write the relevant equation.",
+          "Convert quantities to the units requested and substitute.",
+          "Calculate, check the size of your answer and include the unit."
+        ],
+        "misconception": "(v − u)² is not the same as v² − u².",
+        "id": "2019-7ci"
+      }
+    },
+    {
+      "id": "2019-7cii",
+      "question": "7(c)(ii)",
+      "marks": 3,
+      "topic": "motion",
+      "skill": "acceleration-time",
+      "answer": "t = (v−u)/a = (24−7.6)/3.0 ≈ 5.47 s, about 5.5 s.",
+      "learning": "Acceleration is change in velocity per second. Divide the total velocity change by the change gained each second.",
+      "questionPage": 23,
+      "markSchemePage": 25,
+      "card": {
+        "title": "How long does acceleration take?",
+        "kind": "number",
+        "prompt": "A tram’s speed rises uniformly from 3 m/s to 15 m/s at 1.5 m/s². How long does this take?",
+        "marks": 3,
+        "answer": 8,
+        "unit": "s",
+        "tolerance": 0.12,
+        "modelAnswer": "t = (v − u)/a = (15 − 3)/1.5 = 8 s.",
+        "explanation": "Acceleration is change in velocity per second. Divide the total velocity change by the change gained each second.",
+        "hint": "Use the change in speed, not the final speed alone.",
+        "steps": [
+          "Write the relevant equation.",
+          "Convert quantities to the units requested and substitute.",
+          "Calculate, check the size of your answer and include the unit."
+        ],
+        "misconception": "15/1.5 ignores that the tram already starts at 3 m/s.",
+        "id": "2019-7cii"
+      }
+    },
+    {
+      "id": "2019-8ai",
+      "question": "8(a)(i)",
+      "marks": 2,
+      "topic": "radioactivity",
+      "skill": "medical-half-life-logistics",
+      "answer": "Fluorine-18 has a short half-life, so nearby production limits decay during transport and keeps enough activity for scanning.",
+      "learning": "A short half-life reduces long-term patient exposure but creates a practical need to produce and use the tracer promptly.",
+      "questionPage": 24,
+      "markSchemePage": 26,
+      "card": {
+        "title": "Why make a tracer nearby?",
+        "kind": "text",
+        "prompt": "A medical tracer has a half-life of 90 minutes. Explain why a hospital wants it made nearby rather than shipped for several days.",
+        "marks": 2,
+        "modelAnswer": "The tracer has a short half-life and its activity falls quickly. Nearby production reduces travel time, so enough undecayed isotope and activity remain when the scan is performed.",
+        "explanation": "A short half-life reduces long-term patient exposure but creates a practical need to produce and use the tracer promptly.",
+        "hint": "What happens to the activity during transport?",
+        "steps": [
+          "Short half-life causes rapid decay or falling activity.",
+          "Shorter transport leaves useful activity for scanning."
+        ],
+        "misconception": "Do not claim the source becomes more radioactive while travelling.",
+        "rubric": [
+          {
+            "point": "Short half-life causes rapid decay or falling activity",
+            "patterns": [
+              "short half.life",
+              "(activity|isotope).{0,30}(fall|decreas|decay)"
+            ]
+          },
+          {
+            "point": "Shorter transport leaves useful activity for scanning",
+            "patterns": [
+              "(near|short|less|reduc).{0,35}(travel|transport|time)",
+              "(enough|sufficient|remain).{0,40}(activ|scan|isotope)"
+            ]
+          }
+        ],
+        "id": "2019-8ai"
+      }
+    },
+    {
+      "id": "2019-8aii",
+      "question": "8(a)(ii)",
+      "marks": 4,
+      "topic": "radioactivity",
+      "skill": "medical-penetration",
+      "answer": "Alpha has low penetration and must be placed close to an internal tumour. Gamma is much more penetrating and can reach it from outside the body.",
+      "learning": "Match the range and penetration of the radiation to where energy needs to be deposited. Alpha is especially hazardous inside the body because it is strongly ionising.",
+      "questionPage": 24,
+      "markSchemePage": 26,
+      "card": {
+        "title": "Choose internal or external treatment",
+        "kind": "text",
+        "prompt": "Explain why an alpha-emitting treatment for an internal tumour is placed close to it, while a gamma source can treat the tumour from outside.",
+        "marks": 4,
+        "modelAnswer": "Alpha radiation has a very short range and low penetrating power, so it cannot reach an internal tumour from outside and must be placed near the target. Gamma is much more penetrating and can pass through the skin and body tissues to reach the tumour from an external source.",
+        "explanation": "Match the range and penetration of the radiation to where energy needs to be deposited. Alpha is especially hazardous inside the body because it is strongly ionising.",
+        "hint": "Compare penetration, then apply it to the tumour’s position.",
+        "steps": [
+          "Alpha has low penetration or short range.",
+          "Alpha source must be close to the tumour.",
+          "Gamma has high penetration.",
+          "Gamma reaches an internal tumour from outside."
+        ],
+        "misconception": "Alpha is not harmless simply because paper or skin can stop it.",
+        "rubric": [
+          {
+            "point": "Alpha has low penetration or short range",
+            "patterns": [
+              "alpha.{0,40}(low penetration|short range|stopped|cannot pass)"
+            ]
+          },
+          {
+            "point": "Alpha source must be close to the tumour",
+            "patterns": [
+              "alpha.{0,55}(near|close|inside)",
+              "(source|placed).{0,35}(near|close).{0,20}(tumou?r|target)"
+            ]
+          },
+          {
+            "point": "Gamma has high penetration",
+            "patterns": [
+              "gamma.{0,40}(penetrat|long range|pass through)"
+            ]
+          },
+          {
+            "point": "Gamma reaches an internal tumour from outside",
+            "patterns": [
+              "(gamma|external).{0,70}(reach|pass|outside)",
+              "outside.{0,60}(tumou?r|body)"
+            ]
+          }
+        ],
+        "id": "2019-8aii"
+      }
+    },
+    {
+      "id": "2019-8bi",
+      "question": "8(b)(i)",
+      "marks": 1,
+      "topic": "radioactivity",
+      "skill": "fission-trigger",
+      "answer": "Absorption of a neutron can cause uranium-235 to undergo fission.",
+      "learning": "A neutron has no electric charge, so it is not repelled electrically by the positive nucleus. Absorption can make the nucleus unstable enough to split.",
+      "questionPage": 25,
+      "markSchemePage": 27,
+      "card": {
+        "title": "Start nuclear fission",
+        "kind": "choice",
+        "prompt": "Which particle can be absorbed by a uranium-235 nucleus to initiate fission?",
+        "marks": 1,
+        "options": [
+          "An alpha particle in the standard reactor process",
+          "An infrared photon",
+          "A slow neutron",
+          "An orbital electron only"
+        ],
+        "correctIndex": 2,
+        "modelAnswer": "A slow neutron can initiate the fission.",
+        "explanation": "A neutron has no electric charge, so it is not repelled electrically by the positive nucleus. Absorption can make the nucleus unstable enough to split.",
+        "hint": "Which uncharged nuclear particle continues the chain reaction?",
+        "steps": [
+          "Identify the physical quantity or process.",
+          "Apply the rule to the situation.",
+          "Check the other options for a common misconception."
+        ],
+        "misconception": "Fission is splitting a heavy nucleus; fusion joins light nuclei.",
+        "id": "2019-8bi"
+      }
+    },
+    {
+      "id": "2019-8bii",
+      "question": "8(b)(ii)",
+      "marks": 3,
+      "topic": "energy",
+      "skill": "kinetic-energy-standard-form",
+      "answer": "v = √(2E/m) = √[(2 × 1.2 × 10⁻¹¹)/(1.4 × 10⁻²⁵)] ≈ 1.3 × 10⁷ m/s.",
+      "learning": "The usual kinetic energy equation can be used with small particle masses when the question asks for this model. Standard-form arithmetic must be completed before taking the square root.",
+      "questionPage": 25,
+      "markSchemePage": 27,
+      "card": {
+        "title": "Particle kinetic energy",
+        "kind": "number",
+        "prompt": "A particle of mass 2.0 × 10⁻²⁶ kg has kinetic energy 4.0 × 10⁻¹² J. Find its speed using E = ½mv².",
+        "marks": 3,
+        "answer": 20000000,
+        "unit": "m/s",
+        "tolerance": 300000,
+        "modelAnswer": "v² = 2E/m = (8.0 × 10⁻¹²)/(2.0 × 10⁻²⁶) = 4.0 × 10¹⁴. Thus v = 2.0 × 10⁷ m/s.",
+        "explanation": "The usual kinetic energy equation can be used with small particle masses when the question asks for this model. Standard-form arithmetic must be completed before taking the square root.",
+        "hint": "Take the square root of both the leading number and the power of ten.",
+        "steps": [
+          "Write the relevant equation.",
+          "Convert quantities to the units requested and substitute.",
+          "Calculate, check the size of your answer and include the unit."
+        ],
+        "misconception": "√(10¹⁴) is 10⁷, not 10¹².",
+        "id": "2019-8bii"
+      }
+    },
+    {
+      "id": "2019-9a",
+      "question": "9(a)",
+      "marks": 1,
+      "topic": "electromagnetic",
+      "skill": "uv-eye-protection",
+      "answer": "Ultraviolet can damage eyes; a photochromic lens that darkens in UV can help reduce exposure or discomfort in bright sunlight.",
+      "learning": "Ultraviolet has higher frequency than visible light and can cause biological damage. Protective lenses must have suitable UV filtering; dark appearance alone does not prove protection.",
+      "questionPage": 26,
+      "markSchemePage": 28,
+      "card": {
+        "title": "Why react to ultraviolet?",
+        "kind": "choice",
+        "prompt": "Why is it useful for sunglasses to respond to ultraviolet radiation?",
+        "marks": 1,
+        "options": [
+          "Ultraviolet travels more slowly than visible light in vacuum",
+          "Ultraviolet is a harmless type of sound",
+          "Only ultraviolet carries energy",
+          "Ultraviolet can damage eyes, so limiting exposure is useful"
+        ],
+        "correctIndex": 3,
+        "modelAnswer": "Ultraviolet can damage eyes, so protection is useful.",
+        "explanation": "Ultraviolet has higher frequency than visible light and can cause biological damage. Protective lenses must have suitable UV filtering; dark appearance alone does not prove protection.",
+        "hint": "Think about the effect of UV on living tissue.",
+        "steps": [
+          "Identify the physical quantity or process.",
+          "Apply the rule to the situation.",
+          "Check the other options for a common misconception."
+        ],
+        "misconception": "A dark lens is not automatically an effective UV filter.",
+        "id": "2019-9a"
+      }
+    },
+    {
+      "id": "2019-9b",
+      "question": "9(b)",
+      "marks": 2,
+      "topic": "electromagnetic",
+      "skill": "em-common-speed-distance-ratio",
+      "answer": "Jupiter is five times farther away for the quoted journeys because 40/8 = 5 and radio and visible light travel at the same speed in space.",
+      "learning": "When speed is shared, distance is directly proportional to time. The type of electromagnetic radiation does not change the vacuum speed.",
+      "questionPage": 26,
+      "markSchemePage": 28,
+      "card": {
+        "title": "Compare light-travel distances",
+        "kind": "number",
+        "prompt": "A radio signal takes 18 minutes to reach Earth and a visible-light signal from another source takes 6 minutes. Both travel through space. How many times farther away is the radio source?",
+        "marks": 2,
+        "answer": 3,
+        "unit": "",
+        "tolerance": 0.045,
+        "modelAnswer": "All electromagnetic waves travel at the same speed in space, so distance ratio = time ratio = 18/6 = 3.",
+        "explanation": "When speed is shared, distance is directly proportional to time. The type of electromagnetic radiation does not change the vacuum speed.",
+        "hint": "You do not need to calculate both distances separately.",
+        "steps": [
+          "Write the relevant equation.",
+          "Convert quantities to the units requested and substitute.",
+          "Calculate, check the size of your answer and include the unit."
+        ],
+        "misconception": "Radio waves do not travel slower in vacuum just because their frequency is lower.",
+        "id": "2019-9b"
+      }
+    },
+    {
+      "id": "2019-9c",
+      "question": "9(c)",
+      "marks": 4,
+      "topic": "electromagnetic",
+      "skill": "uv-atmospheric-transmission",
+      "answer": "UVA has the longest wavelengths and is mostly transmitted, UVB is more strongly absorbed, and UVC with the shortest wavelengths is essentially not transmitted in the diagram.",
+      "learning": "For electromagnetic waves at a given speed, f = c/λ. Use this inverse relationship when a diagram lists frequency but asks about wavelength.",
+      "questionPage": 27,
+      "markSchemePage": 29,
+      "card": {
+        "title": "Read wavelength and transmission together",
+        "kind": "text",
+        "prompt": "An atmosphere transmits 80% of long-wavelength UV, 20% of medium-wavelength UV and almost no short-wavelength UV. Describe the trend and relate wavelength to frequency.",
+        "marks": 4,
+        "modelAnswer": "Transmission decreases as wavelength decreases. The shorter-wavelength UV therefore has the higher frequency and is absorbed more strongly. Long-wavelength UV is transmitted most, medium-wavelength UV less, and short-wavelength UV hardly at all.",
+        "explanation": "For electromagnetic waves at a given speed, f = c/λ. Use this inverse relationship when a diagram lists frequency but asks about wavelength.",
+        "hint": "Shorter wavelength means what happens to frequency?",
+        "steps": [
+          "Long wavelength has greatest transmission.",
+          "Medium wavelength has partial lower transmission.",
+          "Short wavelength is almost all absorbed or not transmitted.",
+          "Shorter wavelength means higher frequency."
+        ],
+        "misconception": "Do not describe decreasing frequency when the wavelength is decreasing.",
+        "rubric": [
+          {
+            "point": "Long wavelength has greatest transmission",
+            "patterns": [
+              "long.{0,30}wavelength.{0,40}(most|great|80|high)",
+              "80.{0,30}(long|transmit)"
+            ]
+          },
+          {
+            "point": "Medium wavelength has partial lower transmission",
+            "patterns": [
+              "medium.{0,45}(20|less|partial)"
+            ]
+          },
+          {
+            "point": "Short wavelength is almost all absorbed or not transmitted",
+            "patterns": [
+              "short.{0,60}(absorb|no|hardly|almost none|zero)"
+            ]
+          },
+          {
+            "point": "Shorter wavelength means higher frequency",
+            "patterns": [
+              "short.{0,35}wavelength.{0,40}high.{0,15}frequen",
+              "frequen.{0,30}increas.{0,35}wavelength.{0,20}decreas"
+            ]
+          }
+        ],
+        "id": "2019-9c"
+      }
+    },
+    {
+      "id": "2019-9d",
+      "question": "9(d)",
+      "marks": 6,
+      "topic": "electromagnetic",
+      "skill": "radio-gamma-production",
+      "answer": "Radio waves can be produced by alternating currents and oscillating electrons in an aerial. Gamma rays arise from nuclear energy changes, often spontaneously after radioactive decay; both transfer energy electromagnetically.",
+      "learning": "Explain the source of the oscillation or energy change for each wave. Merely listing wavelengths does not answer a production question.",
+      "questionPage": 28,
+      "markSchemePage": 30,
+      "card": {
+        "title": "Compare sources of electromagnetic waves",
+        "kind": "text",
+        "prompt": "Compare how a transmitting aerial produces radio waves and how an unstable atomic nucleus produces gamma rays.",
+        "marks": 6,
+        "modelAnswer": "An alternating current makes electrons oscillate back and forth in the aerial. The aerial emits radio waves as its electrons accelerate; the oscillation sets the radio frequency. Gamma rays are emitted when a nucleus loses excess energy, often after radioactive decay. The nuclear emission occurs spontaneously, with individual events random. Gamma emission changes nuclear energy rather than the proton or mass number. Both are electromagnetic waves, but they originate from different physical processes.",
+        "explanation": "Explain the source of the oscillation or energy change for each wave. Merely listing wavelengths does not answer a production question.",
+        "hint": "Compare electrons in an aerial with changes inside a nucleus.",
+        "steps": [
+          "Alternating current drives radio production.",
+          "Electrons or charges oscillate.",
+          "Radio is emitted from an aerial or circuit.",
+          "Gamma rays originate in the nucleus.",
+          "A nuclear energy change releases gamma radiation.",
+          "Individual nuclear emissions are spontaneous or random."
+        ],
+        "misconception": "Gamma rays are not made by electrons oscillating along an aerial.",
+        "rubric": [
+          {
+            "point": "Alternating current drives radio production",
+            "patterns": [
+              "alternating current",
+              "\\bac\\b.{0,25}(aerial|circuit|electron)"
+            ]
+          },
+          {
+            "point": "Electrons or charges oscillate",
+            "patterns": [
+              "(electron|charge).{0,35}(oscillat|back and forth|backwards and forwards)"
+            ]
+          },
+          {
+            "point": "Radio is emitted from an aerial or circuit",
+            "patterns": [
+              "(radio|wave).{0,45}(aerial|circuit)",
+              "(aerial|circuit).{0,45}(radio|wave)"
+            ]
+          },
+          {
+            "point": "Gamma rays originate in the nucleus",
+            "patterns": [
+              "gamma.{0,50}nucle",
+              "nucle.{0,50}gamma"
+            ]
+          },
+          {
+            "point": "A nuclear energy change releases gamma radiation",
+            "patterns": [
+              "(nucle|gamma).{0,60}(energy|decay|excess)",
+              "(energy|decay).{0,50}gamma"
+            ]
+          },
+          {
+            "point": "Individual nuclear emissions are spontaneous or random",
+            "patterns": [
+              "(random|spontaneous).{0,50}(emit|emission|decay|gamma)",
+              "(emit|emission|decay|gamma).{0,50}(random|spontaneous)"
+            ]
+          }
+        ],
+        "id": "2019-9d"
+      }
+    },
+    {
+      "id": "2019-10ai",
+      "question": "10(a)(i)",
+      "marks": 3,
+      "topic": "astronomy",
+      "skill": "star-formation",
+      "answer": "A nebula contracts under gravity, converting gravitational potential energy to particle kinetic energy so the temperature and pressure rise enough for fusion.",
+      "learning": "Gravity can heat a cloud while making it smaller. Fusion begins only after the collapsing core reaches suitable conditions.",
+      "questionPage": 29,
+      "markSchemePage": 33,
+      "card": {
+        "title": "Make a new star",
+        "kind": "text",
+        "prompt": "Explain how a cold cloud of gas and dust can develop the conditions needed for a new star.",
+        "marks": 3,
+        "modelAnswer": "Gravity pulls the gas and dust together, so the cloud contracts. Gravitational potential energy is transferred into particle kinetic energy and the temperature rises. If the core becomes hot and dense enough, nuclear fusion starts.",
+        "explanation": "Gravity can heat a cloud while making it smaller. Fusion begins only after the collapsing core reaches suitable conditions.",
+        "hint": "Connect contraction with particle energy.",
+        "steps": [
+          "Gravity pulls the gas or dust together.",
+          "Contraction increases temperature or particle kinetic energy.",
+          "Core becomes hot enough for fusion."
+        ],
+        "misconception": "A main-sequence star does not shine by burning a fuel in oxygen.",
+        "rubric": [
+          {
+            "point": "Gravity pulls the gas or dust together",
+            "patterns": [
+              "gravit.{0,50}(pull|contract|collaps)",
+              "(contract|collaps).{0,40}gravit"
+            ]
+          },
+          {
+            "point": "Contraction increases temperature or particle kinetic energy",
+            "patterns": [
+              "(temperature|kinetic energy).{0,30}(rise|increase)",
+              "(increase|rise|hotter).{0,30}(temperature|kinetic)"
+            ]
+          },
+          {
+            "point": "Core becomes hot enough for fusion",
+            "patterns": [
+              "(hot|temperature).{0,50}fusion",
+              "fusion.{0,40}(start|begin)"
+            ]
+          }
+        ],
+        "id": "2019-10ai"
+      }
+    },
+    {
+      "id": "2019-10aii",
+      "question": "10(a)(ii)",
+      "marks": 2,
+      "topic": "astronomy",
+      "skill": "stellar-mass-energy",
+      "answer": "m = E/c² = 3.86 × 10²⁶/(3.00 × 10⁸)² ≈ 4.29 × 10⁹ kg lost per second.",
+      "learning": "A star’s radiation carries energy away. Mass–energy equivalence relates that energy to a small fractional loss of the star’s enormous mass.",
+      "questionPage": 29,
+      "markSchemePage": 34,
+      "card": {
+        "title": "Mass lost by a star",
+        "kind": "number",
+        "prompt": "A star radiates 9.0 × 10²⁵ J in one second. Use E = mc² with c = 3.0 × 10⁸ m/s to find its mass decrease in that second.",
+        "marks": 2,
+        "answer": 1000000000,
+        "unit": "kg",
+        "tolerance": 15000000,
+        "modelAnswer": "m = E/c² = (9.0 × 10²⁵)/(9.0 × 10¹⁶) = 1.0 × 10⁹ kg.",
+        "explanation": "A star’s radiation carries energy away. Mass–energy equivalence relates that energy to a small fractional loss of the star’s enormous mass.",
+        "hint": "Square c before dividing.",
+        "steps": [
+          "Write the relevant equation.",
+          "Convert quantities to the units requested and substitute.",
+          "Calculate, check the size of your answer and include the unit."
+        ],
+        "misconception": "Do not multiply the emitted energy by c².",
+        "id": "2019-10aii"
+      }
+    },
+    {
+      "id": "2019-10b",
+      "question": "10(b)",
+      "marks": 6,
+      "topic": "astronomy",
+      "skill": "big-bang-evidence",
+      "answer": "Most distant galaxies have longer observed wavelengths and recession speeds increasing with distance, evidence for expansion. The all-sky CMB is cooled relic radiation from the hot early Universe; looking backwards supports a much denser beginning.",
+      "learning": "A strong answer gives observations, their physical interpretation and the link to the model. It uses two independent pieces of evidence rather than repeating one.",
+      "questionPage": 30,
+      "markSchemePage": 35,
+      "card": {
+        "title": "Build an evidence argument for the Big Bang",
+        "kind": "text",
+        "prompt": "Explain how observations of galaxy spectra and the cosmic microwave background support the Big Bang model.",
+        "marks": 6,
+        "modelAnswer": "Spectral lines from most distant galaxies are shifted to longer wavelengths. This redshift means the galaxies are receding, and more distant galaxies generally recede faster, supporting expansion. Running that expansion backwards gives a much smaller, denser early Universe. The cosmic microwave background is relic radiation from the hot early Universe. We observe it in every direction, cooled and stretched as the Universe expanded.",
+        "explanation": "A strong answer gives observations, their physical interpretation and the link to the model. It uses two independent pieces of evidence rather than repeating one.",
+        "hint": "Separate the evidence for expansion from the evidence for a hot early state.",
+        "steps": [
+          "Galaxy spectral wavelengths are increased or redshifted.",
+          "Redshift implies recession.",
+          "More distant galaxies recede faster or expansion is inferred.",
+          "Past Universe was smaller, hotter or denser.",
+          "CMB is relic radiation from hot early Universe.",
+          "CMB is all-sky or cooled/stretched by expansion."
+        ],
+        "misconception": "The Big Bang is expansion of space; it is not an ordinary explosion from Earth’s location.",
+        "rubric": [
+          {
+            "point": "Galaxy spectral wavelengths are increased or redshifted",
+            "patterns": [
+              "(galax|spectral).{0,50}(red.?shift|longer wavelength)",
+              "red.?shift"
+            ]
+          },
+          {
+            "point": "Redshift implies recession",
+            "patterns": [
+              "(moving away|reced).{0,50}(galax|source)",
+              "(galax|source).{0,50}(moving away|reced)"
+            ]
+          },
+          {
+            "point": "More distant galaxies recede faster or expansion is inferred",
+            "patterns": [
+              "(further|farther|distant).{0,60}(faster|greater.{0,15}speed)",
+              "expand.{0,25}universe",
+              "universe.{0,25}expand"
+            ]
+          },
+          {
+            "point": "Past Universe was smaller, hotter or denser",
+            "patterns": [
+              "(early|past|backwards|beginning).{0,50}(small|hot|dense)"
+            ]
+          },
+          {
+            "point": "CMB is relic radiation from hot early Universe",
+            "patterns": [
+              "(cmb|background|microwave).{0,80}(left|relic|early|beginning)",
+              "(left|relic).{0,50}radiation"
+            ]
+          },
+          {
+            "point": "CMB is all-sky or cooled/stretched by expansion",
+            "patterns": [
+              "(all|every).{0,20}direction",
+              "(cool|stretch).{0,50}(microwave|radiation)",
+              "(microwave|radiation).{0,50}(cool|stretch)"
+            ]
+          }
+        ],
+        "id": "2019-10b"
+      }
+    },
+    {
+      "id": "2019-10c",
+      "question": "10(c)",
+      "marks": 2,
+      "topic": "astronomy",
+      "skill": "cube-root-rearrangement",
+      "answer": "R = [3M/(4πD)]^(1/3) = [3 × 4 × 10³⁰/(4π × 6 × 10¹⁷)]^(1/3) ≈ 1.17 × 10⁴ m.",
+      "learning": "A radius cubed means the inverse operation is a cube root. This is different from the square root used for speed in kinetic energy equations.",
+      "questionPage": 31,
+      "markSchemePage": 38,
+      "card": {
+        "title": "Recover a radius from a cube",
+        "kind": "number",
+        "prompt": "A spherical object obeys M = 4πρR³/3. For M = 3.6 × 10¹² kg and ρ = 3.0 × 10³ kg/m³, calculate R to the nearest metre.",
+        "marks": 2,
+        "answer": 659,
+        "unit": "m",
+        "tolerance": 2,
+        "modelAnswer": "R³ = 3M/(4πρ) = 2.8648 × 10⁸ m³. R = ∛(2.8648 × 10⁸) ≈ 659 m.",
+        "explanation": "A radius cubed means the inverse operation is a cube root. This is different from the square root used for speed in kinetic energy equations.",
+        "hint": "First isolate R³.",
+        "steps": [
+          "Write the relevant equation.",
+          "Convert quantities to the units requested and substitute.",
+          "Calculate, check the size of your answer and include the unit."
+        ],
+        "misconception": "Taking a square root instead of a cube root gives the wrong dimension.",
+        "id": "2019-10c"
+      }
+    }
+  ],
+  "notes": [
+    "The 2019 mark scheme prints Q3 total as 8 and Q5 total as 9. Their separately marked parts sum to 9 and 10, matching the question-paper subtotals. Individual part marks, not the erroneous mark-scheme subtotal footers, are used here."
+  ]
+}
